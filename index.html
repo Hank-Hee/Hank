@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公司画像卡片静态页</title>
+  <style>
+    :root {
+      --navy: #132743;
+      --red: #c72030;
+      --soft: #eef3f8;
+      --panel: #ffffff;
+      --line: #d8e1eb;
+      --ink: #132033;
+      --muted: #607189;
+      --shadow: 0 1px 3px rgba(19, 39, 67, .08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background: var(--soft);
+      font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    .page {
+      max-width: 1640px;
+      margin: 0 auto;
+      padding: 28px 32px 44px;
+    }
+
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 28px;
+      color: var(--navy);
+      font-size: 31px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-size: 21px;
+    }
+
+    .ghost-button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--navy);
+      font-weight: 700;
+      padding: 8px 13px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .az-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .az-row a {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--navy);
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .az-row a.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: #fff;
+    }
+
+    .filter-panel {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.8fr) repeat(4, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 12px;
+      margin-bottom: 16px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+      color: #526579;
+      font-size: 12px;
+    }
+
+    .control {
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--navy);
+      padding: 7px 10px;
+      font-size: 14px;
+    }
+
+    .company-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .company-card {
+      min-height: 188px;
+      padding: 18px 16px 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .company-card h3 {
+      margin: 0 0 9px;
+      color: var(--navy);
+      font-size: 20px;
+    }
+
+    .company-meta {
+      margin-bottom: 18px;
+      color: #40536b;
+      font-size: 13px;
+    }
+
+    .company-counts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .company-counts strong {
+      display: block;
+      color: #06162d;
+      font-size: 17px;
+    }
+
+    .company-counts span {
+      color: #24364d;
+      font-size: 12px;
+    }
+
+    .red-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 37px;
+      border-radius: 6px;
+      background: var(--red);
+      color: #fff;
+      font-weight: 700;
+      padding: 10px 14px;
+      text-decoration: none;
+    }
+
+    .red-button:hover {
+      background: #a91525;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 1120px) {
+      .filter-panel {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .company-card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 22px 16px;
+      }
+
+      .filter-panel {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="top-row">
+      <div>
+        <h1>市场知识平台</h1>
+        <h2>公司目录</h2>
+      </div>
+      <a class="ghost-button" href="#" aria-label="导出公司信息报表">导出公司信息报表</a>
+    </section>
+
+    <nav class="az-row" aria-label="A-Z 公司索引">
+      <a class="active" href="#">A</a>
+      <a href="#">B</a>
+      <a href="#">C</a>
+      <a href="#">D</a>
+      <a href="#">E</a>
+      <a href="#">F</a>
+      <a href="#">G</a>
+      <a href="#">H</a>
+      <a href="#">I</a>
+      <a href="#">J</a>
+      <a href="#">K</a>
+      <a href="#">L</a>
+      <a href="#">M</a>
+      <a href="#">N</a>
+      <a href="#">O</a>
+      <a href="#">P</a>
+      <a href="#">Q</a>
+      <a href="#">R</a>
+      <a href="#">S</a>
+      <a href="#">T</a>
+      <a href="#">U</a>
+      <a href="#">V</a>
+      <a href="#">W</a>
+      <a href="#">X</a>
+      <a href="#">Y</a>
+      <a href="#">Z</a>
+    </nav>
+
+    <section class="filter-panel" aria-label="筛选栏">
+      <div class="field">
+        <span>搜索公司 / 项目 / 缩写</span>
+        <div class="control">ADNOC / Ruwais LNG</div>
+      </div>
+      <div class="field">
+        <span>公司类型</span>
+        <div class="control">All Types <span>⌄</span></div>
+      </div>
+      <div class="field">
+        <span>地区</span>
+        <div class="control">All Regions <span>⌄</span></div>
+      </div>
+      <div class="field">
+        <span>业务领域</span>
+        <div class="control">All Business <span>⌄</span></div>
+      </div>
+      <div class="field">
+        <span>关系标签</span>
+        <div class="control">All Tags <span>⌄</span></div>
+      </div>
+    </section>
+
+    <section class="company-card-grid" aria-label="公司画像卡片静态展示">
+      <article class="company-card">
+        <h3>ADNOC</h3>
+        <div class="company-meta">NOC｜资源型公司｜UAE｜LNG｜上游资源</div>
+        <div class="company-counts">
+          <span><strong>3</strong>项目</span>
+          <span><strong>2</strong>资源</span>
+          <span><strong>5</strong>动态</span>
+          <span><strong>4</strong>报告</span>
+        </div>
+        <a class="red-button" href="#" aria-label="查看 ADNOC 公司画像">查看公司画像</a>
+      </article>
+
+      <article class="company-card">
+        <h3>Shell</h3>
+        <div class="company-meta">IOC｜UK｜LNG｜上游｜Trading｜合作方/竞对</div>
+        <div class="company-counts">
+          <span><strong>6</strong>项目</span>
+          <span><strong>4</strong>资源</span>
+          <span><strong>8</strong>动态</span>
+          <span><strong>7</strong>报告</span>
+        </div>
+        <a class="red-button" href="#" aria-label="查看 Shell 公司画像">查看公司画像</a>
+      </article>
+
+      <article class="company-card">
+        <h3>MODEC</h3>
+        <div class="company-meta">船东｜Japan｜FPSO｜海工浮式设施｜合作方/竞对</div>
+        <div class="company-counts">
+          <span><strong>4</strong>项目</span>
+          <span><strong>0</strong>资源</span>
+          <span><strong>3</strong>动态</span>
+          <span><strong>2</strong>报告</span>
+        </div>
+        <a class="red-button" href="#" aria-label="查看 MODEC 公司画像">查看公司画像</a>
+      </article>
+    </section>
+
+    <p class="note">
+      说明：这是纯静态公司卡片 HTML，仅负责视觉展示。真实筛选、搜索、关联统计和跳转逻辑建议继续由简道云原生组件处理；如果后续需要把红色按钮接到具体公司页面，只需要替换每张卡片里的 href 地址。
+    </p>
+  </main>
+</body>
+</html>
