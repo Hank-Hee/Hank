@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="公司项目区域分布交互地图" />
+    <title>公司项目分布地图</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="map-app">
+      <div id="map" aria-label="公司项目区域分布交互地图"></div>
+
+      <header class="map-header">
+        <div class="brand-mark" aria-hidden="true"><span></span></div>
+        <div>
+          <div class="eyebrow">PROJECT FOOTPRINT · 2026</div>
+          <h1><span id="operator-name">Shell</span> 项目分布</h1>
+          <p><strong id="total-projects">0</strong> 个项目 · 区域级展示</p>
+        </div>
+      </header>
+
+      <div class="map-status" title="原始 Excel 未包含经纬度">
+        <span class="status-dot"></span>
+        国家 / 区域级定位
+      </div>
+
+      <div class="map-instruction">
+        <span class="mouse-icon" aria-hidden="true"></span>
+        <div><strong>悬停查看数量</strong><small>点击国家气泡展开项目</small></div>
+      </div>
+
+      <button id="overview-button" class="overview-button" type="button" aria-label="返回区域总览" title="返回区域总览">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6v6H4V5Zm10 0h6v6h-6V5ZM4 15h6v4H4v-4Zm10 0h6v4h-6v-4Z" /></svg>
+        <span>区域总览</span>
+      </button>
+
+      <section id="project-drawer" class="project-drawer" aria-label="国家项目列表" aria-hidden="true">
+        <div class="drawer-handle" aria-hidden="true"></div>
+        <div class="drawer-head">
+          <div>
+            <div class="drawer-kicker">COUNTRY PROJECTS</div>
+            <h2 id="drawer-title">项目列表</h2>
+            <p id="drawer-summary"></p>
+          </div>
+          <button id="drawer-close" class="drawer-close" type="button" aria-label="关闭项目列表">×</button>
+        </div>
+        <label class="drawer-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3m2.3-5.2A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z" /></svg>
+          <input id="project-search" type="search" placeholder="搜索项目名称" autocomplete="off" />
+        </label>
+        <div id="project-list" class="project-list" role="list"></div>
+      </section>
+
+      <div class="map-legend">
+        <span class="legend-symbol"></span>
+        <span>气泡大小代表项目数量</span>
+        <span class="legend-separator"></span>
+        <span>点位为国家级聚合，不代表项目坐标</span>
+      </div>
+
+      <div id="empty-state" class="empty-state" hidden>
+        <strong>没有找到该公司的项目</strong>
+        <span>请检查链接中的 operator 参数。</span>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
