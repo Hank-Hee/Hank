@@ -150,7 +150,7 @@
     dom.drawer.classList.add("open");
     dom.drawer.setAttribute("aria-hidden", "false");
     activeMarkers.forEach((marker, markerCountry) => {
-      marker.getElement()?.querySelector(".country-cluster")?.classList.toggle("is-active", markerCountry === country);
+      marker.getElement()?.querySelector(".country-dot")?.classList.toggle("is-active", markerCountry === country);
     });
     const horizontalOffset = window.innerWidth >= 760 ? -0.14 : 0;
     map.flyTo([config.center[0], config.center[1] + horizontalOffset], config.zoom, { duration: 0.7 });
@@ -160,23 +160,22 @@
     selectedCountry = "";
     dom.drawer.classList.remove("open");
     dom.drawer.setAttribute("aria-hidden", "true");
-    activeMarkers.forEach((marker) => marker.getElement()?.querySelector(".country-cluster")?.classList.remove("is-active"));
+    activeMarkers.forEach((marker) => marker.getElement()?.querySelector(".country-dot")?.classList.remove("is-active"));
   };
 
   countryGroups.forEach(({ country, projects: countryProjects }) => {
     const config = countryConfig[country];
     if (!config) return;
     const countryLabel = countryNames[country] || country;
-    const clusterWidth = Math.max(92, 58 + countryLabel.length * 16);
+    const dotSize = Math.round(Math.min(40, Math.max(30, 28 + Math.sqrt(countryProjects.length) * 2.2)));
     const icon = L.divIcon({
-      className: "country-cluster-icon",
+      className: "country-dot-icon",
       html: `
-        <div class="country-cluster" style="--cluster-width:${clusterWidth}px">
-          <span class="country-cluster-count">${countryProjects.length}</span>
-          <span class="country-cluster-label">${escapeHtml(countryLabel)}</span>
+        <div class="country-dot" style="--dot-size:${dotSize}px" aria-label="${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目">
+          <span class="country-dot-count">${countryProjects.length}</span>
         </div>`,
-      iconSize: [clusterWidth, 48],
-      iconAnchor: [24, 46],
+      iconSize: [dotSize, dotSize],
+      iconAnchor: [dotSize / 2, dotSize / 2],
     });
     const marker = L.marker(config.center, {
       icon,
@@ -188,7 +187,7 @@
         <small>${escapeHtml(operator.toUpperCase())} PROJECTS</small>
         <strong>${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目</strong>
         <span>点击查看全部</span>
-      </div>`, { direction: "top", offset: [28, -54], opacity: 1 });
+      </div>`, { direction: "top", offset: [0, -dotSize / 2 - 10], opacity: 1 });
     marker.on("click", () => openCountry(country));
     marker.getElement()?.addEventListener("click", () => openCountry(country));
     activeMarkers.set(country, marker);
@@ -203,7 +202,7 @@
   });
   map.on("dragstart zoomstart", () => dom.instruction.classList.add("hidden"));
   map.on("click", (event) => {
-    if (event.originalEvent?.target?.closest?.(".country-cluster")) return;
+    if (event.originalEvent?.target?.closest?.(".country-dot")) return;
   });
 
   fitOverview();
