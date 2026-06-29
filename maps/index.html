@@ -8,7 +8,7 @@
     <title>公司项目分布地图</title>
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260630-dot" />
   </head>
   <body>
     <main class="map-app">
@@ -30,7 +30,7 @@
 
       <div class="map-instruction">
         <span class="mouse-icon" aria-hidden="true"></span>
-        <div><strong>悬停查看数量</strong><small>点击国家标签展开项目</small></div>
+        <div><strong>悬停查看数量</strong><small>点击国家圆点展开项目</small></div>
       </div>
 
       <button id="overview-button" class="overview-button" type="button" aria-label="返回区域总览" title="返回区域总览">
@@ -57,7 +57,7 @@
 
       <div class="map-legend">
         <span class="legend-symbol"></span>
-        <span>国家标签数字代表项目数量</span>
+        <span>圆点数字代表项目数量</span>
         <span class="legend-separator"></span>
         <span>点位为国家级聚合，不代表项目坐标</span>
       </div>
@@ -69,7 +69,7 @@
     </main>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="data.js?v=20260630-dot"></script>
+    <script src="app.js?v=20260630-dot"></script>
   </body>
 </html>
