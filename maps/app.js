@@ -121,10 +121,13 @@
             <span class="project-chevron">›</span>
           </span>
           <span class="project-detail">
+            <span><b>生命周期</b>${escapeHtml(lifecycle)}</span>
+            <span><b>Oil / Gas 分类</b>${escapeHtml(textOrDash(project.oilGasCategories))}</span>
             <span><b>供应板块</b>${escapeHtml(textOrDash(project.supplySegments))}</span>
             <span><b>设施类型</b>${escapeHtml(textOrDash(project.facilities))}</span>
             <span><b>发现年份</b>${escapeHtml(textOrDash(project.discoveryYears))}</span>
             <span><b>投产年份</b>${escapeHtml(textOrDash(project.startupYears))}</span>
+            <span class="wide"><b>Ownership</b>${escapeHtml(textOrDash(project.ownerships))}</span>
           </span>
         </button>`;
     }).join("") : '<div class="project-row"><span class="project-name">没有匹配的项目</span></div>';
@@ -147,9 +150,9 @@
     dom.drawer.classList.add("open");
     dom.drawer.setAttribute("aria-hidden", "false");
     activeMarkers.forEach((marker, markerCountry) => {
-      marker.getElement()?.querySelector(".country-bubble")?.classList.toggle("is-active", markerCountry === country);
+      marker.getElement()?.querySelector(".country-cluster")?.classList.toggle("is-active", markerCountry === country);
     });
-    const horizontalOffset = window.innerWidth > 680 ? -0.14 : 0;
+    const horizontalOffset = window.innerWidth >= 760 ? -0.14 : 0;
     map.flyTo([config.center[0], config.center[1] + horizontalOffset], config.zoom, { duration: 0.7 });
   };
 
@@ -157,18 +160,23 @@
     selectedCountry = "";
     dom.drawer.classList.remove("open");
     dom.drawer.setAttribute("aria-hidden", "true");
-    activeMarkers.forEach((marker) => marker.getElement()?.querySelector(".country-bubble")?.classList.remove("is-active"));
+    activeMarkers.forEach((marker) => marker.getElement()?.querySelector(".country-cluster")?.classList.remove("is-active"));
   };
 
   countryGroups.forEach(({ country, projects: countryProjects }) => {
     const config = countryConfig[country];
     if (!config) return;
-    const size = Math.round(54 + Math.sqrt(countryProjects.length) * 5.2);
+    const countryLabel = countryNames[country] || country;
+    const clusterWidth = Math.max(92, 58 + countryLabel.length * 16);
     const icon = L.divIcon({
-      className: "country-bubble-icon",
-      html: `<div class="country-bubble" style="--size:${size}px"><strong>${countryProjects.length}</strong><span>${escapeHtml(countryNames[country] || country)}</span></div>`,
-      iconSize: [size, size],
-      iconAnchor: [size / 2, size / 2],
+      className: "country-cluster-icon",
+      html: `
+        <div class="country-cluster" style="--cluster-width:${clusterWidth}px">
+          <span class="country-cluster-count">${countryProjects.length}</span>
+          <span class="country-cluster-label">${escapeHtml(countryLabel)}</span>
+        </div>`,
+      iconSize: [clusterWidth, 48],
+      iconAnchor: [24, 46],
     });
     const marker = L.marker(config.center, {
       icon,
@@ -178,9 +186,9 @@
     marker.bindTooltip(`
       <div class="country-tooltip-card">
         <small>${escapeHtml(operator.toUpperCase())} PROJECTS</small>
-        <strong>${escapeHtml(countryNames[country] || country)} · ${countryProjects.length}</strong>
-        <span>点击展开全部项目名称</span>
-      </div>`, { direction: "top", offset: [0, -size / 2 - 8], opacity: 1 });
+        <strong>${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目</strong>
+        <span>点击查看全部</span>
+      </div>`, { direction: "top", offset: [28, -54], opacity: 1 });
     marker.on("click", () => openCountry(country));
     marker.getElement()?.addEventListener("click", () => openCountry(country));
     activeMarkers.set(country, marker);
@@ -195,7 +203,7 @@
   });
   map.on("dragstart zoomstart", () => dom.instruction.classList.add("hidden"));
   map.on("click", (event) => {
-    if (event.originalEvent?.target?.closest?.(".country-bubble")) return;
+    if (event.originalEvent?.target?.closest?.(".country-cluster")) return;
   });
 
   fitOverview();
