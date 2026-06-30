@@ -1,0 +1,36 @@
+{
+  "companies": {
+    "Shell": {
+      "slug": "shell",
+      "aliases": ["Shell"],
+      "sourceOperators": ["Shell"],
+      "expectedProjectCount": 552
+    },
+    "BP": {
+      "slug": "bp",
+      "aliases": ["BP"],
+      "sourceOperators": ["BP"],
+      "expectedProjectCount": 396
+    },
+    "Eni": {
+      "slug": "eni",
+      "aliases": ["Eni"],
+      "sourceOperators": ["Eni"],
+      "expectedProjectCount": 437
+    },
+    "ADNOC": {
+      "slug": "adnoc",
+      "aliases": ["ADNOC"],
+      "sourceOperators": [
+        "ADNOC",
+        "ADNOC Gas Processing",
+        "ADNOC Ghasha",
+        "ADNOC LNG",
+        "ADNOC Offshore",
+        "ADNOC Onshore",
+        "ADNOC Sour Gas"
+      ],
+      "expectedProjectCount": 49
+    }
+  }
+}
