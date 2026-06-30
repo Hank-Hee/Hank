@@ -150,7 +150,7 @@ Do not hardcode the Desktop path.
 
 - [ ] **Step 4: Build audited country centers**
 
-Download the official Natural Earth `ne_110m_admin_0_countries.geojson` once during generation. Use each feature's `LABEL_Y` and `LABEL_X`, record the source URL, and resolve workbook names through explicit aliases such as `UAE -> United Arab Emirates`, `Turkiye -> Turkey`, and `Congo -> Republic of the Congo`. Fail with a sorted missing-country list if any target project has no center.
+Download the official Natural Earth `ne_10m_admin_0_countries.geojson` once during generation. The 10m layer is required because the 110m simplified layer omits Bahrain and Sao Tome and Principe. Use each feature's `LABEL_Y` and `LABEL_X`, record the source URL, and resolve workbook names through explicit aliases such as `UAE -> United Arab Emirates`, `Turkiye -> Turkey`, and `Congo -> Republic of the Congo`. Fail with a sorted missing-country list if any target project has no center.
 
 - [ ] **Step 5: Implement atomic output writing and run the builder**
 

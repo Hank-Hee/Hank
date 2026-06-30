@@ -142,7 +142,7 @@ maps/
 
 ### 5.3 国家中心点
 
-`country-centers.json` 只保存四家公司实际涉及国家的国家级代表点、中文显示名、源数据国家名和坐标来源。代表点以 Natural Earth Admin 0 Countries 1:110m 数据为基础，记录数据集版本和来源 URL；Excel 中的 `UAE`、`Turkiye`、`Congo` 等名称通过显式别名映射到标准国家记录。
+`country-centers.json` 只保存四家公司实际涉及国家的国家级代表点、中文显示名、源数据国家名和坐标来源。代表点以 Natural Earth Admin 0 Countries 1:10m 数据为基础，记录数据集版本和来源 URL；10m 国家层用于覆盖 110m 简化层省略的巴林、圣多美和普林西比等小国。Excel 中的 `UAE`、`Turkiye`、`Congo` 等名称通过显式别名映射到标准国家记录。
 
 这些坐标只用于国家级聚合，不代表项目真实位置。构建时必须验证每个项目国家都有唯一配置；缺少配置时构建失败，不能静默丢弃项目。
 

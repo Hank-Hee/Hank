@@ -1,7 +1,11 @@
+import json
+import os
 import unittest
+from pathlib import Path
 
 from maps.tools.build_map_data import (
     aggregate_rows,
+    build_payloads,
     company_for_operator,
     stable_project_id,
 )
@@ -65,6 +69,38 @@ class BuildMapDataTests(unittest.TestCase):
         payload = aggregate_rows(rows, "Shell", {"Shell"})
 
         self.assertEqual([project["project"] for project in payload], ["Gamma"])
+
+    @unittest.skipUnless(os.environ.get("RYSTAD_XLSX"), "RYSTAD_XLSX is required")
+    def test_real_workbook_counts_regions_and_country_centers(self):
+        root = Path(__file__).resolve().parents[2]
+        result = build_payloads(
+            os.environ["RYSTAD_XLSX"],
+            root / "maps" / "tools" / "company-config.json",
+        )
+
+        self.assertEqual(len(result["companies"]["Shell"]), 552)
+        self.assertEqual(len(result["companies"]["BP"]), 396)
+        self.assertEqual(len(result["companies"]["Eni"]), 437)
+        self.assertEqual(len(result["companies"]["ADNOC"]), 49)
+        self.assertEqual(
+            sum("东南亚" in project["businessRegions"] for project in result["companies"]["Shell"]),
+            58,
+        )
+        self.assertFalse(result["missingCountries"])
+        self.assertTrue(
+            all(
+                project["country"] in result["countryCenters"]
+                for projects in result["companies"].values()
+                for project in projects
+            )
+        )
+
+    def test_company_config_is_valid_json(self):
+        root = Path(__file__).resolve().parents[2]
+        config_path = root / "maps" / "tools" / "company-config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(set(config["companies"]), {"Shell", "BP", "Eni", "ADNOC"})
 
 
 if __name__ == "__main__":

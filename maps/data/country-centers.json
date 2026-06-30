@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "dataset": "Natural Earth Admin 0 Countries 1:10m",
+    "sourceUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+    "coordinateRule": "LABEL_Y and LABEL_X country-level representative points"
+  },
+  "countries": {
+    "Albania": {
+      "sourceName": "Albania",
+      "nameZh": "阿尔巴尼亚",
+      "isoA2": "AL",
+      "center": [
+        40.654855,
+        20.11384
+      ]
+    },
+    "Algeria": {
+      "sourceName": "Algeria",
+      "nameZh": "阿尔及利亚",
+      "isoA2": "DZ",
+      "center": [
+        27.397406,
+        2.808241
+      ]
+    },
+    "Argentina": {
+      "sourceName": "Argentina",
+      "nameZh": "阿根廷",
+      "isoA2": "AR",
+      "center": [
+        -33.501159,
+        -64.173331
+      ]
+    },
+    "Australia": {
+      "sourceName": "Australia",
+      "nameZh": "澳大利亚",
+      "isoA2": "AU",
+      "center": [
+        -24.129522,
+        134.04972
+      ]
+    },
+    "Azerbaijan": {
+      "sourceName": "Azerbaijan",
+      "nameZh": "阿塞拜疆",
+      "isoA2": "AZ",
+      "center": [
+        40.402387,
+        47.210994
+      ]
+    },
+    "Bahrain": {
+      "sourceName": "Bahrain",
+      "nameZh": "巴林",
+      "isoA2": "BH",
+      "center": [
+        26.055972,
+        50.554816
+      ]
+    },
+    "Bolivia": {
+      "sourceName": "Bolivia",
+      "nameZh": "玻利维亚",
+      "isoA2": "BO",
+      "center": [
+        -16.666015,
+        -64.593433
+      ]
+    },
+    "Brazil": {
+      "sourceName": "Brazil",
+      "nameZh": "巴西",
+      "isoA2": "BR",
+      "center": [
+        -12.098687,
+        -49.55945
+      ]
+    },
+    "Brunei": {
+      "sourceName": "Brunei",
+      "nameZh": "文莱",
+      "isoA2": "BN",
+      "center": [
+        4.448298,
+        114.551943
+      ]
+    },
+    "Bulgaria": {
+      "sourceName": "Bulgaria",
+      "nameZh": "保加利亚",
+      "isoA2": "BG",
+      "center": [
+        42.508785,
+        25.15709
+      ]
+    },
+    "Canada": {
+      "sourceName": "Canada",
+      "nameZh": "加拿大",
+      "isoA2": "CA",
+      "center": [
+        60.324287,
+        -101.9107
+      ]
+    },
+    "China": {
+      "sourceName": "China",
+      "nameZh": "中华人民共和国",
+      "isoA2": "CN",
+      "center": [
+        32.498178,
+        106.337289
+      ]
+    },
+    "Congo": {
+      "sourceName": "Congo",
+      "nameZh": "刚果共和国",
+      "isoA2": "CG",
+      "center": [
+        0.142331,
+        15.9005
+      ]
+    },
+    "Cote d'Ivoire": {
+      "sourceName": "Cote d'Ivoire",
+      "nameZh": "科特迪瓦",
+      "isoA2": "CI",
+      "center": [
+        7.49139,
+        -5.568618
+      ]
+    },
+    "Cyprus": {
+      "sourceName": "Cyprus",
+      "nameZh": "塞浦路斯",
+      "isoA2": "CY",
+      "center": [
+        34.913329,
+        33.084182
+      ]
+    },
+    "Egypt": {
+      "sourceName": "Egypt",
+      "nameZh": "埃及",
+      "isoA2": "EG",
+      "center": [
+        26.186173,
+        29.445837
+      ]
+    },
+    "France": {
+      "sourceName": "France",
+      "nameZh": "法国",
+      "isoA2": "-99",
+      "center": [
+        46.696113,
+        2.552275
+      ]
+    },
+    "Gabon": {
+      "sourceName": "Gabon",
+      "nameZh": "加蓬",
+      "isoA2": "GA",
+      "center": [
+        -0.437739,
+        11.835939
+      ]
+    },
+    "Ghana": {
+      "sourceName": "Ghana",
+      "nameZh": "加纳",
+      "isoA2": "GH",
+      "center": [
+        7.717639,
+        -1.036941
+      ]
+    },
+    "India": {
+      "sourceName": "India",
+      "nameZh": "印度",
+      "isoA2": "IN",
+      "center": [
+        22.686852,
+        79.358105
+      ]
+    },
+    "Indonesia": {
+      "sourceName": "Indonesia",
+      "nameZh": "印度尼西亚",
+      "isoA2": "ID",
+      "center": [
+        -0.954404,
+        101.892949
+      ]
+    },
+    "Iraq": {
+      "sourceName": "Iraq",
+      "nameZh": "伊拉克",
+      "isoA2": "IQ",
+      "center": [
+        33.09403,
+        43.26181
+      ]
+    },
+    "Ireland": {
+      "sourceName": "Ireland",
+      "nameZh": "爱尔兰",
+      "isoA2": "IE",
+      "center": [
+        53.078726,
+        -7.798588
+      ]
+    },
+    "Italy": {
+      "sourceName": "Italy",
+      "nameZh": "意大利",
+      "isoA2": "IT",
+      "center": [
+        44.732482,
+        11.076907
+      ]
+    },
+    "Kazakhstan": {
+      "sourceName": "Kazakhstan",
+      "nameZh": "哈萨克斯坦",
+      "isoA2": "KZ",
+      "center": [
+        49.054149,
+        68.685548
+      ]
+    },
+    "Libya": {
+      "sourceName": "Libya",
+      "nameZh": "利比亚",
+      "isoA2": "LY",
+      "center": [
+        26.638944,
+        18.011015
+      ]
+    },
+    "Malaysia": {
+      "sourceName": "Malaysia",
+      "nameZh": "马来西亚",
+      "isoA2": "MY",
+      "center": [
+        2.528667,
+        113.83708
+      ]
+    },
+    "Mauritania": {
+      "sourceName": "Mauritania",
+      "nameZh": "毛里塔尼亚",
+      "isoA2": "MR",
+      "center": [
+        19.587062,
+        -9.740299
+      ]
+    },
+    "Mexico": {
+      "sourceName": "Mexico",
+      "nameZh": "墨西哥",
+      "isoA2": "MX",
+      "center": [
+        23.919988,
+        -102.289448
+      ]
+    },
+    "Montenegro": {
+      "sourceName": "Montenegro",
+      "nameZh": "黑山",
+      "isoA2": "ME",
+      "center": [
+        42.803101,
+        19.143727
+      ]
+    },
+    "Mozambique": {
+      "sourceName": "Mozambique",
+      "nameZh": "莫桑比克",
+      "isoA2": "MZ",
+      "center": [
+        -13.94323,
+        37.83789
+      ]
+    },
+    "Myanmar": {
+      "sourceName": "Myanmar",
+      "nameZh": "缅甸",
+      "isoA2": "MM",
+      "center": [
+        21.573855,
+        95.804497
+      ]
+    },
+    "Namibia": {
+      "sourceName": "Namibia",
+      "nameZh": "纳米比亚",
+      "isoA2": "NA",
+      "center": [
+        -20.575298,
+        17.108166
+      ]
+    },
+    "Netherlands": {
+      "sourceName": "Netherlands",
+      "nameZh": "荷属圣马丁",
+      "isoA2": "SX",
+      "center": [
+        18.04088,
+        -63.070133
+      ]
+    },
+    "Nigeria": {
+      "sourceName": "Nigeria",
+      "nameZh": "尼日利亚",
+      "isoA2": "NG",
+      "center": [
+        9.439799,
+        7.50322
+      ]
+    },
+    "Norway": {
+      "sourceName": "Norway",
+      "nameZh": "挪威",
+      "isoA2": "-99",
+      "center": [
+        61.357092,
+        9.679975
+      ]
+    },
+    "Oman": {
+      "sourceName": "Oman",
+      "nameZh": "阿曼",
+      "isoA2": "OM",
+      "center": [
+        22.120427,
+        57.336553
+      ]
+    },
+    "Qatar": {
+      "sourceName": "Qatar",
+      "nameZh": "卡塔尔",
+      "isoA2": "QA",
+      "center": [
+        25.237383,
+        51.143509
+      ]
+    },
+    "Sao Tome and Principe": {
+      "sourceName": "Sao Tome and Principe",
+      "nameZh": "圣多美和普林西比",
+      "isoA2": "ST",
+      "center": [
+        0.9709,
+        7.021
+      ]
+    },
+    "Somalia": {
+      "sourceName": "Somalia",
+      "nameZh": "索马里",
+      "isoA2": "SO",
+      "center": [
+        3.568925,
+        45.19238
+      ]
+    },
+    "South Africa": {
+      "sourceName": "South Africa",
+      "nameZh": "南非",
+      "isoA2": "ZA",
+      "center": [
+        -29.708776,
+        23.665734
+      ]
+    },
+    "Suriname": {
+      "sourceName": "Suriname",
+      "nameZh": "苏里南",
+      "isoA2": "SR",
+      "center": [
+        4.143987,
+        -55.91094
+      ]
+    },
+    "Syria": {
+      "sourceName": "Syria",
+      "nameZh": "叙利亚",
+      "isoA2": "SY",
+      "center": [
+        35.006636,
+        38.277783
+      ]
+    },
+    "Tanzania": {
+      "sourceName": "Tanzania",
+      "nameZh": "坦桑尼亚",
+      "isoA2": "TZ",
+      "center": [
+        -6.051866,
+        34.959183
+      ]
+    },
+    "Thailand": {
+      "sourceName": "Thailand",
+      "nameZh": "泰国",
+      "isoA2": "TH",
+      "center": [
+        15.45974,
+        101.073198
+      ]
+    },
+    "Timor-Leste": {
+      "sourceName": "Timor-Leste",
+      "nameZh": "东帝汶",
+      "isoA2": "TL",
+      "center": [
+        -8.803705,
+        125.854679
+      ]
+    },
+    "Trinidad and Tobago": {
+      "sourceName": "Trinidad and Tobago",
+      "nameZh": "特立尼达和多巴哥",
+      "isoA2": "TT",
+      "center": [
+        10.9989,
+        -60.9184
+      ]
+    },
+    "Tunisia": {
+      "sourceName": "Tunisia",
+      "nameZh": "突尼斯",
+      "isoA2": "TN",
+      "center": [
+        33.687263,
+        9.007881
+      ]
+    },
+    "Turkmenistan": {
+      "sourceName": "Turkmenistan",
+      "nameZh": "土库曼斯坦",
+      "isoA2": "TM",
+      "center": [
+        39.855246,
+        58.676647
+      ]
+    },
+    "UAE": {
+      "sourceName": "UAE",
+      "nameZh": "阿拉伯联合酋长国",
+      "isoA2": "AE",
+      "center": [
+        23.466285,
+        54.547256
+      ]
+    },
+    "Ukraine": {
+      "sourceName": "Ukraine",
+      "nameZh": "乌克兰",
+      "isoA2": "UA",
+      "center": [
+        49.724739,
+        32.140865
+      ]
+    },
+    "United Kingdom": {
+      "sourceName": "United Kingdom",
+      "nameZh": "泽凯利亚军营",
+      "isoA2": "-99",
+      "center": [
+        35.011042,
+        33.790583
+      ]
+    },
+    "United States": {
+      "sourceName": "United States",
+      "nameZh": "美国",
+      "isoA2": "US",
+      "center": [
+        39.538479,
+        -97.482602
+      ]
+    },
+    "Uruguay": {
+      "sourceName": "Uruguay",
+      "nameZh": "乌拉圭",
+      "isoA2": "UY",
+      "center": [
+        -32.961127,
+        -55.966942
+      ]
+    },
+    "Venezuela": {
+      "sourceName": "Venezuela",
+      "nameZh": "委内瑞拉",
+      "isoA2": "VE",
+      "center": [
+        7.182476,
+        -64.599381
+      ]
+    },
+    "Vietnam": {
+      "sourceName": "Vietnam",
+      "nameZh": "越南",
+      "isoA2": "VN",
+      "center": [
+        21.715416,
+        105.387292
+      ]
+    }
+  }
+}

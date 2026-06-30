@@ -1,0 +1,2463 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（统一格式及业务区域最新版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "ADNOC",
+    "sourceOperators": [
+      "ADNOC",
+      "ADNOC Gas Processing",
+      "ADNOC Ghasha",
+      "ADNOC LNG",
+      "ADNOC Offshore",
+      "ADNOC Onshore",
+      "ADNOC Sour Gas"
+    ],
+    "projectCount": 49,
+    "countryCount": 1,
+    "businessRegions": [
+      "中东及南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "adnoc-df9afe07bc79",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "ADGAS LNG T1-T2, AE",
+      "sourceOperators": [
+        "ADNOC LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1958,
+        1960,
+        1964
+      ],
+      "approvalYears": [
+        1972,
+        1973,
+        2037
+      ],
+      "startupYears": [
+        1977,
+        2042
+      ],
+      "ownerships": [
+        "ADNOC LNG* (0%); ADNOC (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-797cd13ab5f0",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "ADGAS LNG T3, AE",
+      "sourceOperators": [
+        "ADNOC LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1958,
+        1961,
+        1969
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "ADNOC LNG* (0%); ADNOC (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-de4451dd1c13",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "ADMA Concession, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1958
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-4c8249a0324d",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "ADNOC Sole Risk, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1976
+      ],
+      "startupYears": [
+        1984,
+        2001
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-d995f002f75e",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Al Bateel, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
+      ]
+    },
+    {
+      "id": "adnoc-19ed83f6621a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Al Hosn Gas Project (Shah Field), AE",
+      "sourceOperators": [
+        "ADNOC Sour Gas"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)",
+        "Producing 25-50%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2010,
+        2021,
+        2029
+      ],
+      "startupYears": [
+        2015,
+        2023,
+        2032
+      ],
+      "ownerships": [
+        "ADNOC Sour Gas* (0%); ADNOC (60%); Occidental Petroleum (40%)"
+      ]
+    },
+    {
+      "id": "adnoc-a18f74d24254",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Arjan, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-4adcb72ac1f0",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Asab (Gasco), AE",
+      "sourceOperators": [
+        "ADNOC Gas Processing"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1981,
+        2049
+      ],
+      "startupYears": [
+        1981,
+        2053
+      ],
+      "ownerships": [
+        "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
+      ]
+    },
+    {
+      "id": "adnoc-57bf5874e35f",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Asab FFD-2, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2018,
+        2022,
+        2030
+      ],
+      "startupYears": [
+        2022,
+        2023,
+        2033
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-75e6cbd9512e",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Asab, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965,
+        1966
+      ],
+      "approvalYears": [
+        1968,
+        2022,
+        2052
+      ],
+      "startupYears": [
+        1973,
+        2023,
+        2056
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-2fcc97d7997f",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bab (Gasco), AE",
+      "sourceOperators": [
+        "ADNOC Gas Processing"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1976,
+        2048
+      ],
+      "startupYears": [
+        1981,
+        2055
+      ],
+      "ownerships": [
+        "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
+      ]
+    },
+    {
+      "id": "adnoc-3c6e114018d6",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bab Gas Cap, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-7a9abc79dfbb",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bab, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954,
+        1960
+      ],
+      "approvalYears": [
+        1960,
+        2017,
+        2019,
+        2022,
+        2023,
+        2054
+      ],
+      "startupYears": [
+        1960,
+        2022,
+        2023,
+        2025,
+        2028,
+        2058
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-80020aeccc04",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bin Nasher, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
+      ]
+    },
+    {
+      "id": "adnoc-30894107a9fc",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bu Hasa (Gasco), AE",
+      "sourceOperators": [
+        "ADNOC Gas Processing"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1975,
+        2051
+      ],
+      "startupYears": [
+        1980,
+        2055
+      ],
+      "ownerships": [
+        "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
+      ]
+    },
+    {
+      "id": "adnoc-cb5c31d7df2a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bu Hasa, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962,
+        1965,
+        2022
+      ],
+      "approvalYears": [
+        1965,
+        2002,
+        2010,
+        2018,
+        2023,
+        2031,
+        2048
+      ],
+      "startupYears": [
+        1965,
+        2006,
+        2013,
+        2022,
+        2024,
+        2028,
+        2034,
+        2052
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-456c04206d7a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Bu Labyad, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-06fd91c30848",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Dalma ultra-sour gas project, AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-da9ee56f046a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Ghasha (Oil), AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "ADNOC* (70%); Occidental Petroleum (30%)"
+      ]
+    },
+    {
+      "id": "adnoc-fb9b2ea6f39c",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Hail & Ghasha-East development, AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1975,
+        1984
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-ea0f540752ca",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Integrated Gas Development (IGD), AE",
+      "sourceOperators": [
+        "ADNOC",
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1958,
+        1969
+      ],
+      "approvalYears": [
+        2009,
+        2047
+      ],
+      "startupYears": [
+        2013,
+        2051
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (100%)",
+        "ADNOC* (100%)",
+        "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-1806575648bf",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Jarnain, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-dd9106cd937a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Jebel Ali, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2021,
+        2031
+      ],
+      "startupYears": [
+        2023,
+        2035
+      ],
+      "ownerships": [
+        "ADNOC* (50%); Dubai Supply Authority (50%)"
+      ]
+    },
+    {
+      "id": "adnoc-d5ca5ea2ddf2",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Jumayla, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-3a5d0688e4d9",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Khusub 2, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-7ad1c045db33",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Lower Zakum Concession, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-dc8cc4796829",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Lower Zakum, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1960s)",
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        1966,
+        2024,
+        2025,
+        2031,
+        2045
+      ],
+      "startupYears": [
+        1967,
+        2027,
+        2030,
+        2035,
+        2048
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); Inpex (10%); PetroChina (6%); Eni (5%); TotalEnergies (5%); CNOOC (4%); ONGC (4%); Bharat Petroleum Corp (BPCL) (3%); Indian Oil (3%)"
+      ]
+    },
+    {
+      "id": "adnoc-5d8db00445fe",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Mubarraz (Sour Gas), AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-c566164c3795",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Mussafah, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-770ed09bd1b8",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Nasr (Sour Gas), AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-87cb3a368e29",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "NEB Field, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1960s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Extended reach",
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1969,
+        1983
+      ],
+      "approvalYears": [
+        1990,
+        1991,
+        2018,
+        2021,
+        2036,
+        2055
+      ],
+      "startupYears": [
+        1995,
+        2021,
+        2025,
+        2040,
+        2059
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-ada9c85ed973",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "OAG, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1958,
+        1964
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
+      ]
+    },
+    {
+      "id": "adnoc-57f671560fad",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Ras Al Sadr, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2024,
+        2027
+      ],
+      "startupYears": [
+        2027,
+        2029
+      ],
+      "ownerships": [
+        "ADNOC* (60%); Inpex (40%)"
+      ]
+    },
+    {
+      "id": "adnoc-1bce5ca9ad26",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Rich Gas Development, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1958,
+        1960,
+        1965
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-bd68ca0c9982",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Rub Al-Khali (Shilaif Fm.) Tight Oil, AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "ADNOC* (100%)"
+      ]
+    },
+    {
+      "id": "adnoc-4af7bcdfdd7d",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Ruwais Diyab (Shale), AE",
+      "sourceOperators": [
+        "ADNOC"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2020,
+        2030
+      ],
+      "startupYears": [
+        2020,
+        2030
+      ],
+      "ownerships": [
+        "ADNOC* (90%); TotalEnergies (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-9eb60090e27c",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Ruwais LNG T1-T2, AE",
+      "sourceOperators": [
+        "ADNOC LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore",
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960,
+        1962,
+        1965
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "ADNOC LNG* (0%); ADNOC (60%); BP (10%); Mitsui (10%); Shell (10%); TotalEnergies (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-2f4eea2450af",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "SARB (Deep Gas), AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-8fe723d2c885",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Satah Al Razboot/Umm Al Lulu, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        1981
+      ],
+      "approvalYears": [
+        2011,
+        2013,
+        2040,
+        2054
+      ],
+      "startupYears": [
+        2014,
+        2018,
+        2045,
+        2058
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
+      ]
+    },
+    {
+      "id": "adnoc-d9faf35de36a",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Shah, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1983
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-076ab831baa1",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Shuwaihat, AE",
+      "sourceOperators": [
+        "ADNOC Ghasha"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
+      ]
+    },
+    {
+      "id": "adnoc-9ac4a6a83f9d",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "South East Bab, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967,
+        1975,
+        1976
+      ],
+      "approvalYears": [
+        1971,
+        2010,
+        2015,
+        2018,
+        2023,
+        2024
+      ],
+      "startupYears": [
+        1975,
+        2013,
+        2019,
+        2023,
+        2028,
+        2029
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-253c944a0dcb",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Umm Al-Dalkh Field/Satah, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); Inpex (40%)"
+      ]
+    },
+    {
+      "id": "adnoc-94e0f187e291",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Umm Al-Dalkh, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1981,
+        2021,
+        2030
+      ],
+      "startupYears": [
+        1985,
+        2023,
+        2032
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); Inpex (40%)"
+      ]
+    },
+    {
+      "id": "adnoc-48fa2fd7aaca",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Umm Shaif/Nasr, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1958,
+        1971
+      ],
+      "approvalYears": [
+        1961,
+        2011,
+        2014,
+        2021,
+        2025,
+        2026,
+        2050
+      ],
+      "startupYears": [
+        1962,
+        2015,
+        2019,
+        2028,
+        2029,
+        2055
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); TotalEnergies (20%); Eni (10%); PetroChina (6%); CNOOC (4%)"
+      ]
+    },
+    {
+      "id": "adnoc-7fba95a24278",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Umm Shaiff (Khuff Gas Expansion), AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1958
+      ],
+      "approvalYears": [
+        2027,
+        2033
+      ],
+      "startupYears": [
+        2031,
+        2037
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); TotalEnergies (20%); Eni (10%); PetroChina (6%); CNOOC (4%)"
+      ]
+    },
+    {
+      "id": "adnoc-3e30109e9678",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Upper Zakum, AE",
+      "sourceOperators": [
+        "ADNOC Offshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        1977,
+        2012,
+        2024,
+        2027,
+        2055
+      ],
+      "startupYears": [
+        1982,
+        2014,
+        2029,
+        2030,
+        2059
+      ],
+      "ownerships": [
+        "ADNOC Offshore* (0%); ADNOC (60%); ExxonMobil (28%); Inpex (12%)"
+      ]
+    },
+    {
+      "id": "adnoc-4af08213dc62",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Uwaisa, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    },
+    {
+      "id": "adnoc-f7136f1bd056",
+      "operator": "ADNOC",
+      "country": "UAE",
+      "project": "Zarrarah, AE",
+      "sourceOperators": [
+        "ADNOC Onshore"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
+      ]
+    }
+  ]
+}

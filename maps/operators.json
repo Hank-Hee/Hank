@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（统一格式及业务区域最新版）.xlsx",
+    "locationRule": "Country-level Natural Earth label points; not project coordinates"
+  },
+  "operators": [
+    {
+      "name": "Shell",
+      "slug": "shell",
+      "aliases": [
+        "Shell"
+      ],
+      "dataFile": "data/shell.json",
+      "projectCount": 552,
+      "countryCount": 32,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "BP",
+      "slug": "bp",
+      "aliases": [
+        "BP"
+      ],
+      "dataFile": "data/bp.json",
+      "projectCount": 396,
+      "countryCount": 13,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Eni",
+      "slug": "eni",
+      "aliases": [
+        "Eni"
+      ],
+      "dataFile": "data/eni.json",
+      "projectCount": 437,
+      "countryCount": 35,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "ADNOC",
+      "slug": "adnoc",
+      "aliases": [
+        "ADNOC"
+      ],
+      "dataFile": "data/adnoc.json",
+      "projectCount": 49,
+      "countryCount": 1,
+      "businessRegions": [
+        "中东及南亚"
+      ]
+    }
+  ]
+}
