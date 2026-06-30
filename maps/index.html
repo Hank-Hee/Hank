@@ -8,7 +8,7 @@
     <title>公司项目分布地图</title>
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
-    <link rel="stylesheet" href="styles.css?v=20260630-dot" />
+    <link rel="stylesheet" href="styles.css?v=20260630-global" />
   </head>
   <body>
     <main class="map-app">
@@ -19,7 +19,7 @@
         <div class="header-copy">
           <div class="eyebrow">PROJECT FOOTPRINT · 2026</div>
           <h1><span id="operator-name">Shell</span> 项目分布</h1>
-          <p><strong id="total-projects">0</strong> 个项目 · 区域级展示</p>
+          <p><strong id="total-projects">0</strong> 个项目 · <span id="map-scope">全球展示</span></p>
         </div>
       </header>
 
@@ -58,18 +58,15 @@
       <div class="map-legend">
         <span class="legend-symbol"></span>
         <span>圆点数字代表项目数量</span>
-        <span class="legend-separator"></span>
-        <span>点位为国家级聚合，不代表项目坐标</span>
       </div>
 
-      <div id="empty-state" class="empty-state" hidden>
-        <strong>没有找到该公司的项目</strong>
-        <span>请检查链接中的 operator 参数。</span>
+      <div id="empty-state" class="empty-state" role="status">
+        <strong>正在加载地图数据</strong>
+        <span>请稍候。</span>
       </div>
     </main>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="data.js?v=20260630-dot"></script>
-    <script src="app.js?v=20260630-dot"></script>
+    <script type="module" src="app.js?v=20260630-global"></script>
   </body>
 </html>
