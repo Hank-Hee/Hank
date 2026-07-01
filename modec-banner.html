@@ -250,9 +250,21 @@
       </div>
       <div class="update-block">
         <span>数据更新</span>
-        <strong>2026 Q2</strong>
+        <strong data-current-quarter>2026 Q3</strong>
       </div>
     </section>
   </main>
+  <script>
+    (() => {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "Asia/Shanghai",
+        year: "numeric",
+        month: "numeric"
+      }).formatToParts(new Date());
+      const value = (type) => Number(parts.find((part) => part.type === type).value);
+      document.querySelector("[data-current-quarter]").textContent =
+        `${value("year")} Q${Math.ceil(value("month") / 3)}`;
+    })();
+  </script>
 </body>
 </html>
