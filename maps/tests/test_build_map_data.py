@@ -5,6 +5,7 @@ from pathlib import Path
 
 from maps.tools.build_map_data import (
     aggregate_rows,
+    build_country_index,
     build_payloads,
     company_for_operator,
     stable_project_id,
@@ -101,6 +102,16 @@ class BuildMapDataTests(unittest.TestCase):
         config = json.loads(config_path.read_text(encoding="utf-8"))
 
         self.assertEqual(set(config["companies"]), {"Shell", "BP", "Eni", "ADNOC"})
+
+    def test_country_index_does_not_let_territories_shadow_sovereign_country_names(self):
+        features = [
+            {"properties": {"NAME": "St. Maarten", "SOVEREIGNT": "Netherlands", "NAME_ZH": "荷属圣马丁"}},
+            {"properties": {"NAME": "Netherlands", "SOVEREIGNT": "Netherlands", "NAME_ZH": "荷兰"}},
+        ]
+
+        index = build_country_index(features)
+
+        self.assertEqual(index["netherlands"]["NAME_ZH"], "荷兰")
 
 
 if __name__ == "__main__":

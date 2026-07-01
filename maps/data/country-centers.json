@@ -304,11 +304,11 @@
     },
     "Netherlands": {
       "sourceName": "Netherlands",
-      "nameZh": "荷属圣马丁",
-      "isoA2": "SX",
+      "nameZh": "荷兰",
+      "isoA2": "NL",
       "center": [
-        18.04088,
-        -63.070133
+        52.422211,
+        5.61144
       ]
     },
     "Nigeria": {
@@ -466,11 +466,11 @@
     },
     "United Kingdom": {
       "sourceName": "United Kingdom",
-      "nameZh": "泽凯利亚军营",
-      "isoA2": "-99",
+      "nameZh": "英国",
+      "isoA2": "GB",
       "center": [
-        35.011042,
-        33.790583
+        54.402739,
+        -2.116346
       ]
     },
     "United States": {

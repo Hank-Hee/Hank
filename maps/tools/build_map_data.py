@@ -252,16 +252,22 @@ def _load_natural_earth(source: str = NATURAL_EARTH_URL) -> dict:
     return json.loads(Path(source).read_text(encoding="utf-8"))
 
 
-def build_country_centers(countries: set[str], natural_earth_source: str = NATURAL_EARTH_URL):
-    geojson = _load_natural_earth(natural_earth_source)
+def build_country_index(features: list[dict]) -> dict[str, dict]:
+    """Index each map unit by its own names, never by a territory's sovereign."""
     index = {}
-    name_fields = ("NAME", "NAME_LONG", "ADMIN", "SOVEREIGNT", "BRK_NAME", "FORMAL_EN", "NAME_EN", "ISO_A2", "ISO_A3", "ADM0_A3")
-    for feature in geojson["features"]:
+    name_fields = ("NAME", "NAME_LONG", "ADMIN", "BRK_NAME", "FORMAL_EN", "NAME_EN", "ISO_A2", "ISO_A3", "ADM0_A3")
+    for feature in features:
         properties = feature["properties"]
         for field in name_fields:
             value = properties.get(field)
             if value and value != "-99":
                 index.setdefault(_normalize_country(str(value)), properties)
+    return index
+
+
+def build_country_centers(countries: set[str], natural_earth_source: str = NATURAL_EARTH_URL):
+    geojson = _load_natural_earth(natural_earth_source)
+    index = build_country_index(geojson["features"])
 
     centers = {}
     missing = []
