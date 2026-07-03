@@ -30,5 +30,10 @@ assert.match(css, /@media \(max-width: 520px\)/);
 assert.match(css, /\.donut-segment\.is-active/);
 assert.match(css, /\.legend-row\.is-active/);
 assert.match(css, /min-height:\s*350px/);
+const segmentRule = css.match(/\.donut-segment\s*\{([\s\S]*?)\}/)?.[1] || "";
+assert.ok(
+  !/transform-(?:box|origin)/.test(segmentRule),
+  "SVG segment rotation must use its SVG transform without a conflicting CSS transform box",
+);
 
 console.log("Project type chart UI contract checks passed");

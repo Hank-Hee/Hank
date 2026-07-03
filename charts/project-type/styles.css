@@ -177,8 +177,6 @@ button {
   stroke-linecap: butt;
   cursor: pointer;
   outline: none;
-  transform-box: fill-box;
-  transform-origin: center;
   transition: stroke-width 160ms ease, filter 160ms ease, opacity 160ms ease;
 }
 
