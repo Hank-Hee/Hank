@@ -3,12 +3,12 @@ import {
   buildProjectTypeMix,
   formatPercent,
   resolveOperator,
-} from "./chart-core.js?v=20260703-project-type";
+} from "./chart-core.js?v=20260703-project-type-panel";
 
-const VERSION = "20260703-project-type";
+const VERSION = "20260703-project-type-panel";
 const SVG_NS = "http://www.w3.org/2000/svg";
-const CENTER = { x: 145, y: 126 };
-const RADIUS = 82;
+const CENTER = { x: 160, y: 134 };
+const RADIUS = 100;
 
 const dom = {
   card: document.querySelector(".dashboard-card"),
@@ -37,11 +37,13 @@ const setActive = (item, sourceElement, pointerEvent) => {
   const swatch = dom.tooltip.querySelector(".tooltip-swatch");
   const label = dom.tooltip.querySelector(".tooltip-copy strong");
   const english = dom.tooltip.querySelector(".tooltip-copy small");
-  const value = dom.tooltip.querySelector(".tooltip-value");
+  const count = dom.tooltip.querySelector(".tooltip-count");
+  const percent = dom.tooltip.querySelector(".tooltip-percent");
   swatch.style.setProperty("--segment-color", item.color);
   label.textContent = item.label;
   english.textContent = item.englishLabel;
-  value.textContent = `${item.count} · ${item.percent}`;
+  count.textContent = `${item.count} 个`;
+  percent.textContent = item.percent;
   dom.tooltip.hidden = false;
 
   const cardRect = dom.card.getBoundingClientRect();
@@ -82,7 +84,7 @@ const renderLegendRow = (item) => {
   row.type = "button";
   row.className = "legend-row";
   row.dataset.typeKey = item.key;
-  row.setAttribute("aria-label", `${item.label}，${item.count} 个项目，${item.percent}`);
+  row.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}`);
   row.innerHTML = `
     <span class="legend-swatch" aria-hidden="true"></span>
     <span class="legend-copy"><strong></strong><small></small></span>
@@ -93,8 +95,8 @@ const renderLegendRow = (item) => {
   row.style.setProperty("--segment-color", item.color);
   row.querySelector("strong").textContent = item.label;
   row.querySelector("small").textContent = item.englishLabel;
-  row.querySelector(".legend-count").textContent = `${item.count} 项`;
-  row.querySelector(".legend-percent").textContent = item.percent;
+  row.querySelector(".legend-count").textContent = `${item.count} 个项目`;
+  row.querySelector(".legend-percent").textContent = `占比 ${item.percent}`;
   bindInteraction(row, item);
   return row;
 };
@@ -112,7 +114,7 @@ const renderSegment = (item) => {
   segment.setAttribute("transform", `rotate(-90 ${CENTER.x} ${CENTER.y})`);
   segment.setAttribute("role", "img");
   segment.setAttribute("tabindex", "0");
-  segment.setAttribute("aria-label", `${item.label}，${item.count} 个项目，${item.percent}`);
+  segment.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}`);
   bindInteraction(segment, item);
   return segment;
 };

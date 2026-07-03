@@ -32,11 +32,10 @@ button {
   display: flex;
   min-height: 350px;
   height: 100svh;
-  max-height: 540px;
   flex-direction: column;
   overflow: hidden;
   border: 1px solid rgba(113, 141, 164, 0.28);
-  border-radius: 16px;
+  border-radius: 14px;
   background:
     radial-gradient(circle at 1px 1px, rgba(31, 87, 113, 0.08) 1px, transparent 1.2px) 0 0 / 19px 19px,
     linear-gradient(135deg, rgba(255, 255, 255, 0.99), rgba(245, 249, 251, 0.98));
@@ -46,11 +45,11 @@ button {
 
 .dashboard-card::after {
   position: absolute;
-  right: -72px;
-  bottom: -96px;
-  width: 280px;
-  height: 280px;
-  border: 54px solid rgba(35, 139, 141, 0.055);
+  right: -88px;
+  bottom: -110px;
+  width: 300px;
+  height: 300px;
+  border: 58px solid rgba(35, 139, 141, 0.045);
   border-radius: 50%;
   content: "";
   z-index: -1;
@@ -80,81 +79,51 @@ button {
 
 .chart-header {
   display: flex;
-  min-height: 84px;
+  min-height: 58px;
   align-items: center;
-  gap: 14px;
-  padding: 19px 28px 12px;
+  gap: 11px;
+  padding: 14px 18px 8px;
 }
 
 .header-mark {
-  width: 4px;
-  height: 43px;
+  width: 3px;
+  height: 30px;
   flex: 0 0 auto;
   border-radius: 99px;
   background: linear-gradient(180deg, #238b8d, #3277bd);
-  box-shadow: 0 0 0 5px rgba(35, 139, 141, 0.08);
-}
-
-.eyebrow {
-  margin: 0 0 3px;
-  color: #688197;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.18em;
+  box-shadow: 0 0 0 4px rgba(35, 139, 141, 0.07);
 }
 
 .chart-header h1 {
   margin: 0;
   color: #102a43;
-  font-size: clamp(20px, 2.7vw, 27px);
+  font-size: clamp(18px, 2.8vw, 23px);
   line-height: 1.2;
   letter-spacing: -0.035em;
-}
-
-.source-badge {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  margin-left: auto;
-  padding: 7px 10px;
-  border: 1px solid rgba(105, 131, 151, 0.2);
-  border-radius: 999px;
-  color: #587084;
-  background: rgba(255, 255, 255, 0.7);
-  font-size: 9px;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  white-space: nowrap;
-}
-
-.source-badge span {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #238b8d;
-  box-shadow: 0 0 0 4px rgba(35, 139, 141, 0.11);
 }
 
 .chart-layout {
   display: grid;
   min-height: 0;
   flex: 1;
-  grid-template-columns: minmax(285px, 1.13fr) minmax(245px, 0.87fr);
-  align-items: center;
-  gap: clamp(8px, 2vw, 26px);
-  padding: 0 28px 20px 20px;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 8px;
+  padding: 0 18px 16px;
 }
 
 .donut-stage {
   display: grid;
   min-width: 0;
-  min-height: 245px;
+  min-height: 210px;
   place-items: center;
 }
 
 #project-type-chart {
-  width: min(100%, 345px);
-  height: 252px;
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  max-height: 278px;
+  aspect-ratio: 320 / 268;
   overflow: visible;
 }
 
@@ -162,7 +131,7 @@ button {
 .donut-inner {
   fill: none;
   stroke: #e8eef3;
-  stroke-width: 36;
+  stroke-width: 40;
 }
 
 .donut-inner {
@@ -173,7 +142,7 @@ button {
 
 .donut-segment {
   fill: none;
-  stroke-width: 36;
+  stroke-width: 40;
   stroke-linecap: butt;
   cursor: pointer;
   outline: none;
@@ -186,13 +155,13 @@ button {
 
 .donut-segment.is-active,
 .donut-segment:focus-visible {
-  stroke-width: 44;
+  stroke-width: 48;
   filter: drop-shadow(0 7px 9px rgba(30, 62, 82, 0.2));
 }
 
 .donut-total {
   fill: #102a43;
-  font-size: 31px;
+  font-size: 34px;
   font-weight: 800;
   letter-spacing: -0.04em;
 }
@@ -206,22 +175,22 @@ button {
 .chart-legend {
   display: grid;
   min-width: 0;
-  align-content: center;
-  gap: 7px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
 }
 
 .legend-row {
   display: grid;
   width: 100%;
-  min-height: 48px;
-  grid-template-columns: 11px minmax(0, 1fr) auto;
+  min-height: 56px;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 11px;
-  padding: 7px 10px;
-  border: 1px solid transparent;
+  gap: 9px;
+  padding: 8px 10px;
+  border: 1px solid rgba(105, 131, 151, 0.12);
   border-radius: 10px;
   color: #102a43;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.55);
   text-align: left;
   cursor: pointer;
   transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
@@ -234,12 +203,12 @@ button {
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 8px 20px rgba(35, 64, 84, 0.07);
   outline: none;
-  transform: translateX(-3px);
+  transform: translateY(-2px);
 }
 
 .legend-swatch {
-  width: 11px;
-  height: 30px;
+  width: 10px;
+  height: 34px;
   border-radius: 999px;
   background: var(--segment-color);
 }
@@ -270,20 +239,23 @@ button {
 
 .legend-metrics {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
   text-align: right;
 }
 
 .legend-count {
-  color: #7b8d9d;
-  font-size: 10px;
+  color: #5f7689;
+  font-size: 11px;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
 
 .legend-percent {
-  min-width: 42px;
-  font-size: 13px;
+  min-width: 66px;
+  color: #102a43;
+  font-size: 12px;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
 }
@@ -291,8 +263,8 @@ button {
 .chart-tooltip {
   position: absolute;
   display: grid;
-  min-width: 196px;
-  grid-template-columns: 8px minmax(0, 1fr) auto;
+  min-width: 232px;
+  grid-template-columns: 8px minmax(0, 1fr);
   align-items: center;
   gap: 10px;
   padding: 11px 12px;
@@ -311,7 +283,7 @@ button {
 
 .tooltip-swatch {
   width: 8px;
-  height: 28px;
+  height: 54px;
   border-radius: 99px;
   background: var(--segment-color);
 }
@@ -330,7 +302,33 @@ button {
   font-size: 9px;
 }
 
-.tooltip-value {
+.tooltip-body {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.tooltip-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 7px;
+  padding-top: 7px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.tooltip-metrics span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.tooltip-metrics small {
+  color: #9fb2c1;
+  font-size: 9px;
+}
+
+.tooltip-metrics strong {
   font-size: 13px;
   font-weight: 800;
   white-space: nowrap;
@@ -338,7 +336,7 @@ button {
 
 .chart-state {
   position: absolute;
-  inset: 84px 0 0;
+  inset: 58px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,45 +374,35 @@ button {
     padding-inline: 20px;
   }
 
-  .source-badge {
-    display: none;
-  }
-
   .chart-layout {
-    grid-template-columns: minmax(250px, 1fr) minmax(220px, 0.82fr);
-    padding-inline: 12px 18px;
+    padding-inline: 14px;
   }
 }
 
 @media (max-width: 520px) {
   .dashboard-card {
     height: auto;
-    max-height: none;
+    min-height: 500px;
     border-radius: 14px;
   }
 
   .chart-header {
-    min-height: 80px;
-    padding: 17px 18px 8px;
+    min-height: 58px;
+    padding: 14px 18px 8px;
   }
 
   .chart-layout {
-    grid-template-columns: 1fr;
-    gap: 0;
-    padding: 0 14px 18px;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    padding: 0 14px 14px;
   }
 
   .donut-stage {
-    min-height: 232px;
+    min-height: 270px;
   }
 
   #project-type-chart {
-    height: 232px;
-  }
-
-  .chart-legend {
-    grid-template-columns: 1fr 1fr;
-    gap: 7px;
+    height: 270px;
   }
 
   .legend-row {
@@ -431,7 +419,67 @@ button {
 
   .legend-metrics {
     grid-column: 2;
+    flex-direction: row;
+    align-items: baseline;
     justify-content: space-between;
+  }
+
+  .legend-percent {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .chart-legend {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-height: 410px) and (min-width: 521px) {
+  .chart-layout {
+    gap: 4px;
+    padding-bottom: 10px;
+  }
+
+  .donut-stage {
+    min-height: 190px;
+  }
+
+  #project-type-chart {
+    max-height: 220px;
+  }
+
+  .chart-legend {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .legend-row {
+    min-height: 54px;
+    grid-template-columns: 8px minmax(0, 1fr);
+    gap: 7px;
+    padding: 6px 7px;
+  }
+
+  .legend-swatch {
+    width: 8px;
+    height: 32px;
+  }
+
+  .legend-copy small {
+    display: none;
+  }
+
+  .legend-metrics {
+    grid-column: 2;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .legend-count,
+  .legend-percent {
+    font-size: 9px;
   }
 
   .legend-percent {
