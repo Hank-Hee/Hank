@@ -28,7 +28,7 @@ SERIES = [
         "nameEn": "Brent Crude Oil",
         "unit": "USD/bbl",
         "group": "oil",
-        "color": "#2f80ed",
+        "color": "#c94a3a",
         "sourceUrl": "https://finance.yahoo.com/quote/BZ=F",
     },
     {
@@ -38,7 +38,7 @@ SERIES = [
         "nameEn": "WTI Crude Oil",
         "unit": "USD/bbl",
         "group": "oil",
-        "color": "#16a085",
+        "color": "#2b8f8c",
         "sourceUrl": "https://finance.yahoo.com/quote/CL=F",
     },
     {
@@ -48,7 +48,7 @@ SERIES = [
         "nameEn": "NYMEX Natural Gas",
         "unit": "USD/MMBtu",
         "group": "gas",
-        "color": "#4f7fd1",
+        "color": "#356fa6",
         "sourceUrl": "https://finance.yahoo.com/quote/NG=F",
     },
     {
@@ -58,7 +58,7 @@ SERIES = [
         "nameEn": "JKM LNG",
         "unit": "USD/MMBtu",
         "group": "gas",
-        "color": "#e05a47",
+        "color": "#dfad2f",
         "sourceUrl": "https://finance.yahoo.com/quote/JKM=F",
     },
 ]

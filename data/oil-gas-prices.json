@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T05:31:56+00:00",
+  "generatedAt": "2026-07-07T07:51:06+00:00",
   "startDate": "2025-01-01",
   "endDate": "2026-07-07",
   "source": {
@@ -15,7 +15,7 @@
       "nameEn": "Brent Crude Oil",
       "unit": "USD/bbl",
       "group": "oil",
-      "color": "#2f80ed",
+      "color": "#c94a3a",
       "sourceUrl": "https://finance.yahoo.com/quote/BZ=F",
       "data": [
         [
@@ -1532,27 +1532,27 @@
         ],
         [
           "2026-07-07",
-          72.65
+          72.89
         ]
       ],
       "latest": {
         "date": "2026-07-07",
-        "price": 72.65,
+        "price": 72.89,
         "day": {
-          "value": 0.66,
-          "pct": 0.92
+          "value": 0.9,
+          "pct": 1.25
         },
         "week": {
-          "value": -0.27,
-          "pct": -0.37
+          "value": -0.03,
+          "pct": -0.04
         },
         "month": {
-          "value": -20.44,
-          "pct": -21.96
+          "value": -20.2,
+          "pct": -21.7
         },
         "ytd": {
-          "value": 11.9,
-          "pct": 19.59
+          "value": 12.14,
+          "pct": 19.98
         }
       }
     },
@@ -1563,7 +1563,7 @@
       "nameEn": "WTI Crude Oil",
       "unit": "USD/bbl",
       "group": "oil",
-      "color": "#16a085",
+      "color": "#2b8f8c",
       "sourceUrl": "https://finance.yahoo.com/quote/CL=F",
       "data": [
         [
@@ -3080,27 +3080,27 @@
         ],
         [
           "2026-07-07",
-          69.12
+          69.41
         ]
       ],
       "latest": {
         "date": "2026-07-07",
-        "price": 69.12,
+        "price": 69.41,
         "day": {
-          "value": 0.57,
-          "pct": 0.83
+          "value": 0.86,
+          "pct": 1.25
         },
         "week": {
-          "value": -0.38,
-          "pct": -0.55
+          "value": -0.09,
+          "pct": -0.13
         },
         "month": {
-          "value": -21.42,
-          "pct": -23.66
+          "value": -21.13,
+          "pct": -23.34
         },
         "ytd": {
-          "value": 11.8,
-          "pct": 20.59
+          "value": 12.09,
+          "pct": 21.09
         }
       }
     },
@@ -3111,7 +3111,7 @@
       "nameEn": "NYMEX Natural Gas",
       "unit": "USD/MMBtu",
       "group": "gas",
-      "color": "#4f7fd1",
+      "color": "#356fa6",
       "sourceUrl": "https://finance.yahoo.com/quote/NG=F",
       "data": [
         [
@@ -4628,27 +4628,27 @@
         ],
         [
           "2026-07-07",
-          3.224
+          3.278
         ]
       ],
       "latest": {
         "date": "2026-07-07",
-        "price": 3.224,
+        "price": 3.278,
         "day": {
-          "value": -0.021,
-          "pct": -0.65
+          "value": 0.033,
+          "pct": 1.02
         },
         "week": {
-          "value": -0.051,
-          "pct": -1.56
+          "value": 0.003,
+          "pct": 0.09
         },
         "month": {
-          "value": -0.005,
-          "pct": -0.15
+          "value": 0.049,
+          "pct": 1.52
         },
         "ytd": {
-          "value": -0.394,
-          "pct": -10.89
+          "value": -0.34,
+          "pct": -9.4
         }
       }
     },
@@ -4659,7 +4659,7 @@
       "nameEn": "JKM LNG",
       "unit": "USD/MMBtu",
       "group": "gas",
-      "color": "#e05a47",
+      "color": "#dfad2f",
       "sourceUrl": "https://finance.yahoo.com/quote/JKM=F",
       "data": [
         [
