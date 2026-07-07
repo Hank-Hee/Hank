@@ -152,7 +152,8 @@
       return;
     }
 
-    widget.querySelector("[data-role='range']").textContent = `${data.startDate} 至 ${data.endDate}`;
+    const rangeNode = widget.querySelector("[data-role='range']");
+    if (rangeNode) rangeNode.textContent = `${data.startDate} 至 ${data.endDate}`;
     widget.querySelector("[data-role='updated']").textContent = formatDateTime(data.generatedAt);
     widget.querySelector("[data-role='source']").href = data.source.url;
     renderMetrics(widget, series);
