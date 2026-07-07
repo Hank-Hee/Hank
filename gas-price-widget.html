@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>天然气与 LNG 价格走势 | Daily Natural Gas & LNG Prices</title>
+  <link rel="stylesheet" href="assets/oil-gas-widget.css">
+  <script src="assets/echarts.min.js"></script>
+  <script src="assets/oil-gas-widget.js" defer></script>
+</head>
+<body>
+  <main class="og-shell">
+    <article class="og-widget og-widget--single" data-group="gas" data-unit-label="美元/MMBtu">
+      <div class="og-state" data-role="state">数据加载中...</div>
+      <div data-role="content" hidden>
+        <header class="og-head">
+          <div class="og-title">
+            <h1>天然气与 LNG 价格走势</h1>
+            <span>Daily Natural Gas & LNG Prices</span>
+          </div>
+          <div class="og-meta">
+            <div>区间：<span data-role="range">--</span></div>
+            <div>更新：<span data-role="updated">--</span></div>
+          </div>
+        </header>
+        <div class="og-metrics" data-role="metrics"></div>
+        <div class="og-chart" data-role="chart" aria-label="天然气与 LNG 价格走势"></div>
+        <footer class="og-foot">
+          <span>悬停查看日期与价格</span>
+          <a data-role="source" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">Yahoo Finance</a>
+        </footer>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
