@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>油气价格波动 | Oil & Gas Price Volatility</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #0a2540;
+      --muted: #5d6b82;
+      --line: #dbe4ef;
+      --soft: #eef3f8;
+      --up: #c23b22;
+      --down: #087f5b;
+      --blue: #2f80ed;
+      --teal: #16a085;
+      --amber: #d99018;
+      --coral: #e05a47;
+      --shadow: 0 8px 24px rgba(10, 37, 64, .07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .dashboard {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 2px 16px;
+    }
+
+    .title-group h1 {
+      margin: 0 0 6px;
+      font-size: clamp(22px, 2.4vw, 32px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .title-group p,
+    .meta-line {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .meta-line {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .metric-card {
+      min-height: 126px;
+      padding: 14px 14px 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--blue);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .metric-card[data-key="wti"] {
+      border-top-color: var(--teal);
+    }
+
+    .metric-card[data-key="nymex_gas"] {
+      border-top-color: var(--amber);
+    }
+
+    .metric-card[data-key="jkm_lng"] {
+      border-top-color: var(--coral);
+    }
+
+    .metric-label {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 4px 8px;
+      min-height: 38px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .metric-label strong {
+      color: var(--ink);
+      font-size: 15px;
+    }
+
+    .metric-value {
+      display: flex;
+      align-items: baseline;
+      gap: 7px;
+      margin-top: 4px;
+    }
+
+    .metric-value strong {
+      font-size: 30px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .metric-value span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .metric-changes {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+      margin-top: 12px;
+      font-size: 12px;
+    }
+
+    .metric-chip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      min-height: 28px;
+      padding: 5px 7px;
+      background: var(--soft);
+      border-radius: 6px;
+      color: var(--muted);
+    }
+
+    .metric-chip b {
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    .metric-chip .up {
+      color: var(--up);
+    }
+
+    .metric-chip .down {
+      color: var(--down);
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .chart-panel {
+      min-width: 0;
+      min-height: 510px;
+      padding: 16px 16px 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .chart-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 46px;
+    }
+
+    .chart-head h2 {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+
+    .chart-head span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .chart-unit {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .chart {
+      width: 100%;
+      height: 430px;
+    }
+
+    .source-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px 16px;
+      margin-top: 12px;
+      padding: 10px 2px 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .source-bar a {
+      color: #2454a6;
+      text-decoration: none;
+    }
+
+    .state {
+      display: grid;
+      min-height: 180px;
+      place-items: center;
+      padding: 22px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 1100px) {
+      .metric-grid,
+      .chart-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 700px) {
+      .dashboard {
+        padding: 12px;
+      }
+
+      .topbar {
+        display: block;
+      }
+
+      .meta-line {
+        margin-top: 8px;
+        text-align: left;
+        white-space: normal;
+      }
+
+      .metric-grid,
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .chart-panel {
+        min-height: 430px;
+        padding: 13px 10px 10px;
+      }
+
+      .chart {
+        height: 360px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="dashboard">
+    <header class="topbar">
+      <div class="title-group">
+        <h1>油气价格波动</h1>
+        <p>Oil & Gas Price Volatility Dashboard</p>
+      </div>
+      <p class="meta-line">
+        数据区间：<span id="dataRange">--</span><br>
+        更新时间：<span id="updatedAt">--</span>
+      </p>
+    </header>
+
+    <section id="state" class="state">数据加载中...</section>
+
+    <section id="metrics" class="metric-grid" hidden></section>
+
+    <section id="charts" class="chart-grid" hidden>
+      <article class="chart-panel">
+        <div class="chart-head">
+          <h2>原油价格走势<span>Daily Crude Oil Prices</span></h2>
+          <div class="chart-unit">美元/桶</div>
+        </div>
+        <div id="oilChart" class="chart" aria-label="原油价格走势"></div>
+      </article>
+
+      <article class="chart-panel">
+        <div class="chart-head">
+          <h2>天然气与 LNG 价格走势<span>Daily Natural Gas & LNG Prices</span></h2>
+          <div class="chart-unit">美元/MMBtu</div>
+        </div>
+        <div id="gasChart" class="chart" aria-label="天然气与 LNG 价格走势"></div>
+      </article>
+    </section>
+
+    <footer class="source-bar">
+      <span>数据来源：<a id="sourceLink" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">Yahoo Finance</a> 延迟期货行情；页面每日自动刷新数据。</span>
+      <span>品种：Brent、WTI、NYMEX Natural Gas、JKM LNG</span>
+    </footer>
+  </main>
+
+  <script>
+    const DATA_URL = "data/oil-gas-prices.json";
+    const numberFormat = new Intl.NumberFormat("zh-CN", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+    const compactNumberFormat = new Intl.NumberFormat("zh-CN", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 4
+    });
+
+    const charts = [];
+
+    function formatPrice(value) {
+      return value >= 10 ? numberFormat.format(value) : compactNumberFormat.format(value);
+    }
+
+    function formatPct(change) {
+      if (!change || change.pct === null || Number.isNaN(change.pct)) return "--";
+      const sign = change.pct > 0 ? "+" : "";
+      return `${sign}${change.pct.toFixed(2)}%`;
+    }
+
+    function changeTone(change) {
+      if (!change || change.pct === null) return "";
+      if (change.pct > 0) return "up";
+      if (change.pct < 0) return "down";
+      return "";
+    }
+
+    function formatDateTime(isoText) {
+      return new Date(isoText).toLocaleString("zh-CN", {
+        timeZone: "Asia/Shanghai",
+        hour12: false,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function renderMetricCards(series) {
+      const metrics = document.getElementById("metrics");
+      metrics.innerHTML = series.map((item) => `
+        <article class="metric-card" data-key="${item.key}">
+          <div class="metric-label">
+            <strong>${item.nameZh}</strong>
+            <span>${item.nameEn}</span>
+          </div>
+          <div class="metric-value">
+            <strong>${formatPrice(item.latest.price)}</strong>
+            <span>${item.unit}</span>
+          </div>
+          <div class="metric-changes">
+            <span class="metric-chip">日涨跌 <b class="${changeTone(item.latest.day)}">${formatPct(item.latest.day)}</b></span>
+            <span class="metric-chip">周涨跌 <b class="${changeTone(item.latest.week)}">${formatPct(item.latest.week)}</b></span>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function makeChartOption(title, items, yName) {
+      const lookup = Object.fromEntries(items.map((item) => [item.nameZh, item]));
+      return {
+        color: items.map((item) => item.color),
+        animationDuration: 600,
+        legend: {
+          top: 2,
+          right: 4,
+          itemWidth: 11,
+          itemHeight: 11,
+          textStyle: { color: "#34445b", fontSize: 12 }
+        },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: { type: "cross", label: { backgroundColor: "#405166" } },
+          backgroundColor: "rgba(255, 255, 255, .96)",
+          borderColor: "#dbe4ef",
+          borderWidth: 1,
+          textStyle: { color: "#0a2540" },
+          formatter(params) {
+            const date = params[0]?.value?.[0] || "";
+            const rows = params.map((param) => {
+              const item = lookup[param.seriesName];
+              const value = Array.isArray(param.value) ? param.value[1] : param.value;
+              return `<div style="display:flex;gap:16px;align-items:center;justify-content:space-between;min-width:220px;margin-top:5px;">
+                <span>${param.marker}${param.seriesName}</span>
+                <strong>${formatPrice(value)} ${item.unit}</strong>
+              </div>`;
+            }).join("");
+            return `<strong>${date}</strong>${rows}`;
+          }
+        },
+        grid: { left: 54, right: 22, top: 54, bottom: 58 },
+        xAxis: {
+          type: "time",
+          boundaryGap: false,
+          axisLine: { lineStyle: { color: "#aab8ca" } },
+          axisLabel: { color: "#53637a", hideOverlap: true },
+          splitLine: { show: false }
+        },
+        yAxis: {
+          type: "value",
+          name: yName,
+          nameGap: 34,
+          nameLocation: "middle",
+          axisLabel: { color: "#53637a" },
+          splitLine: { lineStyle: { color: "#e8eef5", type: "dashed" } }
+        },
+        dataZoom: [
+          { type: "inside", throttle: 60 },
+          {
+            type: "slider",
+            height: 18,
+            bottom: 14,
+            borderColor: "#dbe4ef",
+            fillerColor: "rgba(47, 128, 237, .18)",
+            handleSize: 16,
+            brushSelect: false
+          }
+        ],
+        series: items.map((item) => ({
+          name: item.nameZh,
+          type: "line",
+          data: item.data,
+          showSymbol: false,
+          symbolSize: 6,
+          smooth: false,
+          connectNulls: true,
+          lineStyle: { width: 2.4 },
+          emphasis: { focus: "series" }
+        }))
+      };
+    }
+
+    function renderCharts(series) {
+      const oilSeries = series.filter((item) => item.group === "oil");
+      const gasSeries = series.filter((item) => item.group === "gas");
+      const oilChart = echarts.init(document.getElementById("oilChart"), null, { renderer: "canvas" });
+      const gasChart = echarts.init(document.getElementById("gasChart"), null, { renderer: "canvas" });
+      oilChart.setOption(makeChartOption("oil", oilSeries, "美元/桶"));
+      gasChart.setOption(makeChartOption("gas", gasSeries, "美元/MMBtu"));
+      charts.push(oilChart, gasChart);
+      window.addEventListener("resize", () => charts.forEach((chart) => chart.resize()));
+    }
+
+    async function boot() {
+      const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+
+      document.getElementById("dataRange").textContent = `${data.startDate} 至 ${data.endDate}`;
+      document.getElementById("updatedAt").textContent = formatDateTime(data.generatedAt);
+      document.getElementById("sourceLink").href = data.source.url;
+      renderMetricCards(data.series);
+      renderCharts(data.series);
+
+      document.getElementById("state").hidden = true;
+      document.getElementById("metrics").hidden = false;
+      document.getElementById("charts").hidden = false;
+    }
+
+    boot().catch((error) => {
+      const state = document.getElementById("state");
+      state.textContent = `数据加载失败：${error.message}`;
+    });
+  </script>
+</body>
+</html>
