@@ -97,44 +97,6 @@
       stroke-width: 1;
     }
 
-    .wave {
-      fill: none;
-      stroke: rgba(47, 111, 228, .30);
-      stroke-width: 1.35;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      animation: wave-drift 7.8s ease-in-out infinite;
-    }
-
-    .wave.secondary {
-      stroke: rgba(79, 183, 188, .32);
-      animation-duration: 9.5s;
-      animation-delay: -1.6s;
-    }
-
-    .wave.tertiary {
-      stroke: rgba(212, 33, 50, .20);
-      animation-duration: 8.8s;
-      animation-delay: -3s;
-    }
-
-    .route-node {
-      fill: #ffffff;
-      stroke: rgba(47, 111, 228, .44);
-      stroke-width: 1.5;
-      animation: node-pulse 4.8s ease-in-out infinite;
-    }
-
-    .route-node.teal {
-      stroke: rgba(79, 183, 188, .52);
-      animation-delay: .8s;
-    }
-
-    .route-node.red {
-      stroke: rgba(212, 33, 50, .50);
-      animation-delay: 1.7s;
-    }
-
     .copy-panel {
       position: absolute;
       left: clamp(30px, 6vw, 92px);
@@ -173,10 +135,10 @@
 
     .fleet-stage {
       position: absolute;
-      right: clamp(12px, 2.5vw, 46px);
+      right: clamp(0px, 2vw, 36px);
       bottom: clamp(18px, 2.8vw, 42px);
       z-index: 3;
-      width: min(57vw, 860px);
+      width: min(54vw, 820px);
       height: min(26vw, 305px);
       min-width: 600px;
       min-height: 245px;
@@ -192,7 +154,8 @@
     .facility-line,
     .facility-soft,
     .facility-fill,
-    .facility-accent {
+    .facility-accent,
+    .vessel-wave {
       vector-effect: non-scaling-stroke;
     }
 
@@ -255,6 +218,28 @@
       letter-spacing: .10em;
     }
 
+    .vessel-wave {
+      fill: none;
+      stroke: rgba(79, 183, 188, .34);
+      stroke-width: 1.35;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      animation: wave-drift 5.8s ease-in-out infinite;
+    }
+
+    .vessel-wave.blue {
+      stroke: rgba(47, 111, 228, .24);
+      animation-duration: 6.4s;
+      animation-delay: -1.2s;
+    }
+
+    .vessel-wave.small {
+      stroke: rgba(79, 183, 188, .30);
+      stroke-width: 1.25;
+      animation-duration: 5.2s;
+      animation-delay: -2s;
+    }
+
     .depth-line {
       position: absolute;
       left: 5.8%;
@@ -265,18 +250,6 @@
       background: linear-gradient(90deg, transparent, rgba(159, 179, 200, .82), transparent);
     }
 
-    .depth-line::before {
-      content: "";
-      position: absolute;
-      left: 58%;
-      top: -2px;
-      width: 132px;
-      height: 5px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, transparent, rgba(79, 183, 188, .48), rgba(212, 33, 50, .42), transparent);
-      transform: translateX(-50%);
-    }
-
     @keyframes wave-drift {
       0%,
       100% {
@@ -284,18 +257,6 @@
       }
       50% {
         transform: translateX(14px);
-      }
-    }
-
-    @keyframes node-pulse {
-      0%,
-      100% {
-        r: 4.5;
-        opacity: .58;
-      }
-      50% {
-        r: 6.5;
-        opacity: .94;
       }
     }
 
@@ -317,8 +278,8 @@
       }
 
       .fleet-stage {
-        right: 10px;
-        width: 61vw;
+        right: 0;
+        width: 55vw;
         opacity: .82;
       }
     }
@@ -389,14 +350,6 @@
         <svg viewBox="0 0 1440 380" preserveAspectRatio="none">
           <path class="sea-line" d="M80 285 C250 250 390 258 540 286 S850 330 1084 284 S1300 220 1410 246"></path>
           <path class="sea-line" d="M-20 96 C190 54 418 64 598 112 S982 178 1220 102 S1544 30 1620 78"></path>
-          <path class="wave" d="M120 246c34-20 68-20 102 0s68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0"></path>
-          <path class="wave secondary" d="M260 302c30-16 60-16 90 0s60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0"></path>
-          <path class="wave tertiary" d="M48 168c28-14 56-14 84 0s56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0"></path>
-          <circle class="route-node teal" cx="336" cy="164" r="4.5"></circle>
-          <circle class="route-node" cx="602" cy="196" r="4.5"></circle>
-          <circle class="route-node red" cx="794" cy="221" r="4.5"></circle>
-          <circle class="route-node teal" cx="1082" cy="203" r="4.5"></circle>
-          <circle class="route-node" cx="1252" cy="151" r="4.5"></circle>
         </svg>
       </div>
 
@@ -409,7 +362,7 @@
         <svg viewBox="0 0 860 305">
           <ellipse class="fleet-shadow" cx="496" cy="268" rx="338" ry="18"></ellipse>
 
-          <g transform="translate(18 104)">
+          <g transform="translate(46 104)">
             <path class="facility-fill" d="M34 104h454l-32 46H72z"></path>
             <path class="facility-line" d="M78 104l28-42h104l19 42"></path>
             <path class="facility-line" d="M246 104l16-54h70l18 54"></path>
@@ -420,6 +373,8 @@
             <path class="facility-accent" d="M420 18h50"></path>
             <circle class="moving-light red" cx="470" cy="18" r="5"></circle>
             <path class="facility-soft" d="M78 165h378"></path>
+            <path class="vessel-wave blue" d="M88 172c24-10 48-10 72 0s48 10 72 0 48-10 72 0 48 10 72 0 48-10 72 0"></path>
+            <path class="vessel-wave" d="M118 186c22-9 44-9 66 0s44 9 66 0 44-9 66 0 44 9 66 0"></path>
             <g>
               <rect class="facility-label-bg" x="112" y="72" width="49" height="20" rx="4"></rect>
               <text class="facility-label" x="121" y="86">FPSO</text>
@@ -438,6 +393,7 @@
             <path class="facility-line" d="M317 84l30-28h44"></path>
             <path class="facility-accent" d="M347 56h45"></path>
             <circle class="moving-light" cx="333" cy="112" r="5"></circle>
+            <path class="vessel-wave small" d="M72 190c20-8 40-8 60 0s40 8 60 0 40-8 60 0 40 8 60 0"></path>
             <g>
               <rect class="facility-label-bg" x="48" y="112" width="58" height="23" rx="4"></rect>
               <text class="facility-label" x="59" y="128" style="font-size: 16px;">FLNG</text>
@@ -455,6 +411,7 @@
             <path class="facility-line" d="M314 112V98h58v14"></path>
             <path class="facility-soft" d="M72 139h280M104 128v20M144 128v20M184 128v20M224 128v20M264 128v20M304 128v20M344 128v20"></path>
             <circle class="moving-light" cx="374" cy="92" r="5"></circle>
+            <path class="vessel-wave small" d="M76 166c20-8 40-8 60 0s40 8 60 0 40-8 60 0 40 8 60 0"></path>
             <g>
               <rect class="facility-label-bg" x="52" y="88" width="61" height="24" rx="4"></rect>
               <text class="facility-label" x="63" y="105" style="font-size: 18px;">FSRU</text>
