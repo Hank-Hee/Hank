@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>行业公司概览</title>
+  <style>
+    :root {
+      --ink: #0b1f3a;
+      --muted: #5c6d84;
+      --soft: #f6f9fc;
+      --line: #d8e3ee;
+      --line-strong: #b8c9db;
+      --blue: #2d6cdf;
+      --cyan: #57b7c7;
+      --red: #cf2434;
+      --gold: #d8a84b;
+      --shadow: 0 18px 44px rgba(34, 72, 112, .08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+      color: var(--ink);
+      font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    .banner-shell {
+      width: 100%;
+      padding: 0;
+    }
+
+    .industry-banner {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      width: 100%;
+      height: clamp(340px, 30vw, 380px);
+      min-height: 340px;
+      border: 1px solid rgba(206, 218, 230, .86);
+      border-radius: 8px;
+      background:
+        radial-gradient(circle at 18% 18%, rgba(87, 183, 199, .18), transparent 26%),
+        radial-gradient(circle at 80% 28%, rgba(45, 108, 223, .12), transparent 30%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+      box-shadow: var(--shadow);
+    }
+
+    .industry-banner::before,
+    .industry-banner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+    }
+
+    .industry-banner::before {
+      background:
+        linear-gradient(rgba(184, 201, 219, .20) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(184, 201, 219, .20) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, #000 48%, transparent 79%);
+      opacity: .45;
+    }
+
+    .industry-banner::after {
+      background:
+        radial-gradient(circle at 50% 50%, transparent 0 16%, rgba(255, 255, 255, .68) 35%, transparent 70%),
+        linear-gradient(90deg, rgba(255, 255, 255, .86), transparent 24%, transparent 76%, rgba(255, 255, 255, .86));
+      z-index: -1;
+    }
+
+    .orbital-field {
+      position: absolute;
+      inset: -28px 8%;
+      z-index: -1;
+      opacity: .78;
+    }
+
+    .orbital-field svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .orbit {
+      fill: none;
+      stroke: rgba(143, 164, 188, .28);
+      stroke-width: 1;
+    }
+
+    .route {
+      fill: none;
+      stroke: rgba(45, 108, 223, .28);
+      stroke-width: 1.4;
+      stroke-linecap: round;
+      stroke-dasharray: 8 18;
+      animation: route-flow 13s linear infinite;
+    }
+
+    .route.alt {
+      stroke: rgba(87, 183, 199, .30);
+      stroke-dasharray: 6 16;
+      animation-duration: 16s;
+      animation-direction: reverse;
+    }
+
+    .node {
+      fill: #ffffff;
+      stroke: rgba(45, 108, 223, .42);
+      stroke-width: 1.4;
+      animation: node-pulse 4.8s ease-in-out infinite;
+    }
+
+    .node.red {
+      stroke: rgba(207, 36, 52, .42);
+      animation-delay: .8s;
+    }
+
+    .node.cyan {
+      stroke: rgba(87, 183, 199, .48);
+      animation-delay: 1.6s;
+    }
+
+    .banner-content {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 38px clamp(28px, 4.8vw, 74px);
+      text-align: center;
+    }
+
+    .module-kicker {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .module-kicker::before,
+    .module-kicker::after {
+      content: "";
+      width: 38px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(45, 108, 223, .42));
+    }
+
+    .module-kicker::after {
+      background: linear-gradient(90deg, rgba(45, 108, 223, .42), transparent);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(42px, 4.6vw, 76px);
+      line-height: 1.04;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 .accent {
+      color: var(--red);
+    }
+
+    .english-title {
+      margin: 14px 0 0;
+      color: #8fa0b4;
+      font-size: clamp(13px, 1.1vw, 16px);
+      line-height: 1.35;
+      font-weight: 700;
+      letter-spacing: .34em;
+      text-transform: uppercase;
+    }
+
+    .left-visual,
+    .right-visual {
+      position: absolute;
+      top: 50%;
+      width: min(25vw, 360px);
+      height: min(18vw, 260px);
+      min-width: 220px;
+      min-height: 168px;
+      transform: translateY(-50%);
+      color: #8ea3ba;
+      opacity: .72;
+      pointer-events: none;
+    }
+
+    .left-visual {
+      left: clamp(20px, 5vw, 86px);
+    }
+
+    .right-visual {
+      right: clamp(20px, 5vw, 86px);
+    }
+
+    .line-art {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .line-art path,
+    .line-art line,
+    .line-art polyline,
+    .line-art rect,
+    .line-art circle {
+      vector-effect: non-scaling-stroke;
+    }
+
+    .art-line {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .art-soft {
+      fill: none;
+      stroke: rgba(142, 163, 186, .34);
+      stroke-width: 1.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .art-fill {
+      fill: rgba(238, 244, 250, .68);
+      stroke: currentColor;
+      stroke-width: 1.2;
+      stroke-linejoin: round;
+    }
+
+    .scan-dot {
+      fill: var(--blue);
+      opacity: .42;
+      animation: scan-dot 6.5s ease-in-out infinite;
+    }
+
+    .right-visual .scan-dot {
+      fill: var(--cyan);
+      animation-delay: 1.8s;
+    }
+
+    .micro-label {
+      position: absolute;
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 10px;
+      border: 1px solid rgba(184, 201, 219, .62);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .78);
+      color: #71849b;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 700;
+      box-shadow: 0 8px 20px rgba(34, 72, 112, .05);
+      animation: label-float 7s ease-in-out infinite;
+    }
+
+    .label-a {
+      left: clamp(28px, 7vw, 132px);
+      top: 50px;
+    }
+
+    .label-b {
+      right: clamp(30px, 8vw, 152px);
+      bottom: 52px;
+      animation-delay: 1.3s;
+    }
+
+    .label-c {
+      right: clamp(20px, 5vw, 84px);
+      top: 48px;
+      animation-delay: 2.4s;
+    }
+
+    .base-rule {
+      position: absolute;
+      left: 7%;
+      right: 7%;
+      bottom: 34px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(184, 201, 219, .86), transparent);
+    }
+
+    .base-rule::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -2px;
+      width: 76px;
+      height: 5px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, transparent, rgba(207, 36, 52, .58), transparent);
+      transform: translateX(-50%);
+    }
+
+    @keyframes route-flow {
+      to {
+        stroke-dashoffset: -260;
+      }
+    }
+
+    @keyframes node-pulse {
+      0%,
+      100% {
+        r: 4;
+        opacity: .54;
+      }
+      50% {
+        r: 5.8;
+        opacity: .92;
+      }
+    }
+
+    @keyframes scan-dot {
+      0%,
+      100% {
+        opacity: .28;
+        transform: translateY(0);
+      }
+      50% {
+        opacity: .76;
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes label-float {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-7px);
+      }
+    }
+
+    @media (max-width: 1080px) {
+      .left-visual,
+      .right-visual {
+        width: 230px;
+        height: 170px;
+        opacity: .42;
+      }
+
+    }
+
+    @media (max-width: 760px) {
+      .industry-banner {
+        height: 330px;
+      }
+
+      .banner-content {
+        padding: 34px 22px;
+      }
+
+      .left-visual,
+      .right-visual,
+      .micro-label {
+        display: none;
+      }
+
+      .module-kicker {
+        gap: 8px;
+        font-size: 12px;
+        letter-spacing: .12em;
+      }
+
+      .module-kicker::before,
+      .module-kicker::after {
+        width: 24px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .english-title {
+        letter-spacing: .22em;
+      }
+
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="banner-shell" aria-label="行业公司概览横幅">
+    <section class="industry-banner">
+      <div class="orbital-field" aria-hidden="true">
+        <svg viewBox="0 0 1200 420" preserveAspectRatio="none">
+          <ellipse class="orbit" cx="600" cy="205" rx="415" ry="138"></ellipse>
+          <ellipse class="orbit" cx="600" cy="205" rx="530" ry="178"></ellipse>
+          <path class="route" d="M90 240 C250 120 390 135 540 202 S820 294 1110 148"></path>
+          <path class="route alt" d="M130 158 C290 252 430 266 596 205 S898 88 1088 238"></path>
+          <circle class="node" cx="242" cy="153" r="4"></circle>
+          <circle class="node cyan" cx="437" cy="249" r="4"></circle>
+          <circle class="node red" cx="602" cy="205" r="4"></circle>
+          <circle class="node cyan" cx="772" cy="169" r="4"></circle>
+          <circle class="node" cx="954" cy="252" r="4"></circle>
+        </svg>
+      </div>
+
+      <span class="micro-label label-a">GLOBAL COMPANY MAP</span>
+      <span class="micro-label label-b">MARKET KNOWLEDGE</span>
+      <span class="micro-label label-c">ENERGY VALUE CHAIN</span>
+
+      <div class="left-visual" aria-hidden="true">
+        <svg class="line-art" viewBox="0 0 360 250">
+          <path class="art-soft" d="M74 55c40-28 89-36 139-22 45 13 79 45 94 88"></path>
+          <path class="art-soft" d="M79 178c50 30 114 30 164-2"></path>
+          <path class="art-line" d="M54 156h248"></path>
+          <path class="art-fill" d="M90 121h156l25 35H116z"></path>
+          <path class="art-line" d="M112 121v-28h30v28"></path>
+          <path class="art-line" d="M232 121l16-29h25l-5 29"></path>
+          <path class="art-soft" d="M130 168c38 20 80 20 121 0"></path>
+          <path class="art-soft" d="M83 72h32M92 82h55"></path>
+          <circle class="scan-dot" cx="271" cy="91" r="5"></circle>
+        </svg>
+      </div>
+
+      <div class="right-visual" aria-hidden="true">
+        <svg class="line-art" viewBox="0 0 360 250">
+          <path class="art-line" d="M52 188h256"></path>
+          <rect class="art-fill" x="86" y="68" width="118" height="120" rx="4"></rect>
+          <path class="art-line" d="M112 68V46h66v22"></path>
+          <path class="art-soft" d="M111 94h22M156 94h22M111 120h22M156 120h22M111 146h22M156 146h22"></path>
+          <path class="art-line" d="M218 92h72v96h-72z"></path>
+          <path class="art-soft" d="M235 116h38M235 139h38M235 162h38"></path>
+          <path class="art-soft" d="M204 108c18 0 22 13 34 13M204 137c19 0 24-11 36-11M204 166c20 0 25 9 37 9"></path>
+          <circle class="scan-dot" cx="238" cy="121" r="5"></circle>
+          <circle class="scan-dot" cx="240" cy="126" r="3"></circle>
+          <circle class="scan-dot" cx="241" cy="175" r="4"></circle>
+        </svg>
+      </div>
+
+      <div class="banner-content">
+        <div>
+          <p class="module-kicker">Market Knowledge Platform</p>
+          <h1>行业公司<span class="accent">概览</span></h1>
+          <p class="english-title">Industry Company Overview</p>
+        </div>
+      </div>
+
+      <div class="base-rule" aria-hidden="true"></div>
+    </section>
+  </main>
+</body>
+</html>
