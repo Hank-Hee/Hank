@@ -97,26 +97,25 @@
       stroke-width: 1;
     }
 
-    .route {
+    .wave {
       fill: none;
       stroke: rgba(47, 111, 228, .30);
-      stroke-width: 1.5;
+      stroke-width: 1.35;
       stroke-linecap: round;
-      stroke-dasharray: 10 20;
-      animation: route-flow 16s linear infinite;
+      stroke-linejoin: round;
+      animation: wave-drift 7.8s ease-in-out infinite;
     }
 
-    .route.secondary {
+    .wave.secondary {
       stroke: rgba(79, 183, 188, .32);
-      stroke-dasharray: 7 18;
-      animation-duration: 20s;
-      animation-direction: reverse;
+      animation-duration: 9.5s;
+      animation-delay: -1.6s;
     }
 
-    .route.tertiary {
+    .wave.tertiary {
       stroke: rgba(212, 33, 50, .20);
-      stroke-dasharray: 5 15;
-      animation-duration: 18s;
+      animation-duration: 8.8s;
+      animation-delay: -3s;
     }
 
     .route-node {
@@ -243,11 +242,17 @@
       animation-delay: 1.4s;
     }
 
+    .facility-label-bg {
+      fill: rgba(255, 255, 255, .72);
+      stroke: rgba(111, 137, 164, .20);
+      stroke-width: 1;
+    }
+
     .facility-label {
       fill: #778ba1;
       font-size: 12px;
       font-weight: 700;
-      letter-spacing: .12em;
+      letter-spacing: .10em;
     }
 
     .depth-line {
@@ -272,9 +277,13 @@
       transform: translateX(-50%);
     }
 
-    @keyframes route-flow {
-      to {
-        stroke-dashoffset: -320;
+    @keyframes wave-drift {
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(14px);
       }
     }
 
@@ -380,9 +389,9 @@
         <svg viewBox="0 0 1440 380" preserveAspectRatio="none">
           <path class="sea-line" d="M80 285 C250 250 390 258 540 286 S850 330 1084 284 S1300 220 1410 246"></path>
           <path class="sea-line" d="M-20 96 C190 54 418 64 598 112 S982 178 1220 102 S1544 30 1620 78"></path>
-          <path class="route" d="M120 250 C318 120 512 128 665 210 S960 330 1278 168"></path>
-          <path class="route secondary" d="M260 310 C460 210 590 282 740 220 S1038 88 1356 138"></path>
-          <path class="route tertiary" d="M48 168 C278 214 484 90 694 158 S1010 270 1380 226"></path>
+          <path class="wave" d="M120 246c34-20 68-20 102 0s68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0 68 20 102 0 68-20 102 0"></path>
+          <path class="wave secondary" d="M260 302c30-16 60-16 90 0s60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0 60 16 90 0 60-16 90 0"></path>
+          <path class="wave tertiary" d="M48 168c28-14 56-14 84 0s56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0 56 14 84 0 56-14 84 0"></path>
           <circle class="route-node teal" cx="336" cy="164" r="4.5"></circle>
           <circle class="route-node" cx="602" cy="196" r="4.5"></circle>
           <circle class="route-node red" cx="794" cy="221" r="4.5"></circle>
@@ -408,10 +417,13 @@
             <path class="facility-soft" d="M111 129h302M135 119v22M179 119v22M223 119v22M267 119v22M311 119v22M355 119v22M399 119v22"></path>
             <path class="facility-soft" d="M106 62h28M147 62h28M188 62h28"></path>
             <path class="facility-line" d="M332 50l45-32h43"></path>
-            <path class="facility-accent" d="M422 18h48"></path>
+            <path class="facility-accent" d="M420 18h50"></path>
             <circle class="moving-light red" cx="470" cy="18" r="5"></circle>
             <path class="facility-soft" d="M78 165h378"></path>
-            <text class="facility-label" x="118" y="84">FPSO</text>
+            <g>
+              <rect class="facility-label-bg" x="112" y="72" width="49" height="20" rx="4"></rect>
+              <text class="facility-label" x="121" y="86">FPSO</text>
+            </g>
           </g>
 
           <g transform="translate(500 28) scale(.78)">
@@ -422,11 +434,14 @@
             <path class="facility-line" d="M228 136V67h42v69M282 136V84h35v52"></path>
             <path class="facility-soft" d="M78 107h24M126 105h30M180 108h23M235 92h28M288 106h24"></path>
             <path class="facility-soft" d="M68 160h256M96 150v20M136 150v20M176 150v20M216 150v20M256 150v20M296 150v20"></path>
-            <path class="facility-line" d="M242 66c20-22 59-22 79 0"></path>
-            <path class="facility-line" d="M302 84l42-33h46"></path>
-            <path class="facility-accent" d="M344 51h47"></path>
+            <path class="facility-soft" d="M224 62h96M224 72h96"></path>
+            <path class="facility-line" d="M317 84l30-28h44"></path>
+            <path class="facility-accent" d="M347 56h45"></path>
             <circle class="moving-light" cx="333" cy="112" r="5"></circle>
-            <text class="facility-label" x="48" y="118" style="font-size: 16px;">FLNG</text>
+            <g>
+              <rect class="facility-label-bg" x="48" y="112" width="58" height="23" rx="4"></rect>
+              <text class="facility-label" x="59" y="128" style="font-size: 16px;">FLNG</text>
+            </g>
           </g>
 
           <g transform="translate(580 166) scale(.66)">
@@ -437,9 +452,13 @@
             <path class="facility-soft" d="M320 76h12M320 88h12M320 100h12M354 82h12M354 94h12M354 106h12"></path>
             <path class="facility-line" d="M302 66l31-26h52"></path>
             <path class="facility-accent" d="M333 40h54"></path>
-            <path class="facility-soft" d="M72 139h280M104 128v20M144 128v20M184 128v20M224 128v20M264 128v20M304 128v20"></path>
+            <path class="facility-line" d="M314 112V98h58v14"></path>
+            <path class="facility-soft" d="M72 139h280M104 128v20M144 128v20M184 128v20M224 128v20M264 128v20M304 128v20M344 128v20"></path>
             <circle class="moving-light" cx="374" cy="92" r="5"></circle>
-            <text class="facility-label" x="52" y="96" style="font-size: 18px;">FSRU</text>
+            <g>
+              <rect class="facility-label-bg" x="52" y="88" width="61" height="24" rx="4"></rect>
+              <text class="facility-label" x="63" y="105" style="font-size: 18px;">FSRU</text>
+            </g>
           </g>
         </svg>
       </div>
