@@ -6,16 +6,15 @@
   <title>行业公司概览</title>
   <style>
     :root {
-      --ink: #0b1f3a;
-      --muted: #5c6d84;
-      --soft: #f6f9fc;
-      --line: #d8e3ee;
-      --line-strong: #b8c9db;
-      --blue: #2d6cdf;
-      --cyan: #57b7c7;
-      --red: #cf2434;
-      --gold: #d8a84b;
-      --shadow: 0 18px 44px rgba(34, 72, 112, .08);
+      --ink: #081d36;
+      --muted: #6f7f91;
+      --line: #d9e4ef;
+      --line-strong: #9fb3c8;
+      --blue: #2f6fe4;
+      --teal: #4fb7bc;
+      --red: #d42132;
+      --panel: rgba(255, 255, 255, .82);
+      --shadow: 0 18px 44px rgba(31, 74, 118, .08);
     }
 
     * {
@@ -33,10 +32,6 @@
       font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
     }
 
-    body {
-      padding: 0;
-    }
-
     .banner-shell {
       width: 100%;
       padding: 0;
@@ -49,11 +44,11 @@
       width: 100%;
       height: clamp(340px, 30vw, 380px);
       min-height: 340px;
-      border: 1px solid rgba(206, 218, 230, .86);
+      border: 1px solid rgba(211, 222, 234, .88);
       border-radius: 8px;
       background:
-        radial-gradient(circle at 18% 18%, rgba(87, 183, 199, .18), transparent 26%),
-        radial-gradient(circle at 80% 28%, rgba(45, 108, 223, .12), transparent 30%),
+        radial-gradient(circle at 16% 24%, rgba(79, 183, 188, .15), transparent 24%),
+        radial-gradient(circle at 78% 18%, rgba(47, 111, 228, .12), transparent 28%),
         linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
       box-shadow: var(--shadow);
     }
@@ -63,119 +58,102 @@
       content: "";
       position: absolute;
       inset: 0;
-      z-index: -2;
       pointer-events: none;
     }
 
     .industry-banner::before {
+      z-index: -3;
       background:
-        linear-gradient(rgba(184, 201, 219, .20) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(184, 201, 219, .20) 1px, transparent 1px);
-      background-size: 56px 56px;
-      mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, #000 48%, transparent 79%);
-      opacity: .45;
+        linear-gradient(rgba(159, 179, 200, .16) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(159, 179, 200, .16) 1px, transparent 1px);
+      background-size: 52px 52px;
+      mask-image: linear-gradient(90deg, #000 0%, #000 76%, transparent 100%);
     }
 
     .industry-banner::after {
+      z-index: -2;
       background:
-        radial-gradient(circle at 50% 50%, transparent 0 16%, rgba(255, 255, 255, .68) 35%, transparent 70%),
-        linear-gradient(90deg, rgba(255, 255, 255, .86), transparent 24%, transparent 76%, rgba(255, 255, 255, .86));
-      z-index: -1;
+        radial-gradient(ellipse at 48% 54%, rgba(255, 255, 255, .48) 0%, rgba(255, 255, 255, .72) 45%, transparent 76%),
+        linear-gradient(90deg, rgba(255, 255, 255, .80), transparent 28%, transparent 78%, rgba(255, 255, 255, .86));
     }
 
-    .orbital-field {
+    .route-field {
       position: absolute;
-      inset: -28px 8%;
+      inset: 0;
       z-index: -1;
-      opacity: .78;
+      opacity: .92;
+      pointer-events: none;
     }
 
-    .orbital-field svg {
+    .route-field svg {
       display: block;
       width: 100%;
       height: 100%;
     }
 
-    .orbit {
+    .sea-line {
       fill: none;
-      stroke: rgba(143, 164, 188, .28);
+      stroke: rgba(159, 179, 200, .28);
       stroke-width: 1;
     }
 
     .route {
       fill: none;
-      stroke: rgba(45, 108, 223, .28);
-      stroke-width: 1.4;
+      stroke: rgba(47, 111, 228, .30);
+      stroke-width: 1.5;
       stroke-linecap: round;
-      stroke-dasharray: 8 18;
-      animation: route-flow 13s linear infinite;
+      stroke-dasharray: 10 20;
+      animation: route-flow 16s linear infinite;
     }
 
-    .route.alt {
-      stroke: rgba(87, 183, 199, .30);
-      stroke-dasharray: 6 16;
-      animation-duration: 16s;
+    .route.secondary {
+      stroke: rgba(79, 183, 188, .32);
+      stroke-dasharray: 7 18;
+      animation-duration: 20s;
       animation-direction: reverse;
     }
 
-    .node {
+    .route.tertiary {
+      stroke: rgba(212, 33, 50, .20);
+      stroke-dasharray: 5 15;
+      animation-duration: 18s;
+    }
+
+    .route-node {
       fill: #ffffff;
-      stroke: rgba(45, 108, 223, .42);
-      stroke-width: 1.4;
+      stroke: rgba(47, 111, 228, .44);
+      stroke-width: 1.5;
       animation: node-pulse 4.8s ease-in-out infinite;
     }
 
-    .node.red {
-      stroke: rgba(207, 36, 52, .42);
+    .route-node.teal {
+      stroke: rgba(79, 183, 188, .52);
       animation-delay: .8s;
     }
 
-    .node.cyan {
-      stroke: rgba(87, 183, 199, .48);
-      animation-delay: 1.6s;
+    .route-node.red {
+      stroke: rgba(212, 33, 50, .50);
+      animation-delay: 1.7s;
     }
 
-    .banner-content {
-      position: relative;
-      display: grid;
-      place-items: center;
-      width: 100%;
-      height: 100%;
-      padding: 38px clamp(28px, 4.8vw, 74px);
-      text-align: center;
-    }
-
-    .module-kicker {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      margin: 0 0 16px;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1;
-      font-weight: 700;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-
-    .module-kicker::before,
-    .module-kicker::after {
-      content: "";
-      width: 38px;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(45, 108, 223, .42));
-    }
-
-    .module-kicker::after {
-      background: linear-gradient(90deg, rgba(45, 108, 223, .42), transparent);
+    .copy-panel {
+      position: absolute;
+      left: clamp(30px, 6vw, 92px);
+      top: 50%;
+      z-index: 4;
+      width: min(42vw, 560px);
+      transform: translateY(-50%);
+      padding: clamp(20px, 2.4vw, 30px) clamp(22px, 3vw, 38px);
+      border-left: 4px solid var(--red);
+      background: linear-gradient(90deg, var(--panel), rgba(255, 255, 255, .40));
+      backdrop-filter: blur(2px);
     }
 
     h1 {
       margin: 0;
       color: var(--ink);
-      font-size: clamp(42px, 4.6vw, 76px);
-      line-height: 1.04;
+      font-size: clamp(44px, 4.9vw, 78px);
+      line-height: 1.02;
       font-weight: 800;
       letter-spacing: 0;
     }
@@ -185,214 +163,190 @@
     }
 
     .english-title {
-      margin: 14px 0 0;
-      color: #8fa0b4;
-      font-size: clamp(13px, 1.1vw, 16px);
+      margin: 16px 0 0;
+      color: #8799ad;
+      font-size: clamp(13px, 1.08vw, 16px);
       line-height: 1.35;
       font-weight: 700;
-      letter-spacing: .34em;
+      letter-spacing: .28em;
       text-transform: uppercase;
     }
 
-    .left-visual,
-    .right-visual {
+    .fleet-stage {
       position: absolute;
-      top: 50%;
-      width: min(25vw, 360px);
-      height: min(18vw, 260px);
-      min-width: 220px;
-      min-height: 168px;
-      transform: translateY(-50%);
-      color: #8ea3ba;
-      opacity: .72;
+      right: clamp(12px, 2.5vw, 46px);
+      bottom: clamp(18px, 2.8vw, 42px);
+      z-index: 3;
+      width: min(57vw, 860px);
+      height: min(26vw, 305px);
+      min-width: 600px;
+      min-height: 245px;
       pointer-events: none;
     }
 
-    .left-visual {
-      left: clamp(20px, 5vw, 86px);
-    }
-
-    .right-visual {
-      right: clamp(20px, 5vw, 86px);
-    }
-
-    .line-art {
+    .fleet-stage svg {
       display: block;
       width: 100%;
       height: 100%;
     }
 
-    .line-art path,
-    .line-art line,
-    .line-art polyline,
-    .line-art rect,
-    .line-art circle {
+    .facility-line,
+    .facility-soft,
+    .facility-fill,
+    .facility-accent {
       vector-effect: non-scaling-stroke;
     }
 
-    .art-line {
+    .facility-line {
       fill: none;
-      stroke: currentColor;
+      stroke: #6f89a4;
+      stroke-width: 1.55;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .facility-soft {
+      fill: none;
+      stroke: rgba(111, 137, 164, .42);
+      stroke-width: 1.05;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .facility-fill {
+      fill: rgba(239, 245, 251, .82);
+      stroke: #6f89a4;
+      stroke-width: 1.35;
+      stroke-linejoin: round;
+    }
+
+    .facility-accent {
+      fill: none;
+      stroke: rgba(212, 33, 50, .62);
       stroke-width: 1.4;
       stroke-linecap: round;
       stroke-linejoin: round;
     }
 
-    .art-soft {
-      fill: none;
-      stroke: rgba(142, 163, 186, .34);
-      stroke-width: 1.1;
-      stroke-linecap: round;
-      stroke-linejoin: round;
+    .fleet-shadow {
+      fill: rgba(69, 99, 132, .08);
     }
 
-    .art-fill {
-      fill: rgba(238, 244, 250, .68);
-      stroke: currentColor;
-      stroke-width: 1.2;
-      stroke-linejoin: round;
+    .moving-light {
+      fill: var(--teal);
+      opacity: .52;
+      animation: light-breathe 4.6s ease-in-out infinite;
     }
 
-    .scan-dot {
-      fill: var(--blue);
-      opacity: .42;
-      animation: scan-dot 6.5s ease-in-out infinite;
+    .moving-light.red {
+      fill: var(--red);
+      animation-delay: 1.4s;
     }
 
-    .right-visual .scan-dot {
-      fill: var(--cyan);
-      animation-delay: 1.8s;
-    }
-
-    .micro-label {
-      position: absolute;
-      display: inline-flex;
-      align-items: center;
-      min-height: 24px;
-      padding: 4px 10px;
-      border: 1px solid rgba(184, 201, 219, .62);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, .78);
-      color: #71849b;
+    .facility-label {
+      fill: #778ba1;
       font-size: 12px;
-      line-height: 1;
       font-weight: 700;
-      box-shadow: 0 8px 20px rgba(34, 72, 112, .05);
-      animation: label-float 7s ease-in-out infinite;
+      letter-spacing: .12em;
     }
 
-    .label-a {
-      left: clamp(28px, 7vw, 132px);
-      top: 50px;
-    }
-
-    .label-b {
-      right: clamp(30px, 8vw, 152px);
-      bottom: 52px;
-      animation-delay: 1.3s;
-    }
-
-    .label-c {
-      right: clamp(20px, 5vw, 84px);
-      top: 48px;
-      animation-delay: 2.4s;
-    }
-
-    .base-rule {
+    .depth-line {
       position: absolute;
-      left: 7%;
-      right: 7%;
-      bottom: 34px;
+      left: 5.8%;
+      right: 5.8%;
+      bottom: 36px;
+      z-index: 1;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(184, 201, 219, .86), transparent);
+      background: linear-gradient(90deg, transparent, rgba(159, 179, 200, .82), transparent);
     }
 
-    .base-rule::before {
+    .depth-line::before {
       content: "";
       position: absolute;
-      left: 50%;
+      left: 58%;
       top: -2px;
-      width: 76px;
+      width: 132px;
       height: 5px;
       border-radius: 999px;
-      background: linear-gradient(90deg, transparent, rgba(207, 36, 52, .58), transparent);
+      background: linear-gradient(90deg, transparent, rgba(79, 183, 188, .48), rgba(212, 33, 50, .42), transparent);
       transform: translateX(-50%);
     }
 
     @keyframes route-flow {
       to {
-        stroke-dashoffset: -260;
+        stroke-dashoffset: -320;
       }
     }
 
     @keyframes node-pulse {
       0%,
       100% {
-        r: 4;
-        opacity: .54;
+        r: 4.5;
+        opacity: .58;
       }
       50% {
-        r: 5.8;
-        opacity: .92;
+        r: 6.5;
+        opacity: .94;
       }
     }
 
-    @keyframes scan-dot {
+    @keyframes light-breathe {
       0%,
       100% {
         opacity: .28;
         transform: translateY(0);
       }
       50% {
-        opacity: .76;
-        transform: translateY(-8px);
-      }
-    }
-
-    @keyframes label-float {
-      0%,
-      100% {
-        transform: translateY(0);
-      }
-      50% {
+        opacity: .86;
         transform: translateY(-7px);
       }
     }
 
-    @media (max-width: 1080px) {
-      .left-visual,
-      .right-visual {
-        width: 230px;
-        height: 170px;
-        opacity: .42;
+    @media (max-width: 1180px) {
+      .copy-panel {
+        width: min(45vw, 500px);
       }
 
+      .fleet-stage {
+        right: 10px;
+        width: 61vw;
+        opacity: .82;
+      }
     }
 
-    @media (max-width: 760px) {
+    @media (max-width: 860px) {
+      .copy-panel {
+        left: 26px;
+        right: 26px;
+        top: 43%;
+        width: auto;
+        text-align: center;
+        border-left: 0;
+        border-top: 4px solid var(--red);
+        background: linear-gradient(180deg, rgba(255, 255, 255, .84), rgba(255, 255, 255, .28));
+      }
+
+      .fleet-stage {
+        right: 50%;
+        bottom: 4px;
+        width: 700px;
+        min-width: 700px;
+        height: 210px;
+        min-height: 210px;
+        opacity: .32;
+        transform: translateX(50%);
+      }
+    }
+
+    @media (max-width: 560px) {
       .industry-banner {
-        height: 330px;
+        height: 340px;
       }
 
-      .banner-content {
-        padding: 34px 22px;
-      }
-
-      .left-visual,
-      .right-visual,
-      .micro-label {
-        display: none;
-      }
-
-      .module-kicker {
-        gap: 8px;
-        font-size: 12px;
-        letter-spacing: .12em;
-      }
-
-      .module-kicker::before,
-      .module-kicker::after {
-        width: 24px;
+      .copy-panel {
+        left: 18px;
+        right: 18px;
+        padding: 18px 16px;
       }
 
       h1 {
@@ -400,9 +354,12 @@
       }
 
       .english-title {
-        letter-spacing: .22em;
+        letter-spacing: .16em;
       }
 
+      .fleet-stage {
+        opacity: .24;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -419,62 +376,67 @@
 <body>
   <main class="banner-shell" aria-label="行业公司概览横幅">
     <section class="industry-banner">
-      <div class="orbital-field" aria-hidden="true">
-        <svg viewBox="0 0 1200 420" preserveAspectRatio="none">
-          <ellipse class="orbit" cx="600" cy="205" rx="415" ry="138"></ellipse>
-          <ellipse class="orbit" cx="600" cy="205" rx="530" ry="178"></ellipse>
-          <path class="route" d="M90 240 C250 120 390 135 540 202 S820 294 1110 148"></path>
-          <path class="route alt" d="M130 158 C290 252 430 266 596 205 S898 88 1088 238"></path>
-          <circle class="node" cx="242" cy="153" r="4"></circle>
-          <circle class="node cyan" cx="437" cy="249" r="4"></circle>
-          <circle class="node red" cx="602" cy="205" r="4"></circle>
-          <circle class="node cyan" cx="772" cy="169" r="4"></circle>
-          <circle class="node" cx="954" cy="252" r="4"></circle>
+      <div class="route-field" aria-hidden="true">
+        <svg viewBox="0 0 1440 380" preserveAspectRatio="none">
+          <path class="sea-line" d="M80 285 C250 250 390 258 540 286 S850 330 1084 284 S1300 220 1410 246"></path>
+          <path class="sea-line" d="M-20 96 C190 54 418 64 598 112 S982 178 1220 102 S1544 30 1620 78"></path>
+          <path class="route" d="M120 250 C318 120 512 128 665 210 S960 330 1278 168"></path>
+          <path class="route secondary" d="M260 310 C460 210 590 282 740 220 S1038 88 1356 138"></path>
+          <path class="route tertiary" d="M48 168 C278 214 484 90 694 158 S1010 270 1380 226"></path>
+          <circle class="route-node teal" cx="336" cy="164" r="4.5"></circle>
+          <circle class="route-node" cx="602" cy="196" r="4.5"></circle>
+          <circle class="route-node red" cx="794" cy="221" r="4.5"></circle>
+          <circle class="route-node teal" cx="1082" cy="203" r="4.5"></circle>
+          <circle class="route-node" cx="1252" cy="151" r="4.5"></circle>
         </svg>
       </div>
 
-      <span class="micro-label label-a">GLOBAL COMPANY MAP</span>
-      <span class="micro-label label-b">MARKET KNOWLEDGE</span>
-      <span class="micro-label label-c">ENERGY VALUE CHAIN</span>
+      <div class="copy-panel">
+        <h1>行业公司<span class="accent">概览</span></h1>
+        <p class="english-title">Industry Company Overview</p>
+      </div>
 
-      <div class="left-visual" aria-hidden="true">
-        <svg class="line-art" viewBox="0 0 360 250">
-          <path class="art-soft" d="M74 55c40-28 89-36 139-22 45 13 79 45 94 88"></path>
-          <path class="art-soft" d="M79 178c50 30 114 30 164-2"></path>
-          <path class="art-line" d="M54 156h248"></path>
-          <path class="art-fill" d="M90 121h156l25 35H116z"></path>
-          <path class="art-line" d="M112 121v-28h30v28"></path>
-          <path class="art-line" d="M232 121l16-29h25l-5 29"></path>
-          <path class="art-soft" d="M130 168c38 20 80 20 121 0"></path>
-          <path class="art-soft" d="M83 72h32M92 82h55"></path>
-          <circle class="scan-dot" cx="271" cy="91" r="5"></circle>
+      <div class="fleet-stage" aria-hidden="true">
+        <svg viewBox="0 0 860 305">
+          <ellipse class="fleet-shadow" cx="496" cy="268" rx="338" ry="18"></ellipse>
+
+          <g transform="translate(18 104)">
+            <path class="facility-fill" d="M34 104h454l-32 46H72z"></path>
+            <path class="facility-line" d="M78 104l28-42h104l19 42"></path>
+            <path class="facility-line" d="M246 104l16-54h70l18 54"></path>
+            <path class="facility-line" d="M372 104V55h54v49"></path>
+            <path class="facility-soft" d="M111 129h302M135 119v22M179 119v22M223 119v22M267 119v22M311 119v22M355 119v22M399 119v22"></path>
+            <path class="facility-soft" d="M106 62h28M147 62h28M188 62h28"></path>
+            <path class="facility-line" d="M332 50l45-32h43"></path>
+            <path class="facility-accent" d="M422 18h48"></path>
+            <circle class="moving-light red" cx="470" cy="18" r="5"></circle>
+            <path class="facility-soft" d="M78 165h378"></path>
+            <text class="facility-label" x="50" y="84">FPSO</text>
+          </g>
+
+          <g transform="translate(500 42) scale(.78)">
+            <path class="facility-fill" d="M30 122h276l-22 38H60z"></path>
+            <path class="facility-line" d="M70 122V72h50v50M132 122V60h62v62M210 122V78h48v44"></path>
+            <path class="facility-soft" d="M81 93h28M144 88h40M220 100h28"></path>
+            <path class="facility-line" d="M96 71c18-20 51-20 69 0"></path>
+            <path class="facility-line" d="M160 60c22-25 61-25 83 0"></path>
+            <path class="facility-soft" d="M66 145h220M96 136v18M136 136v18M176 136v18M216 136v18M256 136v18"></path>
+            <circle class="moving-light" cx="258" cy="102" r="5"></circle>
+            <text class="facility-label" x="42" y="94">FLNG</text>
+          </g>
+
+          <g transform="translate(582 170) scale(.66)">
+            <path class="facility-fill" d="M42 104h304l-24 42H72z"></path>
+            <path class="facility-line" d="M88 104V65h52v39M166 104V56h74v48M260 104V72h42v32"></path>
+            <path class="facility-soft" d="M84 129h238M112 120v18M152 120v18M192 120v18M232 120v18M272 120v18"></path>
+            <path class="facility-line" d="M216 56l30-26h44"></path>
+            <circle class="moving-light" cx="292" cy="80" r="5"></circle>
+            <text class="facility-label" x="54" y="88">FSRU</text>
+          </g>
         </svg>
       </div>
 
-      <div class="right-visual" aria-hidden="true">
-        <svg class="line-art" viewBox="0 0 360 250">
-          <path class="art-line" d="M52 188h256"></path>
-          <rect class="art-fill" x="86" y="68" width="118" height="120" rx="4"></rect>
-          <path class="art-line" d="M112 68V46h66v22"></path>
-          <path class="art-soft" d="M111 94h22M156 94h22M111 120h22M156 120h22M111 146h22M156 146h22"></path>
-          <path class="art-line" d="M218 92h72v96h-72z"></path>
-          <path class="art-soft" d="M235 116h38M235 139h38M235 162h38"></path>
-          <path class="art-soft" d="M204 108c18 0 22 13 34 13M204 137c19 0 24-11 36-11M204 166c20 0 25 9 37 9"></path>
-          <circle class="scan-dot" cx="238" cy="121" r="5"></circle>
-          <circle class="scan-dot" cx="240" cy="126" r="3"></circle>
-          <circle class="scan-dot" cx="241" cy="175" r="4"></circle>
-        </svg>
-      </div>
-
-      <div class="banner-content">
-        <div>
-          <p class="module-kicker">Market Knowledge Platform</p>
-          <h1>行业公司<span class="accent">概览</span></h1>
-          <p class="english-title">Industry Company Overview</p>
-        </div>
-      </div>
-
-      <div class="base-rule" aria-hidden="true"></div>
+      <div class="depth-line" aria-hidden="true"></div>
     </section>
   </main>
 </body>
