@@ -35,6 +35,7 @@ body[data-page="dashboard"] {
   display: grid;
   grid-template-columns: minmax(340px, 1fr) minmax(340px, 1fr);
   gap: clamp(12px, 1.1vw, 18px);
+  align-content: center;
   align-items: stretch;
   padding: clamp(10px, 1vw, 16px);
 }
@@ -193,7 +194,6 @@ body[data-page="dashboard"] {
 @media (max-width: 760px) {
   .dashboard-shell {
     grid-template-columns: 1fr;
-    min-height: auto;
   }
 
   .panel {
