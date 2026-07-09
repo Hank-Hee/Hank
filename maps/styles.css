@@ -100,7 +100,6 @@ button { color: inherit; }
   left: 20px;
   display: flex;
   align-items: flex-start;
-  gap: 13px;
   min-width: 292px;
   padding: 16px 18px 15px;
   border: 1px solid rgba(196, 208, 218, 0.96);
@@ -108,14 +107,6 @@ button { color: inherit; }
   background: var(--surface);
   box-shadow: 0 16px 36px rgba(23, 44, 64, 0.11);
   backdrop-filter: blur(14px);
-}
-.title-rule {
-  flex: 0 0 auto;
-  width: 4px;
-  height: 58px;
-  border-radius: 999px;
-  background: linear-gradient(180deg, var(--shell-red), #e0a63a);
-  box-shadow: 0 0 0 1px rgba(191,52,45,.08);
 }
 .header-copy { min-width: 0; }
 .eyebrow, .drawer-kicker { color: #647589; font-size: 10px; font-weight: 850; letter-spacing: .15em; }
@@ -338,7 +329,6 @@ button { color: inherit; }
 
 @media (max-width: 759px) {
   .map-header { top: 10px; left: 10px; min-width: 0; padding: 12px 13px; border-radius: 13px; }
-  .title-rule { height: 50px; }
   .map-header h1 { font-size: 18px; }
   .map-status { top: 10px; right: 10px; justify-content: center; width: 38px; height: 38px; padding: 0; overflow: hidden; color: transparent; font-size: 0; }
   .status-dot { flex: 0 0 auto; }

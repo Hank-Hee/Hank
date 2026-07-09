@@ -81,17 +81,7 @@ button {
   display: flex;
   min-height: 58px;
   align-items: center;
-  gap: 11px;
   padding: 14px 18px 8px;
-}
-
-.header-mark {
-  width: 3px;
-  height: 30px;
-  flex: 0 0 auto;
-  border-radius: 99px;
-  background: linear-gradient(180deg, #238b8d, #3277bd);
-  box-shadow: 0 0 0 4px rgba(35, 139, 141, 0.07);
 }
 
 .chart-header h1 {
@@ -300,6 +290,13 @@ button {
 .tooltip-copy small {
   color: #b8c7d3;
   font-size: 9px;
+}
+
+.tooltip-note {
+  margin-top: 7px;
+  color: #dbe6ed;
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .tooltip-body {

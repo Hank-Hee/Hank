@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="light" />
     <meta name="description" content="公司项目类型结构圆环图" />
     <title>项目类型结构</title>
-    <link rel="stylesheet" href="styles.css?v=20260709-batch" />
+    <link rel="stylesheet" href="styles.css?v=20260709-title-tooltip" />
   </head>
   <body>
     <main class="dashboard-card" aria-labelledby="chart-title">
@@ -14,7 +14,6 @@
       <div class="texture-orbit texture-orbit-two" aria-hidden="true"></div>
 
       <header class="chart-header">
-        <div class="header-mark" aria-hidden="true"></div>
         <h1 id="chart-title"><span id="operator-name">Shell</span> 项目类型结构</h1>
       </header>
 
@@ -40,6 +39,7 @@
             <strong></strong>
             <small></small>
           </span>
+          <span class="tooltip-note" hidden></span>
           <span class="tooltip-metrics">
             <span><small>项目数量</small><strong class="tooltip-count"></strong></span>
             <span><small>项目占比</small><strong class="tooltip-percent"></strong></span>
@@ -53,6 +53,6 @@
       </div>
     </main>
 
-    <script type="module" src="app.js?v=20260709-batch"></script>
+    <script type="module" src="app.js?v=20260709-title-tooltip"></script>
   </body>
 </html>

@@ -25,6 +25,10 @@ test("classifies multi-valued projects as Mixed field exactly once", () => {
     ["Mixed field", 1],
     ["Other", 1],
   ]);
+  assert.match(
+    buildProjectTypeMix(projects).find((item) => item.key === "Mixed field").description,
+    /同一项目包含两个及以上油气田类型/,
+  );
 });
 
 test("matches the approved Shell project-type structure", () => {

@@ -11,13 +11,15 @@ const app = fs.readFileSync(path.join(featureDir, "app.js"), "utf8");
 
 assert.match(html, /id="project-type-chart"/);
 assert.match(html, /id="chart-tooltip"/);
+assert.ok(!html.includes("header-mark"), "chart title decoration must be removed");
 assert.match(html, /id="project-type-legend"/);
 assert.match(html, /aria-live="polite"/);
-assert.match(html, /app\.js\?v=20260709-batch/);
+assert.match(html, /app\.js\?v=20260709-title-tooltip/);
 assert.ok(!html.includes("echarts"), "the embed must not depend on a charting CDN");
 assert.ok(!html.includes("source-badge"), "the side-panel header must stay compact");
 assert.ok(!html.includes("eyebrow"), "the side-panel header must stay compact");
 assert.match(html, /class="tooltip-metrics"/);
+assert.match(html, /class="tooltip-note"/);
 assert.match(html, /<circle class="donut-track" cx="160" cy="134" r="100">/);
 
 assert.match(app, /URLSearchParams/);
@@ -30,9 +32,11 @@ assert.match(app, /focus/);
 assert.match(app, /项目数量/);
 assert.match(app, /项目占比/);
 assert.ok(!app.includes("${item.count} · ${item.percent}"), "tooltip metrics must be explicitly labelled");
+assert.ok(app.includes("item.description"), "tooltip must render mixed-field explanation when available");
 assert.ok(!app.includes('params.get("region")'), "company-only charts must not expose region filters");
 
 assert.match(css, /prefers-reduced-motion/);
+assert.ok(!css.includes(".header-mark"), "chart title decoration CSS must be removed");
 assert.match(css, /@media \(max-width: 520px\)/);
 assert.match(css, /\.donut-segment\.is-active/);
 assert.match(css, /\.legend-row\.is-active/);

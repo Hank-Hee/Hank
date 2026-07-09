@@ -3,9 +3,9 @@ import {
   buildProjectTypeMix,
   formatPercent,
   resolveOperator,
-} from "./chart-core.js?v=20260709-batch";
+} from "./chart-core.js?v=20260709-title-tooltip";
 
-const VERSION = "20260709-batch";
+const VERSION = "20260709-title-tooltip";
 const SVG_NS = "http://www.w3.org/2000/svg";
 const CENTER = { x: 160, y: 134 };
 const RADIUS = 100;
@@ -37,11 +37,14 @@ const setActive = (item, sourceElement, pointerEvent) => {
   const swatch = dom.tooltip.querySelector(".tooltip-swatch");
   const label = dom.tooltip.querySelector(".tooltip-copy strong");
   const english = dom.tooltip.querySelector(".tooltip-copy small");
+  const note = dom.tooltip.querySelector(".tooltip-note");
   const count = dom.tooltip.querySelector(".tooltip-count");
   const percent = dom.tooltip.querySelector(".tooltip-percent");
   swatch.style.setProperty("--segment-color", item.color);
   label.textContent = item.label;
   english.textContent = item.englishLabel;
+  note.textContent = item.description || "";
+  note.hidden = !item.description;
   count.textContent = `${item.count} 个`;
   percent.textContent = item.percent;
   dom.tooltip.hidden = false;
@@ -84,7 +87,7 @@ const renderLegendRow = (item) => {
   row.type = "button";
   row.className = "legend-row";
   row.dataset.typeKey = item.key;
-  row.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}`);
+  row.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`);
   row.innerHTML = `
     <span class="legend-swatch" aria-hidden="true"></span>
     <span class="legend-copy"><strong></strong><small></small></span>
@@ -114,7 +117,7 @@ const renderSegment = (item) => {
   segment.setAttribute("transform", `rotate(-90 ${CENTER.x} ${CENTER.y})`);
   segment.setAttribute("role", "img");
   segment.setAttribute("tabindex", "0");
-  segment.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}`);
+  segment.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`);
   bindInteraction(segment, item);
   return segment;
 };
