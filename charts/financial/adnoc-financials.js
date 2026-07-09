@@ -1,4 +1,4 @@
-const VERSION = "20260709-adnoc-redesign-v4";
+const VERSION = "20260709-adnoc-redesign-v5";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
