@@ -1,0 +1,64 @@
+{
+  "company": {
+    "name": "ADNOC",
+    "legalName": "Abu Dhabi National Oil Company P.J.S.C.",
+    "dashboardBasis": "ADNOC Group public disclosure proxy",
+    "proxyEntity": "ADNOC Murban RSC LTD",
+    "currency": "USD million",
+    "updatedOn": "2026-07-09"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2023-2025",
+    "dashboardYears": [2023, 2024, 2025],
+    "availabilityNote": "ADNOC P.J.S.C. does not publish a stable ten-year consolidated group financial statement set in the reviewed public sources. The dashboard therefore uses ADNOC Murban RSC LTD, ADNOC's primary debt capital markets entity within the ADNOC Group, as the official public disclosure proxy. 2016-2022 values are left blank; 2026 is excluded because only interim data was available as of 2026-07-09."
+  },
+  "metrics": [
+    {"year": 2016, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2017, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2018, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2019, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2020, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2021, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2022, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
+    {"year": 2023, "revenue": 20436, "netIncome": 18702, "operatingCashFlow": 30650, "freeCashFlow": 30659, "capex": null, "cashOnHand": 2939, "netChangeInCash": 944, "status": "Official audited ADNOC Murban RSC LTD values; proxy only", "sourceKeys": ["murban_fy2024_fs"]},
+    {"year": 2024, "revenue": 6915, "netIncome": -38016, "operatingCashFlow": 30114, "freeCashFlow": 30122, "capex": null, "cashOnHand": 2320, "netChangeInCash": -619, "status": "Official audited ADNOC Murban RSC LTD values; proxy only", "sourceKeys": ["murban_fy2024_fs", "murban_fy2025_snapshot"]},
+    {"year": 2025, "revenue": 8051, "netIncome": 10697, "operatingCashFlow": 26276, "freeCashFlow": 26282, "capex": null, "cashOnHand": 2257, "netChangeInCash": -63, "status": "Official audited ADNOC Murban RSC LTD snapshot values; proxy only", "sourceKeys": ["murban_fy2025_snapshot"]},
+    {"year": 2026, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Full-year value not available as of 2026-07-09; interim Q1 data excluded by annual-only rule", "sourceKeys": ["murban_q1_2026_interim"]}
+  ],
+  "definitions": [
+    {"metric": "Revenue", "definition": "Revenue recognized from Murban crude oil lifted by ADNOC Trading under the Offtake Agreement; ADNOC-lifted crude is not recognized as revenue under the agency accounting treatment."},
+    {"metric": "Net income", "definition": "Profit or loss for the period/year, including fair-value movements of the financial asset at FVTPL."},
+    {"metric": "Operating cash flow", "definition": "Net cash from operating activities as reported by ADNOC Murban RSC LTD."},
+    {"metric": "Free cash flow", "definition": "Proxy defined as net cash from operating activities plus net cash from investing activities. Capex is not disclosed/applicable for the Murban proxy; do not treat this as ADNOC Group industrial FCF."},
+    {"metric": "Capex", "definition": "No capex line was disclosed for the Murban proxy; ADNOC Murban states it does not bear capital expenses for production and delivery of Murban crude."},
+    {"metric": "Cash on hand", "definition": "Cash and cash equivalents at period/year end."},
+    {"metric": "Total cash flow", "definition": "Net increase/decrease in cash and cash equivalents."}
+  ],
+  "sources": [
+    {
+      "key": "adnoc_who_we_are",
+      "title": "ADNOC - Who We Are",
+      "url": "https://www.adnoc.ae/en/our-story/who-we-are",
+      "notes": "Company profile and group ownership context."
+    },
+    {
+      "key": "murban_fy2025_snapshot",
+      "title": "ADNOC Murban RSC LTD - FY2025 Financials Snapshot",
+      "url": "https://adnoc.ae/en/adnoc-murban/-/media/Adnoc%20v2/Sub%20Brands/ADNOC%20Murban/files/2026/Financial%20Results%20-%20FY%202025%20-%20Summary%20Presentation",
+      "notes": "FY2025 and FY2024 profit or loss, balance sheet, cash flow, proxy-entity context, and capex caveat."
+    },
+    {
+      "key": "murban_fy2024_fs",
+      "title": "ADNOC Murban RSC LTD - Audit report and financial statements for the year ended 31 December 2024",
+      "url": "https://adnoc.ae/-/media/adnoc-v2/sub-brands/adnoc-murban/files/adnoc-murban-31-december-2024-fs-signed.ashx",
+      "notes": "Audited FY2024 and FY2023 profit or loss, balance sheet, and cash flow statements."
+    },
+    {
+      "key": "murban_q1_2026_interim",
+      "title": "ADNOC Murban RSC LTD - Q1 2026 interim condensed consolidated financial statements",
+      "url": "https://www.rns-pdf.londonstockexchange.com/rns/8481G_1-2026-6-3.pdf",
+      "notes": "Used only to confirm 2026 public data was interim, not a full-year annual value."
+    }
+  ]
+}

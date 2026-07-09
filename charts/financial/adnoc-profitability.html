@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>ADNOC 财务看板 - 收入与净利润</title>
+    <link rel="stylesheet" href="adnoc-financials.css?v=20260709-adnoc" />
+  </head>
+  <body data-dashboard="profitability">
+    <main class="financial-card" aria-labelledby="chart-title">
+      <header class="chart-header">
+        <div class="header-mark" aria-hidden="true"></div>
+        <div class="title-block">
+          <h1 id="chart-title">ADNOC 盈利能力 | Revenue & Net income</h1>
+          <p>ADNOC Group public disclosure proxy: ADNOC Murban RSC LTD</p>
+        </div>
+      </header>
+
+      <section class="kpi-strip" aria-label="关键指标">
+        <div class="kpi"><small>2025 Revenue</small><strong data-kpi="revenue">...</strong></div>
+        <div class="kpi"><small>2025 Net income</small><strong data-kpi="net-income">...</strong></div>
+        <div class="kpi"><small>Full-year actuals</small><strong data-kpi="period">...</strong></div>
+      </section>
+
+      <section class="chart-stage">
+        <div id="financial-chart" class="chart" role="img" aria-label="ADNOC revenue and net income chart"></div>
+      </section>
+
+      <footer class="footnote">
+        <span>口径: USD million; 2016-2022 未在公开集团/代理口径资料中披露，2026 尚无全年数。</span>
+        <a class="source-link" data-source-link href="#" target="_blank" rel="noreferrer">Source</a>
+      </footer>
+      <div id="state" class="state">正在加载财务数据</div>
+    </main>
+
+    <script src="../../assets/echarts.min.js?v=20260709-adnoc-svgcash4"></script>
+    <script type="module" src="adnoc-financials.js?v=20260709-adnoc-svgcash4"></script>
+  </body>
+</html>
