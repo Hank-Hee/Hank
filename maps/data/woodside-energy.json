@@ -1,0 +1,5195 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Woodside Energy",
+    "sourceOperators": [
+      "Woodside"
+    ],
+    "projectCount": 110,
+    "countryCount": 7,
+    "businessRegions": [
+      "东南亚",
+      "中南美洲",
+      "北美其他",
+      "墨西哥湾",
+      "欧洲其他",
+      "澳大利亚/新西兰",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "woodside-energy-8fd40cf5c3be",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Browse DMO, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7f490f6ecedf",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Bunyip, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Woodside* (52.5%); Santos (28.6%); Kuwait Petroleum Corp (KPC) (18.9%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-edde7a70e3fc",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Greater Enfield, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2000,
+        2010,
+        2011
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "Woodside* (60%); Mitsui (40%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-1395a33c3221",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Greater Laverda Area, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Woodside* (60%); Mitsui (40%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5ccc0120fe39",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Greater Pluto development, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth",
+        "200-300 meter depth",
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2009,
+        2010,
+        2011,
+        2018
+      ],
+      "approvalYears": [
+        2030,
+        2034,
+        2035,
+        2037
+      ],
+      "startupYears": [
+        2035,
+        2037,
+        2038,
+        2040
+      ],
+      "ownerships": [
+        "Woodside* (100%)",
+        "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7fd220b4d115",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Harrison, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Woodside* (71.43%); ExxonMobil (28.57%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6aa2a87a9a30",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Macedon, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Woodside* (71.43%); Santos (28.57%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-3cdda0e61a11",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "North West Shelf Domestic (KGP), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-9148f0a0dea3",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "North West Shelf LNG, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Extended reach",
+        "FPSO",
+        "Onshore LNG plant",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "1000-1500 meter depth",
+        "125-150 meter depth",
+        "150-175 meter depth",
+        "300-450 meter depth",
+        "450-600 meter depth",
+        "600-800 meter depth",
+        "75-100 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971,
+        1972,
+        1973,
+        1975,
+        1977,
+        1979,
+        1983,
+        1984,
+        1987,
+        1988,
+        1989,
+        1990,
+        1995,
+        1996,
+        1997,
+        2000,
+        2002,
+        2003,
+        2005,
+        2006,
+        2007,
+        2011
+      ],
+      "approvalYears": [
+        1979,
+        1981,
+        1984,
+        1994,
+        1997,
+        1999,
+        2003,
+        2004,
+        2011,
+        2015,
+        2019,
+        2020,
+        2024,
+        2025,
+        2029,
+        2030,
+        2032,
+        2033,
+        2034,
+        2036,
+        2039,
+        2041
+      ],
+      "startupYears": [
+        1984,
+        1989,
+        1991,
+        1995,
+        1997,
+        2004,
+        2007,
+        2015,
+        2016,
+        2018,
+        2019,
+        2022,
+        2025,
+        2028,
+        2032,
+        2034,
+        2036,
+        2037,
+        2038,
+        2040,
+        2042,
+        2043,
+        2047,
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (100%)",
+        "Woodside* (17%); Shell (35%); BP (20%); PetroChina (20%); Mitsubishi Corp (4%); Mitsui (4%)",
+        "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)",
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)",
+        "Woodside* (33.33%); BP (16.67%); Chevron (16.67%); Shell (16.67%); Mitsubishi Corp (8.33%); Mitsui (8.33%)",
+        "Woodside* (49.98%); BP (16.67%); Chevron (16.67%); Mitsubishi Corp (8.34%); Mitsui (8.34%)",
+        "Woodside* (49.99%); Mitsubishi Corp (25.01%); Mitsui (25.01%)",
+        "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-4061e97fa2f4",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "NT/RL2 (Sunrise), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7f1e9bb4ef58",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "NT/RL4 (Sunrise), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b27963bb8cd9",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Pluto (domestic), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-07b0c0549ec2",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Pluto LNG T2, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Semi"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Woodside* (51%); Global Infrastructure Partners (GIP) (49%)",
+        "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-d88ad46aa780",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Pluto LNG, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "200-300 meter depth",
+        "800-1000 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1969,
+        1979,
+        2005,
+        2006,
+        2007,
+        2010,
+        2011,
+        2012,
+        2015
+      ],
+      "approvalYears": [
+        2007,
+        2013,
+        2019,
+        2021,
+        2031,
+        2034,
+        2035
+      ],
+      "startupYears": [
+        2012,
+        2015,
+        2021,
+        2027,
+        2034,
+        2035,
+        2037,
+        2039
+      ],
+      "ownerships": [
+        "Woodside* (100%)",
+        "Woodside* (70%); Mitsui (30%)",
+        "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)",
+        "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6a280a9ad7fc",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Pyrenees, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth",
+        "175-200 meter depth",
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2000,
+        2003,
+        2004,
+        2013
+      ],
+      "approvalYears": [
+        2007,
+        2013,
+        2030
+      ],
+      "startupYears": [
+        2010,
+        2014,
+        2033
+      ],
+      "ownerships": [
+        "Woodside* (40%); Santos (31.5%); Inpex (28.5%)",
+        "Woodside* (71.43%); Santos (28.57%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-aa2fceadf902",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Toro, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Woodside* (70%); Mitsui (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-27ada8520cda",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "VIC/L22 (Minerva), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Woodside* (90%); Amplitude Energy (10%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-a94b82dae902",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Vincent, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Woodside* (60%); Mitsui (40%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7ec70cfa80ad",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-01-L (Perseus (POG)), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7d31cd93dc81",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-01-R (Scarborough), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-906fd594a281",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-016-L (Lambert), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2042
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-132cee7b5d69",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-03-L (Angel), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-8409310e4da9",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-04-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-18a086a06b28",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-05-L (Goodwyn), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-4a1472a185e8",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-06-L (Keast), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-8823277c7338",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-07-R (Wilcox), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7a2fcd6bfa16",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-09-L (Cossack), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-d0b38183ac20",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-12-L (Ramillies), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Woodside* (71.43%); ExxonMobil (28.57%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-24cec7540cf5",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-2-R (Gorgon), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-0bd98914027c",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-23-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-bc5504c77e70",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-24-L (Rankin), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-eb61910ab66e",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-28-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (60%); Mitsui (40%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-555b0b2ad410",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-28-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (17%); Shell (35%); BP (20%); PetroChina (20%); Mitsubishi Corp (4%); Mitsui (4%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5212c15a5783",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-29-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-95f9efff8232",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-30-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2071
+      ],
+      "approvalYears": [
+        2081
+      ],
+      "startupYears": [
+        2090
+      ],
+      "ownerships": [
+        "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-0f9d0ff0795e",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-31-R (Calliance), AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-00df49b406e6",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-32-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5b9bd8b329e7",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-34-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-a88c0b71a39a",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-404-P, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6f57943ac932",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-42-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Woodside* (71.43%); Santos (28.57%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-816c0c5f9a05",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-49-L, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b978fa4de16c",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-550-P, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2043
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5f86e4fa079e",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-554-P, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-14c163271dfc",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-61-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-60fa24d36f5e",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-63-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-305afebecd3d",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-93-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Woodside* (70%); Mitsui (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-ccb0001921d9",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "WA-94-R, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Woodside* (70%); Mitsui (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b29b6964dee0",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Wheatstone LNG T1-T2, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2011,
+        2019,
+        2023
+      ],
+      "startupYears": [
+        2017,
+        2021,
+        2026
+      ],
+      "ownerships": [
+        "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-03b2bcde5e3b",
+      "operator": "Woodside Energy",
+      "country": "Australia",
+      "project": "Wheatstone, AU",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b48a843e693b",
+      "operator": "Woodside Energy",
+      "country": "Ireland",
+      "project": "FEL 05/13, IE",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-c46a0dbcaac3",
+      "operator": "Woodside Energy",
+      "country": "Mexico",
+      "project": "Trion, MX",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Semi"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2012,
+        2029
+      ],
+      "approvalYears": [
+        2023,
+        2031
+      ],
+      "startupYears": [
+        2028,
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (60%); Pemex (40%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-df13ca2bb1f0",
+      "operator": "Woodside Energy",
+      "country": "Senegal",
+      "project": "FAN, SN",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2014,
+        2017
+      ],
+      "approvalYears": [
+        2034,
+        2036
+      ],
+      "startupYears": [
+        2037,
+        2040
+      ],
+      "ownerships": [
+        "Woodside* (82%); Petrosen (18%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6eab88674301",
+      "operator": "Woodside Energy",
+      "country": "Senegal",
+      "project": "Sangomar (Ex-SNE), SN",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2014,
+        2017
+      ],
+      "approvalYears": [
+        2020,
+        2028,
+        2030,
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2024,
+        2031,
+        2033,
+        2038,
+        2043
+      ],
+      "ownerships": [
+        "Woodside* (82%); Petrosen (18%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2c7f7ce1a7e1",
+      "operator": "Woodside Energy",
+      "country": "Senegal",
+      "project": "Sangomar Offshore Deep, SN",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Woodside* (82%); Petrosen (18%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2bbbd6f7fe01",
+      "operator": "Woodside Energy",
+      "country": "Timor-Leste",
+      "project": "Greater Sunrise (03-19/03-20), TL",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6622cb556839",
+      "operator": "Woodside Energy",
+      "country": "Timor-Leste",
+      "project": "Sunrise LNG, TL",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1974,
+        1975
+      ],
+      "approvalYears": [
+        2033,
+        2036
+      ],
+      "startupYears": [
+        2036,
+        2038
+      ],
+      "ownerships": [
+        "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-8c4f7cde2722",
+      "operator": "Woodside Energy",
+      "country": "Trinidad and Tobago",
+      "project": "Block 23a, TT",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Woodside* (70%); BP (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-57da81d4fc77",
+      "operator": "Woodside Energy",
+      "country": "Trinidad and Tobago",
+      "project": "Calypso, TT",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2018,
+        2019
+      ],
+      "approvalYears": [
+        2028,
+        2036
+      ],
+      "startupYears": [
+        2030,
+        2039
+      ],
+      "ownerships": [
+        "Woodside* (70%); BP (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5c83ee6f83ea",
+      "operator": "Woodside Energy",
+      "country": "Trinidad and Tobago",
+      "project": "TTDAA 14, TT",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (70%); BP (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b3bec9d714b6",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "AC036, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (70%); Occidental Petroleum (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-525c783ae85d",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "AC080, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (70%); Occidental Petroleum (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-eda8d2a52c20",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "AC081, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-a03dcd6f0a42",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "AC125, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-cb1a6bc19dbc",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "AC126, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-d0126c063e98",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB550, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-4f4afa2d0788",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB594, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-33bee024fc76",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB636, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-9f68665addba",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB637, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-6f85f615b630",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB638, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-96a15ce9a397",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "EB699, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "N/A"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Woodside* (70%); Occidental Petroleum (30%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-8415a8ab8b9d",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB529, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-24491aee1eb5",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB530, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-f34fd8f20aae",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB531, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-3aa236099458",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB721, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b90a1000e162",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB780, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-c32fd376b208",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB821, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-0181509943e9",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB824, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2926dc92e6ca",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB825, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b3c939256643",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GB866, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-66d3d16a9cf6",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC124, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2070
+      ],
+      "ownerships": [
+        "Woodside* (75%); Chevron (25%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2ee0fd0c27f5",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC210, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-fed7de9899f3",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC211, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7e78952ebcf8",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC609, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-b12237a05add",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC610, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-e8cdbb7edb1f",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC652, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-bc1ebf233aa0",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC653, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-a09aaf6932b4",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "GC654, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2b8948b102e8",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC259, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-415b9428ecf2",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC297, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-3a6c6e6db061",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC301, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-2f8228c6e081",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC343, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-0a878119dd94",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC431, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-a1e59ec8a5cd",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC859, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-efa34c197ae0",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC903, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-5d6af88c1fe2",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC904, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-efaa53dd6445",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC905, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-80a481e38224",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC948, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-c3464722e8ef",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "KC949, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7fe633f5d84d",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "Marco Polo (TLP), US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-4c4c35af4044",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "Shenzi (TLP), US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Subsea tie back",
+        "TLP"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2002,
+        2015
+      ],
+      "approvalYears": [
+        2006,
+        2021
+      ],
+      "startupYears": [
+        2009,
+        2023
+      ],
+      "ownerships": [
+        "Woodside* (72%); Repsol (28%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-9355170a02cb",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "Woodside Louisiana LNG Plant 1, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2029,
+        2030
+      ],
+      "ownerships": [
+        "Woodside* (54%); Stonepeak (40%); Williams (6%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-c9a4ad53e62c",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "Woodside Louisiana LNG Plant 2, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Woodside* (54%); Stonepeak (40%); Williams (6%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-7c15380ecca7",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "Woodside Louisiana LNG Plant 3, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Woodside* (54%); Stonepeak (40%); Williams (6%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-3d7e580dfdbb",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR443, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Woodside* (80%); Repsol (20%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-bfc72cc08ecf",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR444, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Woodside* (80%); Repsol (20%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-aed12600ed9e",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR488, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Woodside* (80%); Repsol (20%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-87ec52bddc3d",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR577, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-539ef5761c5c",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR751, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-636c59d7b982",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR795, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    },
+    {
+      "id": "woodside-energy-874011f86c57",
+      "operator": "Woodside Energy",
+      "country": "United States",
+      "project": "WR796, US",
+      "sourceOperators": [
+        "Woodside"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Woodside* (100%)"
+      ]
+    }
+  ]
+}

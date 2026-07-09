@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "SNPC",
+    "sourceOperators": [
+      "SNPC (Congo)"
+    ],
+    "projectCount": 5,
+    "countryCount": 1,
+    "businessRegions": [
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "snpc-bb7a369633d3",
+      "operator": "SNPC",
+      "country": "Congo",
+      "project": "Kouakouala, CG",
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "SNPC (Congo)* (100%)"
+      ]
+    },
+    {
+      "id": "snpc-025367a668e3",
+      "operator": "SNPC",
+      "country": "Congo",
+      "project": "Loango Marine, CG",
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "SNPC (Congo)* (92.5%); Unknown Owner (7.5%)"
+      ]
+    },
+    {
+      "id": "snpc-562019b55c19",
+      "operator": "SNPC",
+      "country": "Congo",
+      "project": "Mengo-Kundji-Bindi, CG",
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "SNPC (Congo)* (60%); Orion Group SA (40%)"
+      ]
+    },
+    {
+      "id": "snpc-734c245e33b9",
+      "operator": "SNPC",
+      "country": "Congo",
+      "project": "MKB Development, CG",
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2007,
+        2029
+      ],
+      "startupYears": [
+        2010,
+        2032
+      ],
+      "ownerships": [
+        "SNPC (Congo)* (60%); Orion Group SA (40%)"
+      ]
+    },
+    {
+      "id": "snpc-339fe3e15b84",
+      "operator": "SNPC",
+      "country": "Congo",
+      "project": "Zingali, CG",
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "SNPC (Congo)* (100%)"
+      ]
+    }
+  ]
+}

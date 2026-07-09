@@ -1,0 +1,794 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Touchstone Exploration",
+    "sourceOperators": [
+      "Touchstone Exploration Inc."
+    ],
+    "projectCount": 17,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "touchstone-exploration-d09f7fb12c6e",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Atlantic LNG T2-T3, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-3785416f2307",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Balata East-Bovallius, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1953
+      ],
+      "startupYears": [
+        1954
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-cf2dbcd646d4",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Balata, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-ce21f0a9165d",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Block Rio Claro, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-7aa98b36db89",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Carapal Ridge, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-a4ac8b99deb7",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Cascadura, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019,
+        2020,
+        2021
+      ],
+      "approvalYears": [
+        2022,
+        2029,
+        2032
+      ],
+      "startupYears": [
+        2023,
+        2030,
+        2033
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-d629020253cc",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Central Block (Carapal Ridge), TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-401dd104538b",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Charuma, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); NGC (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-334ea8a9c892",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Cipero, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); NGC (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-edc20f404cc6",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Coho, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2020
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-8137b5ac194a",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Coora, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-1fa09d7eee6f",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Coora-Quarry-Apex Quarry, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1936
+      ],
+      "approvalYears": [
+        1937
+      ],
+      "startupYears": [
+        1937
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-9ba008176458",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Corosan, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-7fdf47fcc6b5",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "Ortoire Block, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-dc71cb788536",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "WD-04, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-f65fb6c3c79e",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "WD-08, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    },
+    {
+      "id": "touchstone-exploration-5abe58d03737",
+      "operator": "Touchstone Exploration",
+      "country": "Trinidad and Tobago",
+      "project": "WD-4, TT",
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Touchstone Exploration Inc.* (100%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "SHI",
+    "sourceOperators": [
+      "Shirvan Operating Company"
+    ],
+    "projectCount": 1,
+    "countryCount": 1,
+    "businessRegions": [
+      "俄罗斯/独联体"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "shi-5a725b04bd0f",
+      "operator": "SHI",
+      "country": "Azerbaijan",
+      "project": "Shirvan Operating Company, AZ",
+      "sourceOperators": [
+        "Shirvan Operating Company"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1956
+      ],
+      "startupYears": [
+        1956
+      ],
+      "ownerships": [
+        "Shirvan Operating Company* (0%); Global Energy Azerbaijan Limited (80%); SOCAR (20%)"
+      ]
+    }
+  ]
+}

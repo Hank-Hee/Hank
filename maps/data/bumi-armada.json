@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Bumi Armada",
+    "sourceOperators": [
+      "Bumi Armada"
+    ],
+    "projectCount": 3,
+    "countryCount": 1,
+    "businessRegions": [
+      "东南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "bumi-armada-12885961c5d9",
+      "operator": "Bumi Armada",
+      "country": "Indonesia",
+      "project": "Akia, ID",
+      "sourceOperators": [
+        "Bumi Armada"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2004,
+        2007,
+        2026
+      ],
+      "approvalYears": [
+        2032,
+        2042
+      ],
+      "startupYears": [
+        2036,
+        2046
+      ],
+      "ownerships": [
+        "Bumi Armada* (51%); Pexco Exploration (49%)"
+      ]
+    },
+    {
+      "id": "bumi-armada-7caf394b8ecc",
+      "operator": "Bumi Armada",
+      "country": "Indonesia",
+      "project": "Jalu, ID",
+      "sourceOperators": [
+        "Bumi Armada"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Bumi Armada* (100%)"
+      ]
+    },
+    {
+      "id": "bumi-armada-6537092e8507",
+      "operator": "Bumi Armada",
+      "country": "Indonesia",
+      "project": "Kojo, ID",
+      "sourceOperators": [
+        "Bumi Armada"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Bumi Armada* (100%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3606 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "United Oil & Gas",
+    "sourceOperators": [
+      "United Energy",
+      "United Oil & Gas",
+      "United Production Partners"
+    ],
+    "projectCount": 73,
+    "countryCount": 6,
+    "businessRegions": [
+      "中东及南亚",
+      "加勒比",
+      "北美其他",
+      "北非/北欧"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "united-oil-gas-dd8fe69cd4c9",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Abu Sennan, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2015,
+        2016,
+        2023
+      ],
+      "approvalYears": [
+        2013,
+        2016,
+        2030
+      ],
+      "startupYears": [
+        2013,
+        2016,
+        2034
+      ],
+      "ownerships": [
+        "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-d937ee28f0b5",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Aghar, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-9350c93e1167",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Ahmad-1X, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-2927f6a12c8c",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Al Jahraa-1X, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-06510cf3a4c0",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Block 9 (South East Meleiha), EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-60825fe6e868",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Burg El Arab, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-6ed79b902a46",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "East Kanayis, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2039,
+        2044
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-54ad28233f12",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "El Salmiya, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-72e661a24bcb",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Kareem East, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-39788313fb3d",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Kheir East 2, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-e8bcad0b4473",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Ras Qattara, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993,
+        1995
+      ],
+      "approvalYears": [
+        1994,
+        1996
+      ],
+      "startupYears": [
+        1994,
+        1996
+      ],
+      "ownerships": [
+        "United Energy* (75%); INA (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-dbacbccd0f69",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "SEMZ, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020,
+        2021
+      ],
+      "approvalYears": [
+        2021,
+        2022
+      ],
+      "startupYears": [
+        2021,
+        2022
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-bfbc715e4ad6",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Shukheir NW, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-a72871d78fc9",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Shukheir, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1971
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-9ef7251ea1d4",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "Umm El Yusr, EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1967
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "United Energy* (70%); Petrogas (30%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-3bf8cc6f22ec",
+      "operator": "United Oil & Gas",
+      "country": "Egypt",
+      "project": "West Wadi El Natrun (EGY-WD-11), EG",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-f2e73c3a1f8a",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "Block 9, IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-c377a0e5e9cf",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "Faihaa (Heavy Oil), IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-3910323eb1b2",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "Faihaa (Light oil), IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2015,
+        2022
+      ],
+      "startupYears": [
+        2015,
+        2024
+      ],
+      "ownerships": [
+        "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-8564e890bce5",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "FAO Block, IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-2106378d36f9",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "Siba, IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (30%); TPAO (30%); Basra Oil Company (Iraq NOC) (25%); EGPC (Egypt) (15%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-69913f73c0da",
+      "operator": "United Oil & Gas",
+      "country": "Iraq",
+      "project": "Sindebad, IQ",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013,
+        2028
+      ],
+      "approvalYears": [
+        2030,
+        2033
+      ],
+      "startupYears": [
+        2032,
+        2035
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-a4a4006b802c",
+      "operator": "United Oil & Gas",
+      "country": "Jamaica",
+      "project": "Walton Morant, JM",
+      "sourceOperators": [
+        "United Oil & Gas"
+      ],
+      "regions": [
+        "Caribbean"
+      ],
+      "businessRegions": [
+        "加勒比"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "United Oil & Gas* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-d15de85f37ec",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Akhiro, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "United Energy* (75%); OGDCL (Pakistan) (20%); Government Holdings Private Limited (2.5%); SEHCL (2.5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-f1a23be7d0d5",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Ali Zaur, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "United Energy* (51%); OGDCL (Pakistan) (49%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-ae029810bf35",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Ali, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-8947fc6e1566",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Badin Project, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981,
+        1984,
+        1985,
+        1986,
+        1988,
+        1989,
+        1990,
+        1991,
+        1993,
+        1995,
+        1996,
+        1997,
+        1998,
+        2004,
+        2007,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2027,
+        2028,
+        2030,
+        2031,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2039,
+        2100
+      ],
+      "approvalYears": [
+        1981,
+        1985,
+        1986,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1996,
+        1998,
+        1999,
+        2001,
+        2006,
+        2008,
+        2009,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2028,
+        2029,
+        2031,
+        2032,
+        2034,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2042,
+        2100
+      ],
+      "startupYears": [
+        1982,
+        1985,
+        1986,
+        1988,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1998,
+        1999,
+        2002,
+        2003,
+        2005,
+        2006,
+        2009,
+        2014,
+        2015,
+        2016,
+        2018,
+        2020,
+        2021,
+        2031,
+        2032,
+        2034,
+        2035,
+        2036,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2045,
+        2101
+      ],
+      "ownerships": [
+        "United Energy* (100%)",
+        "United Energy* (51%); OGDCL (Pakistan) (49%)",
+        "United Energy* (60%); GHPL (25%); OGDCL (Pakistan) (15%)",
+        "United Energy* (60%); OGDCL (Pakistan) (40%)",
+        "United Energy* (76%); OGDCL (Pakistan) (24%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-094476c4ab59",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Bago, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-141479ccacee",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2568-19 (Digri), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "United Energy* (75%); Government of Pakistan (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-69f6076395b5",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2568-21 (KOTRI NORTH), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "United Energy* (60%); Pakistan Petroleum Limited (PPL) (40%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-421458a38d5c",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2667-17 (Mithiani), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-6d8de8c84a19",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2668-26 (Sawan  South), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "United Energy* (75%); OGDCL (Pakistan) (20%); Government Holdings Private Limited (2.5%); SEHCL (2.5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-237d9f27416f",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2867-5 (Kuhan), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "United Energy* (48.75%); Pakistan Petroleum Limited (PPL) (48.75%); GHPL (2.5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-1db486a7d729",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2869-14 (Kalchas South), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "United Energy* (46%); Mari Energies (44%); Dewan Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-4f6a060b9aee",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Block 2969-11 (Meeranpur), PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "United Energy* (48.75%); Mari Energies (48.75%); Punjab Energy Holding Company Limited (PEHCL) (2.49%); Balochistan Energy Co Ltd (BECL) (0.01%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-64b7b1f23182",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Duphri ML, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "United Energy* (60%); OGDCL (Pakistan) (40%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-a9fa98a844d2",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Fateh Shah, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-c2875719122d",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Fazil, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "United Energy* (45%); Prime International (30%); Government of Pakistan (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-3e1f8469b881",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Ghunghro ML, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-40db3e7d201a",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Ghunghro, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-716888c1da31",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Gulsher, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018,
+        2037
+      ],
+      "approvalYears": [
+        2018,
+        2039
+      ],
+      "startupYears": [
+        2018,
+        2040
+      ],
+      "ownerships": [
+        "United Energy* (100%)",
+        "United Energy* (75%); Pakistan Petroleum Limited (PPL) (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-82dc61d0a6de",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Guni, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-34fd57374697",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Halipota, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-d3c1309c8b1a",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Hayat, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-b9e95f3ab7f7",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Latif, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2015,
+        2019,
+        2021,
+        2024,
+        2028
+      ],
+      "approvalYears": [
+        2008,
+        2019,
+        2021,
+        2022,
+        2027,
+        2029
+      ],
+      "startupYears": [
+        2013,
+        2019,
+        2022,
+        2029,
+        2034
+      ],
+      "ownerships": [
+        "United Energy* (33.4%); Eni (33.3%); Pakistan Petroleum Limited (PPL) (33.3%)",
+        "United Energy* (33.4%); Pakistan Petroleum Limited (PPL) (33.3%); Prime International (33.3%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-1c79f904ee74",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Makhdumpur, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-90e4f1e2a911",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Malkani, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-90f97ff26fb2",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mazari ML, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2013,
+        2014
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-14750fd36ce2",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mehar, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003,
+        2013,
+        2100
+      ],
+      "approvalYears": [
+        2009,
+        2017,
+        2101
+      ],
+      "startupYears": [
+        2013,
+        2017,
+        2103
+      ],
+      "ownerships": [
+        "United Energy* (59.2%); GHPL (25%); Ocean Pakistan Limited (11.8%); Zaver Petroleum (4%)",
+        "United Energy* (59.21%); GHPL (25%); Ocean Pakistan Limited (11.84%); Zaver Petroleum (3.95%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-ef4a5e31b43e",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Miano DPL, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "United Energy* (17.68%); OGDCL (Pakistan) (52%); Pakistan Petroleum Limited (PPL) (15.16%); Prime International (15.16%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-0388f89e33a7",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Miano, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "United Energy* (17.68%); OGDCL (Pakistan) (52%); Pakistan Petroleum Limited (PPL) (15.16%); Prime International (15.16%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-eaa6e8bcc926",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "MKK Project, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003,
+        2004,
+        2006,
+        2007,
+        2010,
+        2012,
+        2013,
+        2014,
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2030
+      ],
+      "approvalYears": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2033
+      ],
+      "startupYears": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2009,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2026,
+        2036
+      ],
+      "ownerships": [
+        "United Energy* (60%); OGDCL (Pakistan) (40%)",
+        "United Energy* (75%); GHPL (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-1a2a6373ca2f",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mohib, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-1df4eca63ad8",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mohri, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-48793384154b",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mor, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-99bdfd42b7c0",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Mulaki, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2021
+      ],
+      "approvalYears": [
+        2013,
+        2021
+      ],
+      "startupYears": [
+        2019,
+        2021
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-00d3a79101b0",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Nakurji, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-55d7509982cd",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Nurpur Deep, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-c57a638c9491",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Oderoial, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (80%); Other partner(s) (20%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-79df2c85e1fc",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Rajo, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-9622cdfbc4e4",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Roshnai, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-3b1d678f18d7",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Sawan DPL, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "United Energy* (19.74%); Pakistan Petroleum Limited (PPL) (34.08%); Prime International (23.68%); GHPL (22.5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-618cc7860b4b",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Sawan, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2025
+      ],
+      "approvalYears": [
+        1998,
+        2027
+      ],
+      "startupYears": [
+        2003,
+        2028
+      ],
+      "ownerships": [
+        "United Energy* (19.74%); Pakistan Petroleum Limited (PPL) (34.08%); Prime International (23.68%); GHPL (22.5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-5342ded98972",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Shahu, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-b2e1f45593f6",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Sonhal, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-f936b6ffa4c6",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Sukhi, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-6a386428d6b2",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Taj South, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "United Energy* (75%); GHPL (25%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-21cd493ad156",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Takri, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "United Energy* (60%); Pakistan Petroleum Limited (PPL) (40%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-c4479e73f257",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Tangri, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995,
+        2010
+      ],
+      "approvalYears": [
+        1995,
+        2010
+      ],
+      "startupYears": [
+        1995,
+        2010
+      ],
+      "ownerships": [
+        "United Energy* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-e6fd4deba720",
+      "operator": "United Oil & Gas",
+      "country": "Pakistan",
+      "project": "Tibri, PK",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "United Energy* (46%); Mari Energies (44%); Dewan Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-483a6f3ed0d2",
+      "operator": "United Oil & Gas",
+      "country": "United States",
+      "project": "Barnett Shale, US",
+      "sourceOperators": [
+        "United Production Partners"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1901
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "United Production Partners* (100%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-9dac4ec8ac38",
+      "operator": "United Oil & Gas",
+      "country": "United States",
+      "project": "Permian Midland Tight, US",
+      "sourceOperators": [
+        "United Production Partners"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2024,
+        2025
+      ],
+      "startupYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2024,
+        2025
+      ],
+      "ownerships": [
+        "United Production Partners* (100%)",
+        "United Production Partners* (20%); BVX Operating (20%); Permian Resources (20%); Ridgeline Resources (20%); Sequitur Energy Resources (20%)",
+        "United Production Partners* (37.84%); Devon Energy (14.86%); Approach Resources (9.46%); EOG Resources (9.46%); EPIC Pipeline LP (9.46%); Extex (9.46%); Zarvona Energy (9.46%)",
+        "United Production Partners* (90%); Permian Resources (10%)",
+        "United Production Partners* (95%); Cody Energy (5%)",
+        "United Production Partners* (95%); Cutbow Operating (5%)",
+        "United Production Partners* (95%); FourPoint Energy (5%)",
+        "United Production Partners* (95%); Hannathon Petroleum LLC (5%)",
+        "United Production Partners* (95%); Ike Energy (5%)"
+      ]
+    },
+    {
+      "id": "united-oil-gas-be434100fe7e",
+      "operator": "United Oil & Gas",
+      "country": "Yemen",
+      "project": "The Jannah Block 5 Venture, YE",
+      "sourceOperators": [
+        "United Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992,
+        1993,
+        1995,
+        1996
+      ],
+      "approvalYears": [
+        1994,
+        1996,
+        1998
+      ],
+      "startupYears": [
+        1996,
+        1997,
+        1999,
+        2000
+      ],
+      "ownerships": [
+        "United Energy* (15%); Yemen General Oil and Gas (35%); Kuwait Petroleum Corp (KPC) (20%); ExxonMobil (15%); Zarubezhgeologiya JSC (15%)"
+      ]
+    }
+  ]
+}

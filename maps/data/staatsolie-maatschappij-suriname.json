@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Staatsolie Maatschappij Suriname",
+    "sourceOperators": [
+      "Staatsolie Maatschappij Suriname NV"
+    ],
+    "projectCount": 3,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "staatsolie-maatschappij-suriname-75f002d6c9aa",
+      "operator": "Staatsolie Maatschappij Suriname",
+      "country": "Suriname",
+      "project": "Calcutta, SR",
+      "sourceOperators": [
+        "Staatsolie Maatschappij Suriname NV"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965,
+        2100
+      ],
+      "approvalYears": [
+        2001,
+        2100
+      ],
+      "startupYears": [
+        2005,
+        2102
+      ],
+      "ownerships": [
+        "Staatsolie Maatschappij Suriname NV* (100%)"
+      ]
+    },
+    {
+      "id": "staatsolie-maatschappij-suriname-41f7cce56a24",
+      "operator": "Staatsolie Maatschappij Suriname",
+      "country": "Suriname",
+      "project": "Tambaredjo YTF, SR",
+      "sourceOperators": [
+        "Staatsolie Maatschappij Suriname NV"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Staatsolie Maatschappij Suriname NV* (100%)"
+      ]
+    },
+    {
+      "id": "staatsolie-maatschappij-suriname-3dbe10b10712",
+      "operator": "Staatsolie Maatschappij Suriname",
+      "country": "Suriname",
+      "project": "Tambaredjo, SR",
+      "sourceOperators": [
+        "Staatsolie Maatschappij Suriname NV"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1978
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Staatsolie Maatschappij Suriname NV* (100%)"
+      ]
+    }
+  ]
+}

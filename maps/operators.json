@@ -1,14 +1,1116 @@
 {
   "meta": {
-    "sourceFile": "Rystad数据表（统一格式及业务区域最新版）.xlsx",
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
     "locationRule": "Country-level Natural Earth label points; not project coordinates"
   },
   "operators": [
     {
+      "name": "SHI",
+      "slug": "shi",
+      "aliases": [
+        "SHI",
+        "shi"
+      ],
+      "dataFile": "data/shi.json",
+      "projectCount": 1,
+      "countryCount": 1,
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ]
+    },
+    {
+      "name": "Bumi Armada",
+      "slug": "bumi-armada",
+      "aliases": [
+        "Bumi Armada",
+        "bumi-armada"
+      ],
+      "dataFile": "data/bumi-armada.json",
+      "projectCount": 3,
+      "countryCount": 1,
+      "businessRegions": [
+        "东南亚"
+      ]
+    },
+    {
+      "name": "Andes Petroleum",
+      "slug": "andes-petroleum",
+      "aliases": [
+        "Andes Petroleum",
+        "andes-petroleum"
+      ],
+      "dataFile": "data/andes-petroleum.json",
+      "projectCount": 5,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Delfin Midstream",
+      "slug": "delfin-midstream",
+      "aliases": [
+        "Delfin Midstream",
+        "delfin-midstream"
+      ],
+      "dataFile": "data/delfin-midstream.json",
+      "projectCount": 1,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Azule",
+      "slug": "azule",
+      "aliases": [
+        "Azule",
+        "azule"
+      ],
+      "dataFile": "data/azule.json",
+      "projectCount": 21,
+      "countryCount": 1,
+      "businessRegions": [
+        "非洲"
+      ]
+    },
+    {
+      "name": "United Oil & Gas",
+      "slug": "united-oil-gas",
+      "aliases": [
+        "United Oil & Gas",
+        "united-oil-gas"
+      ],
+      "dataFile": "data/united-oil-gas.json",
+      "projectCount": 73,
+      "countryCount": 6,
+      "businessRegions": [
+        "中东及南亚",
+        "加勒比",
+        "北美其他",
+        "北非/北欧"
+      ]
+    },
+    {
+      "name": "New Fortress Energy",
+      "slug": "new-fortress-energy",
+      "aliases": [
+        "New Fortress Energy",
+        "new-fortress-energy"
+      ],
+      "dataFile": "data/new-fortress-energy.json",
+      "projectCount": 2,
+      "countryCount": 2,
+      "businessRegions": [
+        "中南美洲",
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Touchstone Exploration",
+      "slug": "touchstone-exploration",
+      "aliases": [
+        "Touchstone Exploration",
+        "touchstone-exploration"
+      ],
+      "dataFile": "data/touchstone-exploration.json",
+      "projectCount": 17,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Pacific Oil",
+      "slug": "pacific-oil",
+      "aliases": [
+        "Pacific Oil",
+        "pacific-oil"
+      ],
+      "dataFile": "data/pacific-oil.json",
+      "projectCount": 7,
+      "countryCount": 3,
+      "businessRegions": [
+        "东南亚",
+        "加拿大",
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Pluspetrol",
+      "slug": "pluspetrol",
+      "aliases": [
+        "Pluspetrol",
+        "pluspetrol"
+      ],
+      "dataFile": "data/pluspetrol.json",
+      "projectCount": 25,
+      "countryCount": 4,
+      "businessRegions": [
+        "中南美洲",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Citla Energy",
+      "slug": "citla-energy",
+      "aliases": [
+        "Citla Energy",
+        "citla-energy"
+      ],
+      "dataFile": "data/citla-energy.json",
+      "projectCount": 1,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Pampa Energía",
+      "slug": "pampa-energia",
+      "aliases": [
+        "Pampa Energía",
+        "pampa-energia"
+      ],
+      "dataFile": "data/pampa-energia.json",
+      "projectCount": 11,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "GeoPark",
+      "slug": "geopark",
+      "aliases": [
+        "GeoPark",
+        "geopark"
+      ],
+      "dataFile": "data/geopark.json",
+      "projectCount": 32,
+      "countryCount": 3,
+      "businessRegions": [
+        "中南美洲",
+        "巴西"
+      ]
+    },
+    {
+      "name": "Canacol Energy",
+      "slug": "canacol-energy",
+      "aliases": [
+        "Canacol Energy",
+        "canacol-energy"
+      ],
+      "dataFile": "data/canacol-energy.json",
+      "projectCount": 25,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "TC Energy",
+      "slug": "tc-energy",
+      "aliases": [
+        "TC Energy",
+        "tc-energy"
+      ],
+      "dataFile": "data/tc-energy.json",
+      "projectCount": 1,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Frontera Energy",
+      "slug": "frontera-energy",
+      "aliases": [
+        "Frontera Energy",
+        "frontera-energy"
+      ],
+      "dataFile": "data/frontera-energy.json",
+      "projectCount": 5,
+      "countryCount": 1,
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ]
+    },
+    {
+      "name": "Imperial Oil",
+      "slug": "imperial-oil",
+      "aliases": [
+        "Imperial Oil",
+        "imperial-oil"
+      ],
+      "dataFile": "data/imperial-oil.json",
+      "projectCount": 16,
+      "countryCount": 1,
+      "businessRegions": [
+        "加拿大"
+      ]
+    },
+    {
+      "name": "Cenovus Energy",
+      "slug": "cenovus-energy",
+      "aliases": [
+        "Cenovus Energy",
+        "cenovus-energy"
+      ],
+      "dataFile": "data/cenovus-energy.json",
+      "projectCount": 68,
+      "countryCount": 3,
+      "businessRegions": [
+        "中国及东北亚",
+        "加拿大"
+      ]
+    },
+    {
+      "name": "Canadian Natural Resources",
+      "slug": "canadian-natural-resources",
+      "aliases": [
+        "Canadian Natural Resources",
+        "canadian-natural-resources"
+      ],
+      "dataFile": "data/canadian-natural-resources.json",
+      "projectCount": 69,
+      "countryCount": 3,
+      "businessRegions": [
+        "加拿大",
+        "欧洲其他",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Suncor Energy",
+      "slug": "suncor-energy",
+      "aliases": [
+        "Suncor Energy",
+        "suncor-energy"
+      ],
+      "dataFile": "data/suncor-energy.json",
+      "projectCount": 45,
+      "countryCount": 2,
+      "businessRegions": [
+        "中东及南亚",
+        "加拿大"
+      ]
+    },
+    {
+      "name": "Talos Energy",
+      "slug": "talos-energy",
+      "aliases": [
+        "Talos Energy",
+        "talos-energy"
+      ],
+      "dataFile": "data/talos-energy.json",
+      "projectCount": 194,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他",
+        "墨西哥湾"
+      ]
+    },
+    {
+      "name": "Permian Resources",
+      "slug": "permian-resources",
+      "aliases": [
+        "Permian Resources",
+        "permian-resources"
+      ],
+      "dataFile": "data/permian-resources.json",
+      "projectCount": 2,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他"
+      ]
+    },
+    {
+      "name": "EOG Resources",
+      "slug": "eog-resources",
+      "aliases": [
+        "EOG Resources",
+        "eog-resources"
+      ],
+      "dataFile": "data/eog-resources.json",
+      "projectCount": 36,
+      "countryCount": 4,
+      "businessRegions": [
+        "中东及南亚",
+        "中南美洲",
+        "北美其他",
+        "墨西哥湾",
+        "澳大利亚/新西兰"
+      ]
+    },
+    {
+      "name": "Diamondback Energy",
+      "slug": "diamondback-energy",
+      "aliases": [
+        "Diamondback Energy",
+        "diamondback-energy"
+      ],
+      "dataFile": "data/diamondback-energy.json",
+      "projectCount": 3,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Venture Global LNG",
+      "slug": "venture-global-lng",
+      "aliases": [
+        "Venture Global LNG",
+        "venture-global-lng"
+      ],
+      "dataFile": "data/venture-global-lng.json",
+      "projectCount": 4,
+      "countryCount": 1,
+      "businessRegions": [
+        "全球/跨区域",
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Devon Energy",
+      "slug": "devon-energy",
+      "aliases": [
+        "Devon Energy",
+        "devon-energy"
+      ],
+      "dataFile": "data/devon-energy.json",
+      "projectCount": 25,
+      "countryCount": 2,
+      "businessRegions": [
+        "加拿大",
+        "北美其他",
+        "墨西哥湾"
+      ]
+    },
+    {
+      "name": "Sempra Energy",
+      "slug": "sempra-energy",
+      "aliases": [
+        "Sempra Energy",
+        "sempra-energy"
+      ],
+      "dataFile": "data/sempra-energy.json",
+      "projectCount": 4,
+      "countryCount": 2,
+      "businessRegions": [
+        "中南美洲",
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Occidental Petroleum",
+      "slug": "occidental-petroleum",
+      "aliases": [
+        "Occidental Petroleum",
+        "occidental-petroleum"
+      ],
+      "dataFile": "data/occidental-petroleum.json",
+      "projectCount": 258,
+      "countryCount": 9,
+      "businessRegions": [
+        "中东及南亚",
+        "中南美洲",
+        "北美其他",
+        "北非/北欧",
+        "墨西哥湾"
+      ]
+    },
+    {
+      "name": "Cheniere Energy",
+      "slug": "cheniere-energy",
+      "aliases": [
+        "Cheniere Energy",
+        "cheniere-energy"
+      ],
+      "dataFile": "data/cheniere-energy.json",
+      "projectCount": 3,
+      "countryCount": 1,
+      "businessRegions": [
+        "北美其他"
+      ]
+    },
+    {
+      "name": "Galp Energia",
+      "slug": "galp-energia",
+      "aliases": [
+        "Galp Energia",
+        "galp-energia"
+      ],
+      "dataFile": "data/galp-energia.json",
+      "projectCount": 4,
+      "countryCount": 2,
+      "businessRegions": [
+        "非洲"
+      ]
+    },
+    {
+      "name": "Perenco",
+      "slug": "perenco",
+      "aliases": [
+        "Perenco",
+        "perenco"
+      ],
+      "dataFile": "data/perenco.json",
+      "projectCount": 385,
+      "countryCount": 15,
+      "businessRegions": [
+        "中南美洲",
+        "北非/北欧",
+        "地中海/南欧",
+        "巴西",
+        "欧洲其他",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Harbour Energy",
+      "slug": "harbour-energy",
+      "aliases": [
+        "Harbour Energy",
+        "harbour-energy"
+      ],
+      "dataFile": "data/harbour-energy.json",
+      "projectCount": 237,
+      "countryCount": 10,
+      "businessRegions": [
+        "东南亚",
+        "中南美洲",
+        "北美其他",
+        "北非/北欧",
+        "墨西哥湾",
+        "欧洲其他"
+      ]
+    },
+    {
+      "name": "Ithaca Energy",
+      "slug": "ithaca-energy",
+      "aliases": [
+        "Ithaca Energy",
+        "ithaca-energy"
+      ],
+      "dataFile": "data/ithaca-energy.json",
+      "projectCount": 65,
+      "countryCount": 1,
+      "businessRegions": [
+        "欧洲其他"
+      ]
+    },
+    {
+      "name": "Pan American Energy",
+      "slug": "pan-american-energy",
+      "aliases": [
+        "Pan American Energy",
+        "pan-american-energy"
+      ],
+      "dataFile": "data/pan-american-energy.json",
+      "projectCount": 62,
+      "countryCount": 2,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Genting",
+      "slug": "genting",
+      "aliases": [
+        "Genting",
+        "genting"
+      ],
+      "dataFile": "data/genting.json",
+      "projectCount": 3,
+      "countryCount": 1,
+      "businessRegions": [
+        "东南亚"
+      ]
+    },
+    {
+      "name": "Mubadala Energy",
+      "slug": "mubadala-energy",
+      "aliases": [
+        "Mubadala Energy",
+        "mubadala-energy"
+      ],
+      "dataFile": "data/mubadala-energy.json",
+      "projectCount": 8,
+      "countryCount": 2,
+      "businessRegions": [
+        "东南亚"
+      ]
+    },
+    {
+      "name": "Kosmos Energy",
+      "slug": "kosmos-energy",
+      "aliases": [
+        "Kosmos Energy",
+        "kosmos-energy"
+      ],
+      "dataFile": "data/kosmos-energy.json",
+      "projectCount": 21,
+      "countryCount": 3,
+      "businessRegions": [
+        "墨西哥湾",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Repsol",
+      "slug": "repsol",
+      "aliases": [
+        "Repsol",
+        "repsol"
+      ],
+      "dataFile": "data/repsol.json",
+      "projectCount": 98,
+      "countryCount": 11,
+      "businessRegions": [
+        "中南美洲",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Inpex",
+      "slug": "inpex",
+      "aliases": [
+        "Inpex",
+        "inpex"
+      ],
+      "dataFile": "data/inpex.json",
+      "projectCount": 31,
+      "countryCount": 6,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中国及东北亚",
+        "欧洲其他",
+        "澳大利亚/新西兰"
+      ]
+    },
+    {
+      "name": "Santos",
+      "slug": "santos",
+      "aliases": [
+        "Santos",
+        "santos"
+      ],
+      "dataFile": "data/santos.json",
+      "projectCount": 572,
+      "countryCount": 5,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "北美其他",
+        "澳大利亚/新西兰"
+      ]
+    },
+    {
+      "name": "Woodside Energy",
+      "slug": "woodside-energy",
+      "aliases": [
+        "Woodside Energy",
+        "woodside-energy"
+      ],
+      "dataFile": "data/woodside-energy.json",
+      "projectCount": 110,
+      "countryCount": 7,
+      "businessRegions": [
+        "东南亚",
+        "中南美洲",
+        "北美其他",
+        "墨西哥湾",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Petroperú",
+      "slug": "petroperu",
+      "aliases": [
+        "Petroperú",
+        "petroperu"
+      ],
+      "dataFile": "data/petroperu.json",
+      "projectCount": 31,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Ecopetrol",
+      "slug": "ecopetrol",
+      "aliases": [
+        "Ecopetrol",
+        "ecopetrol"
+      ],
+      "dataFile": "data/ecopetrol.json",
+      "projectCount": 180,
+      "countryCount": 2,
+      "businessRegions": [
+        "中南美洲",
+        "墨西哥湾"
+      ]
+    },
+    {
+      "name": "YPFB",
+      "slug": "ypfb",
+      "aliases": [
+        "YPFB",
+        "ypfb"
+      ],
+      "dataFile": "data/ypfb.json",
+      "projectCount": 19,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Heritage Petroleum",
+      "slug": "heritage-petroleum",
+      "aliases": [
+        "Heritage Petroleum",
+        "heritage-petroleum"
+      ],
+      "dataFile": "data/heritage-petroleum.json",
+      "projectCount": 30,
+      "countryCount": 3,
+      "businessRegions": [
+        "中东及南亚",
+        "中南美洲",
+        "地中海/南欧"
+      ]
+    },
+    {
+      "name": "Staatsolie Maatschappij Suriname",
+      "slug": "staatsolie-maatschappij-suriname",
+      "aliases": [
+        "Staatsolie Maatschappij Suriname",
+        "staatsolie-maatschappij-suriname"
+      ],
+      "dataFile": "data/staatsolie-maatschappij-suriname.json",
+      "projectCount": 3,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "PDVSA",
+      "slug": "pdvsa",
+      "aliases": [
+        "PDVSA",
+        "pdvsa"
+      ],
+      "dataFile": "data/pdvsa.json",
+      "projectCount": 63,
+      "countryCount": 2,
+      "businessRegions": [
+        "中南美洲",
+        "加勒比"
+      ]
+    },
+    {
+      "name": "Sonangol",
+      "slug": "sonangol",
+      "aliases": [
+        "Sonangol",
+        "sonangol"
+      ],
+      "dataFile": "data/sonangol.json",
+      "projectCount": 63,
+      "countryCount": 2,
+      "businessRegions": [
+        "中东及南亚",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Pemex",
+      "slug": "pemex",
+      "aliases": [
+        "Pemex",
+        "pemex"
+      ],
+      "dataFile": "data/pemex.json",
+      "projectCount": 220,
+      "countryCount": 1,
+      "businessRegions": [
+        "中南美洲",
+        "墨西哥湾"
+      ]
+    },
+    {
+      "name": "Pertamina",
+      "slug": "pertamina",
+      "aliases": [
+        "Pertamina",
+        "pertamina"
+      ],
+      "dataFile": "data/pertamina.json",
+      "projectCount": 105,
+      "countryCount": 2,
+      "businessRegions": [
+        "东南亚",
+        "北非/北欧"
+      ]
+    },
+    {
+      "name": "SNPC",
+      "slug": "snpc",
+      "aliases": [
+        "SNPC",
+        "snpc"
+      ],
+      "dataFile": "data/snpc.json",
+      "projectCount": 5,
+      "countryCount": 1,
+      "businessRegions": [
+        "非洲"
+      ]
+    },
+    {
+      "name": "Kumul Petroleum Holdings",
+      "slug": "kumul-petroleum-holdings",
+      "aliases": [
+        "Kumul Petroleum Holdings",
+        "kumul-petroleum-holdings"
+      ],
+      "dataFile": "data/kumul-petroleum-holdings.json",
+      "projectCount": 5,
+      "countryCount": 1,
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ]
+    },
+    {
+      "name": "Sinopec",
+      "slug": "sinopec",
+      "aliases": [
+        "Sinopec",
+        "sinopec"
+      ],
+      "dataFile": "data/sinopec.json",
+      "projectCount": 115,
+      "countryCount": 14,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北非/北欧",
+        "非洲"
+      ]
+    },
+    {
+      "name": "CNPC",
+      "slug": "cnpc",
+      "aliases": [
+        "CNPC",
+        "cnpc"
+      ],
+      "dataFile": "data/cnpc.json",
+      "projectCount": 67,
+      "countryCount": 12,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "北非/北欧",
+        "非洲"
+      ]
+    },
+    {
+      "name": "CNOOC",
+      "slug": "cnooc",
+      "aliases": [
+        "CNOOC",
+        "cnooc"
+      ],
+      "dataFile": "data/cnooc.json",
+      "projectCount": 349,
+      "countryCount": 12,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中国及东北亚",
+        "加拿大",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "NNPC",
+      "slug": "nnpc",
+      "aliases": [
+        "NNPC",
+        "nnpc"
+      ],
+      "dataFile": "data/nnpc.json",
+      "projectCount": 135,
+      "countryCount": 1,
+      "businessRegions": [
+        "非洲"
+      ]
+    },
+    {
+      "name": "YPF",
+      "slug": "ypf",
+      "aliases": [
+        "YPF",
+        "ypf"
+      ],
+      "dataFile": "data/ypf.json",
+      "projectCount": 125,
+      "countryCount": 3,
+      "businessRegions": [
+        "中南美洲"
+      ]
+    },
+    {
+      "name": "Petronas",
+      "slug": "petronas",
+      "aliases": [
+        "Petronas",
+        "petronas"
+      ],
+      "dataFile": "data/petronas.json",
+      "projectCount": 182,
+      "countryCount": 16,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "俄罗斯/独联体",
+        "加拿大",
+        "巴西",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Petrobras",
+      "slug": "petrobras",
+      "aliases": [
+        "Petrobras",
+        "petrobras"
+      ],
+      "dataFile": "data/petrobras.json",
+      "projectCount": 167,
+      "countryCount": 4,
+      "businessRegions": [
+        "中南美洲",
+        "巴西"
+      ]
+    },
+    {
+      "name": "QatarEnergy",
+      "slug": "qatarenergy",
+      "aliases": [
+        "QatarEnergy",
+        "qatarenergy"
+      ],
+      "dataFile": "data/qatarenergy.json",
+      "projectCount": 36,
+      "countryCount": 1,
+      "businessRegions": [
+        "中东及南亚"
+      ]
+    },
+    {
+      "name": "ADNOC",
+      "slug": "adnoc",
+      "aliases": [
+        "ADNOC",
+        "adnoc"
+      ],
+      "dataFile": "data/adnoc.json",
+      "projectCount": 49,
+      "countryCount": 1,
+      "businessRegions": [
+        "中东及南亚"
+      ]
+    },
+    {
+      "name": "Saudi Aramco",
+      "slug": "saudi-aramco",
+      "aliases": [
+        "Saudi Aramco",
+        "saudi-aramco"
+      ],
+      "dataFile": "data/saudi-aramco.json",
+      "projectCount": 201,
+      "countryCount": 1,
+      "businessRegions": [
+        "中东及南亚"
+      ]
+    },
+    {
+      "name": "ConocoPhillips",
+      "slug": "conocophillips",
+      "aliases": [
+        "ConocoPhillips",
+        "conocophillips"
+      ],
+      "dataFile": "data/conocophillips.json",
+      "projectCount": 184,
+      "countryCount": 9,
+      "businessRegions": [
+        "东南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "加拿大",
+        "北美其他",
+        "墨西哥湾",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Equinor",
+      "slug": "equinor",
+      "aliases": [
+        "Equinor",
+        "equinor"
+      ],
+      "dataFile": "data/equinor.json",
+      "projectCount": 349,
+      "countryCount": 8,
+      "businessRegions": [
+        "中南美洲",
+        "加拿大",
+        "北非/北欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "非洲"
+      ]
+    },
+    {
+      "name": "Chevron",
+      "slug": "chevron",
+      "aliases": [
+        "Chevron",
+        "chevron"
+      ],
+      "dataFile": "data/chevron.json",
+      "projectCount": 562,
+      "countryCount": 23,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "BP",
+      "slug": "bp",
+      "aliases": [
+        "BP",
+        "bp"
+      ],
+      "dataFile": "data/bp.json",
+      "projectCount": 408,
+      "countryCount": 13,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "ExxonMobil",
+      "slug": "exxonmobil",
+      "aliases": [
+        "ExxonMobil",
+        "exxonmobil"
+      ],
+      "dataFile": "data/exxonmobil.json",
+      "projectCount": 373,
+      "countryCount": 18,
+      "businessRegions": [
+        "东南亚",
+        "中南美洲",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
+      "name": "TotalEnergies",
+      "slug": "totalenergies",
+      "aliases": [
+        "TotalEnergies",
+        "totalenergies"
+      ],
+      "dataFile": "data/totalenergies.json",
+      "projectCount": 290,
+      "countryCount": 39,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ]
+    },
+    {
       "name": "Shell",
       "slug": "shell",
       "aliases": [
-        "Shell"
+        "Shell",
+        "shell"
       ],
       "dataFile": "data/shell.json",
       "projectCount": 552,
@@ -31,34 +1133,11 @@
       ]
     },
     {
-      "name": "BP",
-      "slug": "bp",
-      "aliases": [
-        "BP"
-      ],
-      "dataFile": "data/bp.json",
-      "projectCount": 396,
-      "countryCount": 13,
-      "businessRegions": [
-        "东南亚",
-        "中东及南亚",
-        "中南美洲",
-        "俄罗斯/独联体",
-        "加拿大",
-        "北美其他",
-        "北非/北欧",
-        "墨西哥湾",
-        "巴西",
-        "欧洲其他",
-        "澳大利亚/新西兰",
-        "非洲"
-      ]
-    },
-    {
-      "name": "Eni",
+      "name": "ENI",
       "slug": "eni",
       "aliases": [
-        "Eni"
+        "ENI",
+        "eni"
       ],
       "dataFile": "data/eni.json",
       "projectCount": 437,
@@ -75,19 +1154,6 @@
         "欧洲其他",
         "澳大利亚/新西兰",
         "非洲"
-      ]
-    },
-    {
-      "name": "ADNOC",
-      "slug": "adnoc",
-      "aliases": [
-        "ADNOC"
-      ],
-      "dataFile": "data/adnoc.json",
-      "projectCount": 49,
-      "countryCount": 1,
-      "businessRegions": [
-        "中东及南亚"
       ]
     }
   ]

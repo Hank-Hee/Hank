@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Delfin Midstream",
+    "sourceOperators": [
+      "Delfin Midstream"
+    ],
+    "projectCount": 1,
+    "countryCount": 1,
+    "businessRegions": [
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "delfin-midstream-6d861e1b41f9",
+      "operator": "Delfin Midstream",
+      "country": "United States",
+      "project": "Delfin FLNG, US",
+      "sourceOperators": [
+        "Delfin Midstream"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2027,
+        2046
+      ],
+      "startupYears": [
+        2030,
+        2051
+      ],
+      "ownerships": [
+        "Delfin Midstream* (100%)"
+      ]
+    }
+  ]
+}

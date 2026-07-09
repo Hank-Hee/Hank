@@ -1,26 +1,623 @@
 {
   "companies": {
-    "Shell": {
-      "slug": "shell",
-      "aliases": ["Shell"],
-      "sourceOperators": ["Shell"],
-      "expectedProjectCount": 552
+    "SHI": {
+      "slug": "shi",
+      "aliases": [
+        "SHI",
+        "shi"
+      ],
+      "sourceOperators": [
+        "Shirvan Operating Company"
+      ]
     },
-    "BP": {
-      "slug": "bp",
-      "aliases": ["BP"],
-      "sourceOperators": ["BP"],
-      "expectedProjectCount": 396
+    "Bumi Armada": {
+      "slug": "bumi-armada",
+      "aliases": [
+        "Bumi Armada",
+        "bumi-armada"
+      ],
+      "sourceOperators": [
+        "Bumi Armada"
+      ]
     },
-    "Eni": {
-      "slug": "eni",
-      "aliases": ["Eni"],
-      "sourceOperators": ["Eni"],
-      "expectedProjectCount": 437
+    "Andes Petroleum": {
+      "slug": "andes-petroleum",
+      "aliases": [
+        "Andes Petroleum",
+        "andes-petroleum"
+      ],
+      "sourceOperators": [
+        "Andes Petroleum"
+      ]
+    },
+    "Delfin Midstream": {
+      "slug": "delfin-midstream",
+      "aliases": [
+        "Delfin Midstream",
+        "delfin-midstream"
+      ],
+      "sourceOperators": [
+        "Delfin Midstream"
+      ]
+    },
+    "Azule": {
+      "slug": "azule",
+      "aliases": [
+        "Azule",
+        "azule"
+      ],
+      "sourceOperators": [
+        "Azule Energy"
+      ]
+    },
+    "United Oil & Gas": {
+      "slug": "united-oil-gas",
+      "aliases": [
+        "United Oil & Gas",
+        "united-oil-gas"
+      ],
+      "sourceOperators": [
+        "United Energy",
+        "United Oil & Gas",
+        "United Production Partners"
+      ]
+    },
+    "New Fortress Energy": {
+      "slug": "new-fortress-energy",
+      "aliases": [
+        "New Fortress Energy",
+        "new-fortress-energy"
+      ],
+      "sourceOperators": [
+        "New Fortress Energy"
+      ]
+    },
+    "Touchstone Exploration": {
+      "slug": "touchstone-exploration",
+      "aliases": [
+        "Touchstone Exploration",
+        "touchstone-exploration"
+      ],
+      "sourceOperators": [
+        "Touchstone Exploration Inc."
+      ]
+    },
+    "Pacific Oil": {
+      "slug": "pacific-oil",
+      "aliases": [
+        "Pacific Oil",
+        "pacific-oil"
+      ],
+      "sourceOperators": [
+        "Pacific Coast Energy Company",
+        "Pacific Energy Corporation",
+        "Pacific Operators Offshore LLC"
+      ]
+    },
+    "Pluspetrol": {
+      "slug": "pluspetrol",
+      "aliases": [
+        "Pluspetrol",
+        "pluspetrol"
+      ],
+      "sourceOperators": [
+        "Pluspetrol"
+      ]
+    },
+    "Citla Energy": {
+      "slug": "citla-energy",
+      "aliases": [
+        "Citla Energy",
+        "citla-energy"
+      ],
+      "sourceOperators": [
+        "Citla Energy"
+      ]
+    },
+    "Pampa Energía": {
+      "slug": "pampa-energia",
+      "aliases": [
+        "Pampa Energía",
+        "pampa-energia"
+      ],
+      "sourceOperators": [
+        "Pampa Energia"
+      ]
+    },
+    "GeoPark": {
+      "slug": "geopark",
+      "aliases": [
+        "GeoPark",
+        "geopark"
+      ],
+      "sourceOperators": [
+        "GeoPark"
+      ]
+    },
+    "Canacol Energy": {
+      "slug": "canacol-energy",
+      "aliases": [
+        "Canacol Energy",
+        "canacol-energy"
+      ],
+      "sourceOperators": [
+        "Canacol Energy"
+      ]
+    },
+    "TC Energy": {
+      "slug": "tc-energy",
+      "aliases": [
+        "TC Energy",
+        "tc-energy"
+      ],
+      "sourceOperators": [
+        "TC Oil And Gas"
+      ]
+    },
+    "Frontera Energy": {
+      "slug": "frontera-energy",
+      "aliases": [
+        "Frontera Energy",
+        "frontera-energy"
+      ],
+      "sourceOperators": [
+        "Frontera Resources"
+      ]
+    },
+    "Imperial Oil": {
+      "slug": "imperial-oil",
+      "aliases": [
+        "Imperial Oil",
+        "imperial-oil"
+      ],
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ]
+    },
+    "Cenovus Energy": {
+      "slug": "cenovus-energy",
+      "aliases": [
+        "Cenovus Energy",
+        "cenovus-energy"
+      ],
+      "sourceOperators": [
+        "Cenovus Energy"
+      ]
+    },
+    "Canadian Natural Resources": {
+      "slug": "canadian-natural-resources",
+      "aliases": [
+        "Canadian Natural Resources",
+        "canadian-natural-resources"
+      ],
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ]
+    },
+    "Suncor Energy": {
+      "slug": "suncor-energy",
+      "aliases": [
+        "Suncor Energy",
+        "suncor-energy"
+      ],
+      "sourceOperators": [
+        "Suncor Energy"
+      ]
+    },
+    "Talos Energy": {
+      "slug": "talos-energy",
+      "aliases": [
+        "Talos Energy",
+        "talos-energy"
+      ],
+      "sourceOperators": [
+        "Talos Energy"
+      ]
+    },
+    "Permian Resources": {
+      "slug": "permian-resources",
+      "aliases": [
+        "Permian Resources",
+        "permian-resources"
+      ],
+      "sourceOperators": [
+        "Permian Deep Rock Oil",
+        "Permian Resources"
+      ]
+    },
+    "EOG Resources": {
+      "slug": "eog-resources",
+      "aliases": [
+        "EOG Resources",
+        "eog-resources"
+      ],
+      "sourceOperators": [
+        "EOG Resources"
+      ]
+    },
+    "Diamondback Energy": {
+      "slug": "diamondback-energy",
+      "aliases": [
+        "Diamondback Energy",
+        "diamondback-energy"
+      ],
+      "sourceOperators": [
+        "Diamondback Energy"
+      ]
+    },
+    "Venture Global LNG": {
+      "slug": "venture-global-lng",
+      "aliases": [
+        "Venture Global LNG",
+        "venture-global-lng"
+      ],
+      "sourceOperators": [
+        "Venture Global LNG"
+      ]
+    },
+    "Devon Energy": {
+      "slug": "devon-energy",
+      "aliases": [
+        "Devon Energy",
+        "devon-energy"
+      ],
+      "sourceOperators": [
+        "Devon Energy"
+      ]
+    },
+    "Sempra Energy": {
+      "slug": "sempra-energy",
+      "aliases": [
+        "Sempra Energy",
+        "sempra-energy"
+      ],
+      "sourceOperators": [
+        "Sempra"
+      ]
+    },
+    "Occidental Petroleum": {
+      "slug": "occidental-petroleum",
+      "aliases": [
+        "Occidental Petroleum",
+        "occidental-petroleum"
+      ],
+      "sourceOperators": [
+        "Occidental Petroleum"
+      ]
+    },
+    "Cheniere Energy": {
+      "slug": "cheniere-energy",
+      "aliases": [
+        "Cheniere Energy",
+        "cheniere-energy"
+      ],
+      "sourceOperators": [
+        "Cheniere Energy"
+      ]
+    },
+    "Galp Energia": {
+      "slug": "galp-energia",
+      "aliases": [
+        "Galp Energia",
+        "galp-energia"
+      ],
+      "sourceOperators": [
+        "Galp Energia SA"
+      ]
+    },
+    "Perenco": {
+      "slug": "perenco",
+      "aliases": [
+        "Perenco",
+        "perenco"
+      ],
+      "sourceOperators": [
+        "Perenco"
+      ]
+    },
+    "Harbour Energy": {
+      "slug": "harbour-energy",
+      "aliases": [
+        "Harbour Energy",
+        "harbour-energy"
+      ],
+      "sourceOperators": [
+        "Harbour Energy"
+      ]
+    },
+    "Ithaca Energy": {
+      "slug": "ithaca-energy",
+      "aliases": [
+        "Ithaca Energy",
+        "ithaca-energy"
+      ],
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ]
+    },
+    "Pan American Energy": {
+      "slug": "pan-american-energy",
+      "aliases": [
+        "Pan American Energy",
+        "pan-american-energy"
+      ],
+      "sourceOperators": [
+        "Pan American Energy"
+      ]
+    },
+    "Genting": {
+      "slug": "genting",
+      "aliases": [
+        "Genting",
+        "genting"
+      ],
+      "sourceOperators": [
+        "Genting Berhad"
+      ]
+    },
+    "Mubadala Energy": {
+      "slug": "mubadala-energy",
+      "aliases": [
+        "Mubadala Energy",
+        "mubadala-energy"
+      ],
+      "sourceOperators": [
+        "Mubadala Energy"
+      ]
+    },
+    "Kosmos Energy": {
+      "slug": "kosmos-energy",
+      "aliases": [
+        "Kosmos Energy",
+        "kosmos-energy"
+      ],
+      "sourceOperators": [
+        "Kosmos Energy"
+      ]
+    },
+    "Repsol": {
+      "slug": "repsol",
+      "aliases": [
+        "Repsol",
+        "repsol"
+      ],
+      "sourceOperators": [
+        "Repsol"
+      ]
+    },
+    "Inpex": {
+      "slug": "inpex",
+      "aliases": [
+        "Inpex",
+        "inpex"
+      ],
+      "sourceOperators": [
+        "Inpex",
+        "Inpex Idemitsu Norway"
+      ]
+    },
+    "Santos": {
+      "slug": "santos",
+      "aliases": [
+        "Santos",
+        "santos"
+      ],
+      "sourceOperators": [
+        "Santos"
+      ]
+    },
+    "Woodside Energy": {
+      "slug": "woodside-energy",
+      "aliases": [
+        "Woodside Energy",
+        "woodside-energy"
+      ],
+      "sourceOperators": [
+        "Woodside"
+      ]
+    },
+    "Petroperú": {
+      "slug": "petroperu",
+      "aliases": [
+        "Petroperú",
+        "petroperu"
+      ],
+      "sourceOperators": [
+        "Petroperu"
+      ]
+    },
+    "Ecopetrol": {
+      "slug": "ecopetrol",
+      "aliases": [
+        "Ecopetrol",
+        "ecopetrol"
+      ],
+      "sourceOperators": [
+        "Ecopetrol"
+      ]
+    },
+    "YPFB": {
+      "slug": "ypfb",
+      "aliases": [
+        "YPFB",
+        "ypfb"
+      ],
+      "sourceOperators": [
+        "YPFB Andina"
+      ]
+    },
+    "Heritage Petroleum": {
+      "slug": "heritage-petroleum",
+      "aliases": [
+        "Heritage Petroleum",
+        "heritage-petroleum"
+      ],
+      "sourceOperators": [
+        "Heritage Oil (Al Mirqab Capital)",
+        "Heritage Petroleum Company Limited"
+      ]
+    },
+    "Staatsolie Maatschappij Suriname": {
+      "slug": "staatsolie-maatschappij-suriname",
+      "aliases": [
+        "Staatsolie Maatschappij Suriname",
+        "staatsolie-maatschappij-suriname"
+      ],
+      "sourceOperators": [
+        "Staatsolie Maatschappij Suriname NV"
+      ]
+    },
+    "PDVSA": {
+      "slug": "pdvsa",
+      "aliases": [
+        "PDVSA",
+        "pdvsa"
+      ],
+      "sourceOperators": [
+        "PDVSA"
+      ]
+    },
+    "Sonangol": {
+      "slug": "sonangol",
+      "aliases": [
+        "Sonangol",
+        "sonangol"
+      ],
+      "sourceOperators": [
+        "Sonangol"
+      ]
+    },
+    "Pemex": {
+      "slug": "pemex",
+      "aliases": [
+        "Pemex",
+        "pemex"
+      ],
+      "sourceOperators": [
+        "Pemex"
+      ]
+    },
+    "Pertamina": {
+      "slug": "pertamina",
+      "aliases": [
+        "Pertamina",
+        "pertamina"
+      ],
+      "sourceOperators": [
+        "Pertamina"
+      ]
+    },
+    "SNPC": {
+      "slug": "snpc",
+      "aliases": [
+        "SNPC",
+        "snpc"
+      ],
+      "sourceOperators": [
+        "SNPC (Congo)"
+      ]
+    },
+    "Kumul Petroleum Holdings": {
+      "slug": "kumul-petroleum-holdings",
+      "aliases": [
+        "Kumul Petroleum Holdings",
+        "kumul-petroleum-holdings"
+      ],
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ]
+    },
+    "Sinopec": {
+      "slug": "sinopec",
+      "aliases": [
+        "Sinopec",
+        "sinopec"
+      ],
+      "sourceOperators": [
+        "Sinopec",
+        "Sinopec Group (parent)"
+      ]
+    },
+    "CNPC": {
+      "slug": "cnpc",
+      "aliases": [
+        "CNPC",
+        "cnpc"
+      ],
+      "sourceOperators": [
+        "CNPC (parent)",
+        "CNPC-AktobeMunayGas"
+      ]
+    },
+    "CNOOC": {
+      "slug": "cnooc",
+      "aliases": [
+        "CNOOC",
+        "cnooc"
+      ],
+      "sourceOperators": [
+        "CNOOC"
+      ]
+    },
+    "NNPC": {
+      "slug": "nnpc",
+      "aliases": [
+        "NNPC",
+        "nnpc"
+      ],
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ]
+    },
+    "YPF": {
+      "slug": "ypf",
+      "aliases": [
+        "YPF",
+        "ypf"
+      ],
+      "sourceOperators": [
+        "YPF",
+        "YPFB Andina"
+      ]
+    },
+    "Petronas": {
+      "slug": "petronas",
+      "aliases": [
+        "Petronas",
+        "petronas"
+      ],
+      "sourceOperators": [
+        "Petronas",
+        "Petronas/Shell"
+      ]
+    },
+    "Petrobras": {
+      "slug": "petrobras",
+      "aliases": [
+        "Petrobras",
+        "petrobras"
+      ],
+      "sourceOperators": [
+        "Petrobras"
+      ]
+    },
+    "QatarEnergy": {
+      "slug": "qatarenergy",
+      "aliases": [
+        "QatarEnergy",
+        "qatarenergy"
+      ],
+      "sourceOperators": [
+        "QatarEnergy",
+        "QatarEnergy LNG"
+      ]
     },
     "ADNOC": {
       "slug": "adnoc",
-      "aliases": ["ADNOC"],
+      "aliases": [
+        "ADNOC",
+        "adnoc"
+      ],
       "sourceOperators": [
         "ADNOC",
         "ADNOC Gas Processing",
@@ -29,8 +626,98 @@
         "ADNOC Offshore",
         "ADNOC Onshore",
         "ADNOC Sour Gas"
+      ]
+    },
+    "Saudi Aramco": {
+      "slug": "saudi-aramco",
+      "aliases": [
+        "Saudi Aramco",
+        "saudi-aramco"
       ],
-      "expectedProjectCount": 49
+      "sourceOperators": [
+        "Saudi Aramco"
+      ]
+    },
+    "ConocoPhillips": {
+      "slug": "conocophillips",
+      "aliases": [
+        "ConocoPhillips",
+        "conocophillips"
+      ],
+      "sourceOperators": [
+        "ConocoPhillips"
+      ]
+    },
+    "Equinor": {
+      "slug": "equinor",
+      "aliases": [
+        "Equinor",
+        "equinor"
+      ],
+      "sourceOperators": [
+        "Equinor"
+      ]
+    },
+    "Chevron": {
+      "slug": "chevron",
+      "aliases": [
+        "Chevron",
+        "chevron"
+      ],
+      "sourceOperators": [
+        "Chevron"
+      ]
+    },
+    "BP": {
+      "slug": "bp",
+      "aliases": [
+        "BP",
+        "bp"
+      ],
+      "sourceOperators": [
+        "BP",
+        "BPTT"
+      ]
+    },
+    "ExxonMobil": {
+      "slug": "exxonmobil",
+      "aliases": [
+        "ExxonMobil",
+        "exxonmobil"
+      ],
+      "sourceOperators": [
+        "ExxonMobil"
+      ]
+    },
+    "TotalEnergies": {
+      "slug": "totalenergies",
+      "aliases": [
+        "TotalEnergies",
+        "totalenergies"
+      ],
+      "sourceOperators": [
+        "TotalEnergies"
+      ]
+    },
+    "Shell": {
+      "slug": "shell",
+      "aliases": [
+        "Shell",
+        "shell"
+      ],
+      "sourceOperators": [
+        "Shell"
+      ]
+    },
+    "ENI": {
+      "slug": "eni",
+      "aliases": [
+        "ENI",
+        "eni"
+      ],
+      "sourceOperators": [
+        "Eni"
+      ]
     }
   }
 }

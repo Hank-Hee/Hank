@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "New Fortress Energy",
+    "sourceOperators": [
+      "New Fortress Energy"
+    ],
+    "projectCount": 2,
+    "countryCount": 2,
+    "businessRegions": [
+      "中南美洲",
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "new-fortress-energy-5b00846e81a5",
+      "operator": "New Fortress Energy",
+      "country": "Mexico",
+      "project": "Altamira LNG, MX",
+      "sourceOperators": [
+        "New Fortress Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2022,
+        2023,
+        2052
+      ],
+      "startupYears": [
+        2024,
+        2027,
+        2056
+      ],
+      "ownerships": [
+        "New Fortress Energy* (85%); Comision Federal de Electricidad (15%)"
+      ]
+    },
+    {
+      "id": "new-fortress-energy-82e74cada6ad",
+      "operator": "New Fortress Energy",
+      "country": "United States",
+      "project": "Fast LNG, US",
+      "sourceOperators": [
+        "New Fortress Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2036,
+        2051
+      ],
+      "startupYears": [
+        2040,
+        2054
+      ],
+      "ownerships": [
+        "New Fortress Energy* (100%)"
+      ]
+    }
+  ]
+}

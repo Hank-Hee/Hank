@@ -1,0 +1,1511 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "GeoPark",
+    "sourceOperators": [
+      "GeoPark"
+    ],
+    "projectCount": 32,
+    "countryCount": 3,
+    "businessRegions": [
+      "中南美洲",
+      "巴西"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "geopark-79a739016f04",
+      "operator": "GeoPark",
+      "country": "Argentina",
+      "project": "Puesto Silva Oeste, AR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "GeoPark* (95%); Gas y Petroleo del Neuquen (5%)"
+      ]
+    },
+    {
+      "id": "geopark-af57f2b0b06d",
+      "operator": "GeoPark",
+      "country": "Argentina",
+      "project": "Vaca Muerta Shale, AR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2014,
+        2022
+      ],
+      "approvalYears": [
+        2012,
+        2014,
+        2022
+      ],
+      "startupYears": [
+        2012,
+        2015,
+        2023
+      ],
+      "ownerships": [
+        "GeoPark* (100%)",
+        "GeoPark* (95%); Gas y Petroleo del Neuquen (5%)"
+      ]
+    },
+    {
+      "id": "geopark-b4b394e513ed",
+      "operator": "GeoPark",
+      "country": "Brazil",
+      "project": "POT-T-834_O1, BR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-95f1529110b2",
+      "operator": "GeoPark",
+      "country": "Brazil",
+      "project": "REC-T-58_O1, BR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-09fc74d0ec91",
+      "operator": "GeoPark",
+      "country": "Brazil",
+      "project": "REC-T-67_O1, BR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-b330b1be32f0",
+      "operator": "GeoPark",
+      "country": "Brazil",
+      "project": "REC-T-77_O1, BR",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-e6e4513b8c99",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Bienparado Sur, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-f2696bf0c426",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Bisbita Centro, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-b08abcc70b7c",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Bisbita Oeste, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-fc29a74ebf5a",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Ceibo, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-0e8389f2e514",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Coati Block, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-5f65cc672601",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Coati, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-95bfd76dde8f",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Currucutu, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-ea6924abff7d",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Helen, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-a7b8060fbe3f",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 104, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-767038591b6c",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 123, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-d9f4315e1799",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 124, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-0df3ca897093",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 34, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "GeoPark* (45%); Parex Resources (55%)"
+      ]
+    },
+    {
+      "id": "geopark-83df79cfb36f",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 86, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-bd510a75547f",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "LLA 87, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-037dfcddfc4c",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Mecaya YTF, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-77afd8029293",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Mecaya, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-e314ea74e99f",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Platanillo, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2018,
+        2029
+      ],
+      "approvalYears": [
+        2008,
+        2024,
+        2034
+      ],
+      "startupYears": [
+        2008,
+        2025,
+        2038
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-6a641da51f61",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "PUT 14, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "GeoPark* (100%)"
+      ]
+    },
+    {
+      "id": "geopark-771adf6dc401",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "PUT 36, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-28b100a42358",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "PUT 8, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-60929a629a49",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "PUT 9, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2101
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-be1834bf4d5e",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Saltador, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "geopark-af85fafd5447",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Tacacho, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-be6df001288a",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Terecay, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003,
+        2100
+      ],
+      "approvalYears": [
+        2006,
+        2100
+      ],
+      "startupYears": [
+        2007,
+        2101
+      ],
+      "ownerships": [
+        "GeoPark* (50%); SierraCol Energy (50%)"
+      ]
+    },
+    {
+      "id": "geopark-fdd9e29ad569",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Tigana, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019
+      ],
+      "approvalYears": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2019,
+        2024
+      ],
+      "startupYears": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2019,
+        2024
+      ],
+      "ownerships": [
+        "GeoPark* (45%); Parex Resources (55%)"
+      ]
+    },
+    {
+      "id": "geopark-2d2164ec3828",
+      "operator": "GeoPark",
+      "country": "Colombia",
+      "project": "Zorzal, CO",
+      "sourceOperators": [
+        "GeoPark"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "GeoPark* (50%); Ecopetrol (50%)"
+      ]
+    }
+  ]
+}

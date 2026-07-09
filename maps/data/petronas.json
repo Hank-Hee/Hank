@@ -1,0 +1,8698 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Petronas",
+    "sourceOperators": [
+      "Petronas",
+      "Petronas/Shell"
+    ],
+    "projectCount": 182,
+    "countryCount": 16,
+    "businessRegions": [
+      "东南亚",
+      "中东及南亚",
+      "中南美洲",
+      "俄罗斯/独联体",
+      "加拿大",
+      "巴西",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "petronas-cebf0694f45d",
+      "operator": "Petronas",
+      "country": "Brazil",
+      "project": "C-M-661_R16, BR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-73887146b44e",
+      "operator": "Petronas",
+      "country": "Brazil",
+      "project": "C-M-715_R16, BR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-234ae16dfe39",
+      "operator": "Petronas",
+      "country": "Brunei",
+      "project": "Block CA-2 (Exploration), BN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (67.5%); Shell (20%); Brunei Government (6.25%); Mitsubishi Corp (6.25%)"
+      ]
+    },
+    {
+      "id": "petronas-8c288a431d8c",
+      "operator": "Petronas",
+      "country": "Brunei",
+      "project": "Kelidang Cluster (Phase 1), BN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Petronas* (67.5%); Shell (20%); Brunei Government (6.25%); Mitsubishi Corp (6.25%)"
+      ]
+    },
+    {
+      "id": "petronas-8c2b15b5202d",
+      "operator": "Petronas",
+      "country": "Brunei",
+      "project": "Kelidang Cluster (Phase 2), BN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Petronas* (67.5%); Shell (20%); Brunei Government (6.25%); Mitsubishi Corp (6.25%)"
+      ]
+    },
+    {
+      "id": "petronas-dda3c324ecbb",
+      "operator": "Petronas",
+      "country": "Canada",
+      "project": "Montney Play, CA",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005,
+        2006,
+        2007
+      ],
+      "approvalYears": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "startupYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "ownerships": [
+        "Petronas* (57.6%); Sinopec Group (parent) (15%); MidOcean Energy (14.4%); Indian Oil (10%); National Petroleum Company (Brunei) (3%)",
+        "Petronas* (69.6%); MidOcean Energy (17.4%); Indian Oil (10%); National Petroleum Company (Brunei) (3%)"
+      ]
+    },
+    {
+      "id": "petronas-4f2e8863eccb",
+      "operator": "Petronas",
+      "country": "Canada",
+      "project": "Northern British Columbia_BC2, CA",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1944
+      ],
+      "approvalYears": [
+        1952
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1a75abf50dc1",
+      "operator": "Petronas",
+      "country": "Gabon",
+      "project": "Block F12 (Yitu), GA",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1ee2fc2693b5",
+      "operator": "Petronas",
+      "country": "Gabon",
+      "project": "Block F13 (Meboun), GA",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-5d97e6efdc7f",
+      "operator": "Petronas",
+      "country": "Gabon",
+      "project": "Boudji, GA",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petronas* (80%); Societe National Petroliere Gabonaise (SNPG) (20%)"
+      ]
+    },
+    {
+      "id": "petronas-5c062b2bd56e",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Barokah, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petronas* (51%); SK Innovation (34%); Pertamina (15%)"
+      ]
+    },
+    {
+      "id": "petronas-ea738a3b0ea5",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Bobara (WK), ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Petronas* (51%); Pertamina (24.5%); TotalEnergies (24.5%)"
+      ]
+    },
+    {
+      "id": "petronas-5cef9803fd1e",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Bukit Tua (Phase 3A), ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "Petronas* (77.6%); Saka Energi (19.4%); PT. Petrogas Jatim Utama (3%)"
+      ]
+    },
+    {
+      "id": "petronas-6bcb0aace87e",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Bukit Tua, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO and Fixed"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Petronas* (77.6%); Saka Energi (19.4%); PT. Petrogas Jatim Utama (3%)"
+      ]
+    },
+    {
+      "id": "petronas-7a39babfc271",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Hidayah, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Fixed and floater"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1b74a4f66906",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Ketapang (exploration), ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (77.6%); Saka Energi (19.4%); PT. Petrogas Jatim Utama (3%)"
+      ]
+    },
+    {
+      "id": "petronas-06c93fafe134",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Ketapang (Future), ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2000,
+        2001
+      ],
+      "approvalYears": [
+        2026,
+        2040
+      ],
+      "startupYears": [
+        2028,
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (77.6%); Saka Energi (19.4%); PT. Petrogas Jatim Utama (3%)"
+      ]
+    },
+    {
+      "id": "petronas-1f88c0d2d94f",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "North Ketapang Block, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Petronas* (51%); SK Innovation (34%); Pertamina (15%)"
+      ]
+    },
+    {
+      "id": "petronas-256eef9a78a4",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "North Madura II Block PSC (EL), ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-cf471c1e9b5b",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Serpang, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Petronas* (51%); Inpex (35%); SK Innovation (14%)"
+      ]
+    },
+    {
+      "id": "petronas-5cc89b96863d",
+      "operator": "Petronas",
+      "country": "Indonesia",
+      "project": "Taubah, ID",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-3029f489bc10",
+      "operator": "Petronas",
+      "country": "Iraq",
+      "project": "Garraf, IQ",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        2011,
+        2018
+      ],
+      "startupYears": [
+        2013,
+        2027
+      ],
+      "ownerships": [
+        "Petronas* (45%); Dhi Qar Oil Company (DQOC) (25%); Japex (16.5%); JOGMEC (10.5%); Mitsubishi Corp (3%)"
+      ]
+    },
+    {
+      "id": "petronas-434df00297cb",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "2008 PSC (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (22%); ExxonMobil (78%)"
+      ]
+    },
+    {
+      "id": "petronas-4b95c7d63de0",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "2008 PSC, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        1977,
+        1978,
+        1979
+      ],
+      "approvalYears": [
+        1977,
+        1980,
+        1981,
+        1982,
+        1983
+      ],
+      "startupYears": [
+        1978,
+        1983,
+        1984,
+        1985,
+        1986
+      ],
+      "ownerships": [
+        "Petronas* (22%); ExxonMobil (78%)"
+      ]
+    },
+    {
+      "id": "petronas-a6319fa805e2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "2011 Baram Delta EOR (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Petronas* (60%); Petros (40%)"
+      ]
+    },
+    {
+      "id": "petronas-d2b5f5100724",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Arapaima, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-ce75d0b029a6",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Asam Kandis, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-00a990bffbf9",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Bakawali (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-4411623e4afc",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Bakawali, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-794dafb9a780",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balai Cluster (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-7d1dbc9e37d0",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balai Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-bef13b40aa2f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balingian (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-29f8a4d30d74",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balingian (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2005,
+        2006,
+        2014
+      ],
+      "approvalYears": [
+        2039,
+        2043,
+        2047
+      ],
+      "startupYears": [
+        2045,
+        2048,
+        2049,
+        2052
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-4655d5837e18",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balingian (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1962,
+        1976,
+        1981
+      ],
+      "approvalYears": [
+        1975,
+        1980,
+        1985
+      ],
+      "startupYears": [
+        1979,
+        1984,
+        1986
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1a47b1aaa4cb",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Balingian (Phase 2), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Fixed and floater",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1976,
+        1981,
+        1984
+      ],
+      "approvalYears": [
+        2014,
+        2018,
+        2020
+      ],
+      "startupYears": [
+        2015,
+        2018,
+        2019,
+        2023
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-4266f6d6f639",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Baram Delta (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Discovery (1990s)",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1973,
+        1992,
+        2000
+      ],
+      "approvalYears": [
+        2030,
+        2036
+      ],
+      "startupYears": [
+        2032,
+        2038
+      ],
+      "ownerships": [
+        "Petronas* (60%); Petros (40%)"
+      ]
+    },
+    {
+      "id": "petronas-e19de0840fce",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Baram Delta (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1967,
+        1971,
+        1973
+      ],
+      "approvalYears": [
+        1971,
+        1975,
+        1977
+      ],
+      "startupYears": [
+        1972,
+        1975,
+        1982
+      ],
+      "ownerships": [
+        "Petronas* (60%); Petros (40%)"
+      ]
+    },
+    {
+      "id": "petronas-08045b590504",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Baram Delta (Phase 2), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "Petronas* (60%); Petros (40%)"
+      ]
+    },
+    {
+      "id": "petronas-06764d90bdbe",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Baram Delta EOR, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1967,
+        1971,
+        1972
+      ],
+      "approvalYears": [
+        2017,
+        2021
+      ],
+      "startupYears": [
+        2021,
+        2022
+      ],
+      "ownerships": [
+        "Petronas* (60%); Petros (40%)"
+      ]
+    },
+    {
+      "id": "petronas-23be01cd7a80",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Baronia Barat (West), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-b12bfb3ac604",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Belud Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "150-175 meter depth",
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2004,
+        2009,
+        2011,
+        2016
+      ],
+      "approvalYears": [
+        2025,
+        2034,
+        2043,
+        2044
+      ],
+      "startupYears": [
+        2028,
+        2039,
+        2045,
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-cd7f171dda3d",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Bestari, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-531bb7b1f614",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Bilit Deep, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-2ffe5cb0c470",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block 2V (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (60%); Shell (40%)"
+      ]
+    },
+    {
+      "id": "petronas-de1eb769e9a4",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block 3G, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-c6fbafffb0cf",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block 3K (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-d564327f0df2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block 3K, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "FPSO",
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2005,
+        2014,
+        2025
+      ],
+      "approvalYears": [
+        2029,
+        2033,
+        2037,
+        2043
+      ],
+      "startupYears": [
+        2031,
+        2036,
+        2040,
+        2047
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-0750fd11f73e",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND1 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-cc2188ad7323",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND2 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-6741ff35cb94",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND3 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-e2d82ef24ea0",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND4 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-cf105ce5c2e3",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND5 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); TotalEnergies (50%)"
+      ]
+    },
+    {
+      "id": "petronas-423dccdbee41",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND6 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-5b55c9b755a8",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block ND7 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas/Shell"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas/Shell* (0%); Petronas (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-a74572cd6df5",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block PM342 (PSC), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-266c3e0a840c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block R (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-2ae332b5abc8",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block SB403 (PSC), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-a16b644b9522",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Block SK510 (PSC), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Petronas* (40%); Inpex (25%); Pertamina (25%); Petros (10%)"
+      ]
+    },
+    {
+      "id": "petronas-dc6cefe672b0",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Bokor South, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-52a6a1b84051",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "D35 Deep, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Petronas* (50%); Hainan Mining Co. Ltd (30%); Dialog Group (20%)"
+      ]
+    },
+    {
+      "id": "petronas-f00eab63e9ac",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "D35/D21/J4 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Petronas* (50%); Hainan Mining Co. Ltd (30%); Dialog Group (20%)"
+      ]
+    },
+    {
+      "id": "petronas-7dd5c41ef0bd",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "D35/D21/J4 , MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1978,
+        1981,
+        1983
+      ],
+      "approvalYears": [
+        1989,
+        2004,
+        2009
+      ],
+      "startupYears": [
+        1994,
+        2008,
+        2013
+      ],
+      "ownerships": [
+        "Petronas* (50%); Hainan Mining Co. Ltd (30%); Dialog Group (20%)"
+      ]
+    },
+    {
+      "id": "petronas-a9159c249c96",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Dulang (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-b73794881939",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Dulang, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Fixed and floater"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1899c151f331",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Gambir, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-fbbf23bfd1ec",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Gas PSC (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Field evaluation",
+        "Producing early"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1974,
+        1977,
+        1978,
+        1979,
+        1995
+      ],
+      "approvalYears": [
+        2023,
+        2031,
+        2034,
+        2035,
+        2036,
+        2037,
+        2040,
+        2041
+      ],
+      "startupYears": [
+        2025,
+        2034,
+        2036,
+        2038,
+        2040,
+        2043,
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petronas-943f0ba5b5dc",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Gas PSC, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        1974,
+        1975,
+        1979,
+        1993,
+        2100
+      ],
+      "approvalYears": [
+        1987,
+        1992,
+        1996,
+        2011,
+        2012,
+        2014,
+        2100
+      ],
+      "startupYears": [
+        1992,
+        1997,
+        2001,
+        2013,
+        2014,
+        2018,
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petronas-e53316b4661f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Irong Cluster (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-f905495103c8",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Irong Cluster (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-b41444a5bacc",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Irong Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO and Fixed",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1978,
+        2016
+      ],
+      "approvalYears": [
+        1998,
+        2011,
+        2018
+      ],
+      "startupYears": [
+        2002,
+        2012,
+        2020
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-c40bb2f3e2ff",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "K5 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2031,
+        2036
+      ],
+      "startupYears": [
+        2034,
+        2040
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-004aef0fa0c1",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kasawari (CCS), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-3f26856c198f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kasawari, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-729d299d5483",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kauran, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-f82d30898f3c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kinabalu NAG (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-8059933b2f4b",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kinabalu NAG, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-95c1a6a8137e",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kumang Cluster (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-6bf00f185816",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kumang Cluster (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2004,
+        2007,
+        2009,
+        2010
+      ],
+      "approvalYears": [
+        2035,
+        2036,
+        2037,
+        2045
+      ],
+      "startupYears": [
+        2037,
+        2038,
+        2039,
+        2042,
+        2050
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-2a06a798452b",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Kumang Cluster (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        2003,
+        2005,
+        2006,
+        2009
+      ],
+      "approvalYears": [
+        2008,
+        2009,
+        2015,
+        2017,
+        2029
+      ],
+      "startupYears": [
+        2009,
+        2011,
+        2012,
+        2017,
+        2019,
+        2031
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-21e97eeb95ac",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Lada Hitam, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-dd20d46fd7c1",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Larut (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-ac481b542941",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Larut, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-fa02b005a0f4",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Layang-Layang, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petronas* (60%); Shell (40%)"
+      ]
+    },
+    {
+      "id": "petronas-df0530f99dd8",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Ledang Tengah Deep, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-27d402cf2de2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Ledang, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-248e9ebc0d7f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Limbayong (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-8c55fe10d7f9",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Limbayong Deepwater Development, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO",
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2030,
+        2034
+      ],
+      "startupYears": [
+        2033,
+        2038
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-5e10d1eae381",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Melawati, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-950ad04dac9f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Dua (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-a3bd4aa388af",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Dua (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-1f8f9047e992",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Dua (Phase 2), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1971,
+        1980,
+        2001
+      ],
+      "approvalYears": [
+        1998,
+        2002
+      ],
+      "startupYears": [
+        2003,
+        2005,
+        2006
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-5bbecba1dc0f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Dua (Phase 3), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Petronas* (50%); Shell (50%)"
+      ]
+    },
+    {
+      "id": "petronas-907691ec7de3",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Dua, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Petronas* (80%); Mitsubishi Corp (10%); Sarawak State (10%)"
+      ]
+    },
+    {
+      "id": "petronas-6de460c240b2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Satu, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971,
+        1978
+      ],
+      "approvalYears": [
+        1977,
+        1978
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Petronas* (100%)",
+        "Petronas* (90%); Mitsubishi Corp (5%); Sarawak State (5%)"
+      ]
+    },
+    {
+      "id": "petronas-c57bddbc05a4",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG T9, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Petronas* (60%); ENEOS Xplora (10%); PTTEP (10%); Sarawak State (10%); SMJ Sdn Bhd (10%)"
+      ]
+    },
+    {
+      "id": "petronas-fe7b972f6d8c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "MLNG Tiga, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Petronas* (55%); Sarawak State (25%); ENEOS Xplora (10%); Mitsubishi Corp (10%)"
+      ]
+    },
+    {
+      "id": "petronas-7fc26f89014a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Nahara, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2034,
+        2036
+      ],
+      "startupYears": [
+        2039,
+        2041
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-bcdd2755f9aa",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "NBE Cluster DRO, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1989,
+        1998,
+        2013,
+        2100
+      ],
+      "approvalYears": [
+        2028,
+        2030,
+        2101
+      ],
+      "startupYears": [
+        2031,
+        2033,
+        2034,
+        2106
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-7d358753497e",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Petronas FLNG 1 Satu, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-2bc6dd308610",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Petronas FLNG 2, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-249acbd785de",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Petronas ZLNG, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Petronas* (75%); SMJ Sdn Bhd (25%)"
+      ]
+    },
+    {
+      "id": "petronas-ae067b7c4fa3",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM309 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-2b3ea292959a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM327 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petronas* (70%); Hibiscus Petroleum (30%)"
+      ]
+    },
+    {
+      "id": "petronas-9ec771c34541",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM335 PSC (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-e3a882a89636",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM419 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-c389bb12441e",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM515, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-521398302a1e",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM6/12 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-d5656467322a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM6/12 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1991,
+        1998,
+        2003,
+        2012,
+        2015
+      ],
+      "approvalYears": [
+        2022,
+        2037,
+        2038,
+        2041,
+        2042
+      ],
+      "startupYears": [
+        2025,
+        2042,
+        2043
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-584fe395d242",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM6/12 (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1970,
+        1983
+      ],
+      "approvalYears": [
+        1982,
+        1995
+      ],
+      "startupYears": [
+        1984,
+        2000
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-5ded81b2b6f7",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM9 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2024,
+        2032
+      ],
+      "approvalYears": [
+        2030,
+        2039
+      ],
+      "startupYears": [
+        2036,
+        2043
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-7bbb40ca83db",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "PM9 (Gas), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971,
+        1978
+      ],
+      "approvalYears": [
+        1976,
+        1980
+      ],
+      "startupYears": [
+        1978,
+        1982
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-b0e1c034a95a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Samarang Asam Paya (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "200-300 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1981,
+        2002,
+        2009,
+        2031
+      ],
+      "approvalYears": [
+        2042,
+        2054,
+        2058
+      ],
+      "startupYears": [
+        2046,
+        2059,
+        2063
+      ],
+      "ownerships": [
+        "Petronas* (50%); SMJ Sdn Bhd (50%)"
+      ]
+    },
+    {
+      "id": "petronas-d4edcdf60dba",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Samarang Asam Paya (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1974,
+        1976
+      ],
+      "startupYears": [
+        1975,
+        1981
+      ],
+      "ownerships": [
+        "Petronas* (50%); SMJ Sdn Bhd (50%)"
+      ]
+    },
+    {
+      "id": "petronas-99538ff51ddd",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Samarang Asam Paya (Phase 2), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1972,
+        1979,
+        2000,
+        2011
+      ],
+      "approvalYears": [
+        1998,
+        2000,
+        2002,
+        2013
+      ],
+      "startupYears": [
+        2002,
+        2004,
+        2014
+      ],
+      "ownerships": [
+        "Petronas* (50%); SMJ Sdn Bhd (50%)"
+      ]
+    },
+    {
+      "id": "petronas-2afc25305646",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Samarang Asam Paya EOR, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "Petronas* (50%); SMJ Sdn Bhd (50%)"
+      ]
+    },
+    {
+      "id": "petronas-28b2d386288f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SB306B PSC, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Petronas* (50%); Inpex (42.5%); SMJ Sdn Bhd (7.5%)"
+      ]
+    },
+    {
+      "id": "petronas-804254c535e2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SB409 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-246722ee6f6d",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sepat Barat Deep, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-dbe133b342d4",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sepat Oil (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2066
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-5fb0b1809390",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sepat Phase 1, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Fixed and floater"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-f83685e25cae",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sepat Phase 2A, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO and Fixed"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-10962c6b204a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sikau North, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-8a126e52a7d1",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK306 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-87bccf79025f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK306, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2022,
+        2023
+      ],
+      "approvalYears": [
+        2029,
+        2031
+      ],
+      "startupYears": [
+        2032,
+        2033
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-fa2ae295dd0b",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK307 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-9cf7ad692b50",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK315 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-ba33a0a4c7b6",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK315 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1975,
+        1980,
+        1985,
+        1989,
+        1990,
+        2005,
+        2010,
+        2011,
+        2012,
+        2017,
+        2023
+      ],
+      "approvalYears": [
+        2025,
+        2027,
+        2029,
+        2030,
+        2032,
+        2035,
+        2037,
+        2041,
+        2042,
+        2043,
+        2044,
+        2046
+      ],
+      "startupYears": [
+        2027,
+        2029,
+        2031,
+        2032,
+        2034,
+        2037,
+        2042,
+        2045,
+        2046,
+        2047,
+        2049,
+        2051
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-9817f1a1d18c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK315, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "FPSO and Fixed",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2010,
+        2011
+      ],
+      "approvalYears": [
+        2012,
+        2013
+      ],
+      "startupYears": [
+        2013,
+        2014
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-407c11595470",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK316 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-7cb89435e074",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK316 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2001,
+        2007,
+        2011,
+        2012,
+        2013,
+        2018,
+        2020
+      ],
+      "approvalYears": [
+        2028,
+        2032,
+        2034,
+        2035,
+        2037,
+        2038,
+        2040,
+        2044
+      ],
+      "startupYears": [
+        2030,
+        2034,
+        2036,
+        2037,
+        2042,
+        2043,
+        2045,
+        2050
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-9d717a3e657a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK316, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-3f9e8fb26b38",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK325 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Petronas* (60%); PTTEP (32.5%); Petros (7.5%)"
+      ]
+    },
+    {
+      "id": "petronas-c80352d209b3",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK407 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-fab2323fd0d5",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK407 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1960s)",
+        "Discovery (1970s)",
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1966,
+        1967,
+        1979,
+        1992,
+        2020
+      ],
+      "approvalYears": [
+        2030,
+        2035,
+        2042,
+        2051
+      ],
+      "startupYears": [
+        2032,
+        2033,
+        2037,
+        2044,
+        2056
+      ],
+      "ownerships": [
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-0951a853f2ff",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK407 (Phase 1), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1964,
+        1966,
+        1968,
+        1973,
+        1989
+      ],
+      "approvalYears": [
+        1967,
+        1968,
+        1973,
+        1974,
+        1995
+      ],
+      "startupYears": [
+        1968,
+        1969,
+        1975,
+        1978,
+        1999
+      ],
+      "ownerships": [
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-91cb39bd84d7",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK407 (Phase 2), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1968,
+        2023
+      ],
+      "approvalYears": [
+        2017,
+        2032
+      ],
+      "startupYears": [
+        2022,
+        2034
+      ],
+      "ownerships": [
+        "Petronas* (100%)",
+        "Petronas* (55%); Petros (45%)"
+      ]
+    },
+    {
+      "id": "petronas-503d7902548d",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK411 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-eb4784c466b5",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK411, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1980,
+        1991,
+        2021
+      ],
+      "approvalYears": [
+        2032,
+        2040,
+        2047
+      ],
+      "startupYears": [
+        2034,
+        2045,
+        2052
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-50ca1c562a7f",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK418 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (52.5%); Inpex (40%); Petros (7.5%)"
+      ]
+    },
+    {
+      "id": "petronas-544ef332e7bb",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK8 (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-cab6564316d2",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK8 (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-d4c42dc620a6",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "SK8, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1992,
+        1993
+      ],
+      "approvalYears": [
+        1999,
+        2008
+      ],
+      "startupYears": [
+        2004,
+        2011
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-0cac09d2a3e5",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "South Lokan, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2063
+      ],
+      "startupYears": [
+        2065
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-949db18e856a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Sumandak Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2001,
+        2002,
+        2003
+      ],
+      "approvalYears": [
+        2005,
+        2006,
+        2007
+      ],
+      "startupYears": [
+        2006,
+        2009,
+        2011
+      ],
+      "ownerships": [
+        "Petronas* (50%); SMJ Sdn Bhd (50%)"
+      ]
+    },
+    {
+      "id": "petronas-be354df10be3",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tambuku, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2063
+      ],
+      "startupYears": [
+        2065
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-48509eb5289c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tangga Barat Cluster (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-468a0c8a04b5",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tangga Barat Cluster (Future), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-1169f7fd7f9c",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tangga Barat Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1985,
+        1990,
+        1993
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-e063225ae88a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tembikai-Chenang Cluster (Exploration), MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2069
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-a4df8f5fad0a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tembikai-Chenang Cluster, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Fixed and floater",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1989,
+        2001
+      ],
+      "approvalYears": [
+        2014,
+        2041
+      ],
+      "startupYears": [
+        2015,
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-378fea50e56d",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Tembungo EOR, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-8d046d72682a",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Timbalai Deep West, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-9559bcb64a77",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Wakid, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-d7fd242c1728",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "West Lutong, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "Petronas* (50%); Petros (50%)"
+      ]
+    },
+    {
+      "id": "petronas-b1b9f0c43a48",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Zoisit Deep, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-b4c4198cbe63",
+      "operator": "Petronas",
+      "country": "Malaysia",
+      "project": "Zoisit, MY",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2065
+      ],
+      "startupYears": [
+        2067
+      ],
+      "ownerships": [
+        "Petronas* (70%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "petronas-8aa956e3cd3f",
+      "operator": "Petronas",
+      "country": "Mexico",
+      "project": "AP-CS-G06 (R2L4), MX",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-75d98613047e",
+      "operator": "Petronas",
+      "country": "Mexico",
+      "project": "AP-CS-G07 (R2L4), MX",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-305c3681167d",
+      "operator": "Petronas",
+      "country": "Mexico",
+      "project": "CS-04 (R1L4), MX",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petronas* (50%); Harbour Energy (50%)"
+      ]
+    },
+    {
+      "id": "petronas-14c3ad440abd",
+      "operator": "Petronas",
+      "country": "Mexico",
+      "project": "CS-06 (R2L1), MX",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (50%); Ecopetrol (50%)"
+      ]
+    },
+    {
+      "id": "petronas-3426ed4d1461",
+      "operator": "Petronas",
+      "country": "Mexico",
+      "project": "Naajal, MX",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Petronas* (50%); Harbour Energy (50%)"
+      ]
+    },
+    {
+      "id": "petronas-421e1312c048",
+      "operator": "Petronas",
+      "country": "Myanmar",
+      "project": "IOR 7 (Shwepyitha), MM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-ab221d5f4367",
+      "operator": "Petronas",
+      "country": "Oman",
+      "project": "Block 18, OM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Petronas* (70%); OQ (30%)"
+      ]
+    },
+    {
+      "id": "petronas-1d4bb40f2a9a",
+      "operator": "Petronas",
+      "country": "Pakistan",
+      "project": "Block 2567-10 (Daphro), PK",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-4f2b724efc19",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Block 48, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-716bdd8a5338",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Block 52, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-036ca179b8bb",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Block 63, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-2f71449e2ea4",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Block 66, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Petronas* (80%); Staatsolie Maatschappij Suriname NV (20%)"
+      ]
+    },
+    {
+      "id": "petronas-7b4dc0374580",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Block 9, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Petronas* (30%); Staatsolie Maatschappij Suriname NV (30%); Chevron (20%); QatarEnergy (20%)"
+      ]
+    },
+    {
+      "id": "petronas-40112226cc5e",
+      "operator": "Petronas",
+      "country": "Suriname",
+      "project": "Sloanea, SR",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "FLNG",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2020,
+        2023,
+        2024
+      ],
+      "approvalYears": [
+        2027,
+        2030,
+        2032
+      ],
+      "startupYears": [
+        2031,
+        2033,
+        2035
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-c5264c6ff6e7",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Banka Barinova, TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-c5a9391c9c23",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Block I (Makhtumkuli (x-Banka Livanova East)), TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-c4a5e858476f",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Gubkin Bank, TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-c091db618432",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Livanov Center, TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-4585093d62fc",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Livanov West Bank, TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-b3ff73352850",
+      "operator": "Petronas",
+      "country": "Turkmenistan",
+      "project": "Makhtumkuli (x-Banka Livanova East), TM",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Petronas* (57%); ADNOC (38%); Hazarnebit (5%)"
+      ]
+    },
+    {
+      "id": "petronas-fad187410435",
+      "operator": "Petronas",
+      "country": "UAE",
+      "project": "Onshore block 2 (Abu Dhabi), AE",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Petronas* (100%)"
+      ]
+    },
+    {
+      "id": "petronas-ce3b9aff647f",
+      "operator": "Petronas",
+      "country": "Venezuela",
+      "project": "Boyaca 5, VE",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (40%); PDVSA (60%)"
+      ]
+    },
+    {
+      "id": "petronas-508fe60a41a5",
+      "operator": "Petronas",
+      "country": "Vietnam",
+      "project": "Block 102, 106, VN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petronas* (57.14%); PetroChina (22.86%); PetroVietnam EP (20%)"
+      ]
+    },
+    {
+      "id": "petronas-4365bbb1c0a5",
+      "operator": "Petronas",
+      "country": "Vietnam",
+      "project": "Ham Rong, VN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petronas* (57.14%); PetroChina (22.86%); PetroVietnam EP (20%)"
+      ]
+    },
+    {
+      "id": "petronas-a51e06847cd1",
+      "operator": "Petronas",
+      "country": "Vietnam",
+      "project": "Song Thai Binh, VN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Petronas* (57.14%); PetroChina (22.86%); PetroVietnam EP (20%)"
+      ]
+    },
+    {
+      "id": "petronas-5a314d4acf85",
+      "operator": "Petronas",
+      "country": "Vietnam",
+      "project": "Yen Tu (Block 106), VN",
+      "sourceOperators": [
+        "Petronas"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petronas* (57.14%); PetroChina (22.86%); PetroVietnam EP (20%)"
+      ]
+    }
+  ]
+}

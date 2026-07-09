@@ -8,6 +8,7 @@ from maps.tools.build_map_data import (
     build_country_index,
     build_payloads,
     company_for_operator,
+    operator_matches_company_family,
     stable_project_id,
 )
 
@@ -22,6 +23,14 @@ class BuildMapDataTests(unittest.TestCase):
         self.assertEqual(company_for_operator("Shell", config), "Shell")
         self.assertIsNone(company_for_operator("Petronas/Shell", config))
         self.assertIsNone(company_for_operator("Aker BP", config))
+
+    def test_family_matching_includes_visible_subsidiaries(self):
+        self.assertTrue(operator_matches_company_family("Chevron", "Chevron"))
+        self.assertTrue(operator_matches_company_family("ADNOC", "ADNOC Offshore"))
+        self.assertTrue(operator_matches_company_family("QatarEnergy", "QatarEnergy LNG"))
+        self.assertTrue(operator_matches_company_family("BP", "BPTT"))
+        self.assertFalse(operator_matches_company_family("Shell", "Petronas/Shell"))
+        self.assertFalse(operator_matches_company_family("BP", "Aker BP"))
 
     def test_project_id_is_stable_and_company_specific(self):
         shell_id = stable_project_id("Shell", "Malaysia", "Alpha, MY")
@@ -100,8 +109,13 @@ class BuildMapDataTests(unittest.TestCase):
         root = Path(__file__).resolve().parents[2]
         config_path = root / "maps" / "tools" / "company-config.json"
         config = json.loads(config_path.read_text(encoding="utf-8"))
+        company_keys = {company.casefold() for company in config["companies"]}
 
-        self.assertEqual(set(config["companies"]), {"Shell", "BP", "Eni", "ADNOC"})
+        self.assertIn("shell", company_keys)
+        self.assertIn("bp", company_keys)
+        self.assertIn("eni", company_keys)
+        self.assertIn("adnoc", company_keys)
+        self.assertGreaterEqual(len(config["companies"]), 4)
 
     def test_country_index_does_not_let_territories_shadow_sovereign_country_names(self):
         features = [

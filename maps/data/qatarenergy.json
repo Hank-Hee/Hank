@@ -1,0 +1,1723 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "QatarEnergy",
+    "sourceOperators": [
+      "QatarEnergy",
+      "QatarEnergy LNG"
+    ],
+    "projectCount": 36,
+    "countryCount": 1,
+    "businessRegions": [
+      "中东及南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "qatarenergy-5a508c2c2d3e",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Al Khaleej Gas project, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2000,
+        2004
+      ],
+      "startupYears": [
+        2006,
+        2010
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); ExxonMobil (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-4eea83192975",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Al Radeef (X-Khuff), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-c825716f508e",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Barzan, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2011,
+        2034,
+        2042
+      ],
+      "startupYears": [
+        2020,
+        2039,
+        2045
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (93%); ExxonMobil (7%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-b571ee9ca854",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block 009 (Dukhan), QA",
+      "sourceOperators": [
+        "QatarEnergy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy* (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-94fc725220e5",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block 1NW, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-7f0fe780b4c3",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block 2N, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-171eb6dcd650",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block 2S, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-2346c0f9dedf",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block 9 (Dukhan), QA",
+      "sourceOperators": [
+        "QatarEnergy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939
+      ],
+      "approvalYears": [
+        1944
+      ],
+      "startupYears": [
+        1949
+      ],
+      "ownerships": [
+        "QatarEnergy* (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-d52ad5232033",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block Bul Hanine, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-4cf4ab0926a8",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Block Idd El Shargi South Dome, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-45cb0afdc42d",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Bul Hanine (PS-3), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1967,
+        2015,
+        2017,
+        2025
+      ],
+      "startupYears": [
+        1972,
+        2021,
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-0453ffd4e605",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Idd El Shargi (PS-1), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1960,
+        1961,
+        1986
+      ],
+      "approvalYears": [
+        1981,
+        1995,
+        2020,
+        2023,
+        2029
+      ],
+      "startupYears": [
+        1986,
+        1999,
+        2023,
+        2027,
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-ba4d072db82c",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Idd El Shargi North Dome YTF, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-428b7328c48c",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Maydan Mahzam (PS-2), QA",
+      "sourceOperators": [
+        "QatarEnergy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        1964,
+        2028
+      ],
+      "startupYears": [
+        1965,
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy* (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-4df75f6838d2",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field  EPCOL, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-72feb97d0d75",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field (Sustainability), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-a5d9799f58b2",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Alpha Ph-1 (PS-4 domestic), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-e908b5cecf46",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field C LNG, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-b46f2f7b4b5d",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Compression Phase 1 (COMP 2), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-7375a0256d5f",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Compression Phase 2 (COMP 3), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-a8587a1c68e5",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Compression Phase 3 (COMP 4), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-2d6e5aa5846d",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Compression Phase 4 (COMP 5), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-a6ef7bb1db26",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field Compression Phase 4 (COMP 6), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-ec4738d40c7c",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field E LNG, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2070
+      ],
+      "startupYears": [
+        2075
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-80cf0ab72d8d",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field E, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2070
+      ],
+      "startupYears": [
+        2075
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-0a4c97e54b96",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "North Field, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2040,
+        2059
+      ],
+      "startupYears": [
+        2048,
+        2064
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-8521483db51d",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas 1 LNG T1-T3, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-97d80aba7c85",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas 2 LNG T4-T5, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (65%); ExxonMobil (18.3%); TotalEnergies (16.7%)",
+        "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-1b84e7e66ae8",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas 3 LNG T6, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (68.5%); ConocoPhillips (30%); Mitsui (1.5%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-29315eae8c02",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas 4 LNG T7, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-eb2b98f6c1f9",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas LNG T12-T13 (NFE-South), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2030,
+        2031
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-245e7763f8ae",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas LNG T14-T15 (NFE-West), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (100%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-b25afa274121",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Qatargas LNG T8-T11 (NFE-East), QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2027,
+        2028,
+        2029
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (71.25%); ExxonMobil (6.25%); Shell (6.25%); TotalEnergies (6.25%); ConocoPhillips (3.13%); Eni (3.13%); CNPC (parent) (1.25%); CPC (Taiwan) (1.25%); Sinopec Group (parent) (1.25%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-eccb437b6cdc",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Rasgas 1 (RL 1) LNG T1-T2, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (88%); ITOCHU (4%); Korea Gas (3%); Sojitz (1.5%); Sumitomo (1.5%); Samsung (0.5%); Hyundai (0.4%); SK Innovation (0.4%); LG International (0.28%); Daesung (0.27%); Hanwha Energy (0.15%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-7ff00a7721ba",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Rasgas 2 (RL 2) LNG T3-T5, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
+      ]
+    },
+    {
+      "id": "qatarenergy-903a6217b569",
+      "operator": "QatarEnergy",
+      "country": "Qatar",
+      "project": "Rasgas 3 (RL 3) LNG T6-T7, QA",
+      "sourceOperators": [
+        "QatarEnergy LNG"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
+      ]
+    }
+  ]
+}

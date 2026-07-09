@@ -1,0 +1,6011 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Pertamina",
+    "sourceOperators": [
+      "Pertamina"
+    ],
+    "projectCount": 105,
+    "countryCount": 2,
+    "businessRegions": [
+      "东南亚",
+      "北非/北欧"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pertamina-9bab5618e065",
+      "operator": "Pertamina",
+      "country": "Algeria",
+      "project": "MLN project, DZ",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996,
+        1998,
+        1999
+      ],
+      "approvalYears": [
+        2001,
+        2003,
+        2018
+      ],
+      "startupYears": [
+        2003,
+        2018
+      ],
+      "ownerships": [
+        "Pertamina* (65%); Repsol (35%)"
+      ]
+    },
+    {
+      "id": "pertamina-5d0aada9a193",
+      "operator": "Pertamina",
+      "country": "Algeria",
+      "project": "MLSE project, DZ",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Pertamina* (65%); Repsol (35%)"
+      ]
+    },
+    {
+      "id": "pertamina-a73d8ecf76c9",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Abar (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-ae256ce783b7",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Abar Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-09f0f9fe0bf6",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Aceh Timur TAC (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-e32bb545f9d0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Air Hitam, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1993
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-c09cb5c97e7f",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset I, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900,
+        1913,
+        1922,
+        1926,
+        1927,
+        1928,
+        1929,
+        1931,
+        1932,
+        1934,
+        1937,
+        1939,
+        1940,
+        1941,
+        1950,
+        1956,
+        1960,
+        1970,
+        1971,
+        1972,
+        1974,
+        1976,
+        1977,
+        1978,
+        1980,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1988,
+        1992,
+        1993,
+        1997,
+        2001,
+        2013,
+        2016,
+        2028
+      ],
+      "approvalYears": [
+        1901,
+        1914,
+        1926,
+        1927,
+        1929,
+        1930,
+        1935,
+        1936,
+        1937,
+        1941,
+        1942,
+        1947,
+        1955,
+        1956,
+        1957,
+        1958,
+        1964,
+        1969,
+        1970,
+        1972,
+        1973,
+        1974,
+        1976,
+        1977,
+        1978,
+        1979,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1987,
+        1988,
+        1991,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        2001,
+        2003,
+        2013,
+        2024,
+        2039
+      ],
+      "startupYears": [
+        1902,
+        1914,
+        1927,
+        1928,
+        1930,
+        1931,
+        1936,
+        1937,
+        1940,
+        1941,
+        1947,
+        1950,
+        1958,
+        1959,
+        1960,
+        1967,
+        1972,
+        1973,
+        1974,
+        1976,
+        1977,
+        1978,
+        1980,
+        1981,
+        1984,
+        1985,
+        1986,
+        1990,
+        1991,
+        1994,
+        1996,
+        1997,
+        1998,
+        1999,
+        2001,
+        2006,
+        2013,
+        2025,
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-80f69f7bc9b2",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset II (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002,
+        2004,
+        2013,
+        2022
+      ],
+      "approvalYears": [
+        2027,
+        2036,
+        2040
+      ],
+      "startupYears": [
+        2028,
+        2040,
+        2041,
+        2044
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-f9e820138482",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset II, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900,
+        1901,
+        1910,
+        1911,
+        1928,
+        1930,
+        1935,
+        1936,
+        1937,
+        1938,
+        1940,
+        1941,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1962,
+        1964,
+        1972,
+        1975,
+        1980,
+        1981,
+        1985,
+        1989,
+        1995,
+        1997,
+        2000,
+        2028,
+        2030
+      ],
+      "approvalYears": [
+        1902,
+        1904,
+        1913,
+        1915,
+        1933,
+        1936,
+        1939,
+        1940,
+        1942,
+        1948,
+        1951,
+        1952,
+        1954,
+        1956,
+        1958,
+        1960,
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1968,
+        1973,
+        1986,
+        1988,
+        1990,
+        1991,
+        1998,
+        1999,
+        2005,
+        2017,
+        2026,
+        2040,
+        2050
+      ],
+      "startupYears": [
+        1903,
+        1906,
+        1913,
+        1918,
+        1934,
+        1939,
+        1942,
+        1943,
+        1948,
+        1951,
+        1952,
+        1954,
+        1955,
+        1956,
+        1959,
+        1965,
+        1966,
+        1968,
+        1969,
+        1972,
+        1976,
+        1987,
+        1989,
+        1990,
+        1991,
+        1994,
+        1998,
+        1999,
+        2003,
+        2006,
+        2017,
+        2027,
+        2043,
+        2053
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-a7dd49dd566d",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset III (Cikarang-Karawang Oil Project), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009,
+        2013
+      ],
+      "approvalYears": [
+        2016,
+        2018
+      ],
+      "startupYears": [
+        2017,
+        2019
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-9b30000eab6b",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset III (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1970s)",
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1972,
+        1996,
+        2008,
+        2018,
+        2019,
+        2022
+      ],
+      "approvalYears": [
+        2029,
+        2031,
+        2036,
+        2038,
+        2039,
+        2042,
+        2044
+      ],
+      "startupYears": [
+        2032,
+        2033,
+        2037,
+        2040,
+        2042,
+        2045,
+        2047
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-3d78dd3cdd55",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset III, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1930,
+        1969,
+        1972,
+        1973,
+        1975,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1984,
+        1985,
+        1986,
+        1988,
+        1990,
+        1992,
+        1993,
+        1995,
+        2003,
+        2008,
+        2010,
+        2019,
+        2020,
+        2023,
+        2031
+      ],
+      "approvalYears": [
+        1935,
+        1970,
+        1975,
+        1977,
+        1978,
+        1979,
+        1985,
+        1987,
+        1988,
+        1989,
+        1990,
+        1992,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2006,
+        2008,
+        2009,
+        2011,
+        2022,
+        2028,
+        2041,
+        2047
+      ],
+      "startupYears": [
+        1938,
+        1970,
+        1976,
+        1978,
+        1979,
+        1980,
+        1988,
+        1990,
+        1991,
+        1992,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2001,
+        2003,
+        2006,
+        2009,
+        2010,
+        2012,
+        2014,
+        2025,
+        2030,
+        2031,
+        2042,
+        2051
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-af9c3bc1d3e1",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset IV (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1970s)",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978,
+        2001,
+        2004,
+        2018,
+        2019,
+        2022,
+        2023,
+        2024
+      ],
+      "approvalYears": [
+        2014,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2035,
+        2040,
+        2052
+      ],
+      "startupYears": [
+        2016,
+        2028,
+        2029,
+        2030,
+        2032,
+        2033,
+        2034,
+        2035,
+        2038,
+        2043,
+        2055
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-b281d3d64a75",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset IV Alas Dara Kemuning (ADK), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991,
+        1992
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-abcee3c510b4",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset IV Alas Dara Kemuning (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-9f879f9ed7bd",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset IV Jambaran Tiung-Biru Unitization (JTB), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001,
+        2009
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Jawa Timur Government (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-d02e37d83676",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset IV, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2020s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1893,
+        1926,
+        1936,
+        1952,
+        1972,
+        1975,
+        1977,
+        1986,
+        1988,
+        1996,
+        2000,
+        2001,
+        2003,
+        2004,
+        2005,
+        2026,
+        2028,
+        2029
+      ],
+      "approvalYears": [
+        1893,
+        1931,
+        1936,
+        1945,
+        1974,
+        1977,
+        1988,
+        1989,
+        1996,
+        1997,
+        2003,
+        2007,
+        2008,
+        2010,
+        2014,
+        2027,
+        2041,
+        2044,
+        2045
+      ],
+      "startupYears": [
+        1895,
+        1934,
+        1939,
+        1948,
+        1975,
+        1977,
+        1989,
+        1992,
+        1997,
+        1999,
+        2004,
+        2006,
+        2010,
+        2011,
+        2014,
+        2017,
+        2028,
+        2045,
+        2048
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-3209a23f462b",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset V (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-4404260b2cee",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset V (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1970s)",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1937,
+        1975,
+        1986,
+        1992,
+        1998,
+        2002,
+        2005
+      ],
+      "approvalYears": [
+        2032,
+        2037,
+        2038,
+        2041,
+        2047,
+        2052
+      ],
+      "startupYears": [
+        2035,
+        2041,
+        2045,
+        2048,
+        2055
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-485887956170",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Asset V, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2020s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1896,
+        1900,
+        1901,
+        1906,
+        1909,
+        1922,
+        1923,
+        1926,
+        1936,
+        1937,
+        1938,
+        1965,
+        1967,
+        1970,
+        1973,
+        1974,
+        1976,
+        1980,
+        2013,
+        2025
+      ],
+      "approvalYears": [
+        1898,
+        1905,
+        1906,
+        1925,
+        1926,
+        1936,
+        1937,
+        1938,
+        1940,
+        1949,
+        1956,
+        1966,
+        1971,
+        1973,
+        1975,
+        1977,
+        1979,
+        1981,
+        2013,
+        2027
+      ],
+      "startupYears": [
+        1898,
+        1906,
+        1908,
+        1925,
+        1929,
+        1938,
+        1939,
+        1941,
+        1953,
+        1959,
+        1966,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1981,
+        1982,
+        2013,
+        2028
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-db97f4925c2a",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Betung Oil part, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1921
+      ],
+      "approvalYears": [
+        1923
+      ],
+      "startupYears": [
+        1923
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-95fe9b7d49ea",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Binaiya, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Pertamina* (56%); Petronas (22%); SK Innovation (22%)"
+      ]
+    },
+    {
+      "id": "pertamina-22b8855b9027",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Bontang LNG, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1970,
+        1972,
+        1999
+      ],
+      "approvalYears": [
+        1972,
+        2001,
+        2021
+      ],
+      "startupYears": [
+        1977,
+        2001,
+        2023
+      ],
+      "ownerships": [
+        "Pertamina* (100%)",
+        "Pertamina* (55%); Japan Indonesia LNG Co. (JILCO) (20%); PT VICO Indonesia (15%); TotalEnergies (10%)",
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-18c7c02d8a16",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Bunyu (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-b061f60ee657",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Corridor TAC (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2104
+      ],
+      "startupYears": [
+        2109
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-b567832ef187",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "East Ambalat Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-1ed7433e5d05",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "East Kalimantan & Attaka (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-52ebe72e5477",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "East Kalimantan & Attaka (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "175-200 meter depth",
+        "25-50 meter depth",
+        "300-450 meter depth",
+        "50-75 meter depth",
+        "600-800 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1974,
+        1980,
+        1986,
+        1988,
+        1995,
+        1996,
+        1997,
+        2000,
+        2018
+      ],
+      "approvalYears": [
+        2028,
+        2038,
+        2039,
+        2041,
+        2042,
+        2043,
+        2044,
+        2054,
+        2055
+      ],
+      "startupYears": [
+        2029,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2058,
+        2059
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-66f5628ffe06",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "East Kalimantan & Attaka Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2000s)",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Extended reach",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "100-125 meter depth",
+        "25-50 meter depth",
+        "450-600 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1970,
+        1971,
+        1972,
+        1973,
+        1976,
+        1977,
+        1981,
+        1982,
+        1995,
+        1996,
+        1998,
+        1999,
+        2000,
+        2002
+      ],
+      "approvalYears": [
+        1972,
+        1975,
+        1977,
+        1981,
+        1983,
+        1984,
+        1989,
+        1993,
+        1996,
+        1999,
+        2000,
+        2001,
+        2005,
+        2040
+      ],
+      "startupYears": [
+        1972,
+        1976,
+        1978,
+        1979,
+        1984,
+        1985,
+        1993,
+        1996,
+        1997,
+        1999,
+        2000,
+        2005,
+        2006,
+        2044
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-250caefc5c48",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Glagah-Kambuna Fields TAC (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2104
+      ],
+      "startupYears": [
+        2108
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-1b1661a3e47f",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Jambi Merang (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1990s)",
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991,
+        2022,
+        2024
+      ],
+      "approvalYears": [
+        2034,
+        2035,
+        2036
+      ],
+      "startupYears": [
+        2038,
+        2039
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Gemilang (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-06a3d36e7045",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Jambi Merang Block (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Gemilang (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-08f7df56a6fd",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Jambi Merang, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996,
+        2001
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Gemilang (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-77d6551f332f",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Jembatan Bengkok Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-b41da148b7d8",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Jirak EOR, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1930
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-f035e73d4841",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Kemudan Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-c29192265706",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "KSO Ibul Tenggara, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-f6789f090245",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Langsa (NSO L) (redevelop), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-9177f267cdb0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Lavender, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-975ea880d5f6",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Linda-Sele, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-a29aa61b7632",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-ec3768e7b03b",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1982,
+        1993,
+        2022,
+        2023,
+        2025
+      ],
+      "approvalYears": [
+        2025,
+        2027,
+        2032,
+        2042,
+        2048
+      ],
+      "startupYears": [
+        2026,
+        2028,
+        2036,
+        2046,
+        2052
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-53ca3c3adb93",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam (local), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1974,
+        1977
+      ],
+      "approvalYears": [
+        1975,
+        1980,
+        1986
+      ],
+      "startupYears": [
+        1975,
+        1984,
+        1990
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-4b31d6140080",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam (OPLL-3B Offshore), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1983,
+        1986,
+        1991
+      ],
+      "approvalYears": [
+        1995,
+        2003
+      ],
+      "startupYears": [
+        1999,
+        2007
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-9e7e565302d0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam Block (Local), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1972,
+        1990
+      ],
+      "approvalYears": [
+        1974,
+        1991
+      ],
+      "startupYears": [
+        1974,
+        1991
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-54fdf6204a80",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam EOR, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-d5c999edc7bd",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Mahakam, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth",
+        "75-100 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1972,
+        1974,
+        1975,
+        1977,
+        1986,
+        1990,
+        1996,
+        1998,
+        2007
+      ],
+      "approvalYears": [
+        1974,
+        1975,
+        1980,
+        1985,
+        1991,
+        2008,
+        2014,
+        2020
+      ],
+      "startupYears": [
+        1974,
+        1975,
+        1984,
+        1990,
+        1991,
+        2012,
+        2015,
+        2022
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-887e9d340a6b",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Maratua Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-9ced1f036287",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Melati, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Pertamina* (51%); Kuwait Foreign Petroleum Exploration Company (KUFPEC) (24.5%); Sinopec Group (parent) (24.5%)"
+      ]
+    },
+    {
+      "id": "pertamina-5f187bb6a5a1",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Meruo Senami, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1938
+      ],
+      "approvalYears": [
+        1939
+      ],
+      "startupYears": [
+        1939
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-694ae3acf9c4",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Muara Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-bd29ec68ddfa",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Natuna D-Alpha (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-bf04ac3ebd35",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "North Kutai Lama, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-12d1c99e2175",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "North Sumatra Offshore (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-5b149405e95e",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "NSO A, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-f5edb43ad4bf",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "NSO-R2, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-fc1f8df0e17c",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "NSO-XLLL, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-9ac1959363a0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Nunukan (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2010,
+        2017
+      ],
+      "approvalYears": [
+        2028,
+        2030
+      ],
+      "startupYears": [
+        2030,
+        2033
+      ],
+      "ownerships": [
+        "Pertamina* (83.77%); Bharat Petroleum Corp (BPCL) (16.23%)"
+      ]
+    },
+    {
+      "id": "pertamina-b0e5502a98fd",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North West Java (ONWJ exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Migas Hulu Jabar ONWJ (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-aebeba763fd2",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North West Java (ONWJ Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "125-150 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        1981,
+        1982,
+        1983,
+        1986,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1997,
+        2018,
+        2022,
+        2025
+      ],
+      "approvalYears": [
+        2024,
+        2027,
+        2031,
+        2036,
+        2038,
+        2039,
+        2041,
+        2042,
+        2043,
+        2048,
+        2050,
+        2051,
+        2052,
+        2053,
+        2056,
+        2057
+      ],
+      "startupYears": [
+        2026,
+        2031,
+        2034,
+        2039,
+        2040,
+        2042,
+        2043,
+        2045,
+        2046,
+        2047,
+        2052,
+        2054,
+        2055,
+        2056,
+        2057,
+        2060,
+        2061
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Migas Hulu Jabar ONWJ (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-86f0cf51c7f9",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North West Java (ONWJ), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Fixed and floater",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "100-125 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1968,
+        1969,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1978,
+        1979,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1990,
+        1991,
+        1992,
+        1994,
+        1995,
+        2011,
+        2012
+      ],
+      "approvalYears": [
+        1971,
+        1973,
+        1975,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1989,
+        1990,
+        1993,
+        1995,
+        1996,
+        1997,
+        1998,
+        2000,
+        2001,
+        2002,
+        2003,
+        2010,
+        2013,
+        2017,
+        2018,
+        2019
+      ],
+      "startupYears": [
+        1971,
+        1975,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1986,
+        1987,
+        1988,
+        1993,
+        1994,
+        1996,
+        1999,
+        2001,
+        2002,
+        2004,
+        2005,
+        2006,
+        2007,
+        2014,
+        2018,
+        2021,
+        2023
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Migas Hulu Jabar ONWJ (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-dd9b9f706f17",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North West Java Block GS, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1969,
+        1980
+      ],
+      "approvalYears": [
+        1980,
+        1981
+      ],
+      "startupYears": [
+        1982,
+        1984
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Migas Hulu Jabar ONWJ (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-896a9a85a481",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North West Java Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1970,
+        1980,
+        1982,
+        1988,
+        1991
+      ],
+      "approvalYears": [
+        1972,
+        1980,
+        1981,
+        1983,
+        1985,
+        1991,
+        1993
+      ],
+      "startupYears": [
+        1973,
+        1981,
+        1982,
+        1984,
+        1987,
+        1992,
+        1994
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Migas Hulu Jabar ONWJ (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-b1fd79e86909",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore North X-Ray (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-3bfb4b74f959",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore Southeast Sumatra (OSES exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-276154e2c65c",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore Southeast Sumatra (OSES Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Discovery (1990s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1974,
+        1982,
+        1983,
+        1984,
+        1992,
+        1993,
+        1994,
+        1995,
+        1999,
+        2021
+      ],
+      "approvalYears": [
+        2027,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2046,
+        2049,
+        2050,
+        2053,
+        2057
+      ],
+      "startupYears": [
+        2028,
+        2042,
+        2043,
+        2045,
+        2046,
+        2047,
+        2048,
+        2050,
+        2053,
+        2054,
+        2057,
+        2061
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-4c3a694a30b0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore Southeast Sumatra (OSES), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1987,
+        1988,
+        1989,
+        1993,
+        1995
+      ],
+      "approvalYears": [
+        1971,
+        1973,
+        1975,
+        1977,
+        1979,
+        1981,
+        1982,
+        1983,
+        1984,
+        1988,
+        1989,
+        1990,
+        1991,
+        1994,
+        1995,
+        1996,
+        1997,
+        2001,
+        2004,
+        2012,
+        2013
+      ],
+      "startupYears": [
+        1971,
+        1974,
+        1975,
+        1976,
+        1979,
+        1980,
+        1981,
+        1982,
+        1984,
+        1985,
+        1989,
+        1990,
+        1991,
+        1996,
+        1997,
+        1998,
+        2000,
+        2005,
+        2006,
+        2016,
+        2028
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-60c69e260367",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Offshore Southeast Sumatra, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1989,
+        1995
+      ],
+      "approvalYears": [
+        1993,
+        2002
+      ],
+      "startupYears": [
+        1997,
+        2005
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-41479701d42d",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Ogan Komering (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Ogan Komering (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-548259036c0e",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Ogan Komering (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988,
+        1991,
+        2016
+      ],
+      "approvalYears": [
+        2038,
+        2043
+      ],
+      "startupYears": [
+        2041,
+        2046
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Ogan Komering (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-8638ec294cde",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Ogan Komering Block PSC, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Ogan Komering (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-af398c23f7be",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Ogan Komering, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988,
+        1991
+      ],
+      "approvalYears": [
+        1992,
+        1993
+      ],
+      "startupYears": [
+        1992,
+        1993
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Sumsel Energi Ogan Komering (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-bdbdafa19560",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Raja/Pendopo Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-7eb270d4c73f",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Randugunting (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2103
+      ],
+      "startupYears": [
+        2106
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-f00ccb05a356",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Randugunting Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-b78308e5e725",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Rokan (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Riau Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-4418fe94cce8",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Rokan (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore",
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)",
+        "Discovery (1980s)",
+        "Discovery (2020s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1975,
+        1983,
+        2023,
+        2024
+      ],
+      "approvalYears": [
+        2028,
+        2031,
+        2033,
+        2036,
+        2048,
+        2052
+      ],
+      "startupYears": [
+        2029,
+        2034,
+        2036,
+        2039,
+        2051,
+        2055
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Riau Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-3c328e846903",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Rokan EOR, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941,
+        1944,
+        1955,
+        1969,
+        1970,
+        1972
+      ],
+      "approvalYears": [
+        2028,
+        2030,
+        2031,
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2030,
+        2033,
+        2039,
+        2044
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Riau Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-8b5631bb20d0",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Rokan, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941,
+        1944,
+        1951,
+        1952,
+        1955,
+        1959,
+        1964,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1981,
+        1982,
+        1983,
+        1985,
+        1986,
+        1989,
+        1990,
+        1992,
+        1993,
+        1995,
+        1997,
+        1998,
+        2024
+      ],
+      "approvalYears": [
+        1947,
+        1950,
+        1961,
+        1963,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1986,
+        1987,
+        1989,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1999,
+        2000,
+        2024
+      ],
+      "startupYears": [
+        1952,
+        1955,
+        1965,
+        1966,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1988,
+        1990,
+        1991,
+        1992,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2024
+      ],
+      "ownerships": [
+        "Pertamina* (90%); PT Riau Petroleum (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-267bcf16b836",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sambidoyong, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-07857a442426",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sanga-Sanga (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-73b5b1263263",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sanga-Sanga (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1970s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973,
+        1978,
+        2022,
+        2023
+      ],
+      "approvalYears": [
+        2028,
+        2032,
+        2048,
+        2054
+      ],
+      "startupYears": [
+        2029,
+        2035,
+        2051,
+        2057
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-f6bf5192b4f8",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sanga-Sanga Fields TAC (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-867c3f3b59a3",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sanga-Sanga, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Field evaluation",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972,
+        1974,
+        1981,
+        1982,
+        1997,
+        2023
+      ],
+      "approvalYears": [
+        1975,
+        1976,
+        1979,
+        1983,
+        1997,
+        1998,
+        2029
+      ],
+      "startupYears": [
+        1975,
+        1977,
+        1980,
+        1983,
+        1998,
+        2001,
+        2030
+      ],
+      "ownerships": [
+        "Pertamina* (90%); Migas Mandiri Pratama (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-63ee043ddd49",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sebaya, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-0d7d6c8478ff",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Senoro-Toili (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Pertamina* (50%); MedcoEnergi (30%); Mitsubishi Corp (10.2%); Korea Gas (9.8%)"
+      ]
+    },
+    {
+      "id": "pertamina-a2ec1e46fead",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Senoro-Toili (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Pertamina* (50%); MedcoEnergi (30%); Mitsubishi Corp (10.2%); Korea Gas (9.8%)"
+      ]
+    },
+    {
+      "id": "pertamina-3e6424d56714",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Senoro-Toili Block PSC - Donggi-Senoro LNG, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "Pertamina* (50%); MedcoEnergi (30%); Mitsubishi Corp (10.2%); Korea Gas (9.8%)"
+      ]
+    },
+    {
+      "id": "pertamina-ef70261c90cb",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Senoro-Toili Phase 1, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Pertamina* (50%); MedcoEnergi (30%); Mitsubishi Corp (10.2%); Korea Gas (9.8%)"
+      ]
+    },
+    {
+      "id": "pertamina-809b40ab71b4",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Senoro-Toili Phase 2, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Pertamina* (50%); MedcoEnergi (30%); Mitsubishi Corp (10.2%); Korea Gas (9.8%)"
+      ]
+    },
+    {
+      "id": "pertamina-2636db353ac1",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "South Kutai Lama, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1902
+      ],
+      "approvalYears": [
+        1902
+      ],
+      "startupYears": [
+        1902
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-0f01ac964065",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Suban gas field West, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-fbb3d8579a8a",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sungai Jaing (2013), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-2d9d93c6f905",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Sungai Lilin, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-80432a0f4bde",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Tanjung Kurung, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-bb3e210b14c2",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Tanjung Una Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-a7d8c5951a1e",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Tuban (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-fc64fbd8de60",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Tuban Block, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-0c73de43d0f1",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Tuban East Java (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-113d78d7fd70",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "UEP I (Rantau), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-ff4a176afe9b",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Waropen Basin R-1, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    },
+    {
+      "id": "pertamina-31b99ef3be77",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "West Madura Offshore (exploration), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Pertamina* (80%); Kodeco Energy (10%); PT Mandiri Madura Barat (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-17558db639c2",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "West Madura Offshore (Future), ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2001,
+        2011,
+        2018
+      ],
+      "approvalYears": [
+        2017,
+        2028,
+        2036,
+        2043,
+        2050
+      ],
+      "startupYears": [
+        2018,
+        2029,
+        2040,
+        2043,
+        2054
+      ],
+      "ownerships": [
+        "Pertamina* (80%); Kodeco Energy (10%); PT Mandiri Madura Barat (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-5fd36e67bd50",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "West Madura Offshore, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "100-125 meter depth",
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1973,
+        1978,
+        1983,
+        1984,
+        2002,
+        2003,
+        2004,
+        2011
+      ],
+      "approvalYears": [
+        1981,
+        1989,
+        1995,
+        1997,
+        2003,
+        2004,
+        2006,
+        2008,
+        2013,
+        2016
+      ],
+      "startupYears": [
+        1982,
+        1990,
+        1993,
+        2000,
+        2001,
+        2005,
+        2006,
+        2008,
+        2013,
+        2017
+      ],
+      "ownerships": [
+        "Pertamina* (80%); Kodeco Energy (10%); PT Mandiri Madura Barat (10%)"
+      ]
+    },
+    {
+      "id": "pertamina-3bf2c5a6a362",
+      "operator": "Pertamina",
+      "country": "Indonesia",
+      "project": "Wiriagar, ID",
+      "sourceOperators": [
+        "Pertamina"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Pertamina* (100%)"
+      ]
+    }
+  ]
+}

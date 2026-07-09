@@ -1,0 +1,8377 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Ecopetrol",
+    "sourceOperators": [
+      "Ecopetrol"
+    ],
+    "projectCount": 180,
+    "countryCount": 2,
+    "businessRegions": [
+      "中南美洲",
+      "墨西哥湾"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "ecopetrol-a08684b05ec0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Acae-San Miguel, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-6470c9fabbf2",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Akacias, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010,
+        2011
+      ],
+      "approvalYears": [
+        2011,
+        2018,
+        2021
+      ],
+      "startupYears": [
+        2011,
+        2018,
+        2025
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-a9c44c443a8b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Alqamari, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-4aeb482e4f43",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Apiay Este (East), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c1ec8388380a",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Apiay, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981,
+        2029
+      ],
+      "approvalYears": [
+        1982,
+        2041
+      ],
+      "startupYears": [
+        1982,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8f197a6bf48b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Area Occidental, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1e1b47a589e7",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Arjona, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5d14cd74480c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Arrayan, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-116946bc5bd3",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Arrecife, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-25fe33f83a98",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Austral, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5a7597fdf336",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Balcon, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9af469d49787",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Barranca-Lebrija, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-da7174f5adb8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Block CPO 17, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e89d5b9c1334",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Block CPO 9, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014,
+        2029
+      ],
+      "approvalYears": [
+        2030,
+        2036
+      ],
+      "startupYears": [
+        2031,
+        2038
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f3f19a4a84d8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Bonanza, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962,
+        2029
+      ],
+      "approvalYears": [
+        1964,
+        2039
+      ],
+      "startupYears": [
+        1964,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0f3c145dfff7",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Brisas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7be18c6d8b9a",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Bufalo, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Ecopetrol* (51%); CPVEN (49%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7b8509319340",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Campos tello y la jagua, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-97d9c70b04dc",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cano Sur, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2014,
+        2032
+      ],
+      "approvalYears": [
+        2011,
+        2012,
+        2033,
+        2037,
+        2044
+      ],
+      "startupYears": [
+        2011,
+        2012,
+        2034,
+        2038,
+        2045
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e2ef0c9df7ab",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cantagallo-Yarigui, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1943
+      ],
+      "approvalYears": [
+        1946
+      ],
+      "startupYears": [
+        1947
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2af472c39c11",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Caribe, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-bfe09c14d99d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Casabe, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941
+      ],
+      "approvalYears": [
+        1944
+      ],
+      "startupYears": [
+        1945
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-b6b09bab0f24",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Castilla Este (East), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0ed5947e9616",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Castilla Norte (North), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-efa4b139a69d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Castilla, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1976
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8799af0f5061",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Catleya, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-51f475e8d3d8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cebu, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1981
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f507952dd96c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cedral (producing), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-44f630fa9041",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Chenche, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989,
+        2029
+      ],
+      "approvalYears": [
+        1996,
+        2035
+      ],
+      "startupYears": [
+        1999,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9bea70674f19",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Chichimene, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969,
+        1990,
+        2029
+      ],
+      "approvalYears": [
+        1983,
+        2006,
+        2035
+      ],
+      "startupYears": [
+        1986,
+        2009,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-85922d08cb0f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Chimichagua Block, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2f3c12bc7ee8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Churuyaco, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1970
+      ],
+      "startupYears": [
+        1971
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-072427339150",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cicuco, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956,
+        2029
+      ],
+      "approvalYears": [
+        1957,
+        2032
+      ],
+      "startupYears": [
+        1957,
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-6b7845d6f953",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cocorna and Teca and Nare Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-20230b659ba3",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "COL 5, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-3ac20f4d2168",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Colorado, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1925
+      ],
+      "approvalYears": [
+        1942
+      ],
+      "startupYears": [
+        1945
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e652456fd49a",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Copeton, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-522aef658b9e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "COR 9, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f17297e94cdf",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Coyote, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-496a4e5e0188",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cristalina, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        1960
+      ],
+      "startupYears": [
+        1960
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1bab60575a47",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "CSE-8 STI , CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-81cd0d4c3328",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cupiagua South, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d90a212ee21a",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cupiagua, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973,
+        2029
+      ],
+      "approvalYears": [
+        1993,
+        2032
+      ],
+      "startupYears": [
+        1996,
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-ce1c5f6c914e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Cusiana, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1993
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-3334a478d40c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Dele, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-842e60081b85",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Dina K, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-eb4d85fe095b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Dina Norte, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-6a60996f14e0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Dina T, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1963,
+        2000
+      ],
+      "startupYears": [
+        1963,
+        2003
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cacd87ce13fb",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Dona Maria, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7496e9040680",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Ermitano-Caipal, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "Ecopetrol* (34%); Ismocol de Colombia SA (28.38%); Joshi Technologies (27.72%); Parko Services SA (4.95%); Petcar (4.95%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-affc45879565",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Espino, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5b86b054e802",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Flamencos, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-a6baf723a219",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Florena, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-36f7ed4577a1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Fuerte Sur, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cde312abdc85",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Gala, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d8c57d7574ff",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Galan, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1945
+      ],
+      "approvalYears": [
+        1947
+      ],
+      "startupYears": [
+        1947
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-289ea0107cde",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Garzas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0dd34edcb51e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Gavan (producing), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1fa76a688290",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Gibraltar 1ST3A, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-ac96f227428b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Gorgon cluster, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)",
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2015,
+        2017,
+        2023
+      ],
+      "approvalYears": [
+        2031,
+        2033,
+        2040,
+        2043
+      ],
+      "startupYears": [
+        2035,
+        2036,
+        2042,
+        2045
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5cf312af28fc",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "GUA OFF 1, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cbc38a7124c4",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "GUA OFF 10, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-433a88fd561b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Guainiz, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-bac6ff7e9dc1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Guajira Area, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore",
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1973,
+        2029
+      ],
+      "approvalYears": [
+        1976,
+        1977,
+        2036
+      ],
+      "startupYears": [
+        1977,
+        1979,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0ec4b7ff3c3f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Guarrojo, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2030
+      ],
+      "approvalYears": [
+        2010,
+        2031
+      ],
+      "startupYears": [
+        2011,
+        2032
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2ba4e614991e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Guatiquia, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-371b5f06a501",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Guayuriba, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-b22b530598d2",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Hormiga, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-af77f4eeac97",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Ibamaca, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cc3133407c9a",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Infantas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1918,
+        2029
+      ],
+      "approvalYears": [
+        1921,
+        2039
+      ],
+      "startupYears": [
+        1922,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (63%); SierraCol Energy (37%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0915c6232314",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Kimera, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8c8d0a392b40",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Canada Norte, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-798b7bf8eebe",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Canada, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-02392154ba0d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Cira, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1924
+      ],
+      "approvalYears": [
+        1926
+      ],
+      "startupYears": [
+        1926
+      ],
+      "ownerships": [
+        "Ecopetrol* (63%); SierraCol Energy (37%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-55d5969d7ee1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Cira-Infantas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (63%); SierraCol Energy (37%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c872e0c25ddc",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Hocha, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cb2b37809106",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Jagua, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-bef316e3756f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Punta CDNDCI, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986,
+        2014
+      ],
+      "approvalYears": [
+        2009,
+        2014
+      ],
+      "startupYears": [
+        2012,
+        2014
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-fd669944c5f2",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Punta, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986,
+        2029
+      ],
+      "approvalYears": [
+        2001,
+        2032
+      ],
+      "startupYears": [
+        2004,
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f6a7b84afd5c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Reforma, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-493df7024dfe",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "La Rompida, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-26c6e2f3fa44",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Libertad Norte (North), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cad8b422e3c9",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Lisama, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965,
+        2029
+      ],
+      "approvalYears": [
+        1967,
+        2039
+      ],
+      "startupYears": [
+        1967,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-131765d0b39e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "LLA 100, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1de4351bd818",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "LLA 141, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7c9734a70a1e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "LLA 37, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-adcc5a96f57c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Llanito, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1960
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d3e9e83561e6",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Lomalarga, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0c3ec73676d5",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Lorito EWT, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c6389e2f0dc1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Lorito, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0edbce866e44",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Loro, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8f7b538a7861",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Magangue, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-176d9931b599",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Magnus, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-371c929d7c09",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Mansoya, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8b7659ddbaa6",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Matachin Norte (North), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-4c2d47e9df48",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Matachin Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f2d8374befbb",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Monserrate, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5eb129e45021",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Mundo Nuevo, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Ecopetrol* (15%); TotalEnergies (64%); Repsol (21%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2b410b831337",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Nare Contract Area, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (1980s)",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983,
+        1984,
+        1987,
+        1998,
+        1999,
+        2000,
+        2001,
+        2025,
+        2029
+      ],
+      "approvalYears": [
+        1998,
+        2001,
+        2002,
+        2003,
+        2005,
+        2025,
+        2034,
+        2035,
+        2037,
+        2044,
+        2046
+      ],
+      "startupYears": [
+        2001,
+        2002,
+        2004,
+        2006,
+        2025,
+        2037,
+        2038,
+        2040,
+        2047,
+        2049
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8dbd2a872f03",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Niscota Block, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); ANH (Colombia) (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-85cea0fdd839",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Nunda, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9221ab92d73d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Nutria, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-045408385056",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Ocelote, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-184e070710f3",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Odisea, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0cf25ae77dd1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Orca, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-75e52de4194f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Oripaya, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-13d739aa5146",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Orito, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963,
+        2029
+      ],
+      "approvalYears": [
+        1965,
+        2000,
+        2035
+      ],
+      "startupYears": [
+        1966,
+        2003,
+        2038
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-649dffc42f70",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Ortega, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1951,
+        2029
+      ],
+      "approvalYears": [
+        1953,
+        2039
+      ],
+      "startupYears": [
+        1953,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2b3092385255",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pacande Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-4ca00f27bf4f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pacande, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c6dcb8f4ebbd",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pachaquiaro, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-321f431f949d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Palagua, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954,
+        2029
+      ],
+      "approvalYears": [
+        1956,
+        2034
+      ],
+      "startupYears": [
+        1956,
+        2037
+      ],
+      "ownerships": [
+        "Ecopetrol* (34%); Ismocol de Colombia SA (28.38%); Joshi Technologies (27.72%); Parko Services SA (4.95%); Petcar (4.95%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9976e26de2f8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Palermo, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988,
+        2029
+      ],
+      "approvalYears": [
+        1992,
+        2034
+      ],
+      "startupYears": [
+        1995,
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-33f48e947111",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Palogrande, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1977
+      ],
+      "startupYears": [
+        1980
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5f6881938154",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pastinaca, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-365162facc6e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pauto Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995,
+        2029
+      ],
+      "approvalYears": [
+        2000,
+        2032
+      ],
+      "startupYears": [
+        2001,
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7a34c1300401",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pautosur (recetor), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-05f03ec2be35",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Penas Blancas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1958
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-adbd178d2af1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Perdices, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Lewis Energy Group (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7cde74a51baa",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pijao, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1980,
+        2029
+      ],
+      "approvalYears": [
+        1982,
+        2036
+      ],
+      "startupYears": [
+        1982,
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-527a36d43db5",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pintado, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-63694cccf30d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Pompeya, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-31c1270fe8b9",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Popa-2, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2029
+      ],
+      "approvalYears": [
+        2039,
+        2041
+      ],
+      "startupYears": [
+        2042,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d4c543bf35b8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Provincia, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960,
+        2029
+      ],
+      "approvalYears": [
+        1962,
+        2039
+      ],
+      "startupYears": [
+        1962,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-b44104b30e4c",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Puli, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991,
+        2029
+      ],
+      "approvalYears": [
+        1995,
+        2036
+      ],
+      "startupYears": [
+        1998,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-20b41ba0c208",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Purificacion, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991,
+        2029
+      ],
+      "approvalYears": [
+        1993,
+        2035
+      ],
+      "startupYears": [
+        1993,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-ce30d7bbe7e7",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Purple Angel Block, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-a340f688053d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Quriyana, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0b23c44d54d7",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Recetor West, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d6e14af3dbb2",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Rio Ceibas, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988,
+        2029
+      ],
+      "approvalYears": [
+        1992,
+        2034
+      ],
+      "startupYears": [
+        1994,
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-12ac248700b4",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Rio Chitamena, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9e79d63479a1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Rio Saldana, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987,
+        2029
+      ],
+      "approvalYears": [
+        1990,
+        2035
+      ],
+      "startupYears": [
+        1993,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-6727943ca6e8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Rubiales Block, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-948e4af67515",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Rubiales, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7f1817b90fe0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Saman, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2026
+      ],
+      "approvalYears": [
+        2013,
+        2015,
+        2030
+      ],
+      "startupYears": [
+        2016,
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-cafba99484af",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "San Antonio, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1971
+      ],
+      "startupYears": [
+        1971
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-474e8a3456c8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "San Francisco, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1984
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-46d6414b8683",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "San Jacinto, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-67e8201cfb64",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "San Roque, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1966
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-db808f176cca",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Santa Ana, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-31c351fc3504",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Santa Clara-Santa Clara Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985,
+        2029
+      ],
+      "approvalYears": [
+        1987,
+        2034
+      ],
+      "startupYears": [
+        1987,
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1a50598797b4",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Santiago, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985,
+        2029
+      ],
+      "approvalYears": [
+        1986,
+        2032
+      ],
+      "startupYears": [
+        1986,
+        2035
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-91afd46bda62",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Sardinata, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1951
+      ],
+      "startupYears": [
+        1951
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-a783432cfbf0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Saurio, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-827efd78fcd0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Siriri (Gibraltar 1ST3A) (Gibraltar II), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2101
+      ],
+      "startupYears": [
+        2101
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-56fd963d3ff6",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "SN 15, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9ba9390e1280",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "SN 18, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1e324bd1c222",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "SSJS 1-1, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c1f452b78639",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Sucio, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1970
+      ],
+      "startupYears": [
+        1970
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9b7afcac5e11",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Sucumbios, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1971
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-624068ef14f0",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Suria and Suria Sur (South), CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0648b877c0d2",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tanane, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0b9ec242f2ed",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tauramena, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-4eac46a368d1",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tayrona Orca, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5176ebc906ee",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Teca Cocorna Steamflood, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963,
+        2029
+      ],
+      "approvalYears": [
+        2019,
+        2041
+      ],
+      "startupYears": [
+        2028,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (60%); SierraCol Energy (40%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e19814d8feaf",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tello, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        1972
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-fd50a8764f7d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tempranillo North, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-f6b0a966d00d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tempranillo, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-c4f41dbd279d",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tenay, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1985
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1f9275e2b6c8",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tesoro, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-7685b5c0945e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tibu, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1940,
+        2029
+      ],
+      "approvalYears": [
+        1944,
+        2041
+      ],
+      "startupYears": [
+        1945,
+        2044
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-ae6d7bf435da",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tinamu, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-1f2cb9a33136",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Tisquirama, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961,
+        2100
+      ],
+      "approvalYears": [
+        1963,
+        2100
+      ],
+      "startupYears": [
+        1963,
+        2100
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-64342847d1db",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Toca, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-0ba96be392b9",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Toldado, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987,
+        2029
+      ],
+      "approvalYears": [
+        1988,
+        2035
+      ],
+      "startupYears": [
+        1988,
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-afbc81ea091e",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Toqui-Toqui, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e326cf8fd019",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Totare, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2029
+      ],
+      "approvalYears": [
+        2000,
+        2035
+      ],
+      "startupYears": [
+        2001,
+        2041
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5a56a3d7a5fd",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Toy, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-ae1ce0c5fa83",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Upar, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-608300b30d97",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Uribante, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-5b5fa881dded",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "VIM 15, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-63f78b46c1d7",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "VIM 6, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-3b6538b8cb25",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "VIM 8, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-e20c0c0cbf9b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "VMM 32, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ecopetrol* (51%); CPVEN (49%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-d79e3a098346",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Volcanera, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-2d39b7f64432",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "VSM 9, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-6cfdbcfb476f",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Yaguara, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987,
+        2029
+      ],
+      "approvalYears": [
+        1990,
+        2034
+      ],
+      "startupYears": [
+        1991,
+        2039
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-8f2aa461df8b",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "YD SN 1, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-18277b36ca06",
+      "operator": "Ecopetrol",
+      "country": "Colombia",
+      "project": "Yurilla, CO",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Ecopetrol* (50%); Parex Resources (50%)"
+      ]
+    },
+    {
+      "id": "ecopetrol-9e805eae25ea",
+      "operator": "Ecopetrol",
+      "country": "United States",
+      "project": "MC568, US",
+      "sourceOperators": [
+        "Ecopetrol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Ecopetrol* (100%)"
+      ]
+    }
+  ]
+}

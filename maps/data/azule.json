@@ -1,0 +1,1049 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Azule",
+    "sourceOperators": [
+      "Azule Energy"
+    ],
+    "projectCount": 21,
+    "countryCount": 1,
+    "businessRegions": [
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "azule-9bfd6518483e",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Agogo Integrated West Hub, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2025,
+        2026
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-9109ff7b6bec",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Angola LNG T1, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Azule Energy* (35%); Equinor (30%); Sonangol (25%); ACREP - Exploracao Petrolifera (10%)"
+      ]
+    },
+    {
+      "id": "azule-acd79efae529",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 1/14, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Azule Energy* (35%); Equinor (30%); Sonangol (25%); ACREP - Exploracao Petrolifera (10%)"
+      ]
+    },
+    {
+      "id": "azule-80d540e7edbf",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 15 (2006), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-0a639bec1fdd",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 18/15 (RSC), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Azule Energy* (80%); Sonangol (20%)"
+      ]
+    },
+    {
+      "id": "azule-97ceac457e26",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 28, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Azule Energy* (60%); Sinopec Group (parent) (20%); Sonangol (20%)"
+      ]
+    },
+    {
+      "id": "azule-c9bb09465975",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 31 (2022-reaward), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Azule Energy* (50%); Equinor (50%)"
+      ]
+    },
+    {
+      "id": "azule-da60c5604c5d",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 46 (RSC), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Azule Energy* (40%); Equinor (40%); Sonangol (20%)"
+      ]
+    },
+    {
+      "id": "azule-ff7bacb7df97",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Block 47 (RSC), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Azule Energy* (40%); Equinor (40%); Sonangol (20%)"
+      ]
+    },
+    {
+      "id": "azule-175aff79f82e",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Cabinda Center, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Azule Energy* (42.5%); ExxonMobil (32.5%); Sonangol (25%)"
+      ]
+    },
+    {
+      "id": "azule-5fdd953c6519",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Eastern Hub (Block 15/06), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth",
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2009,
+        2010,
+        2019,
+        2021
+      ],
+      "approvalYears": [
+        2013,
+        2018,
+        2021,
+        2028
+      ],
+      "startupYears": [
+        2017,
+        2021,
+        2031
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-00aee9532d3a",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Greater PAJ, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "approvalYears": [
+        2026,
+        2031,
+        2032,
+        2034,
+        2035
+      ],
+      "startupYears": [
+        2029,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036
+      ],
+      "ownerships": [
+        "Azule Energy* (26.67%); Sonangol (45.61%); Equinor (13.33%); Sinopec Group (parent) (8.25%); Dayuan International Development (4.72%); New Bright International Development (1.42%)",
+        "Azule Energy* (50%); Equinor (50%)"
+      ]
+    },
+    {
+      "id": "azule-36ebf0dbcfdd",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Kalimba Cluster, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2032,
+        2033
+      ],
+      "startupYears": [
+        2035,
+        2036
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-0277e96d2ff2",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Lira, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-2a96fabd55bd",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "New Gas Consortium (NGC) Project, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Azule Energy* (37.4%); Chevron (31%); Sonangol (19.8%); TotalEnergies (11.8%)"
+      ]
+    },
+    {
+      "id": "azule-bcadf6440981",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Olombendo, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2013,
+        2026
+      ],
+      "approvalYears": [
+        2028,
+        2041
+      ],
+      "startupYears": [
+        2029,
+        2044
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    },
+    {
+      "id": "azule-f6fa5aa8b643",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Pandora, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Azule Energy* (50%); Sonangol (43%); New Bright International Development (7%)"
+      ]
+    },
+    {
+      "id": "azule-8f08e20cb1f8",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "PSVM (Block 31 North East), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2002,
+        2003,
+        2004
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2012,
+        2013
+      ],
+      "ownerships": [
+        "Azule Energy* (26.67%); Sonangol (45.61%); Equinor (13.33%); Sinopec Group (parent) (8.25%); Dayuan International Development (4.72%); New Bright International Development (1.42%)"
+      ]
+    },
+    {
+      "id": "azule-399407df9be0",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "The Greater Plutonio Phase 1, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1999,
+        2000
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2007,
+        2008
+      ],
+      "ownerships": [
+        "Azule Energy* (46%); Sinopec (37.72%); Sonangol (16.28%)"
+      ]
+    },
+    {
+      "id": "azule-fb42fcc8d1bc",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "The Greater Plutonio Phase 2, AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        1999,
+        2004
+      ],
+      "approvalYears": [
+        2019,
+        2029,
+        2033
+      ],
+      "startupYears": [
+        2021,
+        2032,
+        2036
+      ],
+      "ownerships": [
+        "Azule Energy* (46%); Sinopec (37.72%); Sonangol (16.28%)"
+      ]
+    },
+    {
+      "id": "azule-85a4cf5f2402",
+      "operator": "Azule",
+      "country": "Angola",
+      "project": "Western Hub (Block 15/06), AO",
+      "sourceOperators": [
+        "Azule Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2008,
+        2010,
+        2011,
+        2013,
+        2014,
+        2019
+      ],
+      "approvalYears": [
+        2011,
+        2016,
+        2018,
+        2019,
+        2021,
+        2029,
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2030,
+        2031,
+        2038,
+        2044
+      ],
+      "ownerships": [
+        "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
+      ]
+    }
+  ]
+}

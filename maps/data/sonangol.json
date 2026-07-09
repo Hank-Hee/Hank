@@ -1,0 +1,2864 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Sonangol",
+    "sourceOperators": [
+      "Sonangol"
+    ],
+    "projectCount": 63,
+    "countryCount": 2,
+    "businessRegions": [
+      "中东及南亚",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "sonangol-f9de6ed929f0",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-23, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-8e69f601c8de",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-24, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-513951ce03db",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-26 2, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-7730894fc54a",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-31 1-3, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-4e21d90a85b0",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-35, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-aa7482192981",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "4-55, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-3c767216b814",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Airoga, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-b661e4f85c66",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Alabote, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-57f56388facd",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Atum East, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-13a83580c28c",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Azul, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Sonangol* (60%); Afentra (40%)"
+      ]
+    },
+    {
+      "id": "sonangol-8aa668ceae2f",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 23, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Sonangol* (60%); Afentra (40%)"
+      ]
+    },
+    {
+      "id": "sonangol-632c8ba148d1",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 27, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-5d85788cf1bc",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 3/1980 (Pacassa), AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sonangol* (32.5%); Maurel and Prom (20%); New Bright International Development (12.25%); Eni (12%); Etu Energias (10%); Dayuan International Development (5.25%); INA (4%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-ce5e23f4d70d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 4, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-54daa5f620fd",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 5 (2006), AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-74204dde647d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Block 6/24, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Sonangol* (50%); Red Sky Energy (35%); ACREP - Exploracao Petrolifera (15%)"
+      ]
+    },
+    {
+      "id": "sonangol-efc7fbddf5b7",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Boco, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-3af7efc6cb10",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Bufalo, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1988
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-c561532cc458",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Cacao, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-f33c4e26c2a6",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Caco, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2029,
+        2031
+      ],
+      "startupYears": [
+        2031,
+        2033
+      ],
+      "ownerships": [
+        "Sonangol* (33.33%); Maurel and Prom (26.67%); Afentra (21.33%); Etu Energias (13.33%); NIS Petrol (5.34%)"
+      ]
+    },
+    {
+      "id": "sonangol-7bac48ebe4fd",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Calulu, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-eb362d2b5664",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Cegonha, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Sonangol* (50%); Red Sky Energy (35%); ACREP - Exploracao Petrolifera (15%)"
+      ]
+    },
+    {
+      "id": "sonangol-903fbb21fe0b",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Cobo and Pambi, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-80939583c7ec",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Congro South, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-c23a2fb78a6f",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Denden, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-a4a5921e4502",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Enguia South, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-eeb49c21f65d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Etele, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-42edbcc34cb9",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Garoupa, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-ea890416240f",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Gazela, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Sonangol* (33.33%); Maurel and Prom (26.67%); Afentra (21.33%); Etu Energias (13.33%); NIS Petrol (5.34%)"
+      ]
+    },
+    {
+      "id": "sonangol-393da4fcede3",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Gimboa, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Sonangol* (50%); ACREP - Exploracao Petrolifera (18.75%); Etu Energias (18.75%); ProdOil (12.5%)"
+      ]
+    },
+    {
+      "id": "sonangol-f56fd7ce8a2d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Greater Orca Lontra Development, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-ecf8b79a7336",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Impala Southeast, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1988
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-4e20dc1218f1",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Impala, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-005ab5461249",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Katambi, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Semi"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-81812e60d33e",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "KON-15, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Sonangol* (55%); Afentra (45%)"
+      ]
+    },
+    {
+      "id": "sonangol-9776132bbd6e",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "KON11 (2023-reaward RSC), AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sonangol* (30%); Brite's Oil and Gas (25%); Apex (20%); Simples Oil (20%); Omega Risk Solutions Holdings (5%)"
+      ]
+    },
+    {
+      "id": "sonangol-a19c419f098d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "KON12 (2023-reaward RSC), AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sonangol* (30%); MTI Energy (30%); Apex (25%); Omega Risk Solutions Holdings (15%)"
+      ]
+    },
+    {
+      "id": "sonangol-c697d70a4d31",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Lua, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-8954300601e0",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Maleva North, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-1a82bed60b84",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Maleva, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-62a2b05229c0",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Matadi, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-fd52eb3d9ef6",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Mavanga, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-a7eecb70eb80",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Morsa, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-76da3c28755d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Muamba, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-7fd0e8e46c10",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Mubafo, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-26de39fb0918",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Mutamba, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-4eb95739d25d",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Muzongue, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-7dbcccab8874",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Oombo, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-a54b6f2fae68",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Pacassa, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        1985
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-4df9ad37ca57",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Pakubalu, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-52082dc990d7",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Palanca, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1984
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-fdd44deac7f1",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Percebes West, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-1d7e82b5fdb1",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Prata South, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-a4afe99c1c24",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Punja, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Sonangol* (33.33%); Maurel and Prom (26.67%); Afentra (21.33%); Etu Energias (13.33%); NIS Petrol (5.34%)"
+      ]
+    },
+    {
+      "id": "sonangol-0418cd2f4935",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Robalo, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-3d21c75e929e",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Salmao North, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-4892b0f4368c",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Sarda, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-f50ac0d890ec",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Semba, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-52b608bfe201",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Solha, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-3fed5d044d2e",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Sumate, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Sonangol* (100%)"
+      ]
+    },
+    {
+      "id": "sonangol-992e4b477545",
+      "operator": "Sonangol",
+      "country": "Angola",
+      "project": "Veado, AO",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Sonangol* (36%); Afentra (30%); Maurel and Prom (20%); Etu Energias (10%); NIS Petrol (4%)"
+      ]
+    },
+    {
+      "id": "sonangol-281e8a82ccb7",
+      "operator": "Sonangol",
+      "country": "Iraq",
+      "project": "Najmah, IQ",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Old discoveries"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1934
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sonangol* (75%); North Oil Company (Iraq NOC) (25%)"
+      ]
+    },
+    {
+      "id": "sonangol-d1d8bb8754ce",
+      "operator": "Sonangol",
+      "country": "Iraq",
+      "project": "Qaiyarah (redevelop), IQ",
+      "sourceOperators": [
+        "Sonangol"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Old discoveries",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1928
+      ],
+      "approvalYears": [
+        2016,
+        2031
+      ],
+      "startupYears": [
+        2018,
+        2033
+      ],
+      "ownerships": [
+        "Sonangol* (75%); North Oil Company (Iraq NOC) (25%)"
+      ]
+    }
+  ]
+}

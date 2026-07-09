@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Cheniere Energy",
+    "sourceOperators": [
+      "Cheniere Energy"
+    ],
+    "projectCount": 3,
+    "countryCount": 1,
+    "businessRegions": [
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "cheniere-energy-05a381e06f40",
+      "operator": "Cheniere Energy",
+      "country": "United States",
+      "project": "Corpus Christi LNG Stage III, US",
+      "sourceOperators": [
+        "Cheniere Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017,
+        2021,
+        2022
+      ],
+      "approvalYears": [
+        2022,
+        2025
+      ],
+      "startupYears": [
+        2025,
+        2026,
+        2030
+      ],
+      "ownerships": [
+        "Cheniere Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cheniere-energy-e0baa22e153e",
+      "operator": "Cheniere Energy",
+      "country": "United States",
+      "project": "Corpus Christi LNG, US",
+      "sourceOperators": [
+        "Cheniere Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2016
+      ],
+      "approvalYears": [
+        2014,
+        2018
+      ],
+      "startupYears": [
+        2018,
+        2019,
+        2021
+      ],
+      "ownerships": [
+        "Cheniere Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cheniere-energy-ce104a0722a1",
+      "operator": "Cheniere Energy",
+      "country": "United States",
+      "project": "Sabine Pass LNG, US",
+      "sourceOperators": [
+        "Cheniere Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2016
+      ],
+      "approvalYears": [
+        2012,
+        2015,
+        2019,
+        2028,
+        2031
+      ],
+      "startupYears": [
+        2016,
+        2017,
+        2018,
+        2022,
+        2032,
+        2035
+      ],
+      "ownerships": [
+        "Cheniere Energy* (100%)"
+      ]
+    }
+  ]
+}

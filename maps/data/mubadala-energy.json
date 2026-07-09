@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Mubadala Energy",
+    "sourceOperators": [
+      "Mubadala Energy"
+    ],
+    "projectCount": 8,
+    "countryCount": 2,
+    "businessRegions": [
+      "东南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "mubadala-energy-8eff965f2098",
+      "operator": "Mubadala Energy",
+      "country": "Indonesia",
+      "project": "Andaman Gas Project (Phase 1), ID",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Mubadala Energy* (80%); Harbour Energy (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-e482cf080a59",
+      "operator": "Mubadala Energy",
+      "country": "Indonesia",
+      "project": "Andaman Gas Project (Phase 2), ID",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FLNG",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Mubadala Energy* (80%); Harbour Energy (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-7c5aaf08c75b",
+      "operator": "Mubadala Energy",
+      "country": "Indonesia",
+      "project": "Andaman I Block, ID",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Mubadala Energy* (80%); Harbour Energy (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-a8630daf24ac",
+      "operator": "Mubadala Energy",
+      "country": "Indonesia",
+      "project": "South Andaman Block, ID",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Mubadala Energy* (80%); Harbour Energy (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-d4030542d578",
+      "operator": "Mubadala Energy",
+      "country": "Indonesia",
+      "project": "Southwest Andaman Block, ID",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Mubadala Energy* (100%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-487cf2545b21",
+      "operator": "Mubadala Energy",
+      "country": "Malaysia",
+      "project": "Pegaga, MY",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-3600ee9c24ba",
+      "operator": "Mubadala Energy",
+      "country": "Malaysia",
+      "project": "SK320 (Exploration), MY",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
+      ]
+    },
+    {
+      "id": "mubadala-energy-66ac801456a0",
+      "operator": "Mubadala Energy",
+      "country": "Malaysia",
+      "project": "SK320 (Future), MY",
+      "sourceOperators": [
+        "Mubadala Energy"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1990s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "125-150 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1992,
+        1995,
+        2012,
+        2013,
+        2014,
+        2018,
+        2022
+      ],
+      "approvalYears": [
+        2028,
+        2033,
+        2036,
+        2037,
+        2039,
+        2040
+      ],
+      "startupYears": [
+        2030,
+        2033,
+        2037,
+        2038,
+        2039,
+        2041,
+        2044
+      ],
+      "ownerships": [
+        "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
+      ]
+    }
+  ]
+}

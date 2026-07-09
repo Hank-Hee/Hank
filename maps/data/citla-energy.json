@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Citla Energy",
+    "sourceOperators": [
+      "Citla Energy"
+    ],
+    "projectCount": 1,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "citla-energy-45cee4d73fbc",
+      "operator": "Citla Energy",
+      "country": "Mexico",
+      "project": "Block 15 (R1L3), MX",
+      "sourceOperators": [
+        "Citla Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Citla Energy* (100%)"
+      ]
+    }
+  ]
+}

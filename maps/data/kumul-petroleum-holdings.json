@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Kumul Petroleum Holdings",
+    "sourceOperators": [
+      "Kumul Petroleum Holdings Limited"
+    ],
+    "projectCount": 5,
+    "countryCount": 1,
+    "businessRegions": [
+      "澳大利亚/新西兰"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "kumul-petroleum-holdings-9e195a30cd89",
+      "operator": "Kumul Petroleum Holdings",
+      "country": "Papua New Guinea",
+      "project": "Pandora FLNG, PG",
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ],
+      "regions": [
+        "Melanesia, Micronesia & Polynesia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Kumul Petroleum Holdings Limited* (100%)"
+      ]
+    },
+    {
+      "id": "kumul-petroleum-holdings-fe31805e3c63",
+      "operator": "Kumul Petroleum Holdings",
+      "country": "Papua New Guinea",
+      "project": "PRL 48 (Kimu), PG",
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ],
+      "regions": [
+        "Melanesia, Micronesia & Polynesia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Kumul Petroleum Holdings Limited* (100%)"
+      ]
+    },
+    {
+      "id": "kumul-petroleum-holdings-1fd94c3c21e2",
+      "operator": "Kumul Petroleum Holdings",
+      "country": "Papua New Guinea",
+      "project": "PRL 49 (Barikewa), PG",
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ],
+      "regions": [
+        "Melanesia, Micronesia & Polynesia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Kumul Petroleum Holdings Limited* (100%)"
+      ]
+    },
+    {
+      "id": "kumul-petroleum-holdings-30cef0523270",
+      "operator": "Kumul Petroleum Holdings",
+      "country": "Papua New Guinea",
+      "project": "PRL 50 (Uramu), PG",
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ],
+      "regions": [
+        "Melanesia, Micronesia & Polynesia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2043
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Kumul Petroleum Holdings Limited* (100%)"
+      ]
+    },
+    {
+      "id": "kumul-petroleum-holdings-46680d81f83c",
+      "operator": "Kumul Petroleum Holdings",
+      "country": "Papua New Guinea",
+      "project": "Western-Gulf Fields, PG",
+      "sourceOperators": [
+        "Kumul Petroleum Holdings Limited"
+      ],
+      "regions": [
+        "Melanesia, Micronesia & Polynesia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "100-125 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1957,
+        1967,
+        1988,
+        1999
+      ],
+      "approvalYears": [
+        2029,
+        2030,
+        2031
+      ],
+      "startupYears": [
+        2033,
+        2035
+      ],
+      "ownerships": [
+        "Kumul Petroleum Holdings Limited* (100%)"
+      ]
+    }
+  ]
+}

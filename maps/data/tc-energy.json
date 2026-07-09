@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "TC Energy",
+    "sourceOperators": [
+      "TC Oil And Gas"
+    ],
+    "projectCount": 1,
+    "countryCount": 1,
+    "businessRegions": [
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "tc-energy-4c8e5d09a4fb",
+      "operator": "TC Energy",
+      "country": "United States",
+      "project": "Permian Midland Tight, US",
+      "sourceOperators": [
+        "TC Oil And Gas"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "TC Oil And Gas* (90%); APA Corporation (10%)"
+      ]
+    }
+  ]
+}

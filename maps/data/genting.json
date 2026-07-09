@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Genting",
+    "sourceOperators": [
+      "Genting Berhad"
+    ],
+    "projectCount": 3,
+    "countryCount": 1,
+    "businessRegions": [
+      "东南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "genting-a86655fef717",
+      "operator": "Genting",
+      "country": "Indonesia",
+      "project": "Kasuri (exploration), ID",
+      "sourceOperators": [
+        "Genting Berhad"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Genting Berhad* (100%)"
+      ]
+    },
+    {
+      "id": "genting-8c9c29b50e14",
+      "operator": "Genting",
+      "country": "Indonesia",
+      "project": "Kasuri domestic, ID",
+      "sourceOperators": [
+        "Genting Berhad"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Genting Berhad* (100%)"
+      ]
+    },
+    {
+      "id": "genting-41dce498c344",
+      "operator": "Genting",
+      "country": "Indonesia",
+      "project": "Kasuri FLNG, ID",
+      "sourceOperators": [
+        "Genting Berhad"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FLNG",
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2013,
+        2014
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Genting Berhad* (100%)"
+      ]
+    }
+  ]
+}

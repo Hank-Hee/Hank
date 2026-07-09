@@ -5,9 +5,9 @@ import {
   normalizeKey,
   resolveOperator,
   searchProjects,
-} from "./app-core.js?v=20260701-global";
+} from "./app-core.js?v=20260709-batch";
 
-const VERSION = "20260701-global";
+const VERSION = "20260709-batch";
 
 const dom = {
   operator: document.querySelector("#operator-name"),
@@ -70,11 +70,11 @@ const start = async () => {
     const requestedOperator = (params.get("operator") || "Shell").trim();
     const requestedRegion = (params.get("region") || "").trim();
     const [manifest, centersPayload] = await Promise.all([
-      fetch("operators.json?v=20260701-global").then((response) => {
+      fetch("operators.json?v=20260709-batch").then((response) => {
         if (!response.ok) throw new Error(`operators.json returned ${response.status}`);
         return response.json();
       }),
-      fetch("data/country-centers.json?v=20260701-global").then((response) => {
+      fetch("data/country-centers.json?v=20260709-batch").then((response) => {
         if (!response.ok) throw new Error(`country-centers.json returned ${response.status}`);
         return response.json();
       }),

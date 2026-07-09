@@ -1,0 +1,2853 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Pan American Energy",
+    "sourceOperators": [
+      "Pan American Energy"
+    ],
+    "projectCount": 62,
+    "countryCount": 2,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pan-american-energy-f15fa701dc85",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Acambuco (San Pedrito), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-d3cd9c703b23",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Aguada Canepa, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-0cb70543bc4a",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Aguada de Castro, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Pan American Energy* (60%); YPF (40%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-81599e8e1926",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Aguada Pichana Oeste, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Pan American Energy* (60%); YPF (40%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-c6b88004c28f",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Anticlinal Funes YTF, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Pan American Energy* (80%); Chubut Province Govt (20%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-580757108c4c",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Anticlinal Funes, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Pan American Energy* (80%); Chubut Province Govt (20%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-e11948e36341",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Anticlinal Grande, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1962
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-f00fe6769c51",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Anticlinal Grande-Cerro Dragon, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-104e8e217661",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Bandurria Centro, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-c7be9fb4e406",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Bayo, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1993
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-b0df73eab640",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Canadon Grande, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-c570980cbeb6",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Canadon Pedro, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1958
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-1a0790e5b04d",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Cerro Dragon, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1936
+      ],
+      "approvalYears": [
+        1942
+      ],
+      "startupYears": [
+        1944
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-96dd1b916d44",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Cerro Tortuga, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1964
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-1f3fbe94935a",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Cerro Tortuga-Las Flores, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-3ac88640e8a5",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Choike, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-9e9cacd94a66",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Chulengo YTF, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-90f13a5a881d",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Chulengo, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-de1392f552d1",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Cinco Saltos Sur, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-05a451be497b",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "CNQ-25 (Salina Grande), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-bbc9ffd496e5",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Coiron Amargo South-East Block, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-0969b3890b7a",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Coiron, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-43316fb74c75",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Condor (Anticlinal Grande-Cerro Dragon), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-3cb3843fb956",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Gato, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-e0feb8f9e2f5",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Huetel, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965,
+        2035
+      ],
+      "approvalYears": [
+        1969,
+        2042
+      ],
+      "startupYears": [
+        1970,
+        2046
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-891f52570eda",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Lago, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-1eb4c777cad1",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Nandu, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-577b1f0afd66",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "El Triangulo, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1970
+      ],
+      "startupYears": [
+        1974
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-d2171c1761e4",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Enrique Hermite, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-7219299e82e8",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Escorial, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-32ef1db48a7d",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Jorge, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1967
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-dd2e8e31b08e",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "La Madreselva Sur (South), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-d30551a45985",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "La Madreselva, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-2a1bde28e1df",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "La Pampa x-1001, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-bb8ef21782cd",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "La Piedra, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1979
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-f0461f9a1a8b",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Las Flores, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1962
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-d11bf2af229f",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Lindero Atravesado Occidental (West), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Pan American Energy* (62.5%); YPF (37.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-b3b34c3eadd6",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Lindero Atravesado Oriental (East), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        1961
+      ],
+      "startupYears": [
+        1961
+      ],
+      "ownerships": [
+        "Pan American Energy* (62.5%); YPF (37.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-7125f1e3f0fd",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Lindero Atravesado, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Pan American Energy* (62.5%); YPF (37.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-7336b5526d2b",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Loma Guadalosa, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004,
+        2027
+      ],
+      "approvalYears": [
+        2006,
+        2029
+      ],
+      "startupYears": [
+        2007,
+        2031
+      ],
+      "ownerships": [
+        "Pan American Energy* (65%); Aconcagua Energia (35%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-8c16225d2565",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Macueta, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-5f631be90e4d",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Mariana, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1979
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-86991821b619",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Meseta Catorce, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-b8f9fda5dfc4",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Meseta Ceron Chico, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-ca4bcb3742f7",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Neuquen Basin Tight, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Pan American Energy* (62.5%); YPF (37.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-1d668375f0aa",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Oriental (East), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1964
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-926050a93804",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Padre Corti, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        1993
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-da0106d2ae90",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Pampa, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1969
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-ce91fe0474c5",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Resero, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        1972
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-1c906709f764",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Rio Chico, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1961
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-e4bac5d96b12",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "San Agustin, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954
+      ],
+      "approvalYears": [
+        1974
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-22cb4cf1116c",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "San Pedrito, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-5334688bf6d2",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Southern Energy LNG, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2011,
+        2017
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2027,
+        2029
+      ],
+      "ownerships": [
+        "Pan American Energy* (30%); YPF (25%); Pampa Energia (20%); Harbour Energy (15%); Golar LNG (10%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-d50c833c60b6",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Tero x-801, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-c6aa62c20460",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Trahuil, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-21576503191c",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Tres Picos (Chubut Province), AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1951
+      ],
+      "approvalYears": [
+        1955
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-87a828665f02",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Vaca Muerta Shale, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2012,
+        2014,
+        2017
+      ],
+      "approvalYears": [
+        2014,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "startupYears": [
+        2015,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)",
+        "Pan American Energy* (60%); YPF (40%)",
+        "Pan American Energy* (62.5%); YPF (37.5%)",
+        "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-e2f2a5734a7c",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Valle Hermoso, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        1967
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-8bc30c31051f",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Valle Martin, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-9f2ed9841861",
+      "operator": "Pan American Energy",
+      "country": "Argentina",
+      "project": "Zorro, AR",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1964
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Pan American Energy* (100%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-cae6bdff48ff",
+      "operator": "Pan American Energy",
+      "country": "Mexico",
+      "project": "AS-CS-15 (R3L1), MX",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO and Fixed",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2003,
+        2019,
+        2028
+      ],
+      "approvalYears": [
+        2027,
+        2034,
+        2036
+      ],
+      "startupYears": [
+        2030,
+        2037,
+        2039
+      ],
+      "ownerships": [
+        "Pan American Energy* (75%); Talos Energy (12.52%); Grupo Carso (12.48%)"
+      ]
+    },
+    {
+      "id": "pan-american-energy-363e8c4caa50",
+      "operator": "Pan American Energy",
+      "country": "Mexico",
+      "project": "Hokchi (R1L2), MX",
+      "sourceOperators": [
+        "Pan American Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "Pan American Energy* (55%); Harbour Energy (37%); AINDA (8%)"
+      ]
+    }
+  ]
+}

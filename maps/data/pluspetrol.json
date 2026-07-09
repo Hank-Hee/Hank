@@ -1,0 +1,1187 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Pluspetrol",
+    "sourceOperators": [
+      "Pluspetrol"
+    ],
+    "projectCount": 25,
+    "countryCount": 4,
+    "businessRegions": [
+      "中南美洲",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pluspetrol-0b8c1de1793e",
+      "operator": "Pluspetrol",
+      "country": "Angola",
+      "project": "123-5 Cabinda onshore, AO",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-5cd449c5e357",
+      "operator": "Pluspetrol",
+      "country": "Angola",
+      "project": "Cabinda C (South), AO",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-acbcbeff7261",
+      "operator": "Pluspetrol",
+      "country": "Angola",
+      "project": "Castanha, AO",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-ce37866d7005",
+      "operator": "Pluspetrol",
+      "country": "Angola",
+      "project": "Coca, AO",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-ac1e8a78c744",
+      "operator": "Pluspetrol",
+      "country": "Angola",
+      "project": "Massambala, AO",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-a9fa4c7254dc",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Bajo del Choique - La Invernada, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Pluspetrol* (90%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-601027055fe7",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Cerro Huanul Sur, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-7e64e4e68479",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "CNQ-12 (Laguna Blanca), AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Pluspetrol* (100%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-b6ed0b99fc3e",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "CNQ-26 M (La Calera), AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-e8e158c0eff2",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "CNQ-7 (Gobernador Ayala), AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Pluspetrol* (47.48%); YPF (30.01%); Pampa Energia (22.51%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-fd147405a7ed",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "CNQ-7/A (El Atamisqui x-3), AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-b335dcf593d9",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "El Atamisqui x-3, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-e241f72402f9",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "El Corcobo, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-91d7130f3943",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "El Renegado, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Pluspetrol* (70%); Other partner(s) (30%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-c3626bf4c088",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Gobernador Ayala Este, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2035
+      ],
+      "approvalYears": [
+        2007,
+        2036
+      ],
+      "startupYears": [
+        2008,
+        2037
+      ],
+      "ownerships": [
+        "Pluspetrol* (70%); Other partner(s) (30%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-08d87cfb219f",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Gobernador Ayala, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Pluspetrol* (47.48%); YPF (30.01%); Pampa Energia (22.51%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-b1247abd1aa4",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Jaguel Casa de Piedra x-3, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974,
+        2037
+      ],
+      "approvalYears": [
+        2000,
+        2038
+      ],
+      "startupYears": [
+        2004,
+        2039
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-a020d784f7b7",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Loma Jarillosa Este, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Pluspetrol* (100%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-f85c109381ee",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Los Monos Sur (South), AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Pluspetrol* (100%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-bc1a3a2546bc",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Puesto Pinto, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-cfacb8786f83",
+      "operator": "Pluspetrol",
+      "country": "Argentina",
+      "project": "Vaca Muerta Shale, AR",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010,
+        2016
+      ],
+      "approvalYears": [
+        2013,
+        2017
+      ],
+      "startupYears": [
+        2014,
+        2017
+      ],
+      "ownerships": [
+        "Pluspetrol* (50%); YPF (50%)",
+        "Pluspetrol* (90%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-3fd3a939945d",
+      "operator": "Pluspetrol",
+      "country": "Ecuador",
+      "project": "Block 10 (Villano), EC",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972,
+        2030
+      ],
+      "approvalYears": [
+        2027,
+        2043
+      ],
+      "startupYears": [
+        2029,
+        2045
+      ],
+      "ownerships": [
+        "Pluspetrol* (100%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-15799c559ed6",
+      "operator": "Pluspetrol",
+      "country": "Ecuador",
+      "project": "Villano, EC",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "Pluspetrol* (100%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-0e167e093ae7",
+      "operator": "Pluspetrol",
+      "country": "Peru",
+      "project": "Block 88, PE",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pluspetrol* (27.2%); Hunt Oil (25.2%); SK Innovation (17.6%); Repsol (10%); Sonatrach (10%); Techint (Tecpetrol) (10%)"
+      ]
+    },
+    {
+      "id": "pluspetrol-9f843268b6b3",
+      "operator": "Pluspetrol",
+      "country": "Peru",
+      "project": "Peru LNG T1, PE",
+      "sourceOperators": [
+        "Pluspetrol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983,
+        1986,
+        1987,
+        1998,
+        2037
+      ],
+      "approvalYears": [
+        2000,
+        2004,
+        2006,
+        2040,
+        2044
+      ],
+      "startupYears": [
+        2004,
+        2008,
+        2009,
+        2042,
+        2047
+      ],
+      "ownerships": [
+        "Pluspetrol* (27.2%); Hunt Oil (25.2%); SK Innovation (17.6%); Repsol (10%); Sonatrach (10%); Techint (Tecpetrol) (10%)"
+      ]
+    }
+  ]
+}

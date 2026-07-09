@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Frontera Energy",
+    "sourceOperators": [
+      "Frontera Resources"
+    ],
+    "projectCount": 5,
+    "countryCount": 1,
+    "businessRegions": [
+      "俄罗斯/独联体"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "frontera-energy-4bab11573af0",
+      "operator": "Frontera Energy",
+      "country": "Georgia",
+      "project": "Mirzaani (redevelop), GE",
+      "sourceOperators": [
+        "Frontera Resources"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Frontera Resources* (100%)"
+      ]
+    },
+    {
+      "id": "frontera-energy-30f0e2a0f0e4",
+      "operator": "Frontera Energy",
+      "country": "Georgia",
+      "project": "Mirzaani Northwest, GE",
+      "sourceOperators": [
+        "Frontera Resources"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Frontera Resources* (100%)"
+      ]
+    },
+    {
+      "id": "frontera-energy-718723f0dbfe",
+      "operator": "Frontera Energy",
+      "country": "Georgia",
+      "project": "Mtsarekhevi (redevelop), GE",
+      "sourceOperators": [
+        "Frontera Resources"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Frontera Resources* (100%)"
+      ]
+    },
+    {
+      "id": "frontera-energy-c0aaf551bc99",
+      "operator": "Frontera Energy",
+      "country": "Georgia",
+      "project": "Nazarlebi, GE",
+      "sourceOperators": [
+        "Frontera Resources"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1988
+      ],
+      "ownerships": [
+        "Frontera Resources* (100%)"
+      ]
+    },
+    {
+      "id": "frontera-energy-2c7dbca2e1b1",
+      "operator": "Frontera Energy",
+      "country": "Georgia",
+      "project": "Taribani, GE",
+      "sourceOperators": [
+        "Frontera Resources"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Frontera Resources* (100%)"
+      ]
+    }
+  ]
+}

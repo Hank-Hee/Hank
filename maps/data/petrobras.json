@@ -1,0 +1,7865 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Petrobras",
+    "sourceOperators": [
+      "Petrobras"
+    ],
+    "projectCount": 167,
+    "countryCount": 4,
+    "businessRegions": [
+      "中南美洲",
+      "巴西"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "petrobras-7e0f4387086a",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Block XX-Tarija Oeste (Itau), BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petrobras* (30%); TotalEnergies (41%); Shell (25%); Yacimentos Petroliferos Fiscales Bolivianos (YPFB) (4%)"
+      ]
+    },
+    {
+      "id": "petrobras-396ec2f4d519",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Campos Caranda-Colpa (Colpa), BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-2f68bbbbb34d",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Caranda, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1962
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-b0fd0c126950",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Colpa, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-e15043ff2145",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Itau, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Petrobras* (30%); TotalEnergies (41%); Shell (25%); Yacimentos Petroliferos Fiscales Bolivianos (YPFB) (4%)"
+      ]
+    },
+    {
+      "id": "petrobras-91870344e265",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "Sabalo, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Petrobras* (35%); YPFB Andina (50%); TotalEnergies (15%)"
+      ]
+    },
+    {
+      "id": "petrobras-76ed2bd42227",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "San Alberto, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Petrobras* (35%); YPFB Andina (50%); TotalEnergies (15%)"
+      ]
+    },
+    {
+      "id": "petrobras-0721edee3fb0",
+      "operator": "Petrobras",
+      "country": "Bolivia",
+      "project": "San Telmo, BO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Yacimentos Petroliferos Fiscales Bolivianos (YPFB) (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-b346da77a30a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "1-BRSA-1401DA-RJS, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Petrobras* (30%); TotalEnergies (30%); Petronas (20%); QatarEnergy (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-f97c35de7fa9",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "1-CAN-003-ES, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-f3a90c10e8fc",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "1-IMP-001-AM, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-ebd1422af8a4",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "1-SFA-001-ES, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-d6cc875f8e5a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Agua Marinha_P1, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (30%); TotalEnergies (30%); Petronas (20%); QatarEnergy (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-8559a632275e",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Agulha, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Concrete GB"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-dd2e30ae5a9d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Albacora, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2011
+      ],
+      "approvalYears": [
+        1987,
+        2027
+      ],
+      "startupYears": [
+        1987,
+        2031
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1db8006f8de4",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Alto de Cabo Frio Central Block, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2022,
+        2027
+      ],
+      "approvalYears": [
+        2033,
+        2041
+      ],
+      "startupYears": [
+        2037,
+        2046
+      ],
+      "ownerships": [
+        "Petrobras* (50%); BP (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-363f67d01275",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Anhanga, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-92dd48a36412",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Aracas, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-cefe570d3768",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Aram (Pre salt), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2020s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2022,
+        2025,
+        2031
+      ],
+      "approvalYears": [
+        2031,
+        2042
+      ],
+      "startupYears": [
+        2035,
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (80%); CNPC (parent) (10%); PetroChina (10%)"
+      ]
+    },
+    {
+      "id": "petrobras-352ca74ea353",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Araracanga, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-207e5095616a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Araucaria, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (30%); Equinor (28%); ExxonMobil (28%); Galp Energia SA (14%)"
+      ]
+    },
+    {
+      "id": "petrobras-db72b12d9098",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Atapu, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2015,
+        2024,
+        2036,
+        2042
+      ],
+      "startupYears": [
+        2020,
+        2029,
+        2040,
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (66.39%); Shell (16.91%); TotalEnergies (15%); Galp Energia SA (1.19%); Sinopec Group (parent) (0.51%)"
+      ]
+    },
+    {
+      "id": "petrobras-35682d55d91f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Atum, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-8d75ee8b88cc",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Barracuda E Caratinga, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1989,
+        1994,
+        2010
+      ],
+      "approvalYears": [
+        1995,
+        2010,
+        2028
+      ],
+      "startupYears": [
+        1997,
+        2010,
+        2033
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-67b1d8f7e502",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Berbigao and Sururu, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2015,
+        2030,
+        2032
+      ],
+      "startupYears": [
+        2019,
+        2036,
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (42.5%); Shell (25%); TotalEnergies (22.5%); Galp Energia SA (7%); Sinopec Group (parent) (3%)"
+      ]
+    },
+    {
+      "id": "petrobras-b77e92ccc6cf",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Biquara, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-c4459029300f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-BAR-1, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2011,
+        2100
+      ],
+      "approvalYears": [
+        2037,
+        2100
+      ],
+      "startupYears": [
+        2042,
+        2100
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-8e759a7417a6",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-BAR-3, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2009,
+        2048
+      ],
+      "approvalYears": [
+        2037,
+        2050
+      ],
+      "startupYears": [
+        2042,
+        2053
+      ],
+      "ownerships": [
+        "Petrobras* (60%); BP (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-4a862ce2b9cf",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-BAR-5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (60%); BP (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-7c710ef749e0",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-PAMA-3, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1923e5667814",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-PAMA-8, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036,
+        2100
+      ],
+      "approvalYears": [
+        2036,
+        2100
+      ],
+      "startupYears": [
+        2044,
+        2100
+      ],
+      "ownerships": [
+        "Petrobras* (80%); Sinopec Group (parent) (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-4cdf520919d5",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-POT-17, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027,
+        2041
+      ],
+      "approvalYears": [
+        2033,
+        2047
+      ],
+      "startupYears": [
+        2047,
+        2051
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-d23c34201b79",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-S-24, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petrobras* (80%); Galp Energia SA (14%); Sinopec Group (parent) (6%)"
+      ]
+    },
+    {
+      "id": "petrobras-3715a0a62ce1",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "BM-S-50, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Shell (20%); Repsol (12%); Sinopec Group (parent) (8%)"
+      ]
+    },
+    {
+      "id": "petrobras-d2eb12343650",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Bracuhy (3-BRSA-1183-RJS), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petrobras* (80%); Galp Energia SA (14%); Sinopec Group (parent) (6%)"
+      ]
+    },
+    {
+      "id": "petrobras-cc550811e767",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Buracica, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-aeec7b3fbfd7",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Buzios (x-Franco), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2010,
+        2025
+      ],
+      "approvalYears": [
+        2012,
+        2019,
+        2021,
+        2022,
+        2028,
+        2040
+      ],
+      "startupYears": [
+        2018,
+        2019,
+        2023,
+        2025,
+        2026,
+        2027,
+        2032,
+        2045
+      ],
+      "ownerships": [
+        "Petrobras* (89%); CNOOC (7.33%); CNPC (parent) (3.67%)"
+      ]
+    },
+    {
+      "id": "petrobras-aba417826793",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "C-M-477_R16, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Petrobras* (70%); BP (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-a250d2a7654f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Caioba, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-8c9427050c80",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Camorim, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-5fabf01949dc",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Cantagalo, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-cf5c4cfc3c7e",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Caravela Sul (South), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (25%); Panoro Energy (50%); Brava Energia (25%)"
+      ]
+    },
+    {
+      "id": "petrobras-0a12e0b130c7",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Cidade de Entre Rios, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-bb5c96a2b475",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Citrino, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-63e4cb4c3989",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Coruripe Sul (producing) (South), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-aac3a220593d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Curima, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-c545c165d3f8",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Dias Davila, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-b93a1460e432",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Dourado, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-a5c06db96410",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "ES-M-669_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petrobras* (40%); Equinor (35%); TotalEnergies (25%)"
+      ]
+    },
+    {
+      "id": "petrobras-95ee9348b655",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "ES-M-671_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-8d9e25e1d6ac",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "ES-M-743_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-993b28fffa39",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Espada, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-7960d768ce71",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Espadarte, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1988,
+        1994,
+        1996
+      ],
+      "approvalYears": [
+        2021,
+        2036,
+        2039
+      ],
+      "startupYears": [
+        2021,
+        2040,
+        2043
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-58e10489dc77",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Alvorada, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-765cf191744b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Azevedo, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1963
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-5e35758a1c47",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Balsamo, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1983
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-886f21dee8da",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Boa Esperanca, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-4eb70a4d7ad6",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Imbe, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        1964
+      ],
+      "startupYears": [
+        1964
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-93d3dcfee49b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Fazenda Panelas, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        1962
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-f1c56fb1a2dd",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-1040_O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Petrobras* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-c4ce42d41d21",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-1042_O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petrobras* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-3ead9823ec02",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-125_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1f057c40dd22",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-127_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1184c2313335",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-188_O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Petrobras* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-1047d4454111",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-190_O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-50b7be1f2f01",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-403_O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (50%); ExxonMobil (50%)"
+      ]
+    },
+    {
+      "id": "petrobras-a59aa06f8238",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-57_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-aa3a7dc1c59a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-59_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-68a0f33b8fc3",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-86_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-49cd6b15d41f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "FZA-M-88_R11, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-650f636e443a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Garoupa Cluster, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Semi",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "125-150 meter depth",
+        "150-175 meter depth",
+        "175-200 meter depth",
+        "200-300 meter depth",
+        "450-600 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027,
+        2028,
+        2029
+      ],
+      "approvalYears": [
+        2029,
+        2030,
+        2032,
+        2034,
+        2035,
+        2045
+      ],
+      "startupYears": [
+        2033,
+        2034,
+        2036,
+        2038,
+        2039,
+        2040,
+        2050
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-76049d8cb12e",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Guaja, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-95cf576a4db9",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Guaricema, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-0cc88a95c54d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Guayacan, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1e9f562bca59",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Igarabe Chibata (1-BRSA-769-AM), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-27e86a16b2f2",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Igarape Chibata (1-BRSA1059AM), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-0821ab8457f0",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Itapu (x-Florim), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2020,
+        2040
+      ],
+      "startupYears": [
+        2022,
+        2045
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-03b5484900e0",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Jaspe, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Equinor (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-7cb11099f317",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Jubarte (x- Parque das Baleias), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2001,
+        2003,
+        2004,
+        2007
+      ],
+      "approvalYears": [
+        2002,
+        2008,
+        2009,
+        2021,
+        2030,
+        2043
+      ],
+      "startupYears": [
+        2002,
+        2012,
+        2014,
+        2015,
+        2024,
+        2034,
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-75aca7879d77",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Jupiter, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2036,
+        2037
+      ],
+      "startupYears": [
+        2039,
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (80%); Galp Energia SA (14%); Sinopec Group (parent) (6%)"
+      ]
+    },
+    {
+      "id": "petrobras-d9f85d7a8e5c",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Lamarao, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1976
+      ],
+      "startupYears": [
+        1980
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-6103ff57fcf3",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Libra, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2010,
+        2100
+      ],
+      "approvalYears": [
+        2036,
+        2043,
+        2100
+      ],
+      "startupYears": [
+        2041,
+        2048,
+        2100
+      ],
+      "ownerships": [
+        "Petrobras* (40%); Shell (20%); TotalEnergies (20%); CNODC Brasil Petroleo (10%); CNOOC (10%)",
+        "Petrobras* (40%); Shell (20%); TotalEnergies (20%); CNOOC (10%); CNPC (parent) (10%)"
+      ]
+    },
+    {
+      "id": "petrobras-8e0d8ce1af55",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Lua Nova (1-BRSA-669-BAS (1-BAS-147)), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Equinor (30%); PetroReconcavo (10%)"
+      ]
+    },
+    {
+      "id": "petrobras-058f270a2f10",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Malombe, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-96c578caef06",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Manati, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Petrobras* (35%); Brava Energia (45%); Gas Bridge (10%); GeoPark (10%)"
+      ]
+    },
+    {
+      "id": "petrobras-ac153bfd5b1c",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Mandacaru, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1980
+      ],
+      "startupYears": [
+        1980
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-0e1358adf356",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Mandarim (4-MLS-105D-RJS), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-7378b014c0d3",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Marlim Leste, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1987,
+        2003
+      ],
+      "approvalYears": [
+        2003,
+        2004,
+        2045
+      ],
+      "startupYears": [
+        2008,
+        2011,
+        2049
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-c98f924f2422",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Marlim Sul (South), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        1987,
+        2017,
+        2028
+      ],
+      "approvalYears": [
+        1989,
+        2020,
+        2043,
+        2045
+      ],
+      "startupYears": [
+        1994,
+        2022,
+        2047,
+        2049
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-9b6a36f00e8d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Marlim Sul/Leste Revitalization, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-364b91d6343d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Marlim, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth",
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1985,
+        1987,
+        2011
+      ],
+      "approvalYears": [
+        1992,
+        2019,
+        2038
+      ],
+      "startupYears": [
+        1992,
+        2023,
+        2042
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-9d7f69e17afd",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Massape, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962,
+        2028
+      ],
+      "approvalYears": [
+        1964,
+        2029
+      ],
+      "startupYears": [
+        1964,
+        2029
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-4c6b217f5ad4",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Merluza-Lagosta, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-ea82bc571930",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Mero (Libra NW), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2014,
+        2017,
+        2019,
+        2020,
+        2021,
+        2030,
+        2034
+      ],
+      "startupYears": [
+        2017,
+        2022,
+        2023,
+        2024,
+        2025,
+        2034,
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (41.4%); Shell (20%); TotalEnergies (19.3%); CNOOC (9.65%); CNPC (parent) (9.65%)"
+      ]
+    },
+    {
+      "id": "petrobras-0d1c5282b19d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Mexilhao, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-59d191f1d5f5",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Mirante do Forno (1-BRSA-1394-RJ), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-7ba06048e459",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Moreia, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Semi"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-4762beea1bc8",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Norte de Brava_P1, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-41cd48721317",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Northeast Reconcavo Sub-basin Onshore Bahia State, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-30179aee2cc5",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1277, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-4ad786423270",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1279, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-8364d61d064e",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1281, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-9eb90789e208",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1357, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-b3e247040010",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1359, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-a53eb54fb828",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1361, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-3ffb5eafb0df",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1363, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-f47158af2e38",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1439, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-8a9e8fbd7713",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1441, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-f131f52650f6",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1443, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-0bb43f23794a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1516, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-0d69aa794d01",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1518, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-f42f5850d7b0",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1520, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-a74c4e18f372",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1522, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-036092a9f851",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1595, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-a774b9469403",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1597, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-73eed3bfcc49",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1599, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-61dcebde4225",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1670 _O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Galp Energia SA (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-451183232773",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1672 _O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Galp Energia SA (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-326891c4e391",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1674, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-b24490158eab",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1676, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-baa3d7a980a2",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1678, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-0c6375aef02b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1737, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (50%); Shell (30%); CNOOC (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-7d86b4bede5b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1739, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (50%); Shell (30%); CNOOC (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-e95da0453a24",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1741 _O5, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Galp Energia SA (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-a9a42c88e792",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1743, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-423ec8ae20ee",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1793, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-60c0c34ee77e",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1795, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-55591b279f69",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1797, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (50%); Shell (30%); CNOOC (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-c9743e99c9cc",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1799, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-90eefdc0b32a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1838, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-0945daa125ac",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "P-M-1840, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (70%); Shell (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-c42dd56c8d55",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Pitu (1-BRSA-1205-RNS), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-68b006e3337f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "POT-M-762_R15, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-9b55dc5c55c3",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "POT-M-859_R15, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Shell (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-0c885fec2deb",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "POT-M-952_R15, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Shell (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-db86ff5dc12a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Riacho Ouricuri, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1982
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-ecd35745edbb",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Rio do Bu, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        1984
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-5fde4e914e0f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Rio Itariri, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1984
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-00497ebf0bc2",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Rio Mariricu, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-5e90cf44ef47",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Roncador, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        1996,
+        2004
+      ],
+      "approvalYears": [
+        1998,
+        2007,
+        2029
+      ],
+      "startupYears": [
+        1999,
+        2014,
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (75%); Equinor (25%)"
+      ]
+    },
+    {
+      "id": "petrobras-056bf7144a9b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sagitario (1-BRSA-1063-SPS), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Shell (20%); Repsol (12%); Sinopec Group (parent) (8%)"
+      ]
+    },
+    {
+      "id": "petrobras-e7ec45db4b92",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Salgado, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-d080acf8f9f7",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Salgo, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-aa67c212e7e1",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sao Miguel dos Campos, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1975
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-a5a9e2aa5e63",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sapinhoa (X-Guara), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2008,
+        2027
+      ],
+      "approvalYears": [
+        2010,
+        2011,
+        2018,
+        2038,
+        2042
+      ],
+      "startupYears": [
+        2013,
+        2014,
+        2018,
+        2043,
+        2046
+      ],
+      "ownerships": [
+        "Petrobras* (45%); Shell (30%); Repsol (15%); Sinopec Group (parent) (10%)"
+      ]
+    },
+    {
+      "id": "petrobras-3b9adeb6a63f",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sardinha, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1992,
+        2028
+      ],
+      "approvalYears": [
+        2028,
+        2043
+      ],
+      "startupYears": [
+        2033,
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-a9f22378217b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sepia (x-Tupi Northeast), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2012,
+        2022
+      ],
+      "approvalYears": [
+        2017,
+        2024,
+        2033,
+        2042
+      ],
+      "startupYears": [
+        2021,
+        2030,
+        2036,
+        2047
+      ],
+      "ownerships": [
+        "Petrobras* (55.3%); TotalEnergies (16.91%); Petronas (12.69%); QatarEnergy (12.69%); Galp Energia SA (1.69%); Sinopec Group (parent) (0.72%)"
+      ]
+    },
+    {
+      "id": "petrobras-5a118c7eca66",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sergipe Alagoas Deepwater Project 1 (SEAP), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2011,
+        2012
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Petrobras* (100%)",
+        "Petrobras* (60%); Bharat Petroleum Corp (BPCL) (20%); Videocon (20%)"
+      ]
+    },
+    {
+      "id": "petrobras-6feac42ac37a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sergipe Alagoas Deepwater Project 2 (SEAP), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2012,
+        2015
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Petrobras* (100%)",
+        "Petrobras* (75%); ONGC (25%)"
+      ]
+    },
+    {
+      "id": "petrobras-a42ed84f5d87",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Siri (Potiguar), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-2e2c13b1524d",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Siri, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-0a07bdd7cd07",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sudoeste de Sagitario_P1, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2061
+      ],
+      "startupYears": [
+        2068
+      ],
+      "ownerships": [
+        "Petrobras* (60%); Shell (40%)"
+      ]
+    },
+    {
+      "id": "petrobras-cda06c5f4a39",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sudoeste de Tartaruga Verde (Pre Salt), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-58a9c83e24c3",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Sul de Sapinhoa (x-Sul de Guara), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-404cdc8c6ff5",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Tambuata, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (89%); CNOOC (7.33%); CNPC (parent) (3.67%)"
+      ]
+    },
+    {
+      "id": "petrobras-0a92ef266dc0",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Taquipe, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1958
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-1e86f9e2cf4a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Tartaruga Verde and Mestica, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2009,
+        2020
+      ],
+      "approvalYears": [
+        2014,
+        2036
+      ],
+      "startupYears": [
+        2018,
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-83df3d783fef",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Tres Marias (Pre Salt), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Petrobras* (30%); Shell (40%); Chevron (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-043040c2f32b",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Tupi (x-Lula), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2006,
+        2009
+      ],
+      "approvalYears": [
+        2009,
+        2010,
+        2011,
+        2029,
+        2035
+      ],
+      "startupYears": [
+        2010,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2034,
+        2039
+      ],
+      "ownerships": [
+        "Petrobras* (67.22%); Shell (23.02%); Galp Energia SA (6.45%); Sinopec Group (parent) (2.76%); Pre-sal Petroleo (PPSA) (0.55%)"
+      ]
+    },
+    {
+      "id": "petrobras-4051f957673a",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Uirapuru (Pre Salt), BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Petrobras* (30%); Equinor (28%); ExxonMobil (28%); Galp Energia SA (14%)"
+      ]
+    },
+    {
+      "id": "petrobras-d877e7143180",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Urucu-Jurua, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1980,
+        1986,
+        1987,
+        1988,
+        1989,
+        2031
+      ],
+      "approvalYears": [
+        1988,
+        1991,
+        1996,
+        2008,
+        2011,
+        2032,
+        2034
+      ],
+      "startupYears": [
+        1988,
+        1992,
+        2000,
+        2012,
+        2032,
+        2033,
+        2038
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-445f753d01ef",
+      "operator": "Petrobras",
+      "country": "Brazil",
+      "project": "Xareu, BR",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-89924394133a",
+      "operator": "Petrobras",
+      "country": "Colombia",
+      "project": "Citrino, CO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Petrobras* (100%)"
+      ]
+    },
+    {
+      "id": "petrobras-eaff291610fd",
+      "operator": "Petrobras",
+      "country": "Colombia",
+      "project": "GUA OFF 0 (Tayrona), CO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Petrobras* (44.44%); Ecopetrol (55.56%)"
+      ]
+    },
+    {
+      "id": "petrobras-6591e464cdd6",
+      "operator": "Petrobras",
+      "country": "Colombia",
+      "project": "RC-07 Block, CO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petrobras* (40%); Chevron (30%); Ecopetrol (30%)"
+      ]
+    },
+    {
+      "id": "petrobras-6698a75b7888",
+      "operator": "Petrobras",
+      "country": "Colombia",
+      "project": "SIRIUS (Uchuva), CO",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Petrobras* (44.44%); Ecopetrol (55.56%)"
+      ]
+    },
+    {
+      "id": "petrobras-1966868676d1",
+      "operator": "Petrobras",
+      "country": "Mexico",
+      "project": "Cuervito-Fronterizo, MX",
+      "sourceOperators": [
+        "Petrobras"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966,
+        2027
+      ],
+      "approvalYears": [
+        1967,
+        1972,
+        2031
+      ],
+      "startupYears": [
+        1967,
+        1974,
+        2033
+      ],
+      "ownerships": [
+        "Petrobras* (45%); Inpex (40%); Diavaz (15%)"
+      ]
+    }
+  ]
+}

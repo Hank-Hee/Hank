@@ -1,0 +1,2985 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Ithaca Energy",
+    "sourceOperators": [
+      "Ithaca Energy (Delek Group)"
+    ],
+    "projectCount": 65,
+    "countryCount": 1,
+    "businessRegions": [
+      "欧洲其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "ithaca-energy-dc184192f609",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "48/30- 03, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2103
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-2ec07f2ba6e9",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Alba, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Fixed and floater",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2021
+      ],
+      "approvalYears": [
+        1991,
+        2026
+      ],
+      "startupYears": [
+        1994,
+        2029
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (36.67%); Waldorf Production (25.68%); NEO NEXT+ (17%); Spirit Energy (12.65%); EnQuest (8%)",
+        "Ithaca Energy (Delek Group)* (55%); Harbour Energy (45%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-5691546f1fca",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Anasuria, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (61.35%); Hibiscus Petroleum (19.33%); Ping Petroleum (19.33%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-5a6c5ffa3bb7",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Balmoral, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); NEO NEXT+ (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-31c102c03883",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Cambo Hub, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2002,
+        2009
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2030,
+        2031
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)",
+        "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-56731f571154",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Captain EOR, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-f37589c276c0",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Captain, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO and Fixed"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-b5c2e83c5dbe",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Cavendish, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-ffab4e654909",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Copernicus (44/16-1z), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-7bb2eb4de6b3",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Cragganmore (x-Crawford), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2007
+      ],
+      "approvalYears": [
+        2053,
+        2100
+      ],
+      "startupYears": [
+        2056,
+        2103
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Aker BP (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-efd89b736c2b",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Cygnus, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1988,
+        2014
+      ],
+      "approvalYears": [
+        2012,
+        2054
+      ],
+      "startupYears": [
+        2016,
+        2057
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (85%); Serica Energy (15%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-b2aea67379ee",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Duck (21/19-2), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d9754df62f84",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Erskine, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-b181ef455e03",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "ETAP, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); BP (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-358dfc312593",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Greater Stella Area (GSA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Semi",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        1995,
+        2003,
+        2005,
+        2014
+      ],
+      "approvalYears": [
+        2012,
+        2018,
+        2020,
+        2030
+      ],
+      "startupYears": [
+        2017,
+        2018,
+        2020,
+        2022,
+        2032
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)",
+        "Ithaca Energy (Delek Group)* (34%); BP (66%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-df87908add23",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Humprey, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-c4e47529608a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "K2, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); KNOC/Dana (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-22ce0498f81e",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Kessog (30/01c- 3), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-e0597949db02",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0011 (29/10a CHALK LAYERS & YOUNGER), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2105
+      ],
+      "startupYears": [
+        2109
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (68.33%); ONE-Dyas (31.67%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-556860bed15c",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0011 (30/6a REST OF BLOCK (CHALK LAYERS & YOUNGER)), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2103
+      ],
+      "startupYears": [
+        2106
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-9bd77051693b",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0028 (48/30a), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-f674452fab06",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0028 (52/5a), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-67d9ec29edd3",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0037 (48/28a), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (76.67%); Perenco (23.33%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-c29dd64f09b7",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0057 (23/26a ERSKINE FIELD AREA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-13a9b48aeb6d",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0112 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (89.31%); Perenco (10.69%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-b25bc0853b2b",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0119 (15/29a ALDER FIELD), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (73.68%); Harbour Energy (26.32%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-cfc9cc9b47c5",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0119 (15/29a AREA OUTSIDE BRITANNIA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (73.68%); Harbour Energy (26.32%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d01447a28189",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0119 (15/29a BRITANNIA UOA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (75%); Harbour Energy (25%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-9d3451e5c91d",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0119 (15/29a NON-BRITANNIA UOA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (75%); Harbour Energy (25%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-b7859bc4af3f",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0185 (21/20a), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (61.35%); Hibiscus Petroleum (19.33%); Ping Petroleum (19.33%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d9f078cab8ea",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0201 (211/22c SOUTH EAST AREA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (64.5%); NEO NEXT+ (35.5%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-e2591e4cdc75",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0213 (16/26a AREA A - ALBA FIELD AREA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (36.67%); Waldorf Production (25.68%); NEO NEXT+ (17%); Spirit Energy (12.65%); EnQuest (8%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d318ef4d93f5",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0213 (16/26a AREA B - BRITANNIA FIELD AREA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (33.2%); Harbour Energy (54.8%); NEO NEXT+ (12%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-0480a7156f50",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0213 (16/26a AREA C - ABOVE 10,000 FEET), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (34.5%); Harbour Energy (22.75%); NEO NEXT+ (17%); BP (15.5%); EnQuest (8%); Waldorf Production (2.25%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-73b92edd2d98",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0264 (23/26b AREA B - ERSKINE FIELD), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-3b6848e761ea",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0264 (23/26b AREA C - REST OF BLOCK), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (60%); Serica Energy (40%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-f90844a45115",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0264 (23/26d AREA C - REST OF BLOCK), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (60%); BP (40%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d4d44609221b",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0324 (13/22a), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-e4db81c8fad3",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0345 (16/27b BRITANNIA FIELD), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (35.75%); Harbour Energy (39.49%); NEO NEXT+ (24.76%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-af53245a5354",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0345 (16/27b REST OF BLOCK EXCLUDING BRITANNIA), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (61.75%); Harbour Energy (38.25%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-7bc1d53e29c4",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0363 (30/1c UPPER), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-5a20f94c4685",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0556 (204/19b), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-53a5739ce3c1",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P0556 (204/20b), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-a894702f5c7c",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1028 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-fc643e770b67",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1055 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (38.75%); Spirit Energy (61.25%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-56bdee367dbf",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1189 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-e49fac7c5f56",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1383 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (64.5%); NEO NEXT+ (35.5%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d95eff9ed148",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1588 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-1e5f95aaf06d",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1622 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); BP (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-e3aed008d04a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1665 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-7ce210e3647a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P1731 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (34.48%); Spirit Energy (65.52%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-222c7a21b16a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2373 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (55%); Harbour Energy (45%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-04c0ff721c89",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2403 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-a5fa1416768c",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2513 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-41d6f6dd559c",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2532 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (61.4%); Hibiscus Petroleum (19.3%); Ping Petroleum (19.3%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-bdda84aa7e61",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2577 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-502f9b572373",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2609 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); NEO NEXT+ (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-0343a4f8a155",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2619 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-6ea2c3f916f3",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2622 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-8c09565a405a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2638 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-a840209aa75d",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "p2644 (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-1ce02453f8e8",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P2668, (All Blocks), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-8f7636640e23",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "P30R (22/14c), GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (50%); KNOC/Dana (50%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-903f9ae7d50a",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Romeo, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (100%)"
+      ]
+    },
+    {
+      "id": "ithaca-energy-d0f47f94d61e",
+      "operator": "Ithaca Energy",
+      "country": "United Kingdom",
+      "project": "Tybalt, GB",
+      "sourceOperators": [
+        "Ithaca Energy (Delek Group)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2045,
+        2046
+      ],
+      "startupYears": [
+        2048,
+        2049
+      ],
+      "ownerships": [
+        "Ithaca Energy (Delek Group)* (60%); Capricorn Energy (40%)"
+      ]
+    }
+  ]
+}

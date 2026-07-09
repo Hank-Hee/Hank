@@ -1,0 +1,3083 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "CNPC",
+    "sourceOperators": [
+      "CNPC (parent)",
+      "CNPC-AktobeMunayGas"
+    ],
+    "projectCount": 67,
+    "countryCount": 12,
+    "businessRegions": [
+      "东南亚",
+      "中东及南亚",
+      "中南美洲",
+      "中国及东北亚",
+      "俄罗斯/独联体",
+      "北非/北欧",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "cnpc-e7e9f67d7cac",
+      "operator": "CNPC",
+      "country": "Afghanistan",
+      "project": "Bazarkhami, AF",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "CNPC (parent)* (75%); Other partner(s) (25%)"
+      ]
+    },
+    {
+      "id": "cnpc-e66bf2592a93",
+      "operator": "CNPC",
+      "country": "Afghanistan",
+      "project": "Zamarudsay, AF",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "CNPC (parent)* (75%); Other partner(s) (25%)"
+      ]
+    },
+    {
+      "id": "cnpc-710433fbc0a0",
+      "operator": "CNPC",
+      "country": "Algeria",
+      "project": "438b (El Mzaid), DZ",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035,
+        2036
+      ],
+      "ownerships": [
+        "CNPC (parent)* (70%); Sonatrach (30%)"
+      ]
+    },
+    {
+      "id": "cnpc-2276a46c07c7",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Baobab, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-d635eac6bd68",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Cassia N, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-b7ed6d307436",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Daniela, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-b2b5859ae368",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Kedeni, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-2d797554826f",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Koudalwa, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-2428d6f9ca55",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Lanea, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-35cec544e46b",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Mimosa, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-2d14716f2bc2",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Prosopis, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-d47cd4e24620",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "PSC, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-65230bad29ac",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Raphia, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-d84376c37779",
+      "operator": "CNPC",
+      "country": "Chad",
+      "project": "Ronier, TD",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-2514fd8e1ca9",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Block Shajingzi 2, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-862b4ab95cde",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Fuyu Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-1a0f748dba8f",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Fuyu Lindian Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-51b4e20b03de",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Gulang 1, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-fd5491c723d8",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Gulang 2, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-a5443e84815a",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Henan West Uplift Block 2, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-8ef35599ad25",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Longmaxi Shale (Xi'nan-CNPC), CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-419a9ae577dc",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Luoning Sag Block 1, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-c7dc16d9a065",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Nehe Keshan Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-ccc4c5ba7bdd",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Taikang Depression Block 2 West, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-570afaf81805",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Wudun Sag, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-30de6226c928",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Xiaohuzi, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-72b0aaa88b61",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Yi'an Baiquan Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-955b2d9a5729",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Yi'an Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-a3bf10951859",
+      "operator": "CNPC",
+      "country": "China",
+      "project": "Zhoukou Uplift Block, CN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-38efb81a9376",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Alice Oeste, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-b7f750037d8c",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Alice, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-fd07c7b7f54b",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Anne, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-786c75ad6437",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Block 14 (Wanke), EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-346f5fc1e8c0",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Chorongo, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-9d3b5653cbdb",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Colibri, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-bbf913ccaef6",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Dorine, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995,
+        2012,
+        2013
+      ],
+      "approvalYears": [
+        1997,
+        2013
+      ],
+      "startupYears": [
+        1997,
+        2013
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-5fb3ca1e485b",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Esperanza, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-d10536d31620",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Fanny, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1976
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-8d663557ac36",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Gaby, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-36dedb717b5e",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Joan, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-d71882cf927c",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Johanna, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-a6deb963ff41",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Kupi, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-3fd51fd45214",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Mahogany, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-14f93893efb4",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Mariann 4A, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-24eca1963510",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Mariann Sur, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-c7cc7d18ea70",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Mariann, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1976
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-6e8afa013cfd",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Nantu, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-2d1a95120532",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Nathaly, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-1856cddf660c",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Paiche, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-243a36a44298",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Sonia, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-b361e52d3234",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Sunka, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-498a30a91d83",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Tarapoa (Fanny), EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-ecab49abd26e",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Tarapoa Sur (South), EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-c9fb23c28c13",
+      "operator": "CNPC",
+      "country": "Ecuador",
+      "project": "Wanke, EC",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1993
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "cnpc-be9832ddf250",
+      "operator": "CNPC",
+      "country": "Kazakhstan",
+      "project": "AktobeMunaiGas, KZ",
+      "sourceOperators": [
+        "CNPC-AktobeMunayGas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959,
+        1978,
+        2006,
+        2028,
+        2031,
+        2039
+      ],
+      "approvalYears": [
+        1982,
+        1992,
+        2011,
+        2013,
+        2028,
+        2032,
+        2047
+      ],
+      "startupYears": [
+        1983,
+        1997,
+        2015,
+        2017,
+        2034,
+        2042,
+        2054
+      ],
+      "ownerships": [
+        "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.06%)",
+        "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.07%)"
+      ]
+    },
+    {
+      "id": "cnpc-e8b46eeb0bb7",
+      "operator": "CNPC",
+      "country": "Kazakhstan",
+      "project": "Severny-1, KZ",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); QazaqGaz Exploration and Production (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-447504654469",
+      "operator": "CNPC",
+      "country": "Kazakhstan",
+      "project": "Teresken 2, KZ",
+      "sourceOperators": [
+        "CNPC-AktobeMunayGas"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.06%)"
+      ]
+    },
+    {
+      "id": "cnpc-3a50bedbdccb",
+      "operator": "CNPC",
+      "country": "Mongolia",
+      "project": "Block XIX (Toson Uul), MN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (95%); PetroVietnam (5%)"
+      ]
+    },
+    {
+      "id": "cnpc-531c841d061b",
+      "operator": "CNPC",
+      "country": "Mongolia",
+      "project": "Block XXI (Tamtsag), MN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (95%); PetroVietnam (5%)"
+      ]
+    },
+    {
+      "id": "cnpc-794e3555e044",
+      "operator": "CNPC",
+      "country": "Mongolia",
+      "project": "Sotamo 19, MN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "CNPC (parent)* (95%); PetroVietnam (5%)"
+      ]
+    },
+    {
+      "id": "cnpc-b58e7658de99",
+      "operator": "CNPC",
+      "country": "Mongolia",
+      "project": "Sotamo 21, MN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "CNPC (parent)* (95%); PetroVietnam (5%)"
+      ]
+    },
+    {
+      "id": "cnpc-1a5fe87bcaac",
+      "operator": "CNPC",
+      "country": "Mongolia",
+      "project": "Tosun Uul (Future Expansion), MN",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "CNPC (parent)* (95%); PetroVietnam (5%)"
+      ]
+    },
+    {
+      "id": "cnpc-f8cc931235a2",
+      "operator": "CNPC",
+      "country": "Myanmar",
+      "project": "Block AD-1, MM",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2018
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "cnpc-a2153bd53fb1",
+      "operator": "CNPC",
+      "country": "Nepal",
+      "project": "Nepal YTF, NP",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); Nepal Oil Corporation (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-6d92021859a5",
+      "operator": "CNPC",
+      "country": "Peru",
+      "project": "Block 58, PE",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009,
+        2010,
+        2011,
+        2100
+      ],
+      "approvalYears": [
+        2029,
+        2100
+      ],
+      "startupYears": [
+        2032,
+        2100
+      ],
+      "ownerships": [
+        "CNPC (parent)* (50%); PetroChina (50%)"
+      ]
+    },
+    {
+      "id": "cnpc-9bc072c6f24c",
+      "operator": "CNPC",
+      "country": "Syria",
+      "project": "Gbeibe, SY",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        1977
+      ],
+      "startupYears": [
+        1977
+      ],
+      "ownerships": [
+        "CNPC (parent)* (70%); ZhenHua Oil (30%)"
+      ]
+    },
+    {
+      "id": "cnpc-89b797ec3268",
+      "operator": "CNPC",
+      "country": "Thailand",
+      "project": "L1/64 (ex. NC) , TH",
+      "sourceOperators": [
+        "CNPC (parent)"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "CNPC (parent)* (100%)"
+      ]
+    }
+  ]
+}

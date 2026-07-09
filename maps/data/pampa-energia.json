@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Pampa Energía",
+    "sourceOperators": [
+      "Pampa Energia"
+    ],
+    "projectCount": 11,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pampa-energia-0255d7174df0",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "CNQ-37 M (Veta Escondida), AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Pampa Energia* (55%); Other partner(s) (45%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-22381d09168e",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "El Mangrullo (Mangrullo), AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Pampa Energia* (100%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-731ccef000c5",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Mangrullo, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973,
+        2013
+      ],
+      "approvalYears": [
+        2002,
+        2039
+      ],
+      "startupYears": [
+        2006,
+        2041
+      ],
+      "ownerships": [
+        "Pampa Energia* (100%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-a85c4c0f8357",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Neuquen Basin Tight, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005,
+        2052
+      ],
+      "approvalYears": [
+        2005,
+        2006,
+        2053
+      ],
+      "startupYears": [
+        2006,
+        2053
+      ],
+      "ownerships": [
+        "Pampa Energia* (100%)",
+        "Pampa Energia* (45.55%); YPF (54.45%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-f21c1884dc68",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Parva Negra Este (East), AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001,
+        2028
+      ],
+      "approvalYears": [
+        2038,
+        2041
+      ],
+      "startupYears": [
+        2043,
+        2045
+      ],
+      "ownerships": [
+        "Pampa Energia* (85%); Gas y Petroleo del Neuquen (15%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-ccbb095c1dd8",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Parva Negra, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Pampa Energia* (85%); Gas y Petroleo del Neuquen (15%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-2f1acffd7ca8",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Senillosa YTF, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2067
+      ],
+      "ownerships": [
+        "Pampa Energia* (85%); Other partner(s) (15%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-fe76d9497f66",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Sierra Chata Noroeste (Northwest), AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Pampa Energia* (45.55%); YPF (54.45%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-c0581dfcae04",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Sierra Chata, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Pampa Energia* (45.55%); YPF (54.45%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-d37333809ebe",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Vaca Muerta Shale, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2014,
+        2018,
+        2026
+      ],
+      "approvalYears": [
+        2013,
+        2019,
+        2027
+      ],
+      "startupYears": [
+        2014,
+        2019,
+        2027
+      ],
+      "ownerships": [
+        "Pampa Energia* (100%)",
+        "Pampa Energia* (45.55%); YPF (54.45%)"
+      ]
+    },
+    {
+      "id": "pampa-energia-c58f9e61a000",
+      "operator": "Pampa Energía",
+      "country": "Argentina",
+      "project": "Veta Escondida, AR",
+      "sourceOperators": [
+        "Pampa Energia"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Pampa Energia* (55%); Other partner(s) (45%)"
+      ]
+    }
+  ]
+}

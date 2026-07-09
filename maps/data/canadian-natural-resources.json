@@ -1,0 +1,3391 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Canadian Natural Resources",
+    "sourceOperators": [
+      "Canadian Natural Resources (CNRL)"
+    ],
+    "projectCount": 69,
+    "countryCount": 3,
+    "businessRegions": [
+      "加拿大",
+      "欧洲其他",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "canadian-natural-resources-286e6cdcc010",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Alberta Northeast Other, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978,
+        1985
+      ],
+      "approvalYears": [
+        1982,
+        1987
+      ],
+      "startupYears": [
+        1987,
+        1988
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-775929fa0c85",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Athabasca Oil Sands Project, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992,
+        2002
+      ],
+      "approvalYears": [
+        1997,
+        2005,
+        2028,
+        2042
+      ],
+      "startupYears": [
+        2002,
+        2010,
+        2033,
+        2048
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-5520f988acbe",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Birch Mountain, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2075,
+        2076
+      ],
+      "startupYears": [
+        2080,
+        2081
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-4aefb74c3fd0",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Burnt Lakes, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-7c17991af9a0",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Cardium Play, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999,
+        2004,
+        2008
+      ],
+      "approvalYears": [
+        2000,
+        2010
+      ],
+      "startupYears": [
+        2000,
+        2010
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ba3661fe7785",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Central Alberta_AB5, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ff31959990ac",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Charlie Lake, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2017
+      ],
+      "approvalYears": [
+        2010,
+        2018
+      ],
+      "startupYears": [
+        2011,
+        2018
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-3fd3a91a3b2c",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Clearwater Heavy Oil, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-9ac81090215a",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Conn Creek, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2081
+      ],
+      "startupYears": [
+        2085
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ec426370ab1e",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Deep Basin, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-21b15dc1250a",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Dunvegan, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore",
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005,
+        2008
+      ],
+      "approvalYears": [
+        2008,
+        2010
+      ],
+      "startupYears": [
+        2009,
+        2010
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-e80fc172a9bd",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Duvernay, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2011,
+        2032,
+        2037,
+        2038,
+        2039
+      ],
+      "startupYears": [
+        2012,
+        2032,
+        2038,
+        2039,
+        2040
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (0%); Kuwait Petroleum Corp (KPC) (100%)",
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-581871281f1d",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Eastern Saskatchewan_SK3, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954
+      ],
+      "approvalYears": [
+        1954
+      ],
+      "startupYears": [
+        1954
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-4b479011a0f2",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Foothills Front_AB2, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1942,
+        1949,
+        1952,
+        1954
+      ],
+      "approvalYears": [
+        1947,
+        1955,
+        1958,
+        1959
+      ],
+      "startupYears": [
+        1952,
+        1959,
+        1963
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-0f70f289d589",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Germain, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2055,
+        2060,
+        2065
+      ],
+      "startupYears": [
+        2058,
+        2065,
+        2070
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-703c2b1d8ad2",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Grand Rapids, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-fa49e26c6102",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Gregoire Lake, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2041,
+        2046
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-489047a95b04",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Grouse, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-f3cb785591e8",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Horizon Oil Sands Project, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation",
+        "Old discoveries",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1946
+      ],
+      "approvalYears": [
+        2004,
+        2012,
+        2013,
+        2014,
+        2022,
+        2023,
+        2031,
+        2032,
+        2038,
+        2039,
+        2045
+      ],
+      "startupYears": [
+        2009,
+        2014,
+        2016,
+        2017,
+        2023,
+        2027,
+        2032,
+        2039,
+        2044,
+        2045,
+        2049
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-acd89982df7e",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Horn River Shale, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2010
+      ],
+      "approvalYears": [
+        2007,
+        2010
+      ],
+      "startupYears": [
+        2007,
+        2011
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-3cc43331b5eb",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Jackfish, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2000,
+        2003
+      ],
+      "approvalYears": [
+        2003,
+        2007,
+        2011,
+        2050
+      ],
+      "startupYears": [
+        2008,
+        2011,
+        2014,
+        2052
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-cd39cbbbb4c2",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Kirby CNR, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992,
+        2008
+      ],
+      "approvalYears": [
+        2010,
+        2014,
+        2030,
+        2035,
+        2036
+      ],
+      "startupYears": [
+        2013,
+        2019,
+        2032,
+        2038,
+        2039
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-d7a3cf8fff6b",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Kirby-Pike, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2023,
+        2028,
+        2035
+      ],
+      "startupYears": [
+        2025,
+        2031,
+        2037
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-8ec3faefffaf",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Lloydminster (AB), CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1954
+      ],
+      "startupYears": [
+        1958
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-32308ca43d73",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Manitoba_MB, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1980
+      ],
+      "startupYears": [
+        1981
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-b1b4a373e8d1",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Mannville Heavy Oil, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ba73718828b4",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Montney Play, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2005,
+        2006,
+        2007,
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2015,
+        2017,
+        2018
+      ],
+      "approvalYears": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2014,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "startupYears": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (0%); Pacific Energy Corporation (100%)",
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-165581cb2e62",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Muskwa, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-016096bc86e2",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Northern British Columbia_BC2, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952,
+        1955,
+        1971,
+        1985
+      ],
+      "approvalYears": [
+        1956,
+        1960,
+        1973,
+        1990
+      ],
+      "startupYears": [
+        1960,
+        1964,
+        1975,
+        1992
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-51502b716cca",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Northwestern Alberta_AB7, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987,
+        1998
+      ],
+      "approvalYears": [
+        1993,
+        2001
+      ],
+      "startupYears": [
+        1995,
+        2004
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-a9d81ed039a1",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Peace River, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1942
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-b83a3bd175ba",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Peace River/Carmon Creek, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992,
+        2001
+      ],
+      "approvalYears": [
+        1998,
+        2067,
+        2075
+      ],
+      "startupYears": [
+        2002,
+        2071,
+        2078
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-0c397282b9e2",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Pelican Lake, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986,
+        1991
+      ],
+      "approvalYears": [
+        1992,
+        1994
+      ],
+      "startupYears": [
+        1995,
+        1997
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-e26bea9cb92b",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Pierre River, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2056,
+        2068
+      ],
+      "startupYears": [
+        2060,
+        2072
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (90%); Shell (10%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-0d23168ac96c",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Primrose/Wolf Lake, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1990,
+        1991,
+        2001,
+        2004
+      ],
+      "startupYears": [
+        1995,
+        2006,
+        2008
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ccbaff8527c7",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Saleski Laricina, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2066,
+        2070,
+        2072,
+        2074,
+        2076
+      ],
+      "startupYears": [
+        2071,
+        2073,
+        2076,
+        2078,
+        2080
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (60%); Strathcona Resources (40%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-b7e796d9cf48",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 013 (Netla C-07), CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2049
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ef314c37b4fb",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 119, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-6f09a34f9e43",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 120, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2049
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-6fbcb68b1dc3",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 121, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-27d39b4c2bde",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 124, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-c1e4a11ea982",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 125, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-b2a4eb993995",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 127, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-2100ee602dde",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 128, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-523eaeeb8220",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "SDL 129, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-b1cd14b937d8",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Senlac, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-41dd68fb58eb",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Southeastern Alberta_AB3, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-c09079670a03",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Spearfish, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-feae3512a612",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Spirit River (Notikewin, Falher, Wilrich), CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-eba0b6f0aa8a",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Tangleflags, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1943
+      ],
+      "approvalYears": [
+        1982
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-9aea458c3fc0",
+      "operator": "Canadian Natural Resources",
+      "country": "Canada",
+      "project": "Walleye Phase 1, CA",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-5dc48b2ed9b4",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "Acajou, CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (66%); Tullow Oil (24%); Petroci (Ivory Coast) (10%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-f7ff24c1ba26",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "Baobab, CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (57.61%); VAALCO Energy (27.39%); Petroci (Ivory Coast) (15%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-af8b48a6e9b7",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "Block CI-26 (Espoir), CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (58.67%); Tullow Oil (21.33%); Petroci (Ivory Coast) (20%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-6c99cffb67a7",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "Block CI-40 (Baobab), CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (57.61%); VAALCO Energy (27.39%); Petroci (Ivory Coast) (15%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-2b23ee86f626",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "C1-03X, CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (58.67%); Tullow Oil (21.33%); Petroci (Ivory Coast) (20%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ef0aea5f8a83",
+      "operator": "Canadian Natural Resources",
+      "country": "Cote d'Ivoire",
+      "project": "Espoir, CI",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO and Other"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (58.67%); Tullow Oil (21.33%); Petroci (Ivory Coast) (20%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-56210b7cc81b",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "Ninian, GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Concrete GB",
+        "Extended reach"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        1977,
+        1992
+      ],
+      "startupYears": [
+        1978,
+        1995
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)",
+        "Canadian Natural Resources (CNRL)* (91.6%); Ithaca Energy (Delek Group) (8.4%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-685e2070bd37",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0119 (3/4a STRATHSPEY & EXPLORATION AREA), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-1a1a6f16fd31",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0199 (3/8a COLUMBA B RESERVOIR), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (94.4%); Ithaca Energy (Delek Group) (5.6%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-ce0712c9343d",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0199 (3/8a COLUMBA D RESERVOIR), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (94.4%); Ithaca Energy (Delek Group) (5.6%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-41a51b03797d",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0199 (3/8a COLUMBA E TERRACE & EXPLORATION AREA), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-25f866339f5b",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0199 (3/8a NINIAN FIELD AREA), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-668f544f93ba",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0202 (All Blocks), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-cdffaee3f409",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0203 (All Blocks), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (80%); Ithaca Energy (Delek Group) (20%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-333b8d3a5635",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0204 (All Blocks), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-847c5ba06612",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0225 (16/17a), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-c3cfc8f0f020",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "P0233 (29/1a REST OF BLOCK), GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    },
+    {
+      "id": "canadian-natural-resources-e834641938f9",
+      "operator": "Canadian Natural Resources",
+      "country": "United Kingdom",
+      "project": "Tiffany, GB",
+      "sourceOperators": [
+        "Canadian Natural Resources (CNRL)"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1976,
+        1977,
+        1979
+      ],
+      "approvalYears": [
+        1990,
+        1991,
+        1994
+      ],
+      "startupYears": [
+        1993,
+        1996
+      ],
+      "ownerships": [
+        "Canadian Natural Resources (CNRL)* (100%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Diamondback Energy",
+    "sourceOperators": [
+      "Diamondback Energy"
+    ],
+    "projectCount": 3,
+    "countryCount": 1,
+    "businessRegions": [
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "diamondback-energy-24c44fab9330",
+      "operator": "Diamondback Energy",
+      "country": "United States",
+      "project": "Permian Conventional_Texas, US",
+      "sourceOperators": [
+        "Diamondback Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1961
+      ],
+      "ownerships": [
+        "Diamondback Energy* (100%)"
+      ]
+    },
+    {
+      "id": "diamondback-energy-302373ec953e",
+      "operator": "Diamondback Energy",
+      "country": "United States",
+      "project": "Permian Delaware Tight, US",
+      "sourceOperators": [
+        "Diamondback Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "startupYears": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "ownerships": [
+        "Diamondback Energy* (100%)",
+        "Diamondback Energy* (35%); Alchemist Energy (15%); Crescent Energy Company (15%); U.S. Energy Development Corporation (15%); Williams Oil Company (15%); Lakewood Energy LLC (5%)",
+        "Diamondback Energy* (35%); Chord Energy (15%); Crescent Energy Company (15%); Marshall & Winston (15%); Williams Oil Company (15%); Siltstone Resources (5%)",
+        "Diamondback Energy* (35%); ConocoPhillips (45%); Chevron (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (35%); Continental Resources (45%); Devon Energy (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); Crescent Energy Company (15%); Olsen Energy (15%); Surge Solutions (15%); Williams Oil Company (15%); Socorro Morales (5%)",
+        "Diamondback Energy* (35%); Devon Energy (45%); APA Corporation (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); Devon Energy (45%); BP (10%); TRP Energy (10%)",
+        "Diamondback Energy* (35%); Devon Energy (45%); Continental Resources (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); Devon Energy (50%); Continental Resources (15%)",
+        "Diamondback Energy* (35%); Occidental Petroleum (50%); Chevron (15%)",
+        "Diamondback Energy* (40%); Chevron (50%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (40%); Chevron (50%); Permian Resources (10%)",
+        "Diamondback Energy* (40%); ConocoPhillips (50%); ExxonMobil (10%)",
+        "Diamondback Energy* (40%); Continental Resources (50%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (40%); Permian Resources (50%); ExxonMobil (10%)",
+        "Diamondback Energy* (50%); Black Top Operating (15%); Mongoose Energy (15%); Williams Oil Company (15%); Locin Oil Corporation (5%)",
+        "Diamondback Energy* (50%); Chevron (50%)",
+        "Diamondback Energy* (50%); Devon Energy (50%)",
+        "Diamondback Energy* (50%); Occidental Petroleum (50%)",
+        "Diamondback Energy* (55%); APA Corporation (35%); Devon Energy (10%)",
+        "Diamondback Energy* (60%); Chevron (10%); Continental Resources (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (60%); Continental Resources (10%); Devon Energy (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); APA Corporation (10%); Devon Energy (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); Chevron (10%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (70%); Chevron (10%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); Chevron (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); Chevron (10%); ExxonMobil (10%); Permian Resources (10%)",
+        "Diamondback Energy* (70%); Continental Resources (10%); Devon Energy (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); Crescent Energy Company (10%); Northern Oil & Gas (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); Devon Energy (10%); ExxonMobil (10%); Permian Resources (10%)",
+        "Diamondback Energy* (70%); ExxonMobil (10%); Occidental Petroleum (10%); VTX Energy Partners (10%)",
+        "Diamondback Energy* (80%); Chevron (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (80%); Chevron (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); Continental Resources (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); Devon Energy (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (80%); Devon Energy (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); Northern Oil & Gas (10%); TRP Energy (10%)",
+        "Diamondback Energy* (90%); APA Corporation (10%)",
+        "Diamondback Energy* (90%); Chevron (10%)",
+        "Diamondback Energy* (90%); Continental Resources (10%)",
+        "Diamondback Energy* (90%); Devon Energy (10%)",
+        "Diamondback Energy* (90%); ExxonMobil (10%)",
+        "Diamondback Energy* (90%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (95%); APA Corporation (5%)",
+        "Diamondback Energy* (95%); Chevron (5%)",
+        "Diamondback Energy* (95%); Crescent Energy Company (5%)",
+        "Diamondback Energy* (95%); ExxonMobil (5%)",
+        "Diamondback Energy* (95%); Granite Ridge Resources (5%)"
+      ]
+    },
+    {
+      "id": "diamondback-energy-fffc3702a187",
+      "operator": "Diamondback Energy",
+      "country": "United States",
+      "project": "Permian Midland Tight, US",
+      "sourceOperators": [
+        "Diamondback Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "startupYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "ownerships": [
+        "Diamondback Energy* (100%)",
+        "Diamondback Energy* (20.59%); Ovintiv (50%); ExxonMobil (29.41%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); Birch Operations (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); BTA Oil Producers (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); Burk Royalty Co (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); Fasken Oil and Ranch (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); Hannathon Petroleum LLC (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Amtex Energy (15%); Stephens Natural Resources, LLC (15%); Summit Petroleum LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (35%); Basa Resources (15%); Hexp Operating (15%); Opal Energy (15%); TRP Energy (15%); ConocoPhillips (5%)",
+        "Diamondback Energy* (35%); Chevron (45%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (35%); Cooper Oil Company (15%); Owl Ops II (15%); Reverence Operating (15%); Samsung (15%); ConocoPhillips (5%)",
+        "Diamondback Energy* (35%); Crescent Energy Company (45%); ExxonMobil (10%); SM Energy (10%)",
+        "Diamondback Energy* (35%); Crescent Energy Company (50%); ExxonMobil (15%)",
+        "Diamondback Energy* (35%); EnerVest (15%); McClure Oil Company (15%); Monadnock Resources (15%); Three Summits Operating (15%); ConocoPhillips (5%)",
+        "Diamondback Energy* (35%); ExxonMobil (30%); Sequitur Energy Resources (25%); Crescent Energy Company (10%)",
+        "Diamondback Energy* (35%); ExxonMobil (43.92%); Chevron (11.08%); APA Corporation (10%)",
+        "Diamondback Energy* (35%); ExxonMobil (45%); Chevron (10%); ConocoPhillips (10%)",
+        "Diamondback Energy* (35%); ExxonMobil (45%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); ExxonMobil (50%); Ovintiv (15%)",
+        "Diamondback Energy* (35%); ExxonMobil (55%); APA Corporation (10%)",
+        "Diamondback Energy* (35%); ExxonMobil (65%)",
+        "Diamondback Energy* (35%); High Noon Resources (55%); Ovintiv (10%)",
+        "Diamondback Energy* (35%); Occidental Petroleum (25.5%); Ecopetrol (24.5%); ExxonMobil (15%)",
+        "Diamondback Energy* (35%); Ovintiv (45%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); Ovintiv (50%); ExxonMobil (15%)",
+        "Diamondback Energy* (35%); Owl Ops II (55%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (35%); Sequitur Energy Resources (50%); ExxonMobil (15%)",
+        "Diamondback Energy* (40%); Chevron (50%); APA Corporation (10%)",
+        "Diamondback Energy* (40%); Chevron (50%); ConocoPhillips (10%)",
+        "Diamondback Energy* (40%); Chevron (50%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (40%); Crescent Energy Company (50%); ExxonMobil (10%)",
+        "Diamondback Energy* (40%); EnerVest (15%); Halliburton (15%); Helios Petroleum (15%); Trek Resources (15%)",
+        "Diamondback Energy* (40%); ExxonMobil (50%); APA Corporation (10%)",
+        "Diamondback Energy* (40%); ExxonMobil (50%); Chevron (10%)",
+        "Diamondback Energy* (40%); ExxonMobil (50%); ConocoPhillips (10%)",
+        "Diamondback Energy* (40%); ExxonMobil (50%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (40%); ExxonMobil (50%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (40%); SM Energy (40%); ExxonMobil (10%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (45%); Cutbow Operating (15%); Double Eagle V (15%); Permian Deep Rock Oil (15%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (45%); Hibernia Resources (15%); Oxbow Petroleum (15%); Permian Deep Rock Oil (15%); ConocoPhillips (10%)",
+        "Diamondback Energy* (50%); Admiral Permian Resources (15%); Amtex Energy (15%); Stephens Natural Resources, LLC (15%); Birch Operations (5%)",
+        "Diamondback Energy* (50%); Amtex Energy (15%); Discovery Natural Resources LLC (15%); Yukon Exploration (15%); Birch Operations (5%)",
+        "Diamondback Energy* (50%); Amtex Energy (15%); Stephens Natural Resources, LLC (15%); ExxonMobil (10%); Yukon Exploration (10%)",
+        "Diamondback Energy* (50%); APA Corporation (10%); Crescent Energy Company (10%); ExxonMobil (10%); Occidental Petroleum (10%); Permian Resources (10%)",
+        "Diamondback Energy* (50%); APA Corporation (40%); ExxonMobil (10%)",
+        "Diamondback Energy* (50%); APA Corporation (50%)",
+        "Diamondback Energy* (50%); Chevron (50%)",
+        "Diamondback Energy* (50%); ConocoPhillips (30%); APA Corporation (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (50%); ConocoPhillips (40%); Chevron (10%)",
+        "Diamondback Energy* (50%); ConocoPhillips (40%); ExxonMobil (10%)",
+        "Diamondback Energy* (50%); ConocoPhillips (50%)",
+        "Diamondback Energy* (50%); ExxonMobil (50%)",
+        "Diamondback Energy* (50%); Firebird Energy II (50%)",
+        "Diamondback Energy* (50%); Ovintiv (50%)",
+        "Diamondback Energy* (50%); Sequitur Energy Resources (50%)",
+        "Diamondback Energy* (54.86%); ExxonMobil (25.62%); ConocoPhillips (8.54%); Ovintiv (8.54%); Chevron (2.44%)",
+        "Diamondback Energy* (55%); Amtex Energy (15%); Birch Operations (15%); Stephens Natural Resources, LLC (15%)",
+        "Diamondback Energy* (55%); Amtex Energy (15%); EOG Resources (15%); Stephens Natural Resources, LLC (15%)",
+        "Diamondback Energy* (55%); ExxonMobil (35%); Northern Oil & Gas (10%)",
+        "Diamondback Energy* (55%); ExxonMobil (35%); SM Energy (10%)",
+        "Diamondback Energy* (56.12%); ExxonMobil (43.88%)",
+        "Diamondback Energy* (56.25%); ExxonMobil (21.88%); APA Corporation (21.87%)",
+        "Diamondback Energy* (60%); APA Corporation (10%); Chevron (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (60%); APA Corporation (10%); ExxonMobil (10%); Occidental Petroleum (10%); Permian Resources (10%)",
+        "Diamondback Energy* (60%); Birch Operations (15%); Summit Petroleum LLC (15%); ConocoPhillips (10%)",
+        "Diamondback Energy* (60%); ExxonMobil (15%); Summit Petroleum LLC (15%); Hog Operating (10%)",
+        "Diamondback Energy* (60%); ExxonMobil (40%)",
+        "Diamondback Energy* (60%); Ovintiv (40%)",
+        "Diamondback Energy* (65%); ConocoPhillips (35%)",
+        "Diamondback Energy* (65%); Discovery Natural Resources LLC (15%); Summit Petroleum LLC (15%); Birch Operations (5%)",
+        "Diamondback Energy* (65%); ExxonMobil (20%); Summit Petroleum LLC (10%); Cutbow Operating (5%)",
+        "Diamondback Energy* (65%); ExxonMobil (35%)",
+        "Diamondback Energy* (65%); Ovintiv (35%)",
+        "Diamondback Energy* (70%); APA Corporation (10%); Chevron (10%); ConocoPhillips (10%)",
+        "Diamondback Energy* (70%); APA Corporation (10%); ExxonMobil (10%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (70%); Chevron (10%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (70%); Chevron (30%)",
+        "Diamondback Energy* (70%); ConocoPhillips (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (70%); ConocoPhillips (10%); ExxonMobil (10%); SM Energy (10%)",
+        "Diamondback Energy* (70%); ConocoPhillips (10%); Ovintiv (10%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (70%); ConocoPhillips (20%); SM Energy (10%)",
+        "Diamondback Energy* (70%); ConocoPhillips (30%)",
+        "Diamondback Energy* (70%); Crescent Energy Company (10%); Ovintiv (10%); SM Energy (10%)",
+        "Diamondback Energy* (70%); ExxonMobil (30%)",
+        "Diamondback Energy* (70%); HighPeak Energy (30%)",
+        "Diamondback Energy* (70%); Moriah Resources (30%)",
+        "Diamondback Energy* (70%); Ovintiv (30%)",
+        "Diamondback Energy* (70%); SOGC, Inc (30%)",
+        "Diamondback Energy* (71.94%); ConocoPhillips (8.54%); ExxonMobil (8.54%); Ovintiv (8.54%); Chevron (2.44%)",
+        "Diamondback Energy* (75%); Elevation Resources (15%); ConocoPhillips (10%)",
+        "Diamondback Energy* (75%); ExxonMobil (20%); Bayswater (5%)",
+        "Diamondback Energy* (80%); APA Corporation (10%); Chevron (10%)",
+        "Diamondback Energy* (80%); APA Corporation (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (80%); APA Corporation (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); APA Corporation (20%)",
+        "Diamondback Energy* (80%); Chevron (10%); ConocoPhillips (10%)",
+        "Diamondback Energy* (80%); Chevron (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (80%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Diamondback Energy* (80%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); ConocoPhillips (10%); Permian Resources (10%)",
+        "Diamondback Energy* (80%); ConocoPhillips (10%); SM Energy (10%)",
+        "Diamondback Energy* (80%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); ExxonMobil (10%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (80%); ExxonMobil (10%); Riverbend Group (10%)",
+        "Diamondback Energy* (80%); ExxonMobil (10%); SM Energy (10%)",
+        "Diamondback Energy* (80%); ExxonMobil (20%)",
+        "Diamondback Energy* (80%); Hilcorp Energy (10%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (80%); Occidental Petroleum (15.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (80%); Permian Deep Rock Oil (20%)",
+        "Diamondback Energy* (81.82%); ExxonMobil (9.09%); Occidental Petroleum (9.09%)",
+        "Diamondback Energy* (85%); ExxonMobil (15%)",
+        "Diamondback Energy* (85%); Permian Resources (15%)",
+        "Diamondback Energy* (90%); APA Corporation (10%)",
+        "Diamondback Energy* (90%); Chevron (10%)",
+        "Diamondback Energy* (90%); ConocoPhillips (10%)",
+        "Diamondback Energy* (90%); ExxonMobil (10%)",
+        "Diamondback Energy* (90%); Hilcorp Energy (10%)",
+        "Diamondback Energy* (90%); Occidental Petroleum (10%)",
+        "Diamondback Energy* (90%); Occidental Petroleum (5.1%); Ecopetrol (4.9%)",
+        "Diamondback Energy* (90%); Ovintiv (10%)",
+        "Diamondback Energy* (90%); Permian Resources (10%)",
+        "Diamondback Energy* (90%); SM Energy (10%)",
+        "Diamondback Energy* (95%); Ares Energy (5%)",
+        "Diamondback Energy* (95%); Bayswater (5%)",
+        "Diamondback Energy* (95%); Birch Operations (5%)",
+        "Diamondback Energy* (95%); Black Swan Oil & Gas (5%)",
+        "Diamondback Energy* (95%); Browning (5%)",
+        "Diamondback Energy* (95%); BTA Oil Producers (3.78%); PrimeEnergy Resources (1.22%)",
+        "Diamondback Energy* (95%); BTA Oil Producers (5%)",
+        "Diamondback Energy* (95%); Burk Royalty Co (5%)",
+        "Diamondback Energy* (95%); Citation Oil and Gas (5%)",
+        "Diamondback Energy* (95%); Cutbow Operating (5%)",
+        "Diamondback Energy* (95%); Discovery Natural Resources LLC (5%)",
+        "Diamondback Energy* (95%); Discovery Operating (5%)",
+        "Diamondback Energy* (95%); Element Petroleum Operating LLC (5%)",
+        "Diamondback Energy* (95%); Elevation Resources (5%)",
+        "Diamondback Energy* (95%); EOG Resources (5%)",
+        "Diamondback Energy* (95%); Fasken Oil and Ranch (5%)",
+        "Diamondback Energy* (95%); Firebird Energy II (5%)",
+        "Diamondback Energy* (95%); FourPoint Energy (5%)",
+        "Diamondback Energy* (95%); Hannathon Petroleum LLC (5%)",
+        "Diamondback Energy* (95%); Hexp Operating (5%)",
+        "Diamondback Energy* (95%); High Noon Resources (5%)",
+        "Diamondback Energy* (95%); HighPeak Energy (5%)",
+        "Diamondback Energy* (95%); Ica Energy Operating (5%)",
+        "Diamondback Energy* (95%); Ike Energy (5%)",
+        "Diamondback Energy* (95%); Kinder Morgan (5%)",
+        "Diamondback Energy* (95%); Langford Energy Partners (5%)",
+        "Diamondback Energy* (95%); Moriah Resources (5%)",
+        "Diamondback Energy* (95%); Owl Ops (5%)",
+        "Diamondback Energy* (95%); Permian Deep Rock Oil (5%)",
+        "Diamondback Energy* (95%); Riley Exploration Permian (5%)",
+        "Diamondback Energy* (95%); Ring Energy (5%)",
+        "Diamondback Energy* (95%); Rockport Energy (5%)",
+        "Diamondback Energy* (95%); RRP Operating LLC (5%)",
+        "Diamondback Energy* (95%); Samsung (5%)",
+        "Diamondback Energy* (95%); Sloan Petroleum (5%)",
+        "Diamondback Energy* (95%); SOGC, Inc (5%)",
+        "Diamondback Energy* (95%); Steward Energy LLC (5%)",
+        "Diamondback Energy* (95%); Summit Petroleum LLC (5%)",
+        "Diamondback Energy* (95%); Three Span Oil & Gas (5%)",
+        "Diamondback Energy* (95%); Triple Crown Resources (5%)",
+        "Diamondback Energy* (95%); Walsh Petroleum Inc (5%)",
+        "Diamondback Energy* (95%); White Rock Oil & Gas (5%)",
+        "Diamondback Energy* (95%); Winn Operating (5%)"
+      ]
+    }
+  ]
+}

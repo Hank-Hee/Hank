@@ -1,0 +1,1384 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Heritage Petroleum",
+    "sourceOperators": [
+      "Heritage Oil (Al Mirqab Capital)",
+      "Heritage Petroleum Company Limited"
+    ],
+    "projectCount": 30,
+    "countryCount": 3,
+    "businessRegions": [
+      "中东及南亚",
+      "中南美洲",
+      "地中海/南欧"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "heritage-petroleum-a08da9dc54cb",
+      "operator": "Heritage Petroleum",
+      "country": "Malta",
+      "project": "Area 2, 7, MT",
+      "sourceOperators": [
+        "Heritage Oil (Al Mirqab Capital)"
+      ],
+      "regions": [
+        "Southern Europe"
+      ],
+      "businessRegions": [
+        "地中海/南欧"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Heritage Oil (Al Mirqab Capital)* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-d805b230dbfb",
+      "operator": "Heritage Petroleum",
+      "country": "Pakistan",
+      "project": "Block 2667-8 (Zamzama North), PK",
+      "sourceOperators": [
+        "Heritage Oil (Al Mirqab Capital)"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Heritage Oil (Al Mirqab Capital)* (48%); Jura Energy (24%); American Energy Group (20%); Trakker Energy (8%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-b8b1121a67c5",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Atlantic LNG T4, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-e8c469c21ec8",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Block Cruse Horizon, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-b6f592e09831",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Block Herrera Horizon, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-d6f9408464bd",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Block Trintomar, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-204c74d518aa",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Catshill, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952,
+        2033
+      ],
+      "approvalYears": [
+        1953,
+        2037
+      ],
+      "startupYears": [
+        1953,
+        2041
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-09133881ded3",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Couva Marine (new), TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-e6e9d72aeb8e",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Cruse, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1911
+      ],
+      "approvalYears": [
+        1913
+      ],
+      "startupYears": [
+        1913
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-96708fc6c620",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Erin, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1926
+      ],
+      "approvalYears": [
+        1930
+      ],
+      "startupYears": [
+        1934
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-f54a239273d4",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Forest Reserve, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1914
+      ],
+      "approvalYears": [
+        1915
+      ],
+      "startupYears": [
+        1915
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-8b0894ef5cee",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Grand Ravine, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1929
+      ],
+      "approvalYears": [
+        1933
+      ],
+      "startupYears": [
+        1937
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-7540dd02b41c",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Jubilee, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-31b785079c25",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Los Bajos Central, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-d2be71b336e0",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Mackenzie, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1947
+      ],
+      "approvalYears": [
+        1949
+      ],
+      "startupYears": [
+        1950
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-d477604f5658",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Moruga East, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-77856ab7f0cf",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Navette, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957,
+        2033
+      ],
+      "approvalYears": [
+        1959,
+        2037
+      ],
+      "startupYears": [
+        1959,
+        2041
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-9d0e932fb230",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Oropouche, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1923
+      ],
+      "approvalYears": [
+        1950
+      ],
+      "startupYears": [
+        1954
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-e0ef142b5641",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Palo Seco/Erin/McKenzie, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1926
+      ],
+      "approvalYears": [
+        1930
+      ],
+      "startupYears": [
+        1934
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-a5f264e97cd9",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Penal-Barrackpore, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1938
+      ],
+      "approvalYears": [
+        1942
+      ],
+      "startupYears": [
+        1946
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-9658c0ba935b",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Point Fortin East, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1929
+      ],
+      "approvalYears": [
+        1930
+      ],
+      "startupYears": [
+        1930
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-dac0caeddb25",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Point Fortin West, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1907
+      ],
+      "approvalYears": [
+        1911
+      ],
+      "startupYears": [
+        1915
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-0f7653d9330d",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Point Fortin West/Central, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1906
+      ],
+      "approvalYears": [
+        1908
+      ],
+      "startupYears": [
+        1908
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-c43031b667b4",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Soldado Main, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1955
+      ],
+      "startupYears": [
+        1956
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-954dbffc2269",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Soldado Southwest (S125/S218) (new), TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Extended reach"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-2431aeb2072c",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Soldado West (S435/S438) (new), TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Extended reach"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-4c85a3ce295b",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "TNA Soldado Marine (Soldado Main), TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2108
+      ],
+      "startupYears": [
+        2117
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-15d470acfe6b",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "TNA Soldado Marine (Soldado Main- EOG farm-in), TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (35%); EOG Resources (65%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-3fdd10055ee0",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Vessigny, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1936
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    },
+    {
+      "id": "heritage-petroleum-781cefe9c40f",
+      "operator": "Heritage Petroleum",
+      "country": "Trinidad and Tobago",
+      "project": "Wilson Trinidad And Tobago, TT",
+      "sourceOperators": [
+        "Heritage Petroleum Company Limited"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1936
+      ],
+      "approvalYears": [
+        1940
+      ],
+      "startupYears": [
+        1944
+      ],
+      "ownerships": [
+        "Heritage Petroleum Company Limited* (100%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9180 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Saudi Aramco",
+    "sourceOperators": [
+      "Saudi Aramco"
+    ],
+    "projectCount": 201,
+    "countryCount": 1,
+    "businessRegions": [
+      "中东及南亚"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "saudi-aramco-5f81c90f7d7c",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abqaiq, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1940
+      ],
+      "approvalYears": [
+        1941
+      ],
+      "startupYears": [
+        1946
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8895de1b83dd",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abraq al-Toloul Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d028690b98c0",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abraq al-Toloul, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6435c7f26a04",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abu Ali, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-33ccdf8771a7",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abu Rakiz, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-987b5a1b7557",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abu Sadar, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-18ab0d4e6c04",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Abu Shaddad, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-39b00d672d74",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Ajramiyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-88e8e000c19b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Manjoorah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-844e6907fee4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Minahhaz Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5fd55d531c14",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Reesh Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b42dacbb3357",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Sahbaa Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1acf50cfc16a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al Shorfa, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c586907c1e49",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Farouk Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-239cf9174e98",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Haryd, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-88bd2d5274b8",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Hiran, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b868ff0bc5ce",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Jahaq, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c887121b7cfe",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Jalamid (Northern Arabia) Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2014
+      ],
+      "approvalYears": [
+        2013,
+        2017
+      ],
+      "startupYears": [
+        2013,
+        2017
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c775d804bd80",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Katuf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-05ca5d8ffdfb",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Al-Mahakik, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-167b25273969",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "AlDahna Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1e712f1a1b10",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Amad, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f25ba53248ed",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Amjad, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-7a7f39f2ee40",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Araam, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9a431147715b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Arabian Gulf Concession, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b54d7141f0af",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Arsan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-fdb5c67455c1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Asikra, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-fafefd0ced96",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Aslaf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-280318b1c80b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "AsSayd, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9d6500f69df9",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Awtad Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8c0fa1071b55",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Awtad, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6f312f76de58",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ayfan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-730ce726b9b2",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Badi, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2eff253d2090",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Bakr, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-939dda2c9fc0",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Barqan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-636303aa3d58",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Berri (Jubaila formation), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e9c5044eb2b9",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Berri, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1964,
+        1985
+      ],
+      "approvalYears": [
+        1965,
+        2019
+      ],
+      "startupYears": [
+        1970,
+        2026
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6aba66c2e9e5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Burma, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1e39e8cdf675",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Damda, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-57c88bcd3106",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dammam (Phase 1), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1938
+      ],
+      "approvalYears": [
+        2020
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-fd7a6531686d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dammam (Phase 2), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1938
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e37d90e4fcb9",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dammam, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-23ee005fe018",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dawl, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-66a481dd0727",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dhib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-07e88ffb56bf",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dhuba, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e6681fec73a7",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dibdibah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-876411888a39",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dilam, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-a5367e3b491b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Dirwazah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-78b0df74cf64",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Duaiban, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-4ca26860f51f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Duba Red Sea Concession, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-41a23a5f09d6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Duhaynah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-431311f9d41d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Duhul, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-66506e815f56",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Eastern Province_YTF, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b93f9b7316a1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Edmee, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-182f01e1cb55",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "El Haba, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d30fdf28551c",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Empty Quarter_YTF, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-88d6489b8b5a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Fadhili Gas Project, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1956,
+        1976
+      ],
+      "approvalYears": [
+        2016,
+        2024
+      ],
+      "startupYears": [
+        2019,
+        2028
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-157b6ab5c0a1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Faras, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-467b8c373681",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Farhah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6e690da0521d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Faridah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-a2737406eb8a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Faris, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1441ae3bcb12",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Faskar, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3399b6e687b1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Fazran, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960,
+        1961
+      ],
+      "approvalYears": [
+        1961,
+        2018
+      ],
+      "startupYears": [
+        1962,
+        2021
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-0d7999ddceba",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Ain Dar N, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1950,
+        2018
+      ],
+      "startupYears": [
+        1951,
+        2021
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ed871ce88aeb",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Ain Dar S, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1950
+      ],
+      "startupYears": [
+        1951
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5f8b4d437bcf",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Area_YTF, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6a4a204ed18f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Haradh, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Old discoveries",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1953,
+        2077
+      ],
+      "startupYears": [
+        1958,
+        2080
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2bf97f3df728",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Haradh-Hawiyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-073483906db3",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Hawiyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1961
+      ],
+      "startupYears": [
+        1966
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c4b8627de4d6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Shedgum, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1952
+      ],
+      "startupYears": [
+        1954
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9719b2c4bf60",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghawar Uthmaniyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Old discoveries",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        1951,
+        2060
+      ],
+      "startupYears": [
+        1953,
+        2064
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1682c40d666c",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghazal, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-cff0576f3c9a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghinah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9c015c8bb72e",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ghizlan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ca408f4db6f9",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Habari, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b0f65d7de3e4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hadabat al Hajara, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-4b1ccb4fec4f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hadidah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d197884fb0db",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Halfaa, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-108c95de817d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hamd, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-79d4e4f1ae3f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hamur, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b9821007f46a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Harmaliyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971,
+        1981
+      ],
+      "approvalYears": [
+        1972,
+        2018,
+        2052
+      ],
+      "startupYears": [
+        1973,
+        2019,
+        2057
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9c978f318d4a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Harqus, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-7d0121a9483f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hawiyah Gas Plant (HGP) expansion, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-de7766ab3e58",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hawtah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8c55a278b0da",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hazmiyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-38d74efba9f8",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Hilwah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e9f182db6899",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jabu, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1bf5377739d4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jafurah shale gas (Al Hasa), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e6bfc9835ac1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jaham, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8f4b9eba018f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jaladi, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d536b73547fb",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jalameed, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-21de6965f258",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jana, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-a875728deba6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Janab, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-0a8a430fb619",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jauf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-921e4ba31a5e",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jawb, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-33097acce4b1",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jubah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-26bdc126a0ef",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jufayn, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-4206a96e2e06",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Juraybi'at, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-89f87f826d96",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Jurayd, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-7c6254ec1506",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Kahf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3e48d3f89b10",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Kahla, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f807a2fa9176",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Karan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9c1bd3e13823",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Kassab, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b93559d3f210",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Khurais project, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957,
+        1971,
+        1973
+      ],
+      "approvalYears": [
+        1959,
+        1978,
+        2016,
+        2073
+      ],
+      "startupYears": [
+        1964,
+        1982,
+        2018,
+        2077
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-86f16276fcdd",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Khursaniyah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1940,
+        1949,
+        1956
+      ],
+      "approvalYears": [
+        1957,
+        1958,
+        2006
+      ],
+      "startupYears": [
+        1962,
+        1963,
+        2008
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-fe40de336dc8",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Khuzama, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f49a1906f521",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Kidan South, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ab71cf74ea13",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Kurayn, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-827a627e1341",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ladam Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b071e59f8cee",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Lawhah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Concrete GB"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b42218a43ccb",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Layla, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1476ba47e132",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Lughfah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6cca30e34467",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mabruk, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5f303791e38e",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Madraka, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-0a1d2ced1ae3",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Magarib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-52a2dba6b456",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Maharah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "FPSO and Other"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-992a5e8eb9ce",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Manifa (redevelop), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e904c8cb1b17",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Manifa (redevelopment phase 2), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-bf047e188e09",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Maqam, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5552685d5eb5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Marjan (Expansion phase 2), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9c72a9ce32c9",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Marjan (expansion), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1220defbe307",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Marjan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1968,
+        2019
+      ],
+      "startupYears": [
+        1973,
+        2025
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-619427ff1e5d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Marzouq, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f06db99375fd",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Marzuk, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6e66ffe16413",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mazalij (Unayzah A formation), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-fee566ae66e4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mazalij (Unayzah B/C formation), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-05fa7b8692d5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Midyan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1b316df9734c",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mihwaz (Qusaiba formation), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-4678b6f24845",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mihwaz, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d190016ba909",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mulayh, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8996fe8a6042",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Muraiqib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2a831e44aad6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Murooj, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ab103ed91633",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Mushaib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-761850c2af71",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Namlan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8e5c4be767a8",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Naqa, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-85ab4f116fe6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Nayashin, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-08ea2ac10340",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Niban, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9ebb511d4f6c",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Nisalah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c31714c8bd15",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "North Kidan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-87339f6a8f29",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Northwest_YTF, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2086
+      ],
+      "startupYears": [
+        2089
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-db567a7bdb00",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Nuayyim, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990,
+        1994
+      ],
+      "approvalYears": [
+        1993,
+        2040
+      ],
+      "startupYears": [
+        1997,
+        2043
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-406426468fb6",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Nujayman, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-315c6457efc4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Nuwayr, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2d0182da8b35",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qadqad, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-747b3bd66b9d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qamran, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-558c53d24206",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qatif project, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1945,
+        1963,
+        1984
+      ],
+      "approvalYears": [
+        1948,
+        1965,
+        2050
+      ],
+      "startupYears": [
+        1949,
+        1966,
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)",
+        "Saudi Aramco* (50%); BAPCO (Bahrain) (50%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2e639bf09f1b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qirdi, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6d90c2e58b28",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qubqub, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b0befc0e9d13",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Qurqas, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ee94cf9f2052",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Rabib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-bdc7316909ed",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Raghib, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-6e744c0166d4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ramlah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e978463d3edb",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ribyan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3c19b82ec56d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Rimthan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-48c3c663fb07",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sabha, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c30409963c4f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sadawi, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3dff6573393a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Safaniya YTF Concession, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3f4f971afd4a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Safaniya, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1951
+      ],
+      "approvalYears": [
+        1954,
+        2065
+      ],
+      "startupYears": [
+        1956,
+        2069
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-c3c22eb8613b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sahaban, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-1f2ec15b15c0",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sahba, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984,
+        2017
+      ],
+      "approvalYears": [
+        2037,
+        2049
+      ],
+      "startupYears": [
+        2040,
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ef9d6dd1bd9b",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sakab, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-721cb9bed9ea",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Salsal, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-bfbd8933698f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Samin, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-3672ff2d45a5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Samna Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ed075b92fc32",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sanaman, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5506cc214679",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sayahid, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-241721bff3f4",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shaden, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-e30977b46038",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shadoon, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-60d96b2d377d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shama'ah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-cc72997879e3",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sharar, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2b1e43bd66a2",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shaybah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1996,
+        2014
+      ],
+      "startupYears": [
+        1998,
+        2016
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-86628b78da1f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shehab, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-b21f25b0bbd3",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Shiblah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-16ecbdae4670",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Sirayyan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9b5f3b1d824a",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "South Ghawar (Eastern region) Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2020
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-735110350565",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Suban, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-8d9ba16b8e79",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Suhul, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-40429a05b9de",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Summan_YTF, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-014ce3861067",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Takhman, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ab9c45852480",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Tinat, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-4a96e9b80671",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Tukhman structure, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-42ba6a33bb60",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Turayqa, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f5c981473b26",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Umm Jurf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-eacd2340debc",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Umm Khansar Shale, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-90900f60d415",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Umm Ramil, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-827c164cb48e",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Ummlij, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-ae479263b666",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Wajh, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-cbacc96f331d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Waqr, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-65ace0b003f5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Warid, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-28606bb0826f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Wari’ah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-19313b9496e2",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Wasit, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2016,
+        2017
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-2f388ebe108d",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Watban, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2060
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-009723c4445f",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Wedyan, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-d62b7ca1a973",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Wudayhi, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-19529363c393",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Yabrin, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9d865c4aecb5",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Yanbu Red Sea Concession, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-9c33ea0e9ccc",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Zimlah, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5a22d830d428",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Zuluf (CR in field), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-179601ccaa08",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Zuluf (expansion), SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2022,
+        2025
+      ],
+      "startupYears": [
+        2027,
+        2029
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-f967fc4d5960",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Zuluf, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1971
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    },
+    {
+      "id": "saudi-aramco-5acf6139f6f0",
+      "operator": "Saudi Aramco",
+      "country": "Saudi Arabia",
+      "project": "Zumul, SA",
+      "sourceOperators": [
+        "Saudi Aramco"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Saudi Aramco* (100%)"
+      ]
+    }
+  ]
+}

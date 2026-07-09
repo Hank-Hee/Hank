@@ -1,0 +1,1850 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "EOG Resources",
+    "sourceOperators": [
+      "EOG Resources"
+    ],
+    "projectCount": 36,
+    "countryCount": 4,
+    "businessRegions": [
+      "中东及南亚",
+      "中南美洲",
+      "北美其他",
+      "墨西哥湾",
+      "澳大利亚/新西兰"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "eog-resources-39ac4435f17c",
+      "operator": "EOG Resources",
+      "country": "Australia",
+      "project": "WA-488-P, AU",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-04494e4a24ac",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Beryl, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-6b84a31a623a",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Block 4(a), TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-c0659881db77",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Coconut, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "EOG Resources* (50%); BP (35%); Repsol (15%)"
+      ]
+    },
+    {
+      "id": "eog-resources-d7ecc1f40a39",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Eastern Offshore (SECC) (Kiskadee), TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "EOG Resources* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "eog-resources-18941dd171cb",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Ibis Deep Project, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "EOG Resources* (50.4%); BP (35%); Heritage Petroleum Company Limited (14.6%)"
+      ]
+    },
+    {
+      "id": "eog-resources-6fc4bd60b9a1",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Kiskadee, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1993
+      ],
+      "ownerships": [
+        "EOG Resources* (50%); BP (35%); Repsol (15%)"
+      ]
+    },
+    {
+      "id": "eog-resources-f104791c6900",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Lower Reverse L (2025 re-award), TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-098f9b91edfe",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Mento, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "EOG Resources* (50%); BP (35%); Repsol (15%)"
+      ]
+    },
+    {
+      "id": "eog-resources-a54b0f67a39f",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Modified U Shaped Block (a) (Osprey), TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-1f5c72362d89",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "NCMA 4(a), TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-061e50807257",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Oilbird, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "EOG Resources* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "eog-resources-b6e23ff75892",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Osprey, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-084348c2a95c",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Parula, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "EOG Resources* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "eog-resources-69d006aacd70",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Pelican, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "EOG Resources* (80%); Heritage Petroleum Company Limited (20%)"
+      ]
+    },
+    {
+      "id": "eog-resources-511c8a0f10b2",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Sercan, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "EOG Resources* (50%); BP (35%); Repsol (15%)"
+      ]
+    },
+    {
+      "id": "eog-resources-7b8aab75b830",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "Toucan, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-b0c831fe72a2",
+      "operator": "EOG Resources",
+      "country": "Trinidad and Tobago",
+      "project": "TSP Deep, TT",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-bf5f61082a0f",
+      "operator": "EOG Resources",
+      "country": "UAE",
+      "project": "Onshore Block 3 (UCO3) Shale, AE",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-424e4e623d8f",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Anadarko Tight Oil, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001,
+        2010
+      ],
+      "approvalYears": [
+        2003,
+        2010
+      ],
+      "startupYears": [
+        2003,
+        2010
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-81f7733b4639",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Anadarko_Oklahoma, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900
+      ],
+      "approvalYears": [
+        1900
+      ],
+      "startupYears": [
+        1901
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-c83ae65e1a96",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Austin Chalk Horizontal, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009,
+        2010
+      ],
+      "approvalYears": [
+        2011,
+        2018
+      ],
+      "startupYears": [
+        2011,
+        2018
+      ],
+      "ownerships": [
+        "EOG Resources* (0%); TotalEnergies (100%)",
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-babf4ce0499a",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Bakken Shale, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004,
+        2005,
+        2007,
+        2009
+      ],
+      "approvalYears": [
+        2006,
+        2008,
+        2009,
+        2010,
+        2012
+      ],
+      "startupYears": [
+        2006,
+        2008,
+        2009,
+        2010,
+        2012
+      ],
+      "ownerships": [
+        "EOG Resources* (0%); Lime Rock Resources (100%)",
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-78b1dd8c81ec",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Barnett Shale, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-be226dd182c9",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "DJ Basin Tight Oil, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-93146c3c025b",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Eagle Ford Shale, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2019
+      ],
+      "approvalYears": [
+        2009,
+        2010,
+        2022
+      ],
+      "startupYears": [
+        2009,
+        2010,
+        2022,
+        2023
+      ],
+      "ownerships": [
+        "EOG Resources* (0%); TotalEnergies (100%)",
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-a4ebfc394b97",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "MI699, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-1906127a7d98",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Permian Conventional_New Mexico, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1928
+      ],
+      "approvalYears": [
+        1942
+      ],
+      "startupYears": [
+        1942
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-03dd1d7150c4",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Permian Delaware Tight, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999,
+        2006,
+        2008
+      ],
+      "approvalYears": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "startupYears": [
+        2007,
+        2009,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)",
+        "EOG Resources* (35%); Chevron (45%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (35%); ConocoPhillips (35%); Chevron (10%); Northern Oil & Gas (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (35%); ConocoPhillips (45%); Chevron (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (35%); Occidental Petroleum (50%); ConocoPhillips (15%)",
+        "EOG Resources* (40%); ConocoPhillips (50%); Devon Energy (10%)",
+        "EOG Resources* (40%); ConocoPhillips (50%); Occidental Petroleum (10%)",
+        "EOG Resources* (45%); ConocoPhillips (45%); Occidental Petroleum (10%)",
+        "EOG Resources* (50%); Blue Arrow Operating (15%); New Height Energy (15%); Williams Oil Company (15%); Pearl Resources (5%)",
+        "EOG Resources* (60%); Chevron (10%); ConocoPhillips (10%); Devon Energy (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (61.47%); Chevron (38.53%)",
+        "EOG Resources* (65%); EQV Operating (15%); Williams Oil Company (15%); BTA Oil Producers (5%)",
+        "EOG Resources* (70%); Chevron (10%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (70%); ConocoPhillips (10%); Northern Oil & Gas (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (70%); Devon Energy (10%); Diamondback Energy (10%); Northern Oil & Gas (10%)",
+        "EOG Resources* (70%); Diamondback Energy (10%); ExxonMobil (10%); Northern Oil & Gas (10%)",
+        "EOG Resources* (75%); ExxonMobil (15%); Northern Oil & Gas (10%)",
+        "EOG Resources* (80%); APA Corporation (10%); Devon Energy (10%)",
+        "EOG Resources* (80%); APA Corporation (10%); ExxonMobil (10%)",
+        "EOG Resources* (80%); Chevron (10%); Devon Energy (10%)",
+        "EOG Resources* (80%); Chevron (10%); Lime Rock Resources (10%)",
+        "EOG Resources* (80%); Chevron (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (80%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "EOG Resources* (80%); Devon Energy (20%)",
+        "EOG Resources* (85%); ExxonMobil (15%)",
+        "EOG Resources* (90%); APA Corporation (10%)",
+        "EOG Resources* (90%); Chevron (10%)",
+        "EOG Resources* (90%); ConocoPhillips (10%)",
+        "EOG Resources* (90%); Devon Energy (10%)",
+        "EOG Resources* (90%); Lime Rock Resources (10%)",
+        "EOG Resources* (90%); TRP Energy (10%)",
+        "EOG Resources* (95%); Abraxas Petroleum (5%)",
+        "EOG Resources* (95%); APA Corporation (5%)",
+        "EOG Resources* (95%); Chevron (5%)",
+        "EOG Resources* (95%); ConocoPhillips (5%)",
+        "EOG Resources* (95%); ExxonMobil (5%)",
+        "EOG Resources* (95%); Granite Ridge Resources (5%)"
+      ]
+    },
+    {
+      "id": "eog-resources-ecf4bd85387d",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Permian Midland Tight, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2017,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "startupYears": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)",
+        "EOG Resources* (40%); Mineral Technologies (15%); Montrose Operating (15%); North Lake Resources (15%); ONEOK (15%)",
+        "EOG Resources* (60%); Diamondback Energy (10%); Occidental Petroleum (10%); Ovintiv (10%); SM Energy (10%)",
+        "EOG Resources* (70%); APA Corporation (10%); Diamondback Energy (10%); SM Energy (10%)",
+        "EOG Resources* (80%); APA Corporation (10%); SM Energy (10%)",
+        "EOG Resources* (90%); Diamondback Energy (10%)",
+        "EOG Resources* (90%); SM Energy (10%)",
+        "EOG Resources* (95%); Ares Energy (5%)",
+        "EOG Resources* (95%); Burk Royalty Co (5%)",
+        "EOG Resources* (95%); Fasken Oil and Ranch (5%)",
+        "EOG Resources* (95%); Hannathon Petroleum LLC (5%)"
+      ]
+    },
+    {
+      "id": "eog-resources-bbc581b7dac7",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Powder River_Wyoming, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-b7edb8f4d118",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "PRB Tight Oil, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2008
+      ],
+      "approvalYears": [
+        2008,
+        2009
+      ],
+      "startupYears": [
+        2008,
+        2009
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-d20f432f7638",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "San Juan Tight Oil, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-b2256418afdd",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Utica Shale, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010,
+        2011
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "EOG Resources* (0%); OWS Acquisition CO LLC (100%)",
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-357527a2d91c",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Western Gulf Province_Texas, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900
+      ],
+      "approvalYears": [
+        1901
+      ],
+      "startupYears": [
+        1901
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    },
+    {
+      "id": "eog-resources-ff74bb9d5a1a",
+      "operator": "EOG Resources",
+      "country": "United States",
+      "project": "Woodford Shale, US",
+      "sourceOperators": [
+        "EOG Resources"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "EOG Resources* (100%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Pacific Oil",
+    "sourceOperators": [
+      "Pacific Coast Energy Company",
+      "Pacific Energy Corporation",
+      "Pacific Operators Offshore LLC"
+    ],
+    "projectCount": 7,
+    "countryCount": 3,
+    "businessRegions": [
+      "东南亚",
+      "加拿大",
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pacific-oil-8831246c7f4a",
+      "operator": "Pacific Oil",
+      "country": "Canada",
+      "project": "Montney Play, CA",
+      "sourceOperators": [
+        "Pacific Energy Corporation"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2008,
+        2009
+      ],
+      "approvalYears": [
+        2008,
+        2009,
+        2020,
+        2023
+      ],
+      "startupYears": [
+        2009,
+        2010,
+        2021,
+        2023
+      ],
+      "ownerships": [
+        "Pacific Energy Corporation* (100%)",
+        "Pacific Energy Corporation* (69%); Canadian Spirit Resources (31%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-c7df06c8362b",
+      "operator": "Pacific Oil",
+      "country": "Canada",
+      "project": "Northern British Columbia_BC2, CA",
+      "sourceOperators": [
+        "Pacific Energy Corporation"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1953
+      ],
+      "startupYears": [
+        1954
+      ],
+      "ownerships": [
+        "Pacific Energy Corporation* (100%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-655361c93bc1",
+      "operator": "Pacific Oil",
+      "country": "Canada",
+      "project": "Woodfibre LNG, CA",
+      "sourceOperators": [
+        "Pacific Energy Corporation"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Pacific Energy Corporation* (70%); Enbridge (30%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-d7b20fad75b7",
+      "operator": "Pacific Oil",
+      "country": "Indonesia",
+      "project": "Kisaran (exploration), ID",
+      "sourceOperators": [
+        "Pacific Energy Corporation"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Pacific Energy Corporation* (77.5%); Bukit Energy (22.5%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-efa8f0e40c38",
+      "operator": "Pacific Oil",
+      "country": "Indonesia",
+      "project": "Parit Minyak, ID",
+      "sourceOperators": [
+        "Pacific Energy Corporation"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Pacific Energy Corporation* (77.5%); Bukit Energy (22.5%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-cd6187843de6",
+      "operator": "Pacific Oil",
+      "country": "United States",
+      "project": "Carpinteria, US",
+      "sourceOperators": [
+        "Pacific Operators Offshore LLC"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        1967
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "Pacific Operators Offshore LLC* (100%)"
+      ]
+    },
+    {
+      "id": "pacific-oil-9f23a1827dd8",
+      "operator": "Pacific Oil",
+      "country": "United States",
+      "project": "Santa Maria_California, US",
+      "sourceOperators": [
+        "Pacific Coast Energy Company"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939
+      ],
+      "approvalYears": [
+        1941
+      ],
+      "startupYears": [
+        1941
+      ],
+      "ownerships": [
+        "Pacific Coast Energy Company* (100%)"
+      ]
+    }
+  ]
+}

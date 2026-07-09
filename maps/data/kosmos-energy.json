@@ -1,0 +1,969 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Kosmos Energy",
+    "sourceOperators": [
+      "Kosmos Energy"
+    ],
+    "projectCount": 21,
+    "countryCount": 3,
+    "businessRegions": [
+      "墨西哥湾",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "kosmos-energy-f3f6377a8297",
+      "operator": "Kosmos Energy",
+      "country": "Equatorial Guinea",
+      "project": "Block S, GQ",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Kosmos Energy* (34%); Trident Energy (34%); GEPetrol (20%); Panoro Energy (12%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-f9598afc1839",
+      "operator": "Kosmos Energy",
+      "country": "Equatorial Guinea",
+      "project": "G-13, GQ",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Kosmos Energy* (34%); Trident Energy (34%); GEPetrol (20%); Panoro Energy (12%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-bba9b78b2fcf",
+      "operator": "Kosmos Energy",
+      "country": "Senegal",
+      "project": "Cayar Deep 2, SN",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Kosmos Energy* (90%); Petrosen (10%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-702c4d06180c",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "Blind Faith (FPS), US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Kosmos Energy* (40.5%); Ridgewood (20.25%); Talos Energy (20.25%); Red Willow (14%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-21ba5ef7b7a8",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "Delta House (FPS), US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Kosmos Energy* (54.88%); Ridgewood (17.5%); Talos Energy (17.5%); Calypso Exploration (10.13%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-ac1942dbc181",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "Devils Tower (Spar), US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Kosmos Energy* (34.96%); Murphy Oil (58.07%); Petrobras (6.97%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-10358f9e284b",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "GC997, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-c4a755f848ba",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "KC681, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Kosmos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-ef27096ed212",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "KC682, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Kosmos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-87f8f90078af",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "KC920, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-9a40a5eff097",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "KC963, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-21199f515b82",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "KC964, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-4bd705b71646",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "Lucius (Spar), US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2026,
+        2029
+      ],
+      "startupYears": [
+        2028,
+        2032
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-6c26b51b6e6b",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC214, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (61.06%); Ridgewood (19.47%); Talos Energy (19.47%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-0e8a2a5d3797",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC215, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (54.88%); Ridgewood (17.5%); Talos Energy (17.5%); Calypso Exploration (10.13%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-d0ca42f15f24",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC304, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Kosmos Energy* (37.5%); Red Willow (25%); Ridgewood (18.75%); Talos Energy (18.75%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-d2b335473108",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC521, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (22.5%); Ridgewood (23.85%); Talos Energy (23.85%); Red Willow (19.8%); CL&F Resources LP (7%); Houston Energy (3%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-f74e1f5e748c",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC563, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (40.5%); Ridgewood (20.25%); Talos Energy (20.25%); Red Willow (14%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-110d1cd90760",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC727, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (31.72%); Murphy Oil (68.28%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-bb33dd99315f",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "MC771, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Kosmos Energy* (75%); Murphy Oil (25%)"
+      ]
+    },
+    {
+      "id": "kosmos-energy-b2d10f499398",
+      "operator": "Kosmos Energy",
+      "country": "United States",
+      "project": "WR030, US",
+      "sourceOperators": [
+        "Kosmos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Kosmos Energy* (50%); Occidental Petroleum (50%)"
+      ]
+    }
+  ]
+}

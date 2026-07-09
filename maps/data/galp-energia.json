@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Galp Energia",
+    "sourceOperators": [
+      "Galp Energia SA"
+    ],
+    "projectCount": 4,
+    "countryCount": 2,
+    "businessRegions": [
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "galp-energia-a8944ed8867a",
+      "operator": "Galp Energia",
+      "country": "Namibia",
+      "project": "Block 2813A & 2814B (PEL 83), NA",
+      "sourceOperators": [
+        "Galp Energia SA"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2034,
+        2100
+      ],
+      "approvalYears": [
+        2037,
+        2100
+      ],
+      "startupYears": [
+        2041,
+        2100
+      ],
+      "ownerships": [
+        "Galp Energia SA* (80%); Inter Oil Ltd (10%); Namcor (10%)"
+      ]
+    },
+    {
+      "id": "galp-energia-05272292203a",
+      "operator": "Galp Energia",
+      "country": "Namibia",
+      "project": "Mopane, NA",
+      "sourceOperators": [
+        "Galp Energia SA"
+      ],
+      "regions": [
+        "South Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2024
+      ],
+      "approvalYears": [
+        2029,
+        2035
+      ],
+      "startupYears": [
+        2033,
+        2039
+      ],
+      "ownerships": [
+        "Galp Energia SA* (80%); Inter Oil Ltd (10%); Namcor (10%)"
+      ]
+    },
+    {
+      "id": "galp-energia-c4d4c5c43ef1",
+      "operator": "Galp Energia",
+      "country": "Sao Tome and Principe",
+      "project": "Block 12, ST",
+      "sourceOperators": [
+        "Galp Energia SA"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Galp Energia SA* (41.2%); Equator Exploration (46.3%); ANP-STP (12.5%)"
+      ]
+    },
+    {
+      "id": "galp-energia-fad8c77ab559",
+      "operator": "Galp Energia",
+      "country": "Sao Tome and Principe",
+      "project": "Block 6, ST",
+      "sourceOperators": [
+        "Galp Energia SA"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Galp Energia SA* (45%); Shell (45%); ANP-STP (10%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1416 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Petroperú",
+    "sourceOperators": [
+      "Petroperu"
+    ],
+    "projectCount": 31,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "petroperu-4dc2a727bd0e",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Alvarez (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-2da7f21d62c8",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Block 64, PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-e079d839595b",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Bonanza (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1953
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-62ffa1704723",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Bronco (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1946
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-280c049ea198",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Carrizal (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-08857a71350e",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Chaco (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-d69a3d832c04",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Chivo (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1951
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-8555d2b16407",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Cobra (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-4fdea809ae99",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Corral Quemado (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1937
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-7150a958445f",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Cruz I, PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-3954eb6083f4",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Cuenca (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-fd4224c36b78",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Folche, PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-1450a3e1b518",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Honda (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-e3d5c5e7539d",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Jabonillal (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1929
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-fa522b25efba",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Leones (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-51c12fb96aeb",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Lindero (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1948
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-01db88a28679",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Lobitos, PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1901
+      ],
+      "approvalYears": [
+        1904
+      ],
+      "startupYears": [
+        1905
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-fe24b90d2d6d",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Lobo (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-a312f9015c2f",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Lobo I (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-bde9dd9fe692",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Lobo II (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1929
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-221dba2a9a30",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Malacas (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-0eac84c8c070",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Media (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1946
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-f4a50c76cebf",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Millon (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-820a66d1edb2",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Puerto Rico (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1943
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-4244d38c9b80",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Rimac (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-72d5e69165cd",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Rio Bravo (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-2dc9f2d27b1e",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Rocoto (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-210dab53e998",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Santos (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-5757c7930bcf",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Siches (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1947
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-c0903dec3899",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Situche Central, PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2033,
+        2034
+      ],
+      "startupYears": [
+        2034,
+        2035
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    },
+    {
+      "id": "petroperu-48bc44bafe26",
+      "operator": "Petroperú",
+      "country": "Peru",
+      "project": "Zapote (Block VI/VII), PE",
+      "sourceOperators": [
+        "Petroperu"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Petroperu* (100%)"
+      ]
+    }
+  ]
+}

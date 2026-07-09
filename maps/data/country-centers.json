@@ -5,6 +5,15 @@
     "coordinateRule": "LABEL_Y and LABEL_X country-level representative points"
   },
   "countries": {
+    "Afghanistan": {
+      "sourceName": "Afghanistan",
+      "nameZh": "阿富汗",
+      "isoA2": "AF",
+      "center": [
+        34.164262,
+        66.496586
+      ]
+    },
     "Albania": {
       "sourceName": "Albania",
       "nameZh": "阿尔巴尼亚",
@@ -21,6 +30,15 @@
       "center": [
         27.397406,
         2.808241
+      ]
+    },
+    "Angola": {
+      "sourceName": "Angola",
+      "nameZh": "安哥拉",
+      "isoA2": "AO",
+      "center": [
+        -12.182762,
+        17.984249
       ]
     },
     "Argentina": {
@@ -59,6 +77,15 @@
         50.554816
       ]
     },
+    "Bangladesh": {
+      "sourceName": "Bangladesh",
+      "nameZh": "孟加拉国",
+      "isoA2": "BD",
+      "center": [
+        24.214956,
+        89.684963
+      ]
+    },
     "Bolivia": {
       "sourceName": "Bolivia",
       "nameZh": "玻利维亚",
@@ -95,6 +122,24 @@
         25.15709
       ]
     },
+    "Cambodia": {
+      "sourceName": "Cambodia",
+      "nameZh": "柬埔寨",
+      "isoA2": "KH",
+      "center": [
+        12.647584,
+        104.50487
+      ]
+    },
+    "Cameroon": {
+      "sourceName": "Cameroon",
+      "nameZh": "喀麦隆",
+      "isoA2": "CM",
+      "center": [
+        4.585041,
+        12.473488
+      ]
+    },
     "Canada": {
       "sourceName": "Canada",
       "nameZh": "加拿大",
@@ -104,6 +149,15 @@
         -101.9107
       ]
     },
+    "Chad": {
+      "sourceName": "Chad",
+      "nameZh": "乍得",
+      "isoA2": "TD",
+      "center": [
+        15.142959,
+        18.645041
+      ]
+    },
     "China": {
       "sourceName": "China",
       "nameZh": "中华人民共和国",
@@ -111,6 +165,15 @@
       "center": [
         32.498178,
         106.337289
+      ]
+    },
+    "Colombia": {
+      "sourceName": "Colombia",
+      "nameZh": "哥伦比亚",
+      "isoA2": "CO",
+      "center": [
+        3.373111,
+        -73.174347
       ]
     },
     "Congo": {
@@ -131,6 +194,15 @@
         -5.568618
       ]
     },
+    "Cuba": {
+      "sourceName": "Cuba",
+      "nameZh": "古巴",
+      "isoA2": "CU",
+      "center": [
+        21.334024,
+        -77.975855
+      ]
+    },
     "Cyprus": {
       "sourceName": "Cyprus",
       "nameZh": "塞浦路斯",
@@ -140,6 +212,33 @@
         33.084182
       ]
     },
+    "Democratic Republic of Congo": {
+      "sourceName": "Democratic Republic of Congo",
+      "nameZh": "刚果民主共和国",
+      "isoA2": "CD",
+      "center": [
+        -1.858167,
+        23.458829
+      ]
+    },
+    "Denmark": {
+      "sourceName": "Denmark",
+      "nameZh": "丹麦",
+      "isoA2": "DK",
+      "center": [
+        55.966965,
+        9.018163
+      ]
+    },
+    "Ecuador": {
+      "sourceName": "Ecuador",
+      "nameZh": "厄瓜多尔",
+      "isoA2": "EC",
+      "center": [
+        -1.259076,
+        -78.188375
+      ]
+    },
     "Egypt": {
       "sourceName": "Egypt",
       "nameZh": "埃及",
@@ -147,6 +246,15 @@
       "center": [
         26.186173,
         29.445837
+      ]
+    },
+    "Equatorial Guinea": {
+      "sourceName": "Equatorial Guinea",
+      "nameZh": "赤道几内亚",
+      "isoA2": "GQ",
+      "center": [
+        2.333,
+        8.9902
       ]
     },
     "France": {
@@ -167,6 +275,24 @@
         11.835939
       ]
     },
+    "Georgia": {
+      "sourceName": "Georgia",
+      "nameZh": "格鲁吉亚",
+      "isoA2": "GE",
+      "center": [
+        41.870087,
+        43.735724
+      ]
+    },
+    "Germany": {
+      "sourceName": "Germany",
+      "nameZh": "德国",
+      "isoA2": "DE",
+      "center": [
+        50.961733,
+        9.678348
+      ]
+    },
     "Ghana": {
       "sourceName": "Ghana",
       "nameZh": "加纳",
@@ -174,6 +300,42 @@
       "center": [
         7.717639,
         -1.036941
+      ]
+    },
+    "Greece": {
+      "sourceName": "Greece",
+      "nameZh": "希腊",
+      "isoA2": "GR",
+      "center": [
+        39.492763,
+        21.72568
+      ]
+    },
+    "Guatemala": {
+      "sourceName": "Guatemala",
+      "nameZh": "危地马拉",
+      "isoA2": "GT",
+      "center": [
+        14.982133,
+        -90.497134
+      ]
+    },
+    "Guinea-Bissau": {
+      "sourceName": "Guinea-Bissau",
+      "nameZh": "几内亚比绍",
+      "isoA2": "GW",
+      "center": [
+        12.163712,
+        -14.52413
+      ]
+    },
+    "Guyana": {
+      "sourceName": "Guyana",
+      "nameZh": "圭亚那",
+      "isoA2": "GY",
+      "center": [
+        5.124317,
+        -58.942643
       ]
     },
     "India": {
@@ -212,6 +374,15 @@
         -7.798588
       ]
     },
+    "Israel": {
+      "sourceName": "Israel",
+      "nameZh": "以色列",
+      "isoA2": "IL",
+      "center": [
+        30.911148,
+        34.847915
+      ]
+    },
     "Italy": {
       "sourceName": "Italy",
       "nameZh": "意大利",
@@ -221,6 +392,24 @@
         11.076907
       ]
     },
+    "Jamaica": {
+      "sourceName": "Jamaica",
+      "nameZh": "牙买加",
+      "isoA2": "JM",
+      "center": [
+        18.137124,
+        -77.318767
+      ]
+    },
+    "Japan": {
+      "sourceName": "Japan",
+      "nameZh": "日本",
+      "isoA2": "JP",
+      "center": [
+        36.142538,
+        138.44217
+      ]
+    },
     "Kazakhstan": {
       "sourceName": "Kazakhstan",
       "nameZh": "哈萨克斯坦",
@@ -228,6 +417,24 @@
       "center": [
         49.054149,
         68.685548
+      ]
+    },
+    "Lebanon": {
+      "sourceName": "Lebanon",
+      "nameZh": "黎巴嫩",
+      "isoA2": "LB",
+      "center": [
+        34.133368,
+        35.992892
+      ]
+    },
+    "Liberia": {
+      "sourceName": "Liberia",
+      "nameZh": "利比里亚",
+      "isoA2": "LR",
+      "center": [
+        6.447177,
+        -9.460379
       ]
     },
     "Libya": {
@@ -248,6 +455,15 @@
         113.83708
       ]
     },
+    "Malta": {
+      "sourceName": "Malta",
+      "nameZh": "马耳他",
+      "isoA2": "MT",
+      "center": [
+        35.892886,
+        14.433005
+      ]
+    },
     "Mauritania": {
       "sourceName": "Mauritania",
       "nameZh": "毛里塔尼亚",
@@ -264,6 +480,15 @@
       "center": [
         23.919988,
         -102.289448
+      ]
+    },
+    "Mongolia": {
+      "sourceName": "Mongolia",
+      "nameZh": "蒙古国",
+      "isoA2": "MN",
+      "center": [
+        45.997488,
+        104.150405
       ]
     },
     "Montenegro": {
@@ -302,6 +527,15 @@
         17.108166
       ]
     },
+    "Nepal": {
+      "sourceName": "Nepal",
+      "nameZh": "尼泊尔",
+      "isoA2": "NP",
+      "center": [
+        28.297925,
+        83.639914
+      ]
+    },
     "Netherlands": {
       "sourceName": "Netherlands",
       "nameZh": "荷兰",
@@ -318,6 +552,15 @@
       "center": [
         9.439799,
         7.50322
+      ]
+    },
+    "Nigeria/Sao Tome JDZ": {
+      "sourceName": "Nigeria/Sao Tome JDZ",
+      "nameZh": "圣多美和普林西比",
+      "isoA2": "ST",
+      "center": [
+        0.9709,
+        7.021
       ]
     },
     "Norway": {
@@ -338,6 +581,33 @@
         57.336553
       ]
     },
+    "Pakistan": {
+      "sourceName": "Pakistan",
+      "nameZh": "巴基斯坦",
+      "isoA2": "PK",
+      "center": [
+        29.328389,
+        68.545632
+      ]
+    },
+    "Papua New Guinea": {
+      "sourceName": "Papua New Guinea",
+      "nameZh": "巴布亚新几内亚",
+      "isoA2": "PG",
+      "center": [
+        -5.695285,
+        143.910216
+      ]
+    },
+    "Peru": {
+      "sourceName": "Peru",
+      "nameZh": "秘鲁",
+      "isoA2": "PE",
+      "center": [
+        -12.976679,
+        -72.90016
+      ]
+    },
     "Qatar": {
       "sourceName": "Qatar",
       "nameZh": "卡塔尔",
@@ -354,6 +624,24 @@
       "center": [
         0.9709,
         7.021
+      ]
+    },
+    "Saudi Arabia": {
+      "sourceName": "Saudi Arabia",
+      "nameZh": "沙特阿拉伯",
+      "isoA2": "SA",
+      "center": [
+        23.806908,
+        44.6996
+      ]
+    },
+    "Senegal": {
+      "sourceName": "Senegal",
+      "nameZh": "塞内加尔",
+      "isoA2": "SN",
+      "center": [
+        15.138125,
+        -14.778586
       ]
     },
     "Somalia": {
@@ -374,6 +662,15 @@
         23.665734
       ]
     },
+    "Spain": {
+      "sourceName": "Spain",
+      "nameZh": "西班牙",
+      "isoA2": "ES",
+      "center": [
+        40.090953,
+        -3.464718
+      ]
+    },
     "Suriname": {
       "sourceName": "Suriname",
       "nameZh": "苏里南",
@@ -390,6 +687,15 @@
       "center": [
         35.006636,
         38.277783
+      ]
+    },
+    "Taiwan (China)": {
+      "sourceName": "Taiwan (China)",
+      "nameZh": "中华民国",
+      "isoA2": "CN-TW",
+      "center": [
+        23.652408,
+        120.868204
       ]
     },
     "Tanzania": {
@@ -437,6 +743,15 @@
         9.007881
       ]
     },
+    "Turkiye": {
+      "sourceName": "Turkiye",
+      "nameZh": "土耳其",
+      "isoA2": "TR",
+      "center": [
+        39.345388,
+        34.508268
+      ]
+    },
     "Turkmenistan": {
       "sourceName": "Turkmenistan",
       "nameZh": "土库曼斯坦",
@@ -453,6 +768,15 @@
       "center": [
         23.466285,
         54.547256
+      ]
+    },
+    "Uganda": {
+      "sourceName": "Uganda",
+      "nameZh": "乌干达",
+      "isoA2": "UG",
+      "center": [
+        1.972589,
+        32.948555
       ]
     },
     "Ukraine": {
@@ -507,6 +831,15 @@
       "center": [
         21.715416,
         105.387292
+      ]
+    },
+    "Yemen": {
+      "sourceName": "Yemen",
+      "nameZh": "也门",
+      "isoA2": "YE",
+      "center": [
+        15.328226,
+        45.874383
       ]
     }
   }

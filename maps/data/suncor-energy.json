@@ -1,0 +1,2133 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Suncor Energy",
+    "sourceOperators": [
+      "Suncor Energy"
+    ],
+    "projectCount": 45,
+    "countryCount": 2,
+    "businessRegions": [
+      "中东及南亚",
+      "加拿大"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "suncor-energy-b8cb8dfc183e",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Balaena, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-e21d4b61a42d",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Ballicatters, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Suncor Energy* (50%); Equinor (50%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-f4fef27f5730",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Beothuk, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Suncor Energy* (33.99%); ExxonMobil (22%); Equinor (15%); Cenovus Energy (12.51%); Murphy Oil (12%); Mosbacher Energy (3.5%); Chevron (1%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-55e7911b79dd",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Bjarni North, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-dde05e8a1d9a",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Bjarni, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2065
+      ],
+      "startupYears": [
+        2069
+      ],
+      "ownerships": [
+        "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-5e37f11fbe27",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Cape Allison, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-3fcfd0682e55",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Cape Macmillan, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Suncor Energy* (24.82%); BP (33.75%); Other partner(s) CA (12.68%); Canadian Natural Resources (CNRL) (8.75%); ExxonMobil (6.49%); ConocoPhillips (5.67%); Devon Energy (5.16%); TEI Arctic (1984) (1.55%); Mosbacher Energy (1.13%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-b05fc92b4626",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Char, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-2b0da5bf2451",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Chard, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-670c2bad04be",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Cisco, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-e2689518c0b9",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Corner, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-31362b260005",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Drake Point, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-75943b2e2d2c",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Firebag, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        1999,
+        2001,
+        2002,
+        2007,
+        2010,
+        2013,
+        2026,
+        2027,
+        2028,
+        2032,
+        2033
+      ],
+      "startupYears": [
+        2004,
+        2006,
+        2007,
+        2011,
+        2012,
+        2016,
+        2028,
+        2033,
+        2034,
+        2037,
+        2038
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-2bec5e00a0cd",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Fort Hills, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2013,
+        2021,
+        2034
+      ],
+      "startupYears": [
+        2018,
+        2022,
+        2035
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-81aaf19efe27",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Great Bear Lake, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985,
+        1986,
+        2034,
+        2046
+      ],
+      "approvalYears": [
+        2036,
+        2042,
+        2056
+      ],
+      "startupYears": [
+        2041,
+        2049,
+        2061
+      ],
+      "ownerships": [
+        "Suncor Energy* (75%); Cenovus Energy (25%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-4b3b26dd564e",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Gudrid, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2062
+      ],
+      "startupYears": [
+        2066
+      ],
+      "ownerships": [
+        "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-a77f2ce7b67e",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Hecla, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-e750cf3ef3dc",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Jackson Bay, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-4b905384022e",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "King's Cove, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Suncor Energy* (63.94%); Equinor (27.4%); Cenovus Energy (6.73%); Mosbacher Energy (1.92%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-eb2051680680",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Lewis, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2029,
+        2032,
+        2043,
+        2044
+      ],
+      "startupYears": [
+        2034,
+        2037,
+        2046,
+        2047
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-09ee19686165",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "MacKay River (Suncor), CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1997,
+        2040
+      ],
+      "startupYears": [
+        2002,
+        2043
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-0664fde98934",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Mackenzie Delta Gas Project, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-7ed9f6222b61",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Maclean, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-07e38905a8fe",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Macmillan, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-652fddda57c4",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Meadow Creek, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2043,
+        2046,
+        2047
+      ],
+      "startupYears": [
+        2046,
+        2049,
+        2050
+      ],
+      "ownerships": [
+        "Suncor Energy* (75%); CNOOC (25%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-7365f4067f33",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Other (NT), CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-223c33490fc4",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Pelly, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2072
+      ],
+      "startupYears": [
+        2077
+      ],
+      "ownerships": [
+        "Suncor Energy* (45%); ConocoPhillips (27.5%); Other partner(s) CA (27.5%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-b4869cbe1dea",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "PL 1003, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-81ffcc8e7433",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "PL 1004, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-fa08e196af5c",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Roche Point, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-2b20e73746d3",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Sculpin, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-9cd80b2f98d6",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "SDL 046, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-608ab8ec0ff0",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "SDL 071 (Thor), CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2050
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-1bc645a38c41",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "SDL 077, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-9cbbf9228461",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "SDL 145, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-877006c66504",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Skate, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-452a3feda6d7",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Snorri, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-f99ad4dc3eda",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Suncor Oil Sands Project, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1925
+      ],
+      "approvalYears": [
+        1962,
+        2003,
+        2058
+      ],
+      "startupYears": [
+        1967,
+        2007,
+        2008,
+        2061
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-c78677fb2281",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Syncrude Mildred Lake/Aurora, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1973,
+        2001,
+        2021,
+        2026,
+        2035,
+        2038
+      ],
+      "startupYears": [
+        1978,
+        2006,
+        2025,
+        2030,
+        2038,
+        2041
+      ],
+      "ownerships": [
+        "Suncor Energy* (58.74%); ExxonMobil (17.5%); Sinopec Group (parent) (9.03%); Imperial Oil (Public traded part) (7.5%); CNOOC (7.23%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-75088dc31afe",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Tamarack, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2065,
+        2070
+      ],
+      "startupYears": [
+        2068,
+        2073
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-c35eebe838cf",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Terra Nova, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2042
+      ],
+      "approvalYears": [
+        1999,
+        2056
+      ],
+      "startupYears": [
+        2002,
+        2069
+      ],
+      "ownerships": [
+        "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-884b703037d6",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Thornbury, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-c629af55e05f",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Voyageur South, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2062
+      ],
+      "startupYears": [
+        2066
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-9aef384196ba",
+      "operator": "Suncor Energy",
+      "country": "Canada",
+      "project": "Whitefish, CA",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    },
+    {
+      "id": "suncor-energy-daf93209e987",
+      "operator": "Suncor Energy",
+      "country": "Syria",
+      "project": "Ebla, SY",
+      "sourceOperators": [
+        "Suncor Energy"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2006
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Suncor Energy* (100%)"
+      ]
+    }
+  ]
+}

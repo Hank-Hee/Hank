@@ -1,0 +1,880 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "YPFB",
+    "sourceOperators": [
+      "YPFB Andina"
+    ],
+    "projectCount": 19,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "ypfb-fd7d9ff3c533",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Arroyo Negro, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-de8d19f0f828",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Boqueron 4 (BQN-4), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-aaa34f765f3e",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Camiri, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1925
+      ],
+      "approvalYears": [
+        1927
+      ],
+      "startupYears": [
+        1927
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-ee60816b1c3d",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Campo Camiri (Camiri), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-155d34f12ae3",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Campo Guairuy (Guairuy), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-50698f987c18",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Campo Rio Grande (Rio Grande), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-0e8de286e8c4",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Campo Sirari (Sirari), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-805abc6f8cf8",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Enconada 2, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-976b9874d1c5",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Guairuy, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1947
+      ],
+      "approvalYears": [
+        1949
+      ],
+      "startupYears": [
+        1950
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-d78a30088a36",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Los Penocos, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997,
+        2027
+      ],
+      "approvalYears": [
+        1999,
+        2041
+      ],
+      "startupYears": [
+        1999,
+        2042
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-c6b81dd3b40a",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Los Sauces, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-66daca52644f",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Palacios 2, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-8b07de2abef1",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Patuju, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-b6e0f75c2248",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Puerto Palos, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-98fed04b281a",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Remanso, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-15668398d5ae",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Rio Grande, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-3ece6a9dd9f8",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Sara Boomerang-III (Arroyo Negro), BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-9a75032a5c56",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Sirari, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1988
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    },
+    {
+      "id": "ypfb-0758d5cdba1b",
+      "operator": "YPFB",
+      "country": "Bolivia",
+      "project": "Yapacani, BO",
+      "sourceOperators": [
+        "YPFB Andina"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "YPFB Andina* (100%)"
+      ]
+    }
+  ]
+}

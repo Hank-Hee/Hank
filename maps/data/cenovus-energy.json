@@ -1,0 +1,3417 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Cenovus Energy",
+    "sourceOperators": [
+      "Cenovus Energy"
+    ],
+    "projectCount": 68,
+    "countryCount": 3,
+    "businessRegions": [
+      "中国及东北亚",
+      "加拿大"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "cenovus-energy-78622431c763",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Ben Nevis, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Cenovus Energy* (21.88%); ExxonMobil (51.25%); Suncor Energy (17.5%); Chevron (9.38%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-43e8ecd9a0c2",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Canol Shale, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-4cb02cae347c",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Cardium Play, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001,
+        2006,
+        2007
+      ],
+      "approvalYears": [
+        2001,
+        2010,
+        2011
+      ],
+      "startupYears": [
+        2001,
+        2010,
+        2011,
+        2012
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-921baa557d96",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Caribou Lake, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-025cde365dce",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Central Alberta_AB5, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1942,
+        1953
+      ],
+      "approvalYears": [
+        1946,
+        1959
+      ],
+      "startupYears": [
+        1951,
+        1963
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-8c8c17231e3f",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Central Saskatchewan_SK1, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-3c28aa84829b",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Christina Lake North, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2003,
+        2004,
+        2011,
+        2018,
+        2023,
+        2033,
+        2037
+      ],
+      "startupYears": [
+        2008,
+        2009,
+        2013,
+        2021,
+        2026,
+        2036,
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-84ce679c9220",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Christina Lake, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2000,
+        2004,
+        2006,
+        2009,
+        2011,
+        2012,
+        2015,
+        2017,
+        2030
+      ],
+      "startupYears": [
+        2002,
+        2008,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2020,
+        2033
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-d37ee3e998ac",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Cold Lake (AB), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939
+      ],
+      "approvalYears": [
+        1944
+      ],
+      "startupYears": [
+        1949
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-0f6954268a2a",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Dunvegan, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-cfdca4d1f4be",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Duvernay, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2011,
+        2015
+      ],
+      "approvalYears": [
+        2009,
+        2011,
+        2026
+      ],
+      "startupYears": [
+        2009,
+        2012,
+        2026
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-12bb46aa0ffd",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "East Central Alberta_AB4, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1940,
+        1990,
+        1994,
+        1996,
+        1999
+      ],
+      "approvalYears": [
+        1945,
+        1991,
+        1996,
+        2000,
+        2001
+      ],
+      "startupYears": [
+        1949,
+        1991,
+        1996,
+        2000,
+        2005
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-be74fa6571e6",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "East McMurray, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-bbaa3921efb1",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "EL 1164, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-5e3c64cdf4ec",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Foothills Front_AB2, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1943,
+        1944,
+        1960,
+        1969,
+        1978,
+        1988
+      ],
+      "approvalYears": [
+        1949,
+        1950,
+        1961,
+        1969,
+        1978,
+        1988
+      ],
+      "startupYears": [
+        1954,
+        1961,
+        1969,
+        1978,
+        1979,
+        1989
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-0e8056fac766",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Foothills_AB1, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954,
+        2002
+      ],
+      "approvalYears": [
+        1960,
+        2003
+      ],
+      "startupYears": [
+        1964,
+        2003
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-3eedaf317f8d",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Fortune, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Cenovus Energy* (45.31%); Equinor (32.5%); Suncor Energy (17.5%); Chevron (4.69%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-33f7be0ff924",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Foster Creek, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1980s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982,
+        1985
+      ],
+      "approvalYears": [
+        1992,
+        1996,
+        1999,
+        2001,
+        2002,
+        2003,
+        2011,
+        2012,
+        2022,
+        2028,
+        2034,
+        2035,
+        2039,
+        2043
+      ],
+      "startupYears": [
+        2001,
+        2003,
+        2005,
+        2006,
+        2008,
+        2014,
+        2016,
+        2025,
+        2031,
+        2037,
+        2040,
+        2042,
+        2046
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-0ac37f482581",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Garrington, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1955
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-c91dbcbe9ad7",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Hekja, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Cenovus Energy* (42.5%); Suncor Energy (57.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-615fe94ece64",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Hopedale, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Cenovus Energy* (19.4%); Suncor Energy (25.61%); Chevron (22.33%); Canadian Natural Resources (CNRL) (8.96%); Paddon Hughes Development (8.17%); Enstar Petroleum (4.58%); Denco Investments (2.33%); Tredavco Investments (2.33%); Gotthold Holdings (2%); Ovintiv (1.53%); ConocoPhillips (1.37%); BP (0.87%); Baytex Energy (0.46%); Prairie Provident Resources (0.06%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-1d62492e41dc",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Horn River Shale, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009,
+        2012
+      ],
+      "approvalYears": [
+        2013,
+        2033
+      ],
+      "startupYears": [
+        2013,
+        2034
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-8ba2fc515e63",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Kirby West, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2029,
+        2047,
+        2061
+      ],
+      "startupYears": [
+        2034,
+        2052,
+        2067
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-9c81d0bf8ac2",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Lloyd Thermal, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2010s)",
+        "Producing 25-50%",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949,
+        1993,
+        1994,
+        2005,
+        2011,
+        2013,
+        2014,
+        2016,
+        2017
+      ],
+      "approvalYears": [
+        1955,
+        1995,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2030,
+        2031,
+        2032,
+        2035,
+        2036,
+        2037,
+        2039,
+        2040,
+        2041,
+        2042
+      ],
+      "startupYears": [
+        1996,
+        2012,
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2022,
+        2033,
+        2034,
+        2035,
+        2038,
+        2039,
+        2040,
+        2042,
+        2043,
+        2045
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-1735aa4d1cd0",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Lloydminster (SK), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1954
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-961e51c5aff3",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Lloydminster Heavy (AB), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-34e6e6d68a69",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Mannville Group, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-c922779ae911",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "May River Regional Project, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2060,
+        2067,
+        2070
+      ],
+      "startupYears": [
+        2065,
+        2070,
+        2074
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-6f42a139fbfb",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "McMullen Thermal, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-93c07b8ddb6f",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "McMullen, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-37f1affc30c1",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Montney Play, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2011,
+        2016
+      ],
+      "approvalYears": [
+        2009,
+        2011,
+        2017
+      ],
+      "startupYears": [
+        2009,
+        2012,
+        2017
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-16deba4933f6",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Muskwa, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-5abf01b1e053",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Narrows Lake, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2021,
+        2042,
+        2044,
+        2046
+      ],
+      "startupYears": [
+        2025,
+        2045,
+        2047,
+        2049
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-b52014cdc420",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Northeastern Alberta_AB6, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1966
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-03325f23cb51",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Northern British Columbia_BC2, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984,
+        2001
+      ],
+      "approvalYears": [
+        1985,
+        2001
+      ],
+      "startupYears": [
+        1985,
+        2002
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-33101d12cc35",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Northwestern Alberta_AB7, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950,
+        1951,
+        1964
+      ],
+      "approvalYears": [
+        1958,
+        1959,
+        1964
+      ],
+      "startupYears": [
+        1962,
+        1965,
+        1975
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-a9f29e74f9f7",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Other, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1998
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-4969bf99f8db",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Peavey, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-7369743b68dd",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Pikes Peak, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-c05ae5b9dca1",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "PL 1006, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-90cbcfb43fa3",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "PL 1007, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-a4c67fa14a5a",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "PL 1008, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-66fa06604497",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "PL 1009, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-5186b65085c4",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "PL 1010, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-f5e12513f1a0",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Point E-49 East, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Cenovus Energy* (3.84%); Paramount Resources (21.11%); SOQUIP (15.36%); Chevron (15%); BP (11.52%); New York Oils (8%); ExxonMobil (5%); Tripet (5%); Petrofina Delaware, Incorporated (3.57%); Suncor Energy (3.57%); Dynamar Energy (3.33%); Imperial Oil (Public traded part) (2.14%); Kam-Kotia Mines (2%); United MacFie Resource (0.56%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-425bbea746b6",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Saleski Husky, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-a96d58688dcd",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "SDL 138, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-c37809857bb2",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "SDL 139, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-19d482561d3a",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "SDL 140, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-84d41e9b4af3",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "SDL 147, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2048
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2063
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-d019c68b9a6e",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "SDL 153, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2049
+      ],
+      "approvalYears": [
+        2059
+      ],
+      "startupYears": [
+        2064
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-a283751b3ad4",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Southeastern Alberta_AB3, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1939,
+        1960
+      ],
+      "approvalYears": [
+        1945,
+        1961
+      ],
+      "startupYears": [
+        1949,
+        1961
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-761ec31819b5",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Southwestern Saskatchewan_SK2, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-bfd94f86cc93",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Spirit River (Notikewin, Falher, Wilrich), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006,
+        2008,
+        2010,
+        2011,
+        2014
+      ],
+      "approvalYears": [
+        2008,
+        2010,
+        2011,
+        2012,
+        2014,
+        2017
+      ],
+      "startupYears": [
+        2008,
+        2011,
+        2012,
+        2014,
+        2018
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-5f430d2bd518",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Stewart (SDL-138 & 139), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (59.28%); TAQA (Abu Dhabi National Energy Company) (32.5%); International Frontier Resources (8.22%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-67e56b0a22fb",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Summit Creek B-44, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Cenovus Energy* (59.29%); TAQA (Abu Dhabi National Energy Company) (32.5%); International Frontier Resources (8.21%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-8a20f3868c6e",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Sunrise, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2010,
+        2041,
+        2043
+      ],
+      "startupYears": [
+        2015,
+        2044,
+        2047
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-e6f4e9794953",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Surmont Oil Sands (MEG Energy), CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2040,
+        2044,
+        2047
+      ],
+      "startupYears": [
+        2044,
+        2047,
+        2050
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-970e94215e60",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Telephone Lake, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2052,
+        2060
+      ],
+      "startupYears": [
+        2057,
+        2064
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-398f8a44439a",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Trave, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        2062
+      ],
+      "startupYears": [
+        2066
+      ],
+      "ownerships": [
+        "Cenovus Energy* (37.5%); ExxonMobil (28.13%); Suncor Energy (17.5%); Chevron (9.38%); Equinor (7.5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-6364bdc8edf0",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "White Rose Extension, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Under development"
+      ],
+      "facilities": [
+        "Concrete GB",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2006,
+        2017,
+        2018
+      ],
+      "approvalYears": [
+        2017,
+        2029,
+        2041
+      ],
+      "startupYears": [
+        2026,
+        2032,
+        2043
+      ],
+      "ownerships": [
+        "Cenovus Energy* (56.38%); Suncor Energy (38.63%); Newfoundland and Labrador Hydro (5%)",
+        "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)",
+        "Cenovus Energy* (93.23%); Newfoundland and Labrador Hydro (6.77%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-93d21c73f923",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "White Rose, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1984,
+        2003,
+        2006
+      ],
+      "approvalYears": [
+        2002,
+        2009,
+        2010,
+        2013
+      ],
+      "startupYears": [
+        2005,
+        2010,
+        2011,
+        2015
+      ],
+      "ownerships": [
+        "Cenovus Energy* (56.38%); Suncor Energy (38.63%); Newfoundland and Labrador Hydro (5%)",
+        "Cenovus Energy* (60%); Suncor Energy (40%)",
+        "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-a7be15152b81",
+      "operator": "Cenovus Energy",
+      "country": "Canada",
+      "project": "Winefred Lake Phase 1, CA",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-689ab29ed805",
+      "operator": "Cenovus Energy",
+      "country": "China",
+      "project": "Block 15/33, CN",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-f59f2bbde21e",
+      "operator": "Cenovus Energy",
+      "country": "China",
+      "project": "Block 16/25, CN",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-6900868c3709",
+      "operator": "Cenovus Energy",
+      "country": "China",
+      "project": "Liwan_Shenzhen, CN",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2006,
+        2009,
+        2010,
+        2036,
+        2039,
+        2040
+      ],
+      "approvalYears": [
+        2011,
+        2019,
+        2027,
+        2038,
+        2042
+      ],
+      "startupYears": [
+        2014,
+        2020,
+        2028,
+        2040,
+        2044,
+        2049
+      ],
+      "ownerships": [
+        "Cenovus Energy* (49%); CNOOC (51%)",
+        "Cenovus Energy* (75%); CNOOC (25%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-dc7adcbb2c99",
+      "operator": "Cenovus Energy",
+      "country": "China",
+      "project": "Xijiang 34-3, CN",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1986,
+        2036
+      ],
+      "approvalYears": [
+        2033,
+        2039
+      ],
+      "startupYears": [
+        2035,
+        2044
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    },
+    {
+      "id": "cenovus-energy-820ed05046b5",
+      "operator": "Cenovus Energy",
+      "country": "Taiwan (China)",
+      "project": "Block Deep Water 1 (DW-1), TW",
+      "sourceOperators": [
+        "Cenovus Energy"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Cenovus Energy* (100%)"
+      ]
+    }
+  ]
+}

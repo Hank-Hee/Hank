@@ -1,0 +1,1426 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Devon Energy",
+    "sourceOperators": [
+      "Devon Energy"
+    ],
+    "projectCount": 25,
+    "countryCount": 2,
+    "businessRegions": [
+      "加拿大",
+      "北美其他",
+      "墨西哥湾"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "devon-energy-1dfbd223ed01",
+      "operator": "Devon Energy",
+      "country": "Canada",
+      "project": "Paktoa C-60, CA",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-3a3b1fe7d4a9",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Anadarko Shelf_Oklahoma, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1902
+      ],
+      "approvalYears": [
+        1902
+      ],
+      "startupYears": [
+        1903
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-9f7292757795",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Anadarko_Oklahoma, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900
+      ],
+      "approvalYears": [
+        1901
+      ],
+      "startupYears": [
+        1901
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-6441ed04c46f",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Anadarko_Texas, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1903
+      ],
+      "approvalYears": [
+        1904
+      ],
+      "startupYears": [
+        1904
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-5bb4bebbd09a",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Ardmore_Oklahoma, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-b4bbd959203e",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Arkoma_Oklahoma, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1909
+      ],
+      "approvalYears": [
+        1910
+      ],
+      "startupYears": [
+        1911
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-9625c2ed2360",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Austin Chalk Horizontal, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-de72a8cab68b",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Bakken Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004,
+        2005,
+        2006,
+        2007
+      ],
+      "approvalYears": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "startupYears": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-8089ee80f49a",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Eagle Ford Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2008
+      ],
+      "approvalYears": [
+        2008,
+        2010
+      ],
+      "startupYears": [
+        2008,
+        2010
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-85b009f4ff3b",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "HI156, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-345f6a8d386f",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "HIA 342, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-5d5f02b75c0e",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "HIA 559, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-fe38e55c3b5c",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Marcellus Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-922aa78520df",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Meramec Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2013
+      ],
+      "approvalYears": [
+        2011,
+        2014
+      ],
+      "startupYears": [
+        2012,
+        2014
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-c3f60d7655b0",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Michigan_Michigan, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1972
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-7432915add03",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Permian Conventional_New Mexico, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1929
+      ],
+      "approvalYears": [
+        1929,
+        1934
+      ],
+      "startupYears": [
+        1930,
+        1934
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-52fdb46867a0",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Permian Conventional_Texas, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1924,
+        1948
+      ],
+      "approvalYears": [
+        1949,
+        1958
+      ],
+      "startupYears": [
+        1949,
+        1958
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-33fd2c27d69f",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Permian Delaware Tight, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956,
+        1998,
+        1999,
+        2006,
+        2008,
+        2012
+      ],
+      "approvalYears": [
+        1957,
+        1999,
+        2000,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "startupYears": [
+        1957,
+        1999,
+        2001,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "ownerships": [
+        "Devon Energy* (0%); US Energy Corporation (100%)",
+        "Devon Energy* (100%)",
+        "Devon Energy* (25%); ConocoPhillips (50%); Chevron (25%)",
+        "Devon Energy* (32.5%); Chevron (17.5%); Blue Arrow Operating (15%); Elk River Resources (15%); Williams Oil Company (15%); Tarpon (5%)",
+        "Devon Energy* (32.5%); Chevron (17.5%); Burnett Oil Company (15%); Prorex Energy (15%); Williams Oil Company (15%); Teakwood Operating (5%)",
+        "Devon Energy* (32.5%); Chevron (17.5%); Durango Resources (15%); Moontower Resources (15%); Williams Oil Company (15%); Antelope Energy Partners, LLC (5%)",
+        "Devon Energy* (32.5%); Chevron (17.5%); Longfellow Energy (15%); Seaboard Operating (15%); Williams Oil Company (15%); Antelope Energy Partners, LLC (5%)",
+        "Devon Energy* (32.5%); Chevron (17.5%); Notting Hill Energy (15%); Oxbow Petroleum (15%); Williams Oil Company (15%); Amtex Energy (5%)",
+        "Devon Energy* (35%); APA Corporation (35%); ConocoPhillips (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); BP (35%); Chevron (10%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); BP (45%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); BP (50%); Chevron (15%)",
+        "Devon Energy* (35%); BP (50%); ExxonMobil (15%)",
+        "Devon Energy* (35%); Chevron (45%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); ConocoPhillips (35%); Chevron (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); ConocoPhillips (35%); Chevron (10%); Occidental Petroleum (10%); TRP Energy (10%)",
+        "Devon Energy* (35%); ConocoPhillips (45%); Chevron (10%); Matador Resources (10%)",
+        "Devon Energy* (35%); ConocoPhillips (45%); Chevron (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); ConocoPhillips (45%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (35%); ConocoPhillips (45%); Occidental Petroleum (10%); TRP Energy (10%)",
+        "Devon Energy* (35%); ConocoPhillips (50%); Chevron (15%)",
+        "Devon Energy* (35%); ConocoPhillips (50%); Occidental Petroleum (15%)",
+        "Devon Energy* (35%); Covington SWD (15%); Crescent Energy Company (15%); Last Mile Production (15%); Williams Oil Company (15%); Sven Permian (5%)",
+        "Devon Energy* (35%); EOG Resources (50%); ConocoPhillips (15%)",
+        "Devon Energy* (37.5%); Chevron (17.5%); Greenlake Energy (15%); Scout Energy Partners (15%); Williams Oil Company (15%)",
+        "Devon Energy* (40%); BP (50%); Chevron (10%)",
+        "Devon Energy* (40%); Chevron (50%); TRP Energy (10%)",
+        "Devon Energy* (40%); ConocoPhillips (50%); Chevron (10%)",
+        "Devon Energy* (40%); ConocoPhillips (50%); Matador Resources (10%)",
+        "Devon Energy* (40%); ConocoPhillips (50%); Northern Oil & Gas (10%)",
+        "Devon Energy* (40%); ConocoPhillips (50%); Occidental Petroleum (10%)",
+        "Devon Energy* (40%); TRP Energy (50%); Northern Oil & Gas (10%)",
+        "Devon Energy* (42.5%); Chevron (42.5%); ExxonMobil (15%)",
+        "Devon Energy* (42.87%); APA Corporation (19.05%); BP (9.52%); Chevron (9.52%); ConocoPhillips (9.52%); Occidental Petroleum (9.52%)",
+        "Devon Energy* (45%); APA Corporation (40%); ExxonMobil (15%)",
+        "Devon Energy* (45%); Chevron (35%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Devon Energy* (45%); Chevron (45%); ConocoPhillips (10%)",
+        "Devon Energy* (45%); Chevron (45%); Occidental Petroleum (10%)",
+        "Devon Energy* (45%); Chevron (45%); Permian Resources (10%)",
+        "Devon Energy* (45%); ConocoPhillips (25%); APA Corporation (10%); Chevron (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (45%); ConocoPhillips (25%); Chevron (10%); ExxonMobil (10%); Permian Resources (10%)",
+        "Devon Energy* (45%); ConocoPhillips (35%); APA Corporation (10%); Chevron (10%)",
+        "Devon Energy* (45%); ConocoPhillips (35%); APA Corporation (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (45%); ConocoPhillips (35%); BP (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (45%); ConocoPhillips (35%); Chevron (10%); ExxonMobil (10%)",
+        "Devon Energy* (45%); ConocoPhillips (45%); ExxonMobil (10%)",
+        "Devon Energy* (45%); EOG Resources (45%); APA Corporation (10%)",
+        "Devon Energy* (46.96%); Occidental Petroleum (11.67%); Chevron (11.37%); BP (10%); ConocoPhillips (10%); ExxonMobil (10%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Abraxas Petroleum (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); APA Corporation (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); ConocoPhillips (2.5%); Occidental Petroleum (2.5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); ConocoPhillips (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Crescent Energy Company (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); EOG Resources (4.47%); Granite Ridge Resources (0.53%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); ExxonMobil (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Granite Ridge Resources (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Matador Resources (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Scout Energy Partners (5%)",
+        "Devon Energy* (47.5%); Chevron (47.5%); Williams Oil Company (5%)",
+        "Devon Energy* (50%); BP (10%); Chevron (10%); ConocoPhillips (10%); ExxonMobil (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (50%); BP (50%)",
+        "Devon Energy* (50%); Caird Operating (15%); Olsen Energy (15%); Williams Oil Company (15%); KZ Global Energy (5%)",
+        "Devon Energy* (50%); Chevron (50%)",
+        "Devon Energy* (50%); ConocoPhillips (50%)",
+        "Devon Energy* (50%); Continental Resources (50%)",
+        "Devon Energy* (50%); Covington SWD (15%); Sven Permian (15%); Williams Oil Company (15%); Juno Operating Company III (5%)",
+        "Devon Energy* (50%); Durango Resources (15%); Point Energy (15%); Williams Oil Company (15%); Longfellow Energy (5%)",
+        "Devon Energy* (50%); EOG Resources (50%)",
+        "Devon Energy* (50%); Forge Energy (15%); Sven Permian (15%); Williams Oil Company (15%); Sundown (5%)",
+        "Devon Energy* (50%); Juno Operating Company III (15%); Sven Permian (15%); Williams Oil Company (15%); Covington SWD (5%)",
+        "Devon Energy* (50%); Longfellow Energy (15%); Moontower Resources (15%); Williams Oil Company (15%); Stout Energy (5%)",
+        "Devon Energy* (52.5%); Chevron (47.5%)",
+        "Devon Energy* (60%); APA Corporation (10%); Chevron (10%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (70%); Chevron (10%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (78.75%); BP (21.25%)",
+        "Devon Energy* (80%); APA Corporation (10%); TRP Energy (10%)",
+        "Devon Energy* (80%); Battalion Oil Corporation (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (80%); BP (10%); TRP Energy (10%)",
+        "Devon Energy* (80%); Chevron (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (80%); ConocoPhillips (10%); Occidental Petroleum (10%)",
+        "Devon Energy* (80%); ExxonMobil (10%); Northern Oil & Gas (10%)",
+        "Devon Energy* (85%); ExxonMobil (15%)",
+        "Devon Energy* (90%); APA Corporation (10%)",
+        "Devon Energy* (90%); BP (10%)",
+        "Devon Energy* (90%); ConocoPhillips (10%)",
+        "Devon Energy* (90%); Continental Resources (10%)",
+        "Devon Energy* (90%); ExxonMobil (10%)",
+        "Devon Energy* (90%); Northern Oil & Gas (10%)",
+        "Devon Energy* (90%); Occidental Petroleum (10%)",
+        "Devon Energy* (90%); TRP Energy (10%)",
+        "Devon Energy* (95%); APA Corporation (5%)",
+        "Devon Energy* (95%); BP (5%)",
+        "Devon Energy* (95%); Chevron (5%)",
+        "Devon Energy* (95%); ConocoPhillips (5%)",
+        "Devon Energy* (95%); EOG Resources (5%)",
+        "Devon Energy* (95%); ExxonMobil (5%)",
+        "Devon Energy* (95%); Granite Ridge Resources (5%)"
+      ]
+    },
+    {
+      "id": "devon-energy-860e8dfdda4a",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Permian Midland Tight, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "startupYears": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "ownerships": [
+        "Devon Energy* (25%); Formentera Partners (25%); Ring Energy (25%); Sheridan Production Partners (25%)",
+        "Devon Energy* (40%); 3-T Exploration (15%); Fasken Oil and Ranch (15%); MV2 Energy (15%); RMB Operating (15%)",
+        "Devon Energy* (40%); BJG Operating Company (15%); EF Oil And Gas Invest (15%); Tsar Operating Company (15%); Windy Cove Energy II (15%)",
+        "Devon Energy* (40%); Cooper Oil Company (15%); D & D Well Service (15%); Rock Fish Operating (15%); Urban Oil & Gas Group LLC (15%)",
+        "Devon Energy* (40%); D & D Well Service (15%); Kerogen Texas Energy (15%); QP Inc (15%); Silver Creek Oil & Gas (15%)",
+        "Devon Energy* (40%); Diversified Energy Company (15%); Lime Rock Resources (15%); Red Tail Exploration (15%); Scout Energy Partners (15%)",
+        "Devon Energy* (40%); E R Operating Company (15%); Petroplex Energy (15%); Raptor Petroleum Develop (15%); Samsung (15%)",
+        "Devon Energy* (40%); Element Petroleum Operating LLC (15%); Iron Orchard (15%); Vin Fisher Operating (15%); Walkabout Operating (15%)",
+        "Devon Energy* (40%); FourPoint Energy (15%); Platform Operating (15%); SOGC, Inc (15%); West Texas Oil and Gas (15%)",
+        "Devon Energy* (40%); Grace Petroleum Operating (15%); Hadaway Consulting and Engineering LLC (15%); Ivory Energy (15%); J. Cleo Thompson Petroleum (15%)",
+        "Devon Energy* (40%); Kerogen Texas Energy (15%); Mineral Technologies (15%); Munson, David M. (15%); White Rock Oil & Gas (15%)",
+        "Devon Energy* (40%); Pioneer Exploration, LLC (15%); Rockport Energy (15%); T2S Permian Acquisition II (15%); United Production Partners (15%)",
+        "Devon Energy* (43.24%); Approach Resources (9.46%); EOG Resources (9.46%); EPIC Pipeline LP (9.46%); Extex (9.46%); United Production Partners (9.46%); Zarvona Energy (9.46%)",
+        "Devon Energy* (50%); EPIC Pipeline LP (25%); Zarvona Energy (25%)",
+        "Devon Energy* (65%); Permian Resources (35%)",
+        "Devon Energy* (90%); Ring Energy (10%)",
+        "Devon Energy* (90%); RRP Operating LLC (10%)"
+      ]
+    },
+    {
+      "id": "devon-energy-0bf463caf7e8",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "PRB Tight Oil, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2009,
+        2010
+      ],
+      "approvalYears": [
+        2010,
+        2011
+      ],
+      "startupYears": [
+        2010,
+        2011
+      ],
+      "ownerships": [
+        "Devon Energy* (0%); Sinopec Group (parent) (100%)",
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-dc2521c5f912",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "SS260, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-096128bc486b",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Utica Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-7ca775fae51b",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "WC548, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-56a2379b3665",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Williston_Montana, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "Devon Energy* (100%)"
+      ]
+    },
+    {
+      "id": "devon-energy-2e633571cd35",
+      "operator": "Devon Energy",
+      "country": "United States",
+      "project": "Woodford Shale, US",
+      "sourceOperators": [
+        "Devon Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005,
+        2007,
+        2013
+      ],
+      "approvalYears": [
+        2006,
+        2008,
+        2021
+      ],
+      "startupYears": [
+        2006,
+        2009,
+        2021
+      ],
+      "ownerships": [
+        "Devon Energy* (0%); Dow Chemical Company (100%)",
+        "Devon Energy* (100%)"
+      ]
+    }
+  ]
+}

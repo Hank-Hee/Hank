@@ -1,0 +1,8863 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Talos Energy",
+    "sourceOperators": [
+      "Talos Energy"
+    ],
+    "projectCount": 194,
+    "countryCount": 1,
+    "businessRegions": [
+      "北美其他",
+      "墨西哥湾"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "talos-energy-b3cd01eec7fe",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Amberjack, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1983,
+        1989
+      ],
+      "approvalYears": [
+        1987,
+        1990
+      ],
+      "startupYears": [
+        1991,
+        1993
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c03826b28e59",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT356, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-54801d706b0a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT397, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-adeba6da5957",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT399, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-cfbee2bc54f3",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT402, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a3401284e8d3",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT442, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-62a69cf58f38",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT443, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-7a2f3bfa1123",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT446, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f90607ad86e0",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT486, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-864bfd648dcd",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT487, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5e2f1d91a704",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT488, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-822d4e81a63e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT530, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c0dcbaf852bd",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT531, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-0126465b331e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT532, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6d4023ffcf53",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT533, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e328b49a9317",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT573, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2070
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1528e3247469",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT574, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (65%); W&T Offshore (20%); Other partner(s) US (15%)"
+      ]
+    },
+    {
+      "id": "talos-energy-055c2cc4494d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "AT618, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Talos Energy* (65%); W&T Offshore (20%); Other partner(s) US (15%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6fb969b0fe34",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Brutus (TLP), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back",
+        "TLP"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1989,
+        1997
+      ],
+      "approvalYears": [
+        1997,
+        2000
+      ],
+      "startupYears": [
+        2001,
+        2004
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9bbc852d1cf9",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Bullwinkel (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth",
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1983,
+        1994,
+        2019
+      ],
+      "approvalYears": [
+        1988,
+        1996,
+        2019
+      ],
+      "startupYears": [
+        1989,
+        1997,
+        2019
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (49%); Wild Well Control (51%)"
+      ]
+    },
+    {
+      "id": "talos-energy-168985b2a2ce",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Cognac (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        1978
+      ],
+      "startupYears": [
+        1979
+      ],
+      "ownerships": [
+        "Talos Energy* (90%); Chevron (10%)"
+      ]
+    },
+    {
+      "id": "talos-energy-80e6ea75fde8",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Constitution (Spar), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "Talos Energy* (43.12%); Woodside (31.88%); Equinor (15.62%); Murphy Oil (9.38%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ecf052c18dec",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Daenerys, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); Red Willow (22.5%); Shell (22.5%); Houston Energy (10%); CSL Exploration LP (9%); HEQ Deepwater (9%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a767be3352ad",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EI246, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Unknown Owner (75%); Cox Oil (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c1ce443ddf13",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EI266, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Unknown Owner (75%); Cox Oil (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-832a7f7013a7",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EI267, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Unknown Owner (75%); Cox Oil (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-44da46cfcaab",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EI302, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a6649fcec94f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EI330, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1971
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Unknown Owner (65.02%); Arena Offshore (34.98%)"
+      ]
+    },
+    {
+      "id": "talos-energy-afe01bef0d20",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW1003, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-df457914b522",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW1007, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a71ddb379f0c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW1009, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); ILX Prospect (25%); Ridgewood (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b6ab0714a974",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW1010, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); ILX Prospect (25%); Ridgewood (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b59f7f1ffe1b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW305, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth",
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1981,
+        2026
+      ],
+      "approvalYears": [
+        1985,
+        2032
+      ],
+      "startupYears": [
+        1986,
+        2033
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-4a7223ff545b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW306, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3c3bf86a4e3c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW744, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Houston Energy (25%); Red Willow (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e020f72ec2ba",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW782 (G31470), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-021cb9941ded",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW782, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-978d61012a97",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW826, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5bda38456658",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW873, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (66.67%); Chevron (33.33%)"
+      ]
+    },
+    {
+      "id": "talos-energy-537a181f2004",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW874, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c4a072d51a95",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW917, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (66.67%); Chevron (33.33%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9233fc1e3c80",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW918, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-0fcce4c7801c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW944, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e9a0e591786f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW958, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3b7fcc893304",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW959, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e43608122ed0",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "EW965, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Ridgewood (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c275d0926131",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GB506, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Kosmos Energy (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-fd58d0fe1334",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC018 (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1986,
+        2019
+      ],
+      "startupYears": [
+        1987,
+        2020
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (83.33%); Otto Energy (16.67%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a49071ab5017",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC018, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-424f5d6dcb95",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC021, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (83.33%); Otto Energy (16.67%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e065e510c72d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC039, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); ILX Prospect (25%); Ridgewood (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-34082cc8c72f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC040, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); ILX Prospect (25%); Ridgewood (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a06c29a9aac9",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC064, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (49%); Superior Energy Services (51%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2c33ce10719f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC077, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (48%); Ridgewood (47.5%); Houston Energy (4.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-52ffb262a9d8",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC078, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Talos Energy* (47.5%); Ridgewood (47.5%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d4bf19820d8d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC154, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2068
+      ],
+      "ownerships": [
+        "Talos Energy* (75%); Red Willow (20%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b8fa799d4c85",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC158, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-aa04057ec022",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC200, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e1feeb825e2b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC201, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9c68a1284f37",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC202, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6470e4f2911e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC236, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-edb7a991671f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC237, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5dcfb2c5624a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC244, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2d0a05b9fb99",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC248, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b8bcdb324d4c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC281, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-35013f24f077",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC282, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-65c69c0e0900",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC569, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1aaa5461befb",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC613, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Repsol (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-12ad45726c0f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC679, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (37.5%); Murphy Oil (37.5%); Equinor (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f7bde968006e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC696, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ae7affdc4e2c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC740, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-889902447aef",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC768, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (43.12%); Woodside (31.88%); Equinor (15.62%); Murphy Oil (9.38%)"
+      ]
+    },
+    {
+      "id": "talos-energy-021aa893e5c9",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC829, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (40%); Repsol (40%); Red Willow (20%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f8c3eb4067d0",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC871, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Talos Energy* (40%); Repsol (40%); Red Willow (20%)"
+      ]
+    },
+    {
+      "id": "talos-energy-096cc6a6670d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC872, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Talos Energy* (40%); Repsol (40%); Red Willow (20%)"
+      ]
+    },
+    {
+      "id": "talos-energy-7f8c46541e4a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GC949, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-edfb345a614f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Genovesa, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2020
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Talos Energy* (25.75%); BP (46.5%); Red Willow (22.75%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-4fec1118e58a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GI082, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e084d8e6e439",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GI110, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e5ccf64b32f2",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GI115, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-71ce45319fa1",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "GI116, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-aca3ddc8894f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Harding, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2002,
+        2003
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e4fc18b2b658",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Helix Producer 1 (FPSO), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1998,
+        2001,
+        2016
+      ],
+      "approvalYears": [
+        2000,
+        2002,
+        2016
+      ],
+      "startupYears": [
+        2000,
+        2002,
+        2016
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (65%); Kosmos Energy (35%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d763c5582a7a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "HI073, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a4c49d288cb8",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "HI557A, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1978,
+        1986
+      ],
+      "approvalYears": [
+        1981,
+        1989
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8714439ba42e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "HIA556, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3aba6662c2bd",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "HIA557, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b8b137b7145a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Hickory, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8fe698ff6236",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Lobster (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth",
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1991,
+        1996
+      ],
+      "approvalYears": [
+        1993,
+        1997
+      ],
+      "startupYears": [
+        1994,
+        1998
+      ],
+      "ownerships": [
+        "Talos Energy* (66.67%); Chevron (33.33%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8740dd046fef",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC027, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f45792b67c0c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC028, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2041
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-71d8741e6be2",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC029, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (35%); Hunt Oil (34.62%); Other partner(s) (30.39%)"
+      ]
+    },
+    {
+      "id": "talos-energy-90e2da9bcaa0",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC031, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Harbour Energy (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ea28bbb7d465",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC068, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Houston Energy (25%); Red Willow (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d453e5410eb6",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC069, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Houston Energy (25%); Red Willow (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-791a53071b31",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC072, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (40%); Kosmos Energy (30%); ILX Prospect (15%); Ridgewood (15%)"
+      ]
+    },
+    {
+      "id": "talos-energy-81f5af499b4d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC073, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (65.38%); Ridgewood (34.62%)"
+      ]
+    },
+    {
+      "id": "talos-energy-fbec79b3939d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC108, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2064
+      ],
+      "startupYears": [
+        2068
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-518e037f5dc8",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC109, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8898a6d6aaaf",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC110, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (66.6%); Marubeni (33.4%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9b7c33e10c48",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC117, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5b05c91bb327",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC150, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (3.65%); APA Corporation (70%); Chevron (22.6%); W&T Offshore (3.75%)"
+      ]
+    },
+    {
+      "id": "talos-energy-af3050814cd4",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC151, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (90%); Chevron (10%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2c2bf85bec8a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC162, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (65.45%); Other partner(s) (34.55%)"
+      ]
+    },
+    {
+      "id": "talos-energy-86c555901aa9",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC171, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6fbd12258873",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC194, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (90%); Chevron (10%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a62025c42c60",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC195, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (90%); Chevron (10%)"
+      ]
+    },
+    {
+      "id": "talos-energy-0ac1b3bb72c5",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC380, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-945632d89b87",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC424, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-af3f1cf2d920",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC519, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (65%); Red Willow (30%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5c79708ee1a6",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC698, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (54%); W&T Offshore (20%); Ridgewood (15.4%); Houston Energy (10.6%)"
+      ]
+    },
+    {
+      "id": "talos-energy-042f97504061",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC699, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-c6193349cdf8",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC742, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (54%); W&T Offshore (20%); Ridgewood (15.4%); Houston Energy (10.6%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8918788bffb5",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC782, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (62.5%); W&T Offshore (20%); Ridgewood (17.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-42030a42d389",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC788, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-27203fb78aff",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC789, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-98d8589c0ef6",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC881, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Ridgewood (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d93c6a0b59bb",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC925, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8655dd4ada8a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC926, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8e3eee591f3b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC948, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (68.5%); Ecopetrol (31.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-43aa6391fbc2",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC949, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Talos Energy* (68.5%); Ecopetrol (31.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1f61b8f9a29a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MC992, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (52.94%); Equinor (47.06%)"
+      ]
+    },
+    {
+      "id": "talos-energy-e2790ed6e26e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP061, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-fb8b7679e7db",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP144, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1970
+      ],
+      "startupYears": [
+        1971
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Cox Oil (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3b5239b6e631",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP270, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (76.57%); RFP Offshore, Inc. (12.5%); Castex Offshore (10.93%)"
+      ]
+    },
+    {
+      "id": "talos-energy-861f43024a4c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP276, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-58681a1fb639",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP287, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-969a3b98e870",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP288, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6173701befa6",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP290, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1974
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ef673a6cb643",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "MP311, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1980
+      ],
+      "startupYears": [
+        1981
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Cox Oil (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a599e069503a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Muni, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-91e52bf061c4",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Na Kika (FPS), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Talos Energy* (65%); Red Willow (30%); Houston Energy (5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-44721513981a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Neptune (TLP), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Spar"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Talos Energy* (65%); W&T Offshore (20%); Other partner(s) US (15%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5c054579c308",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Nirvana, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-528b6910117a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Noonan/Danny, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "Talos Energy* (70%); Kosmos Energy (30%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ba080f9d581f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Orion, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Extended reach"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        2000
+      ],
+      "ownerships": [
+        "Talos Energy* (66.6%); Marubeni (33.4%)"
+      ]
+    },
+    {
+      "id": "talos-energy-13ba0ece51db",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Pompano (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        1981,
+        2014
+      ],
+      "approvalYears": [
+        1990,
+        2014
+      ],
+      "startupYears": [
+        1994,
+        2014
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (65.39%); Ridgewood (34.62%)"
+      ]
+    },
+    {
+      "id": "talos-energy-cb7c92dba11b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Pompano, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-7848c17a3762",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Prince, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Subsea tie back",
+        "TLP"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        1994,
+        2023
+      ],
+      "approvalYears": [
+        1997,
+        2024
+      ],
+      "startupYears": [
+        2001,
+        2025
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (48%); Ridgewood (47.5%); Houston Energy (4.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8a34a80cc9b4",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Ram-Powell (TLP), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Subsea tie back",
+        "TLP"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "600-800 meter depth",
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        1985,
+        2022
+      ],
+      "approvalYears": [
+        1993,
+        2022
+      ],
+      "startupYears": [
+        1997,
+        2023
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (60%); Other partner(s) (40%)"
+      ]
+    },
+    {
+      "id": "talos-energy-28045d11910f",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Rio Grande, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f4e35c4aae49",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Simba (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-30697b1e85a7",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SM107, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b730994bd745",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SM128, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        1977
+      ],
+      "startupYears": [
+        1977
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Unknown Owner (84.01%); Arena Offshore (15.99%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2e2f543fb96c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SM166, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1999,
+        2100
+      ],
+      "approvalYears": [
+        1999,
+        2100
+      ],
+      "startupYears": [
+        2001,
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9193451f4f3b",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SP047, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1a82f2ffce43",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SP065, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1967,
+        1969,
+        1970
+      ],
+      "approvalYears": [
+        1968,
+        1969,
+        1970
+      ],
+      "startupYears": [
+        1969,
+        1970
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); 1947 Oil & Gas (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-340b5fe6a69e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS092, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-f5687e169134",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS113, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1951,
+        1955,
+        1958,
+        1977,
+        1982
+      ],
+      "approvalYears": [
+        1954,
+        1958,
+        1961,
+        1981,
+        1985
+      ],
+      "startupYears": [
+        1955,
+        1959,
+        1962,
+        1982,
+        1986
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5487d4dffde2",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS117, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-71e7424006db",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS164, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-4b9a31a4065a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS169, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); CL&F Resources LP (48%); Tenkay (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-22dbb0e48d94",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS170, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); CL&F Resources LP (48%); Tenkay (25%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1fd0b516034c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS198, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-afa9f1f86bce",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS227, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (52.19%); Cox Oil (39.06%); He&D (8.75%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1afb0d41c4a5",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS230, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1990,
+        1994
+      ],
+      "approvalYears": [
+        1992,
+        1994
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)",
+        "Talos Energy* (52.19%); Cox Oil (39.06%); He&D (8.75%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b4026e9039c5",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS243, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Talos Energy* (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-1386571a89a5",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "SS339, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3b54addf7b36",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "ST016, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2e020f33af43",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "ST022, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5defa8ac20aa",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "ST030, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1995,
+        2030
+      ],
+      "approvalYears": [
+        1995,
+        2098
+      ],
+      "startupYears": [
+        1995,
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (88.88%); Tenkay (11.12%)"
+      ]
+    },
+    {
+      "id": "talos-energy-741b7de0b04a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "ST109, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d34b615a2798",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "ST308, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3d3a61017e78",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Taildancer (00067), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-a4ba5124cc58",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Tarantula (Fixed), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Fixed and floater",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2000,
+        2014
+      ],
+      "approvalYears": [
+        2004,
+        2018
+      ],
+      "startupYears": [
+        2004,
+        2020
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)",
+        "Talos Energy* (50%); Ridgewood (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-702e8099a9fd",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Thunder Hawk (FPS), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2012,
+        2013
+      ],
+      "approvalYears": [
+        2013,
+        2014
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Talos Energy* (54%); W&T Offshore (20%); Red Willow (15.4%); Houston Energy (5.3%); Kosmos Energy (5.3%)",
+        "Talos Energy* (62.5%); W&T Offshore (20%); Ridgewood (17.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9f5aee9708d0",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "Tubular Bells (Spar), US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Talos Energy* (68.5%); Ecopetrol (31.5%)"
+      ]
+    },
+    {
+      "id": "talos-energy-505d17d8064d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK1000, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (60%); Other partner(s) (40%)"
+      ]
+    },
+    {
+      "id": "talos-energy-2beb0dfadb1d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK911, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b2e539b0434c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK912, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (60%); Other partner(s) (40%)"
+      ]
+    },
+    {
+      "id": "talos-energy-079d49348aaf",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK913, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-7c29ec5d8c8a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK955, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "800-1000 meter depth"
+      ],
+      "discoveryYears": [
+        2045
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-3de0a0654519",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK956, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-6dc2edb917e7",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK957, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-886867d77d71",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK988, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d85195f23b44",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK989, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "300-450 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5a73e7adb4a1",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VK990, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-193a97a06f3d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR214, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "Talos Energy* (0%); Greyhound Energy (50%); Unknown Owner (50%)"
+      ]
+    },
+    {
+      "id": "talos-energy-d0f7f251b20e",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR356, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-b10cc50ca0bb",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR362, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-37cf2d81ef52",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR363, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-8e408c94e2be",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR370, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1991,
+        1994
+      ],
+      "approvalYears": [
+        1994,
+        1995
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-91e68d8faadc",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "VR371, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-4f1e1d87fe9a",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WC096, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2098
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-761364711ace",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR106, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); Red Willow (22.5%); Shell (22.5%); Houston Energy (10%); CSL Exploration LP (9%); HEQ Deepwater (9%)"
+      ]
+    },
+    {
+      "id": "talos-energy-9032f59ec35c",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR107, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); Red Willow (22.5%); Shell (22.5%); Houston Energy (10%); CSL Exploration LP (9%); HEQ Deepwater (9%)"
+      ]
+    },
+    {
+      "id": "talos-energy-95ff99eda1eb",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR150, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); Red Willow (22.5%); Shell (22.5%); Houston Energy (10%); CSL Exploration LP (9%); HEQ Deepwater (9%)"
+      ]
+    },
+    {
+      "id": "talos-energy-ce4e60aa4ebd",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR151, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Talos Energy* (27%); Red Willow (22.5%); Shell (22.5%); Houston Energy (10%); CSL Exploration LP (9%); HEQ Deepwater (9%)"
+      ]
+    },
+    {
+      "id": "talos-energy-912e9a817856",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR160, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Talos Energy* (40%); Red Willow (25%); Ridgewood (20%); CSL Exploration LP (15%)"
+      ]
+    },
+    {
+      "id": "talos-energy-7632dcb83946",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR280, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-659c80cd1a7d",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR283, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-027c9dcdb5d6",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR284, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-5a1b7bc487ce",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR674, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    },
+    {
+      "id": "talos-energy-4223700f28f7",
+      "operator": "Talos Energy",
+      "country": "United States",
+      "project": "WR718, US",
+      "sourceOperators": [
+        "Talos Energy"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Talos Energy* (100%)"
+      ]
+    }
+  ]
+}

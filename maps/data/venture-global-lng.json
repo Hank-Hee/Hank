@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Venture Global LNG",
+    "sourceOperators": [
+      "Venture Global LNG"
+    ],
+    "projectCount": 4,
+    "countryCount": 1,
+    "businessRegions": [
+      "全球/跨区域",
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "venture-global-lng-e22ffe95bee4",
+      "operator": "Venture Global LNG",
+      "country": "United States",
+      "project": "CP2 LNG, US",
+      "sourceOperators": [
+        "Venture Global LNG"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2025,
+        2026
+      ],
+      "startupYears": [
+        2027,
+        2028,
+        2029
+      ],
+      "ownerships": [
+        "Venture Global LNG* (100%)"
+      ]
+    },
+    {
+      "id": "venture-global-lng-83499d3cb436",
+      "operator": "Venture Global LNG",
+      "country": "United States",
+      "project": "Plaquemines LNG (Phase 2), US",
+      "sourceOperators": [
+        "Venture Global LNG"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Venture Global LNG* (100%)"
+      ]
+    },
+    {
+      "id": "venture-global-lng-52ac3803cae7",
+      "operator": "Venture Global LNG",
+      "country": "United States",
+      "project": "Plaquemines LNG Phase 1, US",
+      "sourceOperators": [
+        "Venture Global LNG"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013,
+        2018
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2024,
+        2025
+      ],
+      "ownerships": [
+        "Venture Global LNG* (100%)"
+      ]
+    },
+    {
+      "id": "venture-global-lng-6d6bcf54bcfe",
+      "operator": "Venture Global LNG",
+      "country": "United States",
+      "project": "Venture Global Calcasieu Pass LNG, US",
+      "sourceOperators": [
+        "Venture Global LNG"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "全球/跨区域"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Venture Global LNG* (100%)"
+      ]
+    }
+  ]
+}

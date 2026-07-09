@@ -1,0 +1,6360 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Sinopec",
+    "sourceOperators": [
+      "Sinopec",
+      "Sinopec Group (parent)"
+    ],
+    "projectCount": 115,
+    "countryCount": 14,
+    "businessRegions": [
+      "东南亚",
+      "中东及南亚",
+      "中南美洲",
+      "中国及东北亚",
+      "俄罗斯/独联体",
+      "加拿大",
+      "北非/北欧",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "sinopec-050704ae1b54",
+      "operator": "Sinopec",
+      "country": "Algeria",
+      "project": "Zarzaitine, DZ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1957
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (75%); Sonatrach (25%)"
+      ]
+    },
+    {
+      "id": "sinopec-bc6febbeb006",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Abana Est (Lokele Permit) (East), CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (40%); SNH (Cameroon) (50%); Perenco (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-992f54e4310a",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Abana Marine, CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1982
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (40%); SNH (Cameroon) (50%); Perenco (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-5fbfb2871b58",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "C-23 (Mokoko-Abana), CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (40%); SNH (Cameroon) (50%); Perenco (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-e4a117d7b6c2",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Erong Deep, CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (27.6%); SNH (Cameroon) (50%); Perenco (22.4%)"
+      ]
+    },
+    {
+      "id": "sinopec-c6dcc9c75ae5",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Erong Lokele (new), CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (27.6%); SNH (Cameroon) (50%); Perenco (22.4%)"
+      ]
+    },
+    {
+      "id": "sinopec-348d06724206",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Erong North, CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (27.6%); SNH (Cameroon) (50%); Perenco (22.4%)"
+      ]
+    },
+    {
+      "id": "sinopec-960031d9062b",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Mokoko Nord Marine (North), CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        1982
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (40%); SNH (Cameroon) (50%); Perenco (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-60d5240463cd",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Mokoko Sud Marine (South), CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1983
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (40%); SNH (Cameroon) (50%); Perenco (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-ea6153b52d34",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Padouk-1X, CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (70%); SNH (Cameroon) (30%)"
+      ]
+    },
+    {
+      "id": "sinopec-116a21160928",
+      "operator": "Sinopec",
+      "country": "Cameroon",
+      "project": "Tiko Marine, CM",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2018
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (25%); SNH (Cameroon) (50%); Perenco (25%)"
+      ]
+    },
+    {
+      "id": "sinopec-afb3e63532b5",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Cardium Play, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-4543e1025d82",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Central Alberta_AB5, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1961
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-8a6cf66c21ba",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Duvernay, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011,
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012,
+        2013
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-de53cb9ee0d2",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Foothills Front_AB2, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1960
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-3f56a7f2f7ae",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Grand Forks, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1949
+      ],
+      "approvalYears": [
+        1955
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-92fdb5681858",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Montney Play, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2010
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-fe31138f0ab7",
+      "operator": "Sinopec",
+      "country": "Canada",
+      "project": "Northwestern Alberta_AB7, CA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1947
+      ],
+      "approvalYears": [
+        1952
+      ],
+      "startupYears": [
+        1956
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-fc2c39251d5b",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Alar, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-b2beecc4e9dc",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Anhui Xuancheng Block 1 Shale, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-e89f4048444d",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Anhui Xuancheng Block 2 Shale, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-4848bdcc2d68",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Baiquan South Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-778625bf8e14",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Block 11 (Gucheng Area), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-6b04a2e027b6",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Block 4, CN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-f5b77dfcee0d",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Block 9 (Gucheng Area), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-8e73fd6658f4",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Central Garden, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-32064e15037e",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Chengdaoxi, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1995,
+        2035
+      ],
+      "approvalYears": [
+        1999,
+        2037
+      ],
+      "startupYears": [
+        2003,
+        2042
+      ],
+      "ownerships": [
+        "Sinopec* (51%); Genting Berhad (49%)"
+      ]
+    },
+    {
+      "id": "sinopec-a943bc2ca992",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "China_Others , CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999,
+        2002,
+        2003,
+        2004,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2032,
+        2035
+      ],
+      "approvalYears": [
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2039,
+        2041
+      ],
+      "startupYears": [
+        2030,
+        2032,
+        2033,
+        2034,
+        2037,
+        2038,
+        2040,
+        2041,
+        2042,
+        2043,
+        2049,
+        2055,
+        2056,
+        2059,
+        2061,
+        2062
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-0cbc84edb044",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Chuandongbei (returned), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026,
+        2027,
+        2028,
+        2029,
+        2031,
+        2032
+      ],
+      "approvalYears": [
+        2027,
+        2032,
+        2033,
+        2034,
+        2036,
+        2037
+      ],
+      "startupYears": [
+        2028,
+        2032,
+        2039,
+        2043,
+        2046,
+        2047
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-9b3e4713a0d9",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Dongbei-SINOPEC, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986,
+        1989,
+        1990,
+        1995,
+        1996,
+        1998,
+        2000,
+        2002,
+        2003,
+        2006,
+        2010,
+        2011,
+        2014,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2035,
+        2037,
+        2038,
+        2039
+      ],
+      "approvalYears": [
+        1991,
+        1995,
+        1996,
+        1999,
+        2000,
+        2002,
+        2003,
+        2004,
+        2007,
+        2010,
+        2011,
+        2012,
+        2014,
+        2028,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2038,
+        2039,
+        2040,
+        2041
+      ],
+      "startupYears": [
+        1993,
+        1995,
+        1996,
+        1999,
+        2003,
+        2004,
+        2007,
+        2008,
+        2010,
+        2012,
+        2014,
+        2015,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2045,
+        2049
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-32bd06fc52ca",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Fanxiandong-Taiqianxi Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-f87ce9890f70",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Funing Shale (Huadong), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2020
+      ],
+      "startupYears": [
+        2020
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-c71cd0dfb0ba",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Funing Shale (Jiangsu), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025,
+        2028
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-4f4d8a58e784",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Gucheng Block 12, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-56dc76448ce2",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Gutang-Qiaotouhe (CBM), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-32eb2b332403",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Henan, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971,
+        1973,
+        1976,
+        1977,
+        1980,
+        1981,
+        1985,
+        1986,
+        1995,
+        2005,
+        2012,
+        2023,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2035,
+        2037
+      ],
+      "approvalYears": [
+        1974,
+        1977,
+        1978,
+        1980,
+        1981,
+        1986,
+        1987,
+        1991,
+        1993,
+        1995,
+        1996,
+        1997,
+        1999,
+        2005,
+        2013,
+        2023,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2044
+      ],
+      "startupYears": [
+        1977,
+        1978,
+        1983,
+        1987,
+        1988,
+        1996,
+        1998,
+        2000,
+        2003,
+        2004,
+        2005,
+        2013,
+        2023,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2041,
+        2042,
+        2043,
+        2049,
+        2050,
+        2057
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-bdbe3d7f6ff1",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Huabei-SINOPEC, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990,
+        1998,
+        1999,
+        2000,
+        2002,
+        2004,
+        2015,
+        2023,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2035,
+        2036,
+        2038,
+        2039
+      ],
+      "approvalYears": [
+        1993,
+        1998,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2016,
+        2023,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2038,
+        2039,
+        2041
+      ],
+      "startupYears": [
+        1996,
+        2003,
+        2005,
+        2009,
+        2011,
+        2012,
+        2017,
+        2024,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2041,
+        2042,
+        2043,
+        2044
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-4cc1ed876356",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Huadong, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972,
+        1973,
+        1975,
+        1978,
+        1980,
+        1982,
+        1990,
+        1992,
+        1994,
+        1996,
+        1999,
+        2003,
+        2005,
+        2009,
+        2011,
+        2023,
+        2028,
+        2030,
+        2031,
+        2032,
+        2033,
+        2037,
+        2038
+      ],
+      "approvalYears": [
+        1975,
+        1976,
+        1981,
+        1982,
+        1983,
+        1989,
+        1990,
+        1992,
+        1995,
+        1996,
+        1999,
+        2003,
+        2004,
+        2005,
+        2006,
+        2009,
+        2011,
+        2024,
+        2029,
+        2030,
+        2032,
+        2033,
+        2034,
+        2035,
+        2038
+      ],
+      "startupYears": [
+        1975,
+        1979,
+        1983,
+        1988,
+        1990,
+        1991,
+        1992,
+        1996,
+        1999,
+        2002,
+        2003,
+        2005,
+        2007,
+        2009,
+        2011,
+        2013,
+        2024,
+        2031,
+        2032,
+        2033,
+        2035,
+        2036,
+        2037,
+        2039,
+        2042,
+        2043
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-e9412b9e0c3f",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Jianghan, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965,
+        1968,
+        1969,
+        1970,
+        1971,
+        1975,
+        1977,
+        1985,
+        1987,
+        1988,
+        1990,
+        1992,
+        1993,
+        1995,
+        1998,
+        2002,
+        2003,
+        2011,
+        2027,
+        2028,
+        2030,
+        2032,
+        2034,
+        2035
+      ],
+      "approvalYears": [
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1975,
+        1977,
+        1979,
+        1980,
+        1981,
+        1982,
+        1984,
+        1985,
+        1989,
+        1990,
+        1991,
+        1993,
+        1994,
+        1996,
+        1998,
+        2002,
+        2004,
+        2012,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038
+      ],
+      "startupYears": [
+        1970,
+        1971,
+        1973,
+        1976,
+        1981,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1994,
+        1995,
+        1996,
+        1998,
+        2003,
+        2005,
+        2019,
+        2030,
+        2032,
+        2033,
+        2036,
+        2037,
+        2039,
+        2040,
+        2042,
+        2043
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-b2789d99e5d0",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Jiangsu, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1974,
+        1975,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1999,
+        2003,
+        2005,
+        2006,
+        2008,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038
+      ],
+      "approvalYears": [
+        1975,
+        1978,
+        1979,
+        1980,
+        1981,
+        1983,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        2000,
+        2003,
+        2005,
+        2007,
+        2009,
+        2027,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2044,
+        2056
+      ],
+      "startupYears": [
+        1975,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1987,
+        1988,
+        1989,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1999,
+        2001,
+        2003,
+        2006,
+        2008,
+        2010,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2042,
+        2043,
+        2049,
+        2073
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-d59f22b325b3",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Lianggaoshan Shale (Jianghan), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-d03e7694bf00",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Lindian Block 1, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-8201538030a4",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Lindian Block 2, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-1def7557fa42",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Lindian Block 3, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-f2c813785086",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Liuzhi–Zhenning Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-3af1f4f030c8",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Longmaxi Shale (Huadong), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2017
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-cff4408ce3bc",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Longmaxi Shale (Jianghan), CN",
+      "sourceOperators": [
+        "Sinopec",
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012,
+        2018,
+        2026,
+        2030
+      ],
+      "approvalYears": [
+        2013,
+        2026,
+        2029,
+        2031
+      ],
+      "startupYears": [
+        2013,
+        2027,
+        2036,
+        2037
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)",
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-eea145c13c26",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Longmaxi Shale (Xi'nan-SINOPEC), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016,
+        2018,
+        2020,
+        2022
+      ],
+      "approvalYears": [
+        2019,
+        2026,
+        2031
+      ],
+      "startupYears": [
+        2019,
+        2020,
+        2027,
+        2034
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-386a407d943b",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Manghan Chaoke Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-bf43b0171360",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nanfang exploration Shale, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-8fae11431de1",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nanfang exploration, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001,
+        2028,
+        2032,
+        2034,
+        2035
+      ],
+      "approvalYears": [
+        2028,
+        2030,
+        2033,
+        2035,
+        2036,
+        2043
+      ],
+      "startupYears": [
+        2034,
+        2037,
+        2042,
+        2043,
+        2044,
+        2046
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-7fedbc62ee7b",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nanledong-Qingfengdong Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-46735d792e0f",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nanlexi-Qingfengxi Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-c1e61612a387",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Naomugen West Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-5d6ce81bfffe",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nehe Fufu Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-2797a283442e",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Nehe Yian Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-94b32d515d30",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Qianfoya Shale (Zhongyuan), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-cd6fa6fc5c46",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Qianjiang Block 1 Shale, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-ce92912dad75",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Qiemo 1, CN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-20b98f16c4c9",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Qiongzhusi (Xi'nan-SINOPEC), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2020s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-cdc8a3cba084",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Ruoqiang 37 block, CN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-c5563a9ab8a3",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Ruoqiang 38 block, CN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-a2c5067f2aad",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Shahejie Shale (Shengli), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing early",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2010
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-b30d89550097",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Shengli, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore",
+        "Other offshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "50-75 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1961,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1981,
+        1982,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1991,
+        1994,
+        1995,
+        1998,
+        2000,
+        2002,
+        2004,
+        2005,
+        2009,
+        2011,
+        2012,
+        2017,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041
+      ],
+      "approvalYears": [
+        1961,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1990,
+        1991,
+        1994,
+        1995,
+        2000,
+        2003,
+        2007,
+        2010,
+        2011,
+        2012,
+        2013,
+        2021,
+        2022,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2046,
+        2048,
+        2049
+      ],
+      "startupYears": [
+        1961,
+        1964,
+        1965,
+        1968,
+        1969,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        2000,
+        2002,
+        2004,
+        2009,
+        2010,
+        2011,
+        2015,
+        2020,
+        2022,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2046,
+        2047,
+        2053,
+        2054,
+        2066
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-98754013c2a2",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Shule-Yuepu, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-0d2747d325bf",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "South China Sea, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2053
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-f6633d16abee",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "South China Sea-PetroChina Exploration, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-92a3115ffad7",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Taiqiandong Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-4226a4ad7988",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Taobei Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-654f08591ab5",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Taonan Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-e657dcc91a86",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Wangkui 1, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-f70a45c6382b",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Weizhou 12-1_Zhanjiang, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2054
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-6bd83c0c7c9f",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Weizhou-4, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2016,
+        2046
+      ],
+      "approvalYears": [
+        2021,
+        2050
+      ],
+      "startupYears": [
+        2027,
+        2055
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-34c53cc7ac1b",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Wujiaping Shale (Jianghan), CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-71cf43a0694a",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xi'nan-SINOPEC Tight, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990,
+        2019
+      ],
+      "approvalYears": [
+        1990,
+        2019
+      ],
+      "startupYears": [
+        1990,
+        2020
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-492e45dd6941",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xi'nan-SINOPEC, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970,
+        1982,
+        1988,
+        1996,
+        1997,
+        1998,
+        2004,
+        2005,
+        2006,
+        2007,
+        2009,
+        2010,
+        2013,
+        2014,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2038,
+        2039,
+        2040
+      ],
+      "approvalYears": [
+        1983,
+        1988,
+        1996,
+        1997,
+        1998,
+        2004,
+        2006,
+        2007,
+        2009,
+        2010,
+        2013,
+        2020,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2040
+      ],
+      "startupYears": [
+        1984,
+        1988,
+        1996,
+        1997,
+        1999,
+        2007,
+        2008,
+        2009,
+        2011,
+        2013,
+        2014,
+        2024,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2041,
+        2042,
+        2043
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-739a55cd53aa",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xibei, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984,
+        1989,
+        1990,
+        1992,
+        1993,
+        2004,
+        2011,
+        2014,
+        2021,
+        2028,
+        2035,
+        2036,
+        2037,
+        2038
+      ],
+      "approvalYears": [
+        1989,
+        1991,
+        1992,
+        1994,
+        1995,
+        2003,
+        2012,
+        2016,
+        2024,
+        2028,
+        2029,
+        2030,
+        2031,
+        2033,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040
+      ],
+      "startupYears": [
+        1991,
+        1993,
+        1995,
+        1997,
+        2007,
+        2014,
+        2016,
+        2028,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-1c92c531df0d",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xilinhot Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-9e8645920618",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xinhu, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-c97df3ccf1c2",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xinyuan Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-cd90653bce68",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Xixiu–Puding Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-3b4bbb4c940d",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Yuli 1, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-175ce294c274",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Yuli 2, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-c19b96f70607",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Zhenglanqi Block, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-bdb404c9d6ad",
+      "operator": "Sinopec",
+      "country": "China",
+      "project": "Zhongyuan, CN",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Appraising",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976,
+        1977,
+        1979,
+        1980,
+        1981,
+        1983,
+        1984,
+        1986,
+        1988,
+        1990,
+        1991,
+        1994,
+        1996,
+        2003,
+        2007,
+        2009,
+        2010,
+        2015,
+        2020,
+        2024,
+        2027,
+        2028,
+        2029,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2041,
+        2042
+      ],
+      "approvalYears": [
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1984,
+        1986,
+        1987,
+        1988,
+        1991,
+        1992,
+        1994,
+        1995,
+        1997,
+        2006,
+        2009,
+        2012,
+        2016,
+        2020,
+        2025,
+        2030,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2041,
+        2043,
+        2044
+      ],
+      "startupYears": [
+        1977,
+        1979,
+        1980,
+        1982,
+        1984,
+        1985,
+        1987,
+        1988,
+        1991,
+        1992,
+        1996,
+        1997,
+        2000,
+        2009,
+        2010,
+        2014,
+        2017,
+        2025,
+        2026,
+        2032,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2056,
+        2060,
+        2068
+      ],
+      "ownerships": [
+        "Sinopec* (100%)",
+        "Sinopec* (51%); Henan Yudi Science and Technology Group Co., Ltd. (48%); Lingbao City Construction Investment Co., Ltd (1%)"
+      ]
+    },
+    {
+      "id": "sinopec-bd9894022dcc",
+      "operator": "Sinopec",
+      "country": "Colombia",
+      "project": "Cabiona, CO",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006,
+        2029
+      ],
+      "approvalYears": [
+        2007,
+        2031
+      ],
+      "startupYears": [
+        2008,
+        2034
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-daace916ae0a",
+      "operator": "Sinopec",
+      "country": "Colombia",
+      "project": "Dorotea, CO",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006,
+        2029
+      ],
+      "approvalYears": [
+        2008,
+        2032
+      ],
+      "startupYears": [
+        2008,
+        2035
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-0fb1ea6d60bb",
+      "operator": "Sinopec",
+      "country": "Colombia",
+      "project": "Garzas Doradas, CO",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-ce56d5226bf4",
+      "operator": "Sinopec",
+      "country": "Colombia",
+      "project": "Leona, CO",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003,
+        2009,
+        2010,
+        2029
+      ],
+      "approvalYears": [
+        2006,
+        2010,
+        2012,
+        2032
+      ],
+      "startupYears": [
+        2009,
+        2012,
+        2013,
+        2035
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-106f346388a8",
+      "operator": "Sinopec",
+      "country": "Gabon",
+      "project": "Akondo, GA",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Sinopec* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-3720fe913da6",
+      "operator": "Sinopec",
+      "country": "Gabon",
+      "project": "Autour, GA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (92.5%); AIC-Petrofi Ltd (3.75%); Gabon Oil Company (3.75%)"
+      ]
+    },
+    {
+      "id": "sinopec-4d1d052c355c",
+      "operator": "Sinopec",
+      "country": "Gabon",
+      "project": "Dinonga, GA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (88.75%); Other partner(s) (11.25%)"
+      ]
+    },
+    {
+      "id": "sinopec-3d0321f619c5",
+      "operator": "Sinopec",
+      "country": "Gabon",
+      "project": "Irondou, GA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (88.75%); Other partner(s) (11.25%)"
+      ]
+    },
+    {
+      "id": "sinopec-740bf8b8cee6",
+      "operator": "Sinopec",
+      "country": "Gabon",
+      "project": "Obangue, GA",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (88.75%); Other partner(s) (11.25%)"
+      ]
+    },
+    {
+      "id": "sinopec-f28478669de2",
+      "operator": "Sinopec",
+      "country": "Iraq",
+      "project": "Addan, IQ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-b077f4416909",
+      "operator": "Sinopec",
+      "country": "Iraq",
+      "project": "Sumer block, IQ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-35ab1834e6f7",
+      "operator": "Sinopec",
+      "country": "Kazakhstan",
+      "project": "Arman, KZ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1990
+      ],
+      "startupYears": [
+        1994
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (50%); Sinopec (50%)"
+      ]
+    },
+    {
+      "id": "sinopec-1859e6b412bd",
+      "operator": "Sinopec",
+      "country": "Kazakhstan",
+      "project": "Berezovsky, KZ",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Sinopec* (50%); KazMunaiGaz (parent) (50%)"
+      ]
+    },
+    {
+      "id": "sinopec-d98b6568b28b",
+      "operator": "Sinopec",
+      "country": "Kazakhstan",
+      "project": "Sai-Otes , KZ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-91b3326ca223",
+      "operator": "Sinopec",
+      "country": "Kazakhstan",
+      "project": "Sazankurak, KZ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Central Asia"
+      ],
+      "businessRegions": [
+        "俄罗斯/独联体"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (97.5%); AMGG (2.5%)"
+      ]
+    },
+    {
+      "id": "sinopec-df53c574f117",
+      "operator": "Sinopec",
+      "country": "Mongolia",
+      "project": "PSC 1997 (Tsagaan-Els), MN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2061
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-d371eb2edf21",
+      "operator": "Sinopec",
+      "country": "Mongolia",
+      "project": "Zuunbayan, MN",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-d6173cb43259",
+      "operator": "Sinopec",
+      "country": "Myanmar",
+      "project": "Block - D, MM",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Sinopec* (70%); CPC (Taiwan) (30%)"
+      ]
+    },
+    {
+      "id": "sinopec-1242be17b635",
+      "operator": "Sinopec",
+      "country": "Myanmar",
+      "project": "Block D, MM",
+      "sourceOperators": [
+        "Sinopec"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009,
+        2011
+      ],
+      "approvalYears": [
+        2036,
+        2041
+      ],
+      "startupYears": [
+        2040,
+        2044
+      ],
+      "ownerships": [
+        "Sinopec* (70%); CPC (Taiwan) (30%)"
+      ]
+    },
+    {
+      "id": "sinopec-73d3c32fede3",
+      "operator": "Sinopec",
+      "country": "Nigeria/Sao Tome JDZ",
+      "project": "Block 4, NJ",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (45.5%); Conoil Producing Limited (20%); ERHC (19.5%); Other partner(s) (10%); Godsonic (5%)"
+      ]
+    },
+    {
+      "id": "sinopec-d093101fc2a7",
+      "operator": "Sinopec",
+      "country": "Syria",
+      "project": "Kahtaniyeh, SY",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-69093ef27e1d",
+      "operator": "Sinopec",
+      "country": "Syria",
+      "project": "Oudeh Development, SY",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-38f33121726a",
+      "operator": "Sinopec",
+      "country": "Syria",
+      "project": "Oudeh, SY",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-1b4eadda0d1e",
+      "operator": "Sinopec",
+      "country": "Syria",
+      "project": "Sheikh Sulaiman, SY",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-05bcb2ef3eb0",
+      "operator": "Sinopec",
+      "country": "Syria",
+      "project": "Tishreen, SY",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        1977
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (100%)"
+      ]
+    },
+    {
+      "id": "sinopec-b3554da1d33b",
+      "operator": "Sinopec",
+      "country": "Venezuela",
+      "project": "Junin-1, VE",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (50%); PDVSA (50%)"
+      ]
+    },
+    {
+      "id": "sinopec-d00c27643868",
+      "operator": "Sinopec",
+      "country": "Venezuela",
+      "project": "Junin-8, VE",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (50%); PDVSA (50%)"
+      ]
+    },
+    {
+      "id": "sinopec-bedb7462b232",
+      "operator": "Sinopec",
+      "country": "Yemen",
+      "project": "Arman district-2005 (Schabwa) (Block 1), YE",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (95%); Yemen General Oil and Gas (5%)"
+      ]
+    },
+    {
+      "id": "sinopec-4826c04e6b44",
+      "operator": "Sinopec",
+      "country": "Yemen",
+      "project": "Block 69 (Mashaf), YE",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (50%); TotalEnergies (40%); Yemen General Oil and Gas (10%)"
+      ]
+    },
+    {
+      "id": "sinopec-7c34b67d9654",
+      "operator": "Sinopec",
+      "country": "Yemen",
+      "project": "Block 71 (Al Qarn), YE",
+      "sourceOperators": [
+        "Sinopec Group (parent)"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2037
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "Sinopec Group (parent)* (50%); TotalEnergies (40%); Yemen General Oil and Gas (10%)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Sempra Energy",
+    "sourceOperators": [
+      "Sempra"
+    ],
+    "projectCount": 4,
+    "countryCount": 2,
+    "businessRegions": [
+      "中南美洲",
+      "北美其他"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "sempra-energy-859277982e76",
+      "operator": "Sempra Energy",
+      "country": "Mexico",
+      "project": "Energia Costa Azul LNG T1-T3, MX",
+      "sourceOperators": [
+        "Sempra"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017
+      ],
+      "approvalYears": [
+        2020,
+        2050
+      ],
+      "startupYears": [
+        2026,
+        2055
+      ],
+      "ownerships": [
+        "Sempra* (83.4%); TotalEnergies (16.6%)"
+      ]
+    },
+    {
+      "id": "sempra-energy-aa30de5b58e8",
+      "operator": "Sempra Energy",
+      "country": "Mexico",
+      "project": "Vista Pacifico LNG, MX",
+      "sourceOperators": [
+        "Sempra"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Sempra* (100%)"
+      ]
+    },
+    {
+      "id": "sempra-energy-5f1abcdecceb",
+      "operator": "Sempra Energy",
+      "country": "United States",
+      "project": "Los Angeles_California, US",
+      "sourceOperators": [
+        "Sempra"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "Sempra* (100%)"
+      ]
+    },
+    {
+      "id": "sempra-energy-c0fd2a841073",
+      "operator": "Sempra Energy",
+      "country": "United States",
+      "project": "Port Arthur LNG, US",
+      "sourceOperators": [
+        "Sempra"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016,
+        2023
+      ],
+      "approvalYears": [
+        2023,
+        2025
+      ],
+      "startupYears": [
+        2028,
+        2030,
+        2031
+      ],
+      "ownerships": [
+        "Sempra* (100%)",
+        "Sempra* (28%); Kohlberg Kravis Roberts (KKR) (42%); ConocoPhillips (30%)"
+      ]
+    }
+  ]
+}

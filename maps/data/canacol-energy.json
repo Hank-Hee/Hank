@@ -1,0 +1,1216 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Canacol Energy",
+    "sourceOperators": [
+      "Canacol Energy"
+    ],
+    "projectCount": 25,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "canacol-energy-3c7878208170",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Block SSJN 7, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Canacol Energy* (50%); ONGC (50%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-1a483ee64e46",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Borbon, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-49b3898c1e45",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Chimela, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-57f63760b730",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Claxon, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2022
+      ],
+      "approvalYears": [
+        2022
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-7da4c8a21636",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Dividivi, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-40c2ba1e7d4a",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Esperanza, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (2010s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004,
+        2005,
+        2007,
+        2014,
+        2016,
+        2017,
+        2018,
+        2021,
+        2037
+      ],
+      "approvalYears": [
+        2007,
+        2010,
+        2014,
+        2016,
+        2017,
+        2020,
+        2021,
+        2027,
+        2039
+      ],
+      "startupYears": [
+        2008,
+        2011,
+        2015,
+        2017,
+        2018,
+        2020,
+        2021,
+        2028,
+        2041
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-ff6b35de20a8",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Gacheta Shale, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-a9480e413df7",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Jobo Tablon, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023,
+        2024
+      ],
+      "approvalYears": [
+        2023,
+        2024,
+        2025
+      ],
+      "startupYears": [
+        2023,
+        2027
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-fb2fa82d73d6",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Oboe, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-7a856e861818",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Pacarana TEA Block, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-9d09f56ec1cb",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Palomino, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2026
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-95de5c851e5e",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Pandereta, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2017,
+        2019
+      ],
+      "approvalYears": [
+        2018,
+        2019
+      ],
+      "startupYears": [
+        2018,
+        2019
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-d7e99290e23b",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Rancho Hermoso, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984,
+        2029
+      ],
+      "approvalYears": [
+        1997,
+        2032
+      ],
+      "startupYears": [
+        2000,
+        2035
+      ],
+      "ownerships": [
+        "Canacol Energy* (27.5%); Ecopetrol (72.5%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-33821e843827",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Saxofon, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2023
+      ],
+      "approvalYears": [
+        2023
+      ],
+      "startupYears": [
+        2023
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-12d5c3622163",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Siku, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-80ab75d0cdf6",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VIM 21, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2031
+      ],
+      "approvalYears": [
+        2020,
+        2022,
+        2023,
+        2025,
+        2026,
+        2032
+      ],
+      "startupYears": [
+        2020,
+        2022,
+        2023,
+        2026,
+        2029,
+        2033
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-b5c4cdd00e43",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VIM 33, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-e45c3c5f8ebd",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VIM 44, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-6fa8323ed8aa",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VIM 5, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2015
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-29e1ab1a548b",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VMM 10-1, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-9a59a479839f",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VMM 45, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-3b05b28c3f77",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VMM 47, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-8b045631a001",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VMM 49, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-bd6dd8ae8d11",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "VMM 53, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    },
+    {
+      "id": "canacol-energy-8a4848ec1e80",
+      "operator": "Canacol Energy",
+      "country": "Colombia",
+      "project": "Zamia, CO",
+      "sourceOperators": [
+        "Canacol Energy"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2025
+      ],
+      "approvalYears": [
+        2025
+      ],
+      "startupYears": [
+        2025
+      ],
+      "ownerships": [
+        "Canacol Energy* (100%)"
+      ]
+    }
+  ]
+}

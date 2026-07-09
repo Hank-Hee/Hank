@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Andes Petroleum",
+    "sourceOperators": [
+      "Andes Petroleum"
+    ],
+    "projectCount": 5,
+    "countryCount": 1,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "andes-petroleum-a820c06a44c3",
+      "operator": "Andes Petroleum",
+      "country": "Ecuador",
+      "project": "Awant, EC",
+      "sourceOperators": [
+        "Andes Petroleum"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "andes-petroleum-0ecee76a81f3",
+      "operator": "Andes Petroleum",
+      "country": "Ecuador",
+      "project": "Hormiguero (producing), EC",
+      "sourceOperators": [
+        "Andes Petroleum"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "andes-petroleum-a844ec9b6996",
+      "operator": "Andes Petroleum",
+      "country": "Ecuador",
+      "project": "Hormiguero Sur, EC",
+      "sourceOperators": [
+        "Andes Petroleum"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "andes-petroleum-26726fc43635",
+      "operator": "Andes Petroleum",
+      "country": "Ecuador",
+      "project": "Tapir Norte, EC",
+      "sourceOperators": [
+        "Andes Petroleum"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
+      ]
+    },
+    {
+      "id": "andes-petroleum-a2b2a836b753",
+      "operator": "Andes Petroleum",
+      "country": "Ecuador",
+      "project": "Tapir, EC",
+      "sourceOperators": [
+        "Andes Petroleum"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
+      ]
+    }
+  ]
+}

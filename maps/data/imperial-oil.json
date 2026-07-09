@@ -1,0 +1,780 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Imperial Oil",
+    "sourceOperators": [
+      "Imperial Oil (Public traded part)"
+    ],
+    "projectCount": 16,
+    "countryCount": 1,
+    "businessRegions": [
+      "加拿大"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "imperial-oil-b363d62aeb33",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Adgo, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2066
+      ],
+      "startupYears": [
+        2071
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30%); ExxonMobil (70%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-f356e01186d4",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Aspen, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2025,
+        2029,
+        2037
+      ],
+      "startupYears": [
+        2027,
+        2034,
+        2041
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30.4%); ExxonMobil (69.6%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-33468790eb56",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Clarke Creek, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2055,
+        2061,
+        2066
+      ],
+      "startupYears": [
+        2060,
+        2065,
+        2070
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30.4%); ExxonMobil (69.6%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-1a2558555956",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Clyden, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        2055
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (8.36%); ExxonMobil (91.64%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-0886f75d4c11",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Cold Lake Oil Sands Project, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950
+      ],
+      "approvalYears": [
+        1980,
+        1997,
+        2012,
+        2022,
+        2026,
+        2034,
+        2036
+      ],
+      "startupYears": [
+        1985,
+        2002,
+        2015,
+        2024,
+        2025,
+        2030,
+        2036,
+        2038
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30.4%); ExxonMobil (69.6%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-71c2844bd6cc",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Corner (Imperial), CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2040,
+        2046,
+        2051
+      ],
+      "startupYears": [
+        2045,
+        2050,
+        2055
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (22.8%); ExxonMobil (52.2%); CNOOC (25%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-4f004dde40d0",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Kearl, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Oil Sands"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2009,
+        2011,
+        2021,
+        2036
+      ],
+      "startupYears": [
+        2013,
+        2015,
+        2023,
+        2039
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (21.3%); ExxonMobil (78.7%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-2842ce71c2b7",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Mackenzie Delta Gas Project, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30%); ExxonMobil (70%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-6d82c1067f5e",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "Norman Wells, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1920
+      ],
+      "approvalYears": [
+        1920
+      ],
+      "startupYears": [
+        1920
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (30.4%); ExxonMobil (69.6%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-d870dff87fca",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 052, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-c6e1372486ef",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 056, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-b1dacc001d91",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 057, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-bb30ac10b3d4",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 060, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-3d8cfde4f629",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 063, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-7122d7ef9c48",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 093, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    },
+    {
+      "id": "imperial-oil-e2c002a7ecbf",
+      "operator": "Imperial Oil",
+      "country": "Canada",
+      "project": "SDL 094, CA",
+      "sourceOperators": [
+        "Imperial Oil (Public traded part)"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "加拿大"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2047
+      ],
+      "approvalYears": [
+        2057
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Imperial Oil (Public traded part)* (100%)"
+      ]
+    }
+  ]
+}

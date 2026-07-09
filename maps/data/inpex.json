@@ -1,0 +1,1452 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Inpex",
+    "sourceOperators": [
+      "Inpex",
+      "Inpex Idemitsu Norway"
+    ],
+    "projectCount": 31,
+    "countryCount": 6,
+    "businessRegions": [
+      "东南亚",
+      "中东及南亚",
+      "中国及东北亚",
+      "欧洲其他",
+      "澳大利亚/新西兰"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "inpex-6887cbd446f7",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "AC/P66, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2047
+      ],
+      "startupYears": [
+        2069
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-b311756fea42",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "AC/P71, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "175-200 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-f2c19ad07ed8",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "AC/RL7, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Inpex* (74%); TotalEnergies (26%)"
+      ]
+    },
+    {
+      "id": "inpex-d2097dcc5a51",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "Ichthys LNG T1-T2, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1990s)",
+        "Discovery (2000s)",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore LNG plant",
+        "Semi",
+        "Steel platform",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "200-300 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1990,
+        2000,
+        2008,
+        2009
+      ],
+      "approvalYears": [
+        2012,
+        2019,
+        2027,
+        2031,
+        2033,
+        2036
+      ],
+      "startupYears": [
+        2018,
+        2026,
+        2030,
+        2034,
+        2038,
+        2040
+      ],
+      "ownerships": [
+        "Inpex* (100%)",
+        "Inpex* (60%); TotalEnergies (40%)",
+        "Inpex* (67.82%); TotalEnergies (26%); CPC (Taiwan) (2.63%); Kansai Electric (1.2%); Osaka Gas (1.2%); JERA (0.74%); Toho Gas (0.42%)",
+        "Inpex* (74%); TotalEnergies (26%)"
+      ]
+    },
+    {
+      "id": "inpex-7a8183148b24",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "WA-532-P, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-962d733ce394",
+      "operator": "Inpex",
+      "country": "Australia",
+      "project": "WA-533-P, AU",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Australasia"
+      ],
+      "businessRegions": [
+        "澳大利亚/新西兰"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-94d6c31ad611",
+      "operator": "Inpex",
+      "country": "Indonesia",
+      "project": "Abadi LNG, ID",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "FPSO",
+        "Onshore LNG plant"
+      ],
+      "waterDepthCategories": [
+        "450-600 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Inpex* (65%); Pertamina (20%); Petronas (15%)"
+      ]
+    },
+    {
+      "id": "inpex-5fcdf378763a",
+      "operator": "Inpex",
+      "country": "Indonesia",
+      "project": "Barong, ID",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Inpex* (50%); BP (50%)"
+      ]
+    },
+    {
+      "id": "inpex-3929187c417b",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Aga Tobu Oki SI, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Inpex* (23.78%); Idemitsu (39%); Other partner(s) (37.22%)"
+      ]
+    },
+    {
+      "id": "inpex-bb70f195b14e",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Kakizaki Oki Tsi, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2054
+      ],
+      "ownerships": [
+        "Inpex* (23.78%); Idemitsu (50%); Other partner(s) (26.22%)"
+      ]
+    },
+    {
+      "id": "inpex-9deb39081356",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Kanazawa Minami, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2058
+      ],
+      "ownerships": [
+        "Inpex* (71%); Other partner(s) (29%)"
+      ]
+    },
+    {
+      "id": "inpex-e1d10af5b39c",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Kubiki, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        1964
+      ],
+      "startupYears": [
+        1973
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-d9e44b1053d1",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Minami Aga and Minami Suibara, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "Inpex* (60.5%); Other partner(s) (39.5%)"
+      ]
+    },
+    {
+      "id": "inpex-9c64692fcc14",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Minami Nagaoka, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-1ea2f05ccc23",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Minenobu, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2062
+      ],
+      "ownerships": [
+        "Inpex* (71%); Other partner(s) (29%)"
+      ]
+    },
+    {
+      "id": "inpex-a58d985f9e59",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "MITI Kashiwazaki, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Inpex* (23.78%); Idemitsu (50%); Other partner(s) (26.22%)"
+      ]
+    },
+    {
+      "id": "inpex-036394493319",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Mobara, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1933
+      ],
+      "approvalYears": [
+        1934
+      ],
+      "startupYears": [
+        1935
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-fb2c011cc9ae",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Naruto, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1954
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1962
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-6ce3f6557c01",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Shirayukigawa 1D, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "Inpex* (71%); Other partner(s) (29%)"
+      ]
+    },
+    {
+      "id": "inpex-eeca01a08be8",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Shonai, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1944
+      ],
+      "approvalYears": [
+        1948
+      ],
+      "startupYears": [
+        1952
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-0edfb4fc7c8f",
+      "operator": "Inpex",
+      "country": "Japan",
+      "project": "Yabase, JP",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "East Asia"
+      ],
+      "businessRegions": [
+        "中国及东北亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1933
+      ],
+      "approvalYears": [
+        1934
+      ],
+      "startupYears": [
+        1935
+      ],
+      "ownerships": [
+        "Inpex* (100%)"
+      ]
+    },
+    {
+      "id": "inpex-368f61d6a3b3",
+      "operator": "Inpex",
+      "country": "Malaysia",
+      "project": "Block 2A (Exploration), MY",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "Inpex* (42.5%); Petronas (40%); Seascape Energy (10%); Petros (7.5%)"
+      ]
+    },
+    {
+      "id": "inpex-ead714c4ae6f",
+      "operator": "Inpex",
+      "country": "Malaysia",
+      "project": "Block 4E (Exploration), MY",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Inpex* (52.5%); Petronas (40%); Petros (7.5%)"
+      ]
+    },
+    {
+      "id": "inpex-23dcf40a3cac",
+      "operator": "Inpex",
+      "country": "Malaysia",
+      "project": "SB306A PSC, MY",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "South East Asia"
+      ],
+      "businessRegions": [
+        "东南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Inpex* (50%); Petronas (42.5%); SMJ Sdn Bhd (7.5%)"
+      ]
+    },
+    {
+      "id": "inpex-4c834abe2943",
+      "operator": "Inpex",
+      "country": "Norway",
+      "project": "PL1217, NO",
+      "sourceOperators": [
+        "Inpex Idemitsu Norway"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Inpex Idemitsu Norway* (40%); Aker BP (20%); Petoro (20%); Vaar Energi (20%)"
+      ]
+    },
+    {
+      "id": "inpex-16ce1a20adc2",
+      "operator": "Inpex",
+      "country": "Norway",
+      "project": "PL1263, NO",
+      "sourceOperators": [
+        "Inpex Idemitsu Norway"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "Inpex Idemitsu Norway* (40%); Equinor (20%); Petoro (20%); Vaar Energi (20%)"
+      ]
+    },
+    {
+      "id": "inpex-1cd46178bc31",
+      "operator": "Inpex",
+      "country": "Norway",
+      "project": "PL1264, NO",
+      "sourceOperators": [
+        "Inpex Idemitsu Norway"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Inpex Idemitsu Norway* (60%); Equinor (40%)"
+      ]
+    },
+    {
+      "id": "inpex-06799cef9a67",
+      "operator": "Inpex",
+      "country": "Norway",
+      "project": "PL1264B, NO",
+      "sourceOperators": [
+        "Inpex Idemitsu Norway"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "200-300 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Inpex Idemitsu Norway* (60%); Equinor (40%)"
+      ]
+    },
+    {
+      "id": "inpex-f035fb3e8ff8",
+      "operator": "Inpex",
+      "country": "UAE",
+      "project": "Hudairiat, AE",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Inpex* (40%); ADNOC (60%)"
+      ]
+    },
+    {
+      "id": "inpex-905cace113dd",
+      "operator": "Inpex",
+      "country": "UAE",
+      "project": "Onshore block 4 , AE",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2021
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Inpex* (40%); ADNOC (60%)"
+      ]
+    },
+    {
+      "id": "inpex-b4f742c698e9",
+      "operator": "Inpex",
+      "country": "UAE",
+      "project": "Ramhan, AE",
+      "sourceOperators": [
+        "Inpex"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Inpex* (40%); ADNOC (60%)"
+      ]
+    }
+  ]
+}

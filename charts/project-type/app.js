@@ -3,9 +3,9 @@ import {
   buildProjectTypeMix,
   formatPercent,
   resolveOperator,
-} from "./chart-core.js?v=20260703-project-type-panel";
+} from "./chart-core.js?v=20260709-batch";
 
-const VERSION = "20260703-project-type-panel";
+const VERSION = "20260709-batch";
 const SVG_NS = "http://www.w3.org/2000/svg";
 const CENTER = { x: 160, y: 134 };
 const RADIUS = 100;

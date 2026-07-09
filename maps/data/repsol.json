@@ -1,0 +1,4501 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "Repsol",
+    "sourceOperators": [
+      "Repsol"
+    ],
+    "projectCount": 98,
+    "countryCount": 11,
+    "businessRegions": [
+      "中南美洲",
+      "北美其他",
+      "北非/北欧",
+      "地中海/南欧",
+      "墨西哥湾",
+      "巴西",
+      "欧洲其他",
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "repsol-be2aafe10c2d",
+      "operator": "Repsol",
+      "country": "Algeria",
+      "project": "Reggane Nord, DZ",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1958,
+        1995,
+        2000,
+        2005,
+        2006
+      ],
+      "approvalYears": [
+        2012,
+        2026
+      ],
+      "startupYears": [
+        2017,
+        2027
+      ],
+      "ownerships": [
+        "Repsol* (36%); Sonatrach (40%); Harbour Energy (24%)"
+      ]
+    },
+    {
+      "id": "repsol-0298db89544f",
+      "operator": "Repsol",
+      "country": "Angola",
+      "project": "Catchimanha, AO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Semi"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2015
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (50%); Sonangol (50%)"
+      ]
+    },
+    {
+      "id": "repsol-4fbbfc483219",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Bobico Sur, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2020
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
+      ]
+    },
+    {
+      "id": "repsol-6482636e6c00",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Caipipendi (Margarita), BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
+      ]
+    },
+    {
+      "id": "repsol-434f6e92a71a",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Campo Surubi (Paloma), BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-5df756a16e3c",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Margarita & Huacaya (Caipipendi expansion phases 1 & 2), BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998,
+        2007,
+        2028
+      ],
+      "approvalYears": [
+        2008,
+        2010,
+        2042
+      ],
+      "startupYears": [
+        2009,
+        2012,
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
+      ]
+    },
+    {
+      "id": "repsol-d95a1f7eb8fa",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Margarita, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
+      ]
+    },
+    {
+      "id": "repsol-f4990d37f69d",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Monteagudo, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "Repsol* (30%); Clontarf Energy (30%); Petrobras (20%); YPFB Andina (20%)"
+      ]
+    },
+    {
+      "id": "repsol-a87deaca69d7",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Paloma, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-5baeb0551188",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Surubi Noroeste (Northwest), BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003,
+        2036
+      ],
+      "approvalYears": [
+        2003,
+        2037
+      ],
+      "startupYears": [
+        2003,
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-7688642489be",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Surubi, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1992
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1992
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-27abb5c5667b",
+      "operator": "Repsol",
+      "country": "Bolivia",
+      "project": "Surubi-BB, BO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1996
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-1804229b1ef0",
+      "operator": "Repsol",
+      "country": "Brazil",
+      "project": "ES-M-667_R14, BR",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "巴西"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-053b2ac89c02",
+      "operator": "Repsol",
+      "country": "Libya",
+      "project": "NC115 (El Sharara A), LY",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Repsol* (40%); OMV (30%); TotalEnergies (30%)"
+      ]
+    },
+    {
+      "id": "repsol-f252657fc1ed",
+      "operator": "Repsol",
+      "country": "Libya",
+      "project": "NC186, LY",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North Africa"
+      ],
+      "businessRegions": [
+        "北非/北欧"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Repsol* (32%); OMV (24%); TotalEnergies (24%); Equinor (20%)"
+      ]
+    },
+    {
+      "id": "repsol-8814977e692b",
+      "operator": "Repsol",
+      "country": "Mexico",
+      "project": "Polok-Chinwol (R2L4), MX",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth",
+        "600-800 meter depth"
+      ],
+      "discoveryYears": [
+        2020,
+        2031
+      ],
+      "approvalYears": [
+        2027,
+        2034,
+        2036
+      ],
+      "startupYears": [
+        2030,
+        2037,
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (46.67%); Petronas (28.33%); Harbour Energy (25%)"
+      ]
+    },
+    {
+      "id": "repsol-e49dc15d1538",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL019G, NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (61%); ORLEN S.A. (39%)"
+      ]
+    },
+    {
+      "id": "repsol-a92e37b5e707",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL038 C, NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (70%); Petoro (30%)"
+      ]
+    },
+    {
+      "id": "repsol-b7293dd73a4b",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL038F, NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (70%); Petoro (30%)"
+      ]
+    },
+    {
+      "id": "repsol-effab834028e",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL143 BS (Blane East (1/2-1)), NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-2882942f5242",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL316 (Yme Redevelop), NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
+      ]
+    },
+    {
+      "id": "repsol-6f7aee66e8e9",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "PL316 B, NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
+      ]
+    },
+    {
+      "id": "repsol-ef5200d2c8dc",
+      "operator": "Repsol",
+      "country": "Norway",
+      "project": "Yme, NO",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Western Europe"
+      ],
+      "businessRegions": [
+        "欧洲其他"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2021
+      ],
+      "ownerships": [
+        "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
+      ]
+    },
+    {
+      "id": "repsol-f561305bcaff",
+      "operator": "Repsol",
+      "country": "Peru",
+      "project": "Block 57, PE",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "Repsol* (53.84%); CNPC (parent) (23.08%); PetroChina (23.08%)"
+      ]
+    },
+    {
+      "id": "repsol-437689de94ec",
+      "operator": "Repsol",
+      "country": "Peru",
+      "project": "Peru LNG T1, PE",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%",
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2012
+      ],
+      "approvalYears": [
+        2009,
+        2015
+      ],
+      "startupYears": [
+        2014,
+        2017
+      ],
+      "ownerships": [
+        "Repsol* (53.84%); CNPC (parent) (23.08%); PetroChina (23.08%)"
+      ]
+    },
+    {
+      "id": "repsol-6c30df8793e3",
+      "operator": "Repsol",
+      "country": "Spain",
+      "project": "Bocarte, ES",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Southern Europe"
+      ],
+      "businessRegions": [
+        "地中海/南欧"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (95%); Naturgy (5%)"
+      ]
+    },
+    {
+      "id": "repsol-6f2df0ed27d4",
+      "operator": "Repsol",
+      "country": "Spain",
+      "project": "Necora, ES",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "Southern Europe"
+      ],
+      "businessRegions": [
+        "地中海/南欧"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (95%); Naturgy (5%)"
+      ]
+    },
+    {
+      "id": "repsol-ab6502eb1978",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC340, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-fa1081c2acfd",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC341, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-e2d38ee75817",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC342, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-c068c8573b7e",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC386, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-b5d281781a9c",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC511, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-41adf5567951",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "AC512, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-7bef16fff8a7",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394600, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0a87b9266e7e",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394601, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-1613ec317341",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394602, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-36e01637ff36",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394603, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-d3a987ed076f",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394604, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-3288f27e0217",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394611, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0d284e618f5c",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394612, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-5a43b0cbeebb",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394613, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-4923a4e5eb14",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394614, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-f5e574597673",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394616, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-111d39222182",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394617, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-89e8384c5db0",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394618, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-f71da5e0cb61",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394619, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-3b3561c3020f",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394620, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-8dad48355e15",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394621, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0a08db75e21e",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394622, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-14cfe777c95a",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394623, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-82058fa74c6a",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394624, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-16d761fa99fc",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394625, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-2039d4f5a0ea",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394626, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-12bfc33a5800",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394627, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-e315f61ea13e",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394628, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-39dc0ed4af16",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394629, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-7268353492e6",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394630, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-25185c6f3dc7",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394631, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-7b4a306eb555",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394632, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-9230d0e5895b",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394633, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-4f7874d3fc3a",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394634, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-015a003a56f7",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394635, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0704b10ac773",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394636, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-199cebc14584",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394637, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-dbca8b06103d",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394638, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-2dc7bb0a08f8",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394661, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-5f257d38674a",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394662, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-54869b02d75c",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394663, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-accbe4365bc7",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394664, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-999b5a14e9ee",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394665, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-b9076f786aec",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394666, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-925a5038bb37",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394667, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-51df668f4bc8",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394668, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-66e7bf7ae283",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394675, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-9f814c153866",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394676, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-8d53a587df1a",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394677, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-f0059d842a7c",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394678, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-bddfab758efe",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "ADL 394679, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-12bf158fbc7f",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "Austin Chalk Horizontal, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2006
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-d7c767ec641e",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "Eagle Ford Shale, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008,
+        2009
+      ],
+      "approvalYears": [
+        2009,
+        2010,
+        2012
+      ],
+      "startupYears": [
+        2009,
+        2010,
+        2012
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-d99d56b321d4",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "GC477, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0454e84c69f4",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "GC565, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-4de8b90859f8",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "GC655, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-8273908ed6fa",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "GC695, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Repsol* (50%); Talos Energy (50%)"
+      ]
+    },
+    {
+      "id": "repsol-5f997de3cb14",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "GC818, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1000-1500 meter depth"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-fe7bb84574df",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC373, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2059
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-f2b62e75c8d0",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC415, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-66e1a319c4db",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC416, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-dc8cabebbdde",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC417, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-0778fc61a647",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC504, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2056
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-8fca890b2367",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC505, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-86dd65a3b328",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "KC548, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-327812a354c4",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "Marcellus Shale, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007,
+        2008
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2008,
+        2009
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-af4140b294a9",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "Western Gulf Province_Texas, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "北美其他"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1900
+      ],
+      "approvalYears": [
+        1976
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    },
+    {
+      "id": "repsol-bf5e6bdd8f91",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "WR422, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2053
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "Repsol* (50%); Talos Energy (50%)"
+      ]
+    },
+    {
+      "id": "repsol-cadf4406cfde",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "WR423, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Repsol* (50%); Talos Energy (50%)"
+      ]
+    },
+    {
+      "id": "repsol-b5c28e5e3abe",
+      "operator": "Repsol",
+      "country": "United States",
+      "project": "WR466, US",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "businessRegions": [
+        "墨西哥湾"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2039
+      ],
+      "approvalYears": [
+        2054
+      ],
+      "startupYears": [
+        2057
+      ],
+      "ownerships": [
+        "Repsol* (50%); Talos Energy (50%)"
+      ]
+    },
+    {
+      "id": "repsol-88ce1e95d4f2",
+      "operator": "Repsol",
+      "country": "Venezuela",
+      "project": "Junin-7, VE",
+      "sourceOperators": [
+        "Repsol"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "Repsol* (100%)"
+      ]
+    }
+  ]
+}

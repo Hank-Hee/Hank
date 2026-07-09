@@ -87,10 +87,21 @@ HEADER_KEYS = [
 ]
 COUNTRY_ALIASES = {
     "Congo": "Republic of the Congo",
+    "Democratic Republic of Congo": "Democratic Republic of the Congo",
+    "Nigeria/Sao Tome JDZ": "Sao Tome and Principe",
+    "Taiwan (China)": "Taiwan",
     "Timor-Leste": "East Timor",
     "Turkiye": "Turkey",
     "UAE": "United Arab Emirates",
 }
+CORPORATE_SUFFIX_RE = re.compile(
+    r"\b("
+    r"plc|inc|corp|corporation|company|co|ltd|limited|llc|"
+    r"sa|s a|nv|n v|asa|spa|s p a|ag|gmbh|group|holdings?|"
+    r"energy|energies|oil|gas|petroleum|petrol|resources|international|the"
+    r")\b",
+    re.IGNORECASE,
+)
 
 
 def _clean(value):
@@ -102,9 +113,54 @@ def _clean(value):
     return value
 
 
+def _ascii_key(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", str(value or ""))
+    return "".join(character for character in normalized if not unicodedata.combining(character))
+
+
 def _slug(value: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
+    slug = re.sub(r"[^a-z0-9]+", "-", _ascii_key(value).casefold()).strip("-")
     return slug or "operator"
+
+
+def _unique_slug(value: str, used_slugs: set[str]) -> str:
+    base = _slug(value)
+    candidate = base
+    index = 2
+    while candidate in used_slugs:
+        candidate = f"{base}-{index}"
+        index += 1
+    used_slugs.add(candidate)
+    return candidate
+
+
+def normalize_company_family(value: str) -> str:
+    normalized = _ascii_key(value).casefold()
+    normalized = re.sub(r"[^a-z0-9]+", " ", normalized)
+    normalized = CORPORATE_SUFFIX_RE.sub(" ", normalized)
+    return re.sub(r"\s+", " ", normalized).strip()
+
+
+def operator_matches_company_family(company: str, operator: str) -> bool:
+    """Return True when an Operator is part of the company's visible corporate family."""
+    company_key = normalize_company_family(company)
+    operator_key = normalize_company_family(operator)
+    if not company_key or not operator_key:
+        return False
+    if operator_key == company_key:
+        return True
+    if operator_key.startswith(f"{company_key} "):
+        return True
+
+    compact_company = re.sub(r"[^a-z0-9]+", "", company_key)
+    compact_operator = re.sub(r"[^a-z0-9]+", "", operator_key)
+    if len(compact_company) >= 3 and compact_operator.startswith(compact_company):
+        return True
+
+    raw_company = str(company or "").strip()
+    if raw_company.isupper() and len(raw_company) >= 2 and compact_operator.startswith(raw_company.casefold()):
+        return True
+    return False
 
 
 def company_for_operator(operator: str, config: dict) -> str | None:
@@ -114,6 +170,102 @@ def company_for_operator(operator: str, config: dict) -> str | None:
         if cleaned in details.get("sourceOperators", []):
             return company
     return None
+
+
+def _load_xlsx_shared_strings(archive: zipfile.ZipFile) -> list[str]:
+    if "xl/sharedStrings.xml" not in archive.namelist():
+        return []
+    strings = []
+    with archive.open("xl/sharedStrings.xml") as stream:
+        for _, element in ET.iterparse(stream, events=("end",)):
+            if element.tag == f"{{{MAIN_NS}}}si":
+                strings.append("".join(node.text or "" for node in element.iter(f"{{{MAIN_NS}}}t")))
+                element.clear()
+    return strings
+
+
+def _first_worksheet_path(archive: zipfile.ZipFile) -> str:
+    workbook = ET.fromstring(archive.read("xl/workbook.xml"))
+    rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
+    relation_namespace = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
+    targets = {relation.attrib["Id"]: relation.attrib["Target"] for relation in rels}
+    first_sheet = workbook.find(f"{{{MAIN_NS}}}sheets")[0]
+    target = targets[first_sheet.attrib[f"{relation_namespace}id"]]
+    return target if target.startswith("xl/") else f"xl/{target.lstrip('/')}"
+
+
+def _iter_xlsx_first_sheet_rows(path: str | os.PathLike):
+    with zipfile.ZipFile(path) as archive:
+        shared_strings = _load_xlsx_shared_strings(archive)
+        worksheet_path = _first_worksheet_path(archive)
+        with archive.open(worksheet_path) as stream:
+            for _, element in ET.iterparse(stream, events=("end",)):
+                if element.tag != f"{{{MAIN_NS}}}row":
+                    continue
+                cells = {}
+                for cell in element.findall(f"{{{MAIN_NS}}}c"):
+                    cells[_column_index(cell.attrib["r"])] = _cell_value(cell, shared_strings)
+                element.clear()
+                yield cells
+
+
+def read_company_names(path: str | os.PathLike, column_name: str = "公司名称") -> list[str]:
+    rows = _iter_xlsx_first_sheet_rows(path)
+    try:
+        header_cells = next(rows)
+    except StopIteration:
+        return []
+    header_lookup = {
+        str(value or "").strip(): index
+        for index, value in header_cells.items()
+        if str(value or "").strip()
+    }
+    if column_name not in header_lookup:
+        available = ", ".join(header_lookup)
+        raise ValueError(f"Company column {column_name!r} not found. Available columns: {available}")
+    column_index = header_lookup[column_name]
+
+    names = []
+    seen = set()
+    for cells in rows:
+        name = _clean(cells.get(column_index))
+        if name and name not in seen:
+            names.append(name)
+            seen.add(name)
+    return names
+
+
+def derive_company_config_from_list(
+    company_list_path: str | os.PathLike,
+    rystad_input_path: str | os.PathLike,
+    company_column: str = "公司名称",
+) -> tuple[dict, list[dict]]:
+    company_names = read_company_names(company_list_path, company_column)
+    source_operators = sorted(
+        {_clean(row.get("Operator")) for row in stream_xlsx_rows(rystad_input_path) if _clean(row.get("Operator"))},
+        key=str.casefold,
+    )
+
+    companies = {}
+    skipped = []
+    used_slugs = set()
+    for company in company_names:
+        matches = [
+            operator
+            for operator in source_operators
+            if operator_matches_company_family(company, operator)
+        ]
+        if not matches:
+            skipped.append({"name": company, "reason": "上游数据源无匹配 Operator"})
+            continue
+        slug = _unique_slug(company, used_slugs)
+        companies[company] = {
+            "slug": slug,
+            "aliases": [company, slug],
+            "sourceOperators": matches,
+        }
+
+    return {"companies": companies}, skipped
 
 
 def stable_project_id(company: str, country: str, project: str) -> str:
@@ -291,12 +443,18 @@ def build_country_centers(countries: set[str], natural_earth_source: str = NATUR
     return centers, missing
 
 
+def _load_config(config_or_path: dict | str | os.PathLike) -> dict:
+    if isinstance(config_or_path, dict):
+        return config_or_path["companies"] if "companies" in config_or_path else config_or_path
+    return json.loads(Path(config_or_path).read_text(encoding="utf-8"))["companies"]
+
+
 def build_payloads(
     input_path: str | os.PathLike,
-    config_path: str | os.PathLike,
+    config_path: dict | str | os.PathLike,
     natural_earth_source: str = NATURAL_EARTH_URL,
 ) -> dict:
-    config = json.loads(Path(config_path).read_text(encoding="utf-8"))["companies"]
+    config = _load_config(config_path)
     matched_rows = {company: [] for company in config}
     for row in stream_xlsx_rows(input_path):
         company = company_for_operator(row.get("Operator", ""), config)
@@ -306,8 +464,8 @@ def build_payloads(
     companies = {}
     for company, details in config.items():
         projects = aggregate_rows(matched_rows[company], company, set(details["sourceOperators"]))
-        expected = details["expectedProjectCount"]
-        if len(projects) != expected:
+        expected = details.get("expectedProjectCount")
+        if expected is not None and len(projects) != expected:
             raise ValueError(f"{company} project count mismatch: expected {expected}, got {len(projects)}")
         companies[company] = projects
 
@@ -339,6 +497,10 @@ def write_outputs(result: dict, output_dir: str | os.PathLike, manifest_path: st
     output_dir = Path(output_dir)
     if result["missingCountries"]:
         raise ValueError(f"Missing country centers: {', '.join(result['missingCountries'])}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    for stale_file in output_dir.glob("*.json"):
+        if stale_file.name != "country-centers.json":
+            stale_file.unlink()
 
     manifest = {
         "meta": {
@@ -394,15 +556,41 @@ def main():
     parser.add_argument("--output", required=True, help="Directory for per-company JSON files")
     parser.add_argument("--manifest", required=True, help="Path for operators.json")
     parser.add_argument("--config", default=str(Path(__file__).with_name("company-config.json")))
+    parser.add_argument("--company-list", help="Optional workbook containing target company names")
+    parser.add_argument("--company-column", default="公司名称", help="Column name in --company-list")
+    parser.add_argument("--write-config", help="Write the derived company config JSON to this path")
+    parser.add_argument("--skipped-report", help="Write skipped company reasons to this JSON path")
     parser.add_argument("--natural-earth", default=NATURAL_EARTH_URL)
     args = parser.parse_args()
 
-    result = build_payloads(args.input, args.config, args.natural_earth)
+    skipped = []
+    config = args.config
+    if args.company_list:
+        config, skipped = derive_company_config_from_list(args.company_list, args.input, args.company_column)
+
+    result = build_payloads(args.input, config, args.natural_earth)
+    if args.company_list:
+        zero_project_companies = [
+            company
+            for company, projects in result["companies"].items()
+            if not projects
+        ]
+        for company in zero_project_companies:
+            result["companies"].pop(company, None)
+            result["config"].pop(company, None)
+            skipped.append({"name": company, "reason": "上游数据源匹配到 Operator，但无有效项目"})
+        if args.write_config:
+            _write_json_atomic(Path(args.write_config), {"companies": result["config"]})
+        if args.skipped_report:
+            _write_json_atomic(Path(args.skipped_report), {"skipped": skipped})
+
     write_outputs(result, args.output, args.manifest)
     print(json.dumps({
         company: len(projects)
         for company, projects in result["companies"].items()
     }, ensure_ascii=False))
+    if skipped:
+        print(json.dumps({"skipped": skipped}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

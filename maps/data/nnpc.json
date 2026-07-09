@@ -1,0 +1,6211 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "NNPC",
+    "sourceOperators": [
+      "NNPC (Nigeria)"
+    ],
+    "projectCount": 135,
+    "countryCount": 1,
+    "businessRegions": [
+      "非洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "nnpc-83225693c301",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Aboh, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-ff894a2aa923",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Abura Southeast, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-a5c571b67161",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Abura, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        1978
+      ],
+      "startupYears": [
+        1980
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-d2a7f406ebff",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Adagbassa Creek, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-87fcb3c17d14",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Adanga North, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2002
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-826f84bd42d1",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Adanga, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        1985
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-3c03aacf3f0e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Adein Zigaziga, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-5d86489ffb21",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Adolo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2009
+      ],
+      "startupYears": [
+        2010
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-61da268bf2ce",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Afam-Umuosi, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-e42f6a963e64",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Afiesere (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-702cfbc87cf3",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Agbara, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1985
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-9fbe5c043373",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Akai, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-bc48b9856ac5",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Akam, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        1983
+      ],
+      "startupYears": [
+        1984
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-4d176818cd46",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Akan, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-a6e317692d06",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Akaso (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-518dfa050dac",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Alakiri (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        2036,
+        2038
+      ],
+      "startupYears": [
+        2037,
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-fbbe80a0cecb",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Alakiri East, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-ce357ec08558",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Antan, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-725cac011780",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Apoi North-Funiwa, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1975
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-990668cc1ae7",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Asaritoru, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-12c4cf9878d3",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Asha (OML 126), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-e979f78159bb",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Bala, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-00e2d3fe3df7",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Bamiene, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1993
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-f20283e5c2ac",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Banghan (OML 11) Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-eb6ff5bd2009",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Baniele (OML 11), Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1989
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-95ccbaf0d1b4",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Batan, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1971
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-3dfbd2d768e7",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Bobo (OPL 322), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "2250-3100 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-7a92e124f4fb",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Bodo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        2035
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-8ee8b7f571d3",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Bogi, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-59a5b5ccedc6",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Buguma Creek, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        2030,
+        2039
+      ],
+      "startupYears": [
+        2031,
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-b2034410674b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Chobie, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-d24dc3ab089c",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "East Area NGL II, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2003
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-1d572def4169",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Effurun 2, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
+      ]
+    },
+    {
+      "id": "nnpc-13d0ce412a70",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Egwa, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-f765026c2f97",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ekanga, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (60%); TotalEnergies (40%)"
+      ]
+    },
+    {
+      "id": "nnpc-f9edebde7c99",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ekim, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-d0175720f0c5",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Eriemu (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        2019
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-dca72f7756d2",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ete South, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-d27e57f15d31",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Etebi, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-647143db2c6e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Evwreni (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-08a5922a0bc5",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Gbetiokun, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2018,
+        2040
+      ],
+      "startupYears": [
+        2019,
+        2042
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-858f2ea333cb",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Hughes Channel (OML 11) Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-b7c1fce4ba3e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Inagha, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2008
+      ],
+      "startupYears": [
+        2009
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-e392c693239a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Isoko, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        1972
+      ],
+      "startupYears": [
+        1976
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-f1f054fc922b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Izombe, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1975
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-209660254a58",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Jones Creek, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-fc455e5cf4b7",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kakaku, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-9b28fa19033f",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kanus Kiri, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-d09a60f3d969",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kita Marine (OPL 98), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2011
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-30db9ee80905",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kokori (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1960
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-0ac791e00471",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kolmani River, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-91c07ae65e10",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Krakama East, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-43d791412b9e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kurogbagba South, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-f1cb6dcae05b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Kurogbagba, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-67cb459d122d",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Middleton, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1975
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-f8b3f26e4bb2",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Mimbo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1988
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-ebdf51dd2d44",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ngboko, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-75d03d2be33d",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Njaba, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2008
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-e0a78d1c1ade",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Nkelu A, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-9f3cf1a380b7",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NLNG Base Project, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        1966,
+        1967,
+        1970,
+        1975,
+        1980
+      ],
+      "approvalYears": [
+        1963,
+        1964,
+        1965,
+        1966,
+        1968,
+        1969,
+        1972,
+        1977,
+        1984
+      ],
+      "startupYears": [
+        1963,
+        1964,
+        1966,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1977,
+        1988
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)",
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)",
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)",
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)",
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)",
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-0a9c1cd21674",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NLNG Expansion, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959,
+        1974
+      ],
+      "approvalYears": [
+        1961,
+        1976,
+        1990
+      ],
+      "startupYears": [
+        1961,
+        1977,
+        1999
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)",
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-0b67b65a3a4a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NLNG Plus, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-4bb45df64bca",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NLNG Seven Plus, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field",
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Appraising",
+        "Discovery (1970s)",
+        "Field evaluation",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1953,
+        1959,
+        1963,
+        1967,
+        1971,
+        1973,
+        1977,
+        1981
+      ],
+      "approvalYears": [
+        1976,
+        1982,
+        1992,
+        2013,
+        2032,
+        2034,
+        2036,
+        2037,
+        2038
+      ],
+      "startupYears": [
+        1976,
+        1986,
+        1996,
+        2014,
+        2034,
+        2035,
+        2037,
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)",
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)",
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)",
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-e1254b6c4e01",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NLNG Six, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959,
+        1963,
+        1977
+      ],
+      "approvalYears": [
+        1967,
+        1968,
+        2016
+      ],
+      "startupYears": [
+        1970,
+        1971,
+        2017
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-7b2472f665ff",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "NNPC FLNG, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)",
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1988,
+        1990,
+        1992,
+        1994,
+        1997
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-2b7f480f3c3f",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Obuzo (OML 11), Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2027
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-d828d21e8788",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Odum, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1980
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-420c5899a3d1",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ofemini 2 (OML 11), Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-8af18752a9d9",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ofrima Udele Project, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "FPSO and Other",
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth",
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2007,
+        2010
+      ],
+      "approvalYears": [
+        2040,
+        2043
+      ],
+      "startupYears": [
+        2044,
+        2047
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-69496b07914d",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ofrima, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-001eb98e4b61",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ogbogu, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-d5fac32f6219",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ohuru, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1958
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-b0ac92bf7c13",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Okoloma, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-65c89319f728",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Okpoho-Okono, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1978,
+        1983
+      ],
+      "approvalYears": [
+        1997,
+        2000
+      ],
+      "startupYears": [
+        2001,
+        2004
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-8c2ff3b31838",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Okubie, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-adf666887137",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Okwori, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-36eb4dcacd99",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ologbo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1976
+      ],
+      "approvalYears": [
+        1994
+      ],
+      "startupYears": [
+        1998
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-ab5101b3b75e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Olomoro (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-b52adf67525a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 026, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963,
+        2100
+      ],
+      "approvalYears": [
+        2036,
+        2100
+      ],
+      "startupYears": [
+        2040,
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-4f704dec7298",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 030, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-7ed51827874a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 034, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
+      ]
+    },
+    {
+      "id": "nnpc-4c5be1855e79",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 040, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2033
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-21582aa8786f",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 042, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-3a7c1e092785",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 064 (SIPEC service contract), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-fcdee92a0992",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 066 (SIPEC service contract), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-735915951c1a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 086, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2049
+      ],
+      "approvalYears": [
+        2050
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-2de8d91fa438",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 088, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-d25b3a145f33",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 098, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-6bef3342837e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 11 (Re-award), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-7d1287f75a65",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 111, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-d24932ce1f96",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 119, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-63ff7887b251",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 13 (Re-award), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-ca998cd504e8",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 137 (Re-award), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-14575b1060fe",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 137, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "100-125 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-a48c1b29ad5a",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OML 18 (Re-award), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-40caaa4c373e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 298, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-8fa0610fb929",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 702, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-1098e8ce3714",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 703, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-fbcdbc8a4d05",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 705, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-619dc9b970ef",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 707, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-7046aecd77b0",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "OPL 732, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2092
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-d4cfd6798ddd",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Opobo North, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-8b109380aa37",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Opuama, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1975
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-d25492c045c0",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Orho, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
+      ]
+    },
+    {
+      "id": "nnpc-44c466cf09b8",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Orogho (Marginal Field), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-0bc01b3cee0c",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Oron East, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2048
+      ],
+      "startupYears": [
+        2052
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-9c5b2d4c36f2",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Oron North, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2000
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-e1ce72ad6f3b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Oron West, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-93c06a460017",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Oroni (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-6b11b5e23fd9",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Orubiri, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
+      ]
+    },
+    {
+      "id": "nnpc-ac6ac422261d",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Osioka South, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-4ef7046d0fb2",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ossiomo 2, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2004
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-4e7a5bd42ccd",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Otovo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1965
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-656c606ad7e4",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ovo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-e5f0525fa225",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Owe, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2007
+      ],
+      "startupYears": [
+        2011
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-844601c420af",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Oweh (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-68002aef5978",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Owopele North, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-5d5921cc3e7e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Owopele, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-11db99341a0e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Polobo, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-089889f84524",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Shokoloko, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "125-150 meter depth"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-ce6b55cf87aa",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Sibiri, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2024
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
+      ]
+    },
+    {
+      "id": "nnpc-0cadab1a01ea",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Teeba, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Field evaluation"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-e0817c3394a2",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ubefan, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        2001
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
+      ]
+    },
+    {
+      "id": "nnpc-facbb7fbb14e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Udele-2, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2007
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-1661ab04b06b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ughelli East, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1969
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
+      ]
+    },
+    {
+      "id": "nnpc-c3e862cb0953",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Ukpam, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-53b8bab9ba51",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Utapate Redevelop, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1974
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2024
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-97bfb5b27d6c",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Utapate South (Marginal Field), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2038
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-5d491f77ba4b",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Utapate West, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Sumedha (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-dbd0b6417593",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Uzere West (redevelop), NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-20751a02254e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Uzere West, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1963
+      ],
+      "approvalYears": [
+        1965
+      ],
+      "startupYears": [
+        1965
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-342e933d376e",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Uzuaka (OML 11) Marginal Field, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2035
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    },
+    {
+      "id": "nnpc-6c0112c7a3a6",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Wadi, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (100%)"
+      ]
+    },
+    {
+      "id": "nnpc-c9cee962c05f",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Warri River 5, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
+      ]
+    },
+    {
+      "id": "nnpc-c26e1171d791",
+      "operator": "NNPC",
+      "country": "Nigeria",
+      "project": "Yokuru, NG",
+      "sourceOperators": [
+        "NNPC (Nigeria)"
+      ],
+      "regions": [
+        "West Africa"
+      ],
+      "businessRegions": [
+        "非洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1962
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
+      ]
+    }
+  ]
+}

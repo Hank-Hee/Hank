@@ -13,7 +13,7 @@ assert.match(html, /id="project-type-chart"/);
 assert.match(html, /id="chart-tooltip"/);
 assert.match(html, /id="project-type-legend"/);
 assert.match(html, /aria-live="polite"/);
-assert.match(html, /app\.js\?v=20260703-project-type-panel/);
+assert.match(html, /app\.js\?v=20260709-batch/);
 assert.ok(!html.includes("echarts"), "the embed must not depend on a charting CDN");
 assert.ok(!html.includes("source-badge"), "the side-panel header must stay compact");
 assert.ok(!html.includes("eyebrow"), "the side-panel header must stay compact");

@@ -1,0 +1,3139 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "PDVSA",
+    "sourceOperators": [
+      "PDVSA"
+    ],
+    "projectCount": 63,
+    "countryCount": 2,
+    "businessRegions": [
+      "中南美洲",
+      "加勒比"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "pdvsa-784107da6ddc",
+      "operator": "PDVSA",
+      "country": "Cuba",
+      "project": "Block N-53,54, CU",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "Caribbean"
+      ],
+      "businessRegions": [
+        "加勒比"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-d7f33f4521df",
+      "operator": "PDVSA",
+      "country": "Cuba",
+      "project": "Block N-58,59, CU",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "Caribbean"
+      ],
+      "businessRegions": [
+        "加勒比"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "1500-2250 meter depth"
+      ],
+      "discoveryYears": [
+        2032
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-7c85ee134669",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Ayacucho 8, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Producing early",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013,
+        2040
+      ],
+      "approvalYears": [
+        2014,
+        2029,
+        2041
+      ],
+      "startupYears": [
+        2015,
+        2032,
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (70%); Chevron (30%)"
+      ]
+    },
+    {
+      "id": "pdvsa-95664be9af43",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block 01 (Dorado), VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2102
+      ],
+      "startupYears": [
+        2105
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-e5eb47121925",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block 02 (Loran), VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-473050689976",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block 03, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Subsea tie back"
+      ],
+      "waterDepthCategories": [
+        "150-175 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-672b6dd7c1da",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block 9 Ceuta, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-5b429fb424d0",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block Bitor, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-aab54bf9ee44",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Block Manresa, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-87f73b38cb69",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Boyaca 6, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-09689e066d98",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Boyaca 8, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-2ead10fcd339",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Capacho, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1945
+      ],
+      "approvalYears": [
+        1945
+      ],
+      "startupYears": [
+        1946
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-6e720f489946",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Carina, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1979
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-3d1697961812",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Cerro Pelao, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-2fa8cc12f21d",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Chaparrito, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1990
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-f328c2dbab47",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Dorado, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Extended reach"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-e530f5d223f9",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "El Chaparro, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1951
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-77cee06419f3",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Gas Guarcio, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-83f5d24e7110",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Guanoco 2, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-9c87239e666b",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Guarani, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-8cf7ff5f01ba",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Guarico Occidental (Mercedes), VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-d91148841666",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Guarico Oriental, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "PDVSA* (70%); Sucre Energy Group (30%)"
+      ]
+    },
+    {
+      "id": "pdvsa-7c9f31ad9270",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Gulfita-La Victoria, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-614f4cbca1e7",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "IZ 151X, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1959
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-be98948b66ee",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Jobo, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2101
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-13da55d28a61",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Junin-10, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (50%); CNPC (parent) (50%)"
+      ]
+    },
+    {
+      "id": "pdvsa-dab769ce6ea2",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Junin-12, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-f1d697f812b6",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Junin-13, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-850ddb2466b1",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Junin-7, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-03b8b200c61f",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Karina, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-11d0ecad1d7f",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "La Vela Costa Afuera, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Fixed and floater"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-9b7a6fb3c657",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Las Piedritas, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-23ef8e762c4d",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Lau Lau, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-31b285da429e",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Lechoso, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1950
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2047
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-43711597bf29",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Loran-Manatee, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "75-100 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-4db639b34c1c",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Mantecal, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-4435e2cd51c9",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Maulpa, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2101
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-1545d2b37cd1",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Merey-Oleos-Miga-Oca Yopales Sur, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-62725cfd9484",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Occidente Joint Ventures, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2019
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-62bf62543606",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Occidente PDVSA, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf",
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Appraising",
+        "Discovery (1950s)",
+        "Discovery (2000s)",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Extended reach",
+        "Onshore",
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "25-50 meter depth",
+        "Land"
+      ],
+      "discoveryYears": [
+        1928,
+        1946,
+        1949,
+        1953,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1963,
+        1965,
+        1980,
+        1982,
+        1984,
+        1992,
+        1994,
+        1995,
+        2002,
+        2004,
+        2027
+      ],
+      "approvalYears": [
+        1929,
+        1948,
+        1953,
+        1957,
+        1958,
+        1960,
+        1964,
+        1966,
+        1968,
+        1983,
+        1986,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        2007,
+        2010,
+        2028,
+        2035,
+        2038,
+        2053
+      ],
+      "startupYears": [
+        1948,
+        1954,
+        1959,
+        1960,
+        1961,
+        1962,
+        1965,
+        1968,
+        1970,
+        1984,
+        1987,
+        1994,
+        1995,
+        1996,
+        1997,
+        2011,
+        2012,
+        2029,
+        2039,
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-a49c3f0adae4",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Oriente PDVSA, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (1980s)",
+        "Old discoveries",
+        "Producing 25-50%",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1918,
+        1931,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1943,
+        1944,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1972,
+        1973,
+        1974,
+        1977,
+        1978,
+        1984,
+        1986,
+        1990,
+        1992,
+        1995,
+        1998,
+        2026
+      ],
+      "approvalYears": [
+        1933,
+        1934,
+        1937,
+        1939,
+        1940,
+        1941,
+        1942,
+        1944,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961,
+        1973,
+        1976,
+        1978,
+        1980,
+        1983,
+        1986,
+        1987,
+        1988,
+        1993,
+        1996,
+        2000,
+        2036,
+        2051,
+        2057
+      ],
+      "startupYears": [
+        1933,
+        1937,
+        1939,
+        1941,
+        1942,
+        1943,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1962,
+        1963,
+        1965,
+        1973,
+        1976,
+        1979,
+        1980,
+        1986,
+        1987,
+        1988,
+        1991,
+        1994,
+        1996,
+        2000,
+        2038,
+        2040,
+        2053,
+        2059
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-c0e30a9d66e1",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Orinoco Joint Ventures, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (1990s)",
+        "Producing 50%-75%",
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941,
+        1947,
+        1953,
+        1954,
+        1955,
+        1957,
+        1960,
+        1996,
+        2040
+      ],
+      "approvalYears": [
+        1945,
+        1948,
+        1949,
+        1959,
+        1961,
+        1963,
+        1983,
+        1999,
+        2007,
+        2037,
+        2041
+      ],
+      "startupYears": [
+        1948,
+        1949,
+        1959,
+        1961,
+        1965,
+        1967,
+        1987,
+        2000,
+        2011,
+        2039,
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (60%); CT Energy (20.4%); Pluspetrol (11.6%); Vinccler CA (8%)",
+        "PDVSA* (70%); Sucre Energy Group (30%)",
+        "PDVSA* (74%); Petropars (26%)"
+      ]
+    },
+    {
+      "id": "pdvsa-2d6cf5a0e789",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Orinoco PDVSA, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned",
+        "Discovery",
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Abandoned",
+        "Discovery (1950s)",
+        "Old discoveries",
+        "Producing 50%-75%",
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1937,
+        1940,
+        1942,
+        1946,
+        1948,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1979,
+        1980
+      ],
+      "approvalYears": [
+        1941,
+        1947,
+        1950,
+        1955,
+        1956,
+        1957,
+        1958,
+        1971,
+        1979,
+        1980,
+        2036,
+        2037
+      ],
+      "startupYears": [
+        1942,
+        1948,
+        1950,
+        1951,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1973,
+        1979,
+        1980,
+        2038,
+        2039
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-6d6158138e71",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Perla, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        2009
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2015
+      ],
+      "ownerships": [
+        "PDVSA* (60%); Eni (20%); Repsol (20%)"
+      ]
+    },
+    {
+      "id": "pdvsa-3791711d95a0",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Quiamare, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-45041466bfdf",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Rincon 5, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1950s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-1677a5ba06ff",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Roblote, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-0e37ce330461",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Rubio, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-ef1ad8017c37",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Sabaneta Suroeste, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-1b3bdc5a4cdd",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Sabaneta, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-14ac6eded01c",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "San Diego Norte, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-f162cdea6f32",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Sibucara, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-b2fb29d0556d",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Sinco, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-257d3fdc3396",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Socoro-Caricari-Cachicamo, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2101
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-38184581c5e7",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Soledad, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1982
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-d8ebc1197612",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Sur Lago, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-d5d282136a3c",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Tajali, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-41502fe15b77",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Tortola, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2046
+      ],
+      "startupYears": [
+        2050
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-55e594a5afd8",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Totumo, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-eb8022b444e1",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Urdaneta 5, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2058
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-6bb461d4a939",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Urdaneta Tierra, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-0bb9b656f257",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Varga, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1961
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    },
+    {
+      "id": "pdvsa-49754b2fdae7",
+      "operator": "PDVSA",
+      "country": "Venezuela",
+      "project": "Yopales Norte, VE",
+      "sourceOperators": [
+        "PDVSA"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2040
+      ],
+      "approvalYears": [
+        2051
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "PDVSA* (100%)"
+      ]
+    }
+  ]
+}

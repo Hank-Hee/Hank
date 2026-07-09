@@ -1,0 +1,5777 @@
+{
+  "meta": {
+    "sourceFile": "Rystad数据表（测试版）.xlsx",
+    "sourceYear": 2026,
+    "operator": "YPF",
+    "sourceOperators": [
+      "YPF",
+      "YPFB Andina"
+    ],
+    "projectCount": 125,
+    "countryCount": 3,
+    "businessRegions": [
+      "中南美洲"
+    ],
+    "projectRule": "Aggregate by canonical operator + country + project",
+    "locationRule": "Country-level aggregation only; not project coordinates"
+  },
+  "projects": [
+    {
+      "id": "ypf-efc70a0c8e94",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Acambuco A, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2028
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-d35f246a6855",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Agrio Shale, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2014
+      ],
+      "startupYears": [
+        2014
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-db1024ae0939",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Aguada de la Arena YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-348f16880b2e",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Aguada de la Arena, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-1136b0df3d69",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Aguada del Chanar, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "YPF* (51%); CGC (49%)"
+      ]
+    },
+    {
+      "id": "ypf-c5ea271d4bef",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Aguada Villanueva, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-30503f5d06df",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Anticlinal Loma Atraversada x-2, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1997
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-798aff2df859",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "ARGFLNG 2, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Appraising"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2033
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-87bcef77ab00",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "ARGFLNG 3, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation"
+      ],
+      "facilities": [
+        "FLNG"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth",
+        "50-75 meter depth"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2026,
+        2030
+      ],
+      "startupYears": [
+        2031,
+        2034
+      ],
+      "ownerships": [
+        "YPF* (75%); Eni (25%)"
+      ]
+    },
+    {
+      "id": "ypf-168353a8cc71",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Bajo del Piche Oeste (West), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-01ffff572957",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Bajo del Piche YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-4925315dbde2",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Bajo del Piche, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1982
+      ],
+      "startupYears": [
+        1982
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-2f35a231b8a6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Bandurria Sur, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2036
+      ],
+      "ownerships": [
+        "YPF* (44.9%); Shell (30%); Vista Energy (25.1%)"
+      ]
+    },
+    {
+      "id": "ypf-bc9f5a3b9efd",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Barranca de los Loros YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ef87b8b7cfa3",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Barranca de los Loros, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1984
+      ],
+      "startupYears": [
+        1985
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-781c43ad87bf",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Barrosa Oeste (West), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1970
+      ],
+      "approvalYears": [
+        1975
+      ],
+      "startupYears": [
+        1977
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-8df40ba6a4e6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CA-12 Block 1, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-58b7cad522b3",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cabo Nombre Sur (South), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "25-50 meter depth"
+      ],
+      "discoveryYears": [
+        1994
+      ],
+      "approvalYears": [
+        2043
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "YPF* (65%); Pan American Energy (35%)"
+      ]
+    },
+    {
+      "id": "ypf-23da07fe3c5b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cajon de Molina, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1979
+      ],
+      "ownerships": [
+        "YPF* (60%); CGC (15%); Desarrollo Petrolero Ganadero SA (15%); Other partner(s) (10%)"
+      ]
+    },
+    {
+      "id": "ypf-b6b68532f67b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CAN-102, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore deepwater"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "FPSO"
+      ],
+      "waterDepthCategories": [
+        "3100-6000 meter depth"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2060
+      ],
+      "ownerships": [
+        "YPF* (50%); Equinor (50%)"
+      ]
+    },
+    {
+      "id": "ypf-d0fd179d0ac0",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Canadon Piedra (Fraccion A), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1964,
+        2035
+      ],
+      "approvalYears": [
+        1966,
+        2037
+      ],
+      "startupYears": [
+        1966,
+        2041
+      ],
+      "ownerships": [
+        "YPF* (65%); Pan American Energy (35%)"
+      ]
+    },
+    {
+      "id": "ypf-4d6883303090",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CCyB-17/B, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-9b47832e02f6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Arena, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "YPF* (50%); Pluspetrol (50%)"
+      ]
+    },
+    {
+      "id": "ypf-1137219a1343",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Bandera, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1952
+      ],
+      "approvalYears": [
+        1963
+      ],
+      "startupYears": [
+        1967
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-346a32caae6d",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Boleadero, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1970s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "YPF* (60%); CGC (15%); Desarrollo Petrolero Ganadero SA (15%); Other partner(s) (10%)"
+      ]
+    },
+    {
+      "id": "ypf-8d345aca961f",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Cortado (Mendoza), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2039
+      ],
+      "startupYears": [
+        2043
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-d586ef1b878d",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Divisadero, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1978
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-2f53a1115634",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Fortunoso YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-e78ff0fb2e37",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Fortunoso, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-40977c24eac4",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Guacho, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing early"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1987
+      ],
+      "approvalYears": [
+        2004
+      ],
+      "startupYears": [
+        2008
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f04db0703ac5",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Hamaca Oeste (West), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        1997
+      ],
+      "startupYears": [
+        1997
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-c017790defe2",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro La Arveja, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ef24e3c68947",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Las Minas, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "YPF* (60%); TotalEnergies (40%)"
+      ]
+    },
+    {
+      "id": "ypf-df407551bb3b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Los Mellizos, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-59a7beb73409",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Manrique (re-awarded), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2030
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-e53217a3beac",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Morado Este, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2016
+      ],
+      "startupYears": [
+        2017
+      ],
+      "ownerships": [
+        "YPF* (70%); EMESA (10%); Ketsal SA (10%); Kilwer SA (10%)"
+      ]
+    },
+    {
+      "id": "ypf-ebe30f77889c",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Redondo x-1, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2016
+      ],
+      "approvalYears": [
+        2021
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "YPF* (80%); Phoenix Global Resources (20%)"
+      ]
+    },
+    {
+      "id": "ypf-a5a300a4209b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cerro Vagon x-7, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2044
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-6a4a60578f60",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CGSJ-1 M (Restinga Ali), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-54cd5f98d195",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CGSJ-24 M (Meseta Sirven), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2051
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f5990ca5e7bc",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Chachahuen (field), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2012
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "YPF* (80%); Phoenix Global Resources (20%)"
+      ]
+    },
+    {
+      "id": "ypf-17313e6eca72",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Chachahuen, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "YPF* (80%); Phoenix Global Resources (20%)"
+      ]
+    },
+    {
+      "id": "ypf-08e09598f8be",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Chihuido de la Sierra Negra YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2041
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-be40529a4441",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Chihuido de la Sierra Negra, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1969
+      ],
+      "approvalYears": [
+        1974
+      ],
+      "startupYears": [
+        1979
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-fb99816dc1b8",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CMA-1 (Lobo), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Steel platform"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2048
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-689fbcc8f928",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CN-VII/A, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-e096116052ca",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CNQ-22 M (La Amarga Chica), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2035
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "YPF* (50%); Vista Energy (50%)"
+      ]
+    },
+    {
+      "id": "ypf-b3ecef0a71f3",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CNQ-3 M (Cajon de los Caballos), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "YPF* (60%); CGC (15%); Desarrollo Petrolero Ganadero SA (15%); Other partner(s) (10%)"
+      ]
+    },
+    {
+      "id": "ypf-7f1815f56e56",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CNQ-34 M (Meseta Buena Esperanza x-2), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-c3a636373df9",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "CNQ-8M (El Santiagueno), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-dbbb6905a88a",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cobres, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "YPF* (70%); Phoenix Global Resources (30%)"
+      ]
+    },
+    {
+      "id": "ypf-9de93514a79d",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Collon Cura, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2032
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-bf49359a0903",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Cupen, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-50db8f3d9e55",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Desfiladero Bayo Este (East), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1985
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-7c3794e8a4e2",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Desfiladero Bayo, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1972
+      ],
+      "approvalYears": [
+        1979
+      ],
+      "startupYears": [
+        1983
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-445a801286f6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "El Cordon (Santa Cruz Province), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1955
+      ],
+      "approvalYears": [
+        1959
+      ],
+      "startupYears": [
+        1963
+      ],
+      "ownerships": [
+        "YPF* (92%); CGC (8%)"
+      ]
+    },
+    {
+      "id": "ypf-8d6d6ec7e643",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "El Medanito, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995,
+        2031
+      ],
+      "approvalYears": [
+        1997,
+        2032
+      ],
+      "startupYears": [
+        1998,
+        2034
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f260113c46bd",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "El Orejano, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2027
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "YPF* (50%); Dow Chemical Company (50%)"
+      ]
+    },
+    {
+      "id": "ypf-fa235d7270df",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "El Quemado (Rio Negro Province), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        1973
+      ],
+      "startupYears": [
+        1975
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-602701d5e826",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "El Santiagueno, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966,
+        2030
+      ],
+      "approvalYears": [
+        1968,
+        2041
+      ],
+      "startupYears": [
+        1968,
+        2045
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-6aa215d2f189",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Estancia La Mariposa Este (East), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f1d024bb2cc7",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Este Loma Negra (East), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2002
+      ],
+      "approvalYears": [
+        2018
+      ],
+      "startupYears": [
+        2022
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-d05b00b13c81",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Filo Morado YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-1700953d3c1e",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Filo Morado, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1987
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-61aa1f8765be",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Golfo San Jorge Shale (Pozo D-129), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-8b9ed2be2091",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "La Barda, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-1c7d836560e5",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "La Colada, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2001
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ad5d1fa3c4e1",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "La Escalonada, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2028
+      ],
+      "startupYears": [
+        2029
+      ],
+      "ownerships": [
+        "YPF* (25%); Shell (45%); Pluspetrol (20%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "ypf-40b78fa185b8",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "La Ribera, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-4011f8c2fb98",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Laguna Atamisqui, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2016
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-e8ff7c2a2f64",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Las Tacanas, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2031
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2040
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ef1381dd7572",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Alta Sur (South), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1990
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-42dd5ddcc414",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Alta, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1983
+      ],
+      "approvalYears": [
+        1987
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-1b205f8f3f93",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Amarilla, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2044
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-c6a6b9d49db3",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Campana YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2029
+      ],
+      "approvalYears": [
+        2038
+      ],
+      "startupYears": [
+        2042
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-8416f197bc5d",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Campana, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2002
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ea4eb81383aa",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma de la Lata, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977
+      ],
+      "approvalYears": [
+        1977
+      ],
+      "startupYears": [
+        1977
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-52fd68abab49",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma de la Mina, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1991
+      ],
+      "approvalYears": [
+        1991
+      ],
+      "startupYears": [
+        1991
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-19670367a3be",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma de las Espinas x-5, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2003
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2041
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-6d87655b198c",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma de las Espinas, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1980s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1986
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2032
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-0baa96186beb",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma del Melon, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1995
+      ],
+      "approvalYears": [
+        1995
+      ],
+      "startupYears": [
+        1995
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-2d368b7b8c22",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma la Lata-Sierra Barrosa, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034,
+        2036
+      ],
+      "approvalYears": [
+        2037,
+        2038
+      ],
+      "startupYears": [
+        2037,
+        2039,
+        2042
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-9a2a59efc247",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Negra Norte (North), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1999
+      ],
+      "approvalYears": [
+        1999
+      ],
+      "startupYears": [
+        1999
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-fdbe7ee24add",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Loma Negra, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1938
+      ],
+      "approvalYears": [
+        1940
+      ],
+      "startupYears": [
+        1940
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ba34941a1f18",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Lomita Sur (South), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1988
+      ],
+      "approvalYears": [
+        1989
+      ],
+      "startupYears": [
+        1989
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-7405a4342f85",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Lomita, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984
+      ],
+      "approvalYears": [
+        1986
+      ],
+      "startupYears": [
+        1986
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-cf72d21a30fb",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Los Caldenes, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014,
+        2028
+      ],
+      "approvalYears": [
+        2014,
+        2037
+      ],
+      "startupYears": [
+        2014,
+        2041
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-dc0dac2f4991",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Los Caldenes-x2, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2014
+      ],
+      "approvalYears": [
+        2037
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-5d606403a68d",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Los Cavaos, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1992
+      ],
+      "startupYears": [
+        1996
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-a55f85519507",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Los Ramblones, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1968
+      ],
+      "startupYears": [
+        1968
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-dd84d03bcc57",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Los Volcanes, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2011
+      ],
+      "approvalYears": [
+        2012
+      ],
+      "startupYears": [
+        2012
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f52d3978ac67",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Malal del Medio, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1978
+      ],
+      "approvalYears": [
+        1978
+      ],
+      "startupYears": [
+        1978
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-ce915a6f1fa6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Mirador del Vale X-1, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 25-50%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2013
+      ],
+      "approvalYears": [
+        2013
+      ],
+      "startupYears": [
+        2013
+      ],
+      "ownerships": [
+        "YPF* (60%); Phoenix Global Resources (40%)"
+      ]
+    },
+    {
+      "id": "ypf-55524f919897",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Neuquen Basin Tight, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore",
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2010s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005,
+        2011,
+        2013,
+        2015
+      ],
+      "approvalYears": [
+        2005,
+        2011,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "startupYears": [
+        2006,
+        2012,
+        2013,
+        2014,
+        2016
+      ],
+      "ownerships": [
+        "YPF* (100%)",
+        "YPF* (33%); Pampa Energia (34%); Petrobras (33%)",
+        "YPF* (33.33%); Petrobras (33.6%); Pampa Energia (33.07%)",
+        "YPF* (50%); Pampa Energia (50%)"
+      ]
+    },
+    {
+      "id": "ypf-53c45d2a573e",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Pampa Palauco, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1941
+      ],
+      "approvalYears": [
+        1942
+      ],
+      "startupYears": [
+        1942
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-0f5ecd076677",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Paso de las Bardas Este (East), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1996
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-b9b508f0df3e",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Paso de las Bardas Norte, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1973,
+        2031
+      ],
+      "approvalYears": [
+        1988,
+        2032
+      ],
+      "startupYears": [
+        1992,
+        2033
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-4bae96477d61",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Pata Mora, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2003
+      ],
+      "startupYears": [
+        2007
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-6f6dc1d06635",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Pico Truncado, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1958
+      ],
+      "startupYears": [
+        1959
+      ],
+      "ownerships": [
+        "YPF* (95%); CGC (5%)"
+      ]
+    },
+    {
+      "id": "ypf-8b82d1f34b82",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Piedra Chenque, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1966
+      ],
+      "approvalYears": [
+        2042
+      ],
+      "startupYears": [
+        2046
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f58d1d83f01e",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Puesto Cortadera, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2004
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-efd2d23bb818",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Puesto Hernandez YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2034
+      ],
+      "approvalYears": [
+        2045
+      ],
+      "startupYears": [
+        2049
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-2658dabf9cf7",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Puesto Hernandez, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        1970
+      ],
+      "startupYears": [
+        1970
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-f46d5d3fe513",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Puesto Molina, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1981
+      ],
+      "approvalYears": [
+        1981
+      ],
+      "startupYears": [
+        1981
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-35de63404131",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Punta Este de la Sierra Negra, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing 50%-75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2005
+      ],
+      "approvalYears": [
+        2005
+      ],
+      "startupYears": [
+        2006
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-6b81a32161e8",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Punta Rosada Sur (South), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Abandoned"
+      ],
+      "lifecycleDetails": [
+        "Abandoned"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1967
+      ],
+      "approvalYears": [
+        2001
+      ],
+      "startupYears": [
+        2005
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-9b6879ab4f3a",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Ranquil-Co Norte (North), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1990s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1998
+      ],
+      "approvalYears": [
+        2040
+      ],
+      "startupYears": [
+        2045
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-25bf1772ba32",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Restinga Ali, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Offshore shelf"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Other offshore"
+      ],
+      "waterDepthCategories": [
+        "0-25 meter depth"
+      ],
+      "discoveryYears": [
+        1933
+      ],
+      "approvalYears": [
+        1938
+      ],
+      "startupYears": [
+        1941
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-dc3b315c85cb",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rincon de los Sauces, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Discovery"
+      ],
+      "lifecycleDetails": [
+        "Discovery (1960s)"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1968
+      ],
+      "approvalYears": [
+        2049
+      ],
+      "startupYears": [
+        2053
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-399eb1dde450",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rincon del Mangrullo (Rincon de Mangrullo), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "YPF* (50%); Pampa Energia (50%)"
+      ]
+    },
+    {
+      "id": "ypf-e7e82d022f5b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rincon La Ceniza, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2031
+      ],
+      "startupYears": [
+        2034
+      ],
+      "ownerships": [
+        "YPF* (25%); Shell (45%); Pluspetrol (20%); Gas y Petroleo del Neuquen (10%)"
+      ]
+    },
+    {
+      "id": "ypf-98a008b15aaf",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rio Grande, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1977,
+        2027
+      ],
+      "approvalYears": [
+        1980,
+        2039
+      ],
+      "startupYears": [
+        1981,
+        2044
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-a893d846fa94",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rio Guenguel Norte, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2039
+      ],
+      "ownerships": [
+        "YPF* (80%); Petrominera Chubut SE (20%)"
+      ]
+    },
+    {
+      "id": "ypf-acd67dd883c6",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rio Mayo (producing), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1984,
+        2031
+      ],
+      "approvalYears": [
+        1990,
+        2044
+      ],
+      "startupYears": [
+        1992,
+        2048
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-39a2c43cffd1",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rio Neuquen YTF, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2027
+      ],
+      "approvalYears": [
+        2029
+      ],
+      "startupYears": [
+        2030
+      ],
+      "ownerships": [
+        "YPF* (33.3%); Petrobras (33.6%); Pampa Energia (33.1%)"
+      ]
+    },
+    {
+      "id": "ypf-ae9c57e33cb7",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Rio Neuquen, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1971
+      ],
+      "approvalYears": [
+        1972
+      ],
+      "startupYears": [
+        1972
+      ],
+      "ownerships": [
+        "YPF* (33.3%); Petrobras (33.6%); Pampa Energia (33.1%)"
+      ]
+    },
+    {
+      "id": "ypf-5b24f542eb15",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Salinas Del Huitrin, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2028
+      ],
+      "approvalYears": [
+        2033
+      ],
+      "startupYears": [
+        2037
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-5c45e617641b",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Sarmiento (Cerro Guacho), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2034
+      ],
+      "startupYears": [
+        2038
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-d95863366a29",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Sierra Barrosa and Aguada Toledo, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Producing"
+      ],
+      "lifecycleDetails": [
+        "Producing >75%"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        1956
+      ],
+      "approvalYears": [
+        1957
+      ],
+      "startupYears": [
+        1957
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-abd1a4a217d3",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Vaca Muerta Shale, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Shale/Tight oil"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field",
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Discovery",
+        "Producing",
+        "Under development",
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Discovery (2000s)",
+        "Discovery (2010s)",
+        "Discovery (2020s)",
+        "Field evaluation",
+        "Producing 25-50%",
+        "Producing >75%",
+        "Producing early",
+        "Under development",
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2000,
+        2005,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2023,
+        2024,
+        2027
+      ],
+      "approvalYears": [
+        2005,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024,
+        2027
+      ],
+      "startupYears": [
+        2006,
+        2010,
+        2011,
+        2012,
+        2013,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2029
+      ],
+      "ownerships": [
+        "YPF* (100%)",
+        "YPF* (25%); Shell (45%); Pluspetrol (20%); Gas y Petroleo del Neuquen (10%)",
+        "YPF* (33.3%); Petrobras (33.6%); Pampa Energia (33.1%)",
+        "YPF* (44.9%); Shell (30%); Vista Energy (25.1%)",
+        "YPF* (50%); Chevron (50%)",
+        "YPF* (50%); Dow Chemical Company (50%)",
+        "YPF* (50%); Pluspetrol (50%)",
+        "YPF* (50%); Vista Energy (50%)",
+        "YPF* (51%); CGC (49%)",
+        "YPF* (65%); Vista Energy (35%)"
+      ]
+    },
+    {
+      "id": "ypf-f4c8dfa4523f",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Valle del Rio Grande (Malal del Medio), AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2041
+      ],
+      "approvalYears": [
+        2052
+      ],
+      "startupYears": [
+        2056
+      ],
+      "ownerships": [
+        "YPF* (100%)"
+      ]
+    },
+    {
+      "id": "ypf-98feab01c727",
+      "operator": "YPF",
+      "country": "Argentina",
+      "project": "Valles Calchaquies, AR",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2026
+      ],
+      "approvalYears": [
+        2026
+      ],
+      "startupYears": [
+        2031
+      ],
+      "ownerships": [
+        "YPF* (70%); Phoenix Global Resources (30%)"
+      ]
+    },
+    {
+      "id": "ypf-edfad389bcaf",
+      "operator": "YPF",
+      "country": "Bolivia",
+      "project": "Charagua (Itatiqui) (2017-reaward), BO",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Gas-Condensate field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2030
+      ],
+      "approvalYears": [
+        2036
+      ],
+      "startupYears": [
+        2055
+      ],
+      "ownerships": [
+        "YPF* (60%); Yacimentos Petroliferos Fiscales Bolivianos (YPFB) (40%)"
+      ]
+    },
+    {
+      "id": "ypf-349eb97f0028",
+      "operator": "YPF",
+      "country": "Colombia",
+      "project": "COR 12, CO, CO",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2100
+      ],
+      "approvalYears": [
+        2100
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "YPF* (60%); Sucursal  (40%)"
+      ]
+    },
+    {
+      "id": "ypf-63df0aa13ab0",
+      "operator": "YPF",
+      "country": "Colombia",
+      "project": "COR 33, CO",
+      "sourceOperators": [
+        "YPF"
+      ],
+      "regions": [
+        "South America"
+      ],
+      "businessRegions": [
+        "中南美洲"
+      ],
+      "supplySegments": [
+        "Other Onshore"
+      ],
+      "fieldTypes": [
+        "Oil field"
+      ],
+      "lifecycleCategories": [
+        "Undiscovered"
+      ],
+      "lifecycleDetails": [
+        "Undiscovered awarded"
+      ],
+      "facilities": [
+        "Onshore"
+      ],
+      "waterDepthCategories": [
+        "Land"
+      ],
+      "discoveryYears": [
+        2036
+      ],
+      "approvalYears": [
+        2068
+      ],
+      "startupYears": [
+        2100
+      ],
+      "ownerships": [
+        "YPF* (55%); Parex Resources (45%)"
+      ]
+    }
+  ]
+}
