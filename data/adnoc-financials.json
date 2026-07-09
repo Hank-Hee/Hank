@@ -2,63 +2,364 @@
   "company": {
     "name": "ADNOC",
     "legalName": "Abu Dhabi National Oil Company P.J.S.C.",
-    "dashboardBasis": "ADNOC Group public disclosure proxy",
-    "proxyEntity": "ADNOC Murban RSC LTD",
+    "dashboardBasis": "Public proxy view for ADNOC Group",
+    "proxyEntity": "ADNOC Gas PLC for continuous financial dashboards; ADNOC listed-company portfolio for group-level reference rows",
     "currency": "USD million",
     "updatedOn": "2026-07-09"
   },
   "coverage": {
     "requestedRange": "2016-2036",
-    "fullYearActualRange": "2023-2025",
-    "dashboardYears": [2023, 2024, 2025],
-    "availabilityNote": "ADNOC P.J.S.C. does not publish a stable ten-year consolidated group financial statement set in the reviewed public sources. The dashboard therefore uses ADNOC Murban RSC LTD, ADNOC's primary debt capital markets entity within the ADNOC Group, as the official public disclosure proxy. 2016-2022 values are left blank; 2026 is excluded because only interim data was available as of 2026-07-09."
+    "fullYearActualRange": "2022-2025",
+    "forecastRange": "2026-2028",
+    "dashboardYears": [2022, 2023, 2024, 2025, 2026, 2027, 2028],
+    "availabilityNote": "ADNOC P.J.S.C. does not publish a stable ten-year consolidated group annual report in the reviewed public sources. The dashboard therefore uses ADNOC Gas PLC as the closest official continuous proxy for revenue, net income, cash flow, capex and cash; 2026-2028 forecast values are third-party analyst estimates."
   },
   "metrics": [
-    {"year": 2016, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2017, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2018, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2019, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2020, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2021, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2022, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed sources", "sourceKeys": []},
-    {"year": 2023, "revenue": 20436, "netIncome": 18702, "operatingCashFlow": 30650, "freeCashFlow": 30659, "capex": null, "cashOnHand": 2939, "netChangeInCash": 944, "status": "Official audited ADNOC Murban RSC LTD values; proxy only", "sourceKeys": ["murban_fy2024_fs"]},
-    {"year": 2024, "revenue": 6915, "netIncome": -38016, "operatingCashFlow": 30114, "freeCashFlow": 30122, "capex": null, "cashOnHand": 2320, "netChangeInCash": -619, "status": "Official audited ADNOC Murban RSC LTD values; proxy only", "sourceKeys": ["murban_fy2024_fs", "murban_fy2025_snapshot"]},
-    {"year": 2025, "revenue": 8051, "netIncome": 10697, "operatingCashFlow": 26276, "freeCashFlow": 26282, "capex": null, "cashOnHand": 2257, "netChangeInCash": -63, "status": "Official audited ADNOC Murban RSC LTD snapshot values; proxy only", "sourceKeys": ["murban_fy2025_snapshot"]},
-    {"year": 2026, "revenue": null, "netIncome": null, "operatingCashFlow": null, "freeCashFlow": null, "capex": null, "cashOnHand": null, "netChangeInCash": null, "status": "Full-year value not available as of 2026-07-09; interim Q1 data excluded by annual-only rule", "sourceKeys": ["murban_q1_2026_interim"]}
+    {
+      "year": 2016,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2017,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2018,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2019,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2020,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2021,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Not publicly disclosed for ADNOC Group/proxy in reviewed annual sources",
+      "sourceKeys": ["wba_adnoc_profile"],
+      "basis": "ADNOC Group",
+      "dataType": "Disclosure gap"
+    },
+    {
+      "year": 2022,
+      "revenue": 25785,
+      "netIncome": 4797,
+      "operatingCashFlow": 6082,
+      "freeCashFlow": 5212,
+      "capex": -870,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Official proxy annual actual",
+      "sourceKeys": ["adnoc_gas_ar_2023"],
+      "basis": "ADNOC Gas PLC, adjusted/pro-forma historical financials",
+      "dataType": "Official annual actual"
+    },
+    {
+      "year": 2023,
+      "revenue": 22731,
+      "netIncome": 4720,
+      "operatingCashFlow": 5515,
+      "freeCashFlow": 4460,
+      "capex": -1267,
+      "cashOnHand": 3329,
+      "netChangeInCash": 3329,
+      "status": "Official proxy annual actual",
+      "sourceKeys": ["adnoc_gas_ar_2023"],
+      "basis": "ADNOC Gas PLC, company financial review",
+      "dataType": "Official annual actual"
+    },
+    {
+      "year": 2024,
+      "revenue": 24428,
+      "netIncome": 5001,
+      "operatingCashFlow": 6300,
+      "freeCashFlow": 4584,
+      "capex": -1835,
+      "cashOnHand": 4531,
+      "netChangeInCash": 1202,
+      "status": "Official proxy annual actual",
+      "sourceKeys": ["adnoc_gas_ir_2024"],
+      "basis": "ADNOC Gas PLC, company financial review",
+      "dataType": "Official annual actual"
+    },
+    {
+      "year": 2025,
+      "revenue": 23473,
+      "netIncome": 5166,
+      "operatingCashFlow": 5929,
+      "freeCashFlow": 3037,
+      "capex": -3639,
+      "cashOnHand": 3702,
+      "netChangeInCash": -829,
+      "status": "Official proxy annual actual; free cash flow uses standard OCF less cash capex calculation",
+      "sourceKeys": ["adnoc_gas_mda_2025", "marketscreener_adnocgas_financials"],
+      "basis": "ADNOC Gas PLC, FY2025 MD&A and standard cash-flow calculation",
+      "dataType": "Official annual actual"
+    },
+    {
+      "year": 2026,
+      "revenue": 17370,
+      "netIncome": 3927,
+      "operatingCashFlow": null,
+      "freeCashFlow": 978,
+      "capex": -4510,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Third-party forecast; management FY2026 net income guidance range also disclosed",
+      "sourceKeys": ["adnoc_gas_q1_2026", "marketscreener_adnocgas_financials"],
+      "basis": "ADNOC Gas PLC analyst forecast",
+      "dataType": "Third-party forecast"
+    },
+    {
+      "year": 2027,
+      "revenue": 21642,
+      "netIncome": 5355,
+      "operatingCashFlow": null,
+      "freeCashFlow": 3165,
+      "capex": -4278,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Third-party forecast",
+      "sourceKeys": ["marketscreener_adnocgas_financials"],
+      "basis": "ADNOC Gas PLC analyst forecast",
+      "dataType": "Third-party forecast"
+    },
+    {
+      "year": 2028,
+      "revenue": 23945,
+      "netIncome": 5186,
+      "operatingCashFlow": null,
+      "freeCashFlow": 1670,
+      "capex": -4902,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Third-party forecast",
+      "sourceKeys": ["marketscreener_adnocgas_financials"],
+      "basis": "ADNOC Gas PLC analyst forecast",
+      "dataType": "Third-party forecast"
+    },
+    {
+      "year": 2029,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Official target exists for EBITDA growth but no annual revenue/net income/cash-flow forecast disclosed",
+      "sourceKeys": ["adnoc_gas_q3_2024_strategy"],
+      "basis": "ADNOC Gas PLC strategic target",
+      "dataType": "Official guidance, non-charted"
+    },
+    {
+      "year": 2030,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Official dividend target/growth policy exists, but no annual revenue/net income/cash-flow forecast disclosed",
+      "sourceKeys": ["adnoc_listed_dividend_target", "adnoc_gas_q1_2026"],
+      "basis": "ADNOC listed companies and ADNOC Gas dividend targets",
+      "dataType": "Official guidance, non-charted"
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "subtitle": "Million USD (Nominal)",
+      "basisLabel": "ADNOC Gas public proxy for ADNOC Group; 2026-2028 are analyst forecasts",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKey": "adnoc_gas_mda_2025",
+      "note": "集团总公司未公开连续十年合并财务表；ADNOC Gas 为连续公开代理口径。"
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "subtitle": "Million USD (Nominal)",
+      "basisLabel": "ADNOC Gas capex / FCF proxy; 2026-2028 are MarketScreener forecasts",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKey": "marketscreener_adnocgas_financials",
+      "note": "Capex shown positive; 2026-2028 forecast from MarketScreener; 2025 FCF = OCF minus cash capex."
+    }
+  },
+  "groupPortfolioReference": [
+    {
+      "year": 2024,
+      "revenue": 49700,
+      "netIncome": 9000,
+      "ebitda": 16000,
+      "basis": "ADNOC Group six listed portfolio companies combined",
+      "status": "Official listed-portfolio aggregate",
+      "sourceKeys": ["wam_adnoc_listed_2024"]
+    },
+    {
+      "year": 2025,
+      "revenue": 51800,
+      "netIncome": 9700,
+      "ebitda": 16700,
+      "basis": "ADNOC Group six listed portfolio companies combined",
+      "status": "Official listed-portfolio aggregate",
+      "sourceKeys": ["wam_adnoc_listed_2025"]
+    }
   ],
   "definitions": [
-    {"metric": "Revenue", "definition": "Revenue recognized from Murban crude oil lifted by ADNOC Trading under the Offtake Agreement; ADNOC-lifted crude is not recognized as revenue under the agency accounting treatment."},
-    {"metric": "Net income", "definition": "Profit or loss for the period/year, including fair-value movements of the financial asset at FVTPL."},
-    {"metric": "Operating cash flow", "definition": "Net cash from operating activities as reported by ADNOC Murban RSC LTD."},
-    {"metric": "Free cash flow", "definition": "Proxy defined as net cash from operating activities plus net cash from investing activities. Capex is not disclosed/applicable for the Murban proxy; do not treat this as ADNOC Group industrial FCF."},
-    {"metric": "Capex", "definition": "No capex line was disclosed for the Murban proxy; ADNOC Murban states it does not bear capital expenses for production and delivery of Murban crude."},
-    {"metric": "Cash on hand", "definition": "Cash and cash equivalents at period/year end."},
-    {"metric": "Total cash flow", "definition": "Net increase/decrease in cash and cash equivalents."}
+    {
+      "metric": "Revenue",
+      "definition": "ADNOC Gas adjusted revenues include proportionate consolidation of joint ventures where disclosed; group-portfolio rows are combined revenue of ADNOC's six listed companies."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Profit for the year / net income. 2026-2028 dashboard values are third-party analyst forecasts where full-year official forecasts are unavailable."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "For dashboard actuals, ADNOC Gas adjusted cash flow from operations is used where the company presents it as part of the financial review; FY2025 uses net cash flows generated from operating activities."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Company-defined or standard free cash flow, depending on source availability. The Excel workbook records the basis by row; forecast years use MarketScreener cash-flow forecasts."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Capital expenditure/investments shown as positive bars in the dashboard and as negative outflows in the normalized metrics table."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end when available from the financial statements."
+    },
+    {
+      "metric": "Net change in cash",
+      "definition": "Net increase/decrease in cash and cash equivalents."
+    }
   ],
   "sources": [
     {
-      "key": "adnoc_who_we_are",
-      "title": "ADNOC - Who We Are",
-      "url": "https://www.adnoc.ae/en/our-story/who-we-are",
-      "notes": "Company profile and group ownership context."
+      "key": "wba_adnoc_profile",
+      "title": "World Benchmarking Alliance - Abu Dhabi National Oil Company profile",
+      "url": "https://archive.worldbenchmarkingalliance.org/publication/oil-and-gas/companies/abu-dhabi-national-oil-company/",
+      "notes": "Used for disclosure-gap context: WBA notes ADNOC did not publish reports online or report key data in its benchmark profile."
     },
     {
-      "key": "murban_fy2025_snapshot",
-      "title": "ADNOC Murban RSC LTD - FY2025 Financials Snapshot",
-      "url": "https://adnoc.ae/en/adnoc-murban/-/media/Adnoc%20v2/Sub%20Brands/ADNOC%20Murban/files/2026/Financial%20Results%20-%20FY%202025%20-%20Summary%20Presentation",
-      "notes": "FY2025 and FY2024 profit or loss, balance sheet, cash flow, proxy-entity context, and capex caveat."
+      "key": "adnoc_gas_ar_2023",
+      "title": "ADNOC Gas Annual Report 2023",
+      "url": "https://adnocgas.ae/-/media/files/adnoc-gas_annual-report-2023_final_english_070524.ashx",
+      "notes": "Financial review tables for 2022 and 2023 adjusted revenues, net income, adjusted cash flow from operations, adjusted capex, free cash flow, and year-end cash."
     },
     {
-      "key": "murban_fy2024_fs",
-      "title": "ADNOC Murban RSC LTD - Audit report and financial statements for the year ended 31 December 2024",
-      "url": "https://adnoc.ae/-/media/adnoc-v2/sub-brands/adnoc-murban/files/adnoc-murban-31-december-2024-fs-signed.ashx",
-      "notes": "Audited FY2024 and FY2023 profit or loss, balance sheet, and cash flow statements."
+      "key": "adnoc_gas_ir_2024",
+      "title": "ADNOC Gas Integrated Report 2024",
+      "url": "https://adnocgas.ae/-/media/gas/investor-relation/2025/adnoc-gas-integrated-report-2024-english.ashx",
+      "notes": "Financial review table for 2023 and 2024 revenue, adjusted net income, adjusted cash flow from operations, adjusted capex, free cash flow, and cash-flow statement values."
     },
     {
-      "key": "murban_q1_2026_interim",
-      "title": "ADNOC Murban RSC LTD - Q1 2026 interim condensed consolidated financial statements",
-      "url": "https://www.rns-pdf.londonstockexchange.com/rns/8481G_1-2026-6-3.pdf",
-      "notes": "Used only to confirm 2026 public data was interim, not a full-year annual value."
+      "key": "adnoc_gas_mda_2025",
+      "title": "ADNOC Gas Q4 and FY 2025 MD&A",
+      "url": "https://adnocgas.ae/-/media/gas/investor-relation/2025/mda-report-q4-2025--english.ashx",
+      "notes": "FY2025 revenue, EBITDA, net income, capex, cash-flow statement, cash balance, 2026 sales-volume and investment guidance."
+    },
+    {
+      "key": "adnoc_gas_q1_2026",
+      "title": "ADNOC Gas Q1 2026 results press release",
+      "url": "https://adnocgas.ae/en/news-and-media/press-releases/2026/q1-2026-results",
+      "notes": "Q1 2026 net income, free cash flow, cash balance, 2026 net income guidance range, 2029 EBITDA growth target, and 5% annual dividend growth policy to 2030."
+    },
+    {
+      "key": "adnoc_gas_q3_2024_strategy",
+      "title": "ADNOC Gas Q3 2024 results and strategy update",
+      "url": "https://adnocgas.ae/en/news-and-media/press-releases/2024/q3-2024-financial-results-11-nov",
+      "notes": "Updated growth strategy: over 40% EBITDA growth target by 2029 and up to USD15bn capex for 2025-2029."
+    },
+    {
+      "key": "marketscreener_adnocgas_financials",
+      "title": "MarketScreener - ADNOC Gas PLC financial forecasts",
+      "url": "https://www.marketscreener.com/quote/stock/ADNOC-GAS-PLC-151855977/finances/",
+      "notes": "Third-party analyst forecast values for 2026-2028 projected income statement and cash-flow forecast."
+    },
+    {
+      "key": "wam_adnoc_listed_2024",
+      "title": "WAM - ADNOC listed companies 2024 combined results",
+      "url": "https://www.wam.ae/en/article/biaqbwy-adnoc%E2%80%99s-listed-companies-targeting-continued",
+      "notes": "Six ADNOC listed companies reported combined 2024 revenue of USD49.7bn, EBITDA of USD16.0bn, and net profit above USD9.0bn."
+    },
+    {
+      "key": "wam_adnoc_listed_2025",
+      "title": "WAM - ADNOC listed companies 2025 combined results",
+      "url": "https://www.wam.ae/en/article/byr4mwn-adnoc-groups-listed-companies-report-aed1901",
+      "notes": "Six ADNOC listed companies reported 2025 revenue of USD51.8bn, EBITDA of USD16.7bn, and net profit of USD9.7bn."
+    },
+    {
+      "key": "adnoc_listed_dividend_target",
+      "title": "ADNOC listed companies dividend target to 2030",
+      "url": "https://www.adnoc.ae/en/news-and-media/press-releases/2025/adnoc-listed-companies-target-record-aed-158-billion-43-billion-in-dividends",
+      "notes": "ADNOC listed companies target USD43bn in dividends from 2025 to 2030; ADNOC Gas dividend target USD24.4bn through 2030."
     }
   ]
 }
