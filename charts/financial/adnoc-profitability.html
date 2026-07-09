@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
     <title>ADNOC 财务看板 - 收入与净利润</title>
-    <link rel="stylesheet" href="adnoc-financials.css?v=20260709-redesign-v2" />
+    <link rel="stylesheet" href="adnoc-financials.css?v=20260709-redesign-v3" />
   </head>
   <body data-dashboard="profitability">
     <main class="dashboard-module">
       <section class="chart-card" aria-labelledby="chart-title">
         <header class="chart-header">
-          <h1 id="chart-title" data-title>Revenue and Net Income</h1>
-          <p data-subtitle>Million USD (Nominal)</p>
+          <div class="header-mark" aria-hidden="true"></div>
+          <div class="title-block">
+            <p class="eyebrow" data-eyebrow>FINANCIAL PROFILE · 2026</p>
+            <h1 id="chart-title" data-title-cn>ADNOC 收入与净利润</h1>
+            <p class="unit" data-subtitle>Million USD (Nominal)</p>
+          </div>
         </header>
         <div class="legend" aria-label="Legend">
           <span class="legend-item"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Revenue</span></span>
@@ -23,12 +27,12 @@
           <div id="financial-chart" class="chart"></div>
         </div>
         <footer class="chart-footer">
-          <span><strong data-basis></strong> · <span data-note></span></span>
-          <a class="source-link" data-source-link href="#" target="_blank" rel="noreferrer">Source</a>
+          <span class="source-note"><span data-source-line>Source: 2026 ADNOC Gas FY2025 MD&A; etc.</span> <a class="source-link" data-source-link href="#" target="_blank" rel="noreferrer">Source link</a></span>
+          <span class="update-date" data-update-date>Update date: 2026/07/09</span>
         </footer>
         <div id="state" class="state">正在加载财务数据</div>
       </section>
     </main>
-    <script type="module" src="adnoc-financials.js?v=20260709-redesign-v2"></script>
+    <script type="module" src="adnoc-financials.js?v=20260709-redesign-v3"></script>
   </body>
 </html>

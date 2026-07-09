@@ -1,4 +1,4 @@
-const VERSION = "20260709-adnoc-redesign-v2";
+const VERSION = "20260709-adnoc-redesign-v3";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -134,12 +134,13 @@ const renderComboChart = (payload, mode) => {
       <g>${labels}</g>
     </svg>`;
 
-  document.querySelector("[data-title]").textContent = config.title;
+  document.querySelector("[data-eyebrow]").textContent = config.eyebrow || "FINANCIAL PROFILE";
+  document.querySelector("[data-title-cn]").textContent = config.titleCn || config.title;
   document.querySelector("[data-subtitle]").textContent = config.subtitle;
   document.querySelector("[data-bar-label]").textContent = config.barLabel;
   document.querySelector("[data-line-label]").textContent = config.lineLabel;
-  document.querySelector("[data-note]").textContent = config.note;
-  document.querySelector("[data-basis]").textContent = config.basisLabel;
+  document.querySelector("[data-source-line]").textContent = config.sourceLine || `Source: ${config.basisLabel || "company public disclosures"}; etc.`;
+  document.querySelector("[data-update-date]").textContent = config.updateDate || `Update date: ${payload.company.updatedOn?.replaceAll("-", "/") || ""}`;
   document.querySelector("[data-source-link]").href = firstSourceUrl(payload, config.sourceKey);
 };
 

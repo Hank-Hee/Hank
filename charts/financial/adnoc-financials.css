@@ -50,24 +50,56 @@ body {
 }
 
 .chart-header {
+  display: flex;
   min-width: 0;
-  padding: 6px 6px 0;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 8px 8px 0;
+}
+
+.header-mark {
+  width: 4px;
+  height: 46px;
+  flex: 0 0 auto;
+  margin-top: 2px;
+  border-radius: 99px;
+  background: linear-gradient(180deg, #118aa5, #dfb400);
+  box-shadow: 0 0 0 4px rgba(17, 138, 165, 0.08);
+}
+
+.title-block {
+  min-width: 0;
 }
 
 .chart-header h1 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(17px, 2.5vw, 20px);
+  font-size: clamp(18px, 2.5vw, 23px);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0;
 }
 
 .chart-header p {
-  margin: 4px 0 0;
+  margin: 0;
   color: #111111;
   font-size: 13px;
   line-height: 1.25;
+}
+
+.chart-header .eyebrow {
+  margin: 0 0 3px;
+  color: #66798b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+
+.chart-header .unit {
+  margin-top: 3px;
+  color: #111111;
+  font-size: 12px;
 }
 
 .legend {
@@ -179,9 +211,9 @@ body {
 
 .chart-footer {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 8px;
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 3px;
+  align-items: end;
   padding: 2px 6px 6px;
   color: var(--muted);
   font-size: 10.5px;
@@ -193,6 +225,16 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.source-note {
+  display: block;
+}
+
+.update-date {
+  justify-self: end;
+  color: #465869;
+  font-weight: 600;
 }
 
 .source-link {
@@ -224,10 +266,6 @@ body {
   .dashboard-module {
     min-height: 320px;
     padding: 6px;
-  }
-
-  .chart-footer {
-    grid-template-columns: 1fr;
   }
 
   .chart-footer span {

@@ -229,6 +229,8 @@
   "dashboards": {
     "profitability": {
       "title": "Revenue and Net Income",
+      "titleCn": "ADNOC 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
       "subtitle": "Million USD (Nominal)",
       "basisLabel": "ADNOC Gas public proxy for ADNOC Group; 2026-2028 are analyst forecasts",
       "barLabel": "Revenue",
@@ -236,10 +238,14 @@
       "barKey": "revenue",
       "lineKey": "netIncome",
       "sourceKey": "adnoc_gas_mda_2025",
+      "sourceLine": "Source: 2026 ADNOC Gas FY2025 MD&A; MarketScreener Forecasts; etc.",
+      "updateDate": "Update date: 2026/07/09",
       "note": "集团总公司未公开连续十年合并财务表；ADNOC Gas 为连续公开代理口径。"
     },
     "cashInvestment": {
       "title": "Investments and Free Cash Flow",
+      "titleCn": "ADNOC 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
       "subtitle": "Million USD (Nominal)",
       "basisLabel": "ADNOC Gas capex / FCF proxy; 2026-2028 are MarketScreener forecasts",
       "barLabel": "Investments",
@@ -247,6 +253,8 @@
       "barKey": "investmentAbs",
       "lineKey": "freeCashFlow",
       "sourceKey": "marketscreener_adnocgas_financials",
+      "sourceLine": "Source: 2026 ADNOC Gas Q1 Results; MarketScreener Forecasts; etc.",
+      "updateDate": "Update date: 2026/07/09",
       "note": "Capex shown positive; 2026-2028 forecast from MarketScreener; 2025 FCF = OCF minus cash capex."
     }
   },
