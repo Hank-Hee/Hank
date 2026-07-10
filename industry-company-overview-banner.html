@@ -12,8 +12,10 @@
       --border: #dce6ee;
       --bg-left: #ffffff;
       --bg-mid: #fbfdfe;
-      --bg-right: #f3f7fa;
-      --label: #213b55;
+      --bg-right: #eef5f7;
+      --atmosphere-blue: rgba(116, 165, 186, .16);
+      --atmosphere-cyan: rgba(113, 191, 193, .10);
+      --sea-haze: rgba(190, 221, 226, .32);
       --hull: #f7fafc;
       --module: #eaf2f6;
       --module-teal: #e2f2f1;
@@ -54,7 +56,11 @@
       overflow: hidden;
       border: 1px solid var(--border);
       border-radius: 8px;
-      background: linear-gradient(102deg, var(--bg-left) 0%, var(--bg-mid) 46%, var(--bg-right) 100%);
+      background:
+        radial-gradient(ellipse 58% 112% at 82% 43%, var(--atmosphere-blue) 0%, rgba(116, 165, 186, .07) 38%, transparent 72%),
+        radial-gradient(ellipse 36% 66% at 75% 76%, var(--atmosphere-cyan) 0%, transparent 72%),
+        linear-gradient(180deg, transparent 0%, transparent 52%, rgba(220, 235, 239, .08) 66%, var(--sea-haze) 100%),
+        linear-gradient(102deg, var(--bg-left) 0%, var(--bg-mid) 42%, var(--bg-right) 100%);
     }
 
     .copy-panel {
@@ -109,32 +115,6 @@
 
     .fleet-canvas--compact {
       display: none !important;
-    }
-
-    .ship-label {
-      position: absolute;
-      z-index: 2;
-      color: var(--label);
-      font-size: clamp(8px, min(.84vw, 3.4vh), 14px);
-      line-height: 1;
-      font-weight: 700;
-      letter-spacing: .16em;
-      white-space: nowrap;
-    }
-
-    .label-fpso {
-      left: 4.2%;
-      top: 41%;
-    }
-
-    .label-flng {
-      left: 52%;
-      top: 5.5%;
-    }
-
-    .label-fsru {
-      left: 70%;
-      top: 46%;
     }
 
     .hull,
@@ -289,21 +269,6 @@
         display: block !important;
       }
 
-      .label-fpso {
-        left: 3%;
-        top: 35%;
-      }
-
-      .label-flng {
-        left: 52%;
-        top: 2%;
-      }
-
-      .label-fsru {
-        left: 71%;
-        top: 39%;
-      }
-
       .english-title {
         letter-spacing: .22em;
       }
@@ -329,13 +294,9 @@
       </div>
 
       <div class="fleet-stage">
-        <span class="ship-label label-fpso" aria-hidden="true">FPSO</span>
-        <span class="ship-label label-flng" aria-hidden="true">FLNG</span>
-        <span class="ship-label label-fsru" aria-hidden="true">FSRU</span>
-
         <svg class="fleet-canvas fleet-canvas--standard" viewBox="0 0 1000 340" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="fleet-title fleet-desc">
-          <title id="fleet-title">FPSO、FLNG 与 FSRU 船型示意</title>
-          <desc id="fleet-desc">FPSO 以错落的生产处理模块为特征，FLNG 以密集的液化处理列车为特征，FSRU 以连续圆肩储罐和再气化模块为特征。</desc>
+          <title id="fleet-title">三种海工船型示意</title>
+          <desc id="fleet-desc">左下为生产处理船型，右上为液化处理船型，右下为带连续圆肩储罐的再气化船型。</desc>
 
           <defs>
             <clipPath id="fpso-sea" clipPathUnits="userSpaceOnUse">
@@ -385,22 +346,22 @@
           </g>
 
           <g clip-path="url(#fpso-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave" x="20" y="283"></use></g>
-            <g class="wave-path wave-front fpso-front"><use href="#front-wave" x="20" y="274"></use></g>
+            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave" x="20" y="288"></use></g>
+            <g class="wave-path wave-front fpso-front"><use href="#front-wave" x="20" y="279"></use></g>
           </g>
           <g clip-path="url(#flng-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave" x="480" y="146"></use></g>
-            <g class="wave-path wave-front flng-front"><use href="#front-wave" x="480" y="138"></use></g>
+            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave" x="480" y="151"></use></g>
+            <g class="wave-path wave-front flng-front"><use href="#front-wave" x="480" y="143"></use></g>
           </g>
           <g clip-path="url(#fsru-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave" x="660" y="283"></use></g>
-            <g class="wave-path wave-front fsru-front"><use href="#front-wave" x="660" y="274"></use></g>
+            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave" x="660" y="288"></use></g>
+            <g class="wave-path wave-front fsru-front"><use href="#front-wave" x="660" y="279"></use></g>
           </g>
         </svg>
 
         <svg class="fleet-canvas fleet-canvas--compact" viewBox="0 0 1200 132" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="fleet-title-compact fleet-desc-compact">
-          <title id="fleet-title-compact">FPSO、FLNG 与 FSRU 船型示意</title>
-          <desc id="fleet-desc-compact">适配简道云短横幅的紧凑船型布局，FPSO 与 FSRU 位于同一海平面，FLNG 位于独立的上层海面。</desc>
+          <title id="fleet-title-compact">三种海工船型紧凑示意</title>
+          <desc id="fleet-desc-compact">适配简道云短横幅的紧凑船型布局，下层两艘位于同一海平面，上层船舶位于独立海面。</desc>
 
           <defs>
             <clipPath id="fpso-sea-compact" clipPathUnits="userSpaceOnUse">
@@ -450,16 +411,16 @@
           </g>
 
           <g clip-path="url(#fpso-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave-compact" x="0" y="123"></use></g>
-            <g class="wave-path wave-front fpso-front"><use href="#front-wave-compact" x="0" y="115"></use></g>
+            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave-compact" x="0" y="127"></use></g>
+            <g class="wave-path wave-front fpso-front"><use href="#front-wave-compact" x="0" y="119"></use></g>
           </g>
           <g clip-path="url(#flng-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave-compact" x="600" y="67"></use></g>
-            <g class="wave-path wave-front flng-front"><use href="#front-wave-compact" x="600" y="60"></use></g>
+            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave-compact" x="600" y="71"></use></g>
+            <g class="wave-path wave-front flng-front"><use href="#front-wave-compact" x="600" y="64"></use></g>
           </g>
           <g clip-path="url(#fsru-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave-compact" x="780" y="123"></use></g>
-            <g class="wave-path wave-front fsru-front"><use href="#front-wave-compact" x="780" y="115"></use></g>
+            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave-compact" x="780" y="127"></use></g>
+            <g class="wave-path wave-front fsru-front"><use href="#front-wave-compact" x="780" y="119"></use></g>
           </g>
         </svg>
       </div>
