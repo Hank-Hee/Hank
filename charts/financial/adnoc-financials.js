@@ -1,4 +1,4 @@
-const VERSION = "20260709-adnoc-redesign-v5";
+const VERSION = "20260710-adnoc-tooltip-v6";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -14,6 +14,9 @@ const formatValue = (value) => {
   if (value === null || value === undefined || Number.isNaN(value)) return "n/a";
   return `${fmt.format(value)} USDm`;
 };
+
+const escapeHtml = (value) =>
+  String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 
 const loadData = async () => {
   const response = await fetch(`${DATA_URL}?v=${VERSION}`, { cache: "no-store" });
@@ -33,16 +36,104 @@ const niceScale = (maxValue) => {
   return { step, yMax };
 };
 
-const pointsFor = (rows, xScale, yScale, key) =>
-  rows
+const trimNumber = (value) => Number(value.toFixed(2)).toString();
+
+const pathFor = (rows, xScale, yScale, key) => {
+  const points = rows
     .filter((row) => row[key] !== null && row[key] !== undefined)
-    .map((row) => `${xScale(row.index)},${yScale(row[key])}`)
-    .join(" ");
+    .map((row) => ({ x: xScale(row.index), y: yScale(row[key]) }));
+
+  if (!points.length) return "";
+  if (points.length === 1) return `M ${trimNumber(points[0].x)} ${trimNumber(points[0].y)}`;
+  if (points.length === 2) {
+    return `M ${trimNumber(points[0].x)} ${trimNumber(points[0].y)} L ${trimNumber(points[1].x)} ${trimNumber(points[1].y)}`;
+  }
+
+  const commands = [`M ${trimNumber(points[0].x)} ${trimNumber(points[0].y)}`];
+  for (let index = 0; index < points.length - 1; index += 1) {
+    const p0 = points[Math.max(0, index - 1)];
+    const p1 = points[index];
+    const p2 = points[index + 1];
+    const p3 = points[Math.min(points.length - 1, index + 2)];
+    const cp1x = p1.x + (p2.x - p0.x) / 6;
+    const cp1y = p1.y + (p2.y - p0.y) / 6;
+    const cp2x = p2.x - (p3.x - p1.x) / 6;
+    const cp2y = p2.y - (p3.y - p1.y) / 6;
+    commands.push(
+      `C ${trimNumber(cp1x)} ${trimNumber(cp1y)}, ${trimNumber(cp2x)} ${trimNumber(cp2y)}, ${trimNumber(p2.x)} ${trimNumber(p2.y)}`
+    );
+  }
+
+  return commands.join(" ");
+};
 
 const titleFor = (row, config) => {
   const barValue = row.barValue === null || row.barValue === undefined ? "n/a" : formatValue(row.barValue);
   const lineValue = row.lineValue === null || row.lineValue === undefined ? "n/a" : formatValue(row.lineValue);
   return `${row.year}\n${config.barLabel}: ${barValue}\n${config.lineLabel}: ${lineValue}\n${row.dataType || row.status}`;
+};
+
+const tooltipValue = (row, config, series) => {
+  const value = series === "bar" ? row.barValue : row.lineValue;
+  const label = series === "bar" ? config.barLabel : config.lineLabel;
+  return { label, value };
+};
+
+const renderTooltipContent = (tooltip, row, config, series) => {
+  const { label, value } = tooltipValue(row, config, series);
+  const status = `${row.isForecast ? "Forecast 预测" : "Actual 实际"} · ${row.dataType || row.status || ""}`;
+  tooltip.innerHTML = `
+    <div class="tooltip-year">${escapeHtml(row.year)}</div>
+    <div class="tooltip-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(formatValue(value))}</strong></div>
+    <div class="tooltip-status">${escapeHtml(status)}</div>`;
+};
+
+const positionTooltip = (tooltip, chart, event, target) => {
+  const chartRect = chart.getBoundingClientRect();
+  const targetRect = target.getBoundingClientRect();
+  const baseX = event?.clientX ?? targetRect.left + targetRect.width / 2;
+  const baseY = event?.clientY ?? targetRect.top + targetRect.height / 2;
+  let x = baseX - chartRect.left + 12;
+  let y = baseY - chartRect.top - tooltip.offsetHeight - 12;
+
+  if (x + tooltip.offsetWidth > chartRect.width - 6) x = chartRect.width - tooltip.offsetWidth - 6;
+  if (y < 6) y = baseY - chartRect.top + 14;
+
+  tooltip.style.left = `${Math.max(6, x)}px`;
+  tooltip.style.top = `${Math.max(6, y)}px`;
+};
+
+const attachTooltips = (chart, rows, config) => {
+  const tooltip = document.createElement("div");
+  tooltip.className = "chart-tooltip";
+  tooltip.setAttribute("role", "tooltip");
+  chart.appendChild(tooltip);
+
+  const rowByIndex = new Map(rows.map((row) => [String(row.index), row]));
+  chart.querySelectorAll(".tooltip-target").forEach((target) => {
+    const pairedPoint = () =>
+      target.dataset.series === "line" ? chart.querySelector(`.line-point[data-index="${target.dataset.index}"]`) : null;
+    const show = (event) => {
+      const row = rowByIndex.get(target.dataset.index);
+      if (!row) return;
+      renderTooltipContent(tooltip, row, config, target.dataset.series);
+      tooltip.classList.add("is-visible");
+      target.classList.add("is-hover");
+      pairedPoint()?.classList.add("is-hover");
+      positionTooltip(tooltip, chart, event, target);
+    };
+    const hide = () => {
+      tooltip.classList.remove("is-visible");
+      target.classList.remove("is-hover");
+      pairedPoint()?.classList.remove("is-hover");
+    };
+
+    target.addEventListener("pointerenter", show);
+    target.addEventListener("pointermove", show);
+    target.addEventListener("pointerleave", hide);
+    target.addEventListener("focus", show);
+    target.addEventListener("blur", hide);
+  });
 };
 
 const buildRows = (payload, mode) => {
@@ -98,8 +189,8 @@ const renderComboChart = (payload, mode) => {
     .map((row) => {
       const barH = y(0) - y(row.barValue);
       return `
-        <rect class="bar-rect${row.isForecast ? " forecast" : ""}" x="${x(row.index) - barWidth / 2}" y="${y(row.barValue)}" width="${barWidth}" height="${barH}">
-          <title>${titleFor(row, config)}</title>
+        <rect class="bar-rect tooltip-target${row.isForecast ? " forecast" : ""}" data-index="${row.index}" data-series="bar" tabindex="0" x="${x(row.index) - barWidth / 2}" y="${y(row.barValue)}" width="${barWidth}" height="${barH}">
+          <title>${escapeHtml(titleFor(row, config))}</title>
         </rect>`;
     })
     .join("");
@@ -111,14 +202,17 @@ const renderComboChart = (payload, mode) => {
     })
     .join("");
 
-  const lineActual = pointsFor(actualLineRows, x, y, "lineValue");
-  const lineForecast = pointsFor(forecastLineRows, x, y, "lineValue");
+  const lineActual = pathFor(actualLineRows, x, y, "lineValue");
+  const lineForecast = pathFor(forecastLineRows, x, y, "lineValue");
   const points = rows
     .filter((row) => row.lineValue !== null && row.lineValue !== undefined)
     .map(
       (row) => `
-        <circle class="line-point${row.isForecast ? " forecast" : ""}" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 3.6 : 4.2}">
-          <title>${titleFor(row, config)}</title>
+        <circle class="line-point${row.isForecast ? " forecast" : ""}" data-index="${row.index}" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 3.6 : 4.2}">
+          <title>${escapeHtml(titleFor(row, config))}</title>
+        </circle>
+        <circle class="line-hit-area tooltip-target" data-index="${row.index}" data-series="line" tabindex="0" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 10 : 11}">
+          <title>${escapeHtml(titleFor(row, config))}</title>
         </circle>`
     )
     .join("");
@@ -128,11 +222,13 @@ const renderComboChart = (payload, mode) => {
       <g>${grid}</g>
       <line class="axis-line" x1="${margin.left}" x2="${width - margin.right}" y1="${y(0)}" y2="${y(0)}"></line>
       <g>${bars}</g>
-      ${lineActual ? `<polyline class="line-path" points="${lineActual}"></polyline>` : ""}
-      ${lineForecast ? `<polyline class="line-path forecast" points="${lineForecast}"></polyline>` : ""}
+      ${lineActual ? `<path class="line-path" d="${lineActual}"></path>` : ""}
+      ${lineForecast ? `<path class="line-path forecast" d="${lineForecast}"></path>` : ""}
       <g>${points}</g>
       <g>${labels}</g>
     </svg>`;
+
+  attachTooltips(chart, rows, config);
 
   document.querySelector("[data-eyebrow]").textContent = config.eyebrow || "FINANCIAL PROFILE";
   document.querySelector("[data-title-cn]").textContent = config.titleCn || config.title;
