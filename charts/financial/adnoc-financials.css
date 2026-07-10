@@ -52,7 +52,7 @@ body {
 .chart-header {
   min-width: 0;
   width: calc(100% - 32px);
-  max-width: 300px;
+  max-width: 340px;
   margin: 14px 0 0 16px;
   padding: 12px 15px 12px;
   border: 1px solid rgba(180, 194, 207, 0.78);
@@ -72,6 +72,9 @@ body {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .chart-header p {
@@ -258,7 +261,6 @@ body {
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 1.2px;
-  text-transform: uppercase;
 }
 
 .tooltip-row {
@@ -272,12 +274,6 @@ body {
   color: #102538;
   font-weight: 700;
   white-space: nowrap;
-}
-
-.tooltip-status {
-  margin-top: 4px;
-  color: #647586;
-  font-size: 10px;
 }
 
 .chart-footer {

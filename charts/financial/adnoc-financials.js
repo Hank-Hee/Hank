@@ -1,4 +1,4 @@
-const VERSION = "20260710-adnoc-tooltip-v6";
+const VERSION = "20260710-adnoc-unit-tooltip-v7";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -12,7 +12,7 @@ const formatAxis = (value) => {
 
 const formatValue = (value) => {
   if (value === null || value === undefined || Number.isNaN(value)) return "n/a";
-  return `${fmt.format(value)} USDm`;
+  return `${fmt.format(value)} USD million`;
 };
 
 const escapeHtml = (value) =>
@@ -81,11 +81,11 @@ const tooltipValue = (row, config, series) => {
 
 const renderTooltipContent = (tooltip, row, config, series) => {
   const { label, value } = tooltipValue(row, config, series);
-  const status = `${row.isForecast ? "Forecast 预测" : "Actual 实际"} · ${row.dataType || row.status || ""}`;
+  const status = row.isForecast ? "Forecast" : "Actual";
   tooltip.innerHTML = `
-    <div class="tooltip-year">${escapeHtml(row.year)}</div>
+    <div class="tooltip-year">${escapeHtml(`${row.year} · ${status}`)}</div>
     <div class="tooltip-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(formatValue(value))}</strong></div>
-    <div class="tooltip-status">${escapeHtml(status)}</div>`;
+  `;
 };
 
 const positionTooltip = (tooltip, chart, event, target) => {
