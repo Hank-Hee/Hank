@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golar LNG 公司画像横幅</title>
+  <style>
+    :root {
+      --navy: #1f3d58;
+      --navy-deep: #1b344d;
+      --teal: #66b7b2;
+      --teal-deep: #56a7a2;
+      --line-soft: rgba(255, 255, 255, .20);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      background: transparent;
+      font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    .banner-frame { width: 100%; padding: 0; }
+
+    .company-banner {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      width: 100%;
+      height: clamp(164px, 14vw, 188px);
+      min-height: 164px;
+      display: grid;
+      grid-template-columns: 140px minmax(0, 1fr) minmax(116px, 168px);
+      gap: clamp(16px, 2vw, 28px);
+      align-items: center;
+      padding: clamp(18px, 2.2vw, 28px) clamp(20px, 3vw, 34px);
+      color: #fff;
+      border-radius: 8px;
+      background:
+        radial-gradient(circle at 20% 14%, rgba(255, 255, 255, .18), transparent 25%),
+        radial-gradient(circle at 84% 20%, rgba(255, 255, 255, .20), transparent 28%),
+        radial-gradient(circle at 58% 92%, rgba(255, 255, 255, .13), transparent 34%),
+        linear-gradient(112deg, var(--navy-deep) 0%, #326476 46%, var(--teal-deep) 100%);
+    }
+
+    .company-banner::before,
+    .company-banner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .company-banner::before {
+      background:
+        radial-gradient(circle, rgba(255, 255, 255, .16) 1px, transparent 1.4px),
+        linear-gradient(135deg, transparent 0 30px, rgba(255, 255, 255, .07) 31px 32px, transparent 33px 74px);
+      background-size: 24px 24px, 100% 100%;
+      opacity: .32;
+      mask-image: linear-gradient(90deg, transparent 0%, #000 42%, #000 88%, transparent 100%);
+    }
+
+    .company-banner::after {
+      background:
+        repeating-linear-gradient(168deg, transparent 0 17px, rgba(255, 255, 255, .10) 18px 19px),
+        linear-gradient(90deg, rgba(255, 255, 255, .04), transparent 45%);
+      opacity: .20;
+    }
+
+    .logo-anchor {
+      width: 124px;
+      height: 82px;
+      display: grid;
+      place-items: center;
+      justify-self: start;
+      align-self: center;
+      padding: 11px;
+      border: 1px solid rgba(255, 255, 255, .72);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .96);
+      box-shadow: 0 10px 24px rgba(5, 17, 33, .16);
+    }
+
+    .logo-anchor img {
+      display: block;
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 62px;
+      object-fit: contain;
+    }
+
+    .banner-copy { min-width: 0; }
+
+    .banner-copy h1 {
+      margin: 0 0 8px;
+      color: #fff;
+      font-size: clamp(24px, 2.3vw, 32px);
+      line-height: 1.08;
+      letter-spacing: 0;
+      font-weight: 800;
+    }
+
+    .banner-copy p {
+      max-width: 520px;
+      margin: 0;
+      color: rgba(255, 255, 255, .88);
+      font-size: clamp(13px, 1.05vw, 15px);
+      line-height: 1.62;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 15px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 10px;
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .14);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .update-block {
+      justify-self: end;
+      align-self: end;
+      margin-bottom: 4px;
+      text-align: right;
+    }
+
+    .update-block span {
+      display: block;
+      margin-bottom: 4px;
+      color: rgba(255, 255, 255, .76);
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    .update-block strong {
+      display: block;
+      color: #fff;
+      font-size: clamp(20px, 1.7vw, 24px);
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 780px) {
+      .company-banner {
+        height: 172px;
+        grid-template-columns: 100px minmax(0, 1fr);
+        gap: 14px;
+        padding: 18px;
+      }
+
+      .logo-anchor { width: 92px; height: 68px; padding: 9px; }
+      .logo-anchor img { max-height: 52px; }
+      .banner-copy h1 { font-size: 23px; }
+      .banner-copy p { font-size: 13px; line-height: 1.45; }
+      .tag-row { gap: 6px; margin-top: 11px; }
+      .tag { min-height: 23px; padding: 3px 8px; font-size: 11px; }
+      .update-block { position: absolute; right: 18px; bottom: 15px; }
+    }
+
+    @media (max-width: 560px) {
+      .company-banner { height: 178px; grid-template-columns: 82px minmax(0, 1fr); }
+      .logo-anchor { width: 74px; height: 58px; padding: 8px; }
+      .logo-anchor img { max-height: 44px; }
+      .update-block { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="banner-frame" aria-label="Golar LNG 公司画像横幅">
+    <section class="company-banner">
+      <div class="logo-anchor" aria-label="Golar LNG logo">
+        <img alt="Golar LNG" src="assets/banner-logos/golar-lng-logo.png">
+      </div>
+      <div class="banner-copy">
+        <h1>Golar LNG</h1>
+        <p>Golar LNG</p>
+        <div class="tag-row" aria-label="公司标签">
+          <span class="tag">船东</span>
+          <span class="tag">英国</span>
+          <span class="tag">FLNG开发与运营</span>
+          <span class="tag">LNG基础设施</span>
+          <span class="tag">天然气液化服务</span>
+        </div>
+      </div>
+      <div class="update-block">
+        <span>数据更新</span>
+        <strong data-current-quarter>2026 Q3</strong>
+      </div>
+    </section>
+  </main>
+  <script>
+    (() => {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "Asia/Shanghai",
+        year: "numeric",
+        month: "numeric"
+      }).formatToParts(new Date());
+      const value = (type) => Number(parts.find((part) => part.type === type).value);
+      document.querySelector("[data-current-quarter]").textContent =
+        `${value("year")} Q${Math.ceil(value("month") / 3)}`;
+    })();
+  </script>
+</body>
+</html>
