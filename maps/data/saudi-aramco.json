@@ -50,15 +50,31 @@
       "discoveryYears": [
         1940
       ],
-      "approvalYears": [
-        1941
-      ],
       "startupYears": [
         1946
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2283.049
+        ],
+        "p50": [
+          1684.304
+        ],
+        "pMean": [
+          289.86
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8895de1b83dd",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d028690b98c0",
@@ -140,15 +172,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.482
+        ],
+        "p50": [
+          0.7202
+        ],
+        "pMean": [
+          0.3768
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6435c7f26a04",
@@ -185,15 +233,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.0674
+        ],
+        "p50": [
+          22.224
+        ],
+        "pMean": [
+          18.037
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-33ccdf8771a7",
@@ -230,15 +294,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.9161
+        ],
+        "p50": [
+          30.295
+        ],
+        "pMean": [
+          28.212
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-987b5a1b7557",
@@ -275,15 +355,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.5
+        ],
+        "p50": [
+          7.44
+        ],
+        "pMean": [
+          11.06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-18ab0d4e6c04",
@@ -320,15 +416,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.36
+        ],
+        "p50": [
+          160.73
+        ],
+        "pMean": [
+          318.24
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-39b00d672d74",
@@ -365,15 +477,29 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.254
+        ],
+        "p50": [
+          12.67
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-88e8e000c19b",
@@ -410,15 +536,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          44.7732
+        ],
+        "p50": [
+          67.94901
+        ],
+        "pMean": [
+          40.832
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-844e6907fee4",
@@ -455,15 +597,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -7.450581e-08
+        ],
+        "pMean": [
+          -5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5fd55d531c14",
@@ -500,15 +658,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08
+        ],
+        "p50": [
+          -5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b42dacbb3357",
@@ -545,15 +719,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1acf50cfc16a",
@@ -590,15 +780,31 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.1893
+        ],
+        "p50": [
+          7.0004
+        ],
+        "pMean": [
+          2.4304
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c586907c1e49",
@@ -635,15 +841,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-239cf9174e98",
@@ -680,15 +902,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.22
+        ],
+        "p50": [
+          41.99
+        ],
+        "pMean": [
+          71.15
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-88bd2d5274b8",
@@ -725,15 +963,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.400001
+        ],
+        "p50": [
+          16.333
+        ],
+        "pMean": [
+          10.28
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b868ff0bc5ce",
@@ -770,15 +1024,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.23
+        ],
+        "p50": [
+          5.61
+        ],
+        "pMean": [
+          2.92
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c887121b7cfe",
@@ -823,17 +1093,49 @@
         2012,
         2014
       ],
-      "approvalYears": [
-        2013,
-        2017
-      ],
       "startupYears": [
         2013,
         2017
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.1054,
+          6.4207,
+          16.2952,
+          32.54,
+          33.173,
+          63.544
+        ],
+        "p50": [
+          0.3442,
+          0.7137,
+          2.3574,
+          3.6847,
+          4.0733,
+          7.0632,
+          8.1365,
+          8.673699,
+          16.2631,
+          38.855
+        ],
+        "pMean": [
+          21.1898,
+          78.07199,
+          146.406,
+          349.63
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 10,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c775d804bd80",
@@ -870,15 +1172,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.552
+        ],
+        "p50": [
+          6.8722
+        ],
+        "pMean": [
+          4.126
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-05ca5d8ffdfb",
@@ -915,15 +1233,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.192
+        ],
+        "p50": [
+          0.367
+        ],
+        "pMean": [
+          0.21
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-167b25273969",
@@ -960,15 +1294,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.86
+        ],
+        "p50": [
+          16.344
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1e712f1a1b10",
@@ -1005,15 +1353,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2057
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.8
+        ],
+        "p50": [
+          32.02
+        ],
+        "pMean": [
+          64.05
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f25ba53248ed",
@@ -1050,15 +1414,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.8788
+        ],
+        "p50": [
+          22.131
+        ],
+        "pMean": [
+          18.331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-7a7f39f2ee40",
@@ -1095,15 +1475,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.171
+        ],
+        "p50": [
+          15
+        ],
+        "pMean": [
+          21.8
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9a431147715b",
@@ -1140,15 +1536,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021
+        ],
+        "p50": [
+          0.0115
+        ],
+        "pMean": [
+          0.1176
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b54d7141f0af",
@@ -1185,15 +1597,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.443
+        ],
+        "p50": [
+          7.5
+        ],
+        "pMean": [
+          14.481
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-fdb5c67455c1",
@@ -1230,15 +1658,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.8991
+        ],
+        "p50": [
+          5.415
+        ],
+        "pMean": [
+          3.366
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-fafefd0ced96",
@@ -1275,15 +1719,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.5
+        ],
+        "p50": [
+          24.64
+        ],
+        "pMean": [
+          51.96
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-280318b1c80b",
@@ -1320,15 +1780,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.452
+        ],
+        "p50": [
+          9.26
+        ],
+        "pMean": [
+          15
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9d6500f69df9",
@@ -1365,15 +1841,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9987
+        ],
+        "p50": [
+          18.98
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8c0fa1071b55",
@@ -1410,15 +1900,31 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.2672
+        ],
+        "p50": [
+          14.8829
+        ],
+        "pMean": [
+          10.1721
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6f312f76de58",
@@ -1455,15 +1961,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5236
+        ],
+        "p50": [
+          4.438
+        ],
+        "pMean": [
+          12.637
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-730ce726b9b2",
@@ -1500,15 +2022,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.682209e-07
+        ],
+        "p50": [
+          -4.768372e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2eff253d2090",
@@ -1545,15 +2083,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.75
+        ],
+        "p50": [
+          18.96
+        ],
+        "pMean": [
+          39.16
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-939dda2c9fc0",
@@ -1590,15 +2144,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.6804
+        ],
+        "p50": [
+          50.697
+        ],
+        "pMean": [
+          100.511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-636303aa3d58",
@@ -1635,15 +2205,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2484
+        ],
+        "p50": [
+          1.743
+        ],
+        "pMean": [
+          4.694
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e9c5044eb2b9",
@@ -1684,17 +2270,35 @@
         1964,
         1985
       ],
-      "approvalYears": [
-        1965,
-        2019
-      ],
       "startupYears": [
         1970,
         2026
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          863.31,
+          4516.15
+        ],
+        "p50": [
+          1437.54,
+          1724.67
+        ],
+        "pMean": [
+          49.76,
+          181.61
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6aba66c2e9e5",
@@ -1731,15 +2335,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.42
+        ],
+        "p50": [
+          15.97
+        ],
+        "pMean": [
+          31.6
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1e39e8cdf675",
@@ -1776,15 +2396,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0315
+        ],
+        "p50": [
+          0.392
+        ],
+        "pMean": [
+          1.47
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-57c88bcd3106",
@@ -1821,15 +2457,29 @@
       "discoveryYears": [
         1938
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          50.2747
+        ],
+        "p50": [
+          72.1787
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-fd7a6531686d",
@@ -1866,15 +2516,29 @@
       "discoveryYears": [
         1938
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          59.78
+        ],
+        "p50": [
+          216.11
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e37d90e4fcb9",
@@ -1911,15 +2575,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.21
+        ],
+        "p50": [
+          157.25
+        ],
+        "pMean": [
+          319.54
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-23ee005fe018",
@@ -1956,15 +2636,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-66a481dd0727",
@@ -2001,15 +2697,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-07e88ffb56bf",
@@ -2046,15 +2758,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.0759
+        ],
+        "p50": [
+          48.534
+        ],
+        "pMean": [
+          34.227
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e6681fec73a7",
@@ -2091,15 +2819,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2057
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          33.67
+        ],
+        "p50": [
+          223.04
+        ],
+        "pMean": [
+          443.19
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-876411888a39",
@@ -2136,15 +2880,31 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          243.72
+        ],
+        "p50": [
+          563.1299
+        ],
+        "pMean": [
+          511.58
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-a5367e3b491b",
@@ -2181,15 +2941,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.164001
+        ],
+        "p50": [
+          63.062
+        ],
+        "pMean": [
+          130.26
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-78b0df74cf64",
@@ -2226,15 +3002,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.39
+        ],
+        "p50": [
+          15.89
+        ],
+        "pMean": [
+          31.73
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-4ca26860f51f",
@@ -2271,15 +3063,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0084
+        ],
+        "p50": [
+          0.0256
+        ],
+        "pMean": [
+          0.067
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-41a23a5f09d6",
@@ -2316,15 +3124,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.8
+        ],
+        "p50": [
+          32.02
+        ],
+        "pMean": [
+          64.05
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-431311f9d41d",
@@ -2361,15 +3185,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.34
+        ],
+        "p50": [
+          30.68
+        ],
+        "pMean": [
+          65.09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-66506e815f56",
@@ -2406,15 +3246,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.81
+        ],
+        "p50": [
+          59.07
+        ],
+        "pMean": [
+          519.07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b93f9b7316a1",
@@ -2451,15 +3307,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-182f01e1cb55",
@@ -2496,15 +3368,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.75
+        ],
+        "p50": [
+          18.17
+        ],
+        "pMean": [
+          36.07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d30fdf28551c",
@@ -2541,15 +3429,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2060
-      ],
       "startupYears": [
         2064
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.6
+        ],
+        "p50": [
+          12.554
+        ],
+        "pMean": [
+          111.11
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-88d6489b8b5a",
@@ -2592,17 +3496,41 @@
         1956,
         1976
       ],
-      "approvalYears": [
-        2016,
-        2024
-      ],
       "startupYears": [
         2019,
         2028
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          183.5978,
+          268.8373,
+          719.2231,
+          1080.12
+        ],
+        "p50": [
+          127.4237,
+          294.2857,
+          446.66,
+          957.39
+        ],
+        "pMean": [
+          0.6825,
+          3.4215,
+          17.466,
+          71.98
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-157b6ab5c0a1",
@@ -2639,15 +3567,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.0674
+        ],
+        "p50": [
+          22.224
+        ],
+        "pMean": [
+          18.037
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-467b8c373681",
@@ -2684,15 +3628,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6e690da0521d",
@@ -2729,15 +3689,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.74
+        ],
+        "p50": [
+          78.95
+        ],
+        "pMean": [
+          159.2
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-a2737406eb8a",
@@ -2774,15 +3750,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.8788
+        ],
+        "p50": [
+          22.131
+        ],
+        "pMean": [
+          18.331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1441ae3bcb12",
@@ -2819,15 +3811,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.58
+        ],
+        "p50": [
+          87.03
+        ],
+        "pMean": [
+          196.19
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3399b6e687b1",
@@ -2866,17 +3874,32 @@
         1960,
         1961
       ],
-      "approvalYears": [
-        1961,
-        2018
-      ],
       "startupYears": [
         1962,
         2021
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4712,
+          159.81
+        ],
+        "p50": [
+          1.03,
+          141.57
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-0d7999ddceba",
@@ -2914,17 +3937,34 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1950,
-        2018
-      ],
       "startupYears": [
         1951,
         2021
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          209.01,
+          1180.576
+        ],
+        "p50": [
+          208.83,
+          259.1029
+        ],
+        "pMean": [
+          -6.556511e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ed871ce88aeb",
@@ -2961,15 +4001,31 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1950
-      ],
       "startupYears": [
         1951
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1781.548
+        ],
+        "p50": [
+          1075.84
+        ],
+        "pMean": [
+          164.6441
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5f8b4d437bcf",
@@ -3006,15 +4062,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.81
+        ],
+        "p50": [
+          82.972
+        ],
+        "pMean": [
+          730.1899
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6a4a204ed18f",
@@ -3053,17 +4125,35 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1953,
-        2077
-      ],
       "startupYears": [
         1958,
         2080
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          14464.5
+        ],
+        "p50": [
+          0,
+          9086.27
+        ],
+        "pMean": [
+          0,
+          1676.57
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2bf97f3df728",
@@ -3100,15 +4190,29 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          986.8
+        ],
+        "p50": [
+          660.359
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-073483906db3",
@@ -3145,15 +4249,31 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1961
-      ],
       "startupYears": [
         1966
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7541.561
+        ],
+        "p50": [
+          4706.705
+        ],
+        "pMean": [
+          961.97
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c4b8627de4d6",
@@ -3190,15 +4310,31 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1952
-      ],
       "startupYears": [
         1954
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9298.279
+        ],
+        "p50": [
+          5782.646
+        ],
+        "pMean": [
+          959.27
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9719b2c4bf60",
@@ -3237,17 +4373,35 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        1951,
-        2060
-      ],
       "startupYears": [
         1953,
         2064
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          26979.86
+        ],
+        "p50": [
+          0,
+          13466.45
+        ],
+        "pMean": [
+          0,
+          1921.65
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1682c40d666c",
@@ -3284,15 +4438,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          774.597
+        ],
+        "p50": [
+          303.833
+        ],
+        "pMean": [
+          27.44
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-cff0576f3c9a",
@@ -3329,15 +4499,29 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.616
+        ],
+        "p50": [
+          0.458
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9c015c8bb72e",
@@ -3374,15 +4558,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.693
+        ],
+        "p50": [
+          18.05
+        ],
+        "pMean": [
+          22.11
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ca408f4db6f9",
@@ -3419,15 +4619,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2057
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.47
+        ],
+        "p50": [
+          9.8
+        ],
+        "pMean": [
+          19.61
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b0f65d7de3e4",
@@ -3464,15 +4680,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.586
+        ],
+        "p50": [
+          6.88
+        ],
+        "pMean": [
+          5.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-4b1ccb4fec4f",
@@ -3509,15 +4741,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d197884fb0db",
@@ -3554,15 +4802,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          15.88
+        ],
+        "p50": [
+          17.59
+        ],
+        "pMean": [
+          1.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-108c95de817d",
@@ -3599,15 +4863,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          35.26
+        ],
+        "p50": [
+          231.24
+        ],
+        "pMean": [
+          454.86
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-79d4e4f1ae3f",
@@ -3644,15 +4924,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.3
+        ],
+        "p50": [
+          57.24
+        ],
+        "pMean": [
+          99.85
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b9821007f46a",
@@ -3692,11 +4988,6 @@
         1971,
         1981
       ],
-      "approvalYears": [
-        1972,
-        2018,
-        2052
-      ],
       "startupYears": [
         1973,
         2019,
@@ -3704,7 +4995,31 @@
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          39.49,
+          47.34,
+          1315.329
+        ],
+        "p50": [
+          47.7,
+          262.42,
+          917.916
+        ],
+        "pMean": [
+          115.33,
+          523.08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9c978f318d4a",
@@ -3741,15 +5056,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-7d0121a9483f",
@@ -3786,15 +5117,29 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          474.202
+        ],
+        "p50": [
+          341.288
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-de7766ab3e58",
@@ -3831,15 +5176,31 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          640.88
+        ],
+        "p50": [
+          509.64
+        ],
+        "pMean": [
+          16.11
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8c55a278b0da",
@@ -3876,15 +5237,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          20.63
+        ],
+        "p50": [
+          22.58
+        ],
+        "pMean": [
+          7.75
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-38d74efba9f8",
@@ -3921,15 +5298,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          22.836
+        ],
+        "p50": [
+          60.2
+        ],
+        "pMean": [
+          67.21
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e9f182db6899",
@@ -3966,15 +5359,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0605
+        ],
+        "p50": [
+          0.886
+        ],
+        "pMean": [
+          3.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1bf5377739d4",
@@ -4018,15 +5427,38 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          132.15,
+          145.4,
+          960.75
+        ],
+        "p50": [
+          14.679,
+          16.16,
+          194.6,
+          240.2,
+          523.61
+        ],
+        "pMean": [
+          1751.37,
+          4712.5
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 5,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e6bfc9835ac1",
@@ -4063,15 +5495,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.55
+        ],
+        "p50": [
+          89.41
+        ],
+        "pMean": [
+          177.03
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8f4b9eba018f",
@@ -4108,15 +5556,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d536b73547fb",
@@ -4153,15 +5617,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.9909
+        ],
+        "p50": [
+          23.002
+        ],
+        "pMean": [
+          16.122
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-21de6965f258",
@@ -4198,15 +5678,31 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-a875728deba6",
@@ -4243,15 +5739,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          33.17
+        ],
+        "p50": [
+          175.77
+        ],
+        "pMean": [
+          341.28
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-0a8a430fb619",
@@ -4288,15 +5800,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.2324
+        ],
+        "p50": [
+          6.6094
+        ],
+        "pMean": [
+          12.3383
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-921e4ba31a5e",
@@ -4333,15 +5861,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          36.72
+        ],
+        "p50": [
+          240.52
+        ],
+        "pMean": [
+          472.69
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-33097acce4b1",
@@ -4378,15 +5922,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.55
+        ],
+        "p50": [
+          31.24
+        ],
+        "pMean": [
+          64.32
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-26bdc126a0ef",
@@ -4423,15 +5983,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.3718
+        ],
+        "p50": [
+          9.31
+        ],
+        "pMean": [
+          18.96
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-4206a96e2e06",
@@ -4468,15 +6044,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.67
+        ],
+        "p50": [
+          63.84
+        ],
+        "pMean": [
+          126.48
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-89f87f826d96",
@@ -4513,15 +6105,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2059
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          95.25
+        ],
+        "p50": [
+          230
+        ],
+        "pMean": [
+          166.61
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-7c6254ec1506",
@@ -4558,15 +6166,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.636
+        ],
+        "p50": [
+          30.988
+        ],
+        "pMean": [
+          34.99
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3e48d3f89b10",
@@ -4603,15 +6227,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.473
+        ],
+        "p50": [
+          43.845
+        ],
+        "pMean": [
+          49.35
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f807a2fa9176",
@@ -4648,15 +6288,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1372.187
+        ],
+        "p50": [
+          547.8232
+        ],
+        "pMean": [
+          60.88
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9c1bd3e13823",
@@ -4693,15 +6349,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b93559d3f210",
@@ -4743,12 +6415,6 @@
         1971,
         1973
       ],
-      "approvalYears": [
-        1959,
-        1978,
-        2016,
-        2073
-      ],
       "startupYears": [
         1964,
         1982,
@@ -4757,7 +6423,38 @@
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.629395e-06,
+          191.966,
+          195.73,
+          1405.73,
+          7218.427
+        ],
+        "p50": [
+          0,
+          78.91,
+          103.7617,
+          1638.77,
+          6493.915
+        ],
+        "pMean": [
+          4.656613e-10,
+          0.0001754761,
+          9.64,
+          9.801001,
+          1193.546
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-86f16276fcdd",
@@ -4797,11 +6494,6 @@
         1949,
         1956
       ],
-      "approvalYears": [
-        1957,
-        1958,
-        2006
-      ],
       "startupYears": [
         1962,
         1963,
@@ -4809,7 +6501,32 @@
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          368.954,
+          420.6332,
+          2379.67
+        ],
+        "p50": [
+          215.6101,
+          279.7545,
+          1431.03
+        ],
+        "pMean": [
+          2.5002,
+          51.8682,
+          216.05
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-fe40de336dc8",
@@ -4846,15 +6563,31 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.728001
+        ],
+        "p50": [
+          65.61
+        ],
+        "pMean": [
+          132.69
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f49a1906f521",
@@ -4891,15 +6624,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          84.126
+        ],
+        "p50": [
+          121.861
+        ],
+        "pMean": [
+          61.16
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ab71cf74ea13",
@@ -4936,15 +6685,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-827a627e1341",
@@ -4981,15 +6746,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -8.940697e-08
+        ],
+        "p50": [
+          7.152557e-07
+        ],
+        "pMean": [
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b071e59f8cee",
@@ -5026,15 +6807,29 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          47.13
+        ],
+        "p50": [
+          32.16
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b42218a43ccb",
@@ -5071,15 +6866,31 @@
       "discoveryYears": [
         1994
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.665
+        ],
+        "p50": [
+          127.54
+        ],
+        "pMean": [
+          197.79
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1476ba47e132",
@@ -5116,15 +6927,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          46.99
+        ],
+        "p50": [
+          315.89
+        ],
+        "pMean": [
+          637.01
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6cca30e34467",
@@ -5161,15 +6988,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.249
+        ],
+        "p50": [
+          81.82
+        ],
+        "pMean": [
+          163.9
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5f303791e38e",
@@ -5206,15 +7049,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          27.317
+        ],
+        "p50": [
+          44.326
+        ],
+        "pMean": [
+          30.21
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-0a1d2ced1ae3",
@@ -5251,15 +7110,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.430511e-06
+        ],
+        "p50": [
+          -4.768372e-06
+        ],
+        "pMean": [
+          -7.629395e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-52a2dba6b456",
@@ -5296,15 +7171,29 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          30.8929
+        ],
+        "p50": [
+          15.0562
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-992a5e8eb9ce",
@@ -5341,15 +7230,31 @@
       "discoveryYears": [
         1957
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7322.23
+        ],
+        "p50": [
+          4740.038
+        ],
+        "pMean": [
+          737.277
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e904c8cb1b17",
@@ -5386,15 +7291,31 @@
       "discoveryYears": [
         1957
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          111.68
+        ],
+        "p50": [
+          507.75
+        ],
+        "pMean": [
+          876.15
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-bf047e188e09",
@@ -5431,15 +7352,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.24
+        ],
+        "p50": [
+          30.4
+        ],
+        "pMean": [
+          65.47
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5552685d5eb5",
@@ -5476,15 +7413,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          119.38
+        ],
+        "p50": [
+          208.28
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9c72a9ce32c9",
@@ -5521,15 +7472,31 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          435.65
+        ],
+        "p50": [
+          793.34
+        ],
+        "pMean": [
+          147.74
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1220defbe307",
@@ -5568,17 +7535,34 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1968,
-        2019
-      ],
       "startupYears": [
         1973,
         2025
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1032.3,
+          3145.54
+        ],
+        "p50": [
+          1368.63,
+          1515.98
+        ],
+        "pMean": [
+          145.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-619427ff1e5d",
@@ -5615,15 +7599,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f06db99375fd",
@@ -5660,15 +7660,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6e66ffe16413",
@@ -5705,15 +7721,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.35
+        ],
+        "p50": [
+          1.935
+        ],
+        "pMean": [
+          4.717
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-fee566ae66e4",
@@ -5750,15 +7782,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08
+        ],
+        "p50": [
+          2.384186e-07
+        ],
+        "pMean": [
+          1.788139e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-05fa7b8692d5",
@@ -5795,15 +7843,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          89.538
+        ],
+        "p50": [
+          20.576
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1b316df9734c",
@@ -5840,15 +7902,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          1.192093e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-4678b6f24845",
@@ -5885,15 +7963,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.976
+        ],
+        "p50": [
+          53.887
+        ],
+        "pMean": [
+          41.465
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d190016ba909",
@@ -5930,15 +8024,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.942
+        ],
+        "p50": [
+          33.25
+        ],
+        "pMean": [
+          67.15
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8996fe8a6042",
@@ -5975,15 +8085,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.31
+        ],
+        "p50": [
+          9.23
+        ],
+        "pMean": [
+          19.46
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2a831e44aad6",
@@ -6020,15 +8146,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ab103ed91633",
@@ -6065,15 +8207,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.7077
+        ],
+        "p50": [
+          46.528
+        ],
+        "pMean": [
+          96.765
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-761850c2af71",
@@ -6110,15 +8268,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9134
+        ],
+        "p50": [
+          5.1479
+        ],
+        "pMean": [
+          10.0356
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8e5c4be767a8",
@@ -6155,15 +8329,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.15
+        ],
+        "p50": [
+          15.29
+        ],
+        "pMean": [
+          32.66
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-85ab4f116fe6",
@@ -6200,15 +8390,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.24
+        ],
+        "p50": [
+          15.51
+        ],
+        "pMean": [
+          32.25
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-08ea2ac10340",
@@ -6245,15 +8451,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          97.42001
+        ],
+        "p50": [
+          672.98
+        ],
+        "pMean": [
+          1394.59
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9ebb511d4f6c",
@@ -6290,15 +8512,31 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          15.04
+        ],
+        "p50": [
+          76.43
+        ],
+        "pMean": [
+          116.51
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c31714c8bd15",
@@ -6335,15 +8573,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          30.89
+        ],
+        "p50": [
+          47.8
+        ],
+        "pMean": [
+          22.18
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-87339f6a8f29",
@@ -6380,15 +8634,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2086
-      ],
       "startupYears": [
         2089
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.18
+        ],
+        "p50": [
+          14.769
+        ],
+        "pMean": [
+          129.84
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-db567a7bdb00",
@@ -6429,17 +8699,35 @@
         1990,
         1994
       ],
-      "approvalYears": [
-        1993,
-        2040
-      ],
       "startupYears": [
         1997,
         2043
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.6995,
+          242.63
+        ],
+        "p50": [
+          31.612,
+          118.346
+        ],
+        "pMean": [
+          5.8143,
+          63.688
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-406426468fb6",
@@ -6476,15 +8764,29 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.668
+        ],
+        "p50": [
+          0.0841
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-315c6457efc4",
@@ -6521,15 +8823,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.389
+        ],
+        "p50": [
+          2.93
+        ],
+        "pMean": [
+          8.072001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2d0182da8b35",
@@ -6566,15 +8884,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.95
+        ],
+        "p50": [
+          18.516
+        ],
+        "pMean": [
+          25.75
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-747b3bd66b9d",
@@ -6611,15 +8945,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.45
+        ],
+        "p50": [
+          14.56
+        ],
+        "pMean": [
+          24.81
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-558c53d24206",
@@ -6664,11 +9014,6 @@
         1963,
         1984
       ],
-      "approvalYears": [
-        1948,
-        1965,
-        2050
-      ],
       "startupYears": [
         1949,
         1966,
@@ -6677,7 +9022,32 @@
       "ownerships": [
         "Saudi Aramco* (100%)",
         "Saudi Aramco* (50%); BAPCO (Bahrain) (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1498.06,
+          5277.8
+        ],
+        "p50": [
+          0,
+          718.86,
+          4018.82
+        ],
+        "pMean": [
+          0,
+          95.54,
+          690.81
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2e639bf09f1b",
@@ -6714,15 +9084,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        1979
-      ],
       "startupYears": [
         1982
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.354
+        ],
+        "p50": [
+          3.772
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6d90c2e58b28",
@@ -6759,15 +9145,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b0befc0e9d13",
@@ -6804,15 +9206,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0212
+        ],
+        "p50": [
+          0.264
+        ],
+        "pMean": [
+          0.985
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ee94cf9f2052",
@@ -6849,15 +9267,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.8887
+        ],
+        "p50": [
+          16.2778
+        ],
+        "pMean": [
+          11.223
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-bdc7316909ed",
@@ -6894,15 +9328,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          58.5
+        ],
+        "p50": [
+          241.76
+        ],
+        "pMean": [
+          299.74
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-6e744c0166d4",
@@ -6939,15 +9389,31 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e978463d3edb",
@@ -6984,15 +9450,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3c19b82ec56d",
@@ -7029,15 +9511,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-48c3c663fb07",
@@ -7074,15 +9572,31 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c30409963c4f",
@@ -7119,15 +9633,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          34.31
+        ],
+        "p50": [
+          224.57
+        ],
+        "pMean": [
+          441
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3dff6573393a",
@@ -7164,15 +9694,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.171
+        ],
+        "p50": [
+          0.914
+        ],
+        "pMean": [
+          9.252999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3f4f971afd4a",
@@ -7211,17 +9757,35 @@
       "discoveryYears": [
         1951
       ],
-      "approvalYears": [
-        1954,
-        2065
-      ],
       "startupYears": [
         1956,
         2069
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05,
+          21316.26
+        ],
+        "p50": [
+          -6.103516e-05,
+          9835.602
+        ],
+        "pMean": [
+          0.0002288818,
+          1452.8
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-c3c22eb8613b",
@@ -7258,15 +9822,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.17
+        ],
+        "p50": [
+          30.23
+        ],
+        "pMean": [
+          65.71
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-1f2ec15b15c0",
@@ -7306,17 +9886,35 @@
         1984,
         2017
       ],
-      "approvalYears": [
-        2037,
-        2049
-      ],
       "startupYears": [
         2040,
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          24.32
+        ],
+        "p50": [
+          -4.768372e-06,
+          47.71
+        ],
+        "pMean": [
+          -7.629395e-06,
+          28.07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ef9d6dd1bd9b",
@@ -7353,15 +9951,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.5
+        ],
+        "p50": [
+          31.12
+        ],
+        "pMean": [
+          64.48
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-721cb9bed9ea",
@@ -7398,15 +10012,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          19.17
+        ],
+        "p50": [
+          127.28
+        ],
+        "pMean": [
+          253.56
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-bfbd8933698f",
@@ -7443,15 +10073,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          45.96
+        ],
+        "p50": [
+          246.67
+        ],
+        "pMean": [
+          457.37
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-3672ff2d45a5",
@@ -7488,15 +10134,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.269
+        ],
+        "p50": [
+          5.125
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ed075b92fc32",
@@ -7533,15 +10193,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.6154
+        ],
+        "p50": [
+          23.1295
+        ],
+        "pMean": [
+          22.477
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5506cc214679",
@@ -7578,15 +10254,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0481
+        ],
+        "p50": [
+          0.705
+        ],
+        "pMean": [
+          3.1
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-241721bff3f4",
@@ -7623,15 +10315,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.6281
+        ],
+        "p50": [
+          11.011
+        ],
+        "pMean": [
+          22.338
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-e30977b46038",
@@ -7668,15 +10376,31 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.398
+        ],
+        "p50": [
+          20.88
+        ],
+        "pMean": [
+          15.44
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-60d96b2d377d",
@@ -7713,15 +10437,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.9249
+        ],
+        "p50": [
+          45.405
+        ],
+        "pMean": [
+          47.874
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-cc72997879e3",
@@ -7758,15 +10498,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2b1e43bd66a2",
@@ -7803,17 +10559,35 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1996,
-        2014
-      ],
       "startupYears": [
         1998,
         2016
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1041.46,
+          5067.61
+        ],
+        "p50": [
+          744.7501,
+          3259.65
+        ],
+        "pMean": [
+          46.75,
+          443.51
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-86628b78da1f",
@@ -7850,15 +10624,31 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.77
+        ],
+        "p50": [
+          13.39
+        ],
+        "pMean": [
+          6.13
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-b21f25b0bbd3",
@@ -7895,15 +10685,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.078
+        ],
+        "p50": [
+          26.91
+        ],
+        "pMean": [
+          53.28
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-16ecbdae4670",
@@ -7940,15 +10746,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          21.578
+        ],
+        "p50": [
+          76.35001
+        ],
+        "pMean": [
+          117.38
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9b5f3b1d824a",
@@ -7992,15 +10814,38 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.877,
+          92.419,
+          170.47
+        ],
+        "p50": [
+          1.6486,
+          10.2691,
+          42.621,
+          73.589,
+          79.053
+        ],
+        "pMean": [
+          662.38,
+          711.61
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 5,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-735110350565",
@@ -8037,15 +10882,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2061
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          42.45
+        ],
+        "p50": [
+          284.67
+        ],
+        "pMean": [
+          572.74
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-8d9ba16b8e79",
@@ -8082,15 +10943,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          145.55
+        ],
+        "p50": [
+          399.59
+        ],
+        "pMean": [
+          466.41
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-40429a05b9de",
@@ -8127,15 +11004,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2059
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.3
+        ],
+        "p50": [
+          10.712
+        ],
+        "pMean": [
+          94.31999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-014ce3861067",
@@ -8172,15 +11065,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.56
+        ],
+        "p50": [
+          24.75
+        ],
+        "pMean": [
+          51.69
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ab9c45852480",
@@ -8217,15 +11126,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          431.904
+        ],
+        "p50": [
+          141.9228
+        ],
+        "pMean": [
+          12.8813
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-4a96e9b80671",
@@ -8262,15 +11187,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.8891
+        ],
+        "p50": [
+          77.6
+        ],
+        "pMean": [
+          121.357
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-42ba6a33bb60",
@@ -8307,15 +11248,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.1895
+        ],
+        "p50": [
+          30.184
+        ],
+        "pMean": [
+          26.827
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f5c981473b26",
@@ -8352,15 +11309,29 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.98
+        ],
+        "p50": [
+          6.62
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-eacd2340debc",
@@ -8397,15 +11368,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.145
+        ],
+        "p50": [
+          2.756
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-90900f60d415",
@@ -8442,15 +11427,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-827c164cb48e",
@@ -8487,15 +11488,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.6843
+        ],
+        "p50": [
+          25.201
+        ],
+        "pMean": [
+          23.648
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-ae479263b666",
@@ -8532,15 +11549,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          15.0485
+        ],
+        "p50": [
+          35.047
+        ],
+        "pMean": [
+          32.237
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-cbacc96f331d",
@@ -8577,15 +11610,29 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          93.04741
+        ],
+        "p50": [
+          22.757
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-65ace0b003f5",
@@ -8622,15 +11669,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.93
+        ],
+        "p50": [
+          62.15
+        ],
+        "pMean": [
+          129.8
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-28606bb0826f",
@@ -8667,15 +11730,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.18
+        ],
+        "p50": [
+          8.07
+        ],
+        "pMean": [
+          16.63
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-19313b9496e2",
@@ -8713,16 +11792,35 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2016,
         2017
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          582.1104,
+          1789.157
+        ],
+        "p50": [
+          128.9003,
+          444.942
+        ],
+        "pMean": [
+          0.0003,
+          2.774
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-2f388ebe108d",
@@ -8759,15 +11857,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2060
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.53
+        ],
+        "p50": [
+          110.75
+        ],
+        "pMean": [
+          222.67
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-009723c4445f",
@@ -8804,15 +11918,29 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.57
+        ],
+        "p50": [
+          12.02
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-d62b7ca1a973",
@@ -8849,15 +11977,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          454.67
+        ],
+        "p50": [
+          144.561
+        ],
+        "pMean": [
+          10.65
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-19529363c393",
@@ -8894,15 +12038,31 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.775
+        ],
+        "p50": [
+          45.69
+        ],
+        "pMean": [
+          71.41
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9d865c4aecb5",
@@ -8939,15 +12099,31 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0077
+        ],
+        "p50": [
+          0.0252
+        ],
+        "pMean": [
+          0.0681
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-9c33ea0e9ccc",
@@ -8984,15 +12160,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.44
+        ],
+        "p50": [
+          36.16
+        ],
+        "pMean": [
+          21.28
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5a22d830d428",
@@ -9029,15 +12221,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          474.25
+        ],
+        "p50": [
+          3160.1
+        ],
+        "pMean": [
+          6317.09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-179601ccaa08",
@@ -9074,17 +12282,35 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2022,
-        2025
-      ],
       "startupYears": [
         2027,
         2029
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          573.81,
+          1732.36
+        ],
+        "p50": [
+          1078.87,
+          3099.24
+        ],
+        "pMean": [
+          190.71,
+          229.06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-f967fc4d5960",
@@ -9121,15 +12347,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1966
-      ],
       "startupYears": [
         1971
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3976.079
+        ],
+        "p50": [
+          1589.158
+        ],
+        "pMean": [
+          226.226
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "saudi-aramco-5acf6139f6f0",
@@ -9166,15 +12408,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Saudi Aramco* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.1
+        ],
+        "p50": [
+          30.02
+        ],
+        "pMean": [
+          66
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

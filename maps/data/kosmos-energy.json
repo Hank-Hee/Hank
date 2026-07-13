@@ -51,15 +51,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Kosmos Energy* (34%); Trident Energy (34%); GEPetrol (20%); Panoro Energy (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0283
+        ],
+        "p50": [
+          0.0904
+        ],
+        "pMean": [
+          0.1646
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-f9598afc1839",
@@ -96,15 +112,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Kosmos Energy* (34%); Trident Energy (34%); GEPetrol (20%); Panoro Energy (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.7495
+        ],
+        "p50": [
+          4.9479
+        ],
+        "pMean": [
+          4.1962
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-bba9b78b2fcf",
@@ -141,15 +173,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Kosmos Energy* (90%); Petrosen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0026
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-702c4d06180c",
@@ -186,15 +232,29 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Kosmos Energy* (40.5%); Ridgewood (20.25%); Talos Energy (20.25%); Red Willow (14%); Houston Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.5684
+        ],
+        "p50": [
+          2.3938
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-21ba5ef7b7a8",
@@ -231,15 +291,29 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2015
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "Kosmos Energy* (54.88%); Ridgewood (17.5%); Talos Energy (17.5%); Calypso Exploration (10.13%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          31.5996
+        ],
+        "p50": [
+          18.1301
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-ac1942dbc181",
@@ -276,15 +350,29 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "Kosmos Energy* (34.96%); Murphy Oil (58.07%); Petrobras (6.97%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          15.5918
+        ],
+        "p50": [
+          7.0566
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-10358f9e284b",
@@ -321,15 +409,29 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.5836
+        ],
+        "pMean": [
+          11.0682
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-c4a755f848ba",
@@ -366,15 +468,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Kosmos Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0785
+        ],
+        "pMean": [
+          1.4921
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-ef27096ed212",
@@ -411,15 +527,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Kosmos Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.07759999
+        ],
+        "pMean": [
+          1.4748
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-87f8f90078af",
@@ -456,15 +586,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.019
+        ],
+        "pMean": [
+          0.3704
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-9a40a5eff097",
@@ -501,15 +645,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0208
+        ],
+        "pMean": [
+          0.3972
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-21199f515b82",
@@ -546,15 +704,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.5264001
+        ],
+        "pMean": [
+          9.9914
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-4bd705b71646",
@@ -593,17 +765,32 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2026,
-        2029
-      ],
       "startupYears": [
         2028,
         2032
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.691,
+          12.378
+        ],
+        "p50": [
+          17.078,
+          56.386
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-6c26b51b6e6b",
@@ -640,15 +827,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (61.06%); Ridgewood (19.47%); Talos Energy (19.47%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.003
+        ],
+        "pMean": [
+          0.0542
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-0e8a2a5d3797",
@@ -685,15 +886,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (54.88%); Ridgewood (17.5%); Talos Energy (17.5%); Calypso Exploration (10.13%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0213
+        ],
+        "pMean": [
+          0.4067
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-d0ca42f15f24",
@@ -730,15 +945,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Kosmos Energy* (37.5%); Red Willow (25%); Ridgewood (18.75%); Talos Energy (18.75%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.6125001
+        ],
+        "pMean": [
+          11.6463
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-d2b335473108",
@@ -775,15 +1004,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (22.5%); Ridgewood (23.85%); Talos Energy (23.85%); Red Willow (19.8%); CL&F Resources LP (7%); Houston Energy (3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0494
+        ],
+        "pMean": [
+          0.9405
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-f74e1f5e748c",
@@ -820,15 +1063,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (40.5%); Ridgewood (20.25%); Talos Energy (20.25%); Red Willow (14%); Houston Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0015
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-110d1cd90760",
@@ -865,15 +1124,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (31.72%); Murphy Oil (68.28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0262
+        ],
+        "pMean": [
+          0.4994
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-bb33dd99315f",
@@ -910,15 +1183,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Kosmos Energy* (75%); Murphy Oil (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kosmos-energy-b2d10f499398",
@@ -955,15 +1242,29 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Kosmos Energy* (50%); Occidental Petroleum (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0032
+        ],
+        "pMean": [
+          0.0652
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

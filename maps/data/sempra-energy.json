@@ -53,17 +53,36 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2020,
-        2050
-      ],
       "startupYears": [
         2026,
         2055
       ],
       "ownerships": [
         "Sempra* (83.4%); TotalEnergies (16.6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.525879e-05,
+          -1.144409e-05,
+          0
+        ],
+        "p50": [
+          -7.629395e-06,
+          0
+        ],
+        "pMean": [
+          -1.144409e-05,
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "sempra-energy-aa30de5b58e8",
@@ -100,15 +119,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Sempra* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "sempra-energy-5f1abcdecceb",
@@ -145,15 +180,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "Sempra* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.4697
+        ],
+        "p50": [
+          0.5865
+        ],
+        "pMean": [
+          0.0607
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "sempra-energy-c0fd2a841073",
@@ -191,10 +242,6 @@
         2016,
         2023
       ],
-      "approvalYears": [
-        2023,
-        2025
-      ],
       "startupYears": [
         2028,
         2030,
@@ -203,7 +250,25 @@
       "ownerships": [
         "Sempra* (100%)",
         "Sempra* (28%); Kohlberg Kravis Roberts (KKR) (42%); ConocoPhillips (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -6.103516e-05,
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

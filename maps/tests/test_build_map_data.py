@@ -80,6 +80,57 @@ class BuildMapDataTests(unittest.TestCase):
 
         self.assertEqual([project["project"] for project in payload], ["Gamma"])
 
+    def test_aggregate_rows_publishes_unique_sorted_resource_values(self):
+        rows = [
+            {
+                "Operator": "ADNOC Offshore",
+                "Country": "UAE",
+                "Project": "Upper Zakum",
+                "Approval Year": 2020,
+                "P90 Resources": 10,
+                "P50 Incremental Resources": 0,
+                "Pmean Incremental Resources": 5.25,
+            },
+            {
+                "Operator": "ADNOC Offshore",
+                "Country": "UAE",
+                "Project": "Upper Zakum",
+                "Approval Year": 2021,
+                "P90 Resources": 2,
+                "P50 Incremental Resources": 7.5,
+                "Pmean Incremental Resources": 5.25,
+                "Prospective Unawarded Resources": 40,
+            },
+            {
+                "Operator": "ADNOC Offshore",
+                "Country": "UAE",
+                "Project": "Upper Zakum",
+                "P90 Resources": 10,
+                "P50 Incremental Resources": 0,
+                "Prospective Unawarded Resources": 40,
+            },
+        ]
+
+        project = aggregate_rows(rows, "ADNOC", {"ADNOC Offshore"})[0]
+
+        self.assertEqual(
+            project["resources"],
+            {
+                "unit": "million bbl",
+                "p90": [2, 10],
+                "p50": [0, 7.5],
+                "pMean": [5.25],
+                "prospective": [40],
+                "rawCounts": {
+                    "p90": 3,
+                    "p50": 3,
+                    "pMean": 2,
+                    "prospective": 2,
+                },
+            },
+        )
+        self.assertNotIn("approvalYears", project)
+
     @unittest.skipUnless(os.environ.get("RYSTAD_XLSX"), "RYSTAD_XLSX is required")
     def test_real_workbook_counts_regions_and_country_centers(self):
         root = Path(__file__).resolve().parents[2]
@@ -89,8 +140,8 @@ class BuildMapDataTests(unittest.TestCase):
         )
 
         self.assertEqual(len(result["companies"]["Shell"]), 552)
-        self.assertEqual(len(result["companies"]["BP"]), 396)
-        self.assertEqual(len(result["companies"]["Eni"]), 437)
+        self.assertEqual(len(result["companies"]["BP"]), 408)
+        self.assertEqual(len(result["companies"]["ENI"]), 437)
         self.assertEqual(len(result["companies"]["ADNOC"]), 49)
         self.assertEqual(
             sum("东南亚" in project["businessRegions"] for project in result["companies"]["Shell"]),
@@ -103,6 +154,24 @@ class BuildMapDataTests(unittest.TestCase):
                 for projects in result["companies"].values()
                 for project in projects
             )
+        )
+        self.assertTrue(
+            all(
+                set(project["resources"])
+                == {"unit", "p90", "p50", "pMean", "prospective", "rawCounts"}
+                for projects in result["companies"].values()
+                for project in projects
+            )
+        )
+        self.assertFalse(
+            any(
+                "approvalYears" in project
+                for projects in result["companies"].values()
+                for project in projects
+            )
+        )
+        self.assertFalse(
+            any(project["resources"]["prospective"] for project in result["companies"]["ADNOC"])
         )
 
     def test_company_config_is_valid_json(self):

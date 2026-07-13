@@ -65,18 +65,38 @@
         1960,
         1964
       ],
-      "approvalYears": [
-        1972,
-        1973,
-        2037
-      ],
       "startupYears": [
         1977,
         2042
       ],
       "ownerships": [
         "ADNOC LNG* (0%); ADNOC (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2.384186e-07,
+          170.8918,
+          409.605
+        ],
+        "p50": [
+          -1.525879e-05,
+          9.536743e-07,
+          89.9475,
+          197.124
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-797cd13ab5f0",
@@ -120,15 +140,33 @@
         1961,
         1969
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "ADNOC LNG* (0%); ADNOC (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          204.2838,
+          236.8751
+        ],
+        "p50": [
+          1.525879e-05,
+          102.9972,
+          114.8174
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-de4451dd1c13",
@@ -165,15 +203,31 @@
       "discoveryYears": [
         1958
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.768372e-07
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          -1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-4c8249a0324d",
@@ -210,16 +264,32 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        1976
-      ],
       "startupYears": [
         1984,
         2001
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1210.432,
+          5675.767
+        ],
+        "p50": [
+          885.242,
+          4171.787
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-d995f002f75e",
@@ -256,15 +326,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.701
+        ],
+        "p50": [
+          16.856
+        ],
+        "pMean": [
+          14.948
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-19ed83f6621a",
@@ -304,11 +390,6 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2010,
-        2021,
-        2029
-      ],
       "startupYears": [
         2015,
         2023,
@@ -316,7 +397,31 @@
       ],
       "ownerships": [
         "ADNOC Sour Gas* (0%); ADNOC (60%); Occidental Petroleum (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          89.936,
+          90.405,
+          836.3933
+        ],
+        "p50": [
+          66.955,
+          141.63,
+          459.2984
+        ],
+        "pMean": [
+          -2.384186e-07,
+          105.06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-a18f74d24254",
@@ -353,15 +458,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.0674
+        ],
+        "p50": [
+          20.6854
+        ],
+        "pMean": [
+          41.8257
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-4adcb72ac1f0",
@@ -401,17 +522,34 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1981,
-        2049
-      ],
       "startupYears": [
         1981,
         2053
       ],
       "ownerships": [
         "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          223.364
+        ],
+        "p50": [
+          0,
+          165.759
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-57bf5874e35f",
@@ -450,11 +588,6 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2018,
-        2022,
-        2030
-      ],
       "startupYears": [
         2022,
         2023,
@@ -462,7 +595,32 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.086163e-07,
+          15.6528,
+          25.763
+        ],
+        "p50": [
+          -5.00679e-06,
+          20.1932,
+          40.8963
+        ],
+        "pMean": [
+          7.152557e-06,
+          0.1408,
+          2.6867
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-75e6cbd9512e",
@@ -503,11 +661,6 @@
         1965,
         1966
       ],
-      "approvalYears": [
-        1968,
-        2022,
-        2052
-      ],
       "startupYears": [
         1973,
         2023,
@@ -515,7 +668,31 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.614901,
+          110.999,
+          1676.883
+        ],
+        "p50": [
+          11.1446,
+          555.37,
+          1556.19
+        ],
+        "pMean": [
+          46.0727,
+          833.63
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-2fcc97d7997f",
@@ -555,17 +732,34 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        1976,
-        2048
-      ],
       "startupYears": [
         1981,
         2055
       ],
       "ownerships": [
         "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05,
+          110.635
+        ],
+        "p50": [
+          6.103516e-05,
+          89.686
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-3c6e114018d6",
@@ -602,15 +796,31 @@
       "discoveryYears": [
         1954
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          471.67
+        ],
+        "p50": [
+          984.96
+        ],
+        "pMean": [
+          64.18
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-7a9abc79dfbb",
@@ -653,14 +863,6 @@
         1954,
         1960
       ],
-      "approvalYears": [
-        1960,
-        2017,
-        2019,
-        2022,
-        2023,
-        2054
-      ],
       "startupYears": [
         1960,
         2022,
@@ -671,7 +873,40 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          22.8392,
+          45.48,
+          63.6687,
+          84.73289,
+          93.436,
+          147.92,
+          1289.432
+        ],
+        "p50": [
+          36.272,
+          84.8187,
+          89.422,
+          116.1141,
+          351.495,
+          674.99,
+          904.2711
+        ],
+        "pMean": [
+          -1.937151e-07,
+          34.219,
+          924.1
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-80020aeccc04",
@@ -708,15 +943,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.7287
+        ],
+        "p50": [
+          31.2583
+        ],
+        "pMean": [
+          25.2035
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-30894107a9fc",
@@ -756,17 +1007,34 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1975,
-        2051
-      ],
       "startupYears": [
         1980,
         2055
       ],
       "ownerships": [
         "ADNOC Gas Processing* (0%); ADNOC (68%); Shell (15%); TotalEnergies (15%); PTTEP (2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.051758e-05,
+          322.724
+        ],
+        "p50": [
+          0,
+          239.454
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-cb5c31d7df2a",
@@ -811,15 +1079,6 @@
         1965,
         2022
       ],
-      "approvalYears": [
-        1965,
-        2002,
-        2010,
-        2018,
-        2023,
-        2031,
-        2048
-      ],
       "startupYears": [
         1965,
         2006,
@@ -832,7 +1091,46 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.5215,
+          11.9443,
+          15.9344,
+          32.0813,
+          103.692,
+          176.8174,
+          530.4,
+          3559.135
+        ],
+        "p50": [
+          10.2921,
+          15.172,
+          20.8446,
+          103.215,
+          224.9588,
+          390.051,
+          2220.287,
+          2348.92
+        ],
+        "pMean": [
+          1.192093e-07,
+          0.3032,
+          1.4863,
+          4.3463,
+          30.836,
+          246.8069,
+          3120.69
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 8,
+          "p50": 8,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-456c04206d7a",
@@ -869,15 +1167,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-06fd91c30848",
@@ -914,15 +1228,29 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          218.877
+        ],
+        "p50": [
+          218.234
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-da9ee56f046a",
@@ -959,15 +1287,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "ADNOC* (70%); Occidental Petroleum (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          33.14
+        ],
+        "p50": [
+          216.9
+        ],
+        "pMean": [
+          425.83
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-fb9b2ea6f39c",
@@ -1005,15 +1349,31 @@
         1975,
         1984
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          572.65,
+          648.428
+        ],
+        "p50": [
+          434.994,
+          514.242
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-ea0f540752ca",
@@ -1056,10 +1416,6 @@
         1958,
         1969
       ],
-      "approvalYears": [
-        2009,
-        2047
-      ],
       "startupYears": [
         2013,
         2051
@@ -1068,7 +1424,30 @@
         "ADNOC Offshore* (0%); ADNOC (100%)",
         "ADNOC* (100%)",
         "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          163.7,
+          1189.2
+        ],
+        "p50": [
+          0,
+          91.14,
+          702.41
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-1806575648bf",
@@ -1105,15 +1484,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.6426
+        ],
+        "p50": [
+          34.02
+        ],
+        "pMean": [
+          24.276
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-dd9106cd937a",
@@ -1152,17 +1547,34 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2021,
-        2031
-      ],
       "startupYears": [
         2023,
         2035
       ],
       "ownerships": [
         "ADNOC* (50%); Dubai Supply Authority (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          54.64,
+          320.34
+        ],
+        "p50": [
+          23.56,
+          458.52
+        ],
+        "pMean": [
+          22
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-d5ca5ea2ddf2",
@@ -1199,15 +1611,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.235174e-07
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          4.172325e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-3a5d0688e4d9",
@@ -1244,15 +1672,31 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.697
+        ],
+        "p50": [
+          1.84
+        ],
+        "pMean": [
+          2.044
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-7ad1c045db33",
@@ -1289,15 +1733,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -4.768372e-07
+        ],
+        "p50": [
+          -1.907349e-06
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-dc8cc4796829",
@@ -1340,13 +1800,6 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        1966,
-        2024,
-        2025,
-        2031,
-        2045
-      ],
       "startupYears": [
         1967,
         2027,
@@ -1356,7 +1809,37 @@
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); Inpex (10%); PetroChina (6%); Eni (5%); TotalEnergies (5%); CNOOC (4%); ONGC (4%); Bharat Petroleum Corp (BPCL) (3%); Indian Oil (3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          19.028,
+          28.149,
+          54.78,
+          135.223,
+          2355.12
+        ],
+        "p50": [
+          60.726,
+          125.55,
+          176.17,
+          275.47,
+          631.31
+        ],
+        "pMean": [
+          72.89,
+          90.16,
+          169.95,
+          248.41
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-5d8db00445fe",
@@ -1393,15 +1876,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.192093e-07
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          -1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-c566164c3795",
@@ -1438,15 +1937,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.2936
+        ],
+        "p50": [
+          27.389
+        ],
+        "pMean": [
+          38.66
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-770ed09bd1b8",
@@ -1483,15 +1998,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.035631e-06
+        ],
+        "p50": [
+          -2.861023e-06
+        ],
+        "pMean": [
+          -1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-87cb3a368e29",
@@ -1538,14 +2069,6 @@
         1969,
         1983
       ],
-      "approvalYears": [
-        1990,
-        1991,
-        2018,
-        2021,
-        2036,
-        2055
-      ],
       "startupYears": [
         1995,
         2021,
@@ -1555,7 +2078,44 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.003546e-07,
+          27.083,
+          35.32,
+          37.7935,
+          73.62099,
+          200.2041,
+          459.402
+        ],
+        "p50": [
+          -3.814697e-06,
+          21.2167,
+          34.8983,
+          45.5951,
+          108.2837,
+          118.2,
+          188.3965
+        ],
+        "pMean": [
+          1.907349e-06,
+          1.4487,
+          2.5846,
+          3.1494,
+          3.8319,
+          7.6821,
+          154.72
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-ada9c85ed973",
@@ -1594,15 +2154,31 @@
         1958,
         1964
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "ADNOC* (70%); Mitsui (15%); BP (10%); TotalEnergies (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          25.99,
+          78.88
+        ],
+        "p50": [
+          15.684,
+          37.51
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-57f671560fad",
@@ -1641,17 +2217,32 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2024,
-        2027
-      ],
       "startupYears": [
         2027,
         2029
       ],
       "ownerships": [
         "ADNOC* (60%); Inpex (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.11,
+          20.44
+        ],
+        "p50": [
+          5.84,
+          30.66
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-1bce5ca9ad26",
@@ -1694,15 +2285,33 @@
         1960,
         1965
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          69.56,
+          123.77,
+          261.4
+        ],
+        "p50": [
+          119.93,
+          167.45,
+          353.66
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-bd68ca0c9982",
@@ -1739,15 +2348,29 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "ADNOC* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          376.66
+        ],
+        "pMean": [
+          3389.97
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-4af7bcdfdd7d",
@@ -1789,17 +2412,39 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2020,
-        2030
-      ],
       "startupYears": [
         2020,
         2030
       ],
       "ownerships": [
         "ADNOC* (90%); TotalEnergies (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.598,
+          10.611,
+          42.01
+        ],
+        "p50": [
+          0,
+          0.9556,
+          1.1789,
+          10.5,
+          40.174
+        ],
+        "pMean": [
+          -7.629395e-06,
+          361.54
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 5,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-9eb60090e27c",
@@ -1840,15 +2485,33 @@
         1962,
         1965
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "ADNOC LNG* (0%); ADNOC (60%); BP (10%); Mitsui (10%); Shell (10%); TotalEnergies (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.103516e-05,
+          254.512,
+          1040.787
+        ],
+        "p50": [
+          -0.0001220703,
+          493.27,
+          2073.002
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-2f4eea2450af",
@@ -1885,15 +2548,29 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          38.128
+        ],
+        "p50": [
+          65.274
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-8fe723d2c885",
@@ -1934,12 +2611,6 @@
         1969,
         1981
       ],
-      "approvalYears": [
-        2011,
-        2013,
-        2040,
-        2054
-      ],
       "startupYears": [
         2014,
         2018,
@@ -1948,7 +2619,38 @@
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (57%); OMV (20%); TotalEnergies (20%); SOCAR (3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          88.76,
+          90,
+          92.34,
+          480.227,
+          623.3366
+        ],
+        "p50": [
+          47.88601,
+          215.595,
+          231.44,
+          232.31,
+          269.9821
+        ],
+        "pMean": [
+          1.3588,
+          17.3817,
+          29.505,
+          175.35,
+          178.56
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-d9faf35de36a",
@@ -1985,15 +2687,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1979
-      ],
       "startupYears": [
         1983
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          493.8282
+        ],
+        "p50": [
+          314.5131
+        ],
+        "pMean": [
+          48.5865
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-076ab831baa1",
@@ -2030,15 +2748,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "ADNOC Ghasha* (0%); ADNOC (80%); Eni (10%); PTTEP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.536743e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -1.430511e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-9ac4a6a83f9d",
@@ -2080,14 +2814,6 @@
         1975,
         1976
       ],
-      "approvalYears": [
-        1971,
-        2010,
-        2015,
-        2018,
-        2023,
-        2024
-      ],
       "startupYears": [
         1975,
         2013,
@@ -2098,7 +2824,41 @@
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.4906,
+          55.942,
+          104.0316,
+          108.884,
+          109.855,
+          123.8489,
+          411.6655
+        ],
+        "p50": [
+          70.501,
+          87.71299,
+          88.381,
+          116.9461,
+          168.1281,
+          252.256,
+          468.314
+        ],
+        "pMean": [
+          2.4493,
+          4.6691,
+          29.32,
+          29.8057
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-253c944a0dcb",
@@ -2135,15 +2895,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1987
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); Inpex (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          53.01
+        ],
+        "p50": [
+          28.18
+        ],
+        "pMean": [
+          1.987
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-94e0f187e291",
@@ -2183,11 +2959,6 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        1981,
-        2021,
-        2030
-      ],
       "startupYears": [
         1985,
         2023,
@@ -2195,7 +2966,31 @@
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); Inpex (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.57,
+          20.3,
+          32.82
+        ],
+        "p50": [
+          6.15,
+          16.4846,
+          46.96
+        ],
+        "pMean": [
+          2.955,
+          32.58
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-48fa2fd7aaca",
@@ -2241,15 +3036,6 @@
         1958,
         1971
       ],
-      "approvalYears": [
-        1961,
-        2011,
-        2014,
-        2021,
-        2025,
-        2026,
-        2050
-      ],
       "startupYears": [
         1962,
         2015,
@@ -2260,7 +3046,44 @@
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); TotalEnergies (20%); Eni (10%); PetroChina (6%); CNOOC (4%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          42.386,
+          67.05998,
+          78.506,
+          156.955,
+          189.236,
+          360.16,
+          2609.708
+        ],
+        "p50": [
+          26.635,
+          106.17,
+          133.82,
+          141.577,
+          382.79,
+          753.2295,
+          926.1886
+        ],
+        "pMean": [
+          3.874302e-07,
+          2.3823,
+          10.311,
+          21.01,
+          30.99,
+          108.4644,
+          714.5468
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-7fba95a24278",
@@ -2298,17 +3121,35 @@
       "discoveryYears": [
         1958
       ],
-      "approvalYears": [
-        2027,
-        2033
-      ],
       "startupYears": [
         2031,
         2037
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); TotalEnergies (20%); Eni (10%); PetroChina (6%); CNOOC (4%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -4.768372e-07,
+          180.873
+        ],
+        "p50": [
+          -1.907349e-06,
+          338.672
+        ],
+        "pMean": [
+          -1.907349e-06,
+          43.111
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-3e30109e9678",
@@ -2351,13 +3192,6 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1977,
-        2012,
-        2024,
-        2027,
-        2055
-      ],
       "startupYears": [
         1982,
         2014,
@@ -2367,7 +3201,37 @@
       ],
       "ownerships": [
         "ADNOC Offshore* (0%); ADNOC (60%); ExxonMobil (28%); Inpex (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          290.2556,
+          311.93,
+          2435.904,
+          5690.797
+        ],
+        "p50": [
+          0,
+          612.9078,
+          1138.92,
+          1356.805,
+          1682.493
+        ],
+        "pMean": [
+          0,
+          97.744,
+          162.84,
+          245.63
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-4af08213dc62",
@@ -2404,15 +3268,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.117587e-08
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          -2.980232e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "adnoc-f7136f1bd056",
@@ -2449,15 +3329,31 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "ADNOC Onshore* (0%); ADNOC (60%); BP (10%); TotalEnergies (10%); CNPC (parent) (8%); Inpex (5%); ZhenHua Oil (4%); GS Holdings (2.1%); KNOC (S.Korea) (0.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          57.931
+        ],
+        "p50": [
+          382.89
+        ],
+        "pMean": [
+          759.18
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

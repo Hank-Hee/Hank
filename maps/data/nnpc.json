@@ -50,15 +50,31 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.980232e-08
+        ],
+        "p50": [
+          7.152557e-07
+        ],
+        "pMean": [
+          5.960464e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ff894a2aa923",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.16884e-08
+        ],
+        "p50": [
+          3.222376e-07
+        ],
+        "pMean": [
+          -6.742775e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-a5c571b67161",
@@ -140,15 +172,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        1978
-      ],
       "startupYears": [
         1980
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          33.7114
+        ],
+        "p50": [
+          26.9998
+        ],
+        "pMean": [
+          0.969
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d2a7f406ebff",
@@ -185,15 +233,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.980232e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-87fcb3c17d14",
@@ -230,15 +294,29 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0552
+        ],
+        "p50": [
+          0.0044
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-826f84bd42d1",
@@ -275,15 +353,29 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        1985
-      ],
       "startupYears": [
         1986
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.18
+        ],
+        "p50": [
+          23.034
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-3c03aacf3f0e",
@@ -320,15 +412,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.152557e-07
+        ],
+        "p50": [
+          -1.907349e-06
+        ],
+        "pMean": [
+          3.814697e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-5d86489ffb21",
@@ -365,15 +473,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.956
+        ],
+        "p50": [
+          0.4798998
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-61da268bf2ce",
@@ -410,15 +534,31 @@
       "discoveryYears": [
         1956
       ],
-      "approvalYears": [
-        1957
-      ],
       "startupYears": [
         1957
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          32.945
+        ],
+        "p50": [
+          0.01560068
+        ],
+        "pMean": [
+          2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e42f6a963e64",
@@ -455,15 +595,29 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          68.84
+        ],
+        "p50": [
+          29.974
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-702cfbc87cf3",
@@ -500,15 +654,29 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        1985
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.113
+        ],
+        "p50": [
+          2.65
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-9fbe5c043373",
@@ -545,15 +713,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-08
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          1.192093e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-bc48b9856ac5",
@@ -590,15 +774,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1984
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1503
+        ],
+        "p50": [
+          0.1391
+        ],
+        "pMean": [
+          0.0393
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4d176818cd46",
@@ -635,15 +835,31 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          -5.811453e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-a6e317692d06",
@@ -680,15 +896,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.9368
+        ],
+        "p50": [
+          42.951
+        ],
+        "pMean": [
+          53.14
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-518dfa050dac",
@@ -726,17 +958,35 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        2036,
-        2038
-      ],
       "startupYears": [
         2037,
         2039
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08,
+          4.768372e-06
+        ],
+        "p50": [
+          -1.490116e-07,
+          5.722046e-06
+        ],
+        "pMean": [
+          7.972121e-07,
+          3.576279e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-fbbe80a0cecb",
@@ -773,15 +1023,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.905726e-07
+        ],
+        "p50": [
+          3.278255e-07
+        ],
+        "pMean": [
+          -4.351139e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ce357ec08558",
@@ -818,15 +1084,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.960464e-08
+        ],
+        "p50": [
+          1.192093e-07
+        ],
+        "pMean": [
+          -4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-725cac011780",
@@ -863,15 +1145,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        1975
-      ],
       "startupYears": [
         1975
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.241
+        ],
+        "p50": [
+          4.0825
+        ],
+        "pMean": [
+          1.1
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-990668cc1ae7",
@@ -908,15 +1206,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.024455e-08
+        ],
+        "p50": [
+          -4.656613e-08
+        ],
+        "pMean": [
+          2.076849e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-12c4cf9878d3",
@@ -953,15 +1267,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e979f78159bb",
@@ -998,15 +1328,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-00e2d3fe3df7",
@@ -1043,15 +1389,31 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f20283e5c2ac",
@@ -1088,15 +1450,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.543713e-08
+        ],
+        "p50": [
+          4.097819e-08
+        ],
+        "pMean": [
+          1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-eb6ff5bd2009",
@@ -1133,15 +1511,29 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.9498
+        ],
+        "p50": [
+          15.2274
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-95ccbaf0d1b4",
@@ -1178,15 +1570,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1971
-      ],
       "startupYears": [
         1972
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.921
+        ],
+        "p50": [
+          0.4676
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-3dfbd2d768e7",
@@ -1223,15 +1629,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.576279e-07
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-7a92e124f4fb",
@@ -1268,15 +1690,31 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.862645e-09
+        ],
+        "p50": [
+          -1.862645e-09
+        ],
+        "pMean": [
+          -2.328306e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-8ee8b7f571d3",
@@ -1313,15 +1751,27 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-59a5b5ccedc6",
@@ -1360,17 +1810,34 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        2030,
-        2039
-      ],
       "startupYears": [
         2031,
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.599592e-07,
+          1.0187
+        ],
+        "p50": [
+          -8.34465e-07,
+          5.982
+        ],
+        "pMean": [
+          2.086163e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-b2034410674b",
@@ -1407,15 +1874,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -3.427267e-07
+        ],
+        "pMean": [
+          -7.450581e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d24dc3ab089c",
@@ -1452,15 +1935,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.136
+        ],
+        "p50": [
+          0.1016
+        ],
+        "pMean": [
+          0.0259
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-1d572def4169",
@@ -1497,15 +1996,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.024455e-08
+        ],
+        "p50": [
+          5.587935e-09
+        ],
+        "pMean": [
+          -2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-13d0ce412a70",
@@ -1542,15 +2057,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          34.8911
+        ],
+        "p50": [
+          50.976
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f765026c2f97",
@@ -1587,15 +2116,29 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "NNPC (Nigeria)* (60%); TotalEnergies (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.2915
+        ],
+        "p50": [
+          2.6303
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f9edebde7c99",
@@ -1632,15 +2175,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.980232e-08
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d0175720f0c5",
@@ -1677,15 +2236,31 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          42.88
+        ],
+        "p50": [
+          34.525
+        ],
+        "pMean": [
+          2.55
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-dca72f7756d2",
@@ -1722,15 +2297,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.152557e-07
+        ],
+        "p50": [
+          5.215406e-07
+        ],
+        "pMean": [
+          -1.192093e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d27e57f15d31",
@@ -1767,15 +2358,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -5.960464e-08
+        ],
+        "pMean": [
+          -3.874302e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-647143db2c6e",
@@ -1812,15 +2419,31 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.960464e-08
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          -9.834766e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-08a5922a0bc5",
@@ -1859,17 +2482,34 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2018,
-        2040
-      ],
       "startupYears": [
         2019,
         2042
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.450581e-09,
+          14.858
+        ],
+        "p50": [
+          0,
+          8.532
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-858f2ea333cb",
@@ -1906,15 +2546,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.142042e-08
+        ],
+        "p50": [
+          1.490116e-08
+        ],
+        "pMean": [
+          -1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-b7c1fce4ba3e",
@@ -1951,15 +2607,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3476
+        ],
+        "p50": [
+          0.1941
+        ],
+        "pMean": [
+          0.0418
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e392c693239a",
@@ -1996,15 +2668,31 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        1972
-      ],
       "startupYears": [
         1976
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.104
+        ],
+        "p50": [
+          1.491
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f1f054fc922b",
@@ -2041,15 +2729,29 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        1975
-      ],
       "startupYears": [
         1975
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.171
+        ],
+        "p50": [
+          0.0023
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-209660254a58",
@@ -2086,15 +2788,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2015
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          27.308
+        ],
+        "p50": [
+          8.437
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-fc455e5cf4b7",
@@ -2131,15 +2847,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-9b28fa19033f",
@@ -2176,15 +2908,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -4.768372e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d09a60f3d969",
@@ -2221,15 +2969,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.22
+        ],
+        "p50": [
+          2.146
+        ],
+        "pMean": [
+          0.395
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-30db9ee80905",
@@ -2266,15 +3030,29 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.601
+        ],
+        "p50": [
+          9.423
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-0ac791e00471",
@@ -2311,15 +3089,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -4.768372e-07
+        ],
+        "pMean": [
+          1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-91c07ae65e10",
@@ -2356,15 +3150,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.536743e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -3.814697e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-43d791412b9e",
@@ -2401,15 +3211,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.101335e-09
+        ],
+        "p50": [
+          -3.352761e-08
+        ],
+        "pMean": [
+          3.352761e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f1cb6dcae05b",
@@ -2446,15 +3272,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.960464e-08
+        ],
+        "p50": [
+          2.384186e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-67cb459d122d",
@@ -2491,15 +3333,27 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        1975
-      ],
       "startupYears": [
         1975
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0291
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-f8b3f26e4bb2",
@@ -2536,15 +3390,27 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ebdf51dd2d44",
@@ -2581,15 +3447,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-75d03d2be33d",
@@ -2626,15 +3508,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e0a78d1c1ade",
@@ -2671,15 +3569,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.470348e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          4.172325e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-9f3cf1a380b7",
@@ -2732,17 +3646,6 @@
         1975,
         1980
       ],
-      "approvalYears": [
-        1963,
-        1964,
-        1965,
-        1966,
-        1968,
-        1969,
-        1972,
-        1977,
-        1984
-      ],
       "startupYears": [
         1963,
         1964,
@@ -2763,7 +3666,58 @@
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)",
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)",
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003,
+          0.004,
+          0.013,
+          0.0291,
+          0.038,
+          0.0896,
+          0.1366,
+          0.1419,
+          0.1433,
+          1.2968,
+          2.5125,
+          7.9375,
+          9.249201,
+          35.6136,
+          56.113,
+          210.4341
+        ],
+        "p50": [
+          0,
+          0.0002,
+          0.0094,
+          0.0118,
+          0.0666,
+          0.0732,
+          0.2730009,
+          1.0064,
+          1.3633,
+          6.0453,
+          7.5033,
+          14.8667,
+          61.2952
+        ],
+        "pMean": [
+          -8.195639e-08,
+          0.0123,
+          0.2515,
+          0.3838,
+          1.514,
+          9.762199
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 16,
+          "p50": 13,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-0a9c1cd21674",
@@ -2802,11 +3756,6 @@
         1959,
         1974
       ],
-      "approvalYears": [
-        1961,
-        1976,
-        1990
-      ],
       "startupYears": [
         1961,
         1977,
@@ -2815,7 +3764,30 @@
       "ownerships": [
         "NNPC (Nigeria)* (100%)",
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.056,
+          3.359101,
+          31.61
+        ],
+        "p50": [
+          0.1038,
+          0.2792996,
+          13.89
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-0b67b65a3a4a",
@@ -2852,15 +3824,27 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0041
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4bb45df64bca",
@@ -2911,17 +3895,6 @@
         1977,
         1981
       ],
-      "approvalYears": [
-        1976,
-        1982,
-        1992,
-        2013,
-        2032,
-        2034,
-        2036,
-        2037,
-        2038
-      ],
       "startupYears": [
         1976,
         1986,
@@ -2937,7 +3910,48 @@
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)",
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)",
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -8.940697e-07,
+          -4.507601e-07,
+          -3.576279e-07,
+          -1.192093e-07,
+          -2.980232e-08,
+          1.723,
+          6.3543,
+          20.8044,
+          32.8077,
+          46.7782
+        ],
+        "p50": [
+          -1.043081e-07,
+          0,
+          3.576279e-07,
+          4.768372e-07,
+          2.622604e-06,
+          0.2921,
+          3.9456,
+          7.1249,
+          8.763599,
+          117.0286
+        ],
+        "pMean": [
+          -1.66893e-06,
+          -6.556511e-07,
+          -1.164153e-10,
+          0,
+          120.211
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 10,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e1254b6c4e01",
@@ -2977,11 +3991,6 @@
         1963,
         1977
       ],
-      "approvalYears": [
-        1967,
-        1968,
-        2016
-      ],
       "startupYears": [
         1970,
         1971,
@@ -2989,7 +3998,28 @@
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.6209,
+          7.7231,
+          50.957
+        ],
+        "p50": [
+          1.1524,
+          10.3169,
+          56.8157
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-7b2472f665ff",
@@ -3032,15 +4062,41 @@
         1994,
         1997
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -9.536743e-07,
+          -8.195639e-08,
+          0,
+          2.980232e-08
+        ],
+        "p50": [
+          -4.470348e-07,
+          -1.490116e-07,
+          0,
+          1.072884e-06
+        ],
+        "pMean": [
+          -1.788139e-07,
+          0,
+          2.980232e-08,
+          4.470348e-08,
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-2b7f480f3c3f",
@@ -3077,15 +4133,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -4.470348e-08
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d828d21e8788",
@@ -3122,15 +4194,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-420c5899a3d1",
@@ -3167,15 +4255,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.72529e-08
+        ],
+        "p50": [
+          8.046627e-07
+        ],
+        "pMean": [
+          2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-8af18752a9d9",
@@ -3216,17 +4320,33 @@
         2007,
         2010
       ],
-      "approvalYears": [
-        2040,
-        2043
-      ],
       "startupYears": [
         2044,
         2047
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0,
+          1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-69496b07914d",
@@ -3263,15 +4383,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-001eb98e4b61",
@@ -3308,15 +4444,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d5fac32f6219",
@@ -3353,15 +4505,31 @@
       "discoveryYears": [
         1958
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.192093e-06
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-b0ac92bf7c13",
@@ -3398,15 +4566,31 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.117587e-08
+        ],
+        "p50": [
+          -5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-65c89319f728",
@@ -3445,17 +4629,33 @@
         1978,
         1983
       ],
-      "approvalYears": [
-        1997,
-        2000
-      ],
       "startupYears": [
         2001,
         2004
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.375,
+          14.25
+        ],
+        "p50": [
+          0.498
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-8c2ff3b31838",
@@ -3492,15 +4692,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9388
+        ],
+        "p50": [
+          0.569
+        ],
+        "pMean": [
+          0.104
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-adf666887137",
@@ -3537,15 +4753,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2005
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.41
+        ],
+        "p50": [
+          0.1417
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-36eb4dcacd99",
@@ -3582,15 +4812,29 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.416
+        ],
+        "p50": [
+          0.0801
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ab5101b3b75e",
@@ -3627,15 +4871,29 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          49.555
+        ],
+        "p50": [
+          22.43
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-b52adf67525a",
@@ -3675,17 +4933,35 @@
         1963,
         2100
       ],
-      "approvalYears": [
-        2036,
-        2100
-      ],
       "startupYears": [
         2040,
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.1024
+        ],
+        "p50": [
+          3.576279e-07,
+          0.3856
+        ],
+        "pMean": [
+          0,
+          1.0513
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4f704dec7298",
@@ -3722,15 +4998,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1229
+        ],
+        "p50": [
+          0.4546
+        ],
+        "pMean": [
+          1.1243
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-7ed51827874a",
@@ -3767,15 +5059,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1229
+        ],
+        "p50": [
+          0.455
+        ],
+        "pMean": [
+          1.1243
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4c5be1855e79",
@@ -3812,15 +5120,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.044
+        ],
+        "p50": [
+          0.1306
+        ],
+        "pMean": [
+          0.2953
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-21582aa8786f",
@@ -3857,15 +5181,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0452
+        ],
+        "p50": [
+          0.1388
+        ],
+        "pMean": [
+          0.3191
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-3a7c1e092785",
@@ -3902,15 +5242,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.123
+        ],
+        "p50": [
+          0.4557
+        ],
+        "pMean": [
+          1.1233
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-fcdee92a0992",
@@ -3947,15 +5303,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.102
+        ],
+        "p50": [
+          0.3856
+        ],
+        "pMean": [
+          1.0513
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-735915951c1a",
@@ -3992,15 +5364,31 @@
       "discoveryYears": [
         2049
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.005
+        ],
+        "p50": [
+          0.0205
+        ],
+        "pMean": [
+          0.0867
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-2de8d91fa438",
@@ -4037,15 +5425,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0692
+        ],
+        "p50": [
+          0.2417
+        ],
+        "pMean": [
+          0.9646
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d25b3a145f33",
@@ -4082,15 +5486,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0367
+        ],
+        "pMean": [
+          0.6953
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-6bef3342837e",
@@ -4127,15 +5545,31 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8332
+        ],
+        "p50": [
+          3.1679
+        ],
+        "pMean": [
+          8.0925
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-7d1287f75a65",
@@ -4172,15 +5606,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0367
+        ],
+        "pMean": [
+          0.6953
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d24932ce1f96",
@@ -4217,15 +5665,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0009999999
+        ],
+        "pMean": [
+          0.0184
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-63ff7887b251",
@@ -4262,15 +5724,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9313
+        ],
+        "p50": [
+          2.9107
+        ],
+        "pMean": [
+          6.7391
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ca998cd504e8",
@@ -4307,15 +5785,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.009000001
+        ],
+        "p50": [
+          0.0294
+        ],
+        "pMean": [
+          0.1154
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-14575b1060fe",
@@ -4352,15 +5846,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-a48c1b29ad5a",
@@ -4397,15 +5907,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5734001
+        ],
+        "p50": [
+          1.9076
+        ],
+        "pMean": [
+          4.552999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-40caaa4c373e",
@@ -4442,15 +5968,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.11
+        ],
+        "p50": [
+          0.3906
+        ],
+        "pMean": [
+          1.0383
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-8fa0610fb929",
@@ -4487,15 +6029,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0831
+        ],
+        "p50": [
+          0.2592
+        ],
+        "pMean": [
+          0.6776
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-1098e8ce3714",
@@ -4532,15 +6090,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0831
+        ],
+        "p50": [
+          0.2592
+        ],
+        "pMean": [
+          0.6776
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-fbcdbc8a4d05",
@@ -4577,15 +6151,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0876
+        ],
+        "p50": [
+          0.2723
+        ],
+        "pMean": [
+          0.7092
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-619dc9b970ef",
@@ -4622,15 +6212,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0787
+        ],
+        "p50": [
+          0.2451
+        ],
+        "pMean": [
+          0.6463
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-7046aecd77b0",
@@ -4667,15 +6273,31 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2092
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0684
+        ],
+        "p50": [
+          0.2036
+        ],
+        "pMean": [
+          0.5095
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d4cfd6798ddd",
@@ -4712,15 +6334,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07
+        ],
+        "p50": [
+          4.768372e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-8b109380aa37",
@@ -4757,15 +6395,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.5511
+        ],
+        "p50": [
+          5.7861
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-d25492c045c0",
@@ -4802,15 +6456,31 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-44c466cf09b8",
@@ -4847,15 +6517,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0079
+        ],
+        "p50": [
+          0.0241
+        ],
+        "pMean": [
+          0.05439999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-0bc01b3cee0c",
@@ -4892,15 +6578,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-9c5b2d4c36f2",
@@ -4937,15 +6639,29 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.265
+        ],
+        "p50": [
+          0.2068
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e1ce72ad6f3b",
@@ -4982,15 +6698,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5108
+        ],
+        "p50": [
+          0.2976
+        ],
+        "pMean": [
+          0.0667
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-93c06a460017",
@@ -5027,15 +6759,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.076
+        ],
+        "p50": [
+          49.71
+        ],
+        "pMean": [
+          58.18
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-6b11b5e23fd9",
@@ -5072,15 +6820,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sahara Energy Field Limited (16.8%); MidWestern (14.58%); San Leon Energy (9.72%); Bilton Energy Limited (3.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07
+        ],
+        "p50": [
+          1.430511e-06
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ac6ac422261d",
@@ -5117,15 +6881,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4ef7046d0fb2",
@@ -5162,15 +6942,29 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.93
+        ],
+        "p50": [
+          12.386
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-4e7a5bd42ccd",
@@ -5207,15 +7001,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.055902e-09
+        ],
+        "p50": [
+          4.423782e-09
+        ],
+        "pMean": [
+          -3.702007e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-656c606ad7e4",
@@ -5252,15 +7062,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); First Hydrocarbon Nigeria (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.066395e-07
+        ],
+        "p50": [
+          5.960464e-07
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e5f0525fa225",
@@ -5297,15 +7123,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3907
+        ],
+        "p50": [
+          0.1402
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-844601c420af",
@@ -5342,15 +7182,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07
+        ],
+        "p50": [
+          -4.768372e-07
+        ],
+        "pMean": [
+          -2.861023e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-68002aef5978",
@@ -5387,15 +7243,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          -1.937151e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-5d5921cc3e7e",
@@ -5432,15 +7304,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.09317e-09
+        ],
+        "p50": [
+          -7.555354e-08
+        ],
+        "pMean": [
+          -4.842877e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-11db99341a0e",
@@ -5477,15 +7365,31 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.117587e-08
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-089889f84524",
@@ -5522,15 +7426,31 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-ce6b55cf87aa",
@@ -5567,15 +7487,29 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Starcrest Nigeria Energy (24.75%); Seplat Energy (20.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.2548
+        ],
+        "p50": [
+          2.5636
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-0cadab1a01ea",
@@ -5612,15 +7546,29 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.4692
+        ],
+        "p50": [
+          6.9929
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-e0817c3394a2",
@@ -5657,15 +7605,27 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Nestoil (15%); VP Global Limited (15%); Yinka Folawiyo (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0347
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-facbb7fbb14e",
@@ -5702,15 +7662,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08
+        ],
+        "p50": [
+          -4.470348e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-1661ab04b06b",
@@ -5747,15 +7723,31 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        1965
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          93.6108
+        ],
+        "p50": [
+          28.7451
+        ],
+        "pMean": [
+          5.136
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-c3e862cb0953",
@@ -5792,15 +7784,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.248
+        ],
+        "p50": [
+          0.7322
+        ],
+        "pMean": [
+          0.142
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-53b8bab9ba51",
@@ -5837,15 +7845,29 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          54.79
+        ],
+        "p50": [
+          50.958
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-97bfb5b27d6c",
@@ -5882,15 +7904,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0079
+        ],
+        "p50": [
+          0.0241
+        ],
+        "pMean": [
+          0.0544
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-5d491f77ba4b",
@@ -5927,15 +7965,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Sumedha (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          39.66
+        ],
+        "p50": [
+          117.9
+        ],
+        "pMean": [
+          146.21
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-dbd0b6417593",
@@ -5972,15 +8026,31 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.768372e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-20751a02254e",
@@ -6017,15 +8087,29 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1965
-      ],
       "startupYears": [
         1965
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Shoreline Natural Resources (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.0564
+        ],
+        "p50": [
+          0.5015
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-342e933d376e",
@@ -6062,15 +8146,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7621
+        ],
+        "p50": [
+          3.1794
+        ],
+        "pMean": [
+          4.7292
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-6c0112c7a3a6",
@@ -6107,15 +8207,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "NNPC (Nigeria)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-c9cee962c05f",
@@ -6152,15 +8268,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); Aradel Holdings (29.62%); Walter Smith Petroman (10.87%); First E&P (4.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.656613e-09
+        ],
+        "p50": [
+          -3.72529e-09
+        ],
+        "pMean": [
+          1.303852e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "nnpc-c26e1171d791",
@@ -6197,15 +8329,31 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "NNPC (Nigeria)* (55%); WAGL Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

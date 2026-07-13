@@ -29,10 +29,17 @@ LIST_FIELDS = {
     "Facility Category": "facilities",
     "Water Depth Category": "waterDepthCategories",
     "Discovery Year": "discoveryYears",
-    "Approval Year": "approvalYears",
     "Start-up Year": "startupYears",
     "Ownership": "ownerships",
 }
+
+RESOURCE_FIELDS = {
+    "P90 Resources": "p90",
+    "P50 Incremental Resources": "p50",
+    "Pmean Incremental Resources": "pMean",
+    "Prospective Unawarded Resources": "prospective",
+}
+RESOURCE_UNIT = "million bbl"
 
 MAIN_NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 NATURAL_EARTH_URL = (
@@ -279,10 +286,16 @@ def _sort_values(values: Iterable):
     return sorted(values, key=lambda value: (isinstance(value, str), str(value).casefold()))
 
 
+def _sort_resource_values(values: Iterable[int | float]):
+    return sorted(values)
+
+
 def aggregate_rows(rows: Iterable[dict], canonical_company: str, source_operators: set[str]) -> list[dict]:
     """Aggregate exact Operator rows into one object per country and project."""
     projects = {}
     collected = defaultdict(lambda: defaultdict(set))
+    collected_resources = defaultdict(lambda: defaultdict(set))
+    resource_record_counts = defaultdict(lambda: defaultdict(int))
 
     for row in rows:
         operator = _clean(row.get("Operator"))
@@ -308,10 +321,27 @@ def aggregate_rows(rows: Iterable[dict], canonical_company: str, source_operator
             if value is not None:
                 collected[key][output_name].add(value)
 
+        for source_name, output_name in RESOURCE_FIELDS.items():
+            value = _clean(row.get(source_name))
+            if isinstance(value, (int, float)) and not isinstance(value, bool):
+                collected_resources[key][output_name].add(value)
+                resource_record_counts[key][output_name] += 1
+
     output = []
     for key, project in projects.items():
         for output_name in LIST_FIELDS.values():
             project[output_name] = _sort_values(collected[key].get(output_name, set()))
+        project["resources"] = {
+            "unit": RESOURCE_UNIT,
+            **{
+                output_name: _sort_resource_values(collected_resources[key].get(output_name, set()))
+                for output_name in RESOURCE_FIELDS.values()
+            },
+            "rawCounts": {
+                output_name: resource_record_counts[key].get(output_name, 0)
+                for output_name in RESOURCE_FIELDS.values()
+            },
+        }
         output.append(project)
 
     return sorted(output, key=lambda item: (item["country"].casefold(), item["project"].casefold()))

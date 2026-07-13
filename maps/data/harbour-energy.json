@@ -55,15 +55,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2098
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0225
+        ],
+        "p50": [
+          0.0742
+        ],
+        "pMean": [
+          0.2262
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0ef95851941c",
@@ -100,15 +116,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (63.64%); Danish North Sea Fund (36.36%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0109
+        ],
+        "p50": [
+          0.0488
+        ],
+        "pMean": [
+          0.1908
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-334292d53e5a",
@@ -145,15 +177,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Harbour Energy* (80%); INA (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0546
+        ],
+        "p50": [
+          0.0023
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8241d59f05b6",
@@ -190,15 +236,29 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        1996
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0209
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-69f0cb3bb49c",
@@ -235,15 +295,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0202
+        ],
+        "p50": [
+          0.0881
+        ],
+        "pMean": [
+          0.3982
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-840991e8f904",
@@ -280,15 +356,29 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1963
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1079
+        ],
+        "p50": [
+          0.1962
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e3ad05a39add",
@@ -325,15 +415,29 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        1953
-      ],
       "startupYears": [
         1954
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1548
+        ],
+        "p50": [
+          0.0237
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-3ab3153f2da4",
@@ -370,15 +474,31 @@
       "discoveryYears": [
         2052
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0169
+        ],
+        "p50": [
+          0.0651
+        ],
+        "pMean": [
+          0.2838
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2f344bbed05b",
@@ -415,15 +535,29 @@
       "discoveryYears": [
         1950
       ],
-      "approvalYears": [
-        1951
-      ],
       "startupYears": [
         1952
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0406
+        ],
+        "p50": [
+          0.0019
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-89a16510c375",
@@ -460,15 +594,29 @@
       "discoveryYears": [
         1954
       ],
-      "approvalYears": [
-        1955
-      ],
       "startupYears": [
         1955
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0767
+        ],
+        "p50": [
+          0.0146
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c5b789e3cdb3",
@@ -508,10 +656,6 @@
         1905,
         1943
       ],
-      "approvalYears": [
-        1907,
-        1944
-      ],
       "startupYears": [
         1908,
         1944
@@ -519,7 +663,26 @@
       "ownerships": [
         "Harbour Energy* (100%)",
         "Harbour Energy* (90%); ExxonMobil (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1617,
+          8.897
+        ],
+        "p50": [
+          0.0628,
+          2.3312
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-36a2da9e11c7",
@@ -556,15 +719,29 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1965
-      ],
       "startupYears": [
         1965
       ],
       "ownerships": [
         "Harbour Energy* (90%); Neptune Energy (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0207
+        ],
+        "p50": [
+          0.0019
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d06b511571a1",
@@ -601,15 +778,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0029
+        ],
+        "p50": [
+          0.0096
+        ],
+        "pMean": [
+          0.0398
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-72d0476eaf63",
@@ -646,15 +839,31 @@
       "discoveryYears": [
         2054
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0281
+        ],
+        "p50": [
+          0.0971
+        ],
+        "pMean": [
+          0.4092
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2a41cf78e947",
@@ -691,15 +900,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0206
+        ],
+        "p50": [
+          0.0925
+        ],
+        "pMean": [
+          0.7737
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c2c45c8269b9",
@@ -736,15 +961,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1987
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          43.3919
+        ],
+        "p50": [
+          32.2261
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1d3649da77ff",
@@ -781,15 +1022,29 @@
       "discoveryYears": [
         1904
       ],
-      "approvalYears": [
-        1908
-      ],
       "startupYears": [
         1909
       ],
       "ownerships": [
         "Harbour Energy* (50%); Vermilion Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0938
+        ],
+        "p50": [
+          0.0076
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9cfe97357ddf",
@@ -826,15 +1081,27 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        1962
-      ],
       "startupYears": [
         1963
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2f9280fb505e",
@@ -871,15 +1138,31 @@
       "discoveryYears": [
         2054
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0302
+        ],
+        "p50": [
+          0.1099
+        ],
+        "pMean": [
+          0.4703
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-3f73c45b1085",
@@ -917,10 +1200,6 @@
         1986,
         1991
       ],
-      "approvalYears": [
-        1988,
-        1992
-      ],
       "startupYears": [
         1988,
         1992
@@ -928,7 +1207,26 @@
       "ownerships": [
         "Harbour Energy* (100%)",
         "Harbour Energy* (50%); ExxonMobil (25%); Shell (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7222,
+          8.282001
+        ],
+        "p50": [
+          0.0421,
+          2.8684
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d10695f5a4f9",
@@ -965,15 +1263,29 @@
       "discoveryYears": [
         1905
       ],
-      "approvalYears": [
-        1907
-      ],
       "startupYears": [
         1908
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0144
+        ],
+        "p50": [
+          0.0094
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-94e8180530c5",
@@ -1010,15 +1322,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1970
-      ],
       "startupYears": [
         1970
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1489
+        ],
+        "p50": [
+          0.0091
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-efedffb56106",
@@ -1055,15 +1381,29 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        1977
-      ],
       "startupYears": [
         1978
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0647
+        ],
+        "p50": [
+          0.0044
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f9154e29aa61",
@@ -1100,15 +1440,29 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1964
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0329
+        ],
+        "p50": [
+          0.0039
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-de479b911ec2",
@@ -1145,15 +1499,31 @@
       "discoveryYears": [
         2052
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0136
+        ],
+        "p50": [
+          0.0491
+        ],
+        "pMean": [
+          0.2093
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-20c63d1a7fb0",
@@ -1190,15 +1560,29 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.63
+        ],
+        "p50": [
+          0.0367
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b345af090633",
@@ -1235,15 +1619,29 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.245
+        ],
+        "p50": [
+          4.778
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e221e7edbfd4",
@@ -1280,15 +1678,29 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.377
+        ],
+        "p50": [
+          0.43
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f45ae85837da",
@@ -1325,15 +1737,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (40%); BP (30%); Mubadala Energy (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.2257
+        ],
+        "p50": [
+          11.8613
+        ],
+        "pMean": [
+          6.8
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-08ddecbe6bc0",
@@ -1370,15 +1798,31 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Harbour Energy* (40%); BP (30%); Mubadala Energy (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          71.469
+        ],
+        "p50": [
+          115.707
+        ],
+        "pMean": [
+          63.684
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-378eb8287eee",
@@ -1415,15 +1859,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Harbour Energy* (40%); BP (30%); Mubadala Energy (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.9
+        ],
+        "p50": [
+          24.1416
+        ],
+        "pMean": [
+          29.731
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9bd18ea6c0b0",
@@ -1460,15 +1920,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Harbour Energy* (60%); Mubadala Energy (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.57
+        ],
+        "p50": [
+          21.1114
+        ],
+        "pMean": [
+          27.06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-233fa067894f",
@@ -1514,13 +1990,6 @@
         2026,
         2033
       ],
-      "approvalYears": [
-        2033,
-        2036,
-        2037,
-        2038,
-        2041
-      ],
       "startupYears": [
         2034,
         2038,
@@ -1532,7 +2001,49 @@
       ],
       "ownerships": [
         "Harbour Energy* (32%); NOC (Libya) (68%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.4147,
+          0.5631,
+          0.8756,
+          1.594,
+          3.957,
+          4.421,
+          6.003201
+        ],
+        "p50": [
+          0,
+          5.960464e-08,
+          2.139,
+          2.879,
+          4.398,
+          8.054,
+          10.6136,
+          16.4716,
+          16.6706
+        ],
+        "pMean": [
+          0,
+          5.960464e-08,
+          3.319,
+          4.439,
+          6.605,
+          8.4194,
+          12.237,
+          109.707,
+          110.382
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 11,
+          "p50": 11,
+          "pMean": 11,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-67353b2de5ec",
@@ -1569,15 +2080,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (70%); TotalEnergies (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.043
+        ],
+        "p50": [
+          0.174
+        ],
+        "pMean": [
+          1.0726
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6959caf70a2a",
@@ -1614,15 +2141,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Harbour Energy* (40%); Pemex (40%); Moeve (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.012
+        ],
+        "p50": [
+          0.0425
+        ],
+        "pMean": [
+          0.258
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b872c12578a5",
@@ -1659,15 +2202,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Harbour Energy* (40%); Pemex (40%); Moeve (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0133
+        ],
+        "p50": [
+          0.0503
+        ],
+        "pMean": [
+          0.3072
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5541cadb6b65",
@@ -1704,15 +2263,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (70%); TotalEnergies (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-05bde4814bd0",
@@ -1749,15 +2324,31 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1955
-      ],
       "startupYears": [
         1957
       ],
       "ownerships": [
         "Harbour Energy* (50%); Pemex (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.875799
+        ],
+        "p50": [
+          1.2076
+        ],
+        "pMean": [
+          0.1662
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-00ad48455e10",
@@ -1802,10 +2393,6 @@
         2017,
         2028
       ],
-      "approvalYears": [
-        2027,
-        2030
-      ],
       "startupYears": [
         2029,
         2032,
@@ -1813,7 +2400,32 @@
       ],
       "ownerships": [
         "Harbour Energy* (32.25%); Pemex (50.4%); Talos Energy (8.69%); Grupo Carso (8.66%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.53482e-06,
+          0.0889
+        ],
+        "p50": [
+          -1.120567e-05,
+          2.354383e-06,
+          0.3425
+        ],
+        "pMean": [
+          -5.960464e-06,
+          -1.490116e-06,
+          2.0884
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-06a48f62b8e2",
@@ -1851,15 +2463,31 @@
         2020,
         2021
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (40%); Equinor (60%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.706,
+          7.9
+        ],
+        "p50": [
+          6.104,
+          22.77
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-a4fe8152aaba",
@@ -1896,15 +2524,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Harbour Energy* (38.08%); Petoro (35%); Aker BP (15%); ORLEN S.A. (11.92%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          20.952
+        ],
+        "p50": [
+          38.529
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b68777eab7c7",
@@ -1945,17 +2587,34 @@
         2010,
         2021
       ],
-      "approvalYears": [
-        2017,
-        2023
-      ],
       "startupYears": [
         2020,
         2026
       ],
       "ownerships": [
         "Harbour Energy* (55%); Petoro (35%); DNO (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          50.6261,
+          54.445
+        ],
+        "p50": [
+          7.6555,
+          35.217
+        ],
+        "pMean": [
+          0.3025
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-4ef0189aa90c",
@@ -1993,17 +2652,32 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2015,
-        2023
-      ],
       "startupYears": [
         2017,
         2025
       ],
       "ownerships": [
         "Harbour Energy* (50%); Petoro (30%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.7399,
+          17.044
+        ],
+        "p50": [
+          5.8925,
+          11.0539
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6b41b90ebd03",
@@ -2040,15 +2714,29 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Harbour Energy* (39%); DNO (45%); Pandion Energy (10%); OKEA (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.5098
+        ],
+        "p50": [
+          7.4521
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e90c6ae5dc7d",
@@ -2085,15 +2773,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (45%); DNO (40%); Vaar Energi (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0128
+        ],
+        "p50": [
+          0.0402
+        ],
+        "pMean": [
+          0.0841
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-52e1527bda05",
@@ -2130,15 +2834,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (30%); Aker BP (20%); DNO (20%); Pandion Energy (20%); Equinor (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3029
+        ],
+        "p50": [
+          0.9282001
+        ],
+        "pMean": [
+          1.506
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-aeb2a23bccb5",
@@ -2175,15 +2895,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (30%); Aker BP (20%); DNO (20%); Pandion Energy (20%); Equinor (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2271
+        ],
+        "p50": [
+          0.8077
+        ],
+        "pMean": [
+          1.4235
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-03291a89623c",
@@ -2220,15 +2956,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Harbour Energy* (40%); Equinor (30%); Petrolia Noco (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.277
+        ],
+        "p50": [
+          0.9109
+        ],
+        "pMean": [
+          1.5509
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7239119c2196",
@@ -2265,15 +3017,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (50%); Petoro (30%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2603
+        ],
+        "p50": [
+          0.8577
+        ],
+        "pMean": [
+          1.4585
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-25e706697efa",
@@ -2310,15 +3078,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1854
+        ],
+        "pMean": [
+          3.5204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-54b3ffbebb41",
@@ -2355,15 +3137,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1588
+        ],
+        "pMean": [
+          3.0172
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-29548ee48015",
@@ -2400,15 +3196,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.402
+        ],
+        "p50": [
+          1.4272
+        ],
+        "pMean": [
+          2.5272
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-ccac6cfe47f5",
@@ -2446,10 +3258,6 @@
         2037,
         2038
       ],
-      "approvalYears": [
-        2039,
-        2041
-      ],
       "startupYears": [
         2041,
         2044
@@ -2457,7 +3265,29 @@
       "ownerships": [
         "Harbour Energy* (38.08%); Petoro (35%); Aker BP (15%); ORLEN S.A. (11.92%)",
         "Harbour Energy* (55%); Petoro (35%); DNO (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0412,
+          0.2525
+        ],
+        "p50": [
+          0.1532,
+          0.7655
+        ],
+        "pMean": [
+          0.309,
+          1.3643
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-38f20d4e1f59",
@@ -2494,15 +3324,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Harbour Energy* (38.08%); Petoro (35%); Aker BP (15%); ORLEN S.A. (11.92%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.034
+        ],
+        "p50": [
+          0.1238
+        ],
+        "pMean": [
+          0.2251
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-99fc0d1506f2",
@@ -2539,15 +3385,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Harbour Energy* (38.08%); Petoro (35%); Aker BP (15%); ORLEN S.A. (11.92%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0072
+        ],
+        "p50": [
+          0.0305
+        ],
+        "pMean": [
+          0.0617
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7a0e0dd55e37",
@@ -2584,15 +3446,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (38.08%); Petoro (35%); Aker BP (15%); ORLEN S.A. (11.92%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1809
+        ],
+        "p50": [
+          0.7692
+        ],
+        "pMean": [
+          1.5542
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-74a6d463039c",
@@ -2630,10 +3508,6 @@
         2034,
         2037
       ],
-      "approvalYears": [
-        2038,
-        2041
-      ],
       "startupYears": [
         2041,
         2044
@@ -2641,7 +3515,29 @@
       "ownerships": [
         "Harbour Energy* (40%); Petoro (40%); DNO (20%)",
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0067,
+          0.0305
+        ],
+        "p50": [
+          0.0325,
+          0.1319
+        ],
+        "pMean": [
+          0.2399,
+          0.9481999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1dfc3bc37750",
@@ -2678,15 +3574,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0058
+        ],
+        "p50": [
+          0.0254
+        ],
+        "pMean": [
+          0.1836
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e107d551b6ba",
@@ -2723,15 +3635,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (40%); Petoro (40%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.009
+        ],
+        "p50": [
+          0.0442
+        ],
+        "pMean": [
+          0.3267
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5028280167bd",
@@ -2768,15 +3696,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Harbour Energy* (40%); Petoro (40%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0245
+        ],
+        "p50": [
+          0.0907
+        ],
+        "pMean": [
+          0.1675
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-87e4609c84e5",
@@ -2813,15 +3757,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.697
+        ],
+        "p50": [
+          2.2982
+        ],
+        "pMean": [
+          3.948
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2c2d555cd48b",
@@ -2858,15 +3818,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.021
+        ],
+        "p50": [
+          0.0894
+        ],
+        "pMean": [
+          0.1809
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9db81683e9e0",
@@ -2903,15 +3879,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (75.76%); DNO (12.12%); Pandion Energy (12.12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0005
+        ],
+        "p50": [
+          0.0018
+        ],
+        "pMean": [
+          0.0134
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6a98cac49f3d",
@@ -2948,15 +3940,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Harbour Energy* (39%); DNO (45%); Pandion Energy (10%); OKEA (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.012
+        ],
+        "p50": [
+          0.0551
+        ],
+        "pMean": [
+          0.4011
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-4e0cb31869c2",
@@ -2993,15 +4001,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Harbour Energy* (39%); DNO (45%); Pandion Energy (10%); OKEA (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.021
+        ],
+        "p50": [
+          0.06480001
+        ],
+        "pMean": [
+          0.1063
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-95a9f449723b",
@@ -3038,15 +4062,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (55%); Petoro (35%); DNO (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0671
+        ],
+        "p50": [
+          0.2238
+        ],
+        "pMean": [
+          0.6331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e045e0d4c18c",
@@ -3084,17 +4124,35 @@
         2033,
         2037
       ],
-      "approvalYears": [
-        2037,
-        2041
-      ],
       "startupYears": [
         2039,
         2045
       ],
       "ownerships": [
         "Harbour Energy* (50%); Petoro (30%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0159,
+          0.0174
+        ],
+        "p50": [
+          0.0518,
+          0.059
+        ],
+        "pMean": [
+          0.1454,
+          0.1671
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f5a6c6bbe2f5",
@@ -3131,15 +4189,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (50%); Petoro (30%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1754
+        ],
+        "p50": [
+          0.7458001
+        ],
+        "pMean": [
+          1.5074
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-81a1059bda13",
@@ -3176,15 +4250,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (40%); Equinor (60%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0006
+        ],
+        "pMean": [
+          0.004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-cb3414349442",
@@ -3221,15 +4311,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Harbour Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6558c4ae2549",
@@ -3266,15 +4372,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09
+        ],
+        "p50": [
+          -5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f1ebd5be4fc1",
@@ -3311,15 +4433,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Harbour Energy* (40%); Petoro (40%); DNO (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.7277
+        ],
+        "p50": [
+          6.57
+        ],
+        "pMean": [
+          3.797
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-55f0b09b8bb1",
@@ -3362,11 +4500,6 @@
         2024,
         2025
       ],
-      "approvalYears": [
-        2007,
-        2027,
-        2035
-      ],
       "startupYears": [
         2010,
         2028,
@@ -3375,7 +4508,30 @@
       "ownerships": [
         "Harbour Energy* (56.7%); Petoro (31.2%); DNO (8.8%); Vaar Energi (3.3%)",
         "Harbour Energy* (60%); Petoro (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          10.556,
+          32.4827
+        ],
+        "p50": [
+          0,
+          10.981,
+          22.06
+        ],
+        "pMean": [
+          4.470348e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e7df1e8ab343",
@@ -3412,15 +4568,31 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.04
+        ],
+        "p50": [
+          5.273
+        ],
+        "pMean": [
+          4.567
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7269a6d66332",
@@ -3464,12 +4636,6 @@
         1983,
         1994
       ],
-      "approvalYears": [
-        1994,
-        1995,
-        2000,
-        2005
-      ],
       "startupYears": [
         1997,
         2002,
@@ -3478,7 +4644,31 @@
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2539,
+          0.4836,
+          0.6006,
+          1.8308,
+          2.263
+        ],
+        "p50": [
+          0.0024,
+          0.0201,
+          0.0786,
+          0.186
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 4,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9d81b6546c96",
@@ -3521,11 +4711,6 @@
         1999,
         2005
       ],
-      "approvalYears": [
-        1995,
-        2004,
-        2013
-      ],
       "startupYears": [
         1998,
         2008,
@@ -3536,7 +4721,31 @@
         "Harbour Energy* (58.73%); Ithaca Energy (Delek Group) (32.3%); NEO NEXT+ (8.97%)",
         "Harbour Energy* (83.5%); Ithaca Energy (Delek Group) (16.5%)",
         "Harbour Energy* (93.75%); Ithaca Energy (Delek Group) (6.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7272,
+          2.3406,
+          5.967,
+          9.8139
+        ],
+        "p50": [
+          0.2972,
+          3.9021,
+          9.7852
+        ],
+        "pMean": [
+          0.0212
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e3ec36b2f9d0",
@@ -3573,15 +4782,29 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.174
+        ],
+        "p50": [
+          0.1707
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6f51fa251e00",
@@ -3623,10 +4846,6 @@
         2011,
         2012
       ],
-      "approvalYears": [
-        2014,
-        2060
-      ],
       "startupYears": [
         2017,
         2018,
@@ -3634,7 +4853,33 @@
       ],
       "ownerships": [
         "Harbour Energy* (50%); Waldorf Production (40%); Serica Energy (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1648,
+          2.511,
+          5.7904,
+          11.9
+        ],
+        "p50": [
+          1.202,
+          2.161,
+          4.464,
+          10.44
+        ],
+        "pMean": [
+          1.862645e-09,
+          2.633
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-806a83e39162",
@@ -3681,13 +4926,6 @@
         1997,
         2006
       ],
-      "approvalYears": [
-        1993,
-        2000,
-        2010,
-        2035,
-        2043
-      ],
       "startupYears": [
         1995,
         2002,
@@ -3698,7 +4936,38 @@
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)",
         "Harbour Energy* (67.5%); Ithaca Energy (Delek Group) (32.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.7803,
+          2.0529,
+          9.015,
+          13.2015,
+          14.3696,
+          14.6714
+        ],
+        "p50": [
+          1.2941,
+          3.3517,
+          3.674,
+          4.7054,
+          5.382,
+          12.5027
+        ],
+        "pMean": [
+          0.0193,
+          2.837,
+          5.201
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e8edf7c30b5e",
@@ -3735,15 +5004,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.3787
+        ],
+        "p50": [
+          3.9282
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-bba47628fd46",
@@ -3780,15 +5063,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.773
+        ],
+        "p50": [
+          0.0442
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8f0af3779894",
@@ -3825,15 +5122,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Harbour Energy* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.96
+        ],
+        "p50": [
+          1.85
+        ],
+        "pMean": [
+          1.07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-fbb015c98c3f",
@@ -3870,15 +5183,31 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Harbour Energy* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1fe38a331c5b",
@@ -3915,15 +5244,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8cb89ef7fee9",
@@ -3960,15 +5305,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2610b705a6cf",
@@ -4005,15 +5366,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0a0ec7cbfd8e",
@@ -4050,15 +5427,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-4f9e6cada327",
@@ -4095,15 +5488,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1e81e740efb4",
@@ -4140,15 +5549,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-bf6fa272969a",
@@ -4185,15 +5610,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e73a7a298465",
@@ -4230,15 +5671,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (50%); Viaro Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-04b8e6c1f503",
@@ -4275,15 +5732,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (85%); Ithaca Energy (Delek Group) (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-890dccf37cf2",
@@ -4320,15 +5793,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (46.5%); Viaro Energy (53.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-aa6e38e2bf2c",
@@ -4365,15 +5854,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8d8b4b11f993",
@@ -4410,15 +5915,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f69afecca83a",
@@ -4455,15 +5976,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-35c46e880c22",
@@ -4500,15 +6037,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (49.36%); Ithaca Energy (Delek Group) (50.64%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.001
+        ],
+        "p50": [
+          0.0028
+        ],
+        "pMean": [
+          0.009699999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-82ae78de4c03",
@@ -4545,15 +6098,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (66.97%); Ithaca Energy (Delek Group) (33.03%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d6ce88a3ba57",
@@ -4590,15 +6159,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (50%); Ithaca Energy (Delek Group) (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9e6f21514b7b",
@@ -4635,15 +6220,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-a6a0b4de338b",
@@ -4680,15 +6281,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5685ebd90141",
@@ -4725,15 +6342,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-db3a55652f8e",
@@ -4770,15 +6403,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (65.99%); Adura (34.01%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003
+        ],
+        "p50": [
+          0.001
+        ],
+        "pMean": [
+          0.0038
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-43100c46fdea",
@@ -4815,16 +6464,33 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (44%); NEO NEXT+ (44%); Ithaca Energy (Delek Group) (12%)",
         "Harbour Energy* (75%); Ithaca Energy (Delek Group) (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001,
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-038bb04e4c74",
@@ -4861,15 +6527,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (50%); Spirit Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-072b963a2ee1",
@@ -4906,15 +6588,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0029
+        ],
+        "pMean": [
+          0.0565
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2f733c99bb13",
@@ -4951,15 +6647,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (20.87%); BP (45.83%); Adura (33.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0135
+        ],
+        "p50": [
+          0.0417
+        ],
+        "pMean": [
+          0.1465
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d6f258ab6bff",
@@ -4996,15 +6708,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (85%); NEO NEXT+ (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0897ebaedc35",
@@ -5041,15 +6769,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (85%); NEO NEXT+ (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0196
+        ],
+        "p50": [
+          0.0604
+        ],
+        "pMean": [
+          0.2115
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-4c9d2a734873",
@@ -5086,15 +6830,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (85%); NEO NEXT+ (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-72ebe4b5db02",
@@ -5131,15 +6891,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (85%); NEO NEXT+ (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-bb0a2f30b2ce",
@@ -5176,15 +6952,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003
+        ],
+        "p50": [
+          0.0009999999
+        ],
+        "pMean": [
+          0.0037
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-914928ec0c02",
@@ -5221,15 +7013,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (85%); NEO NEXT+ (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b948a6264778",
@@ -5266,15 +7074,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-62ba436889cf",
@@ -5311,15 +7135,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-bd392598a517",
@@ -5356,15 +7196,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7b60642b3df9",
@@ -5401,15 +7257,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (44.2%); Viaro Energy (40%); NEO NEXT+ (15.8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-cf21be8ed7f8",
@@ -5446,15 +7318,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (44.2%); Viaro Energy (40%); NEO NEXT+ (15.8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-fa1253b5fef4",
@@ -5491,15 +7379,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (86.3%); Ithaca Energy (Delek Group) (13.7%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-146108e5769b",
@@ -5536,15 +7440,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-91a3398aa6ff",
@@ -5581,15 +7501,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-97565c8950cc",
@@ -5626,15 +7562,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0196
+        ],
+        "p50": [
+          0.0601
+        ],
+        "pMean": [
+          0.2113
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-53d92bfb53d8",
@@ -5671,15 +7623,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (35.94%); Perenco (64.06%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-904bf46beb63",
@@ -5716,15 +7684,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (35.94%); Perenco (64.06%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6bdda9ffb004",
@@ -5761,15 +7745,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (36%); Perenco (64%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0258
+        ],
+        "p50": [
+          0.1016
+        ],
+        "pMean": [
+          0.3888
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-46f3dca78898",
@@ -5806,15 +7806,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (80%); Ithaca Energy (Delek Group) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-43025ad5623c",
@@ -5851,15 +7867,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8b05b0ac7fde",
@@ -5896,15 +7928,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0363
+        ],
+        "p50": [
+          0.1119
+        ],
+        "pMean": [
+          0.3928
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1d0dc787599e",
@@ -5941,15 +7989,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Harbour Energy* (67.5%); Ithaca Energy (Delek Group) (32.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-181cc42713e2",
@@ -5986,15 +8050,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (80.84%); Ithaca Energy (Delek Group) (19.16%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0195
+        ],
+        "p50": [
+          0.0601
+        ],
+        "pMean": [
+          0.211
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c2229f8899b7",
@@ -6031,15 +8111,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (11.44%); Perenco (58.56%); KNOC/Dana (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e767eaeeea16",
@@ -6077,10 +8173,6 @@
         2030,
         2100
       ],
-      "approvalYears": [
-        2055,
-        2100
-      ],
       "startupYears": [
         2057,
         2100
@@ -6088,7 +8180,27 @@
       "ownerships": [
         "Harbour Energy* (100%)",
         "Harbour Energy* (44%); NEO NEXT+ (44%); Ithaca Energy (Delek Group) (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001,
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-260526764954",
@@ -6125,15 +8237,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0003
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9591d095ead1",
@@ -6170,15 +8298,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Harbour Energy* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0022
+        ],
+        "p50": [
+          0.0062
+        ],
+        "pMean": [
+          0.0222
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5b1e6850d9cb",
@@ -6215,15 +8359,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (50%); Waldorf Production (40%); Serica Energy (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.022
+        ],
+        "p50": [
+          0.0712
+        ],
+        "pMean": [
+          0.2537
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e65a38670a93",
@@ -6260,15 +8420,31 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (67.5%); Ithaca Energy (Delek Group) (32.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0033
+        ],
+        "p50": [
+          0.0119
+        ],
+        "pMean": [
+          0.0441
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-546bf75fd8f5",
@@ -6305,15 +8481,31 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (49.05%); NEO NEXT+ (35.11%); Ithaca Energy (Delek Group) (15.85%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0216
+        ],
+        "p50": [
+          0.0793
+        ],
+        "pMean": [
+          0.2948
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9bb5d2cae0bf",
@@ -6350,15 +8542,31 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0213
+        ],
+        "p50": [
+          0.0781
+        ],
+        "pMean": [
+          0.2895
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-4f986d549584",
@@ -6395,15 +8603,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0063
+        ],
+        "p50": [
+          0.0204
+        ],
+        "pMean": [
+          0.0731
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0ff72abb2c3a",
@@ -6440,15 +8664,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Harbour Energy* (67%); Ithaca Energy (Delek Group) (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007
+        ],
+        "p50": [
+          0.0225
+        ],
+        "pMean": [
+          0.07910001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f97eb9426df5",
@@ -6485,15 +8725,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (65%); NEO NEXT+ (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.366
+        ],
+        "p50": [
+          1.7067
+        ],
+        "pMean": [
+          6.9816
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-13c78c7cab9e",
@@ -6534,17 +8790,35 @@
         2013,
         2029
       ],
-      "approvalYears": [
-        2031,
-        2042
-      ],
       "startupYears": [
         2034,
         2068
       ],
       "ownerships": [
         "Harbour Energy* (44%); NEO NEXT+ (44%); Ithaca Energy (Delek Group) (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0066,
+          5.4566
+        ],
+        "p50": [
+          0.0225,
+          8.125999
+        ],
+        "pMean": [
+          0.08090001,
+          4.137
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-a9a6ac01e519",
@@ -6581,15 +8855,27 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        1993
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Harbour Energy* (19.33%); Perenco (58.56%); KNOC/Dana (22.11%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1992
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0f3fa05a9e8c",
@@ -6632,11 +8918,6 @@
         1992,
         1993
       ],
-      "approvalYears": [
-        2002,
-        2054,
-        2100
-      ],
       "startupYears": [
         2004,
         2057,
@@ -6644,7 +8925,31 @@
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.0694,
+          1.93
+        ],
+        "p50": [
+          0,
+          0.266,
+          2.55
+        ],
+        "pMean": [
+          0,
+          1.01
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-ab9293eed7ae",
@@ -6681,15 +8986,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Harbour Energy* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.662
+        ],
+        "p50": [
+          8.566
+        ],
+        "pMean": [
+          0.0878
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-085bbc1d5df9",
@@ -6726,15 +9047,29 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Harbour Energy* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.566
+        ],
+        "p50": [
+          4.1658
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0415528b354c",
@@ -6771,15 +9106,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0052
+        ],
+        "p50": [
+          0.0142
+        ],
+        "pMean": [
+          0.0224
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-95ae6b550575",
@@ -6816,15 +9167,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.002
+        ],
+        "p50": [
+          0.0054
+        ],
+        "pMean": [
+          0.0084
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7215b79d0bf2",
@@ -6861,15 +9228,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.116
+        ],
+        "p50": [
+          0.3232
+        ],
+        "pMean": [
+          0.4918
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8878ece5aec7",
@@ -6906,15 +9289,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0032
+        ],
+        "p50": [
+          0.0096
+        ],
+        "pMean": [
+          0.0152
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-ecd45983d36d",
@@ -6951,15 +9350,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.005
+        ],
+        "pMean": [
+          0.093
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e0506b2ea717",
@@ -6996,15 +9409,29 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0199
+        ],
+        "pMean": [
+          0.377
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1845879de459",
@@ -7041,15 +9468,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Harbour Energy* (37.5%); Red Willow (25%); Houston Energy (15%); Navitas Petroleum (15%); CL&F Resources LP (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1123
+        ],
+        "p50": [
+          0.4763
+        ],
+        "pMean": [
+          0.9591
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d0e1d350f4ab",
@@ -7086,15 +9529,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.568
+        ],
+        "p50": [
+          36.56
+        ],
+        "pMean": [
+          46.74
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d57c8ed2a31f",
@@ -7131,15 +9590,29 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1999
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.562
+        ],
+        "p50": [
+          0.4556
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-463627046daa",
@@ -7176,15 +9649,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (22.64%); Ridgewood (23.9%); Talos Energy (13.5%); Westlawn Americas Offshore (11.61%); Houston Energy (11.2%); Red Willow (11.15%); CL&F Resources LP (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.026
+        ],
+        "p50": [
+          0.1167
+        ],
+        "pMean": [
+          0.9369001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6a03059d8636",
@@ -7221,15 +9710,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (22.64%); Ridgewood (23.9%); Talos Energy (13.5%); Westlawn Americas Offshore (11.61%); Houston Energy (11.2%); Red Willow (11.15%); CL&F Resources LP (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0256
+        ],
+        "p50": [
+          0.0699
+        ],
+        "pMean": [
+          0.1068
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-2bd900e21eed",
@@ -7266,15 +9771,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0076
+        ],
+        "p50": [
+          0.0227
+        ],
+        "pMean": [
+          0.0362
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6bb922ab9489",
@@ -7311,15 +9832,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.138
+        ],
+        "p50": [
+          3.3601
+        ],
+        "pMean": [
+          5.3161
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-de687230c059",
@@ -7356,15 +9893,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0036
+        ],
+        "p50": [
+          0.0115
+        ],
+        "pMean": [
+          0.0192
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b4d4148760dd",
@@ -7401,15 +9954,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0032
+        ],
+        "p50": [
+          0.0182
+        ],
+        "pMean": [
+          0.152
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9c7adc57a82c",
@@ -7446,15 +10015,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Harbour Energy* (50%); Houston Energy (25%); Red Willow (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0765
+        ],
+        "p50": [
+          0.3251
+        ],
+        "pMean": [
+          0.6529
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6da406e59860",
@@ -7491,15 +10076,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (75%); Red Willow (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0266
+        ],
+        "pMean": [
+          0.5031
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-eefcde0c1c12",
@@ -7536,15 +10135,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (75%); Red Willow (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0248
+        ],
+        "pMean": [
+          0.4729
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-294e2bcfc5a6",
@@ -7581,15 +10194,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (30.6%); Red Willow (20%); HEQ Deepwater (17.5%); Ridgewood (15%); Beacon Offshore Energy (11.9%); Houston Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3342
+        ],
+        "p50": [
+          1.5217
+        ],
+        "pMean": [
+          12.165
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-ea2fc21a8b78",
@@ -7626,15 +10255,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (33%); Ridgewood (50%); Beacon Offshore Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.03310001
+        ],
+        "pMean": [
+          0.6285
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-fd514e260c8d",
@@ -7671,15 +10314,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (40%); Karoon Energy (40%); Westlawn Americas Offshore (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.862645e-09
+        ],
+        "p50": [
+          -4.423782e-09
+        ],
+        "pMean": [
+          1.080334e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6a01845df819",
@@ -7716,15 +10375,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d14dea01d1b5",
@@ -7761,15 +10436,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0887
+        ],
+        "pMean": [
+          1.6868
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c295165e091b",
@@ -7806,15 +10495,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0148
+        ],
+        "pMean": [
+          0.2806
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7f8d3de77021",
@@ -7851,15 +10554,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.07740001
+        ],
+        "pMean": [
+          1.47
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e0bc9314d570",
@@ -7896,15 +10613,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.07759999
+        ],
+        "pMean": [
+          1.4748
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-fdabbc9023b2",
@@ -7941,15 +10672,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Harbour Energy* (33%); Repsol (50%); OG Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0024
+        ],
+        "pMean": [
+          0.04810001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-07176dacbeae",
@@ -7986,15 +10731,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Harbour Energy* (33%); Repsol (50%); OG Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0073
+        ],
+        "pMean": [
+          0.1402
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-02249727d764",
@@ -8031,15 +10790,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Harbour Energy* (50%); Kosmos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0208
+        ],
+        "pMean": [
+          0.3976
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-04f222e82014",
@@ -8076,15 +10849,29 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Harbour Energy* (50%); Kosmos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.02
+        ],
+        "pMean": [
+          0.3834
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6348627dffb3",
@@ -8121,15 +10908,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (33%); Repsol (50%); OG Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0283
+        ],
+        "pMean": [
+          0.536
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8939e76bda4b",
@@ -8166,15 +10967,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (33%); Repsol (50%); OG Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.088
+        ],
+        "pMean": [
+          1.6733
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0bdc2e62381a",
@@ -8211,15 +11026,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.023
+        ],
+        "pMean": [
+          0.4386
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-569e2a1286e6",
@@ -8256,15 +11085,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0318
+        ],
+        "pMean": [
+          0.6047999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e911b10c19b4",
@@ -8301,15 +11144,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.006
+        ],
+        "pMean": [
+          0.1238
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-7f4a3464fce9",
@@ -8346,15 +11203,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.032
+        ],
+        "pMean": [
+          0.6108
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c2f941d6bb72",
@@ -8391,15 +11262,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Harbour Energy* (48.22%); Repsol (35.63%); Beacon Offshore Energy (16.15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.4804
+        ],
+        "pMean": [
+          9.1143
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9aee22980ea2",
@@ -8436,15 +11321,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (67%); Repsol (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0888
+        ],
+        "pMean": [
+          1.685
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-526cb0c31077",
@@ -8481,15 +11380,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.08759999
+        ],
+        "pMean": [
+          1.669
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-cc939e503aa3",
@@ -8526,15 +11439,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0894
+        ],
+        "pMean": [
+          1.6974
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8822ae50fc45",
@@ -8571,15 +11498,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); OG Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0255
+        ],
+        "pMean": [
+          0.482
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f4a75e9d4d4d",
@@ -8616,15 +11557,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); OG Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0023
+        ],
+        "pMean": [
+          0.0473
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-684585b1efdb",
@@ -8661,15 +11616,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (67%); Repsol (33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.07780001
+        ],
+        "pMean": [
+          1.4828
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-c5f18271d7d5",
@@ -8706,15 +11675,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (34.17%); Repsol (33%); OG Energy (32.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.003
+        ],
+        "pMean": [
+          0.062
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-78a27afad4c0",
@@ -8751,15 +11734,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0311
+        ],
+        "pMean": [
+          0.5891
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5fcee8963e48",
@@ -8796,15 +11793,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); OG Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0024
+        ],
+        "pMean": [
+          0.0514
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8baa33852ed6",
@@ -8841,15 +11852,29 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); OG Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0653
+        ],
+        "pMean": [
+          1.2428
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-47ebcbc48af3",
@@ -8886,15 +11911,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (34.17%); Repsol (33%); OG Energy (32.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0306
+        ],
+        "pMean": [
+          0.587
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-be24ec22d224",
@@ -8931,15 +11970,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); Beacon Offshore Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0247
+        ],
+        "pMean": [
+          0.465
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-394d3191af91",
@@ -8976,15 +12029,29 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0198
+        ],
+        "pMean": [
+          0.3739
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-834b3ccc15e6",
@@ -9021,15 +12088,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.014
+        ],
+        "pMean": [
+          0.2662
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-be3c6cc913d5",
@@ -9066,15 +12147,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0024
+        ],
+        "pMean": [
+          0.0436
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-d32c31bb6e9c",
@@ -9111,15 +12206,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Harbour Energy* (22.64%); Ridgewood (23.9%); Talos Energy (13.5%); Westlawn Americas Offshore (11.61%); Houston Energy (11.2%); Red Willow (11.15%); CL&F Resources LP (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          41.2028
+        ],
+        "p50": [
+          23.64479
+        ],
+        "pMean": [
+          2.2031
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-678ffc4e10cc",
@@ -9162,11 +12273,6 @@
         2009,
         2013
       ],
-      "approvalYears": [
-        2016,
-        2023,
-        2095
-      ],
       "startupYears": [
         2019,
         2026,
@@ -9175,7 +12281,31 @@
       "ownerships": [
         "Harbour Energy* (33.8%); Repsol (22.5%); OG Energy (18.7%); Ridgewood (11.67%); Navitas Petroleum (7.5%); ILX Prospect (5.83%)",
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08,
+          21.5242,
+          191.0485
+        ],
+        "p50": [
+          7.152557e-07,
+          41.6782,
+          90.50291
+        ],
+        "pMean": [
+          0,
+          7.795
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9c0bb84dac31",
@@ -9212,15 +12342,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Harbour Energy* (27.25%); Ridgewood (48.5%); ILX Prospect (14.25%); CL&F Resources LP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0008
+        ],
+        "p50": [
+          0.0046
+        ],
+        "pMean": [
+          0.04319999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0d8f8b165965",
@@ -9257,15 +12403,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0014
+        ],
+        "p50": [
+          0.0102
+        ],
+        "pMean": [
+          0.1046
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-926e25349e6a",
@@ -9302,15 +12464,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0551
+        ],
+        "p50": [
+          0.1616
+        ],
+        "pMean": [
+          0.2529
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9281123bad39",
@@ -9347,15 +12525,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (50%); BP (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.012
+        ],
+        "pMean": [
+          0.2278
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-019a686be51f",
@@ -9392,15 +12584,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (75%); Woodside (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0.0076
+        ],
+        "pMean": [
+          0.0135
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5d383a096371",
@@ -9437,15 +12645,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (75%); Woodside (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0483
+        ],
+        "p50": [
+          0.1363
+        ],
+        "pMean": [
+          0.2097
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f7279abe4889",
@@ -9482,15 +12706,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0012
+        ],
+        "p50": [
+          0.006
+        ],
+        "pMean": [
+          0.0489
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-af127eb1c3df",
@@ -9527,15 +12767,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Harbour Energy* (75%); Woodside (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [
+          0.0006
+        ],
+        "pMean": [
+          0.0011
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-a610c8317b90",
@@ -9572,15 +12828,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (75%); Woodside (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0811
+        ],
+        "p50": [
+          0.2275
+        ],
+        "pMean": [
+          0.3491
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-03a470a7d135",
@@ -9617,15 +12889,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.022
+        ],
+        "p50": [
+          0.0967
+        ],
+        "pMean": [
+          0.768
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-650f27c76130",
@@ -9662,15 +12950,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (40%); Karoon Energy (40%); Westlawn Americas Offshore (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0.0115
+        ],
+        "pMean": [
+          0.0961
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1d9680aec936",
@@ -9707,15 +13011,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0262
+        ],
+        "p50": [
+          0.0945
+        ],
+        "pMean": [
+          0.1696
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6263e07d1b86",
@@ -9752,15 +13072,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0832
+        ],
+        "p50": [
+          0.353
+        ],
+        "pMean": [
+          0.7119
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-0e78d1e6e4bf",
@@ -9797,15 +13133,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0075
+        ],
+        "p50": [
+          0.0508
+        ],
+        "pMean": [
+          0.4858
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-ffab80308649",
@@ -9842,15 +13194,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0012
+        ],
+        "p50": [
+          0.0054
+        ],
+        "pMean": [
+          0.0449
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-55b2f24c4e03",
@@ -9887,15 +13255,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0161
+        ],
+        "p50": [
+          0.0708
+        ],
+        "pMean": [
+          0.5622
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e023167e3a83",
@@ -9932,15 +13316,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Harbour Energy* (40%); Karoon Energy (40%); Westlawn Americas Offshore (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0133
+        ],
+        "p50": [
+          0.0383
+        ],
+        "pMean": [
+          0.0603
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-820b397eb71b",
@@ -9977,15 +13377,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0087
+        ],
+        "p50": [
+          0.025
+        ],
+        "pMean": [
+          0.039
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-eedcb39305e4",
@@ -10022,15 +13438,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2064
       ],
       "ownerships": [
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.003
+        ],
+        "p50": [
+          0.0152
+        ],
+        "pMean": [
+          0.1459
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-dd198b0d6ad0",
@@ -10067,15 +13499,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0044
+        ],
+        "p50": [
+          0.0181
+        ],
+        "pMean": [
+          0.1451
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b83b48452362",
@@ -10112,15 +13560,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0407
+        ],
+        "p50": [
+          0.1453
+        ],
+        "pMean": [
+          0.2577
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-f5316aafcb10",
@@ -10157,15 +13621,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0031
+        ],
+        "pMean": [
+          0.0588
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-6b010c170768",
@@ -10202,15 +13680,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.068
+        ],
+        "p50": [
+          3.6074
+        ],
+        "pMean": [
+          6.2068
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-9dad0ca6945e",
@@ -10247,15 +13741,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Harbour Energy* (33%); Ridgewood (50%); Beacon Offshore Energy (17%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.094304e-08
+        ],
+        "p50": [
+          2.188608e-08
+        ],
+        "pMean": [
+          -7.543713e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5a6f41b4f0f9",
@@ -10292,15 +13802,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Harbour Energy* (27.25%); Ridgewood (48.5%); ILX Prospect (14.25%); CL&F Resources LP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.1538
+        ],
+        "p50": [
+          0.9564998
+        ],
+        "pMean": [
+          4.912727e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-8bae0afe11f4",
@@ -10339,16 +13865,32 @@
         2011,
         2014
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Harbour Energy* (33%); Repsol (50%); OG Energy (17%)",
         "Harbour Energy* (48.22%); Repsol (35.63%); OG Energy (16.15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.4066,
+          58.793
+        ],
+        "p50": [
+          18.3542,
+          71.446
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-e3bdac4c45d2",
@@ -10385,15 +13927,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0426
+        ],
+        "pMean": [
+          0.8088
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-1067b3ed3147",
@@ -10430,15 +13986,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (50%); Repsol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.7266
+        ],
+        "pMean": [
+          13.787
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-5b56dce39d69",
@@ -10475,15 +14045,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Harbour Energy* (34.17%); Repsol (33%); OG Energy (32.83%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.427267e-07
+        ],
+        "p50": [
+          -1.430511e-06
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-a9dbce892663",
@@ -10520,15 +14106,29 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.9453
+        ],
+        "p50": [
+          6.0536
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b98206c9eafd",
@@ -10565,15 +14165,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Harbour Energy* (25%); CSL Exploration LP (20%); Navitas Petroleum (20%); Ridgewood (20%); Houston Energy (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0703
+        ],
+        "p50": [
+          0.2978
+        ],
+        "pMean": [
+          0.5993
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-859440f5441d",
@@ -10610,15 +14226,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Harbour Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.1537
+        ],
+        "p50": [
+          27.245
+        ],
+        "pMean": [
+          70.59
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b1c1d1b8d3d1",
@@ -10667,13 +14299,6 @@
         2020,
         2024
       ],
-      "approvalYears": [
-        2011,
-        2013,
-        2021,
-        2026,
-        2029
-      ],
       "startupYears": [
         2011,
         2015,
@@ -10685,7 +14310,37 @@
         "Harbour Energy* (21.5%); Ineos Group (50%); Karoon Energy (16%); Westlawn Americas Offshore (12.5%)",
         "Harbour Energy* (40%); Karoon Energy (40%); Westlawn Americas Offshore (20%)",
         "Harbour Energy* (45%); Karoon Energy (30%); Westlawn Americas Offshore (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0639,
+          8.283901,
+          18.1929,
+          29.7184,
+          31.063
+        ],
+        "p50": [
+          3.1206,
+          5.9953,
+          7.635098,
+          9.397,
+          55.903
+        ],
+        "pMean": [
+          1.490116e-08,
+          0.2774,
+          6.3139,
+          18.5427
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-798cfff2fabf",
@@ -10722,15 +14377,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Harbour Energy* (23.1%); Ridgewood (35%); Red Willow (25%); Beacon Offshore Energy (11.9%); Houston Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0023
+        ],
+        "pMean": [
+          0.0507
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-b7d487f51e52",
@@ -10767,15 +14436,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (59.4%); Beacon Offshore Energy (30.6%); Houston Energy (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0254
+        ],
+        "pMean": [
+          0.4837
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-78f7c53ba096",
@@ -10812,15 +14495,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (31.35%); Red Willow (20%); Houston Energy (17.5%); Beacon Offshore Energy (16.15%); Ridgewood (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0371
+        ],
+        "pMean": [
+          0.7019
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "harbour-energy-fbf901d7fb89",
@@ -10857,15 +14554,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Harbour Energy* (31.35%); Red Willow (20%); Houston Energy (17.5%); Beacon Offshore Energy (16.15%); Ridgewood (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.05310001
+        ],
+        "pMean": [
+          1.0107
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -51,15 +51,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Cenovus Energy* (21.88%); ExxonMobil (51.25%); Suncor Energy (17.5%); Chevron (9.38%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.470348e-08
+        ],
+        "p50": [
+          3.576279e-07
+        ],
+        "pMean": [
+          7.152557e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-43e8ecd9a0c2",
@@ -98,15 +114,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          2.980232e-06,
+          0.646
+        ],
+        "pMean": [
+          -2.288818e-05,
+          5.8149
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-4cb02cae347c",
@@ -155,11 +187,6 @@
         2006,
         2007
       ],
-      "approvalYears": [
-        2001,
-        2010,
-        2011
-      ],
       "startupYears": [
         2001,
         2010,
@@ -168,7 +195,41 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6624,
+          1.3361,
+          1.8331,
+          2.3683,
+          8.172001,
+          9.166
+        ],
+        "p50": [
+          -5.960464e-08,
+          0.0735,
+          0.1485,
+          0.2036,
+          0.2637,
+          1.0187,
+          1.3379,
+          2.0436,
+          2.553
+        ],
+        "pMean": [
+          -4.768372e-07,
+          12.039,
+          22.998
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 9,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-921baa557d96",
@@ -205,15 +266,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-025cde365dce",
@@ -251,17 +328,34 @@
         1942,
         1953
       ],
-      "approvalYears": [
-        1946,
-        1959
-      ],
       "startupYears": [
         1951,
         1963
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.7607,
+          2.0683
+        ],
+        "p50": [
+          0.5196,
+          0.9214999
+        ],
+        "pMean": [
+          -1.862645e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-8c8c17231e3f",
@@ -298,15 +392,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.0545
+        ],
+        "p50": [
+          3.2169
+        ],
+        "pMean": [
+          1.629815e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-3c28aa84829b",
@@ -349,15 +459,6 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2003,
-        2004,
-        2011,
-        2018,
-        2023,
-        2033,
-        2037
-      ],
       "startupYears": [
         2008,
         2009,
@@ -369,7 +470,40 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.0113,
+          1.4803,
+          20.076,
+          50.697,
+          132.69,
+          942.5
+        ],
+        "p50": [
+          1.120567e-05,
+          0.6864,
+          6.4692,
+          31.3,
+          55.54,
+          84.239,
+          273.52
+        ],
+        "pMean": [
+          0,
+          54.779,
+          421.68
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-84ce679c9220",
@@ -410,17 +544,6 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2000,
-        2004,
-        2006,
-        2009,
-        2011,
-        2012,
-        2015,
-        2017,
-        2030
-      ],
       "startupYears": [
         2002,
         2008,
@@ -434,7 +557,44 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          39.3313,
+          64.76,
+          112.2166,
+          362.24,
+          416.97,
+          501.61,
+          534.029,
+          587.711
+        ],
+        "p50": [
+          0,
+          1.4908,
+          10.93,
+          75.7652,
+          96.2,
+          99.64,
+          118.16,
+          154.1264
+        ],
+        "pMean": [
+          0,
+          0.435,
+          3.6318,
+          11.55
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 9,
+          "p50": 8,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-d37ee3e998ac",
@@ -471,15 +631,29 @@
       "discoveryYears": [
         1939
       ],
-      "approvalYears": [
-        1944
-      ],
       "startupYears": [
         1949
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-0f6954268a2a",
@@ -521,15 +695,36 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4824,
+          2.0052,
+          4.838
+        ],
+        "p50": [
+          0.0535,
+          0.5004,
+          0.5383,
+          0.708
+        ],
+        "pMean": [
+          6.38
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-cfdca4d1f4be",
@@ -576,11 +771,6 @@
         2011,
         2015
       ],
-      "approvalYears": [
-        2009,
-        2011,
-        2026
-      ],
       "startupYears": [
         2009,
         2012,
@@ -588,7 +778,45 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0688,
+          0.1351,
+          0.1823,
+          0.2414,
+          0.5703,
+          0.959
+        ],
+        "p50": [
+          -4.656613e-10,
+          1.862645e-09,
+          3.390596e-09,
+          2.793968e-08,
+          1.043081e-07,
+          0.0076,
+          0.0149,
+          0.0456,
+          0.0602,
+          0.1066,
+          0.1423
+        ],
+        "pMean": [
+          -8.940697e-08,
+          -1.490116e-08,
+          6.984919e-10,
+          1.937151e-07,
+          5.960464e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 11,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-12bb46aa0ffd",
@@ -629,13 +857,6 @@
         1996,
         1999
       ],
-      "approvalYears": [
-        1945,
-        1991,
-        1996,
-        2000,
-        2001
-      ],
       "startupYears": [
         1949,
         1991,
@@ -645,7 +866,37 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1088,
+          0.3092,
+          0.4873,
+          0.5484999,
+          1.1738,
+          1.8241
+        ],
+        "p50": [
+          0.0066,
+          0.2204,
+          0.2725,
+          0.3368,
+          0.8768001,
+          1.8508
+        ],
+        "pMean": [
+          -5.587935e-09,
+          -1.74623e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-be74fa6571e6",
@@ -682,15 +933,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          3.814697e-06
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-bbaa3921efb1",
@@ -727,15 +994,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.08490001
+        ],
+        "pMean": [
+          1.6142
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-5e3c64cdf4ec",
@@ -779,14 +1060,6 @@
         1978,
         1988
       ],
-      "approvalYears": [
-        1949,
-        1950,
-        1961,
-        1969,
-        1978,
-        1988
-      ],
       "startupYears": [
         1954,
         1961,
@@ -797,7 +1070,34 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3991,
+          0.4348,
+          0.9284,
+          7.306,
+          14.732,
+          19.2261
+        ],
+        "p50": [
+          1.1138,
+          9.545099,
+          11.1314,
+          11.242
+        ],
+        "pMean": [
+          1.2353
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-0e8056fac766",
@@ -837,17 +1137,34 @@
         1954,
         2002
       ],
-      "approvalYears": [
-        1960,
-        2003
-      ],
       "startupYears": [
         1964,
         2003
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0653,
+          0.616
+        ],
+        "p50": [
+          0.0166,
+          0.1795
+        ],
+        "pMean": [
+          0.0154
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-3eedaf317f8d",
@@ -884,15 +1201,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Cenovus Energy* (45.31%); Equinor (32.5%); Suncor Energy (17.5%); Chevron (4.69%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-33f7be0ff924",
@@ -936,22 +1269,6 @@
         1982,
         1985
       ],
-      "approvalYears": [
-        1992,
-        1996,
-        1999,
-        2001,
-        2002,
-        2003,
-        2011,
-        2012,
-        2022,
-        2028,
-        2034,
-        2035,
-        2039,
-        2043
-      ],
       "startupYears": [
         2001,
         2003,
@@ -969,7 +1286,51 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          3.6712,
+          4.8484,
+          14.5352,
+          33.6942,
+          59.376,
+          63.546,
+          94.47,
+          127.99,
+          136.62,
+          254.05,
+          271.67
+        ],
+        "p50": [
+          0,
+          0.803,
+          1.21,
+          5.91,
+          57.656,
+          76.93,
+          128.38,
+          138.555,
+          445.16
+        ],
+        "pMean": [
+          0,
+          0.232,
+          0.319,
+          0.424,
+          6.27,
+          24.06,
+          271.99
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 14,
+          "p50": 11,
+          "pMean": 8,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-0ac37f482581",
@@ -1006,15 +1367,29 @@
       "discoveryYears": [
         1949
       ],
-      "approvalYears": [
-        1955
-      ],
       "startupYears": [
         1959
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0787
+        ],
+        "p50": [
+          0.0279
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-c91dbcbe9ad7",
@@ -1051,15 +1426,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Cenovus Energy* (42.5%); Suncor Energy (57.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.549721e-06
+        ],
+        "p50": [
+          8.106232e-06
+        ],
+        "pMean": [
+          8.076429e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-615fe94ece64",
@@ -1096,15 +1487,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Cenovus Energy* (19.4%); Suncor Energy (25.61%); Chevron (22.33%); Canadian Natural Resources (CNRL) (8.96%); Paddon Hughes Development (8.17%); Enstar Petroleum (4.58%); Denco Investments (2.33%); Tredavco Investments (2.33%); Gotthold Holdings (2%); Ovintiv (1.53%); ConocoPhillips (1.37%); BP (0.87%); Baytex Energy (0.46%); Prairie Provident Resources (0.06%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.381903e-08
+        ],
+        "p50": [
+          5.364418e-07
+        ],
+        "pMean": [
+          -1.132488e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-1d62492e41dc",
@@ -1144,17 +1551,33 @@
         2009,
         2012
       ],
-      "approvalYears": [
-        2013,
-        2033
-      ],
       "startupYears": [
         2013,
         2034
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1965
+        ],
+        "p50": [
+          0,
+          0.0219
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-8ba2fc515e63",
@@ -1191,11 +1614,6 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2029,
-        2047,
-        2061
-      ],
       "startupYears": [
         2034,
         2052,
@@ -1203,7 +1621,26 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-9c81d0bf8ac2",
@@ -1252,26 +1689,6 @@
         2016,
         2017
       ],
-      "approvalYears": [
-        1955,
-        1995,
-        2010,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2030,
-        2031,
-        2032,
-        2035,
-        2036,
-        2037,
-        2039,
-        2040,
-        2041,
-        2042
-      ],
       "startupYears": [
         1996,
         2012,
@@ -1294,7 +1711,64 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.29221e-08,
+          0,
+          1.356238e-08,
+          0.2804,
+          0.4616,
+          0.4668,
+          0.5178,
+          0.5456,
+          0.56,
+          7.0536,
+          10.91,
+          12.05,
+          15.24,
+          19.69,
+          23.17,
+          24.86,
+          26.09,
+          37.45,
+          38.33,
+          53.41,
+          78.534
+        ],
+        "p50": [
+          0,
+          6.891787e-08,
+          1.899898e-07,
+          0.0313,
+          1.3765,
+          1.4193,
+          4.36,
+          5.01,
+          8.830899,
+          9.38,
+          9.5212,
+          55.4254,
+          55.5194,
+          55.704,
+          56.466
+        ],
+        "pMean": [
+          -4.544854e-07,
+          0,
+          1.6609,
+          49.9185,
+          50.7023
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 26,
+          "p50": 20,
+          "pMean": 11,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-1735aa4d1cd0",
@@ -1331,15 +1805,31 @@
       "discoveryYears": [
         1949
       ],
-      "approvalYears": [
-        1954
-      ],
       "startupYears": [
         1959
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.6326
+        ],
+        "p50": [
+          32.515
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-961e51c5aff3",
@@ -1376,15 +1866,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          29.4006
+        ],
+        "p50": [
+          14.5589
+        ],
+        "pMean": [
+          87.34
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-34e6e6d68a69",
@@ -1426,15 +1932,36 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6348,
+          4.4878,
+          7.7134
+        ],
+        "p50": [
+          0.0705,
+          0.8573,
+          1.1236,
+          3.7581
+        ],
+        "pMean": [
+          33.8161
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-c922779ae911",
@@ -1471,11 +1998,6 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2060,
-        2067,
-        2070
-      ],
       "startupYears": [
         2065,
         2070,
@@ -1483,7 +2005,32 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7582,
+          1.1347,
+          1.1654
+        ],
+        "p50": [
+          26.41,
+          31.994,
+          44.165
+        ],
+        "pMean": [
+          270.11,
+          276.06,
+          500.34
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-6f42a139fbfb",
@@ -1520,15 +2067,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-93c07b8ddb6f",
@@ -1565,15 +2128,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.3615
+        ],
+        "p50": [
+          0.8856
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-37f1affc30c1",
@@ -1622,11 +2201,6 @@
         2011,
         2016
       ],
-      "approvalYears": [
-        2009,
-        2011,
-        2017
-      ],
       "startupYears": [
         2009,
         2012,
@@ -1634,7 +2208,44 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09,
+          0.1988,
+          0.2299,
+          1.5268,
+          1.8752,
+          3.7641,
+          4.491
+        ],
+        "p50": [
+          -2.980232e-08,
+          -7.450581e-09,
+          5.960464e-08,
+          1.490116e-07,
+          0.0255,
+          0.0486,
+          0.2083,
+          0.3817,
+          0.4179,
+          1.122,
+          1.2177
+        ],
+        "pMean": [
+          -4.768372e-07,
+          0,
+          10.9588
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 11,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-16deba4933f6",
@@ -1673,15 +2284,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1042,
+          1.3832
+        ],
+        "p50": [
+          0.0117,
+          0.1538
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-5abf01b1e053",
@@ -1721,12 +2348,6 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2021,
-        2042,
-        2044,
-        2046
-      ],
       "startupYears": [
         2025,
         2045,
@@ -1735,7 +2356,30 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.576279e-07,
+          0,
+          256.01
+        ],
+        "p50": [
+          -8.940697e-07,
+          0
+        ],
+        "pMean": [
+          -8.583069e-06,
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-b52014cdc420",
@@ -1772,15 +2416,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1966
-      ],
       "startupYears": [
         1967
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1403
+        ],
+        "p50": [
+          0.05999999
+        ],
+        "pMean": [
+          -2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-03325f23cb51",
@@ -1818,17 +2478,34 @@
         1984,
         2001
       ],
-      "approvalYears": [
-        1985,
-        2001
-      ],
       "startupYears": [
         1985,
         2002
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0047,
+          6.3748
+        ],
+        "p50": [
+          1.9392,
+          2.2706
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-33101d12cc35",
@@ -1868,11 +2545,6 @@
         1951,
         1964
       ],
-      "approvalYears": [
-        1958,
-        1959,
-        1964
-      ],
       "startupYears": [
         1962,
         1965,
@@ -1880,7 +2552,30 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9617,
+          2.2021,
+          25.7042
+        ],
+        "p50": [
+          0.07029998,
+          1.5292,
+          48.1889
+        ],
+        "pMean": [
+          3.72529e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-a9f29e74f9f7",
@@ -1917,15 +2612,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.04879999
+        ],
+        "p50": [
+          0.03599998
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-4969bf99f8db",
@@ -1962,15 +2673,29 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        1958
-      ],
       "startupYears": [
         1962
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0044
+        ],
+        "p50": [
+          0.0019
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-7369743b68dd",
@@ -2007,15 +2732,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-c05ae5b9dca1",
@@ -2052,15 +2793,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0414
+        ],
+        "pMean": [
+          0.789
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-90cbcfb43fa3",
@@ -2097,15 +2852,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1103
+        ],
+        "pMean": [
+          2.0948
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-a4c67fa14a5a",
@@ -2142,15 +2911,29 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0291
+        ],
+        "pMean": [
+          0.5478
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-66fa06604497",
@@ -2187,15 +2970,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1569
+        ],
+        "pMean": [
+          2.9795
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-5186b65085c4",
@@ -2232,15 +3029,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Cenovus Energy* (72.5%); Suncor Energy (27.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1185
+        ],
+        "pMean": [
+          2.2527
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-f5e12513f1a0",
@@ -2277,15 +3088,31 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Cenovus Energy* (3.84%); Paramount Resources (21.11%); SOQUIP (15.36%); Chevron (15%); BP (11.52%); New York Oils (8%); ExxonMobil (5%); Tripet (5%); Petrofina Delaware, Incorporated (3.57%); Suncor Energy (3.57%); Dynamar Energy (3.33%); Imperial Oil (Public traded part) (2.14%); Kam-Kotia Mines (2%); United MacFie Resource (0.56%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.215406e-08
+        ],
+        "p50": [
+          -5.066395e-07
+        ],
+        "pMean": [
+          -3.352761e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-425bbea746b6",
@@ -2322,15 +3149,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.944174e-08
+        ],
+        "p50": [
+          1.296867e-07
+        ],
+        "pMean": [
+          -1.788139e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-a96d58688dcd",
@@ -2367,15 +3210,31 @@
       "discoveryYears": [
         2048
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2197
+        ],
+        "p50": [
+          0.9132
+        ],
+        "pMean": [
+          4.5772
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-c37809857bb2",
@@ -2412,15 +3271,31 @@
       "discoveryYears": [
         2048
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2195
+        ],
+        "p50": [
+          0.9128
+        ],
+        "pMean": [
+          4.5746
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-19d482561d3a",
@@ -2457,15 +3332,31 @@
       "discoveryYears": [
         2048
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2678
+        ],
+        "p50": [
+          1.1144
+        ],
+        "pMean": [
+          5.5788
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-84d41e9b4af3",
@@ -2502,15 +3393,31 @@
       "discoveryYears": [
         2048
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3721
+        ],
+        "p50": [
+          1.6547
+        ],
+        "pMean": [
+          8.5032
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-d019c68b9a6e",
@@ -2547,15 +3454,31 @@
       "discoveryYears": [
         2049
       ],
-      "approvalYears": [
-        2059
-      ],
       "startupYears": [
         2064
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3449
+        ],
+        "p50": [
+          1.622
+        ],
+        "pMean": [
+          8.485701
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-a283751b3ad4",
@@ -2594,17 +3517,34 @@
         1939,
         1960
       ],
-      "approvalYears": [
-        1945,
-        1961
-      ],
       "startupYears": [
         1949,
         1961
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007799998,
+          0.0078
+        ],
+        "p50": [
+          0.0093,
+          0.0276
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-761ec31819b5",
@@ -2641,15 +3581,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0597
+        ],
+        "p50": [
+          0.0405
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-bfd94f86cc93",
@@ -2698,14 +3652,6 @@
         2011,
         2014
       ],
-      "approvalYears": [
-        2008,
-        2010,
-        2011,
-        2012,
-        2014,
-        2017
-      ],
       "startupYears": [
         2008,
         2011,
@@ -2715,7 +3661,77 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.4762,
+          1.8194,
+          1.8692,
+          2.2501,
+          2.5072,
+          3.5284,
+          3.8924,
+          3.9753,
+          6.2415,
+          11.732,
+          16.195,
+          17.78,
+          18.744,
+          22.754,
+          24.962,
+          27.159,
+          36.814
+        ],
+        "p50": [
+          0,
+          2.384186e-07,
+          0.1123,
+          0.1632,
+          0.2016,
+          0.279,
+          0.3922,
+          0.4415,
+          0.4663,
+          0.562,
+          0.6934,
+          0.9725,
+          1.3035,
+          1.8021,
+          2.5304,
+          3.0218,
+          4.0948,
+          4.3027,
+          4.4516,
+          4.566,
+          4.6847,
+          5.7568,
+          6.243,
+          6.7501,
+          10.217,
+          12.032,
+          13.951
+        ],
+        "pMean": [
+          -3.814697e-06,
+          0,
+          1.0101,
+          38.717,
+          41.084,
+          51.809,
+          60.77,
+          91.917,
+          108.299,
+          125.62
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 17,
+          "p50": 29,
+          "pMean": 12,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-5f430d2bd518",
@@ -2752,15 +3768,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Cenovus Energy* (59.28%); TAQA (Abu Dhabi National Energy Company) (32.5%); International Frontier Resources (8.22%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.980232e-07
+        ],
+        "pMean": [
+          -2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-67e56b0a22fb",
@@ -2797,15 +3829,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Cenovus Energy* (59.29%); TAQA (Abu Dhabi National Energy Company) (32.5%); International Frontier Resources (8.21%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.408
+        ],
+        "p50": [
+          1.844
+        ],
+        "pMean": [
+          0.7281
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-8a20f3868c6e",
@@ -2844,11 +3892,6 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2010,
-        2041,
-        2043
-      ],
       "startupYears": [
         2015,
         2044,
@@ -2856,7 +3899,29 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          568.68
+        ],
+        "p50": [
+          0,
+          372.02
+        ],
+        "pMean": [
+          0,
+          0.9493
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-e6f4e9794953",
@@ -2893,11 +3958,6 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2040,
-        2044,
-        2047
-      ],
       "startupYears": [
         2044,
         2047,
@@ -2905,7 +3965,32 @@
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5869,
+          0.8165,
+          1.0166
+        ],
+        "p50": [
+          20.467,
+          29.175,
+          32.811
+        ],
+        "pMean": [
+          213.91,
+          312.86,
+          316.32
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-970e94215e60",
@@ -2943,17 +4028,32 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2052,
-        2060
-      ],
       "startupYears": [
         2057,
         2064
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-398f8a44439a",
@@ -2990,15 +4090,31 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2066
       ],
       "ownerships": [
         "Cenovus Energy* (37.5%); ExxonMobil (28.13%); Suncor Energy (17.5%); Chevron (9.38%); Equinor (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-6364bdc8edf0",
@@ -3040,11 +4156,6 @@
         2017,
         2018
       ],
-      "approvalYears": [
-        2017,
-        2029,
-        2041
-      ],
       "startupYears": [
         2026,
         2032,
@@ -3054,7 +4165,32 @@
         "Cenovus Energy* (56.38%); Suncor Energy (38.63%); Newfoundland and Labrador Hydro (5%)",
         "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)",
         "Cenovus Energy* (93.23%); Newfoundland and Labrador Hydro (6.77%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1316,
+          2.092,
+          64.315
+        ],
+        "p50": [
+          8.916,
+          15.33,
+          116.41
+        ],
+        "pMean": [
+          -9.313226e-10,
+          21.06,
+          33.69
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-93d21c73f923",
@@ -3095,12 +4231,6 @@
         2003,
         2006
       ],
-      "approvalYears": [
-        2002,
-        2009,
-        2010,
-        2013
-      ],
       "startupYears": [
         2005,
         2010,
@@ -3111,7 +4241,33 @@
         "Cenovus Energy* (56.38%); Suncor Energy (38.63%); Newfoundland and Labrador Hydro (5%)",
         "Cenovus Energy* (60%); Suncor Energy (40%)",
         "Cenovus Energy* (68.88%); Suncor Energy (26.13%); Newfoundland and Labrador Hydro (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8958,
+          1.3695,
+          2.557,
+          29
+        ],
+        "p50": [
+          1.3084,
+          1.6422,
+          5.221,
+          6.214
+        ],
+        "pMean": [
+          0,
+          2.328306e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-a7be15152b81",
@@ -3148,15 +4304,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.656613e-09
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          -1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-689ab29ed805",
@@ -3193,15 +4365,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0224
+        ],
+        "p50": [
+          0.0748
+        ],
+        "pMean": [
+          0.3091
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-f59f2bbde21e",
@@ -3238,15 +4426,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0639
+        ],
+        "p50": [
+          0.2155
+        ],
+        "pMean": [
+          0.8986
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-6900868c3709",
@@ -3298,13 +4502,6 @@
         2039,
         2040
       ],
-      "approvalYears": [
-        2011,
-        2019,
-        2027,
-        2038,
-        2042
-      ],
       "startupYears": [
         2014,
         2020,
@@ -3316,7 +4513,43 @@
       "ownerships": [
         "Cenovus Energy* (49%); CNOOC (51%)",
         "Cenovus Energy* (75%); CNOOC (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.607703e-07,
+          0.0153,
+          0.0243,
+          0.0276,
+          2.61,
+          34.138,
+          67.6579
+        ],
+        "p50": [
+          -1.937151e-07,
+          0.0504,
+          0.0843,
+          0.09730001,
+          0.471,
+          8.5093,
+          62.1154
+        ],
+        "pMean": [
+          2.980232e-08,
+          0.1453,
+          0.2473,
+          0.2964,
+          0.3841,
+          0.8115
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-dc7adcbb2c99",
@@ -3356,17 +4589,35 @@
         1986,
         2036
       ],
-      "approvalYears": [
-        2033,
-        2039
-      ],
       "startupYears": [
         2035,
         2044
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.0366
+        ],
+        "p50": [
+          0,
+          0.124
+        ],
+        "pMean": [
+          0,
+          0.5179
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cenovus-energy-820ed05046b5",
@@ -3403,15 +4654,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2061
       ],
       "ownerships": [
         "Cenovus Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          1.0704
+        ],
+        "pMean": [
+          20.321
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

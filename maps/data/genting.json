@@ -50,15 +50,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Genting Berhad* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3339
+        ],
+        "p50": [
+          1.2554
+        ],
+        "pMean": [
+          2.0234
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "genting-8c9c29b50e14",
@@ -95,15 +111,29 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Genting Berhad* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          40.01
+        ],
+        "p50": [
+          59.99
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "genting-41dce498c344",
@@ -146,15 +176,35 @@
         2013,
         2014
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Genting Berhad* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          23.1,
+          37.11,
+          57.899
+        ],
+        "p50": [
+          0,
+          26.39,
+          42.42,
+          67.772
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -51,15 +51,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-5cd449c5e357",
@@ -96,15 +112,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0406
+        ],
+        "p50": [
+          0.11
+        ],
+        "pMean": [
+          0.1133
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-acbcbeff7261",
@@ -141,15 +173,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.683
+        ],
+        "p50": [
+          2.5969
+        ],
+        "pMean": [
+          0.5911
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-ce37866d7005",
@@ -186,15 +234,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-ac1e8a78c744",
@@ -231,15 +295,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pluspetrol* (55%); Sonangol (25%); Force Petroleum (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.960464e-08
+        ],
+        "p50": [
+          2.384186e-07
+        ],
+        "pMean": [
+          -4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-a9fa4c7254dc",
@@ -276,15 +356,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pluspetrol* (90%); Gas y Petroleo del Neuquen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0114
+        ],
+        "p50": [
+          0.0363
+        ],
+        "pMean": [
+          0.1089
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-601027055fe7",
@@ -321,15 +417,29 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.884
+        ],
+        "p50": [
+          2.856
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-7e64e4e68479",
@@ -366,15 +476,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pluspetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0012
+        ],
+        "pMean": [
+          0.0249
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-b6ed0b99fc3e",
@@ -411,15 +535,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0026
+        ],
+        "p50": [
+          0.0104
+        ],
+        "pMean": [
+          0.03419999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-e8e158c0eff2",
@@ -456,15 +596,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pluspetrol* (47.48%); YPF (30.01%); Pampa Energia (22.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0034
+        ],
+        "p50": [
+          0.0109
+        ],
+        "pMean": [
+          0.0331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-fd147405a7ed",
@@ -501,15 +657,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038
+        ],
+        "p50": [
+          0.011
+        ],
+        "pMean": [
+          0.0324
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-b335dcf593d9",
@@ -546,15 +718,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.490116e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-e241f72402f9",
@@ -591,15 +779,29 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.826
+        ],
+        "p50": [
+          7.396
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-91d7130f3943",
@@ -636,15 +838,29 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Pluspetrol* (70%); Other partner(s) (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1323
+        ],
+        "p50": [
+          0.107
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-c3626bf4c088",
@@ -684,17 +900,34 @@
         2007,
         2035
       ],
-      "approvalYears": [
-        2007,
-        2036
-      ],
       "startupYears": [
         2008,
         2037
       ],
       "ownerships": [
         "Pluspetrol* (70%); Other partner(s) (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0474,
+          0.1221
+        ],
+        "p50": [
+          0.0324,
+          0.3989
+        ],
+        "pMean": [
+          1.1764
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-08d87cfb219f",
@@ -731,15 +964,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Pluspetrol* (47.48%); YPF (30.01%); Pampa Energia (22.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.2973
+        ],
+        "p50": [
+          3.7969
+        ],
+        "pMean": [
+          0.5121
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-b1247abd1aa4",
@@ -779,17 +1028,34 @@
         1974,
         2037
       ],
-      "approvalYears": [
-        2000,
-        2038
-      ],
       "startupYears": [
         2004,
         2039
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0354,
+          0.6363999
+        ],
+        "p50": [
+          0.1102,
+          0.636
+        ],
+        "pMean": [
+          0.3294
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-a020d784f7b7",
@@ -826,15 +1092,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pluspetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0044
+        ],
+        "p50": [
+          0.0136
+        ],
+        "pMean": [
+          0.0402
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-f85c109381ee",
@@ -871,15 +1153,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pluspetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-bc1a3a2546bc",
@@ -916,15 +1214,29 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.5006
+        ],
+        "p50": [
+          1.3636
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-cfacb8786f83",
@@ -968,10 +1280,6 @@
         2010,
         2016
       ],
-      "approvalYears": [
-        2013,
-        2017
-      ],
       "startupYears": [
         2014,
         2017
@@ -979,7 +1287,39 @@
       "ownerships": [
         "Pluspetrol* (50%); YPF (50%)",
         "Pluspetrol* (90%); Gas y Petroleo del Neuquen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.267,
+          42.0116,
+          61.8467,
+          194.878,
+          211.84,
+          216.3
+        ],
+        "p50": [
+          1.3633,
+          4.6568,
+          6.8697,
+          21.6328,
+          52.976,
+          54.074,
+          147.84,
+          337.54
+        ],
+        "pMean": [
+          1330.58,
+          3037.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 8,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-3fd3a939945d",
@@ -1019,17 +1359,34 @@
         1972,
         2030
       ],
-      "approvalYears": [
-        2027,
-        2043
-      ],
       "startupYears": [
         2029,
         2045
       ],
       "ownerships": [
         "Pluspetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0,
+          0.005
+        ],
+        "pMean": [
+          2.384186e-07,
+          0.0943
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-15799c559ed6",
@@ -1066,15 +1423,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         1999
       ],
       "ownerships": [
         "Pluspetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.31
+        ],
+        "p50": [
+          9.572001
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-0e167e093ae7",
@@ -1111,15 +1482,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2098
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pluspetrol* (27.2%); Hunt Oil (25.2%); SK Innovation (17.6%); Repsol (10%); Sonatrach (10%); Techint (Tecpetrol) (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0313
+        ],
+        "p50": [
+          0.087
+        ],
+        "pMean": [
+          0.1273
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pluspetrol-9f843268b6b3",
@@ -1165,13 +1552,6 @@
         1998,
         2037
       ],
-      "approvalYears": [
-        2000,
-        2004,
-        2006,
-        2040,
-        2044
-      ],
       "startupYears": [
         2004,
         2008,
@@ -1181,7 +1561,35 @@
       ],
       "ownerships": [
         "Pluspetrol* (27.2%); Hunt Oil (25.2%); SK Innovation (17.6%); Repsol (10%); Sonatrach (10%); Techint (Tecpetrol) (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.8871e-08,
+          0.042,
+          288.355,
+          490.29,
+          557.6301
+        ],
+        "p50": [
+          6.780028e-07,
+          0.1275,
+          30.533,
+          106.181,
+          115.879
+        ],
+        "pMean": [
+          7.748604e-07,
+          0.197
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

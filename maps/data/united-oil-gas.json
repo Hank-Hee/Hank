@@ -60,11 +60,6 @@
         2016,
         2023
       ],
-      "approvalYears": [
-        2013,
-        2016,
-        2030
-      ],
       "startupYears": [
         2013,
         2016,
@@ -72,7 +67,33 @@
       ],
       "ownerships": [
         "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08,
+          0.0274,
+          0.1123,
+          0.3916
+        ],
+        "p50": [
+          0,
+          0.0153,
+          0.0306,
+          0.0387
+        ],
+        "pMean": [
+          0,
+          6.984919e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-d937ee28f0b5",
@@ -109,15 +130,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.8052
+        ],
+        "p50": [
+          0.65
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-9350c93e1167",
@@ -154,15 +189,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.275
+        ],
+        "p50": [
+          0.193
+        ],
+        "pMean": [
+          0.051
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-2927f6a12c8c",
@@ -199,15 +250,29 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4347
+        ],
+        "p50": [
+          0.0435
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-06510cf3a4c0",
@@ -244,15 +309,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1145
+        ],
+        "p50": [
+          0.3384
+        ],
+        "pMean": [
+          0.8766
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-60825fe6e868",
@@ -289,15 +370,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.324
+        ],
+        "p50": [
+          1.0217
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-6ed79b902a46",
@@ -334,17 +429,32 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2036,
-        2041
-      ],
       "startupYears": [
         2039,
         2044
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-54ad28233f12",
@@ -381,15 +491,29 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "United Energy* (32.05%); Dover Petroleum (35.9%); Global Connect Limited (32.05%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1718
+        ],
+        "p50": [
+          0.4469
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-72e661a24bcb",
@@ -426,15 +550,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-39788313fb3d",
@@ -471,15 +611,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.164153e-10
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          1.862645e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-e8bcad0b4473",
@@ -517,17 +673,31 @@
         1993,
         1995
       ],
-      "approvalYears": [
-        1994,
-        1996
-      ],
       "startupYears": [
         1994,
         1996
       ],
       "ownerships": [
         "United Energy* (75%); INA (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002,
+          0.7036
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-dbacbccd0f69",
@@ -567,17 +737,37 @@
         2020,
         2021
       ],
-      "approvalYears": [
-        2021,
-        2022
-      ],
       "startupYears": [
         2021,
         2022
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.528,
+          1.058,
+          3.03
+        ],
+        "p50": [
+          0.663,
+          0.977,
+          3.26
+        ],
+        "pMean": [
+          0.0027,
+          1.277
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-bfbc715e4ad6",
@@ -614,15 +804,29 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.181
+        ],
+        "p50": [
+          5.563
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-a72871d78fc9",
@@ -659,15 +863,29 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1971
-      ],
       "startupYears": [
         1972
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1117
+        ],
+        "p50": [
+          0.1847
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-9ef7251ea1d4",
@@ -704,15 +922,29 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1967
-      ],
       "startupYears": [
         1968
       ],
       "ownerships": [
         "United Energy* (70%); Petrogas (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.0056
+        ],
+        "p50": [
+          0.7797
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-3bf8cc6f22ec",
@@ -749,15 +981,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.597
+        ],
+        "p50": [
+          2.3028
+        ],
+        "pMean": [
+          6.7099
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-f2e73c3a1f8a",
@@ -794,15 +1042,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0155
+        ],
+        "p50": [
+          0.0837
+        ],
+        "pMean": [
+          0.7744
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-c377a0e5e9cf",
@@ -839,15 +1103,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          20.803
+        ],
+        "p50": [
+          141.47
+        ],
+        "pMean": [
+          288.53
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-3910323eb1b2",
@@ -885,17 +1165,32 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2015,
-        2022
-      ],
       "startupYears": [
         2015,
         2024
       ],
       "ownerships": [
         "United Energy* (60%); Dragon-ENOC (30%); EGPC (Egypt) (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          43.634,
+          130.024
+        ],
+        "p50": [
+          37.428,
+          173.605
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-8564e890bce5",
@@ -932,15 +1227,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1251
+        ],
+        "p50": [
+          0.8334
+        ],
+        "pMean": [
+          7.9934
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-2106378d36f9",
@@ -977,15 +1288,29 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (30%); TPAO (30%); Basra Oil Company (Iraq NOC) (25%); EGPC (Egypt) (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.5298
+        ],
+        "p50": [
+          16.0997
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-69913f73c0da",
@@ -1025,17 +1350,35 @@
         2013,
         2028
       ],
-      "approvalYears": [
-        2030,
-        2033
-      ],
       "startupYears": [
         2032,
         2035
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-07,
+          0.0085
+        ],
+        "p50": [
+          -1.430511e-06,
+          0.0481
+        ],
+        "pMean": [
+          2.384186e-07,
+          0.4486
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-a4a4006b802c",
@@ -1072,15 +1415,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "United Oil & Gas* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0228
+        ],
+        "p50": [
+          0.0713
+        ],
+        "pMean": [
+          0.2078
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-d15de85f37ec",
@@ -1117,15 +1476,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "United Energy* (75%); OGDCL (Pakistan) (20%); Government Holdings Private Limited (2.5%); SEHCL (2.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.5874
+        ],
+        "p50": [
+          2.9062
+        ],
+        "pMean": [
+          0.9778
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-f1a23be7d0d5",
@@ -1162,15 +1537,29 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "United Energy* (51%); OGDCL (Pakistan) (49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.634
+        ],
+        "p50": [
+          1.476
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-ae029810bf35",
@@ -1207,15 +1596,29 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2005
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1924
+        ],
+        "p50": [
+          0.4155
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-8947fc6e1566",
@@ -1295,44 +1698,6 @@
         2039,
         2100
       ],
-      "approvalYears": [
-        1981,
-        1985,
-        1986,
-        1989,
-        1990,
-        1991,
-        1992,
-        1993,
-        1994,
-        1996,
-        1998,
-        1999,
-        2001,
-        2006,
-        2008,
-        2009,
-        2013,
-        2014,
-        2015,
-        2016,
-        2018,
-        2019,
-        2020,
-        2021,
-        2028,
-        2029,
-        2031,
-        2032,
-        2034,
-        2036,
-        2037,
-        2038,
-        2039,
-        2040,
-        2042,
-        2100
-      ],
       "startupYears": [
         1982,
         1985,
@@ -1375,7 +1740,136 @@
         "United Energy* (60%); GHPL (25%); OGDCL (Pakistan) (15%)",
         "United Energy* (60%); OGDCL (Pakistan) (40%)",
         "United Energy* (76%); OGDCL (Pakistan) (24%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004,
+          0.0005,
+          0.0026,
+          0.0028,
+          0.0032,
+          0.003500002,
+          0.0053,
+          0.007,
+          0.007999994,
+          0.0177,
+          0.0186,
+          0.0267,
+          0.0293,
+          0.03,
+          0.0301,
+          0.0315,
+          0.0316,
+          0.0319,
+          0.0329,
+          0.0379,
+          0.05,
+          0.0593,
+          0.0614,
+          0.0732,
+          0.08329999,
+          0.0844,
+          0.088,
+          0.09640001,
+          0.0976,
+          0.1089,
+          0.1238,
+          0.1339,
+          0.157,
+          0.161,
+          0.1628,
+          0.1836,
+          0.2135,
+          0.2443,
+          0.2727,
+          0.295,
+          0.3045,
+          0.321,
+          0.35,
+          0.381,
+          0.454,
+          0.4883,
+          0.524,
+          0.798,
+          1.1365,
+          1.172,
+          1.1918
+        ],
+        "p50": [
+          0,
+          0.0003,
+          0.0005,
+          0.0008,
+          0.0012,
+          0.0016,
+          0.001600005,
+          0.0017,
+          0.0025,
+          0.0075,
+          0.0093,
+          0.0103,
+          0.012,
+          0.0135,
+          0.0136,
+          0.0143,
+          0.0151,
+          0.0235,
+          0.0244,
+          0.0278,
+          0.0288,
+          0.032,
+          0.0322,
+          0.0398,
+          0.0498,
+          0.0531,
+          0.05599999,
+          0.0578,
+          0.07119998,
+          0.073,
+          0.0761,
+          0.07610001,
+          0.07779999,
+          0.0825,
+          0.0833,
+          0.08370001,
+          0.0845,
+          0.08450001,
+          0.0847,
+          0.0959,
+          0.1174,
+          0.1414,
+          0.1692,
+          0.1732,
+          0.2773,
+          0.4265,
+          0.457,
+          0.7363,
+          0.8266,
+          0.8348
+        ],
+        "pMean": [
+          -5.820766e-11,
+          0,
+          7.275958e-12,
+          1.455192e-11,
+          0.0187,
+          0.0319,
+          0.0966,
+          0.097,
+          0.0992,
+          0.1002,
+          0.4851,
+          0.9997
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 51,
+          "p50": 58,
+          "pMean": 27,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-094476c4ab59",
@@ -1412,15 +1906,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007300002
+        ],
+        "p50": [
+          0.003500001
+        ],
+        "pMean": [
+          1.455192e-11
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-141479ccacee",
@@ -1457,15 +1967,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "United Energy* (75%); Government of Pakistan (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0337
+        ],
+        "p50": [
+          0.1028
+        ],
+        "pMean": [
+          0.1299
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-69f6076395b5",
@@ -1502,15 +2028,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "United Energy* (60%); Pakistan Petroleum Limited (PPL) (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0592
+        ],
+        "p50": [
+          0.1732
+        ],
+        "pMean": [
+          0.2118
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-421458a38d5c",
@@ -1547,15 +2089,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.238
+        ],
+        "p50": [
+          0.6244
+        ],
+        "pMean": [
+          0.7064
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-6d8de8c84a19",
@@ -1592,15 +2150,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "United Energy* (75%); OGDCL (Pakistan) (20%); Government Holdings Private Limited (2.5%); SEHCL (2.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1721
+        ],
+        "p50": [
+          0.7062
+        ],
+        "pMean": [
+          1.1282
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-237d9f27416f",
@@ -1637,15 +2211,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "United Energy* (48.75%); Pakistan Petroleum Limited (PPL) (48.75%); GHPL (2.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.048
+        ],
+        "p50": [
+          0.1388
+        ],
+        "pMean": [
+          0.1692
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-1db486a7d729",
@@ -1682,15 +2272,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "United Energy* (46%); Mari Energies (44%); Dewan Petroleum (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3721
+        ],
+        "p50": [
+          1.0559
+        ],
+        "pMean": [
+          1.2713
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-4f6a060b9aee",
@@ -1727,15 +2333,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "United Energy* (48.75%); Mari Energies (48.75%); Punjab Energy Holding Company Limited (PEHCL) (2.49%); Balochistan Energy Co Ltd (BECL) (0.01%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1938
+        ],
+        "p50": [
+          0.58
+        ],
+        "pMean": [
+          0.7249
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-64b7b1f23182",
@@ -1772,15 +2394,29 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "United Energy* (60%); OGDCL (Pakistan) (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0992
+        ],
+        "p50": [
+          0.0818
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-a9fa98a844d2",
@@ -1817,15 +2453,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.003
+        ],
+        "p50": [
+          0.0012
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-c2875719122d",
@@ -1862,15 +2514,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "United Energy* (45%); Prime International (30%); Government of Pakistan (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0291
+        ],
+        "p50": [
+          0.0076
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-3e1f8469b881",
@@ -1907,15 +2573,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0017
+        ],
+        "pMean": [
+          0.0319
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-40db3e7d201a",
@@ -1952,15 +2632,29 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0709
+        ],
+        "p50": [
+          0.0759
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-716888c1da31",
@@ -2001,10 +2695,6 @@
         2018,
         2037
       ],
-      "approvalYears": [
-        2018,
-        2039
-      ],
       "startupYears": [
         2018,
         2040
@@ -2012,7 +2702,28 @@
       "ownerships": [
         "United Energy* (100%)",
         "United Energy* (75%); Pakistan Petroleum Limited (PPL) (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.166,
+          0.4797
+        ],
+        "p50": [
+          0.326,
+          0.5536
+        ],
+        "pMean": [
+          0.7507
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-82dc61d0a6de",
@@ -2049,15 +2760,29 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0286
+        ],
+        "p50": [
+          0.0073
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-34fd57374697",
@@ -2094,15 +2819,29 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1990
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.719
+        ],
+        "p50": [
+          0.53
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-d3c1309c8b1a",
@@ -2139,15 +2878,29 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0641
+        ],
+        "p50": [
+          0.0254
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-b9e95f3ab7f7",
@@ -2196,14 +2949,6 @@
         2024,
         2028
       ],
-      "approvalYears": [
-        2008,
-        2019,
-        2021,
-        2022,
-        2027,
-        2029
-      ],
       "startupYears": [
         2013,
         2019,
@@ -2214,7 +2959,36 @@
       "ownerships": [
         "United Energy* (33.4%); Eni (33.3%); Pakistan Petroleum Limited (PPL) (33.3%)",
         "United Energy* (33.4%); Pakistan Petroleum Limited (PPL) (33.3%); Prime International (33.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0123,
+          0.0312,
+          0.0787,
+          0.592,
+          3.9892,
+          8.5
+        ],
+        "p50": [
+          0.0021,
+          0.015,
+          0.08440001,
+          0.889,
+          1.3609,
+          2.853
+        ],
+        "pMean": [
+          0.0975
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-1c79f904ee74",
@@ -2251,15 +3025,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1996
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.2117
+        ],
+        "p50": [
+          0.5337
+        ],
+        "pMean": [
+          0.0481
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-90e4f1e2a911",
@@ -2296,15 +3086,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0999
+        ],
+        "p50": [
+          0.0665
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-90f97ff26fb2",
@@ -2343,16 +3149,36 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2013,
         2014
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.662,
+          0.7071,
+          2.503
+        ],
+        "p50": [
+          0.0563,
+          0.221,
+          1.1252
+        ],
+        "pMean": [
+          0.0766
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-14750fd36ce2",
@@ -2393,11 +3219,6 @@
         2013,
         2100
       ],
-      "approvalYears": [
-        2009,
-        2017,
-        2101
-      ],
       "startupYears": [
         2013,
         2017,
@@ -2406,7 +3227,31 @@
       "ownerships": [
         "United Energy* (59.2%); GHPL (25%); Ocean Pakistan Limited (11.8%); Zaver Petroleum (4%)",
         "United Energy* (59.21%); GHPL (25%); Ocean Pakistan Limited (11.84%); Zaver Petroleum (3.95%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.223,
+          3.0127,
+          3.0598
+        ],
+        "p50": [
+          0.3809,
+          0.8015,
+          0.9627
+        ],
+        "pMean": [
+          0.107,
+          1.1018
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-ef4a5e31b43e",
@@ -2443,15 +3288,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "United Energy* (17.68%); OGDCL (Pakistan) (52%); Pakistan Petroleum Limited (PPL) (15.16%); Prime International (15.16%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3137
+        ],
+        "p50": [
+          0.8427001
+        ],
+        "pMean": [
+          0.973
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-0388f89e33a7",
@@ -2488,15 +3349,29 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "United Energy* (17.68%); OGDCL (Pakistan) (52%); Pakistan Petroleum Limited (PPL) (15.16%); Prime International (15.16%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.9409
+        ],
+        "p50": [
+          1.7249
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-eaa6e8bcc926",
@@ -2556,26 +3431,6 @@
         2024,
         2030
       ],
-      "approvalYears": [
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2024,
-        2033
-      ],
       "startupYears": [
         2003,
         2004,
@@ -2600,7 +3455,107 @@
       "ownerships": [
         "United Energy* (60%); OGDCL (Pakistan) (40%)",
         "United Energy* (75%); GHPL (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0027,
+          0.0202,
+          0.0232,
+          0.0288,
+          0.0304,
+          0.04610001,
+          0.0555,
+          0.0783,
+          0.07839999,
+          0.0818,
+          0.0884,
+          0.1613,
+          0.1747,
+          0.2924,
+          0.3114,
+          0.3235,
+          0.3877,
+          0.4028,
+          0.4395,
+          0.445,
+          0.5114,
+          0.536,
+          0.5649,
+          0.5977,
+          0.7446,
+          0.9585,
+          1.0196,
+          1.0504,
+          1.1958,
+          1.1966,
+          1.4127,
+          1.6867,
+          2.4547,
+          7.759,
+          8.3909,
+          15.462,
+          25.4863
+        ],
+        "p50": [
+          0.0006,
+          0.0035,
+          0.006,
+          0.007200001,
+          0.0116,
+          0.016,
+          0.0178,
+          0.0208,
+          0.0233,
+          0.0594,
+          0.0615,
+          0.084,
+          0.0883,
+          0.09899999,
+          0.1512,
+          0.1648,
+          0.1654,
+          0.1935,
+          0.2495,
+          0.2519,
+          0.2532,
+          0.2577,
+          0.2962,
+          0.404,
+          0.4085,
+          0.6429,
+          0.6692001,
+          0.6957999,
+          0.7219,
+          0.7749,
+          1.035,
+          1.1697,
+          1.466,
+          2.32,
+          3.1648,
+          4.035,
+          7.5196
+        ],
+        "pMean": [
+          -3.72529e-09,
+          0,
+          2.910383e-11,
+          2.328306e-10,
+          4.656613e-10,
+          1.695298e-09,
+          0.0275,
+          0.0985,
+          0.2189,
+          0.2334
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 37,
+          "p50": 37,
+          "pMean": 12,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-1a2a6373ca2f",
@@ -2637,15 +3592,29 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.687
+        ],
+        "p50": [
+          0.8268999
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-1df4eca63ad8",
@@ -2682,15 +3651,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0117
+        ],
+        "p50": [
+          0.0066
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-48793384154b",
@@ -2727,15 +3710,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0017
+        ],
+        "p50": [
+          0.0005000001
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-99bdfd42b7c0",
@@ -2774,17 +3773,32 @@
         2011,
         2021
       ],
-      "approvalYears": [
-        2013,
-        2021
-      ],
       "startupYears": [
         2019,
         2021
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0006,
+          0.9996
+        ],
+        "p50": [
+          0,
+          0.3656
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-00d3a79101b0",
@@ -2821,15 +3835,27 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1995
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-55d7509982cd",
@@ -2866,15 +3892,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1243999
+        ],
+        "p50": [
+          0.06610001
+        ],
+        "pMean": [
+          4.656613e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-c57a638c9491",
@@ -2911,15 +3953,29 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (80%); Other partner(s) (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2727
+        ],
+        "p50": [
+          0.1876
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-79df2c85e1fc",
@@ -2956,15 +4012,29 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0658
+        ],
+        "p50": [
+          0.0023
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-9622cdfbc4e4",
@@ -3001,15 +4071,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1661
+        ],
+        "p50": [
+          0.0479
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-3b1d678f18d7",
@@ -3046,15 +4130,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "United Energy* (19.74%); Pakistan Petroleum Limited (PPL) (34.08%); Prime International (23.68%); GHPL (22.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3929
+        ],
+        "p50": [
+          1.0294
+        ],
+        "pMean": [
+          1.1675
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-618cc7860b4b",
@@ -3094,17 +4194,35 @@
         1998,
         2025
       ],
-      "approvalYears": [
-        1998,
-        2027
-      ],
       "startupYears": [
         2003,
         2028
       ],
       "ownerships": [
         "United Energy* (19.74%); Pakistan Petroleum Limited (PPL) (34.08%); Prime International (23.68%); GHPL (22.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.862645e-09,
+          24.835
+        ],
+        "p50": [
+          -7.450581e-09,
+          11.1799
+        ],
+        "pMean": [
+          9.313226e-10,
+          0.486
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-5342ded98972",
@@ -3141,15 +4259,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.64
+        ],
+        "p50": [
+          2.96
+        ],
+        "pMean": [
+          0.997
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-b2e1f45593f6",
@@ -3186,15 +4320,29 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.747
+        ],
+        "p50": [
+          0.853
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-f936b6ffa4c6",
@@ -3231,15 +4379,27 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0006
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-6a386428d6b2",
@@ -3276,15 +4436,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "United Energy* (75%); GHPL (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3199
+        ],
+        "p50": [
+          0.78
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-21cd493ad156",
@@ -3321,15 +4495,29 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "United Energy* (60%); Pakistan Petroleum Limited (PPL) (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.685
+        ],
+        "p50": [
+          0.925
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-c4479e73f257",
@@ -3369,17 +4557,32 @@
         1995,
         2010
       ],
-      "approvalYears": [
-        1995,
-        2010
-      ],
       "startupYears": [
         1995,
         2010
       ],
       "ownerships": [
         "United Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0967,
+          0.4209
+        ],
+        "p50": [
+          0.1127,
+          0.145
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-e6fd4deba720",
@@ -3416,15 +4619,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "United Energy* (46%); Mari Energies (44%); Dewan Petroleum (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.72529e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-483a6f3ed0d2",
@@ -3463,15 +4682,32 @@
       "discoveryYears": [
         1901
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "United Production Partners* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          134.29
+        ],
+        "p50": [
+          0,
+          14.92
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-9dac4ec8ac38",
@@ -3517,15 +4753,6 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2024,
-        2025
-      ],
       "startupYears": [
         2010,
         2011,
@@ -3545,7 +4772,71 @@
         "United Production Partners* (95%); FourPoint Energy (5%)",
         "United Production Partners* (95%); Hannathon Petroleum LLC (5%)",
         "United Production Partners* (95%); Ike Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0058,
+          0.007999999,
+          0.0134,
+          0.0231,
+          0.0259,
+          0.0267,
+          0.0365,
+          0.0405,
+          0.0535,
+          0.05940001,
+          0.115,
+          0.1495,
+          0.2364,
+          0.2444,
+          0.2727,
+          0.5624
+        ],
+        "p50": [
+          -3.72529e-09,
+          -1.455192e-10,
+          0,
+          1.722947e-08,
+          2.980232e-08,
+          0.0007,
+          0.0009,
+          0.0015,
+          0.0026,
+          0.0029,
+          0.003,
+          0.004,
+          0.0044,
+          0.006,
+          0.006800001,
+          0.0128,
+          0.0165,
+          0.0262,
+          0.0272,
+          0.0303,
+          0.06240001,
+          2.1464,
+          2.9319
+        ],
+        "pMean": [
+          -7.152557e-07,
+          -2.011657e-07,
+          -1.41561e-07,
+          0,
+          6.984919e-10,
+          7.450581e-09,
+          5.960464e-08,
+          19.3292,
+          26.3739
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 16,
+          "p50": 26,
+          "pMean": 10,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "united-oil-gas-be434100fe7e",
@@ -3587,11 +4878,6 @@
         1995,
         1996
       ],
-      "approvalYears": [
-        1994,
-        1996,
-        1998
-      ],
       "startupYears": [
         1996,
         1997,
@@ -3600,7 +4886,33 @@
       ],
       "ownerships": [
         "United Energy* (15%); Yemen General Oil and Gas (35%); Kuwait Petroleum Corp (KPC) (20%); ExxonMobil (15%); Zarubezhgeologiya JSC (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0039,
+          5.388,
+          13.2715,
+          20.5146
+        ],
+        "p50": [
+          1.136,
+          5.2674,
+          12.1222,
+          22.0084
+        ],
+        "pMean": [
+          0.2008,
+          0.2361
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

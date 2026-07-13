@@ -50,15 +50,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0314
+        ],
+        "p50": [
+          0.002200007
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-de8d19f0f828",
@@ -95,15 +111,29 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.465
+        ],
+        "p50": [
+          0.008
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-aaa34f765f3e",
@@ -140,15 +170,29 @@
       "discoveryYears": [
         1925
       ],
-      "approvalYears": [
-        1927
-      ],
       "startupYears": [
         1927
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.145
+        ],
+        "p50": [
+          0.0219
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-ee60816b1c3d",
@@ -185,15 +229,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0036
+        ],
+        "p50": [
+          0.0098
+        ],
+        "pMean": [
+          0.0122
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-155d34f12ae3",
@@ -230,15 +290,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0012
+        ],
+        "pMean": [
+          0.0248
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-50698f987c18",
@@ -275,15 +349,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0036
+        ],
+        "p50": [
+          0.0098
+        ],
+        "pMean": [
+          0.0122
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-0e8de286e8c4",
@@ -320,15 +410,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0244
+        ],
+        "p50": [
+          0.06659999
+        ],
+        "pMean": [
+          0.0814
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-805abc6f8cf8",
@@ -365,15 +471,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5722
+        ],
+        "p50": [
+          0.1952
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-976b9874d1c5",
@@ -410,15 +530,31 @@
       "discoveryYears": [
         1947
       ],
-      "approvalYears": [
-        1949
-      ],
       "startupYears": [
         1950
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5746
+        ],
+        "p50": [
+          0.4082
+        ],
+        "pMean": [
+          -7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-d78a30088a36",
@@ -459,17 +595,34 @@
         1997,
         2027
       ],
-      "approvalYears": [
-        1999,
-        2041
-      ],
       "startupYears": [
         1999,
         2042
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1762,
+          0.4424
+        ],
+        "p50": [
+          0.2788,
+          0.471
+        ],
+        "pMean": [
+          0.565
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-c6b81dd3b40a",
@@ -506,15 +659,29 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2015
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.1588
+        ],
+        "p50": [
+          0.2712
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-66daca52644f",
@@ -551,15 +718,29 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.2256
+        ],
+        "p50": [
+          0.3272
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-8b07de2abef1",
@@ -596,15 +777,29 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8832
+        ],
+        "p50": [
+          0.1366
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-b6e0f75c2248",
@@ -641,15 +836,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.1528
+        ],
+        "p50": [
+          1.1584
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-98fed04b281a",
@@ -686,15 +895,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-15668398d5ae",
@@ -731,15 +956,31 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        1966
-      ],
       "startupYears": [
         1967
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.2283
+        ],
+        "p50": [
+          3.9533
+        ],
+        "pMean": [
+          6.984919e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-3ece6a9dd9f8",
@@ -776,15 +1017,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.001
+        ],
+        "pMean": [
+          0.0204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-9a75032a5c56",
@@ -821,15 +1076,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1988
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.2662
+        ],
+        "p50": [
+          0.6574
+        ],
+        "pMean": [
+          -2.328306e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ypfb-0758d5cdba1b",
@@ -866,15 +1137,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "YPFB Andina* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.8445
+        ],
+        "p50": [
+          3.5308
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

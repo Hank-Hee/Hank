@@ -50,15 +50,29 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "TC Oil And Gas* (90%); APA Corporation (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          2.444722e-09
+        ],
+        "pMean": [
+          1.44355e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -53,15 +53,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Heritage Oil (Al Mirqab Capital)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0.0099
+        ],
+        "pMean": [
+          0.0322
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-d805b230dbfb",
@@ -98,15 +114,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Heritage Oil (Al Mirqab Capital)* (48%); Jura Energy (24%); American Energy Group (20%); Trakker Energy (8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0289
+        ],
+        "p50": [
+          0.0831
+        ],
+        "pMean": [
+          0.1009
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-b8b1121a67c5",
@@ -143,15 +175,31 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.328306e-10
+        ],
+        "pMean": [
+          -3.49246e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-e8c469c21ec8",
@@ -188,15 +236,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5246
+        ],
+        "p50": [
+          1.3963
+        ],
+        "pMean": [
+          1.4329
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-b6f592e09831",
@@ -233,15 +297,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5271
+        ],
+        "p50": [
+          1.4074
+        ],
+        "pMean": [
+          1.4422
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-d6f9408464bd",
@@ -278,15 +358,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7628
+        ],
+        "p50": [
+          2.025
+        ],
+        "pMean": [
+          1.9922
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-204c74d518aa",
@@ -327,17 +423,33 @@
         1952,
         2033
       ],
-      "approvalYears": [
-        1953,
-        2037
-      ],
       "startupYears": [
         1953,
         2041
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.851
+        ],
+        "p50": [
+          0.0099,
+          0.8476
+        ],
+        "pMean": [
+          0.1891
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-09133881ded3",
@@ -374,15 +486,31 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-e6e9d72aeb8e",
@@ -419,15 +547,31 @@
       "discoveryYears": [
         1911
       ],
-      "approvalYears": [
-        1913
-      ],
       "startupYears": [
         1913
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.297
+        ],
+        "p50": [
+          0.104
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-96708fc6c620",
@@ -464,15 +608,29 @@
       "discoveryYears": [
         1926
       ],
-      "approvalYears": [
-        1930
-      ],
       "startupYears": [
         1934
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.319
+        ],
+        "p50": [
+          0.3714
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-f54a239273d4",
@@ -509,15 +667,31 @@
       "discoveryYears": [
         1914
       ],
-      "approvalYears": [
-        1915
-      ],
       "startupYears": [
         1915
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.2478
+        ],
+        "p50": [
+          1.0974
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-8b0894ef5cee",
@@ -554,15 +728,29 @@
       "discoveryYears": [
         1929
       ],
-      "approvalYears": [
-        1933
-      ],
       "startupYears": [
         1937
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.78
+        ],
+        "p50": [
+          0.0693
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-7540dd02b41c",
@@ -599,15 +787,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1
+        ],
+        "p50": [
+          7.72
+        ],
+        "pMean": [
+          16.29
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-31b785079c25",
@@ -644,15 +848,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1973
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.45
+        ],
+        "p50": [
+          0.3784
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-d2be71b336e0",
@@ -689,15 +907,29 @@
       "discoveryYears": [
         1947
       ],
-      "approvalYears": [
-        1949
-      ],
       "startupYears": [
         1950
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1426
+        ],
+        "p50": [
+          0.0882
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-d477604f5658",
@@ -734,15 +966,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0042
+        ],
+        "pMean": [
+          0.0787
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-77856ab7f0cf",
@@ -783,17 +1029,34 @@
         1957,
         2033
       ],
-      "approvalYears": [
-        1959,
-        2037
-      ],
       "startupYears": [
         1959,
         2041
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0879
+        ],
+        "p50": [
+          0.0048,
+          0.0258
+        ],
+        "pMean": [
+          0,
+          0.0913
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-9d0e932fb230",
@@ -830,15 +1093,29 @@
       "discoveryYears": [
         1923
       ],
-      "approvalYears": [
-        1950
-      ],
       "startupYears": [
         1954
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.287
+        ],
+        "p50": [
+          0.0021
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-e0ef142b5641",
@@ -875,15 +1152,29 @@
       "discoveryYears": [
         1926
       ],
-      "approvalYears": [
-        1930
-      ],
       "startupYears": [
         1934
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.0407
+        ],
+        "p50": [
+          1.4612
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-a5f264e97cd9",
@@ -920,15 +1211,31 @@
       "discoveryYears": [
         1938
       ],
-      "approvalYears": [
-        1942
-      ],
       "startupYears": [
         1946
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.3009
+        ],
+        "p50": [
+          0.5030999
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-9658c0ba935b",
@@ -965,15 +1272,29 @@
       "discoveryYears": [
         1929
       ],
-      "approvalYears": [
-        1930
-      ],
       "startupYears": [
         1930
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.66
+        ],
+        "p50": [
+          0.82
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-dac0caeddb25",
@@ -1010,15 +1331,29 @@
       "discoveryYears": [
         1907
       ],
-      "approvalYears": [
-        1911
-      ],
       "startupYears": [
         1915
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.948
+        ],
+        "p50": [
+          0.3881
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-0f7653d9330d",
@@ -1055,15 +1390,31 @@
       "discoveryYears": [
         1906
       ],
-      "approvalYears": [
-        1908
-      ],
       "startupYears": [
         1908
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.055
+        ],
+        "p50": [
+          1.845
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-c43031b667b4",
@@ -1100,15 +1451,31 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1955
-      ],
       "startupYears": [
         1956
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          20.67
+        ],
+        "p50": [
+          5.55
+        ],
+        "pMean": [
+          0.286
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-954dbffc2269",
@@ -1145,15 +1512,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.417
+        ],
+        "p50": [
+          4.205
+        ],
+        "pMean": [
+          0.2835
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-2431aeb2072c",
@@ -1190,15 +1573,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.63
+        ],
+        "p50": [
+          2.538
+        ],
+        "pMean": [
+          0.218
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-4c85a3ce295b",
@@ -1235,15 +1634,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2108
-      ],
       "startupYears": [
         2117
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0004
+        ],
+        "pMean": [
+          0.0078
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-15d470acfe6b",
@@ -1280,15 +1693,29 @@
       "discoveryYears": [
         2047
       ],
-      "approvalYears": [
-        2059
-      ],
       "startupYears": [
         2064
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (35%); EOG Resources (65%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0072
+        ],
+        "pMean": [
+          0.1362
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-3fdd10055ee0",
@@ -1325,15 +1752,29 @@
       "discoveryYears": [
         1936
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0351
+        ],
+        "p50": [
+          0.0029
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "heritage-petroleum-781cefe9c40f",
@@ -1370,15 +1811,31 @@
       "discoveryYears": [
         1936
       ],
-      "approvalYears": [
-        1940
-      ],
       "startupYears": [
         1944
       ],
       "ownerships": [
         "Heritage Petroleum Company Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2556
+        ],
+        "p50": [
+          0.2657
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

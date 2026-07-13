@@ -8,7 +8,7 @@
     <title>公司项目分布地图</title>
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
-    <link rel="stylesheet" href="styles.css?v=20260709-title-tooltip" />
+    <link rel="stylesheet" href="styles.css?v=20260713-project-details" />
   </head>
   <body>
     <main class="map-app">
@@ -38,20 +38,58 @@
       </button>
 
       <section id="project-drawer" class="project-drawer" aria-label="国家项目列表" aria-hidden="true">
-        <div class="drawer-handle" aria-hidden="true"></div>
+        <button id="drawer-toggle" class="drawer-mobile-toggle" type="button" aria-expanded="true" aria-controls="drawer-content">
+          <span class="drawer-handle-bar" aria-hidden="true"></span>
+          <span id="drawer-toggle-label">收起项目面板</span>
+        </button>
         <div class="drawer-head">
           <div>
-            <div class="drawer-kicker">COUNTRY PROJECTS</div>
+            <div id="drawer-kicker" class="drawer-kicker">COUNTRY PROJECTS</div>
             <h2 id="drawer-title">项目列表</h2>
             <p id="drawer-summary"></p>
           </div>
           <button id="drawer-close" class="drawer-close" type="button" aria-label="关闭项目列表">×</button>
         </div>
-        <label class="drawer-search">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3m2.3-5.2A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z" /></svg>
-          <input id="project-search" type="search" placeholder="搜索项目名称" autocomplete="off" />
-        </label>
-        <div id="project-list" class="project-list" role="list"></div>
+        <div id="drawer-content" class="drawer-content">
+          <div id="project-list-view" class="project-list-view">
+            <div class="drawer-toolbar">
+              <label class="drawer-search">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3m2.3-5.2A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z" /></svg>
+                <input id="project-search" type="search" placeholder="搜索项目名称" autocomplete="off" />
+              </label>
+              <button id="project-filter-toggle" class="project-filter-toggle" type="button" aria-expanded="false" aria-controls="project-filter-panel">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10m4 0h2M4 17h2m4 0h10M14 4v6M6 14v6" /></svg>
+                <span>筛选</span>
+                <span id="project-filter-count" class="project-filter-count" hidden>0</span>
+              </button>
+            </div>
+
+            <section id="project-filter-panel" class="project-filter-panel" aria-label="项目筛选条件" hidden>
+              <div class="filter-panel-head">
+                <strong>筛选项目</strong>
+                <button id="project-filter-clear" type="button">清除全部</button>
+              </div>
+              <fieldset>
+                <legend>设施类型</legend>
+                <div id="facility-filter-options" class="facility-filter-options"></div>
+              </fieldset>
+              <fieldset>
+                <legend>储量</legend>
+                <div id="resource-filter-options" class="resource-filter-options"></div>
+              </fieldset>
+            </section>
+
+            <div id="project-list" class="project-list" role="list"></div>
+          </div>
+
+          <article id="project-detail-view" class="project-detail-view" hidden>
+            <button id="project-detail-back" class="project-detail-back" type="button">
+              <span aria-hidden="true">←</span>
+              返回项目列表
+            </button>
+            <div id="project-detail-content" class="project-detail-content"></div>
+          </article>
+        </div>
       </section>
 
       <div class="map-legend">
@@ -66,6 +104,6 @@
     </main>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script type="module" src="app.js?v=20260709-title-tooltip"></script>
+    <script type="module" src="app.js?v=20260713-project-details"></script>
   </body>
 </html>

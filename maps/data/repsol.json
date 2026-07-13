@@ -63,17 +63,40 @@
         2005,
         2006
       ],
-      "approvalYears": [
-        2012,
-        2026
-      ],
       "startupYears": [
         2017,
         2027
       ],
       "ownerships": [
         "Repsol* (36%); Sonatrach (40%); Harbour Energy (24%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.272,
+          4.445,
+          4.75,
+          5.5645,
+          23.2861,
+          29.8878
+        ],
+        "p50": [
+          0.5626,
+          0.8373,
+          4.3642,
+          5.3012,
+          6.67,
+          7.121
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0298db89544f",
@@ -110,15 +133,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (50%); Sonangol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.086163e-07
+        ],
+        "p50": [
+          1.434237e-06
+        ],
+        "pMean": [
+          -9.387732e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-4fbbfc483219",
@@ -155,15 +194,31 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.072884e-06
+        ],
+        "p50": [
+          8.34465e-07
+        ],
+        "pMean": [
+          1.788139e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-6482636e6c00",
@@ -200,15 +255,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0432
+        ],
+        "p50": [
+          0.1248
+        ],
+        "pMean": [
+          0.1584
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-434f6e92a71a",
@@ -245,15 +316,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0044
+        ],
+        "p50": [
+          0.0118
+        ],
+        "pMean": [
+          0.0148
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-5df756a16e3c",
@@ -294,11 +381,6 @@
         2007,
         2028
       ],
-      "approvalYears": [
-        2008,
-        2010,
-        2042
-      ],
       "startupYears": [
         2009,
         2012,
@@ -306,7 +388,30 @@
       ],
       "ownerships": [
         "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4496,
+          1.7776,
+          95.2202
+        ],
+        "p50": [
+          0.3998,
+          1.2122,
+          23.1007
+        ],
+        "pMean": [
+          1.4711
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-d95a1f7eb8fa",
@@ -343,15 +448,29 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Repsol* (37.5%); Shell (37.5%); Pan American Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.0462
+        ],
+        "p50": [
+          0.6483
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f4990d37f69d",
@@ -388,15 +507,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1968
-      ],
       "startupYears": [
         1968
       ],
       "ownerships": [
         "Repsol* (30%); Clontarf Energy (30%); Petrobras (20%); YPFB Andina (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0612
+        ],
+        "p50": [
+          0.0008
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-a87deaca69d7",
@@ -433,15 +566,29 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0873
+        ],
+        "p50": [
+          0.0127
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-5baeb0551188",
@@ -482,17 +629,34 @@
         2003,
         2036
       ],
-      "approvalYears": [
-        2003,
-        2037
-      ],
       "startupYears": [
         2003,
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.302,
+          0.7666
+        ],
+        "p50": [
+          0.5794001,
+          0.8786
+        ],
+        "pMean": [
+          1.1234
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-7688642489be",
@@ -529,15 +693,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2596
+        ],
+        "p50": [
+          0.0394
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-27abb5c5667b",
@@ -574,15 +752,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1996
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3712
+        ],
+        "p50": [
+          0.07359999
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-1804229b1ef0",
@@ -619,15 +813,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0499
+        ],
+        "pMean": [
+          0.9461
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-053b2ac89c02",
@@ -664,15 +872,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Repsol* (40%); OMV (30%); TotalEnergies (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          1.6017
+        ],
+        "pMean": [
+          30.435
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f252657fc1ed",
@@ -709,15 +931,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Repsol* (32%); OMV (24%); TotalEnergies (24%); Equinor (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0466
+        ],
+        "p50": [
+          0.2451
+        ],
+        "pMean": [
+          1.7367
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-8814977e692b",
@@ -760,11 +998,6 @@
         2020,
         2031
       ],
-      "approvalYears": [
-        2027,
-        2034,
-        2036
-      ],
       "startupYears": [
         2030,
         2037,
@@ -772,7 +1005,32 @@
       ],
       "ownerships": [
         "Repsol* (46.67%); Petronas (28.33%); Harbour Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1485,
+          10.99,
+          50.087
+        ],
+        "p50": [
+          0.6316,
+          36.797,
+          133.044
+        ],
+        "pMean": [
+          3.9451,
+          30.4145,
+          38.9487
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-e49dc15d1538",
@@ -809,15 +1067,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (61%); ORLEN S.A. (39%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0174
+        ],
+        "p50": [
+          0.0557
+        ],
+        "pMean": [
+          0.1185
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-a92e37b5e707",
@@ -854,15 +1128,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (70%); Petoro (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0034
+        ],
+        "p50": [
+          0.0149
+        ],
+        "pMean": [
+          0.1069
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-b7293dd73a4b",
@@ -899,15 +1189,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (70%); Petoro (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0157
+        ],
+        "p50": [
+          0.06700001
+        ],
+        "pMean": [
+          0.1355
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-effab834028e",
@@ -944,15 +1250,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0216
+        ],
+        "p50": [
+          0.0659
+        ],
+        "pMean": [
+          0.1364
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-2882942f5242",
@@ -989,15 +1311,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.538
+        ],
+        "p50": [
+          1.7063
+        ],
+        "pMean": [
+          3.6059
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-6f7aee66e8e9",
@@ -1034,15 +1372,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0035
+        ],
+        "p50": [
+          0.0152
+        ],
+        "pMean": [
+          0.1103
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-ef5200d2c8dc",
@@ -1079,15 +1433,27 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Repsol* (55%); Lime Petroleum (25%); ORLEN S.A. (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.86
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f561305bcaff",
@@ -1124,15 +1490,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Repsol* (53.84%); CNPC (parent) (23.08%); PetroChina (23.08%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0263
+        ],
+        "p50": [
+          0.0979
+        ],
+        "pMean": [
+          0.1734
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-437689de94ec",
@@ -1171,17 +1553,32 @@
         2007,
         2012
       ],
-      "approvalYears": [
-        2009,
-        2015
-      ],
       "startupYears": [
         2014,
         2017
       ],
       "ownerships": [
         "Repsol* (53.84%); CNPC (parent) (23.08%); PetroChina (23.08%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          102.9917,
+          161.608
+        ],
+        "p50": [
+          45.0724,
+          49.8716
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-6c30df8793e3",
@@ -1218,15 +1615,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (95%); Naturgy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.396984e-08
+        ],
+        "p50": [
+          2.607703e-08
+        ],
+        "pMean": [
+          -1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-6f2df0ed27d4",
@@ -1263,15 +1676,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (95%); Naturgy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-ab6502eb1978",
@@ -1308,15 +1737,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.009000001
+        ],
+        "p50": [
+          0.0271
+        ],
+        "pMean": [
+          0.0433
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-fa1081c2acfd",
@@ -1353,15 +1798,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1637
+        ],
+        "p50": [
+          0.4601
+        ],
+        "pMean": [
+          0.7055
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-e2d38ee75817",
@@ -1398,15 +1859,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.011
+        ],
+        "p50": [
+          0.031
+        ],
+        "pMean": [
+          0.0474
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-c068c8573b7e",
@@ -1443,15 +1920,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0024
+        ],
+        "pMean": [
+          0.0482
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-b5d281781a9c",
@@ -1488,15 +1979,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.06820001
+        ],
+        "pMean": [
+          1.2958
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-41adf5567951",
@@ -1533,15 +2038,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0061
+        ],
+        "pMean": [
+          0.1154
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-7bef16fff8a7",
@@ -1578,15 +2097,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0962
+        ],
+        "pMean": [
+          1.8283
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0a87b9266e7e",
@@ -1623,15 +2156,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0962
+        ],
+        "pMean": [
+          1.8283
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-1613ec317341",
@@ -1668,15 +2215,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09630001
+        ],
+        "pMean": [
+          1.8307
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-36e01637ff36",
@@ -1713,15 +2274,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0963
+        ],
+        "pMean": [
+          1.8307
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-d3a987ed076f",
@@ -1758,15 +2333,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0963
+        ],
+        "pMean": [
+          1.8307
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-3288f27e0217",
@@ -1803,15 +2392,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09769999
+        ],
+        "pMean": [
+          1.8634
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0d284e618f5c",
@@ -1848,15 +2451,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-5a43b0cbeebb",
@@ -1893,15 +2510,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-4923a4e5eb14",
@@ -1938,15 +2569,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f5e574597673",
@@ -1983,15 +2628,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0977
+        ],
+        "pMean": [
+          1.8634
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-111d39222182",
@@ -2028,15 +2687,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-89e8384c5db0",
@@ -2073,15 +2746,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0977
+        ],
+        "pMean": [
+          1.8634
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f71da5e0cb61",
@@ -2118,15 +2805,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-3b3561c3020f",
@@ -2163,15 +2864,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0977
+        ],
+        "pMean": [
+          1.8634
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-8dad48355e15",
@@ -2208,15 +2923,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0a08db75e21e",
@@ -2253,15 +2982,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0982
+        ],
+        "pMean": [
+          1.8647
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-14cfe777c95a",
@@ -2298,15 +3041,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09760001
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-82058fa74c6a",
@@ -2343,15 +3100,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8647
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-16d761fa99fc",
@@ -2388,15 +3159,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-2039d4f5a0ea",
@@ -2433,15 +3218,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0982
+        ],
+        "pMean": [
+          1.8647
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-12bfc33a5800",
@@ -2478,15 +3277,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0976
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-e315f61ea13e",
@@ -2523,15 +3336,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09760001
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-39dc0ed4af16",
@@ -2568,15 +3395,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09760001
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-7268353492e6",
@@ -2613,15 +3454,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-25185c6f3dc7",
@@ -2658,15 +3513,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-7b4a306eb555",
@@ -2703,15 +3572,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-9230d0e5895b",
@@ -2748,15 +3631,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-4f7874d3fc3a",
@@ -2793,15 +3690,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-015a003a56f7",
@@ -2838,15 +3749,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0704b10ac773",
@@ -2883,15 +3808,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09819999
+        ],
+        "pMean": [
+          1.8657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-199cebc14584",
@@ -2928,15 +3867,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09760001
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-dbca8b06103d",
@@ -2973,15 +3926,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09760001
+        ],
+        "pMean": [
+          1.8511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-2dc7bb0a08f8",
@@ -3018,15 +3985,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-5f257d38674a",
@@ -3063,15 +4044,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.101
+        ],
+        "pMean": [
+          1.9204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-54869b02d75c",
@@ -3108,15 +4103,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.101
+        ],
+        "pMean": [
+          1.9204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-accbe4365bc7",
@@ -3153,15 +4162,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1009
+        ],
+        "pMean": [
+          1.9192
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-999b5a14e9ee",
@@ -3198,15 +4221,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-b9076f786aec",
@@ -3243,15 +4280,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-925a5038bb37",
@@ -3288,15 +4339,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-51df668f4bc8",
@@ -3333,15 +4398,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-66e7bf7ae283",
@@ -3378,15 +4457,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1007
+        ],
+        "pMean": [
+          1.9168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-9f814c153866",
@@ -3423,15 +4516,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0991
+        ],
+        "pMean": [
+          1.8828
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-8d53a587df1a",
@@ -3468,15 +4575,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1009
+        ],
+        "pMean": [
+          1.9192
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f0059d842a7c",
@@ -3513,15 +4634,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.101
+        ],
+        "pMean": [
+          1.9204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-bddfab758efe",
@@ -3558,15 +4693,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.101
+        ],
+        "pMean": [
+          1.9204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-12bf158fbc7f",
@@ -3608,15 +4757,36 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8591,
+          14.734,
+          16.346
+        ],
+        "p50": [
+          0.0955,
+          1.8175,
+          3.6698,
+          3.7229
+        ],
+        "pMean": [
+          33.5
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-d7c767ec641e",
@@ -3664,11 +4834,6 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        2009,
-        2010,
-        2012
-      ],
       "startupYears": [
         2009,
         2010,
@@ -3676,7 +4841,51 @@
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.09009999,
+          1.5152,
+          1.8226,
+          3.3841,
+          3.7922,
+          4.4329,
+          6.5614,
+          13.535,
+          35.62,
+          54.29
+        ],
+        "p50": [
+          -1.769513e-08,
+          9.313226e-10,
+          0.0225,
+          0.1691,
+          0.2032,
+          0.376,
+          0.4207,
+          0.7281,
+          1.109,
+          1.5048,
+          2.8606,
+          6.024,
+          8.896,
+          24.95
+        ],
+        "pMean": [
+          -1.229346e-07,
+          -2.980232e-08,
+          25.723,
+          224.72
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 14,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-d99d56b321d4",
@@ -3713,15 +4922,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1137
+        ],
+        "p50": [
+          0.4046
+        ],
+        "pMean": [
+          0.72
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0454e84c69f4",
@@ -3758,15 +4983,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0417
+        ],
+        "p50": [
+          0.144
+        ],
+        "pMean": [
+          0.2507
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-4de8b90859f8",
@@ -3803,15 +5044,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1378
+        ],
+        "p50": [
+          0.4973
+        ],
+        "pMean": [
+          0.8947001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-8273908ed6fa",
@@ -3848,15 +5105,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Repsol* (50%); Talos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.566
+        ],
+        "p50": [
+          2.2182
+        ],
+        "pMean": [
+          4.222
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-5f997de3cb14",
@@ -3893,15 +5166,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0014
+        ],
+        "p50": [
+          0.0059
+        ],
+        "pMean": [
+          0.0473
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-fe7bb84574df",
@@ -3938,15 +5227,29 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0301
+        ],
+        "pMean": [
+          0.5723001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-f2b62e75c8d0",
@@ -3983,15 +5286,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0874
+        ],
+        "pMean": [
+          1.656
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-66e1a319c4db",
@@ -4028,15 +5345,29 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0309
+        ],
+        "pMean": [
+          0.5864
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-dc8cabebbdde",
@@ -4073,15 +5404,29 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0201
+        ],
+        "pMean": [
+          0.3818
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-0778fc61a647",
@@ -4118,15 +5463,29 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2060
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0199
+        ],
+        "pMean": [
+          0.377
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-8fca890b2367",
@@ -4163,15 +5522,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.08769999
+        ],
+        "pMean": [
+          1.6696
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-86dd65a3b328",
@@ -4208,15 +5581,29 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0874
+        ],
+        "pMean": [
+          1.657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-327812a354c4",
@@ -4261,16 +5648,49 @@
         2007,
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008,
         2009
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0432,
+          10.1,
+          23.47,
+          42.59,
+          196.43,
+          293.19
+        ],
+        "p50": [
+          0.0048,
+          2.526,
+          2.606,
+          4.08,
+          4.503,
+          4.732,
+          7.349,
+          32.57,
+          35.29,
+          49.11
+        ],
+        "pMean": [
+          36.7,
+          40.54,
+          66.15,
+          317.6
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 10,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-af4140b294a9",
@@ -4307,15 +5727,31 @@
       "discoveryYears": [
         1900
       ],
-      "approvalYears": [
-        1976
-      ],
       "startupYears": [
         1996
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2609
+        ],
+        "p50": [
+          0.1347
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-bf5e6bdd8f91",
@@ -4352,15 +5788,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Repsol* (50%); Talos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.6210001
+        ],
+        "pMean": [
+          11.7818
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-cadf4406cfde",
@@ -4397,15 +5847,29 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Repsol* (50%); Talos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.02
+        ],
+        "pMean": [
+          0.3808
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-b5c28e5e3abe",
@@ -4442,15 +5906,29 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Repsol* (50%); Talos Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.02
+        ],
+        "pMean": [
+          0.3808
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "repsol-88ce1e95d4f2",
@@ -4487,15 +5965,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Repsol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

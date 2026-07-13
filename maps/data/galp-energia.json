@@ -52,17 +52,34 @@
         2034,
         2100
       ],
-      "approvalYears": [
-        2037,
-        2100
-      ],
       "startupYears": [
         2041,
         2100
       ],
       "ownerships": [
         "Galp Energia SA* (80%); Inter Oil Ltd (10%); Namcor (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0166
+        ],
+        "p50": [
+          0.1407,
+          6.1925
+        ],
+        "pMean": [
+          1.589,
+          117.6607
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "galp-energia-05272292203a",
@@ -100,17 +117,35 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2029,
-        2035
-      ],
       "startupYears": [
         2033,
         2039
       ],
       "ownerships": [
         "Galp Energia SA* (80%); Inter Oil Ltd (10%); Namcor (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07,
+          84.77801
+        ],
+        "p50": [
+          -1.525879e-05,
+          310.75
+        ],
+        "pMean": [
+          -3.051758e-05,
+          341.72
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "galp-energia-c4d4c5c43ef1",
@@ -147,15 +182,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Galp Energia SA* (41.2%); Equator Exploration (46.3%); ANP-STP (12.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.3043
+        ],
+        "pMean": [
+          5.7992
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "galp-energia-fad8c77ab559",
@@ -192,15 +241,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Galp Energia SA* (45%); Shell (45%); ANP-STP (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0345
+        ],
+        "pMean": [
+          0.6573001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

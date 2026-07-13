@@ -53,17 +53,33 @@
         1965,
         2100
       ],
-      "approvalYears": [
-        2001,
-        2100
-      ],
       "startupYears": [
         2005,
         2102
       ],
       "ownerships": [
         "Staatsolie Maatschappij Suriname NV* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.023
+        ],
+        "p50": [
+          0.0299,
+          0.8674
+        ],
+        "pMean": [
+          0.568
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "staatsolie-maatschappij-suriname-41f7cce56a24",
@@ -100,15 +116,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Staatsolie Maatschappij Suriname NV* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0278
+        ],
+        "pMean": [
+          0.528
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "staatsolie-maatschappij-suriname-3dbe10b10712",
@@ -145,15 +175,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1978
-      ],
       "startupYears": [
         1982
       ],
       "ownerships": [
         "Staatsolie Maatschappij Suriname NV* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          22.43
+        ],
+        "p50": [
+          18.15
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

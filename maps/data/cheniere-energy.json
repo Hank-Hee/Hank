@@ -54,10 +54,6 @@
         2021,
         2022
       ],
-      "approvalYears": [
-        2022,
-        2025
-      ],
       "startupYears": [
         2025,
         2026,
@@ -65,7 +61,25 @@
       ],
       "ownerships": [
         "Cheniere Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0,
+          7.212162e-06
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 9,
+          "p50": 9,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cheniere-energy-e0baa22e153e",
@@ -103,10 +117,6 @@
         2011,
         2016
       ],
-      "approvalYears": [
-        2014,
-        2018
-      ],
       "startupYears": [
         2018,
         2019,
@@ -114,7 +124,24 @@
       ],
       "ownerships": [
         "Cheniere Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cheniere-energy-ce104a0722a1",
@@ -156,13 +183,6 @@
         2011,
         2016
       ],
-      "approvalYears": [
-        2012,
-        2015,
-        2019,
-        2028,
-        2031
-      ],
       "startupYears": [
         2016,
         2017,
@@ -173,7 +193,26 @@
       ],
       "ownerships": [
         "Cheniere Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

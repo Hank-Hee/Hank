@@ -50,15 +50,31 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1956
-      ],
       "startupYears": [
         1956
       ],
       "ownerships": [
         "Shirvan Operating Company* (0%); Global Energy Azerbaijan Limited (80%); SOCAR (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.3365
+        ],
+        "p50": [
+          6.663
+        ],
+        "pMean": [
+          0.3366
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

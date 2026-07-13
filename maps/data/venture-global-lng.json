@@ -51,10 +51,6 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2025,
-        2026
-      ],
       "startupYears": [
         2027,
         2028,
@@ -62,7 +58,31 @@
       ],
       "ownerships": [
         "Venture Global LNG* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.854534e-07,
+          -3.576279e-07,
+          0,
+          3.099442e-06,
+          3.308058e-06
+        ],
+        "p50": [
+          -7.450581e-06,
+          -6.079674e-06,
+          0,
+          2.801418e-06
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 36,
+          "p50": 36,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "venture-global-lng-83499d3cb436",
@@ -99,15 +119,30 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Venture Global LNG* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          5.252659e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 12,
+          "p50": 12,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "venture-global-lng-52ac3803cae7",
@@ -145,16 +180,34 @@
         2013,
         2018
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2024,
         2025
       ],
       "ownerships": [
         "Venture Global LNG* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -4.907255e-06,
+          -1.367182e-06,
+          0,
+          1.378357e-06
+        ],
+        "p50": [
+          -3.271474e-06,
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 24,
+          "p50": 24,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "venture-global-lng-6d6bcf54bcfe",
@@ -191,15 +244,32 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Venture Global LNG* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -9.089708e-07,
+          0
+        ],
+        "p50": [
+          -2.682209e-06,
+          0,
+          2.682209e-06
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 18,
+          "p50": 18,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

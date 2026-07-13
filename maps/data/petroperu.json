@@ -50,15 +50,27 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-2da7f21d62c8",
@@ -95,15 +107,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.192
+        ],
+        "p50": [
+          0.691
+        ],
+        "pMean": [
+          1.1858
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-e079d839595b",
@@ -140,15 +168,27 @@
       "discoveryYears": [
         1953
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-62ffa1704723",
@@ -185,15 +225,27 @@
       "discoveryYears": [
         1946
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-280c049ea198",
@@ -230,15 +282,27 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-08857a71350e",
@@ -275,15 +339,27 @@
       "discoveryYears": [
         1949
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-d69a3d832c04",
@@ -320,15 +396,27 @@
       "discoveryYears": [
         1951
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0025
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-8555d2b16407",
@@ -365,15 +453,27 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.008
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-4fdea809ae99",
@@ -410,15 +510,27 @@
       "discoveryYears": [
         1937
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-7150a958445f",
@@ -455,15 +567,27 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1986
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0048
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-3954eb6083f4",
@@ -500,15 +624,27 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0009
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-fd4224c36b78",
@@ -545,15 +681,29 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1986
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0404
+        ],
+        "p50": [
+          0.0085
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-1450a3e1b518",
@@ -590,15 +740,27 @@
       "discoveryYears": [
         1939
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.002
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-e3d5c5e7539d",
@@ -635,15 +797,27 @@
       "discoveryYears": [
         1929
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0201
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-fa522b25efba",
@@ -680,15 +854,27 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0105
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-51c12fb96aeb",
@@ -725,15 +911,27 @@
       "discoveryYears": [
         1948
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0008
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-01db88a28679",
@@ -770,15 +968,29 @@
       "discoveryYears": [
         1901
       ],
-      "approvalYears": [
-        1904
-      ],
       "startupYears": [
         1905
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6209
+        ],
+        "p50": [
+          0.0504
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-fe24b90d2d6d",
@@ -815,15 +1027,27 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0111
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-a312f9015c2f",
@@ -860,15 +1084,31 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0032
+        ],
+        "p50": [
+          0.0006
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-bde9dd9fe692",
@@ -905,15 +1145,27 @@
       "discoveryYears": [
         1929
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-221dba2a9a30",
@@ -950,15 +1202,27 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0239
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-0eac84c8c070",
@@ -995,15 +1259,27 @@
       "discoveryYears": [
         1946
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2005
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0013
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-f4a50c76cebf",
@@ -1040,15 +1316,27 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0025
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-820a66d1edb2",
@@ -1085,15 +1373,27 @@
       "discoveryYears": [
         1943
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-4244d38c9b80",
@@ -1130,15 +1430,27 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-72d5e69165cd",
@@ -1175,15 +1487,27 @@
       "discoveryYears": [
         1939
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.005
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-2dc9f2d27b1e",
@@ -1220,15 +1544,27 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-210dab53e998",
@@ -1265,15 +1601,27 @@
       "discoveryYears": [
         1950
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0009
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-5757c7930bcf",
@@ -1310,15 +1658,27 @@
       "discoveryYears": [
         1947
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0039
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-c0903dec3899",
@@ -1355,17 +1715,35 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2033,
-        2034
-      ],
       "startupYears": [
         2034,
         2035
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.066,
+          3.01
+        ],
+        "p50": [
+          7.43,
+          19.81
+        ],
+        "pMean": [
+          1.62,
+          9.18
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "petroperu-48bc44bafe26",
@@ -1402,15 +1780,27 @@
       "discoveryYears": [
         1950
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Petroperu* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0008
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -50,15 +50,29 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Frontera Resources* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.176
+        ],
+        "p50": [
+          0.0283
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "frontera-energy-30f0e2a0f0e4",
@@ -95,15 +109,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Frontera Resources* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "frontera-energy-718723f0dbfe",
@@ -140,15 +170,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Frontera Resources* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1204
+        ],
+        "p50": [
+          0.0232
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "frontera-energy-c0aaf551bc99",
@@ -185,15 +231,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1988
       ],
       "ownerships": [
         "Frontera Resources* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1414
+        ],
+        "p50": [
+          0.1987
+        ],
+        "pMean": [
+          0.0502
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "frontera-energy-2c7dbca2e1b1",
@@ -230,15 +292,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        1999
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Frontera Resources* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.1033
+        ],
+        "p50": [
+          2.9737
+        ],
+        "pMean": [
+          0.9466
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

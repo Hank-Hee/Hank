@@ -50,15 +50,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Canacol Energy* (50%); ONGC (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0614
+        ],
+        "p50": [
+          0.2382
+        ],
+        "pMean": [
+          1.5874
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-1a483ee64e46",
@@ -95,15 +111,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.006
+        ],
+        "p50": [
+          1.691
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-49b3898c1e45",
@@ -140,15 +170,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6761
+        ],
+        "p50": [
+          5.206
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-57f63760b730",
@@ -185,15 +229,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4319
+        ],
+        "p50": [
+          0.1251
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-7da4c8a21636",
@@ -230,15 +288,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.82
+        ],
+        "p50": [
+          0.9960001
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-40c2ba1e7d4a",
@@ -292,17 +364,6 @@
         2021,
         2037
       ],
-      "approvalYears": [
-        2007,
-        2010,
-        2014,
-        2016,
-        2017,
-        2020,
-        2021,
-        2027,
-        2039
-      ],
       "startupYears": [
         2008,
         2011,
@@ -316,7 +377,50 @@
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.001,
+          0.0072,
+          0.034,
+          0.038,
+          0.167,
+          0.243,
+          0.448,
+          0.452,
+          0.7453,
+          1.3505,
+          1.78,
+          2.339
+        ],
+        "p50": [
+          0,
+          0.0009999992,
+          0.0042,
+          0.0072,
+          0.009099999,
+          0.2955,
+          0.519,
+          0.558,
+          0.9153,
+          1.6705,
+          1.809,
+          3.39
+        ],
+        "pMean": [
+          0,
+          0.0287,
+          1.94
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 12,
+          "p50": 12,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-ff6b35de20a8",
@@ -353,15 +457,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0022
+        ],
+        "pMean": [
+          0.0196
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-a9480e413df7",
@@ -401,18 +519,34 @@
         2023,
         2024
       ],
-      "approvalYears": [
-        2023,
-        2024,
-        2025
-      ],
       "startupYears": [
         2023,
         2027
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2426,
+          2.28,
+          2.3
+        ],
+        "p50": [
+          0.0813,
+          2.6,
+          2.81
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-fb2fa82d73d6",
@@ -449,15 +583,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0091
+        ],
+        "p50": [
+          0.0071
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-7a856e861818",
@@ -494,15 +642,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0136
+        ],
+        "p50": [
+          0.05510001
+        ],
+        "pMean": [
+          0.3706
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-9d09f56ec1cb",
@@ -539,15 +703,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.553
+        ],
+        "p50": [
+          0.447
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-95de5c851e5e",
@@ -587,17 +765,31 @@
         2017,
         2019
       ],
-      "approvalYears": [
-        2018,
-        2019
-      ],
       "startupYears": [
         2018,
         2019
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002,
+          4.243
+        ],
+        "p50": [
+          4.866
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-d7e99290e23b",
@@ -637,17 +829,35 @@
         1984,
         2029
       ],
-      "approvalYears": [
-        1997,
-        2032
-      ],
       "startupYears": [
         2000,
         2035
       ],
       "ownerships": [
         "Canacol Energy* (27.5%); Ecopetrol (72.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0437,
+          4.927
+        ],
+        "p50": [
+          0.1703,
+          3.0423
+        ],
+        "pMean": [
+          0.4217,
+          1.1356
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-33821e843827",
@@ -684,15 +894,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3574
+        ],
+        "p50": [
+          0.1617
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-12d5c3622163",
@@ -729,15 +953,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.945
+        ],
+        "p50": [
+          1.15
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-80ab75d0cdf6",
@@ -787,14 +1025,6 @@
         2024,
         2031
       ],
-      "approvalYears": [
-        2020,
-        2022,
-        2023,
-        2025,
-        2026,
-        2032
-      ],
       "startupYears": [
         2020,
         2022,
@@ -805,7 +1035,37 @@
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021,
+          0.272,
+          0.349,
+          0.752,
+          1.221,
+          1.916
+        ],
+        "p50": [
+          0.0087,
+          0.117,
+          0.253,
+          0.361,
+          1.13,
+          1.7042
+        ],
+        "pMean": [
+          0.0593,
+          1.54
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-b5c4cdd00e43",
@@ -842,15 +1102,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0081
+        ],
+        "p50": [
+          0.0348
+        ],
+        "pMean": [
+          0.2363
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-e45c3c5f8ebd",
@@ -887,15 +1163,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0192
+        ],
+        "p50": [
+          0.0861
+        ],
+        "pMean": [
+          0.5939
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-6fa8323ed8aa",
@@ -932,15 +1224,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2015
-      ],
       "startupYears": [
         2015
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          30.34
+        ],
+        "p50": [
+          22.982
+        ],
+        "pMean": [
+          0.0883
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-29e1ab1a548b",
@@ -977,15 +1285,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0708
+        ],
+        "p50": [
+          0.2922
+        ],
+        "pMean": [
+          1.9683
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-9a59a479839f",
@@ -1022,15 +1346,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0463
+        ],
+        "p50": [
+          0.1851
+        ],
+        "pMean": [
+          1.2397
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-3b05b28c3f77",
@@ -1067,15 +1407,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3499
+        ],
+        "p50": [
+          0.9855
+        ],
+        "pMean": [
+          1.177
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-8b045631a001",
@@ -1112,15 +1468,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0339
+        ],
+        "p50": [
+          0.1354
+        ],
+        "pMean": [
+          0.9049
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-bd6dd8ae8d11",
@@ -1157,15 +1529,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0529
+        ],
+        "p50": [
+          0.231
+        ],
+        "pMean": [
+          1.5768
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "canacol-energy-8a4848ec1e80",
@@ -1202,15 +1590,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Canacol Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.808
+        ],
+        "p50": [
+          1.954
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

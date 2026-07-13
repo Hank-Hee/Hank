@@ -50,15 +50,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pampa Energia* (55%); Other partner(s) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038
+        ],
+        "p50": [
+          0.0111
+        ],
+        "pMean": [
+          0.0326
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-22381d09168e",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pampa Energia* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0037
+        ],
+        "p50": [
+          0.011
+        ],
+        "pMean": [
+          0.0326
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-731ccef000c5",
@@ -143,17 +175,35 @@
         1973,
         2013
       ],
-      "approvalYears": [
-        2002,
-        2039
-      ],
       "startupYears": [
         2006,
         2041
       ],
       "ownerships": [
         "Pampa Energia* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.5991
+        ],
+        "p50": [
+          8.940697e-08,
+          0.2864001
+        ],
+        "pMean": [
+          3.72529e-09,
+          2.980232e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-a85c4c0f8357",
@@ -195,11 +245,6 @@
         2005,
         2052
       ],
-      "approvalYears": [
-        2005,
-        2006,
-        2053
-      ],
       "startupYears": [
         2006,
         2053
@@ -207,7 +252,31 @@
       "ownerships": [
         "Pampa Energia* (100%)",
         "Pampa Energia* (45.55%); YPF (54.45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0982,
+          13.947,
+          50.8751
+        ],
+        "p50": [
+          0.3604,
+          2.8681,
+          6.9912
+        ],
+        "pMean": [
+          0,
+          1.1465
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-f21c1884dc68",
@@ -248,17 +317,35 @@
         2001,
         2028
       ],
-      "approvalYears": [
-        2038,
-        2041
-      ],
       "startupYears": [
         2043,
         2045
       ],
       "ownerships": [
         "Pampa Energia* (85%); Gas y Petroleo del Neuquen (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08,
+          0.0268
+        ],
+        "p50": [
+          0,
+          0.08269999
+        ],
+        "pMean": [
+          0,
+          0.2457
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-ccbb095c1dd8",
@@ -295,15 +382,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Pampa Energia* (85%); Gas y Petroleo del Neuquen (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.539026e-08
+        ],
+        "p50": [
+          3.911555e-08
+        ],
+        "pMean": [
+          3.539026e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-2f1acffd7ca8",
@@ -340,15 +443,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2067
       ],
       "ownerships": [
         "Pampa Energia* (85%); Other partner(s) (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0035
+        ],
+        "p50": [
+          0.0111
+        ],
+        "pMean": [
+          0.033
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-fe76d9497f66",
@@ -385,15 +504,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pampa Energia* (45.55%); YPF (54.45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-c0581dfcae04",
@@ -430,15 +565,31 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1995
       ],
       "ownerships": [
         "Pampa Energia* (45.55%); YPF (54.45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4873999
+        ],
+        "p50": [
+          0.2889
+        ],
+        "pMean": [
+          -7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-d37333809ebe",
@@ -486,11 +637,6 @@
         2018,
         2026
       ],
-      "approvalYears": [
-        2013,
-        2019,
-        2027
-      ],
       "startupYears": [
         2014,
         2019,
@@ -499,7 +645,49 @@
       "ownerships": [
         "Pampa Energia* (100%)",
         "Pampa Energia* (45.55%); YPF (54.45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.92,
+          15.8672,
+          25.33,
+          39.793,
+          49.2,
+          51.08,
+          65.9213,
+          75.224,
+          139.74
+        ],
+        "p50": [
+          0.0172,
+          0.769,
+          1.7622,
+          2.811,
+          4.4207,
+          5.67,
+          7.3275,
+          12.3,
+          18.806,
+          24.1017,
+          34.93,
+          40.76,
+          125.76
+        ],
+        "pMean": [
+          0.1543,
+          216.855,
+          366.85,
+          1131.89
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 9,
+          "p50": 13,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pampa-energia-c58f9e61a000",
@@ -536,15 +724,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pampa Energia* (55%); Other partner(s) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

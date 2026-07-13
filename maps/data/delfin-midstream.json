@@ -52,17 +52,32 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2027,
-        2046
-      ],
       "startupYears": [
         2030,
         2051
       ],
       "ownerships": [
         "Delfin Midstream* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

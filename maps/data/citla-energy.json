@@ -50,15 +50,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Citla Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0129
+        ],
+        "p50": [
+          0.052
+        ],
+        "pMean": [
+          0.3216
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

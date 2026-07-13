@@ -50,15 +50,29 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Mubadala Energy* (80%); Harbour Energy (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          95.217
+        ],
+        "p50": [
+          153.876
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-e482cf080a59",
@@ -96,15 +110,34 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Mubadala Energy* (80%); Harbour Energy (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          174.84
+        ],
+        "p50": [
+          0,
+          232.2
+        ],
+        "pMean": [
+          0,
+          92.501
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-7c5aaf08c75b",
@@ -141,15 +174,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Mubadala Energy* (80%); Harbour Energy (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0357
+        ],
+        "p50": [
+          0.0935
+        ],
+        "pMean": [
+          0.1028
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-a8630daf24ac",
@@ -186,15 +235,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Mubadala Energy* (80%); Harbour Energy (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1543
+        ],
+        "p50": [
+          0.4786
+        ],
+        "pMean": [
+          0.5955
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-d4030542d578",
@@ -231,15 +296,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Mubadala Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.01
+        ],
+        "p50": [
+          66.3263
+        ],
+        "pMean": [
+          104.337
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-487cf2545b21",
@@ -276,15 +357,29 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          219.734
+        ],
+        "p50": [
+          53.491
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-3600ee9c24ba",
@@ -321,15 +416,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1627
+        ],
+        "p50": [
+          0.4627
+        ],
+        "pMean": [
+          0.7108
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "mubadala-energy-66ac801456a0",
@@ -379,14 +490,6 @@
         2018,
         2022
       ],
-      "approvalYears": [
-        2028,
-        2033,
-        2036,
-        2037,
-        2039,
-        2040
-      ],
       "startupYears": [
         2030,
         2033,
@@ -398,7 +501,41 @@
       ],
       "ownerships": [
         "Mubadala Energy* (55%); Petronas (25%); Shell (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -8.642673e-07,
+          -2.384186e-07,
+          -2.160668e-07,
+          -4.470348e-08,
+          0
+        ],
+        "p50": [
+          -9.536743e-07,
+          -8.34465e-07,
+          -4.768372e-07,
+          0,
+          3.72529e-09,
+          1.490116e-08,
+          4.824251e-07
+        ],
+        "pMean": [
+          -1.549721e-06,
+          -7.450581e-09,
+          0,
+          4.768372e-07,
+          8.493662e-07,
+          1.013279e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

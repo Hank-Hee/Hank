@@ -51,15 +51,29 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1968
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.853
+        ],
+        "p50": [
+          0.6566001
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-6470c9fabbf2",
@@ -99,11 +113,6 @@
         2010,
         2011
       ],
-      "approvalYears": [
-        2011,
-        2018,
-        2021
-      ],
       "startupYears": [
         2011,
         2018,
@@ -111,7 +120,28 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.927,
+          15.2153,
+          29.534
+        ],
+        "p50": [
+          0.5056,
+          10.9257,
+          69.812
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-a9c44c443a8b",
@@ -148,15 +178,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.402
+        ],
+        "p50": [
+          8.342
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-4aeb482e4f43",
@@ -193,15 +237,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1987
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1135
+        ],
+        "p50": [
+          0.5442
+        ],
+        "pMean": [
+          0.099
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c1ec8388380a",
@@ -241,17 +301,34 @@
         1981,
         2029
       ],
-      "approvalYears": [
-        1982,
-        2041
-      ],
       "startupYears": [
         1982,
         2044
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.011,
+          12.6872
+        ],
+        "p50": [
+          0.0428,
+          10.1515
+        ],
+        "pMean": [
+          0.286
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8f197a6bf48b",
@@ -288,15 +365,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0147
+        ],
+        "pMean": [
+          0.2812
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1e1b47a589e7",
@@ -333,15 +424,29 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2015
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1327
+        ],
+        "p50": [
+          0.118
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5d14cd74480c",
@@ -378,15 +483,29 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7901
+        ],
+        "p50": [
+          0.7472
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-116946bc5bd3",
@@ -423,15 +542,31 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.97
+        ],
+        "p50": [
+          5.624
+        ],
+        "pMean": [
+          0.122
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-25fe33f83a98",
@@ -468,15 +603,27 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1991
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.07430001
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5a7597fdf336",
@@ -513,15 +660,29 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1990
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.5075
+        ],
+        "p50": [
+          1.6825
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9af469d49787",
@@ -558,15 +719,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011
+        ],
+        "p50": [
+          0.0186
+        ],
+        "pMean": [
+          0.2905
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-da7174f5adb8",
@@ -603,15 +780,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          2.384186e-07
+        ],
+        "pMean": [
+          4.172325e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e89d5b9c1334",
@@ -651,17 +844,34 @@
         2014,
         2029
       ],
-      "approvalYears": [
-        2030,
-        2036
-      ],
       "startupYears": [
         2031,
         2038
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0,
+          0.017
+        ],
+        "pMean": [
+          0,
+          0.3228
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f3f19a4a84d8",
@@ -701,17 +911,33 @@
         1962,
         2029
       ],
-      "approvalYears": [
-        1964,
-        2039
-      ],
       "startupYears": [
         1964,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6652
+        ],
+        "p50": [
+          0.0584,
+          0.1913
+        ],
+        "pMean": [
+          1.1101
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0f3c145dfff7",
@@ -748,15 +974,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1973
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4287
+        ],
+        "p50": [
+          0.0765
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7be18c6d8b9a",
@@ -793,15 +1033,31 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Ecopetrol* (51%); CPVEN (49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09
+        ],
+        "p50": [
+          -2.980232e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7b8509319340",
@@ -838,15 +1094,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0239
+        ],
+        "p50": [
+          0.1339
+        ],
+        "pMean": [
+          0.9834
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-97d9c70b04dc",
@@ -891,13 +1163,6 @@
         2014,
         2032
       ],
-      "approvalYears": [
-        2011,
-        2012,
-        2033,
-        2037,
-        2044
-      ],
       "startupYears": [
         2011,
         2012,
@@ -907,7 +1172,35 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.259629e-09,
+          0.0454,
+          0.8696,
+          91.147
+        ],
+        "p50": [
+          0,
+          0.0043,
+          0.1968,
+          0.7435,
+          87.604
+        ],
+        "pMean": [
+          0,
+          0.0808,
+          0.2574
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 5,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e2ef0c9df7ab",
@@ -944,15 +1237,31 @@
       "discoveryYears": [
         1943
       ],
-      "approvalYears": [
-        1946
-      ],
       "startupYears": [
         1947
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          24.4144
+        ],
+        "p50": [
+          20.3218
+        ],
+        "pMean": [
+          0.2594
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2af472c39c11",
@@ -989,15 +1298,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4996
+        ],
+        "p50": [
+          1.9586
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-bfe09c14d99d",
@@ -1034,15 +1357,29 @@
       "discoveryYears": [
         1941
       ],
-      "approvalYears": [
-        1944
-      ],
       "startupYears": [
         1945
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          21.193
+        ],
+        "p50": [
+          13.6082
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-b6b09bab0f24",
@@ -1079,15 +1416,27 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1991
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0771
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0ed5947e9616",
@@ -1124,15 +1473,29 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1991
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          68.65001
+        ],
+        "p50": [
+          55.9
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-efa4b139a69d",
@@ -1169,15 +1532,29 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        1973
-      ],
       "startupYears": [
         1976
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          124.542
+        ],
+        "p50": [
+          88.974
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8799af0f5061",
@@ -1214,15 +1591,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0008
+        ],
+        "p50": [
+          0.0031
+        ],
+        "pMean": [
+          0.0213
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-51f475e8d3d8",
@@ -1259,15 +1652,27 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        1981
-      ],
       "startupYears": [
         1981
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0114
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f507952dd96c",
@@ -1304,15 +1709,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.011
+        ],
+        "p50": [
+          0.0426
+        ],
+        "pMean": [
+          0.2858
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-44f630fa9041",
@@ -1352,17 +1773,33 @@
         1989,
         2029
       ],
-      "approvalYears": [
-        1996,
-        2035
-      ],
       "startupYears": [
         1999,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1024
+        ],
+        "p50": [
+          0.0064,
+          0.0164
+        ],
+        "pMean": [
+          0.313
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9bea70674f19",
@@ -1403,11 +1840,6 @@
         1990,
         2029
       ],
-      "approvalYears": [
-        1983,
-        2006,
-        2035
-      ],
       "startupYears": [
         1986,
         2009,
@@ -1415,7 +1847,29 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.1385,
+          45.106
+        ],
+        "p50": [
+          0.0483,
+          15.6025,
+          30.195
+        ],
+        "pMean": [
+          0.9163
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-85922d08cb0f",
@@ -1452,15 +1906,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0082
+        ],
+        "p50": [
+          0.0443
+        ],
+        "pMean": [
+          0.3356
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2f3c12bc7ee8",
@@ -1497,15 +1967,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1970
-      ],
       "startupYears": [
         1971
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0832
+        ],
+        "p50": [
+          0.1314
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-072427339150",
@@ -1545,17 +2029,33 @@
         1956,
         2029
       ],
-      "approvalYears": [
-        1957,
-        2032
-      ],
       "startupYears": [
         1957,
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0152
+        ],
+        "p50": [
+          0.0138,
+          0.225
+        ],
+        "pMean": [
+          0.2631
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-6b7845d6f953",
@@ -1592,15 +2092,31 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1965
-      ],
       "startupYears": [
         1965
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.8276
+        ],
+        "p50": [
+          0.7297999
+        ],
+        "pMean": [
+          -7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-20230b659ba3",
@@ -1637,15 +2153,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1455
+        ],
+        "pMean": [
+          2.7545
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-3ac20f4d2168",
@@ -1682,15 +2212,27 @@
       "discoveryYears": [
         1925
       ],
-      "approvalYears": [
-        1942
-      ],
       "startupYears": [
         1945
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0841
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e652456fd49a",
@@ -1727,15 +2269,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-522aef658b9e",
@@ -1772,15 +2330,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0207
+        ],
+        "p50": [
+          0.0825
+        ],
+        "pMean": [
+          0.5519
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f17297e94cdf",
@@ -1817,15 +2391,31 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-496a4e5e0188",
@@ -1862,15 +2452,29 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        1960
-      ],
       "startupYears": [
         1960
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3043
+        ],
+        "p50": [
+          0.0127
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1bab60575a47",
@@ -1907,15 +2511,29 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0083
+        ],
+        "p50": [
+          0.0083
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-81cd0d4c3328",
@@ -1952,15 +2570,29 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.544
+        ],
+        "p50": [
+          1.65
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d90a212ee21a",
@@ -2000,17 +2632,34 @@
         1973,
         2029
       ],
-      "approvalYears": [
-        1993,
-        2032
-      ],
       "startupYears": [
         1996,
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0092,
+          33.1428
+        ],
+        "p50": [
+          0.1065,
+          7.9911
+        ],
+        "pMean": [
+          1.5821
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-ce1c5f6c914e",
@@ -2047,15 +2696,29 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1993
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.7579
+        ],
+        "p50": [
+          2.6223
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-3334a478d40c",
@@ -2092,15 +2755,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0067
+        ],
+        "p50": [
+          0.07879999
+        ],
+        "pMean": [
+          1.1743
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-842e60081b85",
@@ -2137,15 +2816,29 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.6904
+        ],
+        "p50": [
+          2.4486
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-eb4d85fe095b",
@@ -2182,15 +2875,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6432
+        ],
+        "p50": [
+          0.2989
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-6a60996f14e0",
@@ -2227,17 +2934,32 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1963,
-        2000
-      ],
       "startupYears": [
         1963,
         2003
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0381,
+          1.2446
+        ],
+        "p50": [
+          0.4037,
+          0.6896999
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cacd87ce13fb",
@@ -2274,15 +2996,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0353
+        ],
+        "p50": [
+          0.139
+        ],
+        "pMean": [
+          0.9283
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7496e9040680",
@@ -2319,15 +3057,29 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1957
-      ],
       "startupYears": [
         1957
       ],
       "ownerships": [
         "Ecopetrol* (34%); Ismocol de Colombia SA (28.38%); Joshi Technologies (27.72%); Parko Services SA (4.95%); Petcar (4.95%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0905
+        ],
+        "p50": [
+          0.1076
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-affc45879565",
@@ -2364,15 +3116,29 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5b86b054e802",
@@ -2409,15 +3175,29 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3619
+        ],
+        "p50": [
+          0.2435
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-a6baf723a219",
@@ -2454,15 +3234,29 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1999
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.0495
+        ],
+        "p50": [
+          2.6194
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-36f7ed4577a1",
@@ -2499,15 +3293,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0254
+        ],
+        "p50": [
+          0.0718
+        ],
+        "pMean": [
+          0.064
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cde312abdc85",
@@ -2544,15 +3354,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1987
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6303999
+        ],
+        "p50": [
+          0.1202
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d8c57d7574ff",
@@ -2589,15 +3413,29 @@
       "discoveryYears": [
         1945
       ],
-      "approvalYears": [
-        1947
-      ],
       "startupYears": [
         1947
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.9238
+        ],
+        "p50": [
+          1.1122
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-289ea0107cde",
@@ -2634,15 +3472,29 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1957
-      ],
       "startupYears": [
         1957
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5565
+        ],
+        "p50": [
+          0.4855
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0dd34edcb51e",
@@ -2679,15 +3531,29 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1995
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0972
+        ],
+        "p50": [
+          0.1284
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1fa76a688290",
@@ -2724,15 +3590,29 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.273
+        ],
+        "p50": [
+          2.665
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-ac96f227428b",
@@ -2776,12 +3656,6 @@
         2017,
         2023
       ],
-      "approvalYears": [
-        2031,
-        2033,
-        2040,
-        2043
-      ],
       "startupYears": [
         2035,
         2036,
@@ -2790,7 +3664,27 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0,
+          1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5cf312af28fc",
@@ -2827,15 +3721,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.2591
+        ],
+        "pMean": [
+          4.9253
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cbc38a7124c4",
@@ -2872,15 +3780,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.167
+        ],
+        "p50": [
+          9.4352
+        ],
+        "pMean": [
+          8.867899
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-433a88fd561b",
@@ -2917,15 +3841,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-bac6ff7e9dc1",
@@ -2970,11 +3910,6 @@
         1973,
         2029
       ],
-      "approvalYears": [
-        1976,
-        1977,
-        2036
-      ],
       "startupYears": [
         1977,
         1979,
@@ -2982,7 +3917,31 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.214,
+          7.76,
+          20.07
+        ],
+        "p50": [
+          0.6335,
+          1.796,
+          4.24
+        ],
+        "pMean": [
+          0.201,
+          1.7984
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0ec4b7ff3c3f",
@@ -3022,17 +3981,34 @@
         2007,
         2030
       ],
-      "approvalYears": [
-        2010,
-        2031
-      ],
       "startupYears": [
         2011,
         2032
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0028,
+          0.7718
+        ],
+        "p50": [
+          0.0114,
+          0.5381
+        ],
+        "pMean": [
+          0.07660001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2ba4e614991e",
@@ -3069,15 +4045,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        1987
-      ],
       "startupYears": [
         1987
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.9094
+        ],
+        "p50": [
+          2.2555
+        ],
+        "pMean": [
+          0.5452999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-371b5f06a501",
@@ -3114,15 +4106,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.739
+        ],
+        "p50": [
+          0.5735
+        ],
+        "pMean": [
+          0.0563
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-b22b530598d2",
@@ -3159,15 +4167,29 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.059
+        ],
+        "p50": [
+          0.0352
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-af77f4eeac97",
@@ -3204,15 +4226,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.463
+        ],
+        "p50": [
+          0.458
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cc3133407c9a",
@@ -3252,17 +4288,34 @@
         1918,
         2029
       ],
-      "approvalYears": [
-        1921,
-        2039
-      ],
       "startupYears": [
         1922,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (63%); SierraCol Energy (37%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0311,
+          26.7053
+        ],
+        "p50": [
+          0.119,
+          9.1033
+        ],
+        "pMean": [
+          0.7919
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0915c6232314",
@@ -3299,15 +4352,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.017
+        ],
+        "p50": [
+          0.0444
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8c8d0a392b40",
@@ -3344,15 +4411,29 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.8608
+        ],
+        "p50": [
+          2.0413
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-798b7bf8eebe",
@@ -3389,15 +4470,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0164
+        ],
+        "pMean": [
+          0.3131
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-02392154ba0d",
@@ -3434,15 +4529,29 @@
       "discoveryYears": [
         1924
       ],
-      "approvalYears": [
-        1926
-      ],
       "startupYears": [
         1926
       ],
       "ownerships": [
         "Ecopetrol* (63%); SierraCol Energy (37%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          78.7102
+        ],
+        "p50": [
+          25.7742
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-55d5969d7ee1",
@@ -3479,15 +4588,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ecopetrol* (63%); SierraCol Energy (37%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0766
+        ],
+        "p50": [
+          0.3085001
+        ],
+        "pMean": [
+          2.0781
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c872e0c25ddc",
@@ -3524,15 +4649,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.4157
+        ],
+        "p50": [
+          1.384
+        ],
+        "pMean": [
+          0.0213
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cb2b37809106",
@@ -3569,15 +4710,29 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0843
+        ],
+        "p50": [
+          0.0551
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-bef316e3756f",
@@ -3616,17 +4771,34 @@
         1986,
         2014
       ],
-      "approvalYears": [
-        2009,
-        2014
-      ],
       "startupYears": [
         2012,
         2014
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1087,
+          0.8216,
+          0.8867999
+        ],
+        "p50": [
+          0.053,
+          0.2401,
+          0.9081
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-fd669944c5f2",
@@ -3666,17 +4838,34 @@
         1986,
         2029
       ],
-      "approvalYears": [
-        2001,
-        2032
-      ],
       "startupYears": [
         2004,
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0353,
+          0.1848
+        ],
+        "p50": [
+          0.0265,
+          0.1375
+        ],
+        "pMean": [
+          0.9175
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f6a7b84afd5c",
@@ -3713,15 +4902,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1995
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0125
+        ],
+        "p50": [
+          0.0011
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-493df7024dfe",
@@ -3758,15 +4961,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0139
+        ],
+        "pMean": [
+          0.2634
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-26c6e2f3fa44",
@@ -3803,15 +5020,29 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6027
+        ],
+        "p50": [
+          0.097
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cad8b422e3c9",
@@ -3851,17 +5082,34 @@
         1965,
         2029
       ],
-      "approvalYears": [
-        1967,
-        2039
-      ],
       "startupYears": [
         1967,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0331,
+          1.4306
+        ],
+        "p50": [
+          0.124,
+          0.128
+        ],
+        "pMean": [
+          0.8528
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-131765d0b39e",
@@ -3898,15 +5146,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.009199999
+        ],
+        "p50": [
+          0.0348
+        ],
+        "pMean": [
+          0.2317
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1de4351bd818",
@@ -3943,15 +5207,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.053
+        ],
+        "p50": [
+          0.2189
+        ],
+        "pMean": [
+          1.4757
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7c9734a70a1e",
@@ -3988,15 +5268,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0078
+        ],
+        "pMean": [
+          0.1472
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-adcc5a96f57c",
@@ -4033,15 +5327,31 @@
       "discoveryYears": [
         1955
       ],
-      "approvalYears": [
-        1959
-      ],
       "startupYears": [
         1960
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.8176
+        ],
+        "p50": [
+          2.6796
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d3e9e83561e6",
@@ -4078,15 +5388,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7077
+        ],
+        "p50": [
+          0.3576
+        ],
+        "pMean": [
+          0.041
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0c3ec73676d5",
@@ -4123,15 +5449,29 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.511
+        ],
+        "p50": [
+          0.4736
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c6389e2f0dc1",
@@ -4168,15 +5508,31 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.8679
+        ],
+        "p50": [
+          104.973
+        ],
+        "pMean": [
+          1.918
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0edbce866e44",
@@ -4213,15 +5569,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.411
+        ],
+        "p50": [
+          0.0308
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8f7b538a7861",
@@ -4258,15 +5628,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0284
+        ],
+        "p50": [
+          0.1343
+        ],
+        "pMean": [
+          0.9331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-176d9931b599",
@@ -4303,15 +5689,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-371c929d7c09",
@@ -4348,15 +5750,29 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5972
+        ],
+        "p50": [
+          0.1768
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8b7659ddbaa6",
@@ -4393,15 +5809,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1996
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.7107
+        ],
+        "p50": [
+          4.1468
+        ],
+        "pMean": [
+          1.259
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-4c2d47e9df48",
@@ -4438,15 +5870,31 @@
       "discoveryYears": [
         1994
       ],
-      "approvalYears": [
-        1996
-      ],
       "startupYears": [
         1996
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5255001
+        ],
+        "p50": [
+          0.6126
+        ],
+        "pMean": [
+          0.0592
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f2d8374befbb",
@@ -4483,15 +5931,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038
+        ],
+        "p50": [
+          0.0451
+        ],
+        "pMean": [
+          0.6711
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5eb129e45021",
@@ -4528,15 +5992,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Ecopetrol* (15%); TotalEnergies (64%); Repsol (21%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0766
+        ],
+        "p50": [
+          0.2996
+        ],
+        "pMean": [
+          2.001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2b410b831337",
@@ -4587,19 +6067,6 @@
         2025,
         2029
       ],
-      "approvalYears": [
-        1998,
-        2001,
-        2002,
-        2003,
-        2005,
-        2025,
-        2034,
-        2035,
-        2037,
-        2044,
-        2046
-      ],
       "startupYears": [
         2001,
         2002,
@@ -4614,7 +6081,37 @@
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.2213,
+          0.3213,
+          0.4117,
+          0.4915,
+          0.983,
+          11.3837
+        ],
+        "p50": [
+          0,
+          0.029,
+          1.825,
+          7.754301
+        ],
+        "pMean": [
+          0,
+          0.5527999,
+          0.9702
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 11,
+          "p50": 8,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8dbd2a872f03",
@@ -4651,15 +6148,29 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "Ecopetrol* (50%); ANH (Colombia) (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2494
+        ],
+        "p50": [
+          0.139
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-85cea0fdd839",
@@ -4696,15 +6207,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.72529e-09
+        ],
+        "p50": [
+          4.470348e-08
+        ],
+        "pMean": [
+          3.576279e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9221ab92d73d",
@@ -4741,15 +6268,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2001
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0639
+        ],
+        "p50": [
+          0.8677
+        ],
+        "pMean": [
+          0.1776
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-045408385056",
@@ -4786,15 +6329,31 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.8686
+        ],
+        "p50": [
+          8.7154
+        ],
+        "pMean": [
+          1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-184e070710f3",
@@ -4831,15 +6390,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0043
+        ],
+        "p50": [
+          0.0171
+        ],
+        "pMean": [
+          0.1147
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0cf25ae77dd1",
@@ -4876,15 +6451,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-75e52de4194f",
@@ -4921,15 +6512,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2015
-      ],
       "startupYears": [
         2015
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.87
+        ],
+        "p50": [
+          0.359
+        ],
+        "pMean": [
+          0.0176
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-13d739aa5146",
@@ -4969,11 +6576,6 @@
         1963,
         2029
       ],
-      "approvalYears": [
-        1965,
-        2000,
-        2035
-      ],
       "startupYears": [
         1966,
         2003,
@@ -4981,7 +6583,32 @@
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.2058,
+          2.3346
+        ],
+        "p50": [
+          0.0428,
+          0.07520001,
+          0.4154,
+          0.8752
+        ],
+        "pMean": [
+          0.2586,
+          0.814,
+          1.4292
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-649dffc42f70",
@@ -5021,17 +6648,33 @@
         1951,
         2029
       ],
-      "approvalYears": [
-        1953,
-        2039
-      ],
       "startupYears": [
         1953,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4217
+        ],
+        "p50": [
+          0.0138,
+          0.0491
+        ],
+        "pMean": [
+          0.2631
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2b3092385255",
@@ -5068,15 +6711,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.49246e-10
+        ],
+        "p50": [
+          2.328306e-09
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-4ca00f27bf4f",
@@ -5113,15 +6772,29 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1990
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2948
+        ],
+        "p50": [
+          0.293
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c6dcb8f4ebbd",
@@ -5158,15 +6831,29 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3509
+        ],
+        "p50": [
+          0.2811
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-321f431f949d",
@@ -5206,17 +6893,34 @@
         1954,
         2029
       ],
-      "approvalYears": [
-        1956,
-        2034
-      ],
       "startupYears": [
         1956,
         2037
       ],
       "ownerships": [
         "Ecopetrol* (34%); Ismocol de Colombia SA (28.38%); Joshi Technologies (27.72%); Parko Services SA (4.95%); Petcar (4.95%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          26.2891
+        ],
+        "p50": [
+          0.05970001,
+          13.3706
+        ],
+        "pMean": [
+          0.6933,
+          1.1389
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9976e26de2f8",
@@ -5256,17 +6960,35 @@
         1988,
         2029
       ],
-      "approvalYears": [
-        1992,
-        2034
-      ],
       "startupYears": [
         1995,
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021,
+          0.1884
+        ],
+        "p50": [
+          0.0244,
+          0.1019
+        ],
+        "pMean": [
+          0.0053,
+          0.3631
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-33f48e947111",
@@ -5303,15 +7025,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1977
-      ],
       "startupYears": [
         1980
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0772
+        ],
+        "p50": [
+          0.0409
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5f6881938154",
@@ -5348,15 +7084,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-365162facc6e",
@@ -5397,17 +7149,34 @@
         1995,
         2029
       ],
-      "approvalYears": [
-        2000,
-        2032
-      ],
       "startupYears": [
         2001,
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0018,
+          109.1357
+        ],
+        "p50": [
+          0.0213,
+          34.2495
+        ],
+        "pMean": [
+          0.3163
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7a34c1300401",
@@ -5444,15 +7213,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4523
+        ],
+        "p50": [
+          0.2464
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-05f03ec2be35",
@@ -5489,15 +7272,29 @@
       "discoveryYears": [
         1956
       ],
-      "approvalYears": [
-        1958
-      ],
       "startupYears": [
         1958
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.0226
+        ],
+        "p50": [
+          1.9006
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-adbd178d2af1",
@@ -5534,15 +7331,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Ecopetrol* (50%); Lewis Energy Group (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0022
+        ],
+        "pMean": [
+          0.042
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7cde74a51baa",
@@ -5582,17 +7393,33 @@
         1980,
         2029
       ],
-      "approvalYears": [
-        1982,
-        2036
-      ],
       "startupYears": [
         1982,
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.01,
+          0.029
+        ],
+        "p50": [
+          0.1126
+        ],
+        "pMean": [
+          0.7513
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-527a36d43db5",
@@ -5629,15 +7456,29 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.3162
+        ],
+        "p50": [
+          1.5482
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-63694cccf30d",
@@ -5674,15 +7515,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1990
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.07489999
+        ],
+        "p50": [
+          0.0696
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-31c1270fe8b9",
@@ -5723,17 +7580,35 @@
         2008,
         2029
       ],
-      "approvalYears": [
-        2039,
-        2041
-      ],
       "startupYears": [
         2042,
         2044
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.607703e-08,
+          0.036
+        ],
+        "p50": [
+          0,
+          0.1429
+        ],
+        "pMean": [
+          0,
+          0.9572999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d4c543bf35b8",
@@ -5773,17 +7648,34 @@
         1960,
         2029
       ],
-      "approvalYears": [
-        1962,
-        2039
-      ],
       "startupYears": [
         1962,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0334,
+          4.802
+        ],
+        "p50": [
+          0.1289,
+          0.3189
+        ],
+        "pMean": [
+          0.8587999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-b44104b30e4c",
@@ -5823,17 +7715,33 @@
         1991,
         2029
       ],
-      "approvalYears": [
-        1995,
-        2036
-      ],
       "startupYears": [
         1998,
         2044
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003,
+          0.0046
+        ],
+        "p50": [
+          0.053
+        ],
+        "pMean": [
+          0.7895001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-20b41ba0c208",
@@ -5873,17 +7781,32 @@
         1991,
         2029
       ],
-      "approvalYears": [
-        1993,
-        2035
-      ],
       "startupYears": [
         1993,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0438
+        ],
+        "p50": [
+          0.0165
+        ],
+        "pMean": [
+          0.3125
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-ce30d7bbe7e7",
@@ -5920,15 +7843,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0981
+        ],
+        "pMean": [
+          1.8666
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-a340f688053d",
@@ -5965,15 +7902,29 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.0174
+        ],
+        "p50": [
+          0.4912
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0b23c44d54d7",
@@ -6010,15 +7961,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4655
+        ],
+        "p50": [
+          1.6714
+        ],
+        "pMean": [
+          0.0924
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d6e14af3dbb2",
@@ -6058,17 +8025,34 @@
         1988,
         2029
       ],
-      "approvalYears": [
-        1992,
-        2034
-      ],
       "startupYears": [
         1994,
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038,
+          1.0397
+        ],
+        "p50": [
+          0.0446,
+          0.4283
+        ],
+        "pMean": [
+          0.6623
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-12ac248700b4",
@@ -6105,15 +8089,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0076
+        ],
+        "p50": [
+          0.0409
+        ],
+        "pMean": [
+          0.3112
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9e79d63479a1",
@@ -6153,17 +8153,34 @@
         1987,
         2029
       ],
-      "approvalYears": [
-        1990,
-        2035
-      ],
       "startupYears": [
         1993,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.52
+        ],
+        "p50": [
+          0.0499,
+          0.802
+        ],
+        "pMean": [
+          0.09199999,
+          0.948
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-6727943ca6e8",
@@ -6200,15 +8217,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0013
+        ],
+        "pMean": [
+          0.0263
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-948e4af67515",
@@ -6245,15 +8276,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          279.3
+        ],
+        "p50": [
+          170.49
+        ],
+        "pMean": [
+          9.87
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7f1817b90fe0",
@@ -6295,18 +8342,36 @@
         2012,
         2026
       ],
-      "approvalYears": [
-        2013,
-        2015,
-        2030
-      ],
       "startupYears": [
         2016,
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011,
+          0.9351,
+          15.9726
+        ],
+        "p50": [
+          0.0042,
+          0.1988,
+          3.0746
+        ],
+        "pMean": [
+          0.0286
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-cafba99484af",
@@ -6343,15 +8408,27 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        1971
-      ],
       "startupYears": [
         1971
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0194
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-474e8a3456c8",
@@ -6388,15 +8465,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        1984
-      ],
       "startupYears": [
         1985
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.695
+        ],
+        "p50": [
+          11.1671
+        ],
+        "pMean": [
+          2.793
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-46d6414b8683",
@@ -6433,15 +8526,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (68.33%); SierraCol Energy (16.67%); Perenco (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0083
+        ],
+        "p50": [
+          0.042
+        ],
+        "pMean": [
+          0.292
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-67e8201cfb64",
@@ -6478,15 +8587,29 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1966
-      ],
       "startupYears": [
         1966
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.738
+        ],
+        "p50": [
+          0.2739
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-db808f176cca",
@@ -6523,15 +8646,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.129244e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-31c351fc3504",
@@ -6571,17 +8710,34 @@
         1985,
         2029
       ],
-      "approvalYears": [
-        1987,
-        2034
-      ],
       "startupYears": [
         1987,
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0018,
+          1.577
+        ],
+        "p50": [
+          0.0212,
+          1.3478
+        ],
+        "pMean": [
+          0.3168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1a50598797b4",
@@ -6621,17 +8777,33 @@
         1985,
         2029
       ],
-      "approvalYears": [
-        1986,
-        2032
-      ],
       "startupYears": [
         1986,
         2035
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6609
+        ],
+        "p50": [
+          0.0568,
+          0.5655
+        ],
+        "pMean": [
+          1.0804
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-91afd46bda62",
@@ -6668,15 +8840,31 @@
       "discoveryYears": [
         1949
       ],
-      "approvalYears": [
-        1951
-      ],
       "startupYears": [
         1951
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5353
+        ],
+        "p50": [
+          0.2139
+        ],
+        "pMean": [
+          0.0401
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-a783432cfbf0",
@@ -6713,15 +8901,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1915
+        ],
+        "p50": [
+          0.0123
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-827efd78fcd0",
@@ -6758,15 +8962,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2101
-      ],
       "startupYears": [
         2101
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [
+          0.0024
+        ],
+        "pMean": [
+          0.0184
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-56fd963d3ff6",
@@ -6803,15 +9023,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0084
+        ],
+        "p50": [
+          0.0367
+        ],
+        "pMean": [
+          0.2497
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9ba9390e1280",
@@ -6848,15 +9084,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0105
+        ],
+        "p50": [
+          0.045
+        ],
+        "pMean": [
+          0.3068
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1e324bd1c222",
@@ -6893,15 +9145,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0786
+        ],
+        "p50": [
+          0.3432
+        ],
+        "pMean": [
+          2.3406
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c1f452b78639",
@@ -6938,15 +9206,29 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1970
-      ],
       "startupYears": [
         1970
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0362
+        ],
+        "p50": [
+          0.0294
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9b7afcac5e11",
@@ -6983,15 +9265,27 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        1971
-      ],
       "startupYears": [
         1972
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0042
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-624068ef14f0",
@@ -7028,15 +9322,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        1988
-      ],
       "startupYears": [
         1989
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.3379
+        ],
+        "p50": [
+          1.4844
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0648b877c0d2",
@@ -7073,15 +9381,29 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0483
+        ],
+        "p50": [
+          0.0322
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0b9ec242f2ed",
@@ -7118,15 +9440,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011
+        ],
+        "p50": [
+          0.0207
+        ],
+        "pMean": [
+          0.3296
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-4eac46a368d1",
@@ -7163,15 +9501,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.18
+        ],
+        "p50": [
+          46.9688
+        ],
+        "pMean": [
+          48.852
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5176ebc906ee",
@@ -7211,17 +9565,33 @@
         1963,
         2029
       ],
-      "approvalYears": [
-        2019,
-        2041
-      ],
       "startupYears": [
         2028,
         2044
       ],
       "ownerships": [
         "Ecopetrol* (60%); SierraCol Energy (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          19.374
+        ],
+        "p50": [
+          0.0416,
+          65.667
+        ],
+        "pMean": [
+          0.7938
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e19814d8feaf",
@@ -7258,15 +9628,29 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        1972
-      ],
       "startupYears": [
         1972
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.9798
+        ],
+        "p50": [
+          3.5667
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-fd50a8764f7d",
@@ -7303,15 +9687,29 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.312
+        ],
+        "p50": [
+          0.1457
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-f6b0a966d00d",
@@ -7348,15 +9746,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.3481
+        ],
+        "p50": [
+          1.2086
+        ],
+        "pMean": [
+          0.1237
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-c4f41dbd279d",
@@ -7393,15 +9807,29 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        1985
-      ],
       "startupYears": [
         1985
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1285
+        ],
+        "p50": [
+          0.0133
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1f9275e2b6c8",
@@ -7438,15 +9866,29 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1984
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5611
+        ],
+        "p50": [
+          0.2724
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-7685b5c0945e",
@@ -7486,17 +9928,34 @@
         1940,
         2029
       ],
-      "approvalYears": [
-        1944,
-        2041
-      ],
       "startupYears": [
         1945,
         2044
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.028,
+          3.1188
+        ],
+        "p50": [
+          0.1077,
+          1.2487
+        ],
+        "pMean": [
+          0.717
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-ae6d7bf435da",
@@ -7533,15 +9992,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8968
+        ],
+        "p50": [
+          0.8766
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-1f2cb9a33136",
@@ -7581,17 +10054,33 @@
         1961,
         2100
       ],
-      "approvalYears": [
-        1963,
-        2100
-      ],
       "startupYears": [
         1963,
         2100
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.3223
+        ],
+        "p50": [
+          0.0138,
+          0.9197001
+        ],
+        "pMean": [
+          0.2635
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-64342847d1db",
@@ -7628,15 +10117,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0505
+        ],
+        "p50": [
+          0.1915
+        ],
+        "pMean": [
+          1.2714
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-0ba96be392b9",
@@ -7676,17 +10181,33 @@
         1987,
         2029
       ],
-      "approvalYears": [
-        1988,
-        2035
-      ],
       "startupYears": [
         1988,
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1924
+        ],
+        "p50": [
+          0.0164,
+          0.0168
+        ],
+        "pMean": [
+          0.313
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-afbc81ea091e",
@@ -7723,15 +10244,29 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        1989
-      ],
       "startupYears": [
         1990
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1809
+        ],
+        "p50": [
+          0.0327
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e326cf8fd019",
@@ -7771,17 +10306,33 @@
         1998,
         2029
       ],
-      "approvalYears": [
-        2000,
-        2035
-      ],
       "startupYears": [
         2001,
         2041
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038,
+          0.0249
+        ],
+        "p50": [
+          0.044
+        ],
+        "pMean": [
+          0.6539
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5a56a3d7a5fd",
@@ -7818,15 +10369,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0385
+        ],
+        "pMean": [
+          0.7304
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-ae1ce0c5fa83",
@@ -7863,15 +10428,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011
+        ],
+        "p50": [
+          0.0046
+        ],
+        "pMean": [
+          0.0308
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-608300b30d97",
@@ -7908,15 +10489,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0012
+        ],
+        "p50": [
+          0.0045
+        ],
+        "pMean": [
+          0.0308
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-5b5fa881dded",
@@ -7953,15 +10550,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.006
+        ],
+        "p50": [
+          0.0234
+        ],
+        "pMean": [
+          0.1553
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-63f78b46c1d7",
@@ -7998,15 +10611,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0011
+        ],
+        "p50": [
+          0.0042
+        ],
+        "pMean": [
+          0.0286
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-3b6538b8cb25",
@@ -8043,15 +10672,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0006
+        ],
+        "p50": [
+          0.0025
+        ],
+        "pMean": [
+          0.0169
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-e20c0c0cbf9b",
@@ -8088,15 +10733,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ecopetrol* (51%); CPVEN (49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0014
+        ],
+        "pMean": [
+          0.0262
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-d79e3a098346",
@@ -8133,15 +10792,29 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2016
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0256
+        ],
+        "p50": [
+          0.0143
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-2d39b7f64432",
@@ -8178,15 +10851,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0013
+        ],
+        "pMean": [
+          0.0263
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-6cfdbcfb476f",
@@ -8226,17 +10913,34 @@
         1987,
         2029
       ],
-      "approvalYears": [
-        1990,
-        2034
-      ],
       "startupYears": [
         1991,
         2039
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0596
+        ],
+        "p50": [
+          0.0521,
+          0.6761
+        ],
+        "pMean": [
+          0.1142,
+          0.9902
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-8f2aa461df8b",
@@ -8273,15 +10977,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0074
+        ],
+        "p50": [
+          0.0331
+        ],
+        "pMean": [
+          0.2274
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-18277b36ca06",
@@ -8318,15 +11038,29 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "Ecopetrol* (50%); Parex Resources (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0246
+        ],
+        "p50": [
+          0.0004
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ecopetrol-9e805eae25ea",
@@ -8363,15 +11097,29 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Ecopetrol* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0031
+        ],
+        "pMean": [
+          0.0587
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

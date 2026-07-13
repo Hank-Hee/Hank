@@ -75,23 +75,6 @@
         2007,
         2008
       ],
-      "approvalYears": [
-        1978,
-        1980,
-        1982,
-        1984,
-        1985,
-        1987,
-        1993,
-        2004,
-        2005,
-        2009,
-        2010,
-        2011,
-        2037,
-        2038,
-        2041
-      ],
       "startupYears": [
         1980,
         1981,
@@ -110,7 +93,67 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2.980232e-08,
+          4.365575e-08,
+          4.470348e-08,
+          0.0293,
+          1.0125,
+          1.6191,
+          2.2248,
+          3.1231,
+          3.518,
+          4.2461,
+          6.876299,
+          12.2241,
+          13.3515,
+          16.8884,
+          28.0891,
+          67.97701
+        ],
+        "p50": [
+          -3.576279e-07,
+          0,
+          8.102506e-08,
+          1.043081e-07,
+          0.0009,
+          0.3182999,
+          0.3924999,
+          0.7177,
+          0.7991,
+          0.908,
+          1.1685,
+          1.1699,
+          1.7764,
+          3.0255,
+          8.8992,
+          9.774799,
+          41.01
+        ],
+        "pMean": [
+          -7.450581e-09,
+          -3.346941e-10,
+          0,
+          1.490116e-08,
+          2.980232e-08,
+          4.470348e-08,
+          8.428469e-08,
+          7.748604e-07,
+          0.1993,
+          0.4422
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 17,
+          "p50": 17,
+          "pMean": 11,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-73d63ac7000f",
@@ -147,15 +190,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.288
+        ],
+        "p50": [
+          3.82
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e5d2dfce9203",
@@ -192,15 +249,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-13e139f978b9",
@@ -274,31 +347,6 @@
         2027,
         2030
       ],
-      "approvalYears": [
-        1948,
-        1958,
-        1959,
-        1965,
-        1967,
-        1968,
-        1970,
-        1971,
-        1973,
-        1974,
-        1984,
-        1986,
-        1987,
-        1990,
-        1996,
-        2001,
-        2014,
-        2027,
-        2030,
-        2036,
-        2038,
-        2039,
-        2040
-      ],
       "startupYears": [
         1950,
         1960,
@@ -327,7 +375,91 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08,
+          0,
+          2.980232e-08,
+          5.960464e-08,
+          0.0003,
+          0.0111,
+          0.0311,
+          0.2135,
+          0.2256,
+          0.3241,
+          0.3378,
+          0.43,
+          0.4725,
+          0.4926,
+          0.5296,
+          0.5606,
+          0.7242998,
+          1.0761,
+          1.17,
+          1.2196,
+          3.265,
+          3.4879,
+          3.8896,
+          6.001,
+          9.650001,
+          9.8691,
+          10.632,
+          10.947
+        ],
+        "p50": [
+          -1.192093e-07,
+          0,
+          7.450581e-08,
+          0.0191,
+          0.0198,
+          0.0526,
+          0.09100001,
+          0.09119999,
+          0.1206,
+          0.1332,
+          0.1411,
+          0.187,
+          0.2238,
+          0.6314999,
+          1.0005,
+          1.3198,
+          1.682,
+          2.9105,
+          3.0211,
+          3.253,
+          3.2564,
+          8.476,
+          12.1195,
+          19.46
+        ],
+        "pMean": [
+          -5.364418e-07,
+          -5.960464e-08,
+          -1.338776e-09,
+          -4.656613e-10,
+          0,
+          1.005828e-07,
+          8.34465e-07,
+          5.722046e-06,
+          0.0722,
+          0.3346,
+          0.5811,
+          1.6776,
+          1.898,
+          2.7757,
+          3.528,
+          4.379
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 29,
+          "p50": 26,
+          "pMean": 19,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c295bf189349",
@@ -364,15 +496,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7054
+        ],
+        "p50": [
+          1.2025
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-9099f3c546d6",
@@ -409,15 +555,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0057
+        ],
+        "p50": [
+          0.0215
+        ],
+        "pMean": [
+          0.1349
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2d40a9dfc2c9",
@@ -454,15 +616,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.621
+        ],
+        "p50": [
+          2.4824
+        ],
+        "pMean": [
+          15.917
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-573ea86f9891",
@@ -499,15 +677,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0061
+        ],
+        "p50": [
+          0.0238
+        ],
+        "pMean": [
+          0.1536
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-44069b03a528",
@@ -544,15 +738,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.144
+        ],
+        "p50": [
+          0.4039
+        ],
+        "pMean": [
+          0.5493
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8f6e9359337d",
@@ -589,15 +799,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0091
+        ],
+        "p50": [
+          0.0349
+        ],
+        "pMean": [
+          0.0495
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0a60720092fe",
@@ -634,15 +860,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0162
+        ],
+        "p50": [
+          0.046
+        ],
+        "pMean": [
+          0.0575
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-346a833006b4",
@@ -679,15 +921,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.209
+        ],
+        "p50": [
+          0.8083
+        ],
+        "pMean": [
+          1.3451
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0b09b599a367",
@@ -724,15 +982,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0016
+        ],
+        "p50": [
+          0.0097
+        ],
+        "pMean": [
+          0.0721
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e70dc73805ad",
@@ -769,15 +1043,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0283
+        ],
+        "p50": [
+          0.1153
+        ],
+        "pMean": [
+          0.7124
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f7d706d75589",
@@ -814,15 +1104,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1904
+        ],
+        "pMean": [
+          3.6279
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-266531d1fd28",
@@ -859,15 +1163,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1123
+        ],
+        "pMean": [
+          2.1321
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-07678b2ed2f5",
@@ -904,15 +1222,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1984
+        ],
+        "pMean": [
+          3.7771
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7519fe2fe0bc",
@@ -949,15 +1281,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.109
+        ],
+        "p50": [
+          0.4592
+        ],
+        "pMean": [
+          2.8551
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d67840566647",
@@ -994,15 +1342,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0805
+        ],
+        "pMean": [
+          1.5253
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-45ee08ffa03b",
@@ -1039,15 +1401,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1767
+        ],
+        "pMean": [
+          3.3468
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-6377deb16eee",
@@ -1084,15 +1460,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          1.6334
+        ],
+        "pMean": [
+          31.12
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-1cdfedd352ee",
@@ -1129,15 +1519,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0579
+        ],
+        "p50": [
+          0.2439
+        ],
+        "pMean": [
+          1.5168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7bae4ee7d89d",
@@ -1174,15 +1580,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0607
+        ],
+        "p50": [
+          0.243
+        ],
+        "pMean": [
+          0.4232
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-efacdd4dc387",
@@ -1219,15 +1641,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.55
+        ],
+        "p50": [
+          4.1108
+        ],
+        "pMean": [
+          5.378
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-dab79dcac446",
@@ -1264,15 +1702,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.104
+        ],
+        "p50": [
+          0.2886
+        ],
+        "pMean": [
+          0.3883
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-9bdcc787616f",
@@ -1309,15 +1763,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0777
+        ],
+        "p50": [
+          0.232
+        ],
+        "pMean": [
+          0.3276
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-cc3ea2489d65",
@@ -1354,15 +1824,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0541
+        ],
+        "p50": [
+          0.2161
+        ],
+        "pMean": [
+          0.3778
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4a8495ed9cf2",
@@ -1399,15 +1885,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0565
+        ],
+        "p50": [
+          0.1732
+        ],
+        "pMean": [
+          0.2497
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5184180526a7",
@@ -1444,15 +1946,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.15
+        ],
+        "p50": [
+          0.4184
+        ],
+        "pMean": [
+          0.5651
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c51ef43d48e7",
@@ -1489,15 +2007,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0707
+        ],
+        "p50": [
+          0.2114
+        ],
+        "pMean": [
+          0.2987
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3675e2062c1d",
@@ -1534,15 +2068,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.109
+        ],
+        "p50": [
+          0.3267
+        ],
+        "pMean": [
+          0.4622
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a42b280cef76",
@@ -1579,15 +2129,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.112
+        ],
+        "p50": [
+          0.3351
+        ],
+        "pMean": [
+          0.4739
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f1d4e7c81568",
@@ -1624,15 +2190,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.8
+        ],
+        "p50": [
+          4.77
+        ],
+        "pMean": [
+          6.231
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-48c83297baa0",
@@ -1669,15 +2251,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.117
+        ],
+        "p50": [
+          0.3256
+        ],
+        "pMean": [
+          0.4401
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-72a2c3760178",
@@ -1714,15 +2312,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.33
+        ],
+        "p50": [
+          6.4721
+        ],
+        "pMean": [
+          8.732
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ee029b91022b",
@@ -1759,15 +2373,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.0571
+        ],
+        "p50": [
+          10.591
+        ],
+        "pMean": [
+          5.764
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ccb47643d050",
@@ -1804,15 +2434,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0687
+        ],
+        "p50": [
+          0.275
+        ],
+        "pMean": [
+          0.4795
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-37a9c9060f03",
@@ -1849,15 +2495,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1
+        ],
+        "p50": [
+          0.4001
+        ],
+        "pMean": [
+          0.6991
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e5e39c118e27",
@@ -1894,15 +2556,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0907
+        ],
+        "p50": [
+          0.2629
+        ],
+        "pMean": [
+          0.3629
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3b61c4f163c8",
@@ -1939,15 +2617,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3591
+        ],
+        "p50": [
+          0.771
+        ],
+        "pMean": [
+          0.6102
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ee5f9d660afc",
@@ -1984,15 +2678,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.401
+        ],
+        "p50": [
+          1.2272
+        ],
+        "pMean": [
+          1.7675
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-315180d98053",
@@ -2029,15 +2739,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0438
+        ],
+        "p50": [
+          0.1747
+        ],
+        "pMean": [
+          0.305
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-794a3c7912a7",
@@ -2074,15 +2800,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.9793
+        ],
+        "p50": [
+          13.128
+        ],
+        "pMean": [
+          7.147
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0a5edf0248db",
@@ -2119,15 +2861,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.04
+        ],
+        "p50": [
+          2.8958
+        ],
+        "pMean": [
+          3.906
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f9b425466bee",
@@ -2164,15 +2922,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.129
+        ],
+        "p50": [
+          0.3867
+        ],
+        "pMean": [
+          0.5467
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-6832401ba191",
@@ -2209,15 +2983,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.317
+        ],
+        "p50": [
+          0.8397
+        ],
+        "pMean": [
+          1.098
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-afc8d640a803",
@@ -2258,17 +3048,34 @@
         2021,
         2033
       ],
-      "approvalYears": [
-        2025,
-        2033
-      ],
       "startupYears": [
         2025,
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.89,
+          2.49
+        ],
+        "p50": [
+          2.7,
+          8.1091
+        ],
+        "pMean": [
+          12.177
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2791d55a13e9",
@@ -2305,15 +3112,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.221
+        ],
+        "p50": [
+          0.6391
+        ],
+        "pMean": [
+          0.8846
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-665af063d21c",
@@ -2350,15 +3173,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.178
+        ],
+        "p50": [
+          0.4729
+        ],
+        "pMean": [
+          0.6184
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2d7319c60bb4",
@@ -2395,15 +3234,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.09
+        ],
+        "p50": [
+          0.2763
+        ],
+        "pMean": [
+          0.398
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-be01079e1609",
@@ -2440,15 +3295,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.594
+        ],
+        "p50": [
+          1.7734
+        ],
+        "pMean": [
+          2.503
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7b639b78cbd3",
@@ -2485,15 +3356,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.408
+        ],
+        "p50": [
+          1.1753
+        ],
+        "pMean": [
+          1.6314
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f8c3b7ecaef1",
@@ -2530,15 +3417,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.182
+        ],
+        "p50": [
+          0.6586
+        ],
+        "pMean": [
+          3.9602
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ca0a624f405a",
@@ -2575,15 +3478,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.481
+        ],
+        "p50": [
+          1.7404
+        ],
+        "pMean": [
+          10.4619
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e0f5ca32dd57",
@@ -2620,15 +3539,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.539
+        ],
+        "p50": [
+          2.2063
+        ],
+        "pMean": [
+          13.648
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2fd9ca9304c2",
@@ -2665,15 +3600,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0698
+        ],
+        "p50": [
+          0.2766
+        ],
+        "pMean": [
+          1.6978
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-05749ba3f9e3",
@@ -2710,15 +3661,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.015
+        ],
+        "p50": [
+          0.06840001
+        ],
+        "pMean": [
+          0.4347
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-88fb5f93183a",
@@ -2755,15 +3722,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0951
+        ],
+        "p50": [
+          0.3616
+        ],
+        "pMean": [
+          2.1984
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-01401c8caea1",
@@ -2800,15 +3783,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.75
+        ],
+        "p50": [
+          3.0706
+        ],
+        "pMean": [
+          18.998
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-72716fa24f44",
@@ -2845,15 +3844,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.473
+        ],
+        "p50": [
+          1.8761
+        ],
+        "pMean": [
+          11.499
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2ea416180ac1",
@@ -2890,15 +3905,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.677
+        ],
+        "p50": [
+          2.7712
+        ],
+        "pMean": [
+          17.126
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2948acbf9e5a",
@@ -2935,15 +3966,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.658
+        ],
+        "p50": [
+          2.6889
+        ],
+        "pMean": [
+          16.65
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-574bcbf5f1b0",
@@ -2980,15 +4027,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.493
+        ],
+        "p50": [
+          1.8729
+        ],
+        "pMean": [
+          11.396
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b433e9b7691c",
@@ -3025,15 +4088,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.019
+        ],
+        "p50": [
+          0.08180001
+        ],
+        "pMean": [
+          0.5126
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-277d41dca882",
@@ -3070,15 +4149,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0489
+        ],
+        "p50": [
+          0.2007
+        ],
+        "pMean": [
+          1.2406
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-13607376adf4",
@@ -3115,15 +4210,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0289
+        ],
+        "p50": [
+          0.1143
+        ],
+        "pMean": [
+          0.7016
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f8846545c961",
@@ -3160,15 +4271,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0754
+        ],
+        "p50": [
+          0.2725
+        ],
+        "pMean": [
+          1.6405
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8411884e9a6b",
@@ -3205,15 +4332,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0963
+        ],
+        "p50": [
+          0.4053
+        ],
+        "pMean": [
+          2.5232
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a932af4c636b",
@@ -3250,15 +4393,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.17
+        ],
+        "p50": [
+          4.4381
+        ],
+        "pMean": [
+          26.979
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b735b0d81e1c",
@@ -3295,15 +4454,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0252
+        ],
+        "p50": [
+          0.1032
+        ],
+        "pMean": [
+          0.6383
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-69d66e15a7da",
@@ -3340,15 +4515,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.11
+        ],
+        "p50": [
+          4.408
+        ],
+        "pMean": [
+          27.049
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-6c1a73ab2202",
@@ -3385,15 +4576,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0083
+        ],
+        "p50": [
+          0.0342
+        ],
+        "pMean": [
+          0.2116
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-cd24ac245a32",
@@ -3430,15 +4637,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.961
+        ],
+        "p50": [
+          3.8073
+        ],
+        "pMean": [
+          23.336
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a8b3428da3b8",
@@ -3475,15 +4698,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0866
+        ],
+        "p50": [
+          0.3549
+        ],
+        "pMean": [
+          2.1883
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4652210010d8",
@@ -3520,15 +4759,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.122
+        ],
+        "p50": [
+          0.4989
+        ],
+        "pMean": [
+          3.0862
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ae910d173f19",
@@ -3565,15 +4820,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.27
+        ],
+        "p50": [
+          5.3557
+        ],
+        "pMean": [
+          33.353
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e963a4d927af",
@@ -3610,15 +4881,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1821
+        ],
+        "pMean": [
+          3.4546
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4bbe3c87fb3f",
@@ -3655,15 +4940,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.2076
+        ],
+        "pMean": [
+          3.9383
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-cee72b42a640",
@@ -3700,15 +4999,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1927
+        ],
+        "pMean": [
+          3.6552
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3332bb9468bb",
@@ -3745,15 +5058,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.02
+        ],
+        "p50": [
+          3.1557
+        ],
+        "pMean": [
+          4.554
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f41edc519d01",
@@ -3790,15 +5119,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.119
+        ],
+        "p50": [
+          0.3609
+        ],
+        "pMean": [
+          0.5146
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3aa538ee5c81",
@@ -3835,15 +5180,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.05
+        ],
+        "p50": [
+          3.2486
+        ],
+        "pMean": [
+          4.704
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7b8054003581",
@@ -3880,15 +5241,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.98
+        ],
+        "p50": [
+          5.5857
+        ],
+        "pMean": [
+          7.613
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f67f94d339d5",
@@ -3925,15 +5302,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.83
+        ],
+        "p50": [
+          5.1843
+        ],
+        "pMean": [
+          7.07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a71987a28906",
@@ -3970,15 +5363,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.27
+        ],
+        "p50": [
+          6.4308
+        ],
+        "pMean": [
+          8.767
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-cf36f2cf52e4",
@@ -4015,15 +5424,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.129
+        ],
+        "p50": [
+          0.3649
+        ],
+        "pMean": [
+          0.4974
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-1500e959e94c",
@@ -4060,15 +5485,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.298
+        ],
+        "p50": [
+          0.843
+        ],
+        "pMean": [
+          1.149
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5cb5cc4c915b",
@@ -4105,15 +5546,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.106
+        ],
+        "p50": [
+          0.3145
+        ],
+        "pMean": [
+          0.4436
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0a1bd77662ee",
@@ -4150,15 +5607,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0879
+        ],
+        "p50": [
+          0.2795
+        ],
+        "pMean": [
+          0.4121
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b791563ca81b",
@@ -4195,15 +5668,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0588
+        ],
+        "p50": [
+          0.1867
+        ],
+        "pMean": [
+          0.2754
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-aca53dd8765a",
@@ -4240,15 +5729,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0803
+        ],
+        "p50": [
+          0.2548
+        ],
+        "pMean": [
+          0.3759
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0327d2341bf3",
@@ -4285,15 +5790,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.5977
+        ],
+        "p50": [
+          5.978
+        ],
+        "pMean": [
+          2.742
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-601171ae1a91",
@@ -4330,15 +5851,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.075
+        ],
+        "p50": [
+          0.2383
+        ],
+        "pMean": [
+          0.3512
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2025c394e55d",
@@ -4375,15 +5912,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.191
+        ],
+        "p50": [
+          0.5401
+        ],
+        "pMean": [
+          0.7365
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-de57076dfc19",
@@ -4420,15 +5973,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0984
+        ],
+        "p50": [
+          0.2918
+        ],
+        "pMean": [
+          0.4119
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d478dcba3510",
@@ -4465,15 +6034,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0748
+        ],
+        "p50": [
+          0.2113
+        ],
+        "pMean": [
+          0.2881
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8cce0c96cb9e",
@@ -4510,15 +6095,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.363
+        ],
+        "p50": [
+          1.1553
+        ],
+        "pMean": [
+          1.6994
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8948429901e1",
@@ -4555,15 +6156,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0176
+        ],
+        "p50": [
+          0.0479
+        ],
+        "pMean": [
+          0.064
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e575236ab480",
@@ -4600,15 +6217,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0399
+        ],
+        "p50": [
+          0.1091
+        ],
+        "pMean": [
+          0.1451
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-fb650f5a18d4",
@@ -4645,15 +6278,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.038
+        ],
+        "p50": [
+          0.104
+        ],
+        "pMean": [
+          0.138
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d5162f23220d",
@@ -4690,15 +6339,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0163
+        ],
+        "p50": [
+          0.0476
+        ],
+        "pMean": [
+          0.0664
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e827850b7df6",
@@ -4735,15 +6400,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.236
+        ],
+        "p50": [
+          0.6906
+        ],
+        "pMean": [
+          0.9624
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d603950283db",
@@ -4788,14 +6469,6 @@
         1975,
         2030
       ],
-      "approvalYears": [
-        1964,
-        1970,
-        1974,
-        1975,
-        1976,
-        2037
-      ],
       "startupYears": [
         1965,
         1974,
@@ -4805,7 +6478,37 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.53,
+          2.6291,
+          4.0885,
+          5.4379,
+          15.7791,
+          34.6243
+        ],
+        "p50": [
+          0.6128,
+          1.0736,
+          1.4632,
+          1.6293,
+          2.7857,
+          18.8424
+        ],
+        "pMean": [
+          0.0497,
+          2.346
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f67d1ade2cce",
@@ -4842,15 +6545,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.01
+        ],
+        "pMean": [
+          0.1906
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0e0265c22b13",
@@ -4887,15 +6604,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0145
+        ],
+        "pMean": [
+          0.2756
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-876598e17427",
@@ -4932,15 +6663,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0583
+        ],
+        "p50": [
+          0.2417
+        ],
+        "pMean": [
+          1.5014
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-45ba273087f8",
@@ -4977,15 +6724,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.224
+        ],
+        "p50": [
+          4.824
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-1f17fb07939c",
@@ -5026,17 +6787,35 @@
         1992,
         2015
       ],
-      "approvalYears": [
-        2032,
-        2038
-      ],
       "startupYears": [
         2034,
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.6742
+        ],
+        "p50": [
+          0,
+          11.2744
+        ],
+        "pMean": [
+          0,
+          23.84
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c745510d91ca",
@@ -5129,55 +6908,6 @@
         2029,
         2030
       ],
-      "approvalYears": [
-        1948,
-        1950,
-        1952,
-        1961,
-        1962,
-        1963,
-        1964,
-        1965,
-        1966,
-        1967,
-        1968,
-        1969,
-        1970,
-        1971,
-        1973,
-        1976,
-        1977,
-        1978,
-        1979,
-        1980,
-        1983,
-        1985,
-        1986,
-        1987,
-        1999,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2029,
-        2031,
-        2032,
-        2033,
-        2034,
-        2035,
-        2036,
-        2037,
-        2043,
-        2055
-      ],
       "startupYears": [
         1948,
         1950,
@@ -5224,7 +6954,230 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.29221e-08,
+          0,
+          6.984919e-09,
+          0.0001,
+          0.0002,
+          0.0003,
+          0.0028,
+          0.0031,
+          0.0043,
+          0.0086,
+          0.0143,
+          0.0149,
+          0.0153,
+          0.0307,
+          0.0366,
+          0.03970001,
+          0.0403,
+          0.0626,
+          0.0628,
+          0.0748,
+          0.0899,
+          0.0911,
+          0.09360002,
+          0.0945,
+          0.0957,
+          0.1274,
+          0.1277,
+          0.1464,
+          0.1466,
+          0.1594,
+          0.1741,
+          0.1809,
+          0.189,
+          0.1903,
+          0.198,
+          0.2233,
+          0.2302,
+          0.2398,
+          0.268,
+          0.2711,
+          0.2747,
+          0.3311,
+          0.3455,
+          0.3761,
+          0.3991999,
+          0.401,
+          0.425,
+          0.431,
+          0.4381,
+          0.444,
+          0.445,
+          0.448,
+          0.452,
+          0.454,
+          0.456,
+          0.46,
+          0.465,
+          0.471,
+          0.4779,
+          0.4875,
+          0.489,
+          0.534,
+          0.539,
+          0.5431,
+          0.5571,
+          0.561,
+          0.562,
+          0.579,
+          0.581,
+          0.612,
+          0.6432,
+          0.7406,
+          0.743,
+          0.8213,
+          0.875,
+          1.203,
+          1.2948,
+          1.398,
+          1.404,
+          2.0244,
+          2.1601,
+          2.9365,
+          4.9981,
+          5.1239,
+          5.441101,
+          5.8801,
+          6.383,
+          9.042001,
+          9.262899,
+          11.1777
+        ],
+        "p50": [
+          -7.450581e-09,
+          0,
+          2.561137e-09,
+          0.0001,
+          0.0002,
+          0.0003,
+          0.0004,
+          0.0015,
+          0.0019,
+          0.0036,
+          0.0052,
+          0.0054,
+          0.006700001,
+          0.0074,
+          0.0081,
+          0.0125,
+          0.0126,
+          0.0143,
+          0.0168,
+          0.0218,
+          0.0221,
+          0.0246,
+          0.0261,
+          0.0391,
+          0.044,
+          0.0474,
+          0.0493,
+          0.0568,
+          0.0592,
+          0.06179999,
+          0.0664,
+          0.0678,
+          0.0715,
+          0.0743,
+          0.0771,
+          0.0817,
+          0.08220001,
+          0.09469999,
+          0.1024,
+          0.1202,
+          0.1311,
+          0.1727,
+          0.1743,
+          0.181,
+          0.1844,
+          0.1965001,
+          0.1971,
+          0.239,
+          0.2881,
+          0.355,
+          0.5651001,
+          0.6396,
+          0.7121,
+          0.7607,
+          0.843,
+          0.9244,
+          1.114,
+          1.2278,
+          1.2681,
+          1.3612,
+          1.3716,
+          1.3819,
+          1.3922,
+          1.4024,
+          1.4127,
+          1.4232,
+          1.4438,
+          1.4954,
+          1.571,
+          1.5979,
+          1.6085,
+          1.6804,
+          1.7004,
+          1.729,
+          1.7321,
+          1.9164,
+          2.0232,
+          2.1442,
+          2.4361,
+          2.5256,
+          2.734,
+          3.176,
+          3.345,
+          3.862,
+          5.798501
+        ],
+        "pMean": [
+          -2.980232e-08,
+          -7.450581e-09,
+          -4.423782e-09,
+          -1.862645e-09,
+          -4.656613e-10,
+          -1.164153e-10,
+          0,
+          3.72529e-09,
+          0.109,
+          0.139,
+          0.1443,
+          0.1934,
+          1.5032,
+          1.7949,
+          1.963,
+          1.964,
+          1.981,
+          1.997,
+          2,
+          2.015,
+          2.031,
+          2.051,
+          2.08,
+          2.162,
+          2.25,
+          2.281,
+          2.299,
+          2.368,
+          2.4478,
+          2.451,
+          2.969,
+          3.506
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 96,
+          "p50": 90,
+          "pMean": 48,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-72a7beffa5b1",
@@ -5261,15 +7214,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1018
+        ],
+        "p50": [
+          0.0025
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-865909691a58",
@@ -5313,12 +7280,6 @@
         2023,
         2024
       ],
-      "approvalYears": [
-        2021,
-        2024,
-        2027,
-        2029
-      ],
       "startupYears": [
         2021,
         2024,
@@ -5327,7 +7288,34 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.255,
+          5.8837,
+          6.85,
+          8.99
+        ],
+        "p50": [
+          0,
+          0.655,
+          2.085,
+          7.818999,
+          10.64
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5e4eeb1424af",
@@ -5380,17 +7368,6 @@
         2008,
         2028
       ],
-      "approvalYears": [
-        1979,
-        1981,
-        1988,
-        1998,
-        2001,
-        2006,
-        2009,
-        2039,
-        2041
-      ],
       "startupYears": [
         1979,
         1980,
@@ -5405,7 +7382,44 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.001100004,
+          0.094,
+          0.1053,
+          0.2981,
+          2.732,
+          5.7361,
+          8.6136,
+          10.7753,
+          53.43012
+        ],
+        "p50": [
+          0,
+          0.151,
+          0.3726,
+          0.3819,
+          2.7273,
+          4.076,
+          4.592,
+          15.667
+        ],
+        "pMean": [
+          0,
+          9.536743e-07,
+          2.2871
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 9,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-160054de6f34",
@@ -5442,15 +7456,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -4.768372e-07
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-96c40cc20277",
@@ -5487,15 +7517,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-60883de0ec58",
@@ -5532,15 +7578,29 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          39.57
+        ],
+        "p50": [
+          16.22
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-229aa3ac9e53",
@@ -5577,15 +7637,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-46e52db951ed",
@@ -5622,15 +7698,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a104348a9340",
@@ -5667,15 +7759,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.0516
+        ],
+        "p50": [
+          5.0013
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0a4f535bf994",
@@ -5712,15 +7818,31 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-bfba829be56a",
@@ -5757,15 +7879,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.6663
+        ],
+        "p50": [
+          2.4929
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-65f8e01c8eb5",
@@ -5802,15 +7938,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.9797
+        ],
+        "p50": [
+          9.072001
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f48030d1cc0c",
@@ -5848,17 +7998,35 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2030,
-        2032
-      ],
       "startupYears": [
         2032,
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.450581e-09,
+          0
+        ],
+        "p50": [
+          -4.768372e-07,
+          0
+        ],
+        "pMean": [
+          -2.384186e-07,
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-6a681a8c4156",
@@ -5899,17 +8067,35 @@
         1992,
         1997
       ],
-      "approvalYears": [
-        2004,
-        2038
-      ],
       "startupYears": [
         2006,
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          31.932
+        ],
+        "p50": [
+          -2.384186e-07,
+          10.8041
+        ],
+        "pMean": [
+          0,
+          0.906
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-37bfa5aeef93",
@@ -5966,20 +8152,6 @@
         2011,
         2015
       ],
-      "approvalYears": [
-        1986,
-        1990,
-        1994,
-        2000,
-        2001,
-        2002,
-        2029,
-        2031,
-        2032,
-        2040,
-        2042,
-        2043
-      ],
       "startupYears": [
         1987,
         1991,
@@ -5996,7 +8168,46 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.364418e-07,
+          0,
+          2.087,
+          2.6108,
+          3.3361,
+          4.273,
+          5.0212,
+          8.853,
+          17.522,
+          23.094
+        ],
+        "p50": [
+          0,
+          9.536743e-07,
+          0.108,
+          0.2349,
+          1.381,
+          1.907,
+          2.7484,
+          4.4217,
+          6.78,
+          12.096
+        ],
+        "pMean": [
+          0,
+          0.5209,
+          9.9
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 13,
+          "p50": 13,
+          "pMean": 7,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-33ce01c3eefd",
@@ -6033,15 +8244,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0054
+        ],
+        "p50": [
+          0.0214
+        ],
+        "pMean": [
+          0.1318
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c49e9c8dda1e",
@@ -6096,23 +8323,6 @@
         2024,
         2030
       ],
-      "approvalYears": [
-        1951,
-        1959,
-        1965,
-        1976,
-        1977,
-        1978,
-        1979,
-        1980,
-        1993,
-        2003,
-        2024,
-        2025,
-        2037,
-        2039,
-        2040
-      ],
       "startupYears": [
         1952,
         1960,
@@ -6131,7 +8341,63 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.384186e-07,
+          0.0366,
+          0.2017,
+          0.4394,
+          0.498,
+          0.557,
+          0.6016999,
+          0.682,
+          0.829,
+          1.0879,
+          1.2969,
+          1.6354,
+          3.7272,
+          3.795,
+          3.9259,
+          14.8101,
+          100.676
+        ],
+        "p50": [
+          -4.768372e-07,
+          0.0848,
+          0.09850001,
+          0.2705,
+          0.274,
+          0.3015,
+          0.4495,
+          0.612,
+          0.933,
+          1.5263,
+          1.5902,
+          1.7117,
+          1.811,
+          2.0441,
+          2.071,
+          2.592,
+          3.68,
+          82.645
+        ],
+        "pMean": [
+          -4.768372e-07,
+          0,
+          0.0556,
+          2.199,
+          2.463
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 17,
+          "p50": 18,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-dffbe86c1d16",
@@ -6192,22 +8458,6 @@
         2023,
         2032
       ],
-      "approvalYears": [
-        1980,
-        1985,
-        1986,
-        1987,
-        1988,
-        1990,
-        1991,
-        2007,
-        2009,
-        2013,
-        2019,
-        2029,
-        2035,
-        2042
-      ],
       "startupYears": [
         1982,
         1987,
@@ -6225,7 +8475,53 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.2559,
+          1.0398,
+          1.94,
+          2.1951,
+          3.3873,
+          4.243,
+          5.618199,
+          8.2,
+          16.9909,
+          17.704,
+          18.2381,
+          24.007
+        ],
+        "p50": [
+          0,
+          0.0047,
+          0.1237,
+          0.256,
+          0.766,
+          1.4147,
+          2.517,
+          2.7745,
+          6.2103,
+          8.9398,
+          10.488,
+          11.1023,
+          17.9834
+        ],
+        "pMean": [
+          0,
+          0.0479,
+          0.486,
+          9.208
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 14,
+          "p50": 14,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3b87a92d5469",
@@ -6262,15 +8558,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-1eee422f2b1c",
@@ -6319,14 +8631,6 @@
         2011,
         2016
       ],
-      "approvalYears": [
-        1957,
-        1965,
-        1968,
-        1985,
-        2011,
-        2016
-      ],
       "startupYears": [
         1959,
         1967,
@@ -6337,7 +8641,38 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.018,
+          2.8532,
+          3.7149,
+          4.885099,
+          5.8663,
+          6.007,
+          14.1308
+        ],
+        "p50": [
+          0.4986,
+          2.1659,
+          3.0187,
+          5.2213,
+          5.9391
+        ],
+        "pMean": [
+          0.1166,
+          0.543,
+          0.568
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 5,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c6a3dc304794",
@@ -6374,15 +8709,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          62.71
+        ],
+        "p50": [
+          43.368
+        ],
+        "pMean": [
+          4.1469
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3a901c891852",
@@ -6419,15 +8770,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4cbad6af7a3b",
@@ -6464,15 +8831,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0125
+        ],
+        "p50": [
+          0.0469
+        ],
+        "pMean": [
+          0.2853
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ccecc0768e9e",
@@ -6509,15 +8892,27 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0003
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-16160c5d924a",
@@ -6554,15 +8949,31 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d08524adb64c",
@@ -6606,16 +9017,6 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        1973,
-        1980,
-        1981,
-        1982,
-        1987,
-        1989,
-        2008,
-        2009
-      ],
       "startupYears": [
         1973,
         1982,
@@ -6628,7 +9029,45 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1446,
+          0.2871,
+          1.7811,
+          2.5725,
+          3.5491,
+          4.0479,
+          4.2061,
+          4.2551,
+          4.4394,
+          12.5541
+        ],
+        "p50": [
+          0.0266,
+          0.0706,
+          0.07449999,
+          0.1334,
+          0.5322,
+          2.2161,
+          2.9971,
+          3.3608,
+          3.4532,
+          5.5141
+        ],
+        "pMean": [
+          0.3637,
+          0.5313
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 10,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ca7e7cc78bb6",
@@ -6676,17 +9115,6 @@
         2027,
         2028
       ],
-      "approvalYears": [
-        1972,
-        1974,
-        1975,
-        1978,
-        1979,
-        2008,
-        2030,
-        2034,
-        2035
-      ],
       "startupYears": [
         1972,
         1974,
@@ -6700,7 +9128,49 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0799,
+          0.2385,
+          0.7142,
+          1.42,
+          1.99,
+          2.2733,
+          5.27,
+          11.686,
+          14.823,
+          15.7913,
+          22.1331
+        ],
+        "p50": [
+          0.0123,
+          0.0387,
+          1.164,
+          1.489,
+          1.5332,
+          1.8873,
+          4.0924,
+          5.544,
+          7.1818,
+          14.6546,
+          31.252
+        ],
+        "pMean": [
+          0.0809,
+          5.67,
+          7.47,
+          19.77
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 11,
+          "p50": 11,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4247876d32ce",
@@ -6741,18 +9211,36 @@
         1980,
         1992
       ],
-      "approvalYears": [
-        1990,
-        1992,
-        2018
-      ],
       "startupYears": [
         1993,
         2019
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.001,
+          48.5013,
+          96.94861
+        ],
+        "p50": [
+          10.0834,
+          26.1755
+        ],
+        "pMean": [
+          0,
+          9.313226e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-27ca379ccedb",
@@ -6802,15 +9290,6 @@
         2022,
         2023
       ],
-      "approvalYears": [
-        2004,
-        2009,
-        2021,
-        2023,
-        2028,
-        2029,
-        2033
-      ],
       "startupYears": [
         2006,
         2009,
@@ -6822,7 +9301,41 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08,
+          0.0566,
+          1.8554,
+          9.728,
+          52.481,
+          73.526
+        ],
+        "p50": [
+          0,
+          1.192093e-07,
+          0.3305,
+          1.0989,
+          8.763,
+          22.231,
+          63.5953
+        ],
+        "pMean": [
+          -2.384186e-07,
+          0,
+          0.5115,
+          0.7016,
+          2.86
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b38a64449588",
@@ -6859,15 +9372,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          19.765
+        ],
+        "p50": [
+          5.6532
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a9ee876c7466",
@@ -6907,17 +9434,34 @@
         2017,
         2029
       ],
-      "approvalYears": [
-        2018,
-        2032
-      ],
       "startupYears": [
         2018,
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.588,
+          578.3
+        ],
+        "p50": [
+          1.7528,
+          290.41
+        ],
+        "pMean": [
+          2.483
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d1da17a141e9",
@@ -6955,17 +9499,34 @@
         1982,
         1996
       ],
-      "approvalYears": [
-        2002,
-        2005
-      ],
       "startupYears": [
         2005,
         2006
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.3782,
+          14.4689
+        ],
+        "p50": [
+          0.2736999,
+          15.09
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-3ead5afc9238",
@@ -7002,15 +9563,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.152557e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-70e3fc02ef31",
@@ -7047,15 +9624,29 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9453
+        ],
+        "p50": [
+          0.9283
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f502831fc34e",
@@ -7095,12 +9686,6 @@
         1981,
         1983
       ],
-      "approvalYears": [
-        1977,
-        1978,
-        1981,
-        1984
-      ],
       "startupYears": [
         1978,
         1980,
@@ -7109,7 +9694,33 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.6682,
+          4.0151,
+          4.9401,
+          7.5211
+        ],
+        "p50": [
+          1.459,
+          1.9916,
+          3.0587,
+          5.111
+        ],
+        "pMean": [
+          0.4755,
+          0.7253
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-46c156c48490",
@@ -7146,15 +9757,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-dda957cf7cd1",
@@ -7191,15 +9818,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-33b16abc7ffc",
@@ -7236,15 +9879,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.552
+        ],
+        "p50": [
+          1.375
+        ],
+        "pMean": [
+          1.234
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ab04b19e768d",
@@ -7281,15 +9940,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-be4e7888a3e5",
@@ -7330,17 +10005,35 @@
         2004,
         2023
       ],
-      "approvalYears": [
-        2028,
-        2031
-      ],
       "startupYears": [
         2030,
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          6.784
+        ],
+        "p50": [
+          0,
+          16.5345
+        ],
+        "pMean": [
+          0,
+          12.0815
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-47869341fc4c",
@@ -7377,15 +10070,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.61
+        ],
+        "p50": [
+          4.888
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-89bee20e2982",
@@ -7422,15 +10129,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.99
+        ],
+        "p50": [
+          12.465
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-9480160523a2",
@@ -7496,21 +10217,6 @@
         2013,
         2030
       ],
-      "approvalYears": [
-        1980,
-        1985,
-        1988,
-        1992,
-        2006,
-        2013,
-        2029,
-        2034,
-        2035,
-        2037,
-        2038,
-        2039,
-        2041
-      ],
       "startupYears": [
         1981,
         1985,
@@ -7528,7 +10234,55 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.235174e-08,
+          0,
+          2.142042e-08,
+          2.980232e-08,
+          9.3034,
+          17.3225,
+          43.8061,
+          334.4351,
+          460.3383,
+          779.937
+        ],
+        "p50": [
+          -2.384186e-07,
+          -1.713634e-07,
+          -1.192093e-07,
+          0,
+          8.195639e-08,
+          4.768372e-07,
+          1.232,
+          4.6321,
+          26.81,
+          37.1846,
+          178.033,
+          278.1069,
+          281.815
+        ],
+        "pMean": [
+          0,
+          1.080334e-07,
+          1.490116e-07,
+          4.768372e-07,
+          3.099442e-06,
+          2.9555,
+          14.5574,
+          23.4,
+          24.7523
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 12,
+          "p50": 13,
+          "pMean": 10,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-de46b7482596",
@@ -7565,15 +10319,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8086720e68c9",
@@ -7610,15 +10380,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.940697e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ba744af40bf3",
@@ -7655,15 +10441,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          3.814697e-06
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5cc18d2eb09b",
@@ -7706,17 +10508,34 @@
         2006,
         2007
       ],
-      "approvalYears": [
-        2012,
-        2041
-      ],
       "startupYears": [
         2044,
         2045
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.192093e-07,
+          0.775
+        ],
+        "p50": [
+          4.768372e-07,
+          0.977
+        ],
+        "pMean": [
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-efb00cd31714",
@@ -7757,17 +10576,37 @@
         2012,
         2015
       ],
-      "approvalYears": [
-        2032,
-        2039
-      ],
       "startupYears": [
         2035,
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07,
+          0,
+          3.576279e-07
+        ],
+        "p50": [
+          -9.536743e-07,
+          0,
+          4.768372e-07
+        ],
+        "pMean": [
+          0,
+          1.430511e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c8bccdeec76e",
@@ -7804,15 +10643,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -3.72529e-09
+        ],
+        "pMean": [
+          1.676381e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-aea54cbe79bb",
@@ -7849,15 +10704,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.95
+        ],
+        "p50": [
+          12.9
+        ],
+        "pMean": [
+          10.38
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-34c0b2a37626",
@@ -7894,15 +10765,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -7.450581e-09
+        ],
+        "pMean": [
+          -2.235174e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7e18b3a33fdc",
@@ -7939,15 +10826,29 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.939
+        ],
+        "p50": [
+          0.2991
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c98747561a32",
@@ -7984,15 +10885,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.255
+        ],
+        "p50": [
+          4.85
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-dce80616ddec",
@@ -8029,15 +10944,31 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e24f367250ec",
@@ -8074,15 +11005,31 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e162cbf0c5da",
@@ -8119,15 +11066,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5a9fcb333858",
@@ -8164,15 +11127,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a2075ce6c0f6",
@@ -8209,15 +11188,29 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          75.959
+        ],
+        "p50": [
+          34.0582
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b877812c1c6c",
@@ -8254,15 +11247,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-672070e130cd",
@@ -8299,15 +11308,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-de24eea834a9",
@@ -8344,15 +11369,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4852d0531ed2",
@@ -8389,15 +11430,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.04
+        ],
+        "p50": [
+          5.96
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f2d234c1707d",
@@ -8434,15 +11489,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.516
+        ],
+        "p50": [
+          0.824
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-6cc332dbd7d9",
@@ -8479,15 +11548,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.59
+        ],
+        "p50": [
+          6.45
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8496af33342f",
@@ -8524,15 +11607,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.12
+        ],
+        "p50": [
+          9.807
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-ee1e5a7cd035",
@@ -8591,23 +11688,6 @@
         2023,
         2030
       ],
-      "approvalYears": [
-        1953,
-        1960,
-        1964,
-        1965,
-        1970,
-        1971,
-        1976,
-        2003,
-        2006,
-        2007,
-        2011,
-        2014,
-        2028,
-        2029,
-        2036
-      ],
       "startupYears": [
         1953,
         1963,
@@ -8627,7 +11707,65 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08,
+          0.0413,
+          0.12,
+          0.126,
+          0.1896,
+          0.468,
+          0.694,
+          0.9553,
+          1.1969,
+          1.47,
+          1.829,
+          2.4786,
+          2.7323,
+          3.1229,
+          3.4416,
+          3.62,
+          4.7327,
+          5.5023
+        ],
+        "p50": [
+          0,
+          0.0305,
+          0.0402,
+          0.1287,
+          0.1367,
+          0.142,
+          0.1422,
+          0.1728001,
+          0.229,
+          0.2504,
+          0.4486,
+          0.6791999,
+          0.994,
+          1.241,
+          1.4334,
+          1.5531,
+          2.966,
+          3.0016
+        ],
+        "pMean": [
+          0,
+          3.72529e-09,
+          0.0917,
+          0.129,
+          0.4253,
+          2.066
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 18,
+          "p50": 18,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-1c9d71735bf6",
@@ -8664,15 +11802,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-51ffab5334f1",
@@ -8709,15 +11863,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-da23dde71e93",
@@ -8754,15 +11924,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.355
+        ],
+        "p50": [
+          6.75
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-8042ae4bb13a",
@@ -8799,15 +11983,29 @@
       "discoveryYears": [
         1901
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0679
+        ],
+        "p50": [
+          0.4239
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4cb184b6331a",
@@ -8844,15 +12042,31 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-175d8a769e2c",
@@ -8889,15 +12103,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e70e8eaef7af",
@@ -8934,15 +12164,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-878a0f1ffda1",
@@ -8980,17 +12226,32 @@
         2013,
         2014
       ],
-      "approvalYears": [
-        2031,
-        2033
-      ],
       "startupYears": [
         2033,
         2035
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-511724cf049b",
@@ -9027,15 +12288,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-bf7f2b609e8d",
@@ -9072,15 +12349,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.067
+        ],
+        "p50": [
+          4.62
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-778138e82dfc",
@@ -9117,15 +12408,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          45.3204
+        ],
+        "p50": [
+          9.526899
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-14e35e4d0a38",
@@ -9222,45 +12527,6 @@
         2029,
         2030
       ],
-      "approvalYears": [
-        1910,
-        1917,
-        1918,
-        1928,
-        1941,
-        1947,
-        1950,
-        1951,
-        1953,
-        1954,
-        1956,
-        1958,
-        1959,
-        1960,
-        1962,
-        1963,
-        1964,
-        1965,
-        1966,
-        1967,
-        1970,
-        1973,
-        1984,
-        1987,
-        1990,
-        1998,
-        2014,
-        2030,
-        2031,
-        2032,
-        2033,
-        2036,
-        2037,
-        2038,
-        2039,
-        2040,
-        2045
-      ],
       "startupYears": [
         1910,
         1919,
@@ -9300,7 +12566,137 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07,
+          0,
+          2.384186e-07,
+          0.0001,
+          0.0003,
+          0.0003999998,
+          0.0005,
+          0.0016,
+          0.002,
+          0.0028,
+          0.0048,
+          0.0052,
+          0.0247,
+          0.0294,
+          0.0307,
+          0.0396,
+          0.0426,
+          0.0492,
+          0.0507,
+          0.0776,
+          0.0994,
+          0.1104,
+          0.1138,
+          0.1282,
+          0.1793,
+          0.1911,
+          0.211,
+          0.3031,
+          0.3165,
+          0.3382,
+          0.417,
+          0.424,
+          0.428,
+          0.4373,
+          0.439,
+          0.443,
+          0.446,
+          0.456,
+          0.4574,
+          0.494,
+          0.4993001,
+          0.6636,
+          0.793,
+          0.9319,
+          1.1747,
+          1.309,
+          2.265,
+          10.97
+        ],
+        "p50": [
+          -3.814697e-06,
+          -9.536743e-07,
+          -4.768372e-07,
+          0,
+          1.907349e-06,
+          9.999983e-05,
+          0.0009,
+          0.0038,
+          0.0061,
+          0.0103,
+          0.0126,
+          0.0132,
+          0.0138,
+          0.0223,
+          0.0255,
+          0.0261,
+          0.03189999,
+          0.0325,
+          0.0363,
+          0.0387,
+          0.04100001,
+          0.0495,
+          0.0683,
+          0.0795,
+          0.0815,
+          0.0997,
+          0.1076,
+          0.122,
+          0.126,
+          0.1459,
+          0.159,
+          0.1808,
+          0.2021,
+          0.257,
+          0.2686,
+          0.3125,
+          0.4207,
+          0.5491,
+          0.6295,
+          0.789,
+          1.2788,
+          1.3094,
+          1.3097,
+          1.3611,
+          1.3715,
+          1.4024,
+          1.5159,
+          2.0064,
+          2.2886,
+          2.9508,
+          3.0029,
+          5.381
+        ],
+        "pMean": [
+          -1.907349e-06,
+          -9.536743e-07,
+          0,
+          2.037268e-10,
+          6.984919e-10,
+          0.0951,
+          1.845,
+          1.848,
+          1.884,
+          1.952,
+          1.968,
+          2.015,
+          2.181,
+          3.172
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 59,
+          "p50": 61,
+          "pMean": 29,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7f549056a361",
@@ -9337,15 +12733,29 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.099
+        ],
+        "p50": [
+          4.336
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-b508f54f7ac2",
@@ -9382,15 +12792,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5a0523ceb8a5",
@@ -9427,15 +12853,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          266.33
+        ],
+        "p50": [
+          86.25
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a90ab4a7b73d",
@@ -9475,17 +12915,32 @@
         2020,
         2023
       ],
-      "approvalYears": [
-        2020,
-        2027
-      ],
       "startupYears": [
         2021,
         2029
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.481,
+          22.03
+        ],
+        "p50": [
+          2.792,
+          11.72
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-38ab0e6789d7",
@@ -9522,15 +12977,31 @@
       "discoveryYears": [
         2012
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -1.430511e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-fd3b8ed00e49",
@@ -9567,15 +13038,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          1.862645e-09
+        ],
+        "pMean": [
+          7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e01609685d07",
@@ -9618,17 +13105,34 @@
         2017,
         2022
       ],
-      "approvalYears": [
-        2020,
-        2031
-      ],
       "startupYears": [
         2022,
         2033
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          5.734
+        ],
+        "p50": [
+          0,
+          6.006
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-76578ec11299",
@@ -9665,15 +13169,31 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-d78c2ac48eef",
@@ -9710,15 +13230,31 @@
       "discoveryYears": [
         1954
       ],
-      "approvalYears": [
-        1956
-      ],
       "startupYears": [
         1956
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.5514
+        ],
+        "p50": [
+          2.1891
+        ],
+        "pMean": [
+          -8.940697e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-105c1fbba83e",
@@ -9755,15 +13291,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.0455
+        ],
+        "p50": [
+          2.4323
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-07cd03c1f129",
@@ -9803,17 +13353,34 @@
         2003,
         2022
       ],
-      "approvalYears": [
-        2019,
-        2030
-      ],
       "startupYears": [
         2021,
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2376,
+          10.2667
+        ],
+        "p50": [
+          0.8114001,
+          3.9711
+        ],
+        "pMean": [
+          0.9096
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-fb8b7f82b2d9",
@@ -9850,15 +13417,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-7089164def36",
@@ -9895,15 +13478,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-9160f0ef486a",
@@ -9940,15 +13539,29 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.3442
+        ],
+        "p50": [
+          5.9709
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-f9fc2c2a50b4",
@@ -9985,15 +13598,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.8312
+        ],
+        "p50": [
+          5.5435
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-352d82f7365e",
@@ -10030,15 +13657,29 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.4058
+        ],
+        "p50": [
+          4.9579
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-5b1f9cd9e27c",
@@ -10075,15 +13716,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.961
+        ],
+        "p50": [
+          5.3646
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-580b497d60be",
@@ -10120,15 +13775,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.6206
+        ],
+        "p50": [
+          8.027801
+        ],
+        "pMean": [
+          1.1749
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-02f2ac4b8d8b",
@@ -10165,15 +13836,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (70%); Harbour Energy (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0164
+        ],
+        "p50": [
+          0.06379999
+        ],
+        "pMean": [
+          0.3898
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-9fa25d627c32",
@@ -10210,15 +13897,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-a1c6fc6229fc",
@@ -10256,17 +13959,34 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        2009,
-        2011
-      ],
       "startupYears": [
         2012,
         2014
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.5,
+          19.8063
+        ],
+        "p50": [
+          0,
+          0.1103
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-fb858f9c8a3d",
@@ -10303,15 +14023,29 @@
       "discoveryYears": [
         2020
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          62.57
+        ],
+        "p50": [
+          35.51
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-4c08176e47f2",
@@ -10348,15 +14082,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2021
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.0113
+        ],
+        "p50": [
+          1.8004
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-2a9a27db3b7a",
@@ -10393,15 +14141,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.921
+        ],
+        "p50": [
+          3.03
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-34aba8062437",
@@ -10469,32 +14231,6 @@
         2029,
         2030
       ],
-      "approvalYears": [
-        1953,
-        1957,
-        1958,
-        1973,
-        1974,
-        1977,
-        1978,
-        2000,
-        2002,
-        2006,
-        2007,
-        2008,
-        2011,
-        2012,
-        2013,
-        2021,
-        2023,
-        2027,
-        2028,
-        2030,
-        2031,
-        2032,
-        2040,
-        2045
-      ],
       "startupYears": [
         1954,
         1958,
@@ -10519,7 +14255,76 @@
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08,
+          0,
+          1.192093e-07,
+          0.0174,
+          0.0256,
+          0.0404,
+          0.078,
+          0.126,
+          0.2704,
+          0.3051,
+          0.3372,
+          0.3396,
+          0.3504,
+          0.3973,
+          0.471,
+          0.528,
+          0.538,
+          0.6572,
+          0.6945,
+          0.878,
+          3.3879,
+          3.4213,
+          4.0759,
+          10.931,
+          17.8868
+        ],
+        "p50": [
+          -2.384186e-07,
+          0,
+          0.0061,
+          0.0082,
+          0.0101,
+          0.0303,
+          0.0435,
+          0.0801,
+          0.1014,
+          0.1092,
+          0.1915,
+          0.2253,
+          0.4454,
+          1.4438,
+          1.5774,
+          1.6083,
+          2.5358,
+          3.1482,
+          3.333,
+          3.8503,
+          4.6184,
+          7.353
+        ],
+        "pMean": [
+          0,
+          2.08,
+          2.231,
+          2.267,
+          3.511,
+          5.811
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 26,
+          "p50": 24,
+          "pMean": 9,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-27c40f9a700c",
@@ -10556,15 +14361,31 @@
       "discoveryYears": [
         2024
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-0b295fc0b3bd",
@@ -10601,15 +14422,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.26
+        ],
+        "p50": [
+          16.639
+        ],
+        "pMean": [
+          11.641
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-bb0b54d7aef9",
@@ -10646,15 +14483,29 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.0581
+        ],
+        "p50": [
+          2.7435
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-532fc889f798",
@@ -10691,15 +14542,29 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.3551
+        ],
+        "p50": [
+          5.757401
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-e1b76b626d12",
@@ -10736,15 +14601,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.488
+        ],
+        "p50": [
+          3.789
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-06e0e2ad0148",
@@ -10781,15 +14660,31 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-c9499dc79b7f",
@@ -10829,17 +14724,34 @@
         2023,
         2024
       ],
-      "approvalYears": [
-        2023,
-        2030
-      ],
       "startupYears": [
         2023,
         2031
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          4.98
+        ],
+        "p50": [
+          0,
+          7.9313
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pemex-39acf2ea4bca",
@@ -10876,15 +14788,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pemex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

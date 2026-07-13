@@ -51,15 +51,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "GeoPark* (95%); Gas y Petroleo del Neuquen (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0124
+        ],
+        "p50": [
+          0.0371
+        ],
+        "pMean": [
+          0.1093
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-af57f2b0b06d",
@@ -105,11 +121,6 @@
         2014,
         2022
       ],
-      "approvalYears": [
-        2012,
-        2014,
-        2022
-      ],
       "startupYears": [
         2012,
         2015,
@@ -118,7 +129,39 @@
       "ownerships": [
         "GeoPark* (100%)",
         "GeoPark* (95%); Gas y Petroleo del Neuquen (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0301,
+          0.0446,
+          0.1768,
+          0.5711,
+          1.0925,
+          7.5532
+        ],
+        "p50": [
+          9.313226e-10,
+          0.0034,
+          0.0049,
+          0.0442,
+          0.0634,
+          0.1216,
+          1.5144,
+          1.8857
+        ],
+        "pMean": [
+          5.587935e-09,
+          13.5999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 8,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-b4b394e513ed",
@@ -155,15 +198,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.006
+        ],
+        "p50": [
+          0.0239
+        ],
+        "pMean": [
+          0.1048
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-95f1529110b2",
@@ -200,15 +259,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0079
+        ],
+        "p50": [
+          0.0248
+        ],
+        "pMean": [
+          0.1013
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-09fc74d0ec91",
@@ -245,15 +320,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0074
+        ],
+        "p50": [
+          0.0246
+        ],
+        "pMean": [
+          0.1021
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-b330b1be32f0",
@@ -290,15 +381,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007
+        ],
+        "p50": [
+          0.0244
+        ],
+        "pMean": [
+          0.1026
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-e6e4513b8c99",
@@ -335,15 +442,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-f2696bf0c426",
@@ -380,15 +501,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.666
+        ],
+        "p50": [
+          4.606
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-b08abcc70b7c",
@@ -425,15 +560,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.654
+        ],
+        "p50": [
+          1.696
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-fc29a74ebf5a",
@@ -470,15 +619,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.956
+        ],
+        "p50": [
+          4.402
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-0e8389f2e514",
@@ -515,15 +678,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [
+          0.0021
+        ],
+        "pMean": [
+          0.0318
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-5f65cc672601",
@@ -560,15 +739,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.450581e-09
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-95bfd76dde8f",
@@ -605,15 +800,29 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.286
+        ],
+        "p50": [
+          3.594
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-ea6924abff7d",
@@ -650,15 +859,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-a7b8060fbe3f",
@@ -695,15 +920,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0814
+        ],
+        "p50": [
+          0.3914
+        ],
+        "pMean": [
+          2.7286
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-767038591b6c",
@@ -740,15 +981,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1528
+        ],
+        "p50": [
+          0.6588
+        ],
+        "pMean": [
+          4.467
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-d9f4315e1799",
@@ -785,15 +1042,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0314
+        ],
+        "p50": [
+          0.125
+        ],
+        "pMean": [
+          0.8374
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-0df3ca897093",
@@ -830,15 +1103,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "GeoPark* (45%); Parex Resources (55%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0443
+        ],
+        "pMean": [
+          0.8427
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-83df79cfb36f",
@@ -875,15 +1162,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.104
+        ],
+        "p50": [
+          0.3946
+        ],
+        "pMean": [
+          2.6188
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-bd510a75547f",
@@ -920,15 +1223,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007
+        ],
+        "p50": [
+          0.0308
+        ],
+        "pMean": [
+          0.2104
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-037dfcddfc4c",
@@ -965,15 +1284,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0082
+        ],
+        "p50": [
+          0.041
+        ],
+        "pMean": [
+          0.2908
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-77afd8029293",
@@ -1010,15 +1345,31 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-e314ea74e99f",
@@ -1060,11 +1411,6 @@
         2018,
         2029
       ],
-      "approvalYears": [
-        2008,
-        2024,
-        2034
-      ],
       "startupYears": [
         2008,
         2025,
@@ -1072,7 +1418,31 @@
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0057,
+          0.2185,
+          4.9415
+        ],
+        "p50": [
+          0.0656,
+          0.2481999,
+          0.2676
+        ],
+        "pMean": [
+          0,
+          0.9757
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-6a641da51f61",
@@ -1109,15 +1479,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "GeoPark* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0083
+        ],
+        "p50": [
+          0.0325
+        ],
+        "pMean": [
+          0.2169
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-771adf6dc401",
@@ -1154,15 +1540,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0374
+        ],
+        "p50": [
+          0.1428
+        ],
+        "pMean": [
+          0.9507999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-28b100a42358",
@@ -1199,15 +1601,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0348
+        ],
+        "p50": [
+          0.1378
+        ],
+        "pMean": [
+          0.9224
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-60929a629a49",
@@ -1244,15 +1662,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2101
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0042
+        ],
+        "p50": [
+          0.0232
+        ],
+        "pMean": [
+          0.1688
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-be1834bf4d5e",
@@ -1289,15 +1723,29 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4104
+        ],
+        "p50": [
+          1.9346
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-af85fafd5447",
@@ -1334,15 +1782,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0046
+        ],
+        "pMean": [
+          0.0888
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-be6df001288a",
@@ -1382,17 +1844,34 @@
         2003,
         2100
       ],
-      "approvalYears": [
-        2006,
-        2100
-      ],
       "startupYears": [
         2007,
         2101
       ],
       "ownerships": [
         "GeoPark* (50%); SierraCol Energy (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.004,
+          0.55
+        ],
+        "p50": [
+          0.0226,
+          0.4434
+        ],
+        "pMean": [
+          0.164
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-fdd9e29ad569",
@@ -1440,15 +1919,6 @@
         2018,
         2019
       ],
-      "approvalYears": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2017,
-        2019,
-        2024
-      ],
       "startupYears": [
         2012,
         2013,
@@ -1460,7 +1930,53 @@
       ],
       "ownerships": [
         "GeoPark* (45%); Parex Resources (55%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0006000027,
+          0.0467,
+          0.0607,
+          0.1055,
+          0.2435,
+          0.4945,
+          0.5728,
+          1.906,
+          5.0439,
+          6.5226,
+          6.6109,
+          12.2122,
+          21.5035,
+          53.647
+        ],
+        "p50": [
+          0,
+          0.0591,
+          0.1055,
+          0.12,
+          0.5294,
+          1.959,
+          2.3109,
+          2.8336,
+          3.7142,
+          4.1362,
+          6.471201,
+          32.545
+        ],
+        "pMean": [
+          -2.980232e-08,
+          -1.862645e-09,
+          0.2315,
+          1.0489
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 14,
+          "p50": 12,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "geopark-2d2164ec3828",
@@ -1497,15 +2013,27 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "GeoPark* (50%); Ecopetrol (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0392
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

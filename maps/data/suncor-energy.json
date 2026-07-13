@@ -51,15 +51,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.607703e-08
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-e21d4b61a42d",
@@ -96,15 +112,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Suncor Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.448
+        ],
+        "p50": [
+          9.74
+        ],
+        "pMean": [
+          19.68
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-f4fef27f5730",
@@ -141,15 +173,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Suncor Energy* (33.99%); ExxonMobil (22%); Equinor (15%); Cenovus Energy (12.51%); Murphy Oil (12%); Mosbacher Energy (3.5%); Chevron (1%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.490116e-08
+        ],
+        "p50": [
+          2.980232e-08
+        ],
+        "pMean": [
+          -1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-55e7911b79dd",
@@ -186,15 +234,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.536743e-07
+        ],
+        "p50": [
+          7.629395e-06
+        ],
+        "pMean": [
+          -1.525879e-05
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-dde05e8a1d9a",
@@ -231,15 +295,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2065
-      ],
       "startupYears": [
         2069
       ],
       "ownerships": [
         "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -7.152557e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-5e37f11fbe27",
@@ -276,15 +356,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-3fcfd0682e55",
@@ -321,15 +417,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Suncor Energy* (24.82%); BP (33.75%); Other partner(s) CA (12.68%); Canadian Natural Resources (CNRL) (8.75%); ExxonMobil (6.49%); ConocoPhillips (5.67%); Devon Energy (5.16%); TEI Arctic (1984) (1.55%); Mosbacher Energy (1.13%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          4.768372e-07
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-b05fc92b4626",
@@ -366,15 +478,31 @@
       "discoveryYears": [
         1980
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-2b0da5bf2451",
@@ -411,15 +539,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.536743e-07
+        ],
+        "p50": [
+          -3.814697e-06
+        ],
+        "pMean": [
+          -1.525879e-05
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-670c2bad04be",
@@ -456,15 +600,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.043081e-07
+        ],
+        "p50": [
+          -1.013279e-06
+        ],
+        "pMean": [
+          -2.026558e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-e2689518c0b9",
@@ -501,15 +661,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.656613e-09
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-31362b260005",
@@ -546,15 +722,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -9.536743e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-75943b2e2d2c",
@@ -596,19 +788,6 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1999,
-        2001,
-        2002,
-        2007,
-        2010,
-        2013,
-        2026,
-        2027,
-        2028,
-        2032,
-        2033
-      ],
       "startupYears": [
         2004,
         2006,
@@ -624,7 +803,47 @@
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          8.940697e-07,
+          20.311,
+          32.995,
+          42.31,
+          166.78,
+          166.85,
+          204.29,
+          401.9861,
+          485.3929
+        ],
+        "p50": [
+          0,
+          8.89,
+          54.4,
+          69.07,
+          69.14,
+          75.644,
+          124.0119,
+          186.98
+        ],
+        "pMean": [
+          -1.123082e-05,
+          0,
+          3.576279e-06,
+          140.82,
+          143.62,
+          333.99
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 11,
+          "p50": 10,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-2bec5e00a0cd",
@@ -664,11 +883,6 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2013,
-        2021,
-        2034
-      ],
       "startupYears": [
         2018,
         2022,
@@ -676,7 +890,32 @@
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08,
+          85.34,
+          998.62
+        ],
+        "p50": [
+          -1.907349e-06,
+          39.3,
+          388.34
+        ],
+        "pMean": [
+          0,
+          2.04,
+          701.91
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-81aaf19efe27",
@@ -719,11 +958,6 @@
         2034,
         2046
       ],
-      "approvalYears": [
-        2036,
-        2042,
-        2056
-      ],
       "startupYears": [
         2041,
         2049,
@@ -731,7 +965,33 @@
       ],
       "ownerships": [
         "Suncor Energy* (75%); Cenovus Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7258,
+          2.5571
+        ],
+        "p50": [
+          0.0013,
+          0.0062,
+          4.8424,
+          5.1741
+        ],
+        "pMean": [
+          0.0255,
+          0.1176,
+          3.4874,
+          9.6628
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-4b3b26dd564e",
@@ -768,15 +1028,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2066
       ],
       "ownerships": [
         "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.799796e-07
+        ],
+        "p50": [
+          -1.490116e-06
+        ],
+        "pMean": [
+          1.549721e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-a77f2ce7b67e",
@@ -813,15 +1089,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -8.940697e-08
+        ],
+        "p50": [
+          -9.536743e-07
+        ],
+        "pMean": [
+          9.536743e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-e750cf3ef3dc",
@@ -858,15 +1150,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.788139e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-4b905384022e",
@@ -903,15 +1211,31 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Suncor Energy* (63.94%); Equinor (27.4%); Cenovus Energy (6.73%); Mosbacher Energy (1.92%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          -2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-eb2051680680",
@@ -949,12 +1273,6 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2029,
-        2032,
-        2043,
-        2044
-      ],
       "startupYears": [
         2034,
         2037,
@@ -963,7 +1281,32 @@
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.4761,
+          1.4766
+        ],
+        "p50": [
+          0,
+          58.821,
+          58.824
+        ],
+        "pMean": [
+          0,
+          705.18,
+          705.1801
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-09ee19686165",
@@ -1002,17 +1345,35 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1997,
-        2040
-      ],
       "startupYears": [
         2002,
         2043
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.916242e-09,
+          165.63
+        ],
+        "p50": [
+          -4.172325e-07,
+          64.76
+        ],
+        "pMean": [
+          0,
+          0.88
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-0664fde98934",
@@ -1049,15 +1410,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.2888
+        ],
+        "pMean": [
+          5.4709
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-7ed9f6222b61",
@@ -1094,15 +1469,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.384186e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -3.814697e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-07e38905a8fe",
@@ -1139,15 +1530,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-652fddda57c4",
@@ -1184,11 +1591,6 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2043,
-        2046,
-        2047
-      ],
       "startupYears": [
         2046,
         2049,
@@ -1196,7 +1598,31 @@
       ],
       "ownerships": [
         "Suncor Energy* (75%); CNOOC (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.862645e-09,
+          0.2067
+        ],
+        "p50": [
+          -9.536743e-07,
+          1.907349e-06,
+          11.5935
+        ],
+        "pMean": [
+          0,
+          195.066
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-7365f4067f33",
@@ -1233,15 +1659,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.084
+        ],
+        "p50": [
+          2.7416
+        ],
+        "pMean": [
+          1.3228
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-223c33490fc4",
@@ -1278,15 +1720,31 @@
       "discoveryYears": [
         1975
       ],
-      "approvalYears": [
-        2072
-      ],
       "startupYears": [
         2077
       ],
       "ownerships": [
         "Suncor Energy* (45%); ConocoPhillips (27.5%); Other partner(s) CA (27.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.72529e-08
+        ],
+        "p50": [
+          -2.384186e-07
+        ],
+        "pMean": [
+          -3.278255e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-b4869cbe1dea",
@@ -1323,15 +1781,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0139
+        ],
+        "pMean": [
+          0.2649
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-81ffcc8e7433",
@@ -1368,15 +1840,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0139
+        ],
+        "pMean": [
+          0.2649
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-fa08e196af5c",
@@ -1413,15 +1899,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2049
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.980232e-08
+        ],
+        "p50": [
+          -1.251698e-06
+        ],
+        "pMean": [
+          2.384186e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-2b20e73746d3",
@@ -1458,15 +1960,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-9cd80b2f98d6",
@@ -1503,15 +2021,29 @@
       "discoveryYears": [
         2045
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0182
+        ],
+        "pMean": [
+          0.3478
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-608ab8ec0ff0",
@@ -1548,15 +2080,29 @@
       "discoveryYears": [
         2050
       ],
-      "approvalYears": [
-        2059
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1069
+        ],
+        "pMean": [
+          2.0333
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-1bc645a38c41",
@@ -1593,15 +2139,29 @@
       "discoveryYears": [
         2045
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0731
+        ],
+        "pMean": [
+          1.3918
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-9cbbf9228461",
@@ -1638,15 +2198,29 @@
       "discoveryYears": [
         2048
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.3813
+        ],
+        "pMean": [
+          7.2628
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-877006c66504",
@@ -1683,15 +2257,31 @@
       "discoveryYears": [
         1981
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.192093e-07
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          1.907349e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-452a3feda6d7",
@@ -1728,15 +2318,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        2057
-      ],
       "startupYears": [
         2061
       ],
       "ownerships": [
         "Suncor Energy* (38.26%); ConocoPhillips (34.61%); Cenovus Energy (17.13%); Eni (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.235174e-08
+        ],
+        "p50": [
+          2.682209e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-f99ad4dc3eda",
@@ -1777,11 +2383,6 @@
       "discoveryYears": [
         1925
       ],
-      "approvalYears": [
-        1962,
-        2003,
-        2058
-      ],
       "startupYears": [
         1967,
         2007,
@@ -1790,7 +2391,34 @@
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.633,
+          3.146,
+          86.9,
+          839.87
+        ],
+        "p50": [
+          1.4621,
+          93.04,
+          99.864,
+          104.6
+        ],
+        "pMean": [
+          2.49,
+          90.12,
+          1137.45
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-c78677fb2281",
@@ -1830,14 +2458,6 @@
       "discoveryYears": [
         1968
       ],
-      "approvalYears": [
-        1973,
-        2001,
-        2021,
-        2026,
-        2035,
-        2038
-      ],
       "startupYears": [
         1978,
         2006,
@@ -1848,7 +2468,39 @@
       ],
       "ownerships": [
         "Suncor Energy* (58.74%); ExxonMobil (17.5%); Sinopec Group (parent) (9.03%); Imperial Oil (Public traded part) (7.5%); CNOOC (7.23%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.216578e-08,
+          2.980232e-08,
+          11.1862,
+          101.92,
+          207.064,
+          368.9
+        ],
+        "p50": [
+          0,
+          5.245209e-06,
+          98.80601,
+          131.3,
+          132.3575,
+          559.65
+        ],
+        "pMean": [
+          -5.340576e-05,
+          6.103516e-05,
+          119.34,
+          194.511
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-75088dc31afe",
@@ -1885,17 +2537,35 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2065,
-        2070
-      ],
       "startupYears": [
         2068,
         2073
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1115,
+          0.1205
+        ],
+        "p50": [
+          5.5447,
+          6.2235
+        ],
+        "pMean": [
+          82.328,
+          96.63599
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-c35eebe838cf",
@@ -1937,17 +2607,34 @@
         1984,
         2042
       ],
-      "approvalYears": [
-        1999,
-        2056
-      ],
       "startupYears": [
         2002,
         2069
       ],
       "ownerships": [
         "Suncor Energy* (48%); Cenovus Energy (34%); Murphy Oil (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.77
+        ],
+        "p50": [
+          0.0004,
+          42.076
+        ],
+        "pMean": [
+          0.0084,
+          1.358
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-884b703037d6",
@@ -1984,15 +2671,31 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Suncor Energy* (25%); CNOOC (25%); Japex (25%); ExxonMobil (16.67%); Imperial Oil (Public traded part) (8.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.984919e-10
+        ],
+        "p50": [
+          1.490116e-08
+        ],
+        "pMean": [
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-c629af55e05f",
@@ -2029,15 +2732,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2062
-      ],
       "startupYears": [
         2066
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-9aef384196ba",
@@ -2074,15 +2793,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "suncor-energy-daf93209e987",
@@ -2119,15 +2854,29 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Suncor Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          44.5563
+        ],
+        "p50": [
+          5.5721
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

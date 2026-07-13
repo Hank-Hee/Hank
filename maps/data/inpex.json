@@ -55,15 +55,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2069
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0938
+        ],
+        "p50": [
+          0.2453
+        ],
+        "pMean": [
+          0.2656
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-b311756fea42",
@@ -100,15 +116,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.29
+        ],
+        "p50": [
+          3.3777
+        ],
+        "pMean": [
+          3.656
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-f2c19ad07ed8",
@@ -145,15 +177,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Inpex* (74%); TotalEnergies (26%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021
+        ],
+        "p50": [
+          0.0055
+        ],
+        "pMean": [
+          0.0061
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-d2097dcc5a51",
@@ -206,14 +254,6 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        2012,
-        2019,
-        2027,
-        2031,
-        2033,
-        2036
-      ],
       "startupYears": [
         2018,
         2026,
@@ -227,7 +267,39 @@
         "Inpex* (60%); TotalEnergies (40%)",
         "Inpex* (67.82%); TotalEnergies (26%); CPC (Taiwan) (2.63%); Kansai Electric (1.2%); Osaka Gas (1.2%); JERA (0.74%); Toho Gas (0.42%)",
         "Inpex* (74%); TotalEnergies (26%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05,
+          -2.980232e-08,
+          0,
+          197.4339,
+          312.408,
+          532.931
+        ],
+        "p50": [
+          -3.814697e-06,
+          0,
+          1.430511e-06,
+          126.169,
+          269.761,
+          312.1044
+        ],
+        "pMean": [
+          -9.536743e-07,
+          0,
+          1.907349e-06,
+          128.0188
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-7a8183148b24",
@@ -264,15 +336,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0271
+        ],
+        "p50": [
+          0.0845
+        ],
+        "pMean": [
+          0.105
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-962d733ce394",
@@ -309,15 +397,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0684
+        ],
+        "p50": [
+          0.1933
+        ],
+        "pMean": [
+          0.2228
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-94d6c31ad611",
@@ -358,15 +462,33 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Inpex* (65%); Pertamina (20%); Petronas (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.629395e-06,
+          905.7086
+        ],
+        "p50": [
+          0,
+          1353.107
+        ],
+        "pMean": [
+          117.0646
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-5fcdf378763a",
@@ -403,15 +525,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Inpex* (50%); BP (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          22.72
+        ],
+        "p50": [
+          94.1308
+        ],
+        "pMean": [
+          147.856
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-3929187c417b",
@@ -448,15 +586,31 @@
       "discoveryYears": [
         1984
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Inpex* (23.78%); Idemitsu (39%); Other partner(s) (37.22%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-bb70f195b14e",
@@ -493,15 +647,31 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Inpex* (23.78%); Idemitsu (50%); Other partner(s) (26.22%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.213063e-08
+        ],
+        "p50": [
+          2.533197e-07
+        ],
+        "pMean": [
+          -2.458692e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-9deb39081356",
@@ -538,15 +708,31 @@
       "discoveryYears": [
         1985
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Inpex* (71%); Other partner(s) (29%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.49246e-09
+        ],
+        "p50": [
+          -3.72529e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-e1d10af5b39c",
@@ -583,15 +769,27 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        1964
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0224
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-d9e44b1053d1",
@@ -628,15 +826,29 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        1965
-      ],
       "startupYears": [
         1965
       ],
       "ownerships": [
         "Inpex* (60.5%); Other partner(s) (39.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1637
+        ],
+        "p50": [
+          0.3847
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-9c64692fcc14",
@@ -673,15 +885,31 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        1983
-      ],
       "startupYears": [
         1984
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          155.1951
+        ],
+        "p50": [
+          26.0897
+        ],
+        "pMean": [
+          2.1087
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-1ea2f05ccc23",
@@ -718,15 +946,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Inpex* (71%); Other partner(s) (29%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.450581e-09
+        ],
+        "p50": [
+          1.490116e-08
+        ],
+        "pMean": [
+          -4.377216e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-a58d985f9e59",
@@ -763,15 +1007,31 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Inpex* (23.78%); Idemitsu (50%); Other partner(s) (26.22%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.587935e-09
+        ],
+        "p50": [
+          3.72529e-09
+        ],
+        "pMean": [
+          -7.171184e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-036394493319",
@@ -808,15 +1068,31 @@
       "discoveryYears": [
         1933
       ],
-      "approvalYears": [
-        1934
-      ],
       "startupYears": [
         1935
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.051
+        ],
+        "p50": [
+          0.002800005
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-fb2c011cc9ae",
@@ -853,15 +1129,29 @@
       "discoveryYears": [
         1954
       ],
-      "approvalYears": [
-        1958
-      ],
       "startupYears": [
         1962
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6602
+        ],
+        "p50": [
+          0.1882
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-6ce3f6557c01",
@@ -898,15 +1188,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Inpex* (71%); Other partner(s) (29%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.386514e-09
+        ],
+        "p50": [
+          -1.387525e-08
+        ],
+        "pMean": [
+          -1.722947e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-eeca01a08be8",
@@ -943,15 +1249,31 @@
       "discoveryYears": [
         1944
       ],
-      "approvalYears": [
-        1948
-      ],
       "startupYears": [
         1952
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.5879
+        ],
+        "p50": [
+          0.4072
+        ],
+        "pMean": [
+          0.114
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-0edfb4fc7c8f",
@@ -988,15 +1310,31 @@
       "discoveryYears": [
         1933
       ],
-      "approvalYears": [
-        1934
-      ],
       "startupYears": [
         1935
       ],
       "ownerships": [
         "Inpex* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0189
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-368f61d6a3b3",
@@ -1033,15 +1371,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Inpex* (42.5%); Petronas (40%); Seascape Energy (10%); Petros (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.1967
+        ],
+        "p50": [
+          13.8087
+        ],
+        "pMean": [
+          23.2
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-ead714c4ae6f",
@@ -1078,15 +1432,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Inpex* (52.5%); Petronas (40%); Petros (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.4405
+        ],
+        "p50": [
+          11.8613
+        ],
+        "pMean": [
+          17.6448
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-23dcf40a3cac",
@@ -1123,15 +1493,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Inpex* (50%); Petronas (42.5%); SMJ Sdn Bhd (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.1341
+        ],
+        "p50": [
+          7.9083
+        ],
+        "pMean": [
+          14.4164
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-4c834abe2943",
@@ -1168,15 +1554,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Inpex Idemitsu Norway* (40%); Aker BP (20%); Petoro (20%); Vaar Energi (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3419
+        ],
+        "p50": [
+          1.123
+        ],
+        "pMean": [
+          1.9121
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-16ce1a20adc2",
@@ -1213,15 +1615,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Inpex Idemitsu Norway* (40%); Equinor (20%); Petoro (20%); Vaar Energi (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2271
+        ],
+        "p50": [
+          0.8081001
+        ],
+        "pMean": [
+          1.4207
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-1cd46178bc31",
@@ -1258,15 +1676,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Inpex Idemitsu Norway* (60%); Equinor (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2298
+        ],
+        "p50": [
+          0.8144
+        ],
+        "pMean": [
+          1.4183
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-06799cef9a67",
@@ -1303,15 +1737,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Inpex Idemitsu Norway* (60%); Equinor (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2202
+        ],
+        "p50": [
+          0.9375001
+        ],
+        "pMean": [
+          1.8955
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-f035fb3e8ff8",
@@ -1348,15 +1798,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Inpex* (40%); ADNOC (60%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.559
+        ],
+        "p50": [
+          14.211
+        ],
+        "pMean": [
+          20.81
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-905cace113dd",
@@ -1393,15 +1859,31 @@
       "discoveryYears": [
         2021
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Inpex* (40%); ADNOC (60%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          40.718
+        ],
+        "p50": [
+          123.433
+        ],
+        "pMean": [
+          25.842
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "inpex-b4f742c698e9",
@@ -1438,15 +1920,31 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Inpex* (40%); ADNOC (60%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.293
+        ],
+        "p50": [
+          14.8
+        ],
+        "pMean": [
+          21.67
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -50,15 +50,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Kumul Petroleum Holdings Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kumul-petroleum-holdings-fe31805e3c63",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Kumul Petroleum Holdings Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.011
+        ],
+        "p50": [
+          0.0343
+        ],
+        "pMean": [
+          0.036
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kumul-petroleum-holdings-1fd94c3c21e2",
@@ -140,15 +172,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Kumul Petroleum Holdings Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0115
+        ],
+        "p50": [
+          0.0357
+        ],
+        "pMean": [
+          0.0377
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kumul-petroleum-holdings-30cef0523270",
@@ -185,15 +233,31 @@
       "discoveryYears": [
         2043
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Kumul Petroleum Holdings Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0184
+        ],
+        "p50": [
+          0.0678
+        ],
+        "pMean": [
+          0.1053
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "kumul-petroleum-holdings-46680d81f83c",
@@ -240,18 +304,40 @@
         1988,
         1999
       ],
-      "approvalYears": [
-        2029,
-        2030,
-        2031
-      ],
       "startupYears": [
         2033,
         2035
       ],
       "ownerships": [
         "Kumul Petroleum Holdings Limited* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.384186e-07,
+          0,
+          28.326,
+          37.194
+        ],
+        "p50": [
+          -2.756715e-07,
+          0,
+          36.469,
+          55.79
+        ],
+        "pMean": [
+          0,
+          1.117587e-08,
+          14.082
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

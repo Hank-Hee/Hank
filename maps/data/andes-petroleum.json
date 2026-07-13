@@ -50,15 +50,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.72529e-09
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          -5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "andes-petroleum-0ecee76a81f3",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0572
+        ],
+        "p50": [
+          1.5113
+        ],
+        "pMean": [
+          0.0865
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "andes-petroleum-a844ec9b6996",
@@ -140,15 +172,31 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.4704
+        ],
+        "p50": [
+          1.9844
+        ],
+        "pMean": [
+          0.3824
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "andes-petroleum-26726fc43635",
@@ -185,15 +233,31 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          15.587
+        ],
+        "p50": [
+          12.7
+        ],
+        "pMean": [
+          1.582
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "andes-petroleum-a2b2a836b753",
@@ -230,15 +294,27 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Andes Petroleum* (0%); CNPC (parent) (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0198
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

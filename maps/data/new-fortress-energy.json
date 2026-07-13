@@ -55,11 +55,6 @@
       "discoveryYears": [
         2022
       ],
-      "approvalYears": [
-        2022,
-        2023,
-        2052
-      ],
       "startupYears": [
         2024,
         2027,
@@ -67,7 +62,26 @@
       ],
       "ownerships": [
         "New Fortress Energy* (85%); Comision Federal de Electricidad (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "new-fortress-energy-82e74cada6ad",
@@ -104,17 +118,32 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2036,
-        2051
-      ],
       "startupYears": [
         2040,
         2054
       ],
       "ownerships": [
         "New Fortress Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

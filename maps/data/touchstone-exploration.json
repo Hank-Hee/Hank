@@ -50,15 +50,29 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0257
+        ],
+        "p50": [
+          0.0535
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-3785416f2307",
@@ -95,15 +109,27 @@
       "discoveryYears": [
         1952
       ],
-      "approvalYears": [
-        1953
-      ],
       "startupYears": [
         1954
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0062
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-cf2dbcd646d4",
@@ -140,15 +166,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0035
+        ],
+        "pMean": [
+          0.0668
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-ce21f0a9165d",
@@ -185,15 +225,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7572
+        ],
+        "p50": [
+          2.2494
+        ],
+        "pMean": [
+          2.5335
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-7aa98b36db89",
@@ -230,15 +286,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.2478
+        ],
+        "p50": [
+          0.4106
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-a4ac8b99deb7",
@@ -281,11 +351,6 @@
         2020,
         2021
       ],
-      "approvalYears": [
-        2022,
-        2029,
-        2032
-      ],
       "startupYears": [
         2023,
         2030,
@@ -293,7 +358,33 @@
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -9.313226e-10,
+          0,
+          8.3661,
+          30.6832
+        ],
+        "p50": [
+          -5.960464e-08,
+          7.450581e-09,
+          4.7489,
+          16.9021
+        ],
+        "pMean": [
+          -1.490116e-08,
+          1.192093e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-d629020253cc",
@@ -330,15 +421,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0044
+        ],
+        "pMean": [
+          0.0857
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-401dd104538b",
@@ -375,15 +480,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); NGC (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3998
+        ],
+        "p50": [
+          1.2788
+        ],
+        "pMean": [
+          1.5259
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-334ea8a9c892",
@@ -420,15 +541,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); NGC (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5954
+        ],
+        "p50": [
+          1.9062
+        ],
+        "pMean": [
+          2.2756
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-edc20f404cc6",
@@ -465,15 +602,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2020
-      ],
       "startupYears": [
         2022
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.6685
+        ],
+        "p50": [
+          2.6288
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-8137b5ac194a",
@@ -510,15 +661,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0003
+        ],
+        "pMean": [
+          0.0081
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-1fa09d7eee6f",
@@ -555,15 +720,27 @@
       "discoveryYears": [
         1936
       ],
-      "approvalYears": [
-        1937
-      ],
       "startupYears": [
         1937
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.7604
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-9ba008176458",
@@ -600,15 +777,31 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (65%); Heritage Petroleum Company Limited (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.278255e-07
+        ],
+        "p50": [
+          -1.341105e-07
+        ],
+        "pMean": [
+          3.278255e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-7fdf47fcc6b5",
@@ -645,15 +838,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (80%); Heritage Petroleum Company Limited (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1338
+        ],
+        "p50": [
+          3.3758
+        ],
+        "pMean": [
+          3.798
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-dc71cb788536",
@@ -690,15 +899,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0045
+        ],
+        "pMean": [
+          0.0845
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-f65fb6c3c79e",
@@ -735,15 +958,29 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0048
+        ],
+        "pMean": [
+          0.0914
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "touchstone-exploration-5abe58d03737",
@@ -780,15 +1017,31 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2006
       ],
       "ownerships": [
         "Touchstone Exploration Inc.* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8078
+        ],
+        "p50": [
+          0.054
+        ],
+        "pMean": [
+          0.0126
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

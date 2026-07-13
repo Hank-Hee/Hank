@@ -50,15 +50,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0364
+        ],
+        "p50": [
+          0.1109
+        ],
+        "pMean": [
+          0.3276
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-d3cd9c703b23",
@@ -95,15 +111,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0267
+        ],
+        "p50": [
+          0.0827
+        ],
+        "pMean": [
+          0.2465
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-0cb70543bc4a",
@@ -140,15 +172,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Pan American Energy* (60%); YPF (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.019
+        ],
+        "p50": [
+          0.0849
+        ],
+        "pMean": [
+          0.6188
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-81599e8e1926",
@@ -185,15 +233,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Pan American Energy* (60%); YPF (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.295
+        ],
+        "p50": [
+          1.0609
+        ],
+        "pMean": [
+          3.3507
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-c6b88004c28f",
@@ -230,15 +294,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Pan American Energy* (80%); Chubut Province Govt (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0037
+        ],
+        "p50": [
+          0.0111
+        ],
+        "pMean": [
+          0.0327
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-580757108c4c",
@@ -275,15 +355,29 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1996
       ],
       "ownerships": [
         "Pan American Energy* (80%); Chubut Province Govt (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.9435
+        ],
+        "p50": [
+          0.0677
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-e11948e36341",
@@ -320,15 +414,29 @@
       "discoveryYears": [
         1956
       ],
-      "approvalYears": [
-        1962
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.837
+        ],
+        "p50": [
+          1.2203
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-f00fe6769c51",
@@ -365,15 +473,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.006
+        ],
+        "p50": [
+          0.0175
+        ],
+        "pMean": [
+          0.0512
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-104e8e217661",
@@ -410,15 +534,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.232
+        ],
+        "p50": [
+          0.78
+        ],
+        "pMean": [
+          2.3925
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-c7be9fb4e406",
@@ -455,15 +595,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1993
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.224
+        ],
+        "p50": [
+          3.003
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-b0df73eab640",
@@ -500,15 +654,29 @@
       "discoveryYears": [
         1957
       ],
-      "approvalYears": [
-        1959
-      ],
       "startupYears": [
         1959
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.3843
+        ],
+        "p50": [
+          11.1839
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-c570980cbeb6",
@@ -545,15 +713,29 @@
       "discoveryYears": [
         1958
       ],
-      "approvalYears": [
-        1963
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1279
+        ],
+        "p50": [
+          0.1679
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-1a0790e5b04d",
@@ -590,15 +772,29 @@
       "discoveryYears": [
         1936
       ],
-      "approvalYears": [
-        1942
-      ],
       "startupYears": [
         1944
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          18.666
+        ],
+        "p50": [
+          12.675
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-96dd1b916d44",
@@ -635,15 +831,29 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1964
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.089
+        ],
+        "p50": [
+          2.8067
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-1f3fbe94935a",
@@ -680,15 +890,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0043
+        ],
+        "p50": [
+          0.0129
+        ],
+        "pMean": [
+          0.0375
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-3ac88640e8a5",
@@ -725,15 +951,29 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6869
+        ],
+        "p50": [
+          0.716
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-9e9cacd94a66",
@@ -770,15 +1010,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038
+        ],
+        "p50": [
+          0.011
+        ],
+        "pMean": [
+          0.0326
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-90f13a5a881d",
@@ -815,15 +1071,29 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1991
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.854
+        ],
+        "p50": [
+          0.9944
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-de1392f552d1",
@@ -860,15 +1130,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.146
+        ],
+        "p50": [
+          0.6073
+        ],
+        "pMean": [
+          2.0482
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-05a451be497b",
@@ -905,15 +1191,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2028
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0103
+        ],
+        "p50": [
+          0.0289
+        ],
+        "pMean": [
+          0.0345
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-bbc9ffd496e5",
@@ -950,15 +1252,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0044
+        ],
+        "p50": [
+          0.014
+        ],
+        "pMean": [
+          0.04170001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-0969b3890b7a",
@@ -995,15 +1313,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          32.3225
+        ],
+        "p50": [
+          6.4025
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-43316fb74c75",
@@ -1040,15 +1374,29 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2073
+        ],
+        "p50": [
+          0.374
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-3cb3843fb956",
@@ -1085,15 +1433,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1973
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.8695
+        ],
+        "p50": [
+          4.4007
+        ],
+        "pMean": [
+          1.51
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-e0feb8f9e2f5",
@@ -1133,17 +1497,34 @@
         1965,
         2035
       ],
-      "approvalYears": [
-        1969,
-        2042
-      ],
       "startupYears": [
         1970,
         2046
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.11,
+          1.0189
+        ],
+        "p50": [
+          0.3006,
+          0.3347
+        ],
+        "pMean": [
+          0.9917001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-891f52570eda",
@@ -1180,15 +1561,29 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3567
+        ],
+        "p50": [
+          0.475
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-1eb4c777cad1",
@@ -1225,15 +1620,31 @@
       "discoveryYears": [
         1973
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5588999
+        ],
+        "p50": [
+          0.7044001
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-577b1f0afd66",
@@ -1270,15 +1681,29 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        1970
-      ],
       "startupYears": [
         1974
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.8971
+        ],
+        "p50": [
+          1.6201
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-d2171c1761e4",
@@ -1315,15 +1740,31 @@
       "discoveryYears": [
         1999
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3716
+        ],
+        "p50": [
+          0.254
+        ],
+        "pMean": [
+          0.0612
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-7219299e82e8",
@@ -1360,15 +1801,29 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        1963
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.0824
+        ],
+        "p50": [
+          10.634
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-32ef1db48a7d",
@@ -1405,15 +1860,31 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1967
-      ],
       "startupYears": [
         1967
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.9708
+        ],
+        "p50": [
+          2.531
+        ],
+        "pMean": [
+          0.0697
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-dd2e8e31b08e",
@@ -1450,15 +1921,31 @@
       "discoveryYears": [
         1966
       ],
-      "approvalYears": [
-        1968
-      ],
       "startupYears": [
         1968
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.245801
+        ],
+        "p50": [
+          4.118901
+        ],
+        "pMean": [
+          6.728806e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-d30551a45985",
@@ -1495,15 +1982,31 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        1963
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          8.2363
+        ],
+        "p50": [
+          6.3585
+        ],
+        "pMean": [
+          0.5772
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-2a1bde28e1df",
@@ -1540,15 +2043,31 @@
       "discoveryYears": [
         1994
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.820766e-11
+        ],
+        "p50": [
+          6.984919e-10
+        ],
+        "pMean": [
+          -6.984919e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-bb8ef21782cd",
@@ -1585,15 +2104,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        1979
-      ],
       "startupYears": [
         1979
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.2206
+        ],
+        "p50": [
+          2.4887
+        ],
+        "pMean": [
+          0.1891
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-f0461f9a1a8b",
@@ -1630,15 +2165,29 @@
       "discoveryYears": [
         1960
       ],
-      "approvalYears": [
-        1962
-      ],
       "startupYears": [
         1962
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.51
+        ],
+        "p50": [
+          1.1827
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-d11bf2af229f",
@@ -1675,15 +2224,27 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Pan American Energy* (62.5%); YPF (37.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3013
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-b3b34c3eadd6",
@@ -1720,15 +2281,29 @@
       "discoveryYears": [
         1959
       ],
-      "approvalYears": [
-        1961
-      ],
       "startupYears": [
         1961
       ],
       "ownerships": [
         "Pan American Energy* (62.5%); YPF (37.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3354
+        ],
+        "p50": [
+          0.105
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-7125f1e3f0fd",
@@ -1765,15 +2340,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Pan American Energy* (62.5%); YPF (37.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.004
+        ],
+        "p50": [
+          0.0126
+        ],
+        "pMean": [
+          0.0378
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-7336b5526d2b",
@@ -1813,17 +2404,34 @@
         2004,
         2027
       ],
-      "approvalYears": [
-        2006,
-        2029
-      ],
       "startupYears": [
         2007,
         2031
       ],
       "ownerships": [
         "Pan American Energy* (65%); Aconcagua Energia (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0022,
+          0.289
+        ],
+        "p50": [
+          0.0012,
+          0.8791
+        ],
+        "pMean": [
+          2.5983
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-8c16225d2565",
@@ -1860,15 +2468,27 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4749
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-5f631be90e4d",
@@ -1905,15 +2525,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1975
-      ],
       "startupYears": [
         1979
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.4265
+        ],
+        "p50": [
+          2.44
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-86991821b619",
@@ -1950,15 +2586,29 @@
       "discoveryYears": [
         1961
       ],
-      "approvalYears": [
-        1963
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.259
+        ],
+        "p50": [
+          0.2328
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-b8f9fda5dfc4",
@@ -1995,15 +2645,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0288
+        ],
+        "p50": [
+          0.09010001
+        ],
+        "pMean": [
+          0.2692
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-ca4bcb3742f7",
@@ -2040,15 +2706,29 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "Pan American Energy* (62.5%); YPF (37.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.2
+        ],
+        "p50": [
+          1.2445
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-1d668375f0aa",
@@ -2085,15 +2765,31 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1964
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          13.6787
+        ],
+        "p50": [
+          7.3955
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-926050a93804",
@@ -2130,15 +2826,29 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        1993
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0814
+        ],
+        "p50": [
+          0.0136
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-da0106d2ae90",
@@ -2175,15 +2885,31 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        1969
-      ],
       "startupYears": [
         1969
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5814
+        ],
+        "p50": [
+          0.0873999
+        ],
+        "pMean": [
+          -7.450581e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-ce91fe0474c5",
@@ -2220,15 +2946,31 @@
       "discoveryYears": [
         1970
       ],
-      "approvalYears": [
-        1972
-      ],
       "startupYears": [
         1972
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.4947
+        ],
+        "p50": [
+          5.948
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-1c906709f764",
@@ -2265,15 +3007,31 @@
       "discoveryYears": [
         1949
       ],
-      "approvalYears": [
-        1961
-      ],
       "startupYears": [
         1965
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.552999
+        ],
+        "p50": [
+          2.8676
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-e4bac5d96b12",
@@ -2310,15 +3068,31 @@
       "discoveryYears": [
         1954
       ],
-      "approvalYears": [
-        1974
-      ],
       "startupYears": [
         1978
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.277
+        ],
+        "p50": [
+          15.44
+        ],
+        "pMean": [
+          4.16
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-22cb4cf1116c",
@@ -2355,15 +3129,29 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2000
-      ],
       "startupYears": [
         2001
       ],
       "ownerships": [
         "Pan American Energy* (52%); Shell (22.5%); YPF (22.5%); Pluspetrol (1.5%); Vista Energy (1.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4664999
+        ],
+        "p50": [
+          0.008699999
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-5334688bf6d2",
@@ -2402,16 +3190,31 @@
         2011,
         2017
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2027,
         2029
       ],
       "ownerships": [
         "Pan American Energy* (30%); YPF (25%); Pampa Energia (20%); Harbour Energy (15%); Golar LNG (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.051758e-05,
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-d50c833c60b6",
@@ -2448,15 +3251,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2005
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1471
+        ],
+        "p50": [
+          0.0882
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-c6aa62c20460",
@@ -2493,15 +3310,27 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1656
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-21576503191c",
@@ -2538,15 +3367,31 @@
       "discoveryYears": [
         1951
       ],
-      "approvalYears": [
-        1955
-      ],
       "startupYears": [
         1959
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          9.480999
+        ],
+        "p50": [
+          6.313
+        ],
+        "pMean": [
+          0.7498
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-87a828665f02",
@@ -2593,13 +3438,6 @@
         2014,
         2017
       ],
-      "approvalYears": [
-        2014,
-        2016,
-        2017,
-        2018,
-        2019
-      ],
       "startupYears": [
         2015,
         2017,
@@ -2612,7 +3450,65 @@
         "Pan American Energy* (60%); YPF (40%)",
         "Pan American Energy* (62.5%); YPF (37.5%)",
         "Pan American Energy* (90%); Gas y Petroleo del Neuquen (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0853,
+          3.1933,
+          3.3025,
+          5.1851,
+          6.0094,
+          7.6803,
+          10.284,
+          13.0667,
+          13.6539,
+          15.3404,
+          17.4056,
+          25.608,
+          38.531,
+          42.832,
+          79.883,
+          86.66
+        ],
+        "p50": [
+          3.576279e-07,
+          0.009399999,
+          0.3545,
+          0.3668,
+          0.5767,
+          0.6683,
+          0.8537,
+          1.5164,
+          1.6994,
+          1.9359,
+          2.573,
+          3.2621,
+          4.2831,
+          6.4055,
+          8.8725,
+          10.7019,
+          21.3345,
+          21.6701,
+          64.447,
+          100.128,
+          248.38
+        ],
+        "pMean": [
+          0,
+          191.999,
+          580.09,
+          901.19,
+          2235.45
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 16,
+          "p50": 21,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-e2f2a5734a7c",
@@ -2649,15 +3545,31 @@
       "discoveryYears": [
         1964
       ],
-      "approvalYears": [
-        1967
-      ],
       "startupYears": [
         1967
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          21.806
+        ],
+        "p50": [
+          10.095
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-8bc30c31051f",
@@ -2694,15 +3606,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1973
-      ],
       "startupYears": [
         1973
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.8854
+        ],
+        "p50": [
+          1.675
+        ],
+        "pMean": [
+          -4.097819e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-9f2ed9841861",
@@ -2739,15 +3667,31 @@
       "discoveryYears": [
         1962
       ],
-      "approvalYears": [
-        1964
-      ],
       "startupYears": [
         1964
       ],
       "ownerships": [
         "Pan American Energy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          35.888
+        ],
+        "p50": [
+          28.1696
+        ],
+        "pMean": [
+          4.415
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-cae6bdff48ff",
@@ -2790,11 +3734,6 @@
         2019,
         2028
       ],
-      "approvalYears": [
-        2027,
-        2034,
-        2036
-      ],
       "startupYears": [
         2030,
         2037,
@@ -2802,7 +3741,32 @@
       ],
       "ownerships": [
         "Pan American Energy* (75%); Talos Energy (12.52%); Grupo Carso (12.48%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2.384186e-07,
+          0.0045
+        ],
+        "p50": [
+          -3.33786e-06,
+          0,
+          0.0178
+        ],
+        "pMean": [
+          -3.135763e-06,
+          2.384186e-07,
+          0.1102
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "pan-american-energy-363e8c4caa50",
@@ -2839,15 +3803,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "Pan American Energy* (55%); Harbour Energy (37%); AINDA (8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          81.871
+        ],
+        "p50": [
+          48.7567
+        ],
+        "pMean": [
+          2.1604
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

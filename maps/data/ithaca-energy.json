@@ -50,15 +50,31 @@
       "discoveryYears": [
         1967
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2103
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          1.659646e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-2ec07f2ba6e9",
@@ -99,10 +115,6 @@
         1984,
         2021
       ],
-      "approvalYears": [
-        1991,
-        2026
-      ],
       "startupYears": [
         1994,
         2029
@@ -110,7 +122,25 @@
       "ownerships": [
         "Ithaca Energy (Delek Group)* (36.67%); Waldorf Production (25.68%); NEO NEXT+ (17%); Spirit Energy (12.65%); EnQuest (8%)",
         "Ithaca Energy (Delek Group)* (55%); Harbour Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2446,
+          5.272
+        ],
+        "p50": [
+          10.18
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-5691546f1fca",
@@ -147,15 +177,29 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (61.35%); Hibiscus Petroleum (19.33%); Ping Petroleum (19.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.394
+        ],
+        "p50": [
+          0.0216
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-5a6c5ffa3bb7",
@@ -192,15 +236,31 @@
       "discoveryYears": [
         1994
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); NEO NEXT+ (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.980232e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-31c102c03883",
@@ -240,9 +300,6 @@
         2002,
         2009
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030,
         2031
@@ -250,7 +307,29 @@
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)",
         "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          24.738
+        ],
+        "p50": [
+          0,
+          28.05
+        ],
+        "pMean": [
+          0,
+          9.672
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-56731f571154",
@@ -287,15 +366,29 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          14.9456
+        ],
+        "p50": [
+          11.3339
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-f37589c276c0",
@@ -332,15 +425,29 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          52.156
+        ],
+        "p50": [
+          23.1124
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-b5c2e83c5dbe",
@@ -377,15 +484,31 @@
       "discoveryYears": [
         1988
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.974404e-07
+        ],
+        "p50": [
+          -1.788139e-07
+        ],
+        "pMean": [
+          1.788139e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-ffab4e654909",
@@ -422,15 +545,31 @@
       "discoveryYears": [
         1991
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-7bb2eb4de6b3",
@@ -469,17 +608,34 @@
         1984,
         2007
       ],
-      "approvalYears": [
-        2053,
-        2100
-      ],
       "startupYears": [
         2056,
         2103
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Aker BP (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0,
+          5.960464e-08
+        ],
+        "pMean": [
+          -1.192093e-07,
+          2.235174e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-efd89b736c2b",
@@ -520,17 +676,35 @@
         1988,
         2014
       ],
-      "approvalYears": [
-        2012,
-        2054
-      ],
       "startupYears": [
         2016,
         2057
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (85%); Serica Energy (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -9.685755e-08,
+          18.17
+        ],
+        "p50": [
+          0,
+          37.9111
+        ],
+        "pMean": [
+          0,
+          0.0086
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-b2aea67379ee",
@@ -567,15 +741,31 @@
       "discoveryYears": [
         1983
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d9754df62f84",
@@ -612,15 +802,29 @@
       "discoveryYears": [
         1987
       ],
-      "approvalYears": [
-        1995
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.7524
+        ],
+        "p50": [
+          14.5424
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-b181ef455e03",
@@ -657,15 +861,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2023
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); BP (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          21.3572
+        ],
+        "p50": [
+          7.484
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-358dfc312593",
@@ -711,12 +929,6 @@
         2005,
         2014
       ],
-      "approvalYears": [
-        2012,
-        2018,
-        2020,
-        2030
-      ],
       "startupYears": [
         2017,
         2018,
@@ -727,7 +939,32 @@
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)",
         "Ithaca Energy (Delek Group)* (34%); BP (66%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.235174e-08,
+          0.0185,
+          0.0501,
+          0.056,
+          0.0948
+        ],
+        "p50": [
+          1.490116e-08,
+          0.0336,
+          0.0448
+        ],
+        "pMean": [
+          -1.490116e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 3,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-df87908add23",
@@ -764,15 +1001,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08
+        ],
+        "p50": [
+          -1.192093e-07
+        ],
+        "pMean": [
+          2.384186e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-c4e47529608a",
@@ -809,15 +1062,31 @@
       "discoveryYears": [
         2023
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.470348e-08
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-22ce0498f81e",
@@ -854,15 +1123,31 @@
       "discoveryYears": [
         1986
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.113
+        ],
+        "p50": [
+          45.44
+        ],
+        "pMean": [
+          31.66
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-e0597949db02",
@@ -899,15 +1184,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2105
-      ],
       "startupYears": [
         2109
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (68.33%); ONE-Dyas (31.67%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0269
+        ],
+        "p50": [
+          0.1024
+        ],
+        "pMean": [
+          0.3864
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-556860bed15c",
@@ -944,15 +1245,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2103
-      ],
       "startupYears": [
         2106
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0043
+        ],
+        "p50": [
+          0.0164
+        ],
+        "pMean": [
+          0.0621
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-9bd77051693b",
@@ -989,15 +1306,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-f674452fab06",
@@ -1034,15 +1367,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [
+          0.0003
+        ],
+        "pMean": [
+          0.0013
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-67d9ec29edd3",
@@ -1079,15 +1428,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (76.67%); Perenco (23.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0001
+        ],
+        "p50": [
+          0.0003
+        ],
+        "pMean": [
+          0.0013
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-c29dd64f09b7",
@@ -1124,15 +1489,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-13a9b48aeb6d",
@@ -1169,15 +1550,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (89.31%); Perenco (10.69%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-b25bc0853b2b",
@@ -1214,15 +1611,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (73.68%); Harbour Energy (26.32%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-cfc9cc9b47c5",
@@ -1259,15 +1672,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (73.68%); Harbour Energy (26.32%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0009
+        ],
+        "p50": [
+          0.0028
+        ],
+        "pMean": [
+          0.009900001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d01447a28189",
@@ -1304,15 +1733,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (75%); Harbour Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-9d3451e5c91d",
@@ -1349,15 +1794,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (75%); Harbour Energy (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0009
+        ],
+        "p50": [
+          0.0028
+        ],
+        "pMean": [
+          0.0099
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-b7859bc4af3f",
@@ -1394,15 +1855,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (61.35%); Hibiscus Petroleum (19.33%); Ping Petroleum (19.33%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0005
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d9f078cab8ea",
@@ -1439,15 +1916,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (64.5%); NEO NEXT+ (35.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0071
+        ],
+        "p50": [
+          0.0229
+        ],
+        "pMean": [
+          0.0807
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-e2591e4cdc75",
@@ -1484,15 +1977,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (36.67%); Waldorf Production (25.68%); NEO NEXT+ (17%); Spirit Energy (12.65%); EnQuest (8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d318ef4d93f5",
@@ -1529,15 +2038,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (33.2%); Harbour Energy (54.8%); NEO NEXT+ (12%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-0480a7156f50",
@@ -1574,15 +2099,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (34.5%); Harbour Energy (22.75%); NEO NEXT+ (17%); BP (15.5%); EnQuest (8%); Waldorf Production (2.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0018
+        ],
+        "pMean": [
+          0.0371
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-73b92edd2d98",
@@ -1619,15 +2158,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Harbour Energy (32%); Serica Energy (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0005
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-3b6848e761ea",
@@ -1664,15 +2219,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (60%); Serica Energy (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0055
+        ],
+        "p50": [
+          0.017
+        ],
+        "pMean": [
+          0.0601
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-f90844a45115",
@@ -1709,15 +2280,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (60%); BP (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0.0068
+        ],
+        "pMean": [
+          0.0241
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d4d44609221b",
@@ -1754,15 +2341,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (85%); KNOC/Dana (15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-e4db81c8fad3",
@@ -1799,15 +2402,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (35.75%); Harbour Energy (39.49%); NEO NEXT+ (24.76%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-af53245a5354",
@@ -1844,15 +2463,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (61.75%); Harbour Energy (38.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0214
+        ],
+        "p50": [
+          0.0658
+        ],
+        "pMean": [
+          0.2299
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-7bc1d53e29c4",
@@ -1889,15 +2524,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0102
+        ],
+        "p50": [
+          0.0312
+        ],
+        "pMean": [
+          0.109
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-5a20f94c4685",
@@ -1934,15 +2585,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.007
+        ],
+        "p50": [
+          0.0218
+        ],
+        "pMean": [
+          0.07780001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-53a5739ce3c1",
@@ -1979,15 +2646,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0196
+        ],
+        "p50": [
+          0.0602
+        ],
+        "pMean": [
+          0.2112
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-a894702f5c7c",
@@ -2024,15 +2707,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-fc643e770b67",
@@ -2069,15 +2768,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (38.75%); Spirit Energy (61.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0.0002
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-56bdee367dbf",
@@ -2114,15 +2829,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0029
+        ],
+        "p50": [
+          0.009
+        ],
+        "pMean": [
+          0.0316
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-e49fac7c5f56",
@@ -2159,15 +2890,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (64.5%); NEO NEXT+ (35.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0.0001
+        ],
+        "pMean": [
+          0.0004
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d95eff9ed148",
@@ -2204,15 +2951,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0228
+        ],
+        "p50": [
+          0.073
+        ],
+        "pMean": [
+          0.2594
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-1e5f95aaf06d",
@@ -2249,15 +3012,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); BP (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.029
+        ],
+        "p50": [
+          0.093
+        ],
+        "pMean": [
+          0.331
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-e3aed008d04a",
@@ -2294,15 +3073,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0324
+        ],
+        "p50": [
+          0.1
+        ],
+        "pMean": [
+          0.3517
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-7ce210e3647a",
@@ -2339,15 +3134,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (34.48%); Spirit Energy (65.52%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0108
+        ],
+        "p50": [
+          0.0341
+        ],
+        "pMean": [
+          0.1208
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-222c7a21b16a",
@@ -2384,15 +3195,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (55%); Harbour Energy (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0099
+        ],
+        "p50": [
+          0.0297
+        ],
+        "pMean": [
+          0.0382
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-04c0ff721c89",
@@ -2429,15 +3256,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); Adura (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0946
+        ],
+        "p50": [
+          0.2988
+        ],
+        "pMean": [
+          1.056
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-a5fa1416768c",
@@ -2474,15 +3317,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0046
+        ],
+        "p50": [
+          0.0146
+        ],
+        "pMean": [
+          0.0519
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-41d6f6dd559c",
@@ -2519,15 +3378,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (61.4%); Hibiscus Petroleum (19.3%); Ping Petroleum (19.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0046
+        ],
+        "p50": [
+          0.0146
+        ],
+        "pMean": [
+          0.0517
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-bdda84aa7e61",
@@ -2564,15 +3439,31 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0465
+        ],
+        "p50": [
+          0.2041
+        ],
+        "pMean": [
+          0.8181
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-502f9b572373",
@@ -2609,15 +3500,31 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); NEO NEXT+ (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0436
+        ],
+        "p50": [
+          0.192
+        ],
+        "pMean": [
+          0.7684
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-0343a4f8a155",
@@ -2654,15 +3561,31 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.049
+        ],
+        "p50": [
+          0.2158
+        ],
+        "pMean": [
+          0.8614
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-6ea2c3f916f3",
@@ -2699,15 +3622,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0557
+        ],
+        "p50": [
+          0.1862
+        ],
+        "pMean": [
+          0.6703
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-8c09565a405a",
@@ -2744,15 +3683,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0311
+        ],
+        "p50": [
+          0.1161
+        ],
+        "pMean": [
+          0.4339
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-a840209aa75d",
@@ -2789,15 +3744,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2058
-      ],
       "startupYears": [
         2061
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0294
+        ],
+        "p50": [
+          0.1152
+        ],
+        "pMean": [
+          0.4395
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-1ce02453f8e8",
@@ -2834,15 +3805,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0282
+        ],
+        "p50": [
+          0.1054
+        ],
+        "pMean": [
+          0.3956
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-8f7636640e23",
@@ -2879,15 +3866,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (50%); KNOC/Dana (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1354
+        ],
+        "p50": [
+          0.4696
+        ],
+        "pMean": [
+          1.7118
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-903f9ae7d50a",
@@ -2924,15 +3927,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.255
+        ],
+        "p50": [
+          1.8
+        ],
+        "pMean": [
+          3.82
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "ithaca-energy-d0f47f94d61e",
@@ -2969,17 +3988,34 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2045,
-        2046
-      ],
       "startupYears": [
         2048,
         2049
       ],
       "ownerships": [
         "Ithaca Energy (Delek Group)* (60%); Capricorn Energy (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          7.450581e-09
+        ],
+        "p50": [
+          -5.960464e-08,
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

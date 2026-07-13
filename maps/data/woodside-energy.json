@@ -56,15 +56,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          119.35
+        ],
+        "p50": [
+          133.94
+        ],
+        "pMean": [
+          45.1
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7f490f6ecedf",
@@ -101,15 +117,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Woodside* (52.5%); Santos (28.6%); Kuwait Petroleum Corp (KPC) (18.9%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -4.768372e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-edde7a70e3fc",
@@ -149,15 +181,33 @@
         2010,
         2011
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "Woodside* (60%); Mitsui (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.788,
+          1.147,
+          7.53
+        ],
+        "p50": [
+          0.2268,
+          0.452,
+          2.7
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-1395a33c3221",
@@ -194,15 +244,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Woodside* (60%); Mitsui (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          -5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5ccc0120fe39",
@@ -246,12 +312,6 @@
         2011,
         2018
       ],
-      "approvalYears": [
-        2030,
-        2034,
-        2035,
-        2037
-      ],
       "startupYears": [
         2035,
         2037,
@@ -261,7 +321,32 @@
       "ownerships": [
         "Woodside* (100%)",
         "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.117587e-08,
+          1.490116e-08
+        ],
+        "p50": [
+          -3.576279e-07,
+          0,
+          2.980232e-08
+        ],
+        "pMean": [
+          -5.960464e-08,
+          0,
+          4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 8,
+          "p50": 8,
+          "pMean": 8,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7fd220b4d115",
@@ -298,15 +383,31 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Woodside* (71.43%); ExxonMobil (28.57%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6aa2a87a9a30",
@@ -343,15 +444,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "Woodside* (71.43%); Santos (28.57%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.224
+        ],
+        "p50": [
+          22.369
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-3cdda0e61a11",
@@ -388,15 +503,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1990
-      ],
       "startupYears": [
         1995
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          51.20869
+        ],
+        "p50": [
+          31.1612
+        ],
+        "pMean": [
+          2.8587
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-9148f0a0dea3",
@@ -479,30 +610,6 @@
         2007,
         2011
       ],
-      "approvalYears": [
-        1979,
-        1981,
-        1984,
-        1994,
-        1997,
-        1999,
-        2003,
-        2004,
-        2011,
-        2015,
-        2019,
-        2020,
-        2024,
-        2025,
-        2029,
-        2030,
-        2032,
-        2033,
-        2034,
-        2036,
-        2039,
-        2041
-      ],
       "startupYears": [
         1984,
         1989,
@@ -538,7 +645,103 @@
         "Woodside* (49.98%); BP (16.67%); Chevron (16.67%); Mitsubishi Corp (8.34%); Mitsui (8.34%)",
         "Woodside* (49.99%); Mitsubishi Corp (25.01%); Mitsui (25.01%)",
         "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.683831e-06,
+          -5.327165e-07,
+          -1.490116e-08,
+          -7.450581e-09,
+          0,
+          3.434252e-09,
+          3.72529e-09,
+          1.303852e-07,
+          2.086163e-07,
+          4.768372e-07,
+          3.814697e-06,
+          3.051758e-05,
+          0.1825,
+          0.2242,
+          0.4404,
+          4.281,
+          4.4804,
+          4.6137,
+          8.21,
+          9.113,
+          10.543,
+          10.7579,
+          13.2033,
+          17.2744,
+          18.472,
+          18.575,
+          18.6773,
+          26.55,
+          27.3751,
+          57.658,
+          77.0863,
+          80.7702,
+          151.8557,
+          254.9128,
+          417.1417
+        ],
+        "p50": [
+          -7.629395e-06,
+          -4.768372e-07,
+          -4.61936e-07,
+          -3.576279e-07,
+          -1.490116e-07,
+          -2.980232e-08,
+          -1.490116e-08,
+          0,
+          1.251698e-06,
+          1.907349e-06,
+          0.0159,
+          0.0295,
+          0.3761,
+          0.62,
+          0.9085,
+          1.4209,
+          2.465,
+          3.0114,
+          4.1054,
+          4.3405,
+          4.7386,
+          5.0817,
+          5.235,
+          5.6,
+          23.1059,
+          26.113,
+          30.214,
+          55.0994,
+          71.76891,
+          184.2708,
+          314.1679,
+          526.1097
+        ],
+        "pMean": [
+          -1.192093e-07,
+          0,
+          4.470348e-08,
+          7.450581e-08,
+          2.384186e-07,
+          4.172325e-07,
+          4.768372e-07,
+          8.34465e-07,
+          1.192093e-06,
+          3.6,
+          72.7138,
+          127.4607,
+          221.8295
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 35,
+          "p50": 34,
+          "pMean": 14,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-4061e97fa2f4",
@@ -575,15 +778,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0036
+        ],
+        "p50": [
+          0.0094
+        ],
+        "pMean": [
+          0.0105
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7f1e9bb4ef58",
@@ -620,15 +839,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2062
       ],
       "ownerships": [
         "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0041
+        ],
+        "p50": [
+          0.0111
+        ],
+        "pMean": [
+          0.0125
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b27963bb8cd9",
@@ -665,15 +900,29 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.4
+        ],
+        "p50": [
+          2.078
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-07b0c0549ec2",
@@ -713,16 +962,34 @@
       "discoveryYears": [
         1979
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "Woodside* (51%); Global Infrastructure Partners (GIP) (49%)",
         "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          863.69
+        ],
+        "p50": [
+          0,
+          353.6599
+        ],
+        "pMean": [
+          11.534
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-d88ad46aa780",
@@ -781,15 +1048,6 @@
         2012,
         2015
       ],
-      "approvalYears": [
-        2007,
-        2013,
-        2019,
-        2021,
-        2031,
-        2034,
-        2035
-      ],
       "startupYears": [
         2012,
         2015,
@@ -805,7 +1063,46 @@
         "Woodside* (70%); Mitsui (30%)",
         "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)",
         "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2.0631,
+          3.268,
+          15.1958,
+          17.96,
+          24.081,
+          55.49,
+          70.358,
+          321.87
+        ],
+        "p50": [
+          0,
+          1.1276,
+          4.4878,
+          22.48,
+          26.8688,
+          32.06,
+          68.22,
+          98.66,
+          207.53
+        ],
+        "pMean": [
+          2.384186e-07,
+          3.5556,
+          8.44,
+          13.51,
+          25.16
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 10,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6a280a9ad7fc",
@@ -851,11 +1148,6 @@
         2004,
         2013
       ],
-      "approvalYears": [
-        2007,
-        2013,
-        2030
-      ],
       "startupYears": [
         2010,
         2014,
@@ -864,7 +1156,35 @@
       "ownerships": [
         "Woodside* (40%); Santos (31.5%); Inpex (28.5%)",
         "Woodside* (71.43%); Santos (28.57%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.490116e-08,
+          0.79,
+          2.3614,
+          2.478,
+          2.715
+        ],
+        "p50": [
+          2.235174e-08,
+          0.2659,
+          0.4208,
+          0.705,
+          1.569
+        ],
+        "pMean": [
+          -1.788139e-07,
+          -3.72529e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-aa2fceadf902",
@@ -901,15 +1221,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Woodside* (70%); Mitsui (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-27ada8520cda",
@@ -946,15 +1282,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "Woodside* (90%); Amplitude Energy (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0046
+        ],
+        "p50": [
+          0.0125
+        ],
+        "pMean": [
+          0.0203
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-a94b82dae902",
@@ -991,15 +1343,29 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2008
       ],
       "ownerships": [
         "Woodside* (60%); Mitsui (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.9
+        ],
+        "p50": [
+          1.272
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7ec70cfa80ad",
@@ -1036,15 +1402,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0037
+        ],
+        "p50": [
+          0.0096
+        ],
+        "pMean": [
+          0.0107
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7d31cd93dc81",
@@ -1081,15 +1463,31 @@
       "discoveryYears": [
         1969
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "Woodside* (74.9%); JERA (15.1%); JOGMEC (4.99%); Sojitz (2.51%); Sumitomo (2.51%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          124.89
+        ],
+        "p50": [
+          75.00999
+        ],
+        "pMean": [
+          21.612
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-906fd594a281",
@@ -1126,15 +1524,31 @@
       "discoveryYears": [
         2042
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0026
+        ],
+        "p50": [
+          0.008
+        ],
+        "pMean": [
+          0.009799999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-132cee7b5d69",
@@ -1171,15 +1585,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0017
+        ],
+        "p50": [
+          0.0055
+        ],
+        "pMean": [
+          0.007399999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-8409310e4da9",
@@ -1216,15 +1646,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0274
+        ],
+        "p50": [
+          0.07190001
+        ],
+        "pMean": [
+          0.0788
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-18a086a06b28",
@@ -1261,15 +1707,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2050
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0038
+        ],
+        "p50": [
+          0.01
+        ],
+        "pMean": [
+          0.011
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-4a1472a185e8",
@@ -1306,15 +1768,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0271
+        ],
+        "p50": [
+          0.07190001
+        ],
+        "pMean": [
+          0.07920001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-8823277c7338",
@@ -1351,15 +1829,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0017
+        ],
+        "p50": [
+          0.0045
+        ],
+        "pMean": [
+          0.0051
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7a2fcd6bfa16",
@@ -1396,15 +1890,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Woodside* (50%); Jadestone Energy (33.34%); Chevron (16.66%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0023
+        ],
+        "p50": [
+          0.0064
+        ],
+        "pMean": [
+          0.0076
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-d0b38183ac20",
@@ -1441,15 +1951,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2027
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "Woodside* (71.43%); ExxonMobil (28.57%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0272
+        ],
+        "p50": [
+          0.07190001
+        ],
+        "pMean": [
+          0.07859999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-24cec7540cf5",
@@ -1486,15 +2012,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0042
+        ],
+        "p50": [
+          0.0109
+        ],
+        "pMean": [
+          0.0118
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-0bd98914027c",
@@ -1531,15 +2073,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2047
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0064
+        ],
+        "p50": [
+          0.0174
+        ],
+        "pMean": [
+          0.0192
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-bc5504c77e70",
@@ -1576,15 +2134,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0267
+        ],
+        "p50": [
+          0.07190001
+        ],
+        "pMean": [
+          0.07839999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-eb61910ab66e",
@@ -1621,15 +2195,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (60%); Mitsui (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.038
+        ],
+        "p50": [
+          0.1013
+        ],
+        "pMean": [
+          0.1108
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-555b0b2ad410",
@@ -1666,15 +2256,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (17%); Shell (35%); BP (20%); PetroChina (20%); Mitsubishi Corp (4%); Mitsui (4%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0021
+        ],
+        "p50": [
+          0.0075
+        ],
+        "pMean": [
+          0.0105
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5212c15a5783",
@@ -1711,15 +2317,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0012
+        ],
+        "p50": [
+          0.0043
+        ],
+        "pMean": [
+          0.0049
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-95f9efff8232",
@@ -1756,15 +2378,31 @@
       "discoveryYears": [
         2071
       ],
-      "approvalYears": [
-        2081
-      ],
       "startupYears": [
         2090
       ],
       "ownerships": [
         "Woodside* (31.56%); BP (15.78%); Chevron (15.78%); Shell (15.78%); Mitsubishi Corp (7.9%); Mitsui (7.9%); CNOOC (5.3%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0089
+        ],
+        "p50": [
+          0.0312
+        ],
+        "pMean": [
+          0.0421
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-0f9d0ff0795e",
@@ -1801,15 +2439,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (30.6%); BP (44.33%); PetroChina (10.67%); Mitsubishi Corp (7.2%); Mitsui (7.2%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0009999999
+        ],
+        "p50": [
+          0.0037
+        ],
+        "pMean": [
+          0.0041
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-00df49b406e6",
@@ -1846,15 +2500,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0137
+        ],
+        "p50": [
+          0.0365
+        ],
+        "pMean": [
+          0.0394
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5b9bd8b329e7",
@@ -1891,15 +2561,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Woodside* (90%); Kansai Electric (5%); MidOcean Energy (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0037
+        ],
+        "p50": [
+          0.0101
+        ],
+        "pMean": [
+          0.0111
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-a88c0b71a39a",
@@ -1936,15 +2622,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0027
+        ],
+        "p50": [
+          0.0099
+        ],
+        "pMean": [
+          0.0139
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6f57943ac932",
@@ -1981,15 +2683,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Woodside* (71.43%); Santos (28.57%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0353
+        ],
+        "p50": [
+          0.09220001
+        ],
+        "pMean": [
+          0.09810001
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-816c0c5f9a05",
@@ -2026,15 +2744,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0489
+        ],
+        "p50": [
+          0.1337
+        ],
+        "pMean": [
+          0.1473
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b978fa4de16c",
@@ -2071,15 +2805,31 @@
       "discoveryYears": [
         2043
       ],
-      "approvalYears": [
-        2060
-      ],
       "startupYears": [
         2063
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2233
+        ],
+        "p50": [
+          0.8163
+        ],
+        "pMean": [
+          1.15
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5f86e4fa079e",
@@ -2116,15 +2866,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.577
+        ],
+        "p50": [
+          1.8532
+        ],
+        "pMean": [
+          2.349
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-14c163271dfc",
@@ -2161,15 +2927,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0109
+        ],
+        "p50": [
+          0.0332
+        ],
+        "pMean": [
+          0.0407
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-60fa24d36f5e",
@@ -2206,15 +2988,31 @@
       "discoveryYears": [
         2034
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.021
+        ],
+        "p50": [
+          0.0652
+        ],
+        "pMean": [
+          0.0804
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-305afebecd3d",
@@ -2251,15 +3049,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Woodside* (70%); Mitsui (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.728
+        ],
+        "p50": [
+          5.6414
+        ],
+        "pMean": [
+          7.2671
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-ccb0001921d9",
@@ -2296,15 +3110,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Woodside* (70%); Mitsui (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.728
+        ],
+        "p50": [
+          5.6414
+        ],
+        "pMean": [
+          7.2671
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b29b6964dee0",
@@ -2346,11 +3176,6 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2011,
-        2019,
-        2023
-      ],
       "startupYears": [
         2017,
         2021,
@@ -2358,7 +3183,31 @@
       ],
       "ownerships": [
         "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          34.23,
+          39.019,
+          63.65
+        ],
+        "p50": [
+          15.312,
+          28.132,
+          35.52
+        ],
+        "pMean": [
+          -5.09317e-11,
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-03b2bcde5e3b",
@@ -2395,15 +3244,29 @@
       "discoveryYears": [
         2007
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "Woodside* (65%); Kuwait Petroleum Corp (KPC) (35%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          11.01
+        ],
+        "p50": [
+          5.31
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b48a843e693b",
@@ -2440,15 +3303,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0128
+        ],
+        "p50": [
+          0.0389
+        ],
+        "pMean": [
+          0.08589999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-c46a0dbcaac3",
@@ -2489,17 +3368,33 @@
         2012,
         2029
       ],
-      "approvalYears": [
-        2023,
-        2031
-      ],
       "startupYears": [
         2028,
         2048
       ],
       "ownerships": [
         "Woodside* (60%); Pemex (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          320.8636
+        ],
+        "p50": [
+          0.3176,
+          157.946
+        ],
+        "pMean": [
+          6.0231
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-df13ca2bb1f0",
@@ -2539,17 +3434,35 @@
         2014,
         2017
       ],
-      "approvalYears": [
-        2034,
-        2036
-      ],
       "startupYears": [
         2037,
         2040
       ],
       "ownerships": [
         "Woodside* (82%); Petrosen (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.2996,
+          9.901
+        ],
+        "p50": [
+          8.972,
+          34.947
+        ],
+        "pMean": [
+          18.605,
+          37.026
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6eab88674301",
@@ -2593,13 +3506,6 @@
         2014,
         2017
       ],
-      "approvalYears": [
-        2020,
-        2028,
-        2030,
-        2036,
-        2041
-      ],
       "startupYears": [
         2024,
         2031,
@@ -2609,7 +3515,38 @@
       ],
       "ownerships": [
         "Woodside* (82%); Petrosen (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.5905,
+          10.1949,
+          16.142,
+          20.2021,
+          130.9876
+        ],
+        "p50": [
+          4.0833,
+          28.0536,
+          45.781,
+          46.923,
+          72.6899
+        ],
+        "pMean": [
+          1.4188,
+          8.459,
+          12.5067,
+          38.951,
+          82.618
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2c7f7ce1a7e1",
@@ -2646,15 +3583,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "Woodside* (82%); Petrosen (18%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1707
+        ],
+        "pMean": [
+          3.2362
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2bbbd6f7fe01",
@@ -2691,15 +3642,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0667
+        ],
+        "p50": [
+          0.1835
+        ],
+        "pMean": [
+          0.2494
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6622cb556839",
@@ -2738,17 +3705,35 @@
         1974,
         1975
       ],
-      "approvalYears": [
-        2033,
-        2036
-      ],
       "startupYears": [
         2036,
         2038
       ],
       "ownerships": [
         "Woodside* (33.44%); Timor Gap (56.56%); Osaka Gas (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.629395e-06,
+          2.130866e-06
+        ],
+        "p50": [
+          -1.525879e-05,
+          3.218651e-06
+        ],
+        "pMean": [
+          -7.629395e-06,
+          -2.861023e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-8c4f7cde2722",
@@ -2785,15 +3770,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Woodside* (70%); BP (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1379
+        ],
+        "pMean": [
+          2.6243
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-57da81d4fc77",
@@ -2833,17 +3832,41 @@
         2018,
         2019
       ],
-      "approvalYears": [
-        2028,
-        2036
-      ],
       "startupYears": [
         2030,
         2039
       ],
       "ownerships": [
         "Woodside* (70%); BP (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -5.960464e-08,
+          -9.313226e-10,
+          0,
+          0.7417001
+        ],
+        "p50": [
+          -7.629395e-06,
+          -3.874302e-07,
+          0,
+          5.6198
+        ],
+        "pMean": [
+          -1.400709e-06,
+          0,
+          2.235174e-08,
+          12.7414
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 5,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5c83ee6f83ea",
@@ -2880,15 +3903,29 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (70%); BP (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1442
+        ],
+        "pMean": [
+          2.7396
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b3bec9d714b6",
@@ -2925,15 +3962,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (70%); Occidental Petroleum (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0045
+        ],
+        "p50": [
+          0.0127
+        ],
+        "pMean": [
+          0.0194
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-525c783ae85d",
@@ -2970,15 +4023,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (70%); Occidental Petroleum (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.013
+        ],
+        "p50": [
+          0.0365
+        ],
+        "pMean": [
+          0.0563
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-eda8d2a52c20",
@@ -3015,15 +4084,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0065
+        ],
+        "p50": [
+          0.0183
+        ],
+        "pMean": [
+          0.0282
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-a03dcd6f0a42",
@@ -3060,15 +4145,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0122
+        ],
+        "p50": [
+          0.0398
+        ],
+        "pMean": [
+          0.0677
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-cb1a6bc19dbc",
@@ -3105,15 +4206,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (45%); Occidental Petroleum (30%); Chevron (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0869
+        ],
+        "pMean": [
+          1.6458
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-d0126c063e98",
@@ -3150,15 +4265,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0638
+        ],
+        "p50": [
+          0.2484
+        ],
+        "pMean": [
+          0.4708
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-4f4afa2d0788",
@@ -3195,15 +4326,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0633
+        ],
+        "p50": [
+          0.2483
+        ],
+        "pMean": [
+          0.472
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-33bee024fc76",
@@ -3240,15 +4387,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0651
+        ],
+        "p50": [
+          0.2497
+        ],
+        "pMean": [
+          0.4684
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-9f68665addba",
@@ -3285,15 +4448,31 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0629
+        ],
+        "p50": [
+          0.2483
+        ],
+        "pMean": [
+          0.4732
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-6f85f615b630",
@@ -3330,15 +4509,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0638
+        ],
+        "p50": [
+          0.2484
+        ],
+        "pMean": [
+          0.4708
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-96a15ce9a397",
@@ -3375,15 +4570,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Woodside* (70%); Occidental Petroleum (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0054
+        ],
+        "p50": [
+          0.0163
+        ],
+        "pMean": [
+          0.0256
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-8415a8ab8b9d",
@@ -3420,15 +4631,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0057
+        ],
+        "p50": [
+          0.0173
+        ],
+        "pMean": [
+          0.0283
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-24491aee1eb5",
@@ -3465,15 +4692,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0496
+        ],
+        "p50": [
+          0.145
+        ],
+        "pMean": [
+          0.2276
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-f34fd8f20aae",
@@ -3510,15 +4753,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0485
+        ],
+        "p50": [
+          0.1412
+        ],
+        "pMean": [
+          0.222
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-3aa236099458",
@@ -3555,15 +4814,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1023
+        ],
+        "p50": [
+          0.2895
+        ],
+        "pMean": [
+          0.4451
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b90a1000e162",
@@ -3600,15 +4875,31 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0676
+        ],
+        "p50": [
+          0.2598
+        ],
+        "pMean": [
+          0.4873
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-c32fd376b208",
@@ -3645,15 +4936,31 @@
       "discoveryYears": [
         2040
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0636
+        ],
+        "p50": [
+          0.2521
+        ],
+        "pMean": [
+          0.4833
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-0181509943e9",
@@ -3690,15 +4997,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0662
+        ],
+        "p50": [
+          0.2585
+        ],
+        "pMean": [
+          0.4897
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2926dc92e6ca",
@@ -3735,15 +5058,31 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1063
+        ],
+        "p50": [
+          0.4116
+        ],
+        "pMean": [
+          0.7768
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b3c939256643",
@@ -3780,15 +5119,31 @@
       "discoveryYears": [
         2037
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.065
+        ],
+        "p50": [
+          0.2534
+        ],
+        "pMean": [
+          0.4808
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-66d3d16a9cf6",
@@ -3825,15 +5180,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2070
       ],
       "ownerships": [
         "Woodside* (75%); Chevron (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.6891
+        ],
+        "p50": [
+          5.1677
+        ],
+        "pMean": [
+          8.3351
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2ee0fd0c27f5",
@@ -3870,15 +5241,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2045
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0122
+        ],
+        "p50": [
+          0.0402
+        ],
+        "pMean": [
+          0.0677
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-fed7de9899f3",
@@ -3915,15 +5302,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0253
+        ],
+        "p50": [
+          0.0795
+        ],
+        "pMean": [
+          0.1309
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7e78952ebcf8",
@@ -3960,15 +5363,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0019
+        ],
+        "p50": [
+          0.0084
+        ],
+        "pMean": [
+          0.06649999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-b12237a05add",
@@ -4005,15 +5424,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0149
+        ],
+        "p50": [
+          0.0883
+        ],
+        "pMean": [
+          0.747
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-e8cdbb7edb1f",
@@ -4050,15 +5485,31 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0273
+        ],
+        "p50": [
+          0.1641
+        ],
+        "pMean": [
+          1.3876
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-bc1ebf233aa0",
@@ -4095,15 +5546,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2051
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0118
+        ],
+        "p50": [
+          0.034
+        ],
+        "pMean": [
+          0.0527
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-a09aaf6932b4",
@@ -4140,15 +5607,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0065
+        ],
+        "p50": [
+          0.0285
+        ],
+        "pMean": [
+          0.2261
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2b8948b102e8",
@@ -4185,15 +5668,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.08319999
+        ],
+        "pMean": [
+          1.5786
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-415b9428ecf2",
@@ -4230,15 +5727,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0636
+        ],
+        "pMean": [
+          1.2096
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-3a6c6e6db061",
@@ -4275,15 +5786,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0898
+        ],
+        "pMean": [
+          1.7049
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-2f8228c6e081",
@@ -4320,15 +5845,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09510001
+        ],
+        "pMean": [
+          1.8111
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-0a878119dd94",
@@ -4365,15 +5904,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.081
+        ],
+        "pMean": [
+          1.5409
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-a1e59ec8a5cd",
@@ -4410,15 +5963,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0398
+        ],
+        "pMean": [
+          0.7588999
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-efa34c197ae0",
@@ -4455,15 +6022,29 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0398
+        ],
+        "pMean": [
+          0.7589
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-5d6af88c1fe2",
@@ -4500,15 +6081,29 @@
       "discoveryYears": [
         2039
       ],
-      "approvalYears": [
-        2056
-      ],
       "startupYears": [
         2059
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0407
+        ],
+        "pMean": [
+          0.7729
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-efaa53dd6445",
@@ -4545,15 +6140,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2055
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0407
+        ],
+        "pMean": [
+          0.7729
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-80a481e38224",
@@ -4590,15 +6199,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2055
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0407
+        ],
+        "pMean": [
+          0.7729
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-c3464722e8ef",
@@ -4635,15 +6258,29 @@
       "discoveryYears": [
         2036
       ],
-      "approvalYears": [
-        2053
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0407
+        ],
+        "pMean": [
+          0.7729
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7fe633f5d84d",
@@ -4680,15 +6317,29 @@
       "discoveryYears": [
         2005
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2007
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.3181
+        ],
+        "p50": [
+          0.1486
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-4c4c35af4044",
@@ -4728,17 +6379,34 @@
         2002,
         2015
       ],
-      "approvalYears": [
-        2006,
-        2021
-      ],
       "startupYears": [
         2009,
         2023
       ],
       "ownerships": [
         "Woodside* (72%); Repsol (28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.159199,
+          27.6059
+        ],
+        "p50": [
+          2.215899,
+          2.6827
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-9355170a02cb",
@@ -4775,16 +6443,32 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2029,
         2030
       ],
       "ownerships": [
         "Woodside* (54%); Stonepeak (40%); Williams (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.670288e-05,
+          3.051758e-05
+        ],
+        "p50": [
+          -3.051758e-05,
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-c9a4ad53e62c",
@@ -4821,15 +6505,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "Woodside* (54%); Stonepeak (40%); Williams (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.051758e-05
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-7c15380ecca7",
@@ -4866,15 +6564,32 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2037
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Woodside* (54%); Stonepeak (40%); Williams (6%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05,
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-3d7e580dfdbb",
@@ -4911,15 +6626,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Woodside* (80%); Repsol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.09630001
+        ],
+        "pMean": [
+          1.8314
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-bfc72cc08ecf",
@@ -4956,15 +6685,29 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2036
       ],
       "ownerships": [
         "Woodside* (80%); Repsol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1001
+        ],
+        "pMean": [
+          1.902
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-aed12600ed9e",
@@ -5001,15 +6744,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Woodside* (80%); Repsol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.08669999
+        ],
+        "pMean": [
+          1.6514
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-87ec52bddc3d",
@@ -5046,15 +6803,29 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0757
+        ],
+        "pMean": [
+          1.4377
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-539ef5761c5c",
@@ -5091,15 +6862,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2037
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0629
+        ],
+        "pMean": [
+          1.1959
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-636c59d7b982",
@@ -5136,15 +6921,29 @@
       "discoveryYears": [
         2035
       ],
-      "approvalYears": [
-        2050
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0736
+        ],
+        "pMean": [
+          1.3975
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "woodside-energy-874011f86c57",
@@ -5181,15 +6980,29 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2054
-      ],
       "startupYears": [
         2057
       ],
       "ownerships": [
         "Woodside* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0589
+        ],
+        "pMean": [
+          1.1161
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

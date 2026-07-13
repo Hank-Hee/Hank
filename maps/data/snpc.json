@@ -50,15 +50,29 @@
       "discoveryYears": [
         1993
       ],
-      "approvalYears": [
-        1998
-      ],
       "startupYears": [
         2000
       ],
       "ownerships": [
         "SNPC (Congo)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.368
+        ],
+        "p50": [
+          0.0876
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "snpc-025367a668e3",
@@ -95,15 +109,31 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "SNPC (Congo)* (92.5%); Unknown Owner (7.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          6.705523e-08
+        ],
+        "p50": [
+          -3.576279e-07
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "snpc-562019b55c19",
@@ -140,15 +170,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "SNPC (Congo)* (60%); Orion Group SA (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.001
+        ],
+        "p50": [
+          0.0206
+        ],
+        "pMean": [
+          0.3434
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "snpc-734c245e33b9",
@@ -187,17 +233,35 @@
       "discoveryYears": [
         1982
       ],
-      "approvalYears": [
-        2007,
-        2029
-      ],
       "startupYears": [
         2010,
         2032
       ],
       "ownerships": [
         "SNPC (Congo)* (60%); Orion Group SA (40%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          0.4505
+        ],
+        "p50": [
+          0,
+          0.1793
+        ],
+        "pMean": [
+          0,
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "snpc-339fe3e15b84",
@@ -234,15 +298,27 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "SNPC (Congo)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0004
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

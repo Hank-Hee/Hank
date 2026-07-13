@@ -57,15 +57,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "CNPC (parent)* (75%); Other partner(s) (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          5.960464e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-e66bf2592a93",
@@ -102,15 +118,31 @@
       "discoveryYears": [
         1978
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "CNPC (parent)* (75%); Other partner(s) (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-710433fbc0a0",
@@ -150,16 +182,46 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035,
         2036
       ],
       "ownerships": [
         "CNPC (parent)* (70%); Sonatrach (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          4.097819e-08,
+          0.1711,
+          0.1719,
+          0.1748
+        ],
+        "p50": [
+          -1.490116e-07,
+          0,
+          0.5804,
+          0.5815,
+          0.5865999,
+          0.5866
+        ],
+        "pMean": [
+          4.768372e-07,
+          9.536743e-07,
+          0.8386999,
+          0.8387,
+          0.8466999,
+          0.8491
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 6,
+          "p50": 6,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2276a46c07c7",
@@ -196,15 +258,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          69.21561
+        ],
+        "p50": [
+          37.775
+        ],
+        "pMean": [
+          3.758
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-d635eac6bd68",
@@ -241,15 +319,31 @@
       "discoveryYears": [
         2010
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-b7ed6d307436",
@@ -286,15 +380,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2016
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          30.03
+        ],
+        "p50": [
+          15.952
+        ],
+        "pMean": [
+          1.9
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-b2b5859ae368",
@@ -331,15 +441,31 @@
       "discoveryYears": [
         1977
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.117587e-08
+        ],
+        "p50": [
+          3.129244e-07
+        ],
+        "pMean": [
+          5.960464e-08
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2d797554826f",
@@ -376,15 +502,31 @@
       "discoveryYears": [
         2008
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2040
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.960464e-08
+        ],
+        "p50": [
+          2.384186e-07
+        ],
+        "pMean": [
+          4.768372e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2428d6f9ca55",
@@ -421,15 +563,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          20.44
+        ],
+        "p50": [
+          12.346
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-35cec544e46b",
@@ -466,15 +622,29 @@
       "discoveryYears": [
         2004
       ],
-      "approvalYears": [
-        2010
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.181
+        ],
+        "p50": [
+          1.19
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2d14716f2bc2",
@@ -511,15 +681,27 @@
       "discoveryYears": [
         2009
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2015
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-d47cd4e24620",
@@ -556,15 +738,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2018
-      ],
       "startupYears": [
         2019
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.116
+        ],
+        "p50": [
+          2.544
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-65230bad29ac",
@@ -601,15 +797,29 @@
       "discoveryYears": [
         2016
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2018
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          30.7646
+        ],
+        "p50": [
+          19.2448
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-d84376c37779",
@@ -646,15 +856,31 @@
       "discoveryYears": [
         2006
       ],
-      "approvalYears": [
-        2009
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.8758
+        ],
+        "p50": [
+          2.259
+        ],
+        "pMean": [
+          0.0474
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2514fd8e1ca9",
@@ -691,15 +917,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.13
+        ],
+        "p50": [
+          0.4977
+        ],
+        "pMean": [
+          1.5168
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-862b4ab95cde",
@@ -736,15 +978,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2042
-      ],
       "startupYears": [
         2048
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0576
+        ],
+        "p50": [
+          0.2242
+        ],
+        "pMean": [
+          0.6877
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-1a0f748dba8f",
@@ -781,15 +1039,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0871
+        ],
+        "p50": [
+          0.3403
+        ],
+        "pMean": [
+          1.0411
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-51b4e20b03de",
@@ -826,15 +1100,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0242
+        ],
+        "p50": [
+          0.0752
+        ],
+        "pMean": [
+          0.2093
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-fd5491c723d8",
@@ -871,15 +1161,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0281
+        ],
+        "p50": [
+          0.0875
+        ],
+        "pMean": [
+          0.2427
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-a5443e84815a",
@@ -916,15 +1222,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0829
+        ],
+        "p50": [
+          0.3317
+        ],
+        "pMean": [
+          1.0279
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-8ef35599ad25",
@@ -961,15 +1283,29 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0225
+        ],
+        "p50": [
+          0.427
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-419a9ae577dc",
@@ -1006,15 +1342,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0701
+        ],
+        "p50": [
+          0.2844
+        ],
+        "pMean": [
+          0.8886
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-c7dc16d9a065",
@@ -1051,15 +1403,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0768
+        ],
+        "p50": [
+          0.2997
+        ],
+        "pMean": [
+          0.9179
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-ccc4c5ba7bdd",
@@ -1096,15 +1464,31 @@
       "discoveryYears": [
         2031
       ],
-      "approvalYears": [
-        2038
-      ],
       "startupYears": [
         2045
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.148
+        ],
+        "p50": [
+          0.5828
+        ],
+        "pMean": [
+          1.7884
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-570afaf81805",
@@ -1141,15 +1525,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2032
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.027
+        ],
+        "p50": [
+          0.07780001
+        ],
+        "pMean": [
+          0.2089
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-30de6226c928",
@@ -1186,15 +1586,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0311
+        ],
+        "p50": [
+          0.0895
+        ],
+        "pMean": [
+          0.2413
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-72b0aaa88b61",
@@ -1231,15 +1647,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0611
+        ],
+        "p50": [
+          0.2389
+        ],
+        "pMean": [
+          0.7301
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-955b2d9a5729",
@@ -1276,15 +1708,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2042
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0711
+        ],
+        "p50": [
+          0.2772
+        ],
+        "pMean": [
+          0.8503
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-a3bf10951859",
@@ -1321,15 +1769,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.093
+        ],
+        "p50": [
+          0.3722
+        ],
+        "pMean": [
+          1.1541
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-38efb81a9376",
@@ -1366,15 +1830,31 @@
       "discoveryYears": [
         1998
       ],
-      "approvalYears": [
-        2012
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.996
+        ],
+        "p50": [
+          2.5208
+        ],
+        "pMean": [
+          0.0204
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-b7f750037d8c",
@@ -1411,15 +1891,29 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.466
+        ],
+        "p50": [
+          0.0238
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-fd07c7b7f54b",
@@ -1456,15 +1950,31 @@
       "discoveryYears": [
         1997
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          7.450581e-09
+        ],
+        "p50": [
+          7.450581e-09
+        ],
+        "pMean": [
+          1.043081e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-786c75ad6437",
@@ -1501,15 +2011,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0047
+        ],
+        "pMean": [
+          0.0885
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-346f5fc1e8c0",
@@ -1546,15 +2070,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2003
-      ],
       "startupYears": [
         2003
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.18
+        ],
+        "p50": [
+          0.0239
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-9d3b5653cbdb",
@@ -1591,15 +2129,29 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2012
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.1155
+        ],
+        "p50": [
+          0.4948
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-bbf913ccaef6",
@@ -1640,17 +2192,33 @@
         2012,
         2013
       ],
-      "approvalYears": [
-        1997,
-        2013
-      ],
       "startupYears": [
         1997,
         2013
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0026,
+          0.0217,
+          4.8525
+        ],
+        "p50": [
+          0.0038,
+          4.5009
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-5fb3ca1e485b",
@@ -1687,15 +2255,29 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2011
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.6379
+        ],
+        "p50": [
+          0.388
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-d10536d31620",
@@ -1732,15 +2314,29 @@
       "discoveryYears": [
         1972
       ],
-      "approvalYears": [
-        1976
-      ],
       "startupYears": [
         1978
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          17.119
+        ],
+        "p50": [
+          9.467999
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-8d663557ac36",
@@ -1777,15 +2373,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1494
+        ],
+        "p50": [
+          0.1019
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-36dedb717b5e",
@@ -1822,15 +2432,31 @@
       "discoveryYears": [
         1974
       ],
-      "approvalYears": [
-        2052
-      ],
       "startupYears": [
         2054
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          2.980232e-08
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-d71882cf927c",
@@ -1867,15 +2493,31 @@
       "discoveryYears": [
         2014
       ],
-      "approvalYears": [
-        2014
-      ],
       "startupYears": [
         2014
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          16.292
+        ],
+        "p50": [
+          7.040999
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-a6deb963ff41",
@@ -1912,15 +2554,29 @@
       "discoveryYears": [
         1992
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1994
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.736
+        ],
+        "p50": [
+          2.305
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-3fd51fd45214",
@@ -1957,15 +2613,31 @@
       "discoveryYears": [
         2000
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2178
+        ],
+        "p50": [
+          0.09139999
+        ],
+        "pMean": [
+          -1.862645e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-14f93893efb4",
@@ -2002,15 +2674,27 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        1996
-      ],
       "startupYears": [
         1996
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1153
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-24eca1963510",
@@ -2047,15 +2731,27 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2013
-      ],
       "startupYears": [
         2013
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0685
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-c7cc7d18ea70",
@@ -2092,15 +2788,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1976
-      ],
       "startupYears": [
         1978
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.4429
+        ],
+        "p50": [
+          1.5649
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-6e8afa013cfd",
@@ -2137,15 +2847,29 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         1999
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.0226
+        ],
+        "p50": [
+          1.9167
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-2d1a95120532",
@@ -2182,15 +2906,29 @@
       "discoveryYears": [
         2017
       ],
-      "approvalYears": [
-        2017
-      ],
       "startupYears": [
         2017
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1196
+        ],
+        "p50": [
+          0.0649
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-1856cddf660c",
@@ -2227,15 +2965,31 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2020
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.4216
+        ],
+        "p50": [
+          0.2577
+        ],
+        "pMean": [
+          4.656613e-10
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-243a36a44298",
@@ -2272,15 +3026,29 @@
       "discoveryYears": [
         2001
       ],
-      "approvalYears": [
-        2002
-      ],
       "startupYears": [
         2002
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0556
+        ],
+        "p50": [
+          0.0064
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-b361e52d3234",
@@ -2317,15 +3085,27 @@
       "discoveryYears": [
         1989
       ],
-      "approvalYears": [
-        1992
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0069
+        ],
+        "p50": [],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 0,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-498a30a91d83",
@@ -2362,15 +3142,29 @@
       "discoveryYears": [
         2100
       ],
-      "approvalYears": [
-        2100
-      ],
       "startupYears": [
         2100
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0046
+        ],
+        "pMean": [
+          0.0883
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-ecab49abd26e",
@@ -2407,15 +3201,31 @@
       "discoveryYears": [
         2002
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2043
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-c9fb23c28c13",
@@ -2452,15 +3262,29 @@
       "discoveryYears": [
         1990
       ],
-      "approvalYears": [
-        1993
-      ],
       "startupYears": [
         1993
       ],
       "ownerships": [
         "CNPC (parent)* (55%); Sinopec Group (parent) (45%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.679
+        ],
+        "p50": [
+          1.268
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-be9832ddf250",
@@ -2508,15 +3332,6 @@
         2031,
         2039
       ],
-      "approvalYears": [
-        1982,
-        1992,
-        2011,
-        2013,
-        2028,
-        2032,
-        2047
-      ],
       "startupYears": [
         1983,
         1997,
@@ -2529,7 +3344,42 @@
       "ownerships": [
         "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.06%)",
         "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.07%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002,
+          0.0007,
+          67.0987,
+          81.716,
+          117.621,
+          158.468
+        ],
+        "p50": [
+          0.0005,
+          0.0009,
+          0.0026,
+          6.286,
+          43.32,
+          68.1108,
+          75.2044
+        ],
+        "pMean": [
+          0.0029,
+          0.0033,
+          0.0107,
+          3.602,
+          7.0313,
+          10.439
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 7,
+          "p50": 7,
+          "pMean": 6,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-e8b46eeb0bb7",
@@ -2566,15 +3416,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (50%); QazaqGaz Exploration and Production (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1198
+        ],
+        "p50": [
+          0.6168
+        ],
+        "pMean": [
+          3.0738
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-447504654469",
@@ -2611,15 +3477,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "CNPC-AktobeMunayGas* (0%); CNPC (parent) (42.47%); PetroChina (42.47%); KunLun Energy (15.06%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.2042
+        ],
+        "p50": [
+          0.7248
+        ],
+        "pMean": [
+          3.1777
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-3a50bedbdccb",
@@ -2656,15 +3538,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (95%); PetroVietnam (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0166
+        ],
+        "pMean": [
+          0.3151
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-531c841d061b",
@@ -2701,15 +3597,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2029
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (95%); PetroVietnam (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0025
+        ],
+        "pMean": [
+          0.0479
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-794e3555e044",
@@ -2746,15 +3656,29 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        1997
-      ],
       "startupYears": [
         1998
       ],
       "ownerships": [
         "CNPC (parent)* (95%); PetroVietnam (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3.9897
+        ],
+        "p50": [
+          1.7379
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-b58e7658de99",
@@ -2791,15 +3715,29 @@
       "discoveryYears": [
         1996
       ],
-      "approvalYears": [
-        2007
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "CNPC (parent)* (95%); PetroVietnam (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          39.0739
+        ],
+        "p50": [
+          19.937
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-1a5fe87bcaac",
@@ -2836,15 +3774,31 @@
       "discoveryYears": [
         1995
       ],
-      "approvalYears": [
-        2043
-      ],
       "startupYears": [
         2046
       ],
       "ownerships": [
         "CNPC (parent)* (95%); PetroVietnam (5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07
+        ],
+        "p50": [
+          1.192093e-06
+        ],
+        "pMean": [
+          -4.529953e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-f8cc931235a2",
@@ -2881,15 +3835,31 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0
+        ],
+        "p50": [
+          0
+        ],
+        "pMean": [
+          0
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-a2153bd53fb1",
@@ -2926,15 +3896,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "CNPC (parent)* (50%); Nepal Oil Corporation (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0858
+        ],
+        "p50": [
+          0.2762
+        ],
+        "pMean": [
+          0.8144
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-6d92021859a5",
@@ -2977,17 +3963,41 @@
         2011,
         2100
       ],
-      "approvalYears": [
-        2029,
-        2100
-      ],
       "startupYears": [
         2032,
         2100
       ],
       "ownerships": [
         "CNPC (parent)* (50%); PetroChina (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.308,
+          10.272,
+          17.82,
+          76.17999
+        ],
+        "p50": [
+          1.157,
+          22.22,
+          40.08,
+          165.36
+        ],
+        "pMean": [
+          2.0544,
+          17.26,
+          33.86,
+          130.2
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-9bc072c6f24c",
@@ -3024,15 +4034,31 @@
       "discoveryYears": [
         1976
       ],
-      "approvalYears": [
-        1977
-      ],
       "startupYears": [
         1977
       ],
       "ownerships": [
         "CNPC (parent)* (70%); ZhenHua Oil (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          56.3296
+        ],
+        "p50": [
+          11.4082
+        ],
+        "pMean": [
+          1.688
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "cnpc-89b797ec3268",
@@ -3069,15 +4095,31 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2030
       ],
       "ownerships": [
         "CNPC (parent)* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0061
+        ],
+        "p50": [
+          0.0213
+        ],
+        "pMean": [
+          0.0879
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

@@ -52,17 +52,34 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2000,
-        2004
-      ],
       "startupYears": [
         2006,
         2010
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); ExxonMobil (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          565.98,
+          2266.56
+        ],
+        "p50": [
+          101.4,
+          440.851
+        ],
+        "pMean": [
+          33.264
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-4eea83192975",
@@ -99,15 +116,31 @@
       "discoveryYears": [
         2013
       ],
-      "approvalYears": [
-        2035
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          32.662
+        ],
+        "p50": [
+          61.579
+        ],
+        "pMean": [
+          42.409
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-c825716f508e",
@@ -146,11 +179,6 @@
       "discoveryYears": [
         2003
       ],
-      "approvalYears": [
-        2011,
-        2034,
-        2042
-      ],
       "startupYears": [
         2020,
         2039,
@@ -158,7 +186,32 @@
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (93%); ExxonMobil (7%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          767.175,
+          961.2759,
+          1584.42
+        ],
+        "p50": [
+          693.1196,
+          1645.361,
+          2135.03
+        ],
+        "pMean": [
+          52.3646,
+          1267.48,
+          1793.7
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-b571ee9ca854",
@@ -195,15 +248,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "QatarEnergy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.0002
+        ],
+        "pMean": [
+          0.0031
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-94fc725220e5",
@@ -240,15 +307,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0055
+        ],
+        "p50": [
+          0.0154
+        ],
+        "pMean": [
+          0.0244
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-7f0fe780b4c3",
@@ -285,15 +368,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0114
+        ],
+        "p50": [
+          0.0303
+        ],
+        "pMean": [
+          0.027
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-171eb6dcd650",
@@ -330,15 +429,31 @@
       "discoveryYears": [
         2033
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0114
+        ],
+        "p50": [
+          0.0303
+        ],
+        "pMean": [
+          0.027
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-2346c0f9dedf",
@@ -375,15 +490,31 @@
       "discoveryYears": [
         1939
       ],
-      "approvalYears": [
-        1944
-      ],
       "startupYears": [
         1949
       ],
       "ownerships": [
         "QatarEnergy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1295.86
+        ],
+        "p50": [
+          895.98
+        ],
+        "pMean": [
+          39.012
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-d52ad5232033",
@@ -420,15 +551,31 @@
       "discoveryYears": [
         2032
       ],
-      "approvalYears": [
-        2039
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0055
+        ],
+        "p50": [
+          0.0154
+        ],
+        "pMean": [
+          0.0243
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-4cf4ab0926a8",
@@ -465,15 +612,31 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2044
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0529
+        ],
+        "p50": [
+          0.1435
+        ],
+        "pMean": [
+          0.2263
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-45cb0afdc42d",
@@ -514,12 +677,6 @@
       "discoveryYears": [
         1965
       ],
-      "approvalYears": [
-        1967,
-        2015,
-        2017,
-        2025
-      ],
       "startupYears": [
         1972,
         2021,
@@ -527,7 +684,34 @@
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          10.32199,
+          23.992,
+          27.566,
+          146.16
+        ],
+        "p50": [
+          4.079002,
+          8.886999,
+          12.943,
+          318.6
+        ],
+        "pMean": [
+          0,
+          2.682209e-07,
+          83.33
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-0453ffd4e605",
@@ -571,13 +755,6 @@
         1961,
         1986
       ],
-      "approvalYears": [
-        1981,
-        1995,
-        2020,
-        2023,
-        2029
-      ],
       "startupYears": [
         1986,
         1999,
@@ -587,7 +764,36 @@
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          4.168099,
+          8.641101,
+          23.984,
+          53.68,
+          232.1694
+        ],
+        "p50": [
+          0.1871009,
+          18.069,
+          25.78,
+          93.51841,
+          111.51
+        ],
+        "pMean": [
+          -5.960464e-08,
+          0,
+          5.7756
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-ba4d072db82c",
@@ -624,15 +830,31 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2040
-      ],
       "startupYears": [
         2052
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0704
+        ],
+        "p50": [
+          0.1891
+        ],
+        "pMean": [
+          0.2956
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-428b7328c48c",
@@ -671,17 +893,35 @@
       "discoveryYears": [
         1963
       ],
-      "approvalYears": [
-        1964,
-        2028
-      ],
       "startupYears": [
         1965,
         2031
       ],
       "ownerships": [
         "QatarEnergy* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          60.28199,
+          93.38
+        ],
+        "p50": [
+          27.491,
+          255.94
+        ],
+        "pMean": [
+          0,
+          62.66
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-4df75f6838d2",
@@ -718,15 +958,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2025
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          278.277
+        ],
+        "p50": [
+          220.521
+        ],
+        "pMean": [
+          -1.862645e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-72feb97d0d75",
@@ -763,15 +1019,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2019
-      ],
       "startupYears": [
         2024
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          168.5017
+        ],
+        "p50": [
+          87.9848
+        ],
+        "pMean": [
+          8.7244
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-a5d9799f58b2",
@@ -808,15 +1080,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1986
-      ],
       "startupYears": [
         1992
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          828.64
+        ],
+        "p50": [
+          97.97
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-e908b5cecf46",
@@ -853,15 +1139,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2051
-      ],
       "startupYears": [
         2056
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -0.0004200935
+        ],
+        "p50": [
+          0.0002403259
+        ],
+        "pMean": [
+          0.0002670288
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-b46f2f7b4b5d",
@@ -898,15 +1200,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2027
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          587.91
+        ],
+        "p50": [
+          698.64
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-7375a0256d5f",
@@ -943,15 +1259,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2024
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          482.3
+        ],
+        "p50": [
+          673.2599
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-a8587a1c68e5",
@@ -988,15 +1318,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2029
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          477.7
+        ],
+        "p50": [
+          708.57
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-2d6e5aa5846d",
@@ -1033,15 +1377,29 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2025
-      ],
       "startupYears": [
         2031
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          274.58
+        ],
+        "p50": [
+          420.61
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-a6ef7bb1db26",
@@ -1078,15 +1436,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2028
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          436.84
+        ],
+        "p50": [
+          536.62
+        ],
+        "pMean": [
+          216.45
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-ec4738d40c7c",
@@ -1123,15 +1497,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2070
-      ],
       "startupYears": [
         2075
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05
+        ],
+        "p50": [
+          0.0003662109
+        ],
+        "pMean": [
+          -0.0002441406
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-80cf0ab72d8d",
@@ -1168,15 +1558,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2070
-      ],
       "startupYears": [
         2075
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          3202.601
+        ],
+        "p50": [
+          7268.333
+        ],
+        "pMean": [
+          6380.335
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-0a4c97e54b96",
@@ -1213,17 +1619,35 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2040,
-        2059
-      ],
       "startupYears": [
         2048,
         2064
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0002441406,
+          3306.597
+        ],
+        "p50": [
+          0.0004882812,
+          7364.553
+        ],
+        "pMean": [
+          -7.629395e-05,
+          6229.205
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-8521483db51d",
@@ -1264,15 +1688,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1991
-      ],
       "startupYears": [
         1997
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          3868.011
+        ],
+        "p50": [
+          0,
+          907.976
+        ],
+        "pMean": [
+          73.82
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-97d80aba7c85",
@@ -1313,16 +1755,38 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (65%); ExxonMobil (18.3%); TotalEnergies (16.7%)",
         "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2113.09,
+          2261.636
+        ],
+        "p50": [
+          -3.051758e-05,
+          0,
+          381.2038,
+          550.83
+        ],
+        "pMean": [
+          13.2026,
+          34.347
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-1b84e7e66ae8",
@@ -1363,15 +1827,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2005
-      ],
       "startupYears": [
         2010
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (68.5%); ConocoPhillips (30%); Mitsui (1.5%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2633.818
+        ],
+        "p50": [
+          0,
+          928.9287
+        ],
+        "pMean": [
+          75.38499
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-29315eae8c02",
@@ -1412,15 +1894,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2006
-      ],
       "startupYears": [
         2011
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (70%); Shell (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2149.064
+        ],
+        "p50": [
+          -1.525879e-05,
+          475.0981
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-eb2b98f6c1f9",
@@ -1461,16 +1959,39 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2030,
         2031
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (73.13%); Shell (9.38%); TotalEnergies (9.38%); ConocoPhillips (6.25%); Sinopec Group (parent) (1.88%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -6.103516e-05,
+          -7.629395e-06,
+          1312.304,
+          1331.018
+        ],
+        "p50": [
+          -7.629395e-05,
+          -6.103516e-05,
+          1864.425,
+          1879.438
+        ],
+        "pMean": [
+          171.6871,
+          175.31
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-245e7763f8ae",
@@ -1511,15 +2032,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2026
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1185.417
+        ],
+        "p50": [
+          0,
+          1964.581
+        ],
+        "pMean": [
+          215.9894
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-b25afa274121",
@@ -1560,9 +2099,6 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2021
-      ],
       "startupYears": [
         2027,
         2028,
@@ -1570,7 +2106,40 @@
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (71.25%); ExxonMobil (6.25%); Shell (6.25%); TotalEnergies (6.25%); ConocoPhillips (3.13%); Eni (3.13%); CNPC (parent) (1.25%); CPC (Taiwan) (1.25%); Sinopec Group (parent) (1.25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          2.861023e-05,
+          1368.868,
+          1398.51,
+          1398.595,
+          1438.297
+        ],
+        "p50": [
+          -4.577637e-05,
+          0,
+          6.103516e-05,
+          1749.195,
+          1749.237,
+          1761.478,
+          1770.638
+        ],
+        "pMean": [
+          108.18,
+          157.9205,
+          157.9934,
+          166.1834
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 8,
+          "p50": 8,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-eccb437b6cdc",
@@ -1611,15 +2180,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1994
-      ],
       "startupYears": [
         1999
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (88%); ITOCHU (4%); Korea Gas (3%); Sojitz (1.5%); Sumitomo (1.5%); Samsung (0.5%); Hyundai (0.4%); SK Innovation (0.4%); LG International (0.28%); Daesung (0.27%); Hanwha Energy (0.15%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -3.051758e-05,
+          2002.365
+        ],
+        "p50": [
+          1.525879e-05,
+          416.7874
+        ],
+        "pMean": [
+          19.1541
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-7ff00a7721ba",
@@ -1660,15 +2247,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        1999
-      ],
       "startupYears": [
         2004
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          3765.93
+        ],
+        "p50": [
+          0,
+          561.9962
+        ],
+        "pMean": [
+          43.814
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "qatarenergy-903a6217b569",
@@ -1709,15 +2314,33 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2009
       ],
       "ownerships": [
         "QatarEnergy LNG* (0%); QatarEnergy (70%); ExxonMobil (30%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          4414.489
+        ],
+        "p50": [
+          0,
+          1055.076
+        ],
+        "pMean": [
+          62.935
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

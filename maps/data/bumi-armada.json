@@ -60,17 +60,39 @@
         2007,
         2026
       ],
-      "approvalYears": [
-        2032,
-        2042
-      ],
       "startupYears": [
         2036,
         2046
       ],
       "ownerships": [
         "Bumi Armada* (51%); Pexco Exploration (49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.66893e-06,
+          -1.117587e-08,
+          0
+        ],
+        "p50": [
+          0,
+          1.192093e-06,
+          0.0031
+        ],
+        "pMean": [
+          -8.940697e-07,
+          0,
+          5.960464e-08,
+          0.0631
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 4,
+          "pMean": 4,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "bumi-armada-7caf394b8ecc",
@@ -107,15 +129,31 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2031
-      ],
       "startupYears": [
         2033
       ],
       "ownerships": [
         "Bumi Armada* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          12.98
+        ],
+        "p50": [
+          53.7349
+        ],
+        "pMean": [
+          84.535
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "bumi-armada-6537092e8507",
@@ -152,15 +190,29 @@
       "discoveryYears": [
         2028
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2034
       ],
       "ownerships": [
         "Bumi Armada* (100%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          4.4915
+        ],
+        "pMean": [
+          85.359
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     }
   ]
 }

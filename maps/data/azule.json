@@ -52,16 +52,32 @@
       "discoveryYears": [
         2019
       ],
-      "approvalYears": [
-        2023
-      ],
       "startupYears": [
         2025,
         2026
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          55.3647,
+          143.0043
+        ],
+        "p50": [
+          65.4062,
+          143.9345
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-9109ff7b6bec",
@@ -98,15 +114,31 @@
       "discoveryYears": [
         2025
       ],
-      "approvalYears": [
-        2030
-      ],
       "startupYears": [
         2032
       ],
       "ownerships": [
         "Azule Energy* (35%); Equinor (30%); Sonangol (25%); ACREP - Exploracao Petrolifera (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          21.2387
+        ],
+        "p50": [
+          54.209
+        ],
+        "pMean": [
+          56.55
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-acd79efae529",
@@ -143,15 +175,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2041
-      ],
       "startupYears": [
         2058
       ],
       "ownerships": [
         "Azule Energy* (35%); Equinor (30%); Sonangol (25%); ACREP - Exploracao Petrolifera (10%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0845
+        ],
+        "p50": [
+          0.4223
+        ],
+        "pMean": [
+          2.9319
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-80d540e7edbf",
@@ -188,15 +236,29 @@
       "discoveryYears": [
         2030
       ],
-      "approvalYears": [
-        2033
-      ],
       "startupYears": [
         2035
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          1.8572
+        ],
+        "pMean": [
+          35.2813
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-0a639bec1fdd",
@@ -233,15 +295,31 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2047
       ],
       "ownerships": [
         "Azule Energy* (80%); Sonangol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.1773
+        ],
+        "p50": [
+          0.8278999
+        ],
+        "pMean": [
+          5.657
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-97ceac457e26",
@@ -278,15 +356,29 @@
       "discoveryYears": [
         2026
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2039
       ],
       "ownerships": [
         "Azule Energy* (60%); Sinopec Group (parent) (20%); Sonangol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          2.7824
+        ],
+        "pMean": [
+          52.9117
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-c9bb09465975",
@@ -323,15 +415,29 @@
       "discoveryYears": [
         2027
       ],
-      "approvalYears": [
-        2044
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Azule Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          2.3156
+        ],
+        "pMean": [
+          43.9914
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-da60c5604c5d",
@@ -368,15 +474,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Azule Energy* (40%); Equinor (40%); Sonangol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.4099
+        ],
+        "pMean": [
+          7.8028
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-ff7bacb7df97",
@@ -413,15 +533,29 @@
       "discoveryYears": [
         2029
       ],
-      "approvalYears": [
-        2046
-      ],
       "startupYears": [
         2049
       ],
       "ownerships": [
         "Azule Energy* (40%); Equinor (40%); Sonangol (20%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [],
+        "p50": [
+          0.1586
+        ],
+        "pMean": [
+          3.0161
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 0,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-175aff79f82e",
@@ -458,15 +592,31 @@
       "discoveryYears": [
         2038
       ],
-      "approvalYears": [
-        2048
-      ],
       "startupYears": [
         2053
       ],
       "ownerships": [
         "Azule Energy* (42.5%); ExxonMobil (32.5%); Sonangol (25%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.0321
+        ],
+        "p50": [
+          0.109
+        ],
+        "pMean": [
+          0.1387
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-5fdd953c6519",
@@ -511,12 +661,6 @@
         2019,
         2021
       ],
-      "approvalYears": [
-        2013,
-        2018,
-        2021,
-        2028
-      ],
       "startupYears": [
         2017,
         2021,
@@ -524,7 +668,32 @@
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -2.980232e-08,
+          17.5913,
+          17.712,
+          61.554
+        ],
+        "p50": [
+          -1.013279e-06,
+          4.5371,
+          7.419,
+          16.5348
+        ],
+        "pMean": [
+          -4.410744e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-00aee9532d3a",
@@ -569,13 +738,6 @@
         2008,
         2009
       ],
-      "approvalYears": [
-        2026,
-        2031,
-        2032,
-        2034,
-        2035
-      ],
       "startupYears": [
         2029,
         2032,
@@ -587,7 +749,65 @@
       "ownerships": [
         "Azule Energy* (26.67%); Sonangol (45.61%); Equinor (13.33%); Sinopec Group (parent) (8.25%); Dayuan International Development (4.72%); New Bright International Development (1.42%)",
         "Azule Energy* (50%); Equinor (50%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0,
+          1.862645e-08,
+          0.723,
+          0.7724,
+          0.8546,
+          1.512,
+          1.53,
+          4.352,
+          6.2188,
+          7.682,
+          8.940001,
+          9.440001,
+          9.5,
+          11.205,
+          12.963
+        ],
+        "p50": [
+          -1.490116e-08,
+          2.980232e-08,
+          4.982,
+          5.306,
+          5.878,
+          10.12,
+          10.58,
+          12.64,
+          14.68,
+          17.06,
+          18,
+          18.14,
+          18.6665,
+          33.6485,
+          38.896
+        ],
+        "pMean": [
+          0,
+          2.980232e-08,
+          8.4,
+          9.76,
+          10.292,
+          10.3,
+          10.384,
+          10.918,
+          11,
+          12.14,
+          20.36,
+          21.9
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 15,
+          "p50": 15,
+          "pMean": 12,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-36ebf0dbcfdd",
@@ -625,17 +845,35 @@
       "discoveryYears": [
         2018
       ],
-      "approvalYears": [
-        2032,
-        2033
-      ],
       "startupYears": [
         2035,
         2036
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          1.4154,
+          3.5494
+        ],
+        "p50": [
+          11.1362,
+          24.7164
+        ],
+        "pMean": [
+          26.3142,
+          51.609
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 2,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-0277e96d2ff2",
@@ -672,15 +910,31 @@
       "discoveryYears": [
         2011
       ],
-      "approvalYears": [
-        2034
-      ],
       "startupYears": [
         2038
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -7.450581e-09
+        ],
+        "p50": [
+          -2.980232e-08
+        ],
+        "pMean": [
+          -2.086163e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-2a96fabd55bd",
@@ -717,15 +971,31 @@
       "discoveryYears": [
         1971
       ],
-      "approvalYears": [
-        2022
-      ],
       "startupYears": [
         2026
       ],
       "ownerships": [
         "Azule Energy* (37.4%); Chevron (31%); Sonangol (19.8%); TotalEnergies (11.8%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          245.5633
+        ],
+        "p50": [
+          90.53001
+        ],
+        "pMean": [
+          -4.656613e-09
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-bcadf6440981",
@@ -765,17 +1035,34 @@
         2013,
         2026
       ],
-      "approvalYears": [
-        2028,
-        2041
-      ],
       "startupYears": [
         2029,
         2044
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.8658
+        ],
+        "p50": [
+          6.1241,
+          7.118999
+        ],
+        "pMean": [
+          12.9958,
+          135.359
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 2,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-f6fa5aa8b643",
@@ -812,15 +1099,31 @@
       "discoveryYears": [
         2015
       ],
-      "approvalYears": [
-        2036
-      ],
       "startupYears": [
         2041
       ],
       "ownerships": [
         "Azule Energy* (50%); Sonangol (43%); New Bright International Development (7%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          2.384186e-07
+        ],
+        "p50": [
+          -1.549721e-06
+        ],
+        "pMean": [
+          4.708767e-06
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 1,
+          "p50": 1,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-8f08e20cb1f8",
@@ -861,16 +1164,38 @@
         2003,
         2004
       ],
-      "approvalYears": [
-        2008
-      ],
       "startupYears": [
         2012,
         2013
       ],
       "ownerships": [
         "Azule Energy* (26.67%); Sonangol (45.61%); Equinor (13.33%); Sinopec Group (parent) (8.25%); Dayuan International Development (4.72%); New Bright International Development (1.42%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          23.6164,
+          30.176,
+          35.2396,
+          73.065
+        ],
+        "p50": [
+          6.2346,
+          7.5207,
+          9.013599,
+          17.7598
+        ],
+        "pMean": [
+          0.1396
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 4,
+          "p50": 4,
+          "pMean": 1,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-399407df9be0",
@@ -909,16 +1234,38 @@
         1999,
         2000
       ],
-      "approvalYears": [
-        2004
-      ],
       "startupYears": [
         2007,
         2008
       ],
       "ownerships": [
         "Azule Energy* (46%); Sinopec (37.72%); Sonangol (16.28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          5.8283,
+          6.362,
+          6.499,
+          11.2161,
+          49.7551
+        ],
+        "p50": [
+          1.3475,
+          1.4549,
+          2.8025,
+          4.1355,
+          9.2057
+        ],
+        "pMean": [],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 5,
+          "p50": 5,
+          "pMean": 0,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-fb42fcc8d1bc",
@@ -959,11 +1306,6 @@
         1999,
         2004
       ],
-      "approvalYears": [
-        2019,
-        2029,
-        2033
-      ],
       "startupYears": [
         2021,
         2032,
@@ -971,7 +1313,30 @@
       ],
       "ownerships": [
         "Azule Energy* (46%); Sinopec (37.72%); Sonangol (16.28%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          -1.192093e-07,
+          -1.490116e-08,
+          77.18501
+        ],
+        "p50": [
+          2.384186e-07,
+          45.814
+        ],
+        "pMean": [
+          -2.384186e-07,
+          9.536743e-07
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 3,
+          "p50": 3,
+          "pMean": 2,
+          "prospective": 0
+        }
+      }
     },
     {
       "id": "azule-85a4cf5f2402",
@@ -1020,16 +1385,6 @@
         2014,
         2019
       ],
-      "approvalYears": [
-        2011,
-        2016,
-        2018,
-        2019,
-        2021,
-        2029,
-        2036,
-        2041
-      ],
       "startupYears": [
         2014,
         2016,
@@ -1043,7 +1398,46 @@
       ],
       "ownerships": [
         "Azule Energy* (36.84%); Sonangol (40.39%); Sinopec Group (parent) (14.48%); New Bright International Development (5.8%); Dayuan International Development (2.49%)"
-      ]
+      ],
+      "resources": {
+        "unit": "million bbl",
+        "p90": [
+          0.3688,
+          0.8362999,
+          1.3236,
+          1.9035,
+          2.9714,
+          5.3875,
+          6.3516,
+          16.696,
+          25.94,
+          29.1162
+        ],
+        "p50": [
+          0.0483,
+          0.0738,
+          0.09940001,
+          1.6525,
+          2.1192,
+          2.4872,
+          3.9799,
+          5.6634,
+          8.876501,
+          20.5076
+        ],
+        "pMean": [
+          3.5836,
+          5.0268,
+          11.4997
+        ],
+        "prospective": [],
+        "rawCounts": {
+          "p90": 10,
+          "p50": 10,
+          "pMean": 3,
+          "prospective": 0
+        }
+      }
     }
   ]
 }
