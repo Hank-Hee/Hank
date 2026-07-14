@@ -1,0 +1,603 @@
+{
+  "company": {
+    "name": "ExxonMobil",
+    "legalName": "Exxon Mobil Corporation",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "updatedOn": "2026-07-14"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2025",
+    "forecastRange": "2026-2028 third-party consensus; FY2026 capex also has official guidance",
+    "dashboardYears": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028],
+    "availabilityNote": "FY2016-FY2025 are consolidated annual actuals. FY2026-FY2028 revenue, net income, PP&E additions and FCF are third-party consensus estimates from an openly accessible MarketScreener page. ExxonMobil's FY2026 official cash-capex guidance is USD27-29bn; its midpoint is retained in the normalized table, while the dashboard uses the consensus series for a consistent forecast presentation. No annual forecasts were retained after FY2028."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 208114,
+      "netIncome": 7840,
+      "operatingCashFlow": 22082,
+      "freeCashFlow": 9679,
+      "capex": -16163,
+      "cashOnHand": 3657,
+      "netChangeInCash": -48,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2017", "xom_fy_2017_results", "xom_10k_2016", "xom_fy_2016_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2017",
+      "secondarySourceKey": "xom_fy_2017_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income. FY2016 revenue is restated to the FY2017 comparable presentation after the sales-based tax reporting-policy change; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2017 10-K and FY2017 results are the primary comparable sources. ExxonMobil restated FY2016 total revenues and other income to USD208,114m after its FY2017 sales-based tax reporting-policy change; the original FY2016 10-K reported USD218,608m. Net income, cash flow, cash and PP&E cash additions are cross-checked to the original FY2016 filing/results and SEC Companyfacts. FCF is operating cash flow plus investing cash flow, the company definition used in this period."
+    },
+    {
+      "year": 2017,
+      "revenue": 244363,
+      "netIncome": 19710,
+      "operatingCashFlow": 30066,
+      "freeCashFlow": 14336,
+      "capex": -15402,
+      "cashOnHand": 3177,
+      "netChangeInCash": -480,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2017", "xom_fy_2017_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2017",
+      "secondarySourceKey": "xom_fy_2017_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2017 10-K is the primary source. The official FY2017 results release confirms net income and annual capital and exploration expenditure; SEC Companyfacts cross-checks the audited cash-flow tags. FCF is operating cash flow plus investing cash flow."
+    },
+    {
+      "year": 2018,
+      "revenue": 290212,
+      "netIncome": 20840,
+      "operatingCashFlow": 36014,
+      "freeCashFlow": 19568,
+      "capex": -19574,
+      "cashOnHand": 3042,
+      "netChangeInCash": -135,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2018", "xom_fy_2018_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2018",
+      "secondarySourceKey": "xom_fy_2018_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2018 10-K is the primary source. The official FY2018 results release confirms net income and operating cash flow; SEC Companyfacts cross-checks audited cash-flow tags. FCF is operating cash flow plus investing cash flow."
+    },
+    {
+      "year": 2019,
+      "revenue": 264938,
+      "netIncome": 14340,
+      "operatingCashFlow": 29716,
+      "freeCashFlow": 6632,
+      "capex": -24361,
+      "cashOnHand": 3089,
+      "netChangeInCash": 47,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2019", "xom_fy_2019_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2019",
+      "secondarySourceKey": "xom_fy_2019_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2019 10-K is the primary source. The official FY2019 results release confirms net income and operating cash flow; SEC Companyfacts cross-checks audited cash-flow tags. FCF is operating cash flow plus investing cash flow."
+    },
+    {
+      "year": 2020,
+      "revenue": 181502,
+      "netIncome": -22440,
+      "operatingCashFlow": 14668,
+      "freeCashFlow": -3791,
+      "capex": -17282,
+      "cashOnHand": 4364,
+      "netChangeInCash": 1275,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2020", "xom_fy_2020_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2020",
+      "secondarySourceKey": "xom_fy_2020_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2020 10-K is the primary source. The official FY2020 results release confirms the net loss, operating cash flow and annual capital spending; SEC Companyfacts cross-checks audited cash-flow tags. FCF is operating cash flow plus investing cash flow."
+    },
+    {
+      "year": 2021,
+      "revenue": 285640,
+      "netIncome": 23040,
+      "operatingCashFlow": 48129,
+      "freeCashFlow": 37894,
+      "capex": -12076,
+      "cashOnHand": 6802,
+      "netChangeInCash": 2438,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2021", "xom_fy_2022_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2021",
+      "secondarySourceKey": "xom_fy_2022_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2021 10-K is the primary source. ExxonMobil's FY2022 results release provides a formal FY2021 FCF comparison; it agrees with operating cash flow plus investing cash flow."
+    },
+    {
+      "year": 2022,
+      "revenue": 413680,
+      "netIncome": 55740,
+      "operatingCashFlow": 76797,
+      "freeCashFlow": 62055,
+      "capex": -18407,
+      "cashOnHand": 29640,
+      "netChangeInCash": 22863,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2022", "xom_fy_2022_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2022",
+      "secondarySourceKey": "xom_fy_2022_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2022 10-K is the primary source. The official FY2022 results release agrees on net income, operating cash flow, reported FCF and PP&E additions."
+    },
+    {
+      "year": 2023,
+      "revenue": 344582,
+      "netIncome": 36010,
+      "operatingCashFlow": 55369,
+      "freeCashFlow": 36219,
+      "capex": -21919,
+      "cashOnHand": 31539,
+      "netChangeInCash": 1903,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2023", "xom_fy_2024_results", "xom_fy_2023_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2023",
+      "secondarySourceKey": "xom_fy_2024_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified with definition update",
+      "verificationNote": "FY2023 10-K is the primary source. FY2024 results restated FY2023 FCF to USD36,219m under the updated company definition, including noncontrolling-interest inflows. The original FY2023 release showed USD36,095m under its then-current definition."
+    },
+    {
+      "year": 2024,
+      "revenue": 349585,
+      "netIncome": 33680,
+      "operatingCashFlow": 55022,
+      "freeCashFlow": 34362,
+      "capex": -24306,
+      "cashOnHand": 23029,
+      "netChangeInCash": -8381,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2024", "xom_fy_2024_results", "xom_fy_2025_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2024",
+      "secondarySourceKey": "xom_fy_2024_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2024 10-K is the primary source. The official FY2024 results release agrees on net income, operating cash flow, reported FCF and PP&E additions; FY2025 results repeats the FY2024 FCF reconciliation."
+    },
+    {
+      "year": 2025,
+      "revenue": 332238,
+      "netIncome": 28844,
+      "operatingCashFlow": 51970,
+      "freeCashFlow": 26131,
+      "capex": -28358,
+      "cashOnHand": 10681,
+      "netChangeInCash": -12506,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": ["xom_10k_2025", "xom_fy_2025_results", "sec_companyfacts"],
+      "primarySourceKey": "xom_10k_2025",
+      "secondarySourceKey": "xom_fy_2025_results",
+      "basis": "Exxon Mobil Corporation consolidated; revenue is total revenues and other income; capex is cash paid for PP&E additions",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "FY2025 10-K is the primary source. The official FY2025 results release agrees on net income, operating cash flow, reported FCF, PP&E additions and period-end cash."
+    },
+    {
+      "year": 2026,
+      "revenue": 396990,
+      "netIncome": 47745,
+      "operatingCashFlow": null,
+      "freeCashFlow": 42923,
+      "capex": -27328,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "officialCapexGuidanceMidpoint": -28000,
+      "status": "Third-party consensus forecast; official cash-capex guidance is USD27-29bn",
+      "sourceKeys": ["marketscreener_xom_forecast", "xom_fy_2025_results"],
+      "primarySourceKey": "marketscreener_xom_forecast",
+      "secondarySourceKey": "xom_fy_2025_results",
+      "basis": "MarketScreener analyst consensus in USD million; ExxonMobil official FY2026 cash-capex guidance midpoint is separately recorded as USD28,000m",
+      "dataType": "Third-party forecast",
+      "verificationStatus": "Forecast sourced",
+      "verificationNote": "Revenue, net income, PP&E additions and FCF are third-party consensus estimates. ExxonMobil's official FY2026 cash-capex range is USD27-29bn, consistent in direction but not identical to the consensus PP&E-additions estimate. Operating cash flow and cash balance are left blank because the source does not provide a directly aligned annual estimate."
+    },
+    {
+      "year": 2027,
+      "revenue": 383991,
+      "netIncome": 45559,
+      "operatingCashFlow": null,
+      "freeCashFlow": 41862,
+      "capex": -28970,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Third-party consensus forecast",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "primarySourceKey": "marketscreener_xom_forecast",
+      "secondarySourceKey": null,
+      "basis": "MarketScreener analyst consensus in USD million",
+      "dataType": "Third-party forecast",
+      "verificationStatus": "Forecast sourced",
+      "verificationNote": "Revenue, net income, PP&E additions and FCF are third-party consensus estimates. Operating cash flow and cash balance are left blank because no directly aligned accessible annual estimate was retained."
+    },
+    {
+      "year": 2028,
+      "revenue": 382464,
+      "netIncome": 46872,
+      "operatingCashFlow": null,
+      "freeCashFlow": 44381,
+      "capex": -28978,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "Third-party consensus forecast",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "primarySourceKey": "marketscreener_xom_forecast",
+      "secondarySourceKey": null,
+      "basis": "MarketScreener analyst consensus in USD million",
+      "dataType": "Third-party forecast",
+      "verificationStatus": "Forecast sourced",
+      "verificationNote": "Revenue, net income, PP&E additions and FCF are third-party consensus estimates. Operating cash flow and cash balance are left blank because no directly aligned accessible annual estimate was retained."
+    },
+    {
+      "year": 2029,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2030,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2031,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2032,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2033,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2034,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2035,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    },
+    {
+      "year": 2036,
+      "revenue": null,
+      "netIncome": null,
+      "operatingCashFlow": null,
+      "freeCashFlow": null,
+      "capex": null,
+      "cashOnHand": null,
+      "netChangeInCash": null,
+      "status": "No accessible annual forecast retained",
+      "sourceKeys": ["marketscreener_xom_forecast"],
+      "basis": "Exxon Mobil Corporation",
+      "dataType": "Forecast not retained",
+      "verificationStatus": "Not applicable",
+      "verificationNote": "The selected public consensus page provides annual estimates only through FY2028."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "ExxonMobil 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group actuals FY2016-FY2025; analyst consensus FY2026-FY2028",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": ["xom_10k_2025", "xom_fy_2025_results", "marketscreener_xom_forecast"],
+      "sourceLine": "Source: 2025 10-K · FY2025 Results · Consensus",
+      "updateDate": "Update date: 2026/07/14",
+      "note": "Forecast values are third-party consensus estimates; actual values are official consolidated disclosures."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "ExxonMobil 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "PP&E additions as investments; company-reported FCF actuals; analyst consensus forecast",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": ["xom_10k_2025", "xom_fy_2025_results", "marketscreener_xom_forecast"],
+      "sourceLine": "Source: 2025 10-K · FY2025 Results · Consensus",
+      "updateDate": "Update date: 2026/07/14",
+      "note": "Investment bars show cash paid for PP&E additions. Company FCF definition changed in FY2024; the verification sheet records the restatement."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Total revenues and other income in ExxonMobil's consolidated disclosures. This is the reported top-line basis used by the selected third-party consensus source. FY2016 uses the USD208,114m comparable amount restated in FY2017 following ExxonMobil's sales-based tax reporting-policy change; the original FY2016 disclosure reported USD218,608m."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Net income attributable to ExxonMobil (U.S. GAAP)."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash provided by operating activities (U.S. GAAP)."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Company-reported non-GAAP FCF where disclosed. For FY2016-FY2020 it is calculated as operating cash flow plus net cash used in investing activities, the company definition used in those periods. ExxonMobil updated the FCF definition in FY2024 to exclude cash acquired from mergers and acquisitions and include inflows from noncontrolling interests for major projects."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash paid for additions to property, plant and equipment, shown as a negative outflow in normalized data and positive columns in the dashboard. This is a consistent PP&E cash-capex proxy and excludes additional investments and advances."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end, excluding restricted cash where separately classified."
+    },
+    {
+      "metric": "Net change in cash",
+      "definition": "Net increase or decrease in cash, cash equivalents and restricted cash, including exchange-rate effects, from the audited cash-flow statement."
+    },
+    {
+      "metric": "Forecasts",
+      "definition": "FY2026-FY2028 revenue, net income, PP&E additions and FCF are third-party consensus estimates. The official FY2026 cash-capex guidance of USD27-29bn is retained separately as a midpoint of USD28,000m."
+    }
+  ],
+  "sources": [
+    {
+      "key": "sec_companyfacts",
+      "title": "SEC Companyfacts - Exxon Mobil Corporation",
+      "shortTitle": "SEC XBRL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034088.json",
+      "notes": "Official SEC structured XBRL data used to cross-check audited annual cash-flow, cash and revenue tags."
+    },
+    {
+      "key": "xom_10k_2016",
+      "title": "Exxon Mobil Corporation 2016 Form 10-K",
+      "shortTitle": "2016 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408817000017/xom10k2016.htm",
+      "notes": "Primary audited consolidated FY2016 disclosure."
+    },
+    {
+      "key": "xom_10k_2017",
+      "title": "Exxon Mobil Corporation 2017 Form 10-K",
+      "shortTitle": "2017 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408818000015/xom10k2017.htm",
+      "notes": "Primary audited consolidated FY2017 disclosure."
+    },
+    {
+      "key": "xom_10k_2018",
+      "title": "Exxon Mobil Corporation 2018 Form 10-K",
+      "shortTitle": "2018 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408819000010/xom10k2018.htm",
+      "notes": "Primary audited consolidated FY2018 disclosure."
+    },
+    {
+      "key": "xom_10k_2019",
+      "title": "Exxon Mobil Corporation 2019 Form 10-K",
+      "shortTitle": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408820000016/xom10k2019.htm",
+      "notes": "Primary audited consolidated FY2019 disclosure."
+    },
+    {
+      "key": "xom_10k_2020",
+      "title": "Exxon Mobil Corporation 2020 Form 10-K",
+      "shortTitle": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408821000012/xom-20201231.htm",
+      "notes": "Primary audited consolidated FY2020 disclosure."
+    },
+    {
+      "key": "xom_10k_2021",
+      "title": "Exxon Mobil Corporation 2021 Form 10-K",
+      "shortTitle": "2021 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408822000011/xom-20211231.htm",
+      "notes": "Primary audited consolidated FY2021 disclosure."
+    },
+    {
+      "key": "xom_10k_2022",
+      "title": "Exxon Mobil Corporation 2022 Form 10-K",
+      "shortTitle": "2022 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408823000020/xom-20221231.htm",
+      "notes": "Primary audited consolidated FY2022 disclosure."
+    },
+    {
+      "key": "xom_10k_2023",
+      "title": "Exxon Mobil Corporation 2023 Form 10-K",
+      "shortTitle": "2023 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408824000018/xom-20231231.htm",
+      "notes": "Primary audited consolidated FY2023 disclosure."
+    },
+    {
+      "key": "xom_10k_2024",
+      "title": "Exxon Mobil Corporation 2024 Form 10-K",
+      "shortTitle": "2024 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm",
+      "notes": "Primary audited consolidated FY2024 disclosure."
+    },
+    {
+      "key": "xom_10k_2025",
+      "title": "Exxon Mobil Corporation 2025 Form 10-K",
+      "shortTitle": "10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm",
+      "notes": "Primary audited consolidated FY2025 disclosure."
+    },
+    {
+      "key": "xom_fy_2016_results",
+      "title": "ExxonMobil FY2016 Results",
+      "shortTitle": "FY2016 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2017/0131_exxonmobil-earns-nearly-8-billion-in-2016-and-nearly-2-billion-during-fourth-quarter",
+      "notes": "Official full-year results cross-check for FY2016 earnings and capital and exploration expenditures."
+    },
+    {
+      "key": "xom_fy_2017_results",
+      "title": "ExxonMobil FY2017 Results",
+      "shortTitle": "FY2017 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2018/0202_exxonmobil-earns-over-19-billion-in-2017-and-over-8-billion-in-fourth-quarter",
+      "notes": "Official full-year results cross-check for FY2017 earnings, capital and exploration expenditures, and operating cash flow plus asset sales."
+    },
+    {
+      "key": "xom_fy_2018_results",
+      "title": "ExxonMobil FY2018 Results",
+      "shortTitle": "FY2018 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2019/0201_exxonmobil-earns-20-billion-in-2018-6-billion-in-fourth-quarter",
+      "notes": "Official full-year results cross-check for FY2018 earnings and operating cash flow."
+    },
+    {
+      "key": "xom_fy_2019_results",
+      "title": "ExxonMobil FY2019 Results",
+      "shortTitle": "FY2019 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2020/0131_exxonmobil-earns-14-billion-in-2019-5-billion-in-fourth-quarter",
+      "notes": "Official full-year results cross-check for FY2019 earnings and operating cash flow."
+    },
+    {
+      "key": "xom_fy_2020_results",
+      "title": "ExxonMobil FY2020 Results",
+      "shortTitle": "FY2020 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2021/0202_exxonmobil-reports-results-for-fourth-quarter-2020-and-provides-perspective-on-forward-plans",
+      "notes": "Official full-year results cross-check for FY2020 net loss, operating cash flow and capital spending."
+    },
+    {
+      "key": "xom_fy_2021_results",
+      "title": "ExxonMobil FY2021 Results",
+      "shortTitle": "FY2021 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2022/0201_exxonmobil-earns-23-billion-in-2021_initiates-10-billion-share-repurchase-program",
+      "notes": "Official full-year results cross-check for FY2021 earnings."
+    },
+    {
+      "key": "xom_fy_2022_results",
+      "title": "ExxonMobil FY2022 Results",
+      "shortTitle": "FY2022 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2023/0131_exxonmobil-announces-full-year-2022-results",
+      "notes": "Official full-year results cross-check for FY2021-FY2022 FCF, operating cash flow and PP&E additions."
+    },
+    {
+      "key": "xom_fy_2023_results",
+      "title": "ExxonMobil FY2023 Results",
+      "shortTitle": "FY2023 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0202_exxonmobil-announces-2023-results",
+      "notes": "Official full-year results cross-check for FY2022-FY2023 FCF and cash-flow reconciliation."
+    },
+    {
+      "key": "xom_fy_2024_results",
+      "title": "ExxonMobil FY2024 Results",
+      "shortTitle": "FY2024 Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0131_exxonmobil-announces-2024-results",
+      "notes": "Official FY2024 results; it restates FY2023 FCF under the updated definition and provides FY2024 FCF reconciliation."
+    },
+    {
+      "key": "xom_fy_2025_results",
+      "title": "ExxonMobil FY2025 Results",
+      "shortTitle": "Results",
+      "url": "https://corporate.exxonmobil.com/news/news-releases/2026/0130-exxonmobil-announces-2025-results",
+      "notes": "Official FY2025 results and FCF reconciliation. Includes FY2026 cash-capex guidance of USD27-29bn."
+    },
+    {
+      "key": "marketscreener_xom_forecast",
+      "title": "MarketScreener - ExxonMobil Analyst Consensus Forecasts",
+      "shortTitle": "Consensus",
+      "url": "https://uk.marketscreener.com/quote/stock/EXXONMOBIL-HOLDINGS-CORPO-4822/finances/",
+      "notes": "Third-party public consensus estimates in USD million for FY2026-FY2028 revenue, net income, PP&E additions and FCF. Checked for public browser access on 2026-07-14; refresh before relying on forecast values."
+    }
+  ]
+}

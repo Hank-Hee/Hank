@@ -61,6 +61,10 @@ body {
   box-shadow: 0 12px 24px rgba(28, 55, 76, 0.14);
 }
 
+body[data-company="exxonmobil"] .chart-header {
+  max-width: 390px;
+}
+
 .title-block {
   min-width: 0;
 }
