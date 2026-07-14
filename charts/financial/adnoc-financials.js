@@ -1,4 +1,4 @@
-const VERSION = "20260710-adnoc-unit-tooltip-v7";
+const VERSION = "20260714-audit-sources-v8";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -24,7 +24,26 @@ const loadData = async () => {
   return response.json();
 };
 
-const firstSourceUrl = (payload, key) => payload.sources.find((source) => source.key === key)?.url || payload.sources[0]?.url || "#";
+const sourceListFor = (payload, config) => {
+  const keys = config.sourceKeys?.length ? config.sourceKeys : config.sourceKey ? [config.sourceKey] : [];
+  return keys.map((key) => payload.sources.find((source) => source.key === key)).filter(Boolean);
+};
+
+const renderSourceLinks = (element, payload, config) => {
+  const sources = sourceListFor(payload, config);
+  if (!sources.length) {
+    element.textContent = config.sourceLine || "Source: company public disclosures";
+    return;
+  }
+
+  const links = sources
+    .map(
+      (source) =>
+        `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.shortTitle || source.title)}</a>`
+    )
+    .join('<span class="source-separator" aria-hidden="true"> · </span>');
+  element.innerHTML = `Source: ${links}`;
+};
 
 const niceScale = (maxValue) => {
   const max = Math.max(1, maxValue);
@@ -144,7 +163,7 @@ const buildRows = (payload, mode) => {
       ...row,
       barValue: mode === "cashInvestment" ? (row.capex === null ? null : Math.abs(row.capex)) : row[config.barKey],
       lineValue: row[config.lineKey],
-      isForecast: /forecast/i.test(row.dataType || row.status || "")
+      isForecast: /forecast|guidance/i.test(row.dataType || row.status || "")
     }))
     .filter((row) => row.barValue !== null || row.lineValue !== null)
     .map((row, index) => ({ ...row, index }));
@@ -235,9 +254,8 @@ const renderComboChart = (payload, mode) => {
   document.querySelector("[data-subtitle]").textContent = config.subtitle;
   document.querySelector("[data-bar-label]").textContent = config.barLabel;
   document.querySelector("[data-line-label]").textContent = config.lineLabel;
-  document.querySelector("[data-source-line]").textContent = config.sourceLine || `Source: ${config.basisLabel || "company public disclosures"}; etc.`;
+  renderSourceLinks(document.querySelector("[data-source-line]"), payload, config);
   document.querySelector("[data-update-date]").textContent = config.updateDate || `Update date: ${payload.company.updatedOn?.replaceAll("-", "/") || ""}`;
-  document.querySelector("[data-source-link]").href = firstSourceUrl(payload, config.sourceKey);
 };
 
 const start = async () => {

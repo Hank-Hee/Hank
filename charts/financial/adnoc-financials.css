@@ -105,7 +105,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  padding: 8px 12px 0;
+  padding: 8px 12px 0 31px;
   color: #111111;
   font-size: 12px;
   line-height: 1;
@@ -287,7 +287,7 @@ body {
   line-height: 1.25;
 }
 
-.chart-footer span {
+.chart-footer > span {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -298,17 +298,25 @@ body {
   display: block;
 }
 
+.source-note a {
+  color: #24739b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.source-note a:hover,
+.source-note a:focus-visible {
+  text-decoration: underline;
+}
+
+.source-separator {
+  color: #8a98a4;
+}
+
 .update-date {
   justify-self: end;
   color: #465869;
   font-weight: 600;
-}
-
-.source-link {
-  color: #24739b;
-  font-weight: 700;
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 .state {
@@ -340,5 +348,9 @@ body {
     max-width: none;
     margin: 10px 0 0 12px;
     padding: 11px 13px;
+  }
+
+  .legend {
+    padding-left: 25px;
   }
 }
