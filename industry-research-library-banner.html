@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>行业研究库</title>
+<style>
+  :root {
+    --navy: #0d2d4f;
+    --ink: #183a5d;
+    --muted: #617b95;
+    --red: #e73345;
+    --line: #80cbd3;
+    --line-soft: rgba(89, 180, 195, .23);
+    --paper: rgba(255,255,255,.72);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+  body {
+    color: var(--ink);
+    background: #f8fcfd;
+    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(ellipse at 74% 57%, rgba(150, 220, 225, .36) 0%, rgba(218, 242, 244, .42) 26%, rgba(249, 253, 253, 0) 55%),
+      linear-gradient(103deg, #ffffff 0%, #fbfdfd 38%, #edf9fa 100%);
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: .42;
+    background-image:
+      linear-gradient(rgba(127, 196, 204, .17) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(127, 196, 204, .17) 1px, transparent 1px);
+    background-size: 30px 30px;
+    mask-image: linear-gradient(90deg, transparent 0%, transparent 40%, black 65%, transparent 100%);
+  }
+
+  .wash {
+    position: absolute;
+    inset: auto 0 0;
+    height: 38%;
+    z-index: -1;
+    background: linear-gradient(180deg, transparent, rgba(187, 231, 234, .23));
+  }
+
+  .content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    width: min(100%, 1780px);
+    height: 100%;
+    margin: 0 auto;
+    padding: 34px clamp(38px, 7.4vw, 138px) 40px;
+  }
+
+  .copy {
+    width: min(47vw, 710px);
+    transform: translateY(-3px);
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--navy);
+    font-size: clamp(48px, 5.15vw, 88px);
+    font-weight: 800;
+    letter-spacing: -.085em;
+    line-height: 1;
+    text-wrap: nowrap;
+  }
+
+  h1 .accent { color: var(--red); }
+
+  .en-title {
+    margin: 18px 0 0 4px;
+    color: #8097aa;
+    font-family: Arial, sans-serif;
+    font-size: clamp(11px, 1.1vw, 18px);
+    font-weight: 700;
+    letter-spacing: .35em;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .description {
+    max-width: 600px;
+    margin: 28px 0 0 4px;
+    color: #53718c;
+    font-size: clamp(14px, 1.2vw, 19px);
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  .description i {
+    display: inline-block;
+    width: 34px;
+    height: 2px;
+    margin: 0 12px 5px 0;
+    vertical-align: middle;
+    background: var(--red);
+  }
+
+  .art {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: clamp(-22px, 1.6vw, 28px);
+    width: min(60%, 1060px);
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .art svg { display: block; width: 100%; height: 100%; }
+
+  .baseline {
+    position: absolute;
+    z-index: 2;
+    right: 6.3%;
+    bottom: 17.2%;
+    width: min(45%, 812px);
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(93, 161, 177, .68) 15%, rgba(93, 161, 177, .68) 85%, transparent);
+  }
+
+  @media (max-width: 780px) {
+    .banner { min-height: 280px; }
+    .content { align-items: flex-start; padding: 50px 28px; }
+    .copy { width: 74%; }
+    .art { width: 94%; right: -24%; opacity: .74; }
+    h1 { font-size: clamp(43px, 13.5vw, 74px); }
+    .en-title { margin-top: 13px; letter-spacing: .22em; font-size: 10px; }
+    .description { margin-top: 19px; max-width: 360px; font-size: 13px; line-height: 1.55; }
+    .description i { width: 24px; margin-right: 8px; }
+    .baseline { right: -4%; width: 74%; bottom: 15%; }
+  }
+
+  @media (max-height: 350px) and (min-width: 781px) {
+    .content { padding-top: 20px; padding-bottom: 20px; }
+    .description { margin-top: 18px; }
+    .en-title { margin-top: 12px; }
+  }
+</style>
+</head>
+<body>
+  <main class="banner" aria-label="行业研究库">
+    <div class="wash"></div>
+    <div class="content">
+      <section class="copy">
+        <h1>行业研<span class="accent">究库</span></h1>
+        <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
+        <p class="description"><i></i>集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
+      </section>
+    </div>
+
+    <div class="baseline"></div>
+    <div class="art" aria-hidden="true">
+      <svg viewBox="0 0 1080 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#FFFFFF" stop-opacity=".93"/>
+            <stop offset="1" stop-color="#EAF8F9" stop-opacity=".78"/>
+          </linearGradient>
+          <linearGradient id="tealFill" x1="0" y1="0" x2="1" y2="0">
+            <stop stop-color="#D8F4F3"/>
+            <stop offset="1" stop-color="#BCE7EA"/>
+          </linearGradient>
+          <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+            <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#78B7C0" flood-opacity=".16"/>
+          </filter>
+          <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1.1" fill="#76BEC7" fill-opacity=".42"/>
+          </pattern>
+        </defs>
+
+        <ellipse cx="706" cy="228" rx="333" ry="159" fill="url(#dots)" opacity=".57"/>
+        <ellipse cx="707" cy="226" rx="268" ry="128" stroke="#B8E0E4" stroke-width="1.2"/>
+        <ellipse cx="707" cy="226" rx="191" ry="128" stroke="#CBEAEB" stroke-width="1"/>
+        <path d="M438 226H974M462 182H950M462 270H950" stroke="#C5E5E8" stroke-width="1"/>
+        <path d="M515 113C574 184 574 271 515 339M899 113C840 184 840 271 899 339" stroke="#C5E5E8" stroke-width="1"/>
+        <path d="M584 101C625 187 625 272 584 352M830 101C789 187 789 272 830 352" stroke="#D3ECEE" stroke-width="1"/>
+
+        <g stroke-linecap="round">
+          <path d="M518 258C572 205 619 293 669 244C719 194 780 178 844 218C889 246 928 219 963 176" stroke="#68BBC5" stroke-width="2" stroke-dasharray="3 10" opacity=".78"/>
+          <circle cx="518" cy="258" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
+          <circle cx="669" cy="244" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
+          <circle cx="844" cy="218" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
+          <circle cx="963" cy="176" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
+        </g>
+
+        <g filter="url(#shadow)">
+          <path d="M507 112L604 79L684 109L584 145L507 112Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M507 112V244L584 280V145L507 112Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M584 145L684 109V237L584 280V145Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M529 134L566 149M529 151L566 166M529 168L551 177" stroke="#9ACDD2" stroke-width="2"/>
+          <path d="M610 151L655 135M610 169L655 153M610 187L640 176" stroke="#8AC5CB" stroke-width="2"/>
+          <rect x="611" y="206" width="38" height="10" rx="5" fill="url(#tealFill)"/>
+        </g>
+
+        <g filter="url(#shadow)">
+          <path d="M694 151L778 125L851 152L773 181L694 151Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M694 151V257L773 290V181L694 151Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M773 181L851 152V250L773 290V181Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M716 174L754 189M716 191L754 206M716 208L742 219" stroke="#9ACDD2" stroke-width="2"/>
+          <path d="M797 188L830 176M797 205L830 193M797 222L820 214" stroke="#8AC5CB" stroke-width="2"/>
+          <rect x="798" y="231" width="27" height="9" rx="4.5" fill="url(#tealFill)"/>
+        </g>
+
+        <g filter="url(#shadow)">
+          <path d="M854 189L922 168L982 190L918 215L854 189Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M854 189V271L918 299V215L854 189Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M918 215L982 190V265L918 299V215Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
+          <path d="M873 208L904 220M873 224L904 236" stroke="#9ACDD2" stroke-width="2"/>
+          <path d="M937 220L965 210M937 236L965 226" stroke="#8AC5CB" stroke-width="2"/>
+        </g>
+
+        <g opacity=".96">
+          <path d="M405 292H687L650 331H447L405 292Z" fill="#F8FEFE" stroke="#7ABAC5" stroke-width="2"/>
+          <path d="M447 331H650" stroke="#B4E1E5" stroke-width="4"/>
+          <path d="M437 307H655M467 292V327M500 292V327M533 292V327M566 292V327M599 292V327M632 292V327" stroke="#A3D5DA" stroke-width="1.3"/>
+          <path d="M461 348C477 339 489 357 505 348C521 339 533 357 549 348C565 339 577 357 593 348C609 339 621 357 637 348" stroke="#70C9D2" stroke-width="2.4"/>
+        </g>
+
+        <g opacity=".84">
+          <path d="M401 275V224H449V275" fill="#EDF9FA" stroke="#88C8CF" stroke-width="1.6"/>
+          <path d="M411 241H439M411 253H439M411 265H430" stroke="#A3D4D9" stroke-width="1.4"/>
+          <path d="M460 274V198H509V274" fill="#F4FCFC" stroke="#88C8CF" stroke-width="1.6"/>
+          <path d="M471 216H498M471 228H498M471 240H490" stroke="#A3D4D9" stroke-width="1.4"/>
+          <path d="M523 274V238H564V274" fill="#E6F7F7" stroke="#88C8CF" stroke-width="1.6"/>
+        </g>
+
+        <g opacity=".72">
+          <path d="M747 315L812 292L878 315" stroke="#77C1C9" stroke-width="1.6"/>
+          <path d="M812 292V366M747 315V356M878 315V356" stroke="#A9D9DE" stroke-width="1.3"/>
+          <path d="M747 356H878" stroke="#83C8CF" stroke-width="1.8"/>
+          <circle cx="812" cy="292" r="5" fill="#EBF9FA" stroke="#64BAC4" stroke-width="1.8"/>
+          <circle cx="747" cy="315" r="4" fill="#EBF9FA" stroke="#64BAC4" stroke-width="1.6"/>
+          <circle cx="878" cy="315" r="4" fill="#EBF9FA" stroke="#64BAC4" stroke-width="1.6"/>
+        </g>
+
+        <g opacity=".55">
+          <circle cx="457" cy="175" r="4" fill="#6CBCC6"/><circle cx="486" cy="150" r="3" fill="#87CDD3"/>
+          <circle cx="874" cy="102" r="4" fill="#6CBCC6"/><circle cx="948" cy="132" r="3" fill="#87CDD3"/>
+          <circle cx="1012" cy="279" r="4" fill="#6CBCC6"/><circle cx="410" cy="355" r="3" fill="#87CDD3"/>
+        </g>
+      </svg>
+    </div>
+  </main>
+</body>
+</html>
