@@ -278,7 +278,7 @@
       "barKey": "revenue",
       "lineKey": "netIncome",
       "sourceKeys": ["adnoc_gas_ir_2025", "adnoc_gas_q4_2025_results", "adnoc_gas_q1_2026_mda"],
-      "sourceLine": "Source: 2025 IR · Q4 Results · Q1 2026",
+      "sourceLine": "Source: FY2025 Integrated Report\uFF0CFY2025 Results\uFF0CFY2026 Guidance",
       "updateDate": "Update date: 2026/07/14",
       "note": "ADNOC Gas is the closest publicly disclosed ADNOC proxy. FY2026 shows official guidance only where comparable values are disclosed."
     },
@@ -293,7 +293,7 @@
       "barKey": "investmentAbs",
       "lineKey": "freeCashFlow",
       "sourceKeys": ["adnoc_gas_ir_2025", "adnoc_gas_q4_2025_results", "adnoc_gas_q1_2026_mda"],
-      "sourceLine": "Source: 2025 IR · Q4 Results · Q1 2026",
+      "sourceLine": "Source: FY2025 Integrated Report\uFF0CFY2025 Results\uFF0CFY2026 Guidance",
       "updateDate": "Update date: 2026/07/14",
       "note": "Capex is shown as a positive investment bar. FY2025 FCF is the company-reported amount after working capital."
     }
@@ -395,6 +395,8 @@
       "key": "adnoc_gas_ir_2025",
       "title": "ADNOC Gas Integrated Report 2025",
       "shortTitle": "2025 IR",
+      "footerLabel": "FY2025 Integrated Report",
+      "footerShortLabel": "FY25 Report",
       "url": "https://adnocgas.ae/-/media/gas/investor-relation/2026/adnoc-gas_integrated-report-2025_final_english.ashx",
       "notes": "Primary FY2025 audited source. HTTP GET checked on 2026-07-14: 200."
     },
@@ -402,6 +404,8 @@
       "key": "adnoc_gas_q4_2025_results",
       "title": "ADNOC Gas Q4 and FY 2025 Results Presentation",
       "shortTitle": "Q4 2025",
+      "footerLabel": "FY2025 Results",
+      "footerShortLabel": "FY25 Results",
       "url": "https://adnocgas.ae/-/media/gas/investor-relation/2025/adnoc-gas---q4-2025-results-presentation.ashx",
       "notes": "Secondary FY2025 cross-check; confirms net income, capex and FCF. HTTP GET checked on 2026-07-14: 200."
     },
@@ -416,6 +420,8 @@
       "key": "adnoc_gas_q1_2026_mda",
       "title": "ADNOC Gas Q1 2026 MD&A and FY2026 Guidance",
       "shortTitle": "Q1 2026",
+      "footerLabel": "FY2026 Guidance",
+      "footerShortLabel": "FY26 Guidance",
       "url": "https://adnocgas.ae/-/media/gas/investor-relation/2026/adnoc-gas-mda-q1-2026-eng.ashx",
       "notes": "Official FY2026 net-income guidance of USD3.5-4.0bn and capex guidance of USD4.5-5.0bn."
     },

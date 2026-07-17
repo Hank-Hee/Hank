@@ -1,4 +1,4 @@
-const VERSION = "20260714-audit-sources-v8";
+const VERSION = "20260717-footer-sources-v9";
 const DATA_URL = "../../data/adnoc-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -36,13 +36,16 @@ const renderSourceLinks = (element, payload, config) => {
     return;
   }
 
-  const links = sources
-    .map(
-      (source) =>
-        `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.shortTitle || source.title)}</a>`
-    )
-    .join('<span class="source-separator" aria-hidden="true"> · </span>');
-  element.innerHTML = `Source: ${links}`;
+  const renderLinks = (labelKey) =>
+    sources
+      .map((source) => {
+        const label = source[labelKey] || source.footerLabel || source.shortTitle || source.title;
+        return `<a href="${escapeHtml(source.url)}" title="${escapeHtml(source.title)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`;
+      })
+      .join('<span class="source-separator" aria-hidden="true">&#65292;</span>');
+
+  element.innerHTML = `Source: ${renderLinks("footerLabel")}`;
+  if (element.scrollWidth > element.clientWidth) element.innerHTML = `Source: ${renderLinks("footerShortLabel")}`;
 };
 
 const niceScale = (maxValue) => {

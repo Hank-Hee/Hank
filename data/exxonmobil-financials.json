@@ -390,7 +390,7 @@
       "barKey": "revenue",
       "lineKey": "netIncome",
       "sourceKeys": ["xom_10k_2025", "xom_fy_2025_results", "marketscreener_xom_forecast"],
-      "sourceLine": "Source: 2025 10-K · FY2025 Results · Consensus",
+      "sourceLine": "Source: FY2025 Form 10-K\uFF0CFY2025 Results\uFF0CAnalyst Consensus",
       "updateDate": "Update date: 2026/07/14",
       "note": "Forecast values are third-party consensus estimates; actual values are official consolidated disclosures."
     },
@@ -405,7 +405,7 @@
       "barKey": "investmentAbs",
       "lineKey": "freeCashFlow",
       "sourceKeys": ["xom_10k_2025", "xom_fy_2025_results", "marketscreener_xom_forecast"],
-      "sourceLine": "Source: 2025 10-K · FY2025 Results · Consensus",
+      "sourceLine": "Source: FY2025 Form 10-K\uFF0CFY2025 Results\uFF0CAnalyst Consensus",
       "updateDate": "Update date: 2026/07/14",
       "note": "Investment bars show cash paid for PP&E additions. Company FCF definition changed in FY2024; the verification sheet records the restatement."
     }
@@ -519,6 +519,8 @@
       "key": "xom_10k_2025",
       "title": "Exxon Mobil Corporation 2025 Form 10-K",
       "shortTitle": "10-K",
+      "footerLabel": "FY2025 Form 10-K",
+      "footerShortLabel": "FY25 10-K",
       "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm",
       "notes": "Primary audited consolidated FY2025 disclosure."
     },
@@ -589,6 +591,8 @@
       "key": "xom_fy_2025_results",
       "title": "ExxonMobil FY2025 Results",
       "shortTitle": "Results",
+      "footerLabel": "FY2025 Results",
+      "footerShortLabel": "FY25 Results",
       "url": "https://corporate.exxonmobil.com/news/news-releases/2026/0130-exxonmobil-announces-2025-results",
       "notes": "Official FY2025 results and FCF reconciliation. Includes FY2026 cash-capex guidance of USD27-29bn."
     },
@@ -596,6 +600,8 @@
       "key": "marketscreener_xom_forecast",
       "title": "MarketScreener - ExxonMobil Analyst Consensus Forecasts",
       "shortTitle": "Consensus",
+      "footerLabel": "Analyst Consensus",
+      "footerShortLabel": "FY25 Consensus",
       "url": "https://uk.marketscreener.com/quote/stock/EXXONMOBIL-HOLDINGS-CORPO-4822/finances/",
       "notes": "Third-party public consensus estimates in USD million for FY2026-FY2028 revenue, net income, PP&E additions and FCF. Checked for public browser access on 2026-07-14; refresh before relying on forecast values."
     }
