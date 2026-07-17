@@ -1,0 +1,442 @@
+{
+  "company": {
+    "name": "Eni",
+    "legalName": "Eni S.p.A.",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "reportedCurrency": "EUR",
+    "updatedOn": "2026-07-17"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2025",
+    "forecastRange": "No auditable group-wide annual revenue or net-income forecast retained",
+    "dashboardYears": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "availabilityNote": "FY2016-FY2025 are official consolidated annual actuals converted from EUR. No auditable group-wide annual forecast series is retained."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 62754,
+      "netIncome": -1613,
+      "operatingCashFlow": 8493,
+      "freeCashFlow": -1543,
+      "capex": -10036,
+      "cashOnHand": 6281,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 56693,
+      "reportedNetIncome": -1457,
+      "reportedOperatingCashFlow": 7673,
+      "reportedFreeCashFlow": -1394,
+      "reportedCapex": -9067,
+      "reportedCashOnHand": 5674,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2017,
+      "revenue": 75597,
+      "netIncome": 3815,
+      "operatingCashFlow": 11429,
+      "freeCashFlow": 1838,
+      "capex": -9591,
+      "cashOnHand": 8318,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 66919,
+      "reportedNetIncome": 3377,
+      "reportedOperatingCashFlow": 10117,
+      "reportedFreeCashFlow": 1627,
+      "reportedCapex": -8490,
+      "reportedCashOnHand": 7363,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2018,
+      "revenue": 89542,
+      "netIncome": 4886,
+      "operatingCashFlow": 16116,
+      "freeCashFlow": 5750,
+      "capex": -10366,
+      "cashOnHand": 12797,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 75822,
+      "reportedNetIncome": 4137,
+      "reportedOperatingCashFlow": 13647,
+      "reportedFreeCashFlow": 4869,
+      "reportedCapex": -8778,
+      "reportedCashOnHand": 10836,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2019,
+      "revenue": 78230,
+      "netIncome": 174,
+      "operatingCashFlow": 13873,
+      "freeCashFlow": 4862,
+      "capex": -9011,
+      "cashOnHand": 6710,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 69881,
+      "reportedNetIncome": 155,
+      "reportedOperatingCashFlow": 12392,
+      "reportedFreeCashFlow": 4343,
+      "reportedCapex": -8049,
+      "reportedCashOnHand": 5994,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2020,
+      "revenue": 50242,
+      "netIncome": -9855,
+      "operatingCashFlow": 5508,
+      "freeCashFlow": 474,
+      "capex": -5034,
+      "cashOnHand": 10751,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 43987,
+      "reportedNetIncome": -8628,
+      "reportedOperatingCashFlow": 4822,
+      "reportedFreeCashFlow": 415,
+      "reportedCapex": -4407,
+      "reportedCashOnHand": 9413,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2021,
+      "revenue": 90568,
+      "netIncome": 6907,
+      "operatingCashFlow": 15211,
+      "freeCashFlow": 9356,
+      "capex": -5855,
+      "cashOnHand": 9762,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 76575,
+      "reportedNetIncome": 5840,
+      "reportedOperatingCashFlow": 12861,
+      "reportedFreeCashFlow": 7911,
+      "reportedCapex": -4950,
+      "reportedCashOnHand": 8254,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2022,
+      "revenue": 139542,
+      "netIncome": 14702,
+      "operatingCashFlow": 18386,
+      "freeCashFlow": 10278,
+      "capex": -8108,
+      "cashOnHand": 10694,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 132512,
+      "reportedNetIncome": 13961,
+      "reportedOperatingCashFlow": 17460,
+      "reportedFreeCashFlow": 9760,
+      "reportedCapex": -7700,
+      "reportedCashOnHand": 10155,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2023,
+      "revenue": 101333,
+      "netIncome": 5255,
+      "operatingCashFlow": 16348,
+      "freeCashFlow": 6899,
+      "capex": -9449,
+      "cashOnHand": 11021,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 93717,
+      "reportedNetIncome": 4860,
+      "reportedOperatingCashFlow": 15119,
+      "reportedFreeCashFlow": 6380,
+      "reportedCapex": -8739,
+      "reportedCashOnHand": 10193,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2024,
+      "revenue": 96112,
+      "netIncome": 2992,
+      "operatingCashFlow": 14171,
+      "freeCashFlow": 5513,
+      "capex": -8658,
+      "cashOnHand": 8857,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 88797,
+      "reportedNetIncome": 2764,
+      "reportedOperatingCashFlow": 13092,
+      "reportedFreeCashFlow": 5093,
+      "reportedCapex": -7999,
+      "reportedCashOnHand": 8183,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    },
+    {
+      "year": 2025,
+      "revenue": 92829,
+      "netIncome": 3116,
+      "operatingCashFlow": 15063,
+      "freeCashFlow": 5230,
+      "capex": -9833,
+      "cashOnHand": 9153,
+      "netChangeInCash": null,
+      "reportedCurrency": "EUR",
+      "fxRate": 1,
+      "fxMethod": "Multiply by annual average USD per EUR",
+      "reportedRevenue": 82151,
+      "reportedNetIncome": 2758,
+      "reportedOperatingCashFlow": 13330,
+      "reportedFreeCashFlow": 4628,
+      "reportedCapex": -8702,
+      "reportedCashOnHand": 8100,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "eni_annual_2025",
+        "ecb_eurusd"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "eni_annual_2025",
+      "basis": "Eni S.p.A. consolidated figures are reported in EUR and converted to USD million using the arithmetic annual average of daily ECB USD/EUR reference rates. Capex is PPE additions, normalized as negative; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Eni's Form 20-F filings. EUR amounts are converted using the ECB daily reference-rate annual average. FY2025 annual report and full-year results are linked for cross-checking; FCF is derived."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "Eni 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group annual actuals",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": [
+        "eni_annual_2025",
+        "eni_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Full Year Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Official consolidated annual disclosures; no forecast series retained."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "Eni 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Cash capex / investment proxy and derived FCF",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": [
+        "eni_annual_2025",
+        "eni_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Full Year Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Investment bars show capex cash outflows. FCF equals operating cash flow plus capex."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Group consolidated annual revenue, using the line item labelled Revenue or Sales in the source disclosure."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Group consolidated profit or loss for the year, including non-controlling interests where presented in the consolidated statement."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash from operating activities in the consolidated annual cash-flow statement."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Derived consistently as operating cash flow plus the normalized negative capex value; it is not asserted to be the company's separately reported non-GAAP FCF."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash acquisition or purchase of productive assets / PPE and related capital assets where disclosed. It is stored as a negative cash outflow and displayed as a positive investment bar."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end, converted using the same annual ECB rate."
+    },
+    {
+      "metric": "Currency conversion",
+      "definition": "EUR figures are multiplied by the arithmetic annual average USD per EUR ECB reference exchange rate for the respective calendar year."
+    }
+  ],
+  "sources": [
+    {
+      "key": "sec_companyfacts",
+      "title": "SEC Companyfacts - Eni S.p.A.",
+      "shortTitle": "SEC XBRL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001002242.json",
+      "notes": "Official SEC structured XBRL data derived from Eni annual Form 20-F filings."
+    },
+    {
+      "key": "eni_annual_2025",
+      "title": "Eni Annual Report 2025",
+      "shortTitle": "Eni 2025 Annual Report",
+      "url": "https://report.eni.com/annual-report-2025/en/",
+      "notes": "Official Eni annual-report site.",
+      "footerLabel": "FY2025 Annual Report",
+      "footerShortLabel": "FY25 Annual Report"
+    },
+    {
+      "key": "eni_fy_2025_results",
+      "title": "Eni Fourth Quarter and Full Year 2025 Results",
+      "shortTitle": "Eni 2025 Results",
+      "url": "https://www.eni.com/en-IT/investors/our-reports/financial-results/2025/2025-full-year-results.html",
+      "notes": "Official Eni full-year results page.",
+      "footerLabel": "FY2025 Full Year Results",
+      "footerShortLabel": "FY25 Results"
+    },
+    {
+      "key": "ecb_eurusd",
+      "title": "European Central Bank EUR/USD Reference Exchange Rates",
+      "shortTitle": "ECB EUR/USD",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?startPeriod=2016-01-01&endPeriod=2025-12-31&format=csvdata",
+      "notes": "Arithmetic annual average of daily USD per EUR ECB reference rates used for EUR-to-USD conversion."
+    }
+  ]
+}

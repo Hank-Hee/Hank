@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>QatarEnergy Financial Dashboard - Revenue and Net Income</title>
+    <link rel="stylesheet" href="adnoc-financials.css?v=20260714-qatarenergy-v1" />
+  </head>
+  <body data-company="qatarenergy" data-dashboard="profitability">
+    <main class="dashboard-module">
+      <section class="chart-card" aria-labelledby="chart-title">
+        <header class="chart-header">
+          <div class="title-block">
+            <p class="eyebrow" data-eyebrow>FINANCIAL PROFILE &middot; 2026</p>
+            <h1 id="chart-title" data-title-cn>QatarEnergy 收入与净利润</h1>
+            <p class="unit" data-subtitle>USD million</p>
+          </div>
+        </header>
+        <div class="legend" aria-label="Legend">
+          <span class="legend-item"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Revenue</span></span>
+          <span class="legend-item"><i class="dot line" aria-hidden="true"></i><span data-line-label>Net Income</span></span>
+          <span class="legend-item"><i class="dot forecast" aria-hidden="true"></i><span>Forecast</span></span>
+        </div>
+        <div class="chart-stage"><div id="financial-chart" class="chart"></div></div>
+        <footer class="chart-footer">
+          <span class="source-note" data-source-line>Source: 2025 10-K &middot; FY2025 Results &middot; Consensus</span>
+          <span class="update-date" data-update-date>Update date: 2026/07/14</span>
+        </footer>
+        <div id="state" class="state">Loading financial data</div>
+      </section>
+    </main>
+    <script type="module" src="qatarenergy-financials.js?v=20260717-footer-sources-v2"></script>
+  </body>
+</html>

@@ -1,0 +1,421 @@
+{
+  "company": {
+    "name": "Chevron",
+    "legalName": "Chevron Corporation",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "reportedCurrency": "USD",
+    "updatedOn": "2026-07-17"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2025",
+    "forecastRange": "No auditable group-wide annual revenue or net-income forecast retained",
+    "dashboardYears": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "availabilityNote": "FY2016-FY2025 are official consolidated annual actuals. No auditable group-wide annual forecast series is retained."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 114472,
+      "netIncome": -497,
+      "operatingCashFlow": 12690,
+      "freeCashFlow": -5419,
+      "capex": -18109,
+      "cashOnHand": 8414,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 114472,
+      "reportedNetIncome": -497,
+      "reportedOperatingCashFlow": 12690,
+      "reportedFreeCashFlow": -5419,
+      "reportedCapex": -18109,
+      "reportedCashOnHand": 8414,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2017,
+      "revenue": 141722,
+      "netIncome": 9195,
+      "operatingCashFlow": 20338,
+      "freeCashFlow": 6934,
+      "capex": -13404,
+      "cashOnHand": 5943,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 141722,
+      "reportedNetIncome": 9195,
+      "reportedOperatingCashFlow": 20338,
+      "reportedFreeCashFlow": 6934,
+      "reportedCapex": -13404,
+      "reportedCashOnHand": 5943,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2018,
+      "revenue": 166339,
+      "netIncome": 14824,
+      "operatingCashFlow": 30618,
+      "freeCashFlow": 16826,
+      "capex": -13792,
+      "cashOnHand": 10481,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 166339,
+      "reportedNetIncome": 14824,
+      "reportedOperatingCashFlow": 30618,
+      "reportedFreeCashFlow": 16826,
+      "reportedCapex": -13792,
+      "reportedCashOnHand": 10481,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2019,
+      "revenue": 146516,
+      "netIncome": 2924,
+      "operatingCashFlow": 27314,
+      "freeCashFlow": 13198,
+      "capex": -14116,
+      "cashOnHand": 6911,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 146516,
+      "reportedNetIncome": 2924,
+      "reportedOperatingCashFlow": 27314,
+      "reportedFreeCashFlow": 13198,
+      "reportedCapex": -14116,
+      "reportedCashOnHand": 6911,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2020,
+      "revenue": 94692,
+      "netIncome": -5543,
+      "operatingCashFlow": 10577,
+      "freeCashFlow": 1655,
+      "capex": -8922,
+      "cashOnHand": 6737,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 94692,
+      "reportedNetIncome": -5543,
+      "reportedOperatingCashFlow": 10577,
+      "reportedFreeCashFlow": 1655,
+      "reportedCapex": -8922,
+      "reportedCashOnHand": 6737,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2021,
+      "revenue": 162465,
+      "netIncome": 15625,
+      "operatingCashFlow": 29187,
+      "freeCashFlow": 21131,
+      "capex": -8056,
+      "cashOnHand": 6795,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 162465,
+      "reportedNetIncome": 15625,
+      "reportedOperatingCashFlow": 29187,
+      "reportedFreeCashFlow": 21131,
+      "reportedCapex": -8056,
+      "reportedCashOnHand": 6795,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2022,
+      "revenue": 246252,
+      "netIncome": 35465,
+      "operatingCashFlow": 49602,
+      "freeCashFlow": 37628,
+      "capex": -11974,
+      "cashOnHand": 19121,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 246252,
+      "reportedNetIncome": 35465,
+      "reportedOperatingCashFlow": 49602,
+      "reportedFreeCashFlow": 37628,
+      "reportedCapex": -11974,
+      "reportedCashOnHand": 19121,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2023,
+      "revenue": 200949,
+      "netIncome": 21369,
+      "operatingCashFlow": 35609,
+      "freeCashFlow": 19780,
+      "capex": -15829,
+      "cashOnHand": 9275,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 200949,
+      "reportedNetIncome": 21369,
+      "reportedOperatingCashFlow": 35609,
+      "reportedFreeCashFlow": 19780,
+      "reportedCapex": -15829,
+      "reportedCashOnHand": 9275,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2024,
+      "revenue": 202792,
+      "netIncome": 17661,
+      "operatingCashFlow": 31492,
+      "freeCashFlow": 15044,
+      "capex": -16448,
+      "cashOnHand": 8262,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 202792,
+      "reportedNetIncome": 17661,
+      "reportedOperatingCashFlow": 31492,
+      "reportedFreeCashFlow": 15044,
+      "reportedCapex": -16448,
+      "reportedCashOnHand": 8262,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    },
+    {
+      "year": 2025,
+      "revenue": 189031,
+      "netIncome": 12299,
+      "operatingCashFlow": 33939,
+      "freeCashFlow": 16592,
+      "capex": -17347,
+      "cashOnHand": 7285,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 189031,
+      "reportedNetIncome": 12299,
+      "reportedOperatingCashFlow": 33939,
+      "reportedFreeCashFlow": 16592,
+      "reportedCapex": -17347,
+      "reportedCashOnHand": 7285,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "chevron_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "chevron_annual_2025",
+      "basis": "Chevron Corporation consolidated. Cash balance follows Chevron's cash, cash equivalents and restricted cash cash-flow reconciliation; capex is payments to acquire productive assets; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Chevron's Form 10-K filings. The cash balance uses the company's cash-flow-reconciliation tag to provide a full 2016-2025 annual series. FCF is derived consistently as CFO plus payments to acquire productive assets."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "Chevron 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group annual actuals",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": [
+        "chevron_annual_2025",
+        "chevron_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Official consolidated annual disclosures; no forecast series retained."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "Chevron 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Cash capex / investment proxy and derived FCF",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": [
+        "chevron_annual_2025",
+        "chevron_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Investment bars show capex cash outflows. FCF equals operating cash flow plus capex."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Group consolidated annual revenue, using the line item labelled Revenue or Sales in the source disclosure."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Group consolidated profit or loss for the year, including non-controlling interests where presented in the consolidated statement."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash from operating activities in the consolidated annual cash-flow statement."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Derived consistently as operating cash flow plus the normalized negative capex value; it is not asserted to be the company's separately reported non-GAAP FCF."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash acquisition or purchase of productive assets / PPE and related capital assets where disclosed. It is stored as a negative cash outflow and displayed as a positive investment bar."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end; Chevron uses the company's cash, cash equivalents and restricted cash reconciliation for a complete annual series."
+    }
+  ],
+  "sources": [
+    {
+      "key": "sec_companyfacts",
+      "title": "SEC Companyfacts - Chevron Corporation",
+      "shortTitle": "SEC XBRL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+      "notes": "Official SEC structured XBRL data derived from the company's annual filings."
+    },
+    {
+      "key": "chevron_annual_2025",
+      "title": "Chevron Corporation Annual Report 2025",
+      "shortTitle": "Chevron 2025 Annual Report",
+      "url": "https://www.chevron.com/annual-report?mod=mod_e2456e64",
+      "notes": "Official Chevron FY2025 annual-report landing page.",
+      "footerLabel": "FY2025 Annual Report",
+      "footerShortLabel": "FY25 Annual Report"
+    },
+    {
+      "key": "chevron_fy_2025_results",
+      "title": "Chevron Fourth Quarter and Full Year 2025 Results",
+      "shortTitle": "Chevron 2025 Results",
+      "url": "https://www.chevron.com/newsroom/2026/q1/chevron-reports-fourth-quarter-2025-results",
+      "notes": "Official Chevron full-year results release.",
+      "footerLabel": "FY2025 Results",
+      "footerShortLabel": "FY25 Results"
+    }
+  ]
+}

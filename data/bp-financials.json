@@ -1,0 +1,421 @@
+{
+  "company": {
+    "name": "BP",
+    "legalName": "BP p.l.c.",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "reportedCurrency": "USD",
+    "updatedOn": "2026-07-17"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2025",
+    "forecastRange": "No auditable group-wide annual revenue or net-income forecast retained",
+    "dashboardYears": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "availabilityNote": "FY2016-FY2025 are official consolidated annual actuals. No auditable group-wide annual forecast series is retained."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 186606,
+      "netIncome": 172,
+      "operatingCashFlow": 10691,
+      "freeCashFlow": -10513,
+      "capex": -21204,
+      "cashOnHand": 23484,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 186606,
+      "reportedNetIncome": 172,
+      "reportedOperatingCashFlow": 10691,
+      "reportedFreeCashFlow": -10513,
+      "reportedCapex": -21204,
+      "reportedCashOnHand": 23484,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2017,
+      "revenue": 244582,
+      "netIncome": 3468,
+      "operatingCashFlow": 18931,
+      "freeCashFlow": 1479,
+      "capex": -17452,
+      "cashOnHand": 25586,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 244582,
+      "reportedNetIncome": 3468,
+      "reportedOperatingCashFlow": 18931,
+      "reportedFreeCashFlow": 1479,
+      "reportedCapex": -17452,
+      "reportedCashOnHand": 25586,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2018,
+      "revenue": 303738,
+      "netIncome": 9578,
+      "operatingCashFlow": 22873,
+      "freeCashFlow": -5479,
+      "capex": -28352,
+      "cashOnHand": 22468,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 303738,
+      "reportedNetIncome": 9578,
+      "reportedOperatingCashFlow": 22873,
+      "reportedFreeCashFlow": -5479,
+      "reportedCapex": -28352,
+      "reportedCashOnHand": 22468,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2019,
+      "revenue": 163526,
+      "netIncome": 4190,
+      "operatingCashFlow": 25770,
+      "freeCashFlow": 3157,
+      "capex": -22613,
+      "cashOnHand": 22472,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 163526,
+      "reportedNetIncome": 4190,
+      "reportedOperatingCashFlow": 25770,
+      "reportedFreeCashFlow": 3157,
+      "reportedCapex": -22613,
+      "reportedCashOnHand": 22472,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2020,
+      "revenue": 109078,
+      "netIncome": -20729,
+      "operatingCashFlow": 12162,
+      "freeCashFlow": -2595,
+      "capex": -14757,
+      "cashOnHand": 31111,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 109078,
+      "reportedNetIncome": -20729,
+      "reportedOperatingCashFlow": 12162,
+      "reportedFreeCashFlow": -2595,
+      "reportedCapex": -14757,
+      "reportedCashOnHand": 31111,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2021,
+      "revenue": 164195,
+      "netIncome": 8487,
+      "operatingCashFlow": 23612,
+      "freeCashFlow": 7612,
+      "capex": -16000,
+      "cashOnHand": 30681,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 164195,
+      "reportedNetIncome": 8487,
+      "reportedOperatingCashFlow": 23612,
+      "reportedFreeCashFlow": 7612,
+      "reportedCapex": -16000,
+      "reportedCashOnHand": 30681,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2022,
+      "revenue": 248891,
+      "netIncome": -1357,
+      "operatingCashFlow": 40932,
+      "freeCashFlow": 10807,
+      "capex": -30125,
+      "cashOnHand": 29195,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 248891,
+      "reportedNetIncome": -1357,
+      "reportedOperatingCashFlow": 40932,
+      "reportedFreeCashFlow": 10807,
+      "reportedCapex": -30125,
+      "reportedCashOnHand": 29195,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2023,
+      "revenue": 213032,
+      "netIncome": 15880,
+      "operatingCashFlow": 32039,
+      "freeCashFlow": 9338,
+      "capex": -22701,
+      "cashOnHand": 33030,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 213032,
+      "reportedNetIncome": 15880,
+      "reportedOperatingCashFlow": 32039,
+      "reportedFreeCashFlow": 9338,
+      "reportedCapex": -22701,
+      "reportedCashOnHand": 33030,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2024,
+      "revenue": 194629,
+      "netIncome": 1229,
+      "operatingCashFlow": 27297,
+      "freeCashFlow": 158,
+      "capex": -27139,
+      "cashOnHand": 39204,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 194629,
+      "reportedNetIncome": 1229,
+      "reportedOperatingCashFlow": 27297,
+      "reportedFreeCashFlow": 158,
+      "reportedCapex": -27139,
+      "reportedCashOnHand": 39204,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    },
+    {
+      "year": 2025,
+      "revenue": 192549,
+      "netIncome": 1295,
+      "operatingCashFlow": 24493,
+      "freeCashFlow": 2021,
+      "capex": -22472,
+      "cashOnHand": 36556,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 192549,
+      "reportedNetIncome": 1295,
+      "reportedOperatingCashFlow": 24493,
+      "reportedFreeCashFlow": 2021,
+      "reportedCapex": -22472,
+      "reportedCashOnHand": 36556,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "bp_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "bp_annual_2025",
+      "basis": "BP p.l.c. consolidated. Capex is IFRS additions to non-current assets, normalized as a negative investment outflow; FCF is CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from BP's Form 20-F filings. The full-year results centre provides a second official access point. FCF is derived consistently as CFO plus capital additions."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "BP 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group annual actuals",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": [
+        "bp_annual_2025",
+        "bp_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Official consolidated annual disclosures; no forecast series retained."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "BP 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Cash capex / investment proxy and derived FCF",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": [
+        "bp_annual_2025",
+        "bp_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Investment bars show capex cash outflows. FCF equals operating cash flow plus capex."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Group consolidated annual revenue, using the line item labelled Revenue or Sales in the source disclosure."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Group consolidated profit or loss for the year, including non-controlling interests where presented in the consolidated statement."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash from operating activities in the consolidated annual cash-flow statement."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Derived consistently as operating cash flow plus the normalized negative capex value; it is not asserted to be the company's separately reported non-GAAP FCF."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash acquisition or purchase of productive assets / PPE and related capital assets where disclosed. It is stored as a negative cash outflow and displayed as a positive investment bar."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end; Chevron uses the company's cash, cash equivalents and restricted cash reconciliation for a complete annual series."
+    }
+  ],
+  "sources": [
+    {
+      "key": "sec_companyfacts",
+      "title": "SEC Companyfacts - BP p.l.c.",
+      "shortTitle": "SEC XBRL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000313807.json",
+      "notes": "Official SEC structured XBRL data derived from the company's annual filings."
+    },
+    {
+      "key": "bp_annual_2025",
+      "title": "BP p.l.c. Annual Report and Form 20-F 2025",
+      "shortTitle": "BP 2025 Annual Report",
+      "url": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/investors/bp-annual-report-and-form-20f-2025.pdf",
+      "notes": "Official BP audited FY2025 Annual Report and Form 20-F PDF.",
+      "footerLabel": "FY2025 Annual Report",
+      "footerShortLabel": "FY25 Annual Report"
+    },
+    {
+      "key": "bp_fy_2025_results",
+      "title": "BP p.l.c. Fourth Quarter and Full Year 2025 Results",
+      "shortTitle": "BP 2025 Results",
+      "url": "https://www.bp.com/en/global/corporate/investors/results-and-reporting/results-centre.html",
+      "notes": "Official BP results centre for full-year releases.",
+      "footerLabel": "FY2025 Results",
+      "footerShortLabel": "FY25 Results"
+    }
+  ]
+}

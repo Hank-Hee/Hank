@@ -1,0 +1,421 @@
+{
+  "company": {
+    "name": "Shell",
+    "legalName": "Shell plc",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "reportedCurrency": "USD",
+    "updatedOn": "2026-07-17"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2025",
+    "forecastRange": "No auditable group-wide annual revenue or net-income forecast retained",
+    "dashboardYears": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "availabilityNote": "FY2016-FY2025 are official consolidated annual actuals. No auditable group-wide annual forecast series is retained."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 233591,
+      "netIncome": 4777,
+      "operatingCashFlow": 20615,
+      "freeCashFlow": -1501,
+      "capex": -22116,
+      "cashOnHand": 19130,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 233591,
+      "reportedNetIncome": 4777,
+      "reportedOperatingCashFlow": 20615,
+      "reportedFreeCashFlow": -1501,
+      "reportedCapex": -22116,
+      "reportedCashOnHand": 19130,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2017,
+      "revenue": 305179,
+      "netIncome": 13435,
+      "operatingCashFlow": 35650,
+      "freeCashFlow": 14805,
+      "capex": -20845,
+      "cashOnHand": 20312,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 305179,
+      "reportedNetIncome": 13435,
+      "reportedOperatingCashFlow": 35650,
+      "reportedFreeCashFlow": 14805,
+      "reportedCapex": -20845,
+      "reportedCashOnHand": 20312,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2018,
+      "revenue": 388379,
+      "netIncome": 23906,
+      "operatingCashFlow": 53085,
+      "freeCashFlow": 30074,
+      "capex": -23011,
+      "cashOnHand": 26741,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 388379,
+      "reportedNetIncome": 23906,
+      "reportedOperatingCashFlow": 53085,
+      "reportedFreeCashFlow": 30074,
+      "reportedCapex": -23011,
+      "reportedCashOnHand": 26741,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2019,
+      "revenue": 344877,
+      "netIncome": 16432,
+      "operatingCashFlow": 42178,
+      "freeCashFlow": 19207,
+      "capex": -22971,
+      "cashOnHand": 18055,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 344877,
+      "reportedNetIncome": 16432,
+      "reportedOperatingCashFlow": 42178,
+      "reportedFreeCashFlow": 19207,
+      "reportedCapex": -22971,
+      "reportedCashOnHand": 18055,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2020,
+      "revenue": 180543,
+      "netIncome": -21534,
+      "operatingCashFlow": 34105,
+      "freeCashFlow": 17520,
+      "capex": -16585,
+      "cashOnHand": 31830,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 180543,
+      "reportedNetIncome": -21534,
+      "reportedOperatingCashFlow": 34105,
+      "reportedFreeCashFlow": 17520,
+      "reportedCapex": -16585,
+      "reportedCashOnHand": 31830,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2021,
+      "revenue": 261504,
+      "netIncome": 20630,
+      "operatingCashFlow": 45104,
+      "freeCashFlow": 26104,
+      "capex": -19000,
+      "cashOnHand": 36970,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 261504,
+      "reportedNetIncome": 20630,
+      "reportedOperatingCashFlow": 45104,
+      "reportedFreeCashFlow": 26104,
+      "reportedCapex": -19000,
+      "reportedCashOnHand": 36970,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2022,
+      "revenue": 381314,
+      "netIncome": 42874,
+      "operatingCashFlow": 68414,
+      "freeCashFlow": 45814,
+      "capex": -22600,
+      "cashOnHand": 40246,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 381314,
+      "reportedNetIncome": 42874,
+      "reportedOperatingCashFlow": 68414,
+      "reportedFreeCashFlow": 45814,
+      "reportedCapex": -22600,
+      "reportedCashOnHand": 40246,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2023,
+      "revenue": 316620,
+      "netIncome": 19636,
+      "operatingCashFlow": 54191,
+      "freeCashFlow": 31198,
+      "capex": -22993,
+      "cashOnHand": 38774,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 316620,
+      "reportedNetIncome": 19636,
+      "reportedOperatingCashFlow": 54191,
+      "reportedFreeCashFlow": 31198,
+      "reportedCapex": -22993,
+      "reportedCashOnHand": 38774,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2024,
+      "revenue": 284312,
+      "netIncome": 16521,
+      "operatingCashFlow": 54687,
+      "freeCashFlow": 35086,
+      "capex": -19601,
+      "cashOnHand": 39110,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 284312,
+      "reportedNetIncome": 16521,
+      "reportedOperatingCashFlow": 54687,
+      "reportedFreeCashFlow": 35086,
+      "reportedCapex": -19601,
+      "reportedCashOnHand": 39110,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    },
+    {
+      "year": 2025,
+      "revenue": 266886,
+      "netIncome": 18119,
+      "operatingCashFlow": 42863,
+      "freeCashFlow": 23916,
+      "capex": -18947,
+      "cashOnHand": 30216,
+      "netChangeInCash": null,
+      "reportedCurrency": "USD",
+      "fxRate": 1,
+      "fxMethod": "Reported in USD",
+      "reportedRevenue": 266886,
+      "reportedNetIncome": 18119,
+      "reportedOperatingCashFlow": 42863,
+      "reportedFreeCashFlow": 23916,
+      "reportedCapex": -18947,
+      "reportedCashOnHand": 30216,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "sec_companyfacts",
+        "shell_annual_2025"
+      ],
+      "primarySourceKey": "sec_companyfacts",
+      "secondarySourceKey": "shell_annual_2025",
+      "basis": "Shell plc consolidated. Capex is the cash-flow-statement capital-expenditure outflow; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official SEC XBRL annual values are selected by fiscal year-end from Shell's Form 20-F filings. FY2025 annual report and full-year results are linked for cross-checking; FCF is consistently derived as CFO plus cash capex."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "Shell 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group annual actuals",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": [
+        "shell_annual_2025",
+        "shell_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Official consolidated annual disclosures; no forecast series retained."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "Shell 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Cash capex / investment proxy and derived FCF",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": [
+        "shell_annual_2025",
+        "shell_fy_2025_results"
+      ],
+      "sourceLine": "Source: FY2025 Annual Report，FY2025 Results",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Investment bars show capex cash outflows. FCF equals operating cash flow plus capex."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Group consolidated annual revenue, using the line item labelled Revenue or Sales in the source disclosure."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Group consolidated profit or loss for the year, including non-controlling interests where presented in the consolidated statement."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash from operating activities in the consolidated annual cash-flow statement."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Derived consistently as operating cash flow plus the normalized negative capex value; it is not asserted to be the company's separately reported non-GAAP FCF."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash acquisition or purchase of productive assets / PPE and related capital assets where disclosed. It is stored as a negative cash outflow and displayed as a positive investment bar."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at year end; Chevron uses the company's cash, cash equivalents and restricted cash reconciliation for a complete annual series."
+    }
+  ],
+  "sources": [
+    {
+      "key": "sec_companyfacts",
+      "title": "SEC Companyfacts - Shell plc",
+      "shortTitle": "SEC XBRL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001306965.json",
+      "notes": "Official SEC structured XBRL data derived from the company's annual filings."
+    },
+    {
+      "key": "shell_annual_2025",
+      "title": "Shell Annual Report 2025",
+      "shortTitle": "Shell 2025 AR",
+      "url": "https://www.shell.com/investors/results-and-reporting/annual-report?tabc=1e25",
+      "notes": "Official annual-report page and audited group disclosures.",
+      "footerLabel": "FY2025 Annual Report",
+      "footerShortLabel": "FY25 Annual Report"
+    },
+    {
+      "key": "shell_fy_2025_results",
+      "title": "Shell plc Fourth Quarter 2025 Results Announcement",
+      "shortTitle": "Shell 2025 Results",
+      "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2026/fourth-quarter-2025-results-announcement.html",
+      "notes": "Official full-year 2025 results announcement and linked financial results cross-check.",
+      "footerLabel": "FY2025 Results",
+      "footerShortLabel": "FY25 Results"
+    }
+  ]
+}

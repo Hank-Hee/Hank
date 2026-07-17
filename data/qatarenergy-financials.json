@@ -1,0 +1,383 @@
+{
+  "company": {
+    "name": "QatarEnergy",
+    "legalName": "QatarEnergy",
+    "dashboardBasis": "Consolidated group financial statements",
+    "currency": "USD million",
+    "reportedCurrency": "QAR",
+    "updatedOn": "2026-07-17"
+  },
+  "coverage": {
+    "requestedRange": "2016-2036",
+    "fullYearActualRange": "2016-2024",
+    "forecastRange": "No auditable group-wide annual revenue or net-income forecast retained",
+    "dashboardYears": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "availabilityNote": "FY2016-FY2024 are official QatarEnergy/Qatar Petroleum group annual actuals converted from QAR. An FY2025 public group annual review was not located as of the update date, so it is not estimated or shown."
+  },
+  "metrics": [
+    {
+      "year": 2016,
+      "revenue": 17968,
+      "netIncome": 13609,
+      "operatingCashFlow": 7845,
+      "freeCashFlow": 5964,
+      "capex": -1881,
+      "cashOnHand": 4076,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 65404,
+      "reportedNetIncome": 49537,
+      "reportedOperatingCashFlow": 28556,
+      "reportedFreeCashFlow": 21708,
+      "reportedCapex": -6848,
+      "reportedCashOnHand": 14838,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2017,
+      "revenue": 19763,
+      "netIncome": 16045,
+      "operatingCashFlow": 9954,
+      "freeCashFlow": 8291,
+      "capex": -1663,
+      "cashOnHand": 4281,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 71936,
+      "reportedNetIncome": 58405,
+      "reportedOperatingCashFlow": 36232,
+      "reportedFreeCashFlow": 30178,
+      "reportedCapex": -6054,
+      "reportedCashOnHand": 15584,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2018,
+      "revenue": 28142,
+      "netIncome": 22098,
+      "operatingCashFlow": 15445,
+      "freeCashFlow": 13617,
+      "capex": -1828,
+      "cashOnHand": 6763,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 102439,
+      "reportedNetIncome": 80436,
+      "reportedOperatingCashFlow": 56219,
+      "reportedFreeCashFlow": 49566,
+      "reportedCapex": -6653,
+      "reportedCashOnHand": 24618,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2019,
+      "revenue": 29761,
+      "netIncome": 19991,
+      "operatingCashFlow": 23417,
+      "freeCashFlow": 19074,
+      "capex": -4343,
+      "cashOnHand": 13318,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 108332,
+      "reportedNetIncome": 72767,
+      "reportedOperatingCashFlow": 85236,
+      "reportedFreeCashFlow": 69429,
+      "reportedCapex": -15807,
+      "reportedCashOnHand": 48478,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2020,
+      "revenue": 21001,
+      "netIncome": 11322,
+      "operatingCashFlow": 13070,
+      "freeCashFlow": 9500,
+      "capex": -3570,
+      "cashOnHand": 6562,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 76442,
+      "reportedNetIncome": 41212,
+      "reportedOperatingCashFlow": 47576,
+      "reportedFreeCashFlow": 34581,
+      "reportedCapex": -12995,
+      "reportedCashOnHand": 23886,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2021,
+      "revenue": 33045,
+      "netIncome": 26893,
+      "operatingCashFlow": 10246,
+      "freeCashFlow": 5224,
+      "capex": -5022,
+      "cashOnHand": 17751,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 120283,
+      "reportedNetIncome": 97891,
+      "reportedOperatingCashFlow": 37294,
+      "reportedFreeCashFlow": 19013,
+      "reportedCapex": -18281,
+      "reportedCashOnHand": 64615,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2022,
+      "revenue": 51910,
+      "netIncome": 42461,
+      "operatingCashFlow": 18181,
+      "freeCashFlow": 13110,
+      "capex": -5071,
+      "cashOnHand": 22904,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 188954,
+      "reportedNetIncome": 154559,
+      "reportedOperatingCashFlow": 66178,
+      "reportedFreeCashFlow": 47721,
+      "reportedCapex": -18457,
+      "reportedCashOnHand": 83372,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2023,
+      "revenue": 43782,
+      "netIncome": 29127,
+      "operatingCashFlow": 31404,
+      "freeCashFlow": 26623,
+      "capex": -4781,
+      "cashOnHand": 18568,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 159366,
+      "reportedNetIncome": 106023,
+      "reportedOperatingCashFlow": 114312,
+      "reportedFreeCashFlow": 96908,
+      "reportedCapex": -17404,
+      "reportedCashOnHand": 67588,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    },
+    {
+      "year": 2024,
+      "revenue": 46245,
+      "netIncome": 26302,
+      "operatingCashFlow": 27844,
+      "freeCashFlow": 22239,
+      "capex": -5605,
+      "cashOnHand": 18336,
+      "netChangeInCash": null,
+      "reportedCurrency": "QAR",
+      "fxRate": 4,
+      "fxMethod": "Divide by fixed QAR 3.64 per USD",
+      "reportedRevenue": 168333,
+      "reportedNetIncome": 95739,
+      "reportedOperatingCashFlow": 101354,
+      "reportedFreeCashFlow": 80950,
+      "reportedCapex": -20404,
+      "reportedCashOnHand": 66741,
+      "status": "Official consolidated annual actual",
+      "sourceKeys": [
+        "qatarenergy_annual_2024",
+        "qcb_qarusd"
+      ],
+      "primarySourceKey": "qatarenergy_annual_2024",
+      "secondarySourceKey": null,
+      "basis": "QatarEnergy consolidated annual-review summary financial statements reported in QAR and converted at Qatar Central Bank's fixed parity of QR3.64 per USD. Capex is acquisition of property, plant and equipment; FCF is derived as CFO plus capex.",
+      "dataType": "Official annual actual",
+      "verificationStatus": "Verified",
+      "verificationNote": "Official QatarEnergy/Qatar Petroleum annual-review summary consolidated financial statements, audited as stated in the report, were used for FY2016-FY2024. QAR figures are converted at the Qatar Central Bank fixed QR3.64 per USD parity. FCF is derived as CFO plus capex."
+    }
+  ],
+  "dashboards": {
+    "profitability": {
+      "title": "Revenue and Net Income",
+      "titleCn": "QatarEnergy 收入与净利润",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Consolidated group annual actuals",
+      "barLabel": "Revenue",
+      "lineLabel": "Net Income",
+      "barKey": "revenue",
+      "lineKey": "netIncome",
+      "sourceKeys": [
+        "qatarenergy_annual_2024"
+      ],
+      "sourceLine": "Source: FY2024 Annual Review",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Official consolidated annual disclosures; no forecast series retained."
+    },
+    "cashInvestment": {
+      "title": "Investments and Free Cash Flow",
+      "titleCn": "QatarEnergy 投资与自由现金流",
+      "eyebrow": "FINANCIAL PROFILE · 2026",
+      "subtitle": "USD million",
+      "basisLabel": "Cash capex / investment proxy and derived FCF",
+      "barLabel": "Investments",
+      "lineLabel": "Free Cash Flow",
+      "barKey": "investmentAbs",
+      "lineKey": "freeCashFlow",
+      "sourceKeys": [
+        "qatarenergy_annual_2024"
+      ],
+      "sourceLine": "Source: FY2024 Annual Review",
+      "updateDate": "Update date: 2026/07/17",
+      "note": "Investment bars show capex cash outflows. FCF equals operating cash flow plus capex."
+    }
+  },
+  "definitions": [
+    {
+      "metric": "Revenue",
+      "definition": "Group consolidated annual revenue, using the line item labelled Revenue or Sales in the source disclosure."
+    },
+    {
+      "metric": "Net income",
+      "definition": "Group consolidated profit or loss for the year, including non-controlling interests where presented in the consolidated statement."
+    },
+    {
+      "metric": "Operating cash flow",
+      "definition": "Net cash from operating activities in the consolidated annual cash-flow statement."
+    },
+    {
+      "metric": "Free cash flow",
+      "definition": "Derived consistently as operating cash flow plus the normalized negative capex value; it is not asserted to be the company's separately reported non-GAAP FCF."
+    },
+    {
+      "metric": "Capex / Investments",
+      "definition": "Cash acquisition or purchase of productive assets / PPE and related capital assets where disclosed. It is stored as a negative cash outflow and displayed as a positive investment bar."
+    },
+    {
+      "metric": "Cash on hand",
+      "definition": "Cash and cash equivalents at end of year from the consolidated cash-flow statement, converted at QR3.64 per USD."
+    },
+    {
+      "metric": "Currency conversion",
+      "definition": "QAR amounts are divided by Qatar Central Bank's fixed parity of QR3.64 per USD."
+    }
+  ],
+  "sources": [
+    {
+      "key": "qatarenergy_annual_2024",
+      "title": "QatarEnergy Annual Review 2024",
+      "shortTitle": "QatarEnergy 2024 Review",
+      "url": "https://www.qatarenergy.qa/en/MediaCenter/Publications/%E2%80%8BQatarEnergy%20Annual%20Review%202024.pdf",
+      "notes": "Official annual review including audited summary consolidated financial statements.",
+      "footerLabel": "FY2024 Annual Review",
+      "footerShortLabel": "FY24 Annual Review"
+    },
+    {
+      "key": "qcb_qarusd",
+      "title": "Qatar Central Bank Monetary Policy Tools - QAR/USD Fixed Parity",
+      "shortTitle": "QCB QR/USD",
+      "url": "https://www.qcb.gov.qa/en/Pages/MonetaryPolicyTools.aspx",
+      "notes": "QCB states the fixed parity of QR3.64 per USD. QAR figures are divided by 3.64."
+    }
+  ]
+}
