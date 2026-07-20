@@ -751,7 +751,7 @@
 
       window.addEventListener("resize", () => chart && chart.resize());
 
-      fetch("data/exxon-net-production-by-region.json")
+      fetch("data/exxon-net-production-by-region.json?v=20260720")
         .then(response => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
