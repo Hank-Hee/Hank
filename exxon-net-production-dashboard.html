@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="埃克森美孚按地区展示的净产量分析看板">
-  <title>埃克森美孚地区净产量看板</title>
+  <meta name="description" content="ExxonMobil 按 Region 展示的净产量分析看板">
+  <title>ExxonMobil 地区净产量</title>
   <script src="assets/echarts.min.js"></script>
   <style>
     :root {
@@ -37,222 +37,11 @@
 
     button { font: inherit; }
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      display: flex;
-      align-items: stretch;
-      min-height: 70px;
-      padding: 0 22px;
-      background: rgba(255, 255, 255, .97);
-      border-bottom: 1px solid var(--line);
-    }
-
-    .topbar-left, .topbar-actions, .brand {
-      display: flex;
-      align-items: center;
-    }
-
-    .topbar-left { min-width: 330px; }
-
-    .menu-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      min-height: 38px;
-      padding: 0 12px;
-      color: var(--ink);
-      background: #fff;
-      border: 1px solid #9baabd;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .menu-button:hover { background: var(--surface-soft); }
-
-    .hamburger, .hamburger::before, .hamburger::after {
-      display: block;
-      width: 14px;
-      height: 1.5px;
-      background: currentColor;
-      content: "";
-    }
-
-    .hamburger { position: relative; }
-    .hamburger::before { position: absolute; top: -5px; }
-    .hamburger::after { position: absolute; top: 5px; }
-
-    .brand {
-      gap: 9px;
-      margin-left: 20px;
-      padding-right: 20px;
-      border-right: 1px solid var(--line);
-      color: #163553;
-      font-weight: 760;
-      letter-spacing: -.2px;
-      white-space: nowrap;
-    }
-
-    .brand-mark {
-      display: grid;
-      grid-template-columns: repeat(3, 4px);
-      grid-template-rows: repeat(3, 4px);
-      gap: 2px;
-      width: 16px;
-      height: 16px;
-      transform: rotate(14deg);
-    }
-
-    .brand-mark i { border-radius: 99px; background: #2f6fae; }
-    .brand-mark i:nth-child(2), .brand-mark i:nth-child(4), .brand-mark i:nth-child(8) { background: #99b3cf; }
-    .brand-mark i:nth-child(5) { background: #163553; }
-
-    .product-lockup {
-      display: block;
-      min-height: 70px;
-      padding-left: 18px;
-      line-height: 1.08;
-    }
-
-    .product-lockup strong { display: block; color: #122e4a; font-size: 16px; font-weight: 730; }
-    .product-lockup span { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; }
-
-    .topbar-actions {
-      flex: 1;
-      justify-content: flex-end;
-      gap: 8px;
-      min-width: 0;
-    }
-
-    .tool-button, .tool-chip {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 7px;
-      min-height: 34px;
-      padding: 0 11px;
-      border: 1px solid transparent;
-      border-radius: 5px;
-      background: transparent;
-      color: #29455f;
-      font-size: 13px;
-      white-space: nowrap;
-    }
-
-    .tool-button { cursor: pointer; }
-    .tool-button:hover:not(:disabled) { background: var(--blue-soft); color: var(--blue); }
-    .tool-button:disabled { color: #b5c0cc; cursor: default; }
-    .tool-button svg, .tool-chip svg { width: 16px; height: 16px; flex: none; }
-
-    .tool-button--export {
-      background: #eef4fa;
-      border-color: #cad9e9;
-      color: #1f568c;
-      font-weight: 650;
-    }
-
-    .tool-chip {
-      justify-content: flex-start;
-      min-width: 154px;
-      background: #fff;
-      border-color: #c7d4e2;
-    }
-
-    .tool-chip span { color: var(--muted); }
-    .tool-chip strong { margin-left: auto; color: #213e5b; font-weight: 640; }
-
-    .tool-button--secondary {
-      border-color: #c8d4e0;
-      background: #fff;
-    }
-
-    .tool-button--primary {
-      border-color: var(--blue);
-      background: var(--blue);
-      color: #fff;
-      font-weight: 670;
-    }
-
-    .tool-button--primary:hover { background: var(--blue-hover); color: #fff; }
-
-    .app-menu {
-      position: fixed;
-      z-index: 20;
-      top: 60px;
-      left: 22px;
-      display: none;
-      width: 232px;
-      padding: 8px;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 7px;
-      box-shadow: 0 12px 32px rgba(19, 47, 75, .16);
-    }
-
-    .app-menu.is-open { display: block; }
-    .app-menu a { display: block; padding: 10px 11px; color: #29455f; border-radius: 4px; text-decoration: none; font-size: 13px; }
-    .app-menu a:hover { color: var(--blue); background: var(--blue-soft); }
-
     .dashboard {
       width: min(1680px, 100%);
       margin: 0 auto;
-      padding: 26px 28px 24px;
+      padding: 22px 28px 24px;
     }
-
-    .breadcrumb {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      margin-bottom: 12px;
-      color: var(--muted-light);
-      font-size: 12px;
-    }
-
-    .breadcrumb b { color: #435f7b; font-weight: 620; }
-
-    .overview {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 24px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin: 0;
-      color: #102d4b;
-      font-size: 25px;
-      line-height: 1.25;
-      letter-spacing: -.45px;
-      font-weight: 740;
-    }
-
-    .overview p { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
-
-    .overview-meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .status-pill, .range-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      min-height: 30px;
-      padding: 0 10px;
-      border: 1px solid var(--line);
-      border-radius: 4px;
-      background: rgba(255,255,255,.8);
-      color: #526a81;
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
-    .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #2f8a75; box-shadow: 0 0 0 3px #e3f3ee; }
 
     .chart-card {
       position: relative;
@@ -273,38 +62,32 @@
 
     .chart-head {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: space-between;
       gap: 16px;
-      padding: 23px 25px 16px;
+      padding: 21px 25px 17px;
       border-bottom: 1px solid #edf1f5;
     }
 
-    .eyebrow {
-      margin: 0 0 5px;
-      color: #5f7e9e;
-      font-size: 11px;
-      font-weight: 720;
-      letter-spacing: 1.15px;
-      text-transform: uppercase;
-    }
-
-    .chart-head h2 { margin: 0; color: #143451; font-size: 19px; font-weight: 730; letter-spacing: -.2px; }
+    .chart-head h1 { margin: 0; color: #143451; font-size: 21px; font-weight: 730; letter-spacing: -.25px; }
     .chart-head p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
 
-    .metric-strip {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(108px, 1fr));
-      min-width: min(36vw, 420px);
-      border: 1px solid #dce5ee;
+    .export-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      padding: 0;
+      color: #285f95;
+      background: #f4f8fc;
+      border: 1px solid #cbd9e7;
       border-radius: 5px;
-      overflow: hidden;
+      cursor: pointer;
     }
 
-    .metric { padding: 8px 11px; background: #fbfcfe; }
-    .metric + .metric { border-left: 1px solid #dce5ee; }
-    .metric span { display: block; color: #788b9f; font-size: 11px; white-space: nowrap; }
-    .metric strong { display: block; margin-top: 3px; color: #173c5e; font-size: 13px; font-weight: 700; white-space: nowrap; }
+    .export-button:hover { color: #1e5589; background: #e8f1fa; border-color: #a8c2db; }
+    .export-button svg { width: 18px; height: 18px; }
 
     .chart-stage { position: relative; padding: 4px 14px 0 6px; }
 
@@ -370,142 +153,31 @@
     .legend-item.is-muted { color: #9aa8b6; text-decoration: line-through; }
     .legend-swatch { width: 11px; height: 11px; flex: none; border-radius: 1px; }
 
-    .card-foot {
-      display: flex;
-      justify-content: space-between;
-      gap: 18px;
-      padding: 10px 25px 13px;
-      color: #718297;
-      background: #fff;
-      border-top: 1px solid #edf1f5;
-      font-size: 12px;
-    }
-
-    .card-foot b { color: #44617e; font-weight: 650; }
-    .card-foot span:last-child { text-align: right; }
-
-    .export-menu {
-      position: fixed;
-      z-index: 30;
-      display: none;
-      min-width: 156px;
-      padding: 6px;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      box-shadow: 0 12px 30px rgba(19, 47, 75, .17);
-    }
-
-    .export-menu.is-open { display: block; }
-    .export-menu button { display: block; width: 100%; padding: 9px 10px; color: #29455f; border: 0; border-radius: 4px; background: transparent; cursor: pointer; font-size: 13px; text-align: left; }
-    .export-menu button:hover { color: var(--blue); background: var(--blue-soft); }
-
-    @media (max-width: 1320px) {
-      .topbar-actions .tool-button:disabled { display: none; }
-    }
-
-    @media (max-width: 1160px) {
-      .topbar-left { min-width: 270px; }
-      .topbar-actions .tool-chip { min-width: auto; }
-      .tool-chip strong { display: none; }
-      .metric-strip { min-width: auto; }
-    }
-
-    @media (max-width: 900px) {
-      .topbar { padding: 0 14px; }
-      .topbar-left { min-width: 0; }
-      .brand { margin-left: 12px; padding-right: 12px; }
-      .product-lockup { padding-left: 12px; }
-      .topbar-actions { gap: 3px; }
-      .topbar-actions .tool-chip, .topbar-actions .tool-button:disabled, .topbar-actions .tool-button--secondary { display: none; }
-      .dashboard { padding: 20px 16px; }
-      .chart-head { align-items: stretch; flex-direction: column; }
-      .metric-strip { width: 100%; }
-    }
-
-    @media (max-width: 620px) {
-      .menu-button { padding: 0 9px; }
-      .menu-button > span:last-child, .brand, .product-lockup span { display: none; }
-      .topbar-left { flex: 1; }
-      .product-lockup { min-height: 58px; }
-      .topbar { min-height: 58px; }
-      .overview { align-items: flex-start; flex-direction: column; }
-      .overview-meta { justify-content: flex-start; }
-      h1 { font-size: 21px; }
-      .chart-head { padding: 20px 16px 14px; }
-      .metric { padding: 8px; }
-      .metric strong { font-size: 12px; }
+    @media (max-width: 720px) {
+      .dashboard { padding: 14px; }
+      .chart-head { padding: 18px 16px 14px; }
+      .chart-head h1 { font-size: 19px; }
       .chart-stage { padding-right: 3px; }
       #production-chart { height: 465px; min-height: 465px; }
       .legend-zone { align-items: flex-start; flex-direction: column; gap: 7px; padding: 11px 16px; }
-      .card-foot { flex-direction: column; padding: 10px 16px 13px; }
-      .card-foot span:last-child { text-align: left; }
     }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-left">
-      <button id="menu-button" class="menu-button" type="button" aria-haspopup="true" aria-expanded="false">
-        <span class="hamburger" aria-hidden="true"></span><span>Menu</span>
-      </button>
-      <div class="brand" aria-label="能源数据平台">
-        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
-        <span>Energy Data Hub</span>
-      </div>
-      <div class="product-lockup">
-        <strong>Production Analytics</strong>
-        <span>Region-level net production</span>
-      </div>
-    </div>
-    <div class="topbar-actions" aria-label="看板工具栏">
-      <button class="tool-button" type="button" disabled aria-label="Undo"><span aria-hidden="true">↶</span> Undo</button>
-      <button class="tool-button" type="button" disabled aria-label="Redo"><span aria-hidden="true">↷</span> Redo</button>
-      <button id="export-button" class="tool-button tool-button--export" type="button" aria-haspopup="true" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 14v5h14v-5"/></svg>Export
-      </button>
-      <div class="tool-chip" aria-label="数据源"><span>数据源</span><strong>Excel</strong></div>
-      <div class="tool-chip" aria-label="日期范围"><span>日期</span><strong id="range-chip">2015–2050</strong></div>
-      <button id="reset-button" class="tool-button tool-button--secondary" type="button">重置视图</button>
-      <button id="refresh-button" class="tool-button tool-button--primary" type="button">更新图表</button>
-    </div>
-  </header>
-
-  <nav id="app-menu" class="app-menu" aria-label="看板菜单">
-    <a href="#production-chart">地区净产量趋势</a>
-    <a href="#data-source">数据说明</a>
-    <a href="#" id="menu-export">导出当前图表</a>
-  </nav>
-
   <main class="dashboard">
-    <div class="breadcrumb"><span>Energy Data Hub</span><span>/</span><b>Production Analytics</b></div>
-    <section class="overview" aria-labelledby="page-title">
-      <div>
-        <h1 id="page-title">埃克森美孚地区净产量看板</h1>
-        <p>按 Region 展示完整年度数据的堆叠净产量贡献</p>
-      </div>
-      <div class="overview-meta">
-        <span class="status-pill"><span class="status-dot"></span>数据已加载</span>
-        <span class="range-pill" id="overview-range">2015–2050</span>
-      </div>
-    </section>
-
-    <section class="chart-card" aria-labelledby="chart-title">
+    <section class="chart-card" aria-labelledby="page-title">
       <header class="chart-head">
         <div>
-          <p class="eyebrow">Production overview</p>
-          <h2 id="chart-title">Production by Region</h2>
-          <p>Net production · 堆叠面积图 · 单位：kbbl/d</p>
+          <h1 id="page-title">ExxonMobil 地区净产量</h1>
+          <p>Net production · Unit: kbbl/d</p>
         </div>
-        <div class="metric-strip" aria-label="数据概览">
-          <div class="metric"><span>时间范围</span><strong id="period-stat">--</strong></div>
-          <div class="metric"><span>Region 数量</span><strong id="region-stat">--</strong></div>
-          <div class="metric"><span>产量峰值</span><strong id="peak-stat">--</strong></div>
-        </div>
+        <button id="export-button" class="export-button" type="button" aria-label="下载 Excel 源数据" title="下载 Excel 源数据">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 14v5h14v-5"/></svg>
+        </button>
       </header>
 
       <div class="chart-stage">
-        <div id="production-chart" role="img" aria-label="按地区展示埃克森美孚净产量的堆叠面积图"></div>
+        <div id="production-chart" role="img" aria-label="按地区展示 ExxonMobil 净产量"></div>
         <div id="chart-loading" class="chart-loading">正在加载生产数据…</div>
       </div>
 
@@ -513,18 +185,8 @@
         <span class="legend-label">Region</span>
         <div id="region-legend" class="region-legend" aria-label="地区图例；点击可显示或隐藏地区"></div>
       </div>
-
-      <footer id="data-source" class="card-foot">
-        <span><b>Source:</b> 美孚产量.xlsx · Net production</span>
-        <span>单位：Production (kbbl/d) · Hover 图表可查看 Year、Region、Production 与年度总量</span>
-      </footer>
     </section>
   </main>
-
-  <div id="export-menu" class="export-menu" role="menu" aria-label="导出选项">
-    <button id="export-png" type="button" role="menuitem">导出 PNG 图表</button>
-    <button id="export-csv" type="button" role="menuitem">导出 CSV 数据</button>
-  </div>
 
   <script>
     (() => {
@@ -549,10 +211,7 @@
       const chartElement = document.getElementById("production-chart");
       const loadingElement = document.getElementById("chart-loading");
       const legendElement = document.getElementById("region-legend");
-      const menuButton = document.getElementById("menu-button");
-      const appMenu = document.getElementById("app-menu");
       const exportButton = document.getElementById("export-button");
-      const exportMenu = document.getElementById("export-menu");
       let chart;
       let dashboardData;
       const selected = new Set();
@@ -562,19 +221,13 @@
         maximumFractionDigits: digits
       }).format(value);
 
-      const download = (url, filename) => {
+      const downloadSourceWorkbook = () => {
         const anchor = document.createElement("a");
-        anchor.href = url;
-        anchor.download = filename;
+        anchor.href = "data/exxonmobil-net-production-source.xlsx?v=20260720";
+        anchor.download = "美孚产量.xlsx";
         document.body.appendChild(anchor);
         anchor.click();
         anchor.remove();
-        if (url.startsWith("blob:")) URL.revokeObjectURL(url);
-      };
-
-      const setMenuOpen = (menu, button, open) => {
-        menu.classList.toggle("is-open", open);
-        button.setAttribute("aria-expanded", String(open));
       };
 
       const renderLegend = (regions) => {
@@ -594,25 +247,13 @@
         });
       };
 
-      const updateSummary = (data) => {
-        const firstYear = data.data[0].year;
-        const lastYear = data.data[data.data.length - 1].year;
-        const peak = data.data.reduce((winner, item) => item.total > winner.total ? item : winner, data.data[0]);
-        const range = `${firstYear}–${lastYear}`;
-        document.getElementById("period-stat").textContent = range;
-        document.getElementById("region-stat").textContent = `${data.regions.length} 个`;
-        document.getElementById("peak-stat").textContent = `${formatNumber(peak.total)} · ${peak.year}`;
-        document.getElementById("range-chip").textContent = range;
-        document.getElementById("overview-range").textContent = range;
-      };
-
       const chartOption = (data) => {
         const years = data.data.map(item => item.year);
         return {
           animationDuration: 520,
           animationEasing: "cubicOut",
           color: data.regions.map(region => palette[region] || "#8fa0b4"),
-          grid: { left: 70, right: 24, top: 42, bottom: 34, containLabel: false },
+          grid: { left: 70, right: 24, top: 42, bottom: 20, containLabel: false },
           tooltip: {
             trigger: "axis",
             axisPointer: { type: "line", lineStyle: { color: "#8497a9", width: 1, type: "dashed" } },
@@ -630,7 +271,7 @@
             borderWidth: 1,
             padding: 0,
             textStyle: { color: "#1f3a54", fontSize: 12 },
-            extraCssText: "box-shadow:0 10px 28px rgba(20,48,75,.14); border-radius:6px; overflow:hidden;",
+            extraCssText: "min-width:300px; padding:0 10px; box-shadow:0 10px 28px rgba(20,48,75,.14); border-radius:6px; overflow:hidden;",
             formatter(params) {
               const row = data.data[params[0].dataIndex];
               const active = params
@@ -646,10 +287,6 @@
             type: "category",
             boundaryGap: false,
             data: years,
-            name: "Year",
-            nameLocation: "middle",
-            nameGap: 28,
-            nameTextStyle: { color: "#607386", fontSize: 12, fontWeight: 600 },
             axisLine: { lineStyle: { color: "#bdcad7" } },
             axisTick: { show: false },
             axisLabel: { color: "#52687d", fontSize: 11, interval: 2, margin: 13 }
@@ -689,69 +326,14 @@
         chart = echarts.init(chartElement, null, { renderer: "canvas" });
         chart.setOption(chartOption(data));
         renderLegend(data.regions);
-        updateSummary(data);
         loadingElement.hidden = true;
       };
 
-      const resetChart = () => {
-        if (!chart || !dashboardData) return;
-        selected.clear();
-        dashboardData.regions.forEach(region => selected.add(region));
-        chart.setOption(chartOption(dashboardData), true);
-        legendElement.querySelectorAll(".legend-item").forEach(item => item.classList.remove("is-muted"));
-      };
-
-      document.getElementById("reset-button").addEventListener("click", resetChart);
-      document.getElementById("refresh-button").addEventListener("click", () => {
-        if (!chart) return;
-        chart.resize();
-        loadingElement.hidden = false;
-        window.setTimeout(() => { loadingElement.hidden = true; }, 260);
-      });
-
-      menuButton.addEventListener("click", (event) => {
-        event.stopPropagation();
-        setMenuOpen(appMenu, menuButton, !appMenu.classList.contains("is-open"));
-        setMenuOpen(exportMenu, exportButton, false);
-      });
-
-      exportButton.addEventListener("click", (event) => {
-        event.stopPropagation();
-        const rect = exportButton.getBoundingClientRect();
-        exportMenu.style.top = `${rect.bottom + 7}px`;
-        exportMenu.style.right = `${window.innerWidth - rect.right}px`;
-        setMenuOpen(exportMenu, exportButton, !exportMenu.classList.contains("is-open"));
-        setMenuOpen(appMenu, menuButton, false);
-      });
-
-      document.getElementById("menu-export").addEventListener("click", (event) => {
-        event.preventDefault();
-        setMenuOpen(appMenu, menuButton, false);
-        document.getElementById("export-png").click();
-      });
-
-      document.getElementById("export-png").addEventListener("click", () => {
-        if (chart) download(chart.getDataURL({ type: "png", pixelRatio: 2, backgroundColor: "#ffffff" }), "exxonmobil-net-production-by-region.png");
-        setMenuOpen(exportMenu, exportButton, false);
-      });
-
-      document.getElementById("export-csv").addEventListener("click", () => {
-        if (!dashboardData) return;
-        const rows = [["Year", ...dashboardData.regions, "Total Production (kbbl/d)"]];
-        dashboardData.data.forEach(item => rows.push([item.year, ...dashboardData.regions.map(region => item.values[region]), item.total]));
-        const csv = "\uFEFF" + rows.map(row => row.map(value => `\"${String(value).replaceAll('"', '""')}\"`).join(",")).join("\n");
-        download(URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" })), "exxonmobil-net-production-by-region.csv");
-        setMenuOpen(exportMenu, exportButton, false);
-      });
-
-      document.addEventListener("click", () => {
-        setMenuOpen(appMenu, menuButton, false);
-        setMenuOpen(exportMenu, exportButton, false);
-      });
+      exportButton.addEventListener("click", downloadSourceWorkbook);
 
       window.addEventListener("resize", () => chart && chart.resize());
 
-      fetch("data/exxon-net-production-by-region.json?v=20260720")
+      fetch("data/exxon-net-production-by-region.json?v=20260720-2")
         .then(response => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
