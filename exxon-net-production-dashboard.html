@@ -24,7 +24,12 @@
 
     * { box-sizing: border-box; }
 
-    html, body { min-height: 100%; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      overflow: hidden;
+    }
 
     body {
       margin: 0;
@@ -38,18 +43,26 @@
     button { font: inherit; }
 
     .dashboard {
-      width: min(1680px, 100%);
-      margin: 0 auto;
-      padding: 22px 28px 24px;
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      min-height: 0;
+      margin: 0;
+      padding: 0;
     }
 
     .chart-card {
       position: relative;
+      display: flex;
+      flex: 1 1 auto;
+      flex-direction: column;
+      min-width: 0;
+      min-height: 0;
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--line);
-      border-radius: 7px;
-      box-shadow: var(--shadow);
+      border-radius: 0;
+      box-shadow: none;
     }
 
     .chart-card::before {
@@ -65,7 +78,8 @@
       align-items: center;
       justify-content: space-between;
       gap: 16px;
-      padding: 21px 25px 17px;
+      flex: none;
+      padding: 16px 18px 12px;
       border-bottom: 1px solid #edf1f5;
     }
 
@@ -89,12 +103,17 @@
     .export-button:hover { color: #1e5589; background: #e8f1fa; border-color: #a8c2db; }
     .export-button svg { width: 18px; height: 18px; }
 
-    .chart-stage { position: relative; padding: 4px 14px 0 6px; }
+    .chart-stage {
+      position: relative;
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 0 3px 0 0;
+    }
 
     #production-chart {
       width: 100%;
-      height: clamp(450px, calc(100vh - 340px), 610px);
-      min-height: 450px;
+      height: 100%;
+      min-height: 0;
     }
 
     .chart-loading {
@@ -112,9 +131,10 @@
 
     .legend-zone {
       display: flex;
+      flex: none;
       align-items: flex-start;
-      gap: 14px;
-      padding: 10px 25px 14px;
+      gap: 12px;
+      padding: 9px 12px 10px;
       border-top: 1px solid #eef2f5;
       background: #fcfdfe;
     }
@@ -154,12 +174,12 @@
     .legend-swatch { width: 11px; height: 11px; flex: none; border-radius: 1px; }
 
     @media (max-width: 720px) {
-      .dashboard { padding: 14px; }
-      .chart-head { padding: 18px 16px 14px; }
+      html, body { overflow: auto; }
+      .dashboard { height: auto; min-height: 100vh; }
+      .chart-head { padding: 14px 12px 10px; }
       .chart-head h1 { font-size: 19px; }
-      .chart-stage { padding-right: 3px; }
-      #production-chart { height: 465px; min-height: 465px; }
-      .legend-zone { align-items: flex-start; flex-direction: column; gap: 7px; padding: 11px 16px; }
+      .chart-stage { flex: none; height: 420px; }
+      .legend-zone { align-items: flex-start; flex-direction: column; gap: 7px; padding: 9px 12px 10px; }
     }
   </style>
 </head>
@@ -253,7 +273,7 @@
           animationDuration: 520,
           animationEasing: "cubicOut",
           color: data.regions.map(region => palette[region] || "#8fa0b4"),
-          grid: { left: 70, right: 24, top: 42, bottom: 20, containLabel: false },
+          grid: { left: 54, right: 8, top: 36, bottom: 52, containLabel: false },
           tooltip: {
             trigger: "axis",
             axisPointer: { type: "line", lineStyle: { color: "#8497a9", width: 1, type: "dashed" } },
@@ -289,7 +309,7 @@
             data: years,
             axisLine: { lineStyle: { color: "#bdcad7" } },
             axisTick: { show: false },
-            axisLabel: { color: "#52687d", fontSize: 11, interval: 2, margin: 13 }
+            axisLabel: { color: "#52687d", fontSize: 10, interval: 0, margin: 19 }
           },
           yAxis: {
             type: "value",
@@ -333,7 +353,7 @@
 
       window.addEventListener("resize", () => chart && chart.resize());
 
-      fetch("data/exxon-net-production-by-region.json?v=20260720-2")
+      fetch("data/exxon-net-production-by-region.json?v=20260720-3")
         .then(response => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
