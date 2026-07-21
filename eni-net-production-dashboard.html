@@ -52,7 +52,7 @@
 
     .chart-card {
       min-width: 0;
-      padding: 20px;
+      padding: 18px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-md);
@@ -64,7 +64,7 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 16px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .chart-head h1 {
@@ -79,44 +79,15 @@
       margin: 3px 0 0;
       color: var(--text-secondary);
       font-size: 12px;
+      line-height: 1.35;
     }
 
-    .chart-actions {
-      display: flex;
-      flex: none;
-      gap: 4px;
-    }
-
-    .chart-action {
-      display: grid;
-      width: 32px;
-      height: 32px;
-      padding: 0;
-      place-items: center;
-      color: var(--brand-600);
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-    }
-
-    .chart-action:hover,
-    .chart-action:focus-visible {
-      color: var(--brand-700);
-      background: #f8fafb;
-      border-color: #bccbd7;
-      outline: none;
-    }
-
-    .chart-action svg { width: 17px; height: 17px; }
-    .chart-action.is-loading svg { animation: spin .75s linear infinite; }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
+    .chart-head .company-note { color: var(--text-tertiary); }
 
     .chart-stage {
       position: relative;
-      min-height: 400px;
-      height: clamp(400px, 54vh, 460px);
+      min-height: 410px;
+      height: 410px;
       border-top: 1px solid var(--divider);
     }
 
@@ -143,9 +114,9 @@
       align-items: flex-start;
       gap: 12px;
       min-width: 0;
-      max-height: 58px;
-      margin-top: 10px;
-      padding-top: 10px;
+      max-height: 56px;
+      margin-top: 8px;
+      padding-top: 8px;
       overflow: hidden;
       border-top: 1px solid var(--divider);
     }
@@ -206,39 +177,6 @@
       border-top: 1.5px dashed #b54747;
     }
 
-    .chart-footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 16px;
-      margin-top: 10px;
-      padding-top: 10px;
-      border-top: 1px solid var(--divider);
-      color: var(--text-tertiary);
-      font-size: 11px;
-      line-height: 1.35;
-    }
-
-    .chart-footer .company-note {
-      flex-basis: 100%;
-      color: var(--text-secondary);
-    }
-
-    .chart-card:fullscreen {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      padding: 20px;
-      border: 0;
-      border-radius: 0;
-    }
-
-    .chart-card:fullscreen .chart-stage {
-      flex: 1;
-      height: auto;
-    }
-
     @media (max-width: 1000px) {
       .region-legend {
         flex-wrap: nowrap;
@@ -252,11 +190,9 @@
     @media (max-width: 760px) {
       .chart-card { padding: 16px; }
       .chart-head { gap: 10px; }
-      .chart-stage { min-height: 320px; height: 400px; }
+      .chart-stage { min-height: 350px; height: 360px; }
       .legend-zone { flex-direction: column; max-height: none; gap: 7px; }
       .region-legend { width: 100%; }
-      .chart-footer { display: block; }
-      .chart-footer span + span { display: block; margin-top: 2px; }
     }
   </style>
 </head>
@@ -267,17 +203,6 @@
         <div>
           <h1 id="page-title">Eni 地区净产量</h1>
           <p>Net production · Unit: kbbl/d</p>
-        </div>
-        <div class="chart-actions" aria-label="图表操作">
-          <button id="export-button" class="chart-action" type="button" aria-label="下载 Excel 源数据" title="下载 Excel 源数据">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 14v5h14v-5"/></svg>
-          </button>
-          <button id="refresh-button" class="chart-action" type="button" aria-label="刷新图表数据" title="刷新图表数据">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M20 11a8 8 0 1 0 2 5.3M20 4v7h-7"/></svg>
-          </button>
-          <button id="fullscreen-button" class="chart-action" type="button" aria-label="全屏查看图表" title="全屏查看图表" aria-pressed="false">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg>
-          </button>
         </div>
       </header>
 
@@ -291,10 +216,6 @@
         <div id="region-legend" class="region-legend" aria-label="地区图例；点击可显示或隐藏地区"></div>
         <span class="forecast-key"><i aria-hidden="true"></i>Forecast</span>
       </div>
-      <footer class="chart-footer">
-        <span>Source: Company disclosures · Internal database</span>
-        <span>Data range: 2015–2050</span>
-      </footer>
     </section>
   </main>
 
@@ -319,31 +240,16 @@
         "Melanesia, Micronesia & Polynesia": "#d8e0e6"
       };
 
-      const chartCard = document.querySelector(".chart-card");
       const chartElement = document.getElementById("production-chart");
       const loadingElement = document.getElementById("chart-loading");
       const legendElement = document.getElementById("region-legend");
-      const exportButton = document.getElementById("export-button");
-      const refreshButton = document.getElementById("refresh-button");
-      const fullscreenButton = document.getElementById("fullscreen-button");
       let chart;
       const selected = new Set();
       const dashboardData = {"company":"Eni","metric":"Net production","unit":"kbbl/d","firstForecastYear":2026,"regions":["Australasia","East Asia","South East Asia","South Asia","Middle East","North Africa","East Africa","South Africa","West Africa","South America","North America","Western Europe","Southern Europe","Eastern Europe","Central Asia"],"data":[{"year":2015,"values":{"Australasia":23.43082199804485,"East Asia":3.0103287538385963,"South East Asia":9.868931467614969,"South Asia":35.02975331212925,"Middle East":37.97931540502261,"North Africa":606.3175070903975,"East Africa":0,"South Africa":0,"West Africa":307.4615064084953,"South America":44.73279445305146,"North America":91.19660278396722,"Western Europe":168.44750676240912,"Southern Europe":173.9755615577152,"Eastern Europe":0,"Central Asia":105.15224591140957},"total":1606.6028759040958},{"year":2016,"values":{"Australasia":20.803688353568806,"East Asia":2.119289627782186,"South East Asia":9.611202214718169,"South Asia":27.2754099023686,"Middle East":47.38729540767565,"North Africa":620.1964479249278,"East Africa":0,"South Africa":0,"West Africa":297.7929781228027,"South America":83.87863343873232,"North America":86.55112022923456,"Western Europe":185.9684693103429,"Southern Europe":137.8390438877218,"Eastern Europe":0,"Central Asia":110.38177582908685},"total":1629.8053542489624},{"year":2017,"values":{"Australasia":19.21723272686518,"East Asia":1.9827671215091258,"South East Asia":35.88254803430635,"South Asia":20.90471222784812,"Middle East":27.435890125901732,"North Africa":683.4480528416824,"East Africa":0,"South Africa":0,"West Africa":301.49652004836577,"South America":82.5396715042226,"North America":76.55994560363605,"Western Europe":176.88999954095368,"Southern Europe":134.01920562281117,"Eastern Europe":0,"Central Asia":137.48983463727149},"total":1697.8663800353738},{"year":2018,"values":{"Australasia":19.45594517890466,"East Asia":0.849260275941087,"South East Asia":66.58684942952664,"South Asia":17.289945272404275,"Middle East":62.47621952262643,"North Africa":656.1192069035214,"East Africa":0,"South Africa":0,"West Africa":310.24476732540006,"South America":67.69315040812266,"North America":53.525424940096556,"Western Europe":176.84635684676172,"Southern Europe":136.82578036171697,"Eastern Europe":0,"Central Asia":153.60093096728446},"total":1721.513837432307},{"year":2019,"values":{"Australasia":24.904876858018312,"East Asia":1.4992054838891307,"South East Asia":52.37950664013624,"South Asia":15.379342488110884,"Middle East":74.08123288354645,"North Africa":672.0874524232273,"East Africa":0,"South Africa":0,"West Africa":321.57810964987,"South America":43.551643676130894,"North America":61.676986338666396,"Western Europe":50.67687680587382,"Southern Europe":116.22271214807981,"Eastern Europe":0,"Central Asia":153.83506918457385},"total":1587.8730145801233},{"year":2020,"values":{"Australasia":22.1587431535495,"East Asia":1.5294808815513314,"South East Asia":38.664453547152746,"South Asia":9.445136544362882,"Middle East":83.32696762139517,"North Africa":515.3950549845165,"East Africa":0,"South Africa":0,"West Africa":296.16669400893244,"South America":41.66915279833508,"North America":64.07691258524618,"Western Europe":49.11336071733681,"Southern Europe":100.55437162214939,"Eastern Europe":0,"Central Asia":167.89573807853955},"total":1389.9960665430674},{"year":2021,"values":{"Australasia":21.41104121277849,"East Asia":0.21005479582228176,"South East Asia":45.23789055058605,"South Asia":6.105945199560167,"Middle East":79.2158899548119,"North Africa":568.622603928756,"East Africa":0,"South Africa":0,"West Africa":251.7974248021396,"South America":47.74216473429888,"North America":59.48104116727187,"Western Europe":37.94983577517249,"Southern Europe":77.67482177305158,"Eastern Europe":0,"Central Asia":157.1759441712981},"total":1352.6246580655472},{"year":2022,"values":{"Australasia":11.991369737948496,"East Asia":0.8841917775124821,"South East Asia":46.78449295907702,"South Asia":4.965068489819054,"Middle East":83.31958911802671,"North Africa":552.0169602275056,"East Africa":1.2272328690128171,"South Africa":0,"West Africa":195.69830107120902,"South America":52.196273885664134,"North America":71.46000000398027,"Western Europe":41.301095880741855,"Southern Europe":75.76564370902902,"Eastern Europe":0,"Central Asia":137.9283831729107},"total":1275.538602902437},{"year":2023,"values":{"Australasia":7.69599999630248,"East Asia":0.20413698647681572,"South East Asia":52.46224711758359,"South Asia":0,"Middle East":84.32805447341644,"North Africa":567.5714797967162,"East Africa":18.12106860827093,"South Africa":0,"West Africa":137.99041102339126,"South America":58.89030088128742,"North America":80.71180836452858,"Western Europe":37.60679460442402,"Southern Europe":63.962192008210415,"Eastern Europe":0,"Central Asia":169.14049375973514},"total":1278.6849876203432},{"year":2024,"values":{"Australasia":2.130847006318633,"East Asia":0.7725409818927712,"South East Asia":65.04483676797493,"South Asia":0,"Middle East":79.79319662064354,"North Africa":524.2154621780666,"East Africa":22.54713107857222,"South Africa":0,"West Africa":140.97521842309928,"South America":62.48822395285513,"North America":65.97579240149601,"Western Europe":35.11355189120529,"Southern Europe":59.00122945446337,"Eastern Europe":0,"Central Asia":163.13773254860976},"total":1221.1957633051975},{"year":2025,"values":{"Australasia":3.447315103024777,"East Asia":0.18169863132779066,"South East Asia":71.10128807982794,"South Asia":0,"Middle East":91.68112289976992,"North Africa":475.88676677622885,"East Africa":22.548547611661153,"South Africa":0,"West Africa":157.80860244150773,"South America":63.72493180063193,"North America":69.44298646624091,"Western Europe":26.055260267637333,"Southern Europe":59.29967122751867,"Eastern Europe":0,"Central Asia":163.36035701087022},"total":1204.5385483162472},{"year":2026,"values":{"Australasia":0.0881369861978272,"East Asia":0,"South East Asia":59.19052047512657,"South Asia":0,"Middle East":67.07246595702999,"North Africa":471.50676705521073,"East Africa":22.256548059721517,"South Africa":0,"West Africa":131.38199969194233,"South America":69.1365207647522,"North America":60.270520515988295,"Western Europe":25.498903972656493,"Southern Europe":54.331506737938454,"Eastern Europe":0,"Central Asia":168.1127945261797},"total":1128.8466847427442},{"year":2027,"values":{"Australasia":0.279095890287514,"East Asia":0,"South East Asia":38.10224658610261,"South Asia":0,"Middle East":98.95534251103128,"North Africa":483.64761752023225,"East Africa":22.476328807882567,"South Africa":0,"West Africa":137.78917781513485,"South America":78.9046575993954,"North America":39.174164309035206,"Western Europe":19.84506846018445,"Southern Europe":50.38641093636477,"Eastern Europe":0,"Central Asia":176.84060360867352},"total":1146.400714044324},{"year":2028,"values":{"Australasia":0.006120218663181234,"East Asia":0,"South East Asia":30.09366137808942,"South Asia":0,"Middle East":119.97464496781986,"North Africa":474.85874319436385,"East Africa":22.522841771693056,"South Africa":0,"West Africa":141.87953563809148,"South America":86.70013646401036,"North America":31.29797797805995,"Western Europe":17.829863354454375,"Southern Europe":46.14737709762962,"Eastern Europe":0,"Central Asia":179.71349687153227},"total":1151.0243989344074},{"year":2029,"values":{"Australasia":0,"East Asia":0,"South East Asia":124.78887665603582,"South Asia":0,"Middle East":143.4740822508888,"North Africa":456.6086311317197,"East Africa":37.8905200756678,"South Africa":0,"West Africa":151.93972604730794,"South America":91.80189072361179,"North America":32.83641112755828,"Western Europe":15.856191751175187,"Southern Europe":45.509424554959516,"Eastern Europe":0,"Central Asia":180.65588974136952},"total":1281.3616440602943},{"year":2030,"values":{"Australasia":0,"East Asia":0,"South East Asia":269.73964396065014,"South Asia":0,"Middle East":171.08295867652137,"North Africa":464.540329178979,"East Africa":44.688574934046564,"South Africa":0,"West Africa":174.19334199179477,"South America":95.27890416225402,"North America":27.0362739911409,"Western Europe":13.700794512250505,"Southern Europe":58.16917793269306,"Eastern Europe":0,"Central Asia":178.5107122670998},"total":1496.9407116074299},{"year":2031,"values":{"Australasia":0,"East Asia":0,"South East Asia":292.2388203462529,"South Asia":0,"Middle East":179.24641112929325,"North Africa":434.24013725276404,"East Africa":44.706520239171915,"South Africa":0.046246575071214865,"West Africa":178.24509650948642,"South America":97.05539736362519,"North America":22.69334246602614,"Western Europe":11.58380824573177,"Southern Europe":63.86002733278262,"Eastern Europe":0,"Central Asia":177.5466297973826},"total":1501.4624372575881},{"year":2032,"values":{"Australasia":0,"East Asia":0,"South East Asia":275.613959362776,"South Asia":0,"Middle East":188.87726728840153,"North Africa":418.33259542978794,"East Africa":59.72314161304208,"South Africa":0.20920764775146777,"West Africa":185.00617525342767,"South America":98.72688496158491,"North America":20.907513622262595,"Western Europe":8.855327838935041,"Southern Europe":62.90396196632943,"Eastern Europe":0,"Central Asia":172.5706829394389},"total":1491.7267179237376},{"year":2033,"values":{"Australasia":0,"East Asia":0,"South East Asia":288.51780776942724,"South Asia":0,"Middle East":199.4230966750801,"North Africa":425.0768211190106,"East Africa":89.90093094419548,"South Africa":0.1892054796757891,"West Africa":190.92427486879114,"South America":103.71923282762833,"North America":29.885205213731627,"Western Europe":6.1304383372871225,"Southern Europe":64.64361649877527,"Eastern Europe":0,"Central Asia":175.54169870683387},"total":1573.9523284404365},{"year":2034,"values":{"Australasia":0,"East Asia":0,"South East Asia":340.65944937649635,"South Asia":0.005205479470059301,"Middle East":203.14441148214814,"North Africa":431.91490490456977,"East Africa":119.18525833242624,"South Africa":0.1435342461089221,"West Africa":190.2047396996214,"South America":115.61224695739826,"North America":46.65375369251506,"Western Europe":6.023835594104428,"Southern Europe":77.77515058146554,"Eastern Europe":0,"Central Asia":178.6022742929524},"total":1709.9247646392764},{"year":2035,"values":{"Australasia":0,"East Asia":0.002876712385667105,"South East Asia":374.37337212211116,"South Asia":0.01936986271374897,"Middle East":188.2152603147392,"North Africa":434.8804671677549,"East Africa":131.06246317062232,"South Africa":0.11109589009620696,"West Africa":180.1273971606163,"South America":125.48139749075109,"North America":56.22649298664278,"Western Europe":8.927753394049407,"Southern Europe":97.35665715314298,"Eastern Europe":0,"Central Asia":172.4691777681447},"total":1769.2537811937705},{"year":2036,"values":{"Australasia":0,"East Asia":0.006202185764887161,"South East Asia":425.53430661793925,"South Asia":0.019590164334122015,"Middle East":174.23677644292383,"North Africa":416.7069697650632,"East Africa":128.910521858823,"South Africa":0.08745901618194843,"West Africa":171.42051782153789,"South America":166.09212891951935,"North America":38.78800485574691,"Western Europe":9.078579343453573,"Southern Europe":118.29767579079312,"Eastern Europe":0,"Central Asia":166.27890877222103},"total":1815.4576415543024},{"year":2037,"values":{"Australasia":0.08260273889515689,"East Asia":0.07542465782161381,"South East Asia":448.80528246810655,"South Asia":0.019616438548338968,"Middle East":182.55076825914566,"North Africa":380.29224538692426,"East Africa":127.04772749735913,"South Africa":0.0699999998562829,"West Africa":156.95106791645728,"South America":184.086246813848,"North America":25.672739296156852,"Western Europe":8.43999989742209,"Southern Europe":123.80942565028967,"Eastern Europe":0,"Central Asia":164.3890107943587},"total":1802.2921578151895},{"year":2038,"values":{"Australasia":0.1852602790004561,"East Asia":0.16747945183066792,"South East Asia":411.15307207788425,"South Asia":0.017917808015712806,"Middle East":192.6533955804388,"North Africa":311.2059193467945,"East Africa":125.42915203652827,"South Africa":0.056876713343838564,"West Africa":136.3099994970432,"South America":186.76027573127027,"North America":14.64246596454496,"Western Europe":7.6693699450378805,"Southern Europe":114.9833968649072,"Eastern Europe":0,"Central Asia":84.7265750578005},"total":1585.9611563544406},{"year":2039,"values":{"Australasia":0.17838356175223902,"East Asia":0.1806575301013989,"South East Asia":386.16728587685054,"South Asia":0.015342465605050938,"Middle East":194.74630195477837,"North Africa":277.4776157602203,"East Africa":124.01476843589167,"South Africa":0.046712328274798105,"West Africa":108.95895911151406,"South America":183.36503941694127,"North America":11.091999918595594,"Western Europe":7.189972673491766,"Southern Europe":101.60342606376778,"Eastern Europe":0,"Central Asia":82.46783676641165},"total":1477.5043018641966},{"year":2040,"values":{"Australasia":0.1359016401852262,"East Asia":0.1296174847044571,"South East Asia":340.35775843388916,"South Asia":0.01322404422666534,"Middle East":192.592433448733,"North Africa":258.63682912791484,"East Africa":122.77205217526257,"South Africa":0.03877049083379352,"West Africa":88.69693981061891,"South America":182.41013514559742,"North America":8.638360847532462,"Western Europe":6.872650290560423,"Southern Europe":90.58917922584193,"Eastern Europe":0,"Central Asia":92.18215690800675},"total":1384.0660090739077},{"year":2041,"values":{"Australasia":0.09769862990153393,"East Asia":0.06860273988671882,"South East Asia":282.6573972651465,"South Asia":0.011452054664690355,"Middle East":185.65443793142475,"North Africa":250.20679698522244,"East Africa":121.67682470895322,"South Africa":0.032520547731658314,"West Africa":70.57114984435093,"South America":180.20868644363298,"North America":6.760438414334801,"Western Europe":5.726931481719837,"Southern Europe":82.38794597214421,"Eastern Europe":0,"Central Asia":92.52515115623868},"total":1278.5860341753532},{"year":2042,"values":{"Australasia":0.07109589002028184,"East Asia":0.026465753224528432,"South East Asia":190.9282198055386,"South Asia":0.010054794754928667,"Middle East":175.06649429319435,"North Africa":231.1309859577717,"East Africa":115.69698704420573,"South Africa":0.027506849826201923,"West Africa":59.2530956293284,"South America":177.00789088301786,"North America":5.712410918622731,"Western Europe":4.933561625541985,"Southern Europe":74.60690474900942,"Eastern Europe":0,"Central Asia":32.327288164936995},"total":1066.7989623589938},{"year":2043,"values":{"Australasia":0.05227397153136473,"East Asia":0.013616438361031501,"South East Asia":161.5283284555305,"South Asia":0.008794520525118234,"Middle East":165.78854781560352,"North Africa":184.32517700029453,"East Africa":104.37936768917908,"South Africa":0.023479452847075737,"West Africa":50.33427362759041,"South America":173.964026698367,"North America":4.793041191422237,"Western Europe":4.185945201108602,"Southern Europe":66.83937007406239,"Eastern Europe":0,"Central Asia":32.680301966419925},"total":948.9165441028426},{"year":2044,"values":{"Australasia":0.03863387977955048,"East Asia":0.007021857915087374,"South East Asia":136.16182926501202,"South Asia":0.007759562725025672,"Middle East":158.63073828701795,"North Africa":167.21423658198972,"East Africa":92.99098552748019,"South Africa":0.020191256658481357,"West Africa":46.67633902907335,"South America":172.05887931961283,"North America":4.11084703448635,"Western Europe":3.605710397165697,"Southern Europe":67.98409912100466,"Eastern Europe":0,"Central Asia":30.86948035672093},"total":880.3767514766419},{"year":2045,"values":{"Australasia":0.0772054789469048,"East Asia":0.07408219486297976,"South East Asia":114.31734154783493,"South Asia":0.006849314895464898,"Middle East":152.19145268462964,"North Africa":158.4383020245459,"East Africa":83.10402734626733,"South Africa":0.017452054244006844,"West Africa":43.15331596844273,"South America":173.59484785228645,"North America":3.4593972716359294,"Western Europe":3.1745753543350164,"Southern Europe":72.01898697463075,"Eastern Europe":0,"Central Asia":29.06758889843182},"total":832.6954249659898},{"year":2046,"values":{"Australasia":0.10290410721870713,"East Asia":0.14309589450059407,"South East Asia":96.82558885710122,"South Asia":0.006082191876349461,"Middle East":146.51334219828865,"North Africa":148.3789854081669,"East Africa":74.5030978249728,"South Africa":0.015178081499371193,"West Africa":43.80821972184979,"South America":172.0421923732019,"North America":3.052630092452714,"Western Europe":2.7700274011294823,"Southern Europe":69.76334340481665,"Eastern Europe":0,"Central Asia":28.815013845152166},"total":786.7397014022273},{"year":2047,"values":{"Australasia":0.16093150679060347,"East Asia":0.11134246587099457,"South East Asia":81.27643929030754,"South Asia":0.005424657596549504,"Middle East":138.5443286021094,"North Africa":135.3491237082667,"East Africa":66.98503989682649,"South Africa":0.01326027420574276,"West Africa":40.78219142912493,"South America":165.1206034368916,"North America":2.6716438653736936,"Western Europe":2.477972599763857,"Southern Europe":62.483726342966975,"Eastern Europe":0,"Central Asia":26.6279173740732},"total":722.6099454501681},{"year":2048,"values":{"Australasia":0.1496721311237617,"East Asia":0.06584699578445515,"South East Asia":37.69967156560219,"South Asia":0.004863388014319887,"Middle East":129.1827041354264,"North Africa":115.92923499987681,"East Africa":60.38456376865198,"South Africa":0.01169398923285555,"West Africa":36.130272473951784,"South America":158.08773208314324,"North America":2.3753278540629292,"Western Europe":2.1530601008804107,"Southern Europe":55.30948081374095,"Eastern Europe":0.054125683392490936,"Central Asia":23.22907124003219},"total":620.7673212229168},{"year":2049,"values":{"Australasia":0.12172602875754619,"East Asia":0.03890410937370464,"South East Asia":29.429342829307767,"South Asia":0.00435616426354861,"Middle East":122.3598899354254,"North Africa":99.09703969525465,"East Africa":57.83589040023898,"South Africa":0.010328767061702371,"West Africa":31.89874002402999,"South America":159.0289297561107,"North America":1.9236164002568454,"Western Europe":1.3970684780909086,"Southern Europe":50.21369827997772,"Eastern Europe":0.19043835453299984,"Central Asia":23.433479469820494},"total":576.9834486925027},{"year":2050,"values":{"Australasia":0.1329863022463492,"East Asia":0.023013698158399775,"South East Asia":23.473178067020132,"South Asia":0.00397260280880975,"Middle East":117.06509564322266,"North Africa":85.00216378834759,"East Africa":62.085671546701136,"South Africa":0.009150685168793169,"West Africa":27.587040655874276,"South America":161.27906825824215,"North America":1.4804383466930817,"Western Europe":1.2734520471732975,"Southern Europe":44.91306875181729,"Eastern Europe":0.24715068033252116,"Central Asia":19.32438375371108},"total":543.8998348275176}]};
-      const sourceWorkbookUrl = "https://github.com/Hank-Hee/Hank/raw/main/data/eni-net-production-source.xlsx";
-
       const formatNumber = (value, digits = 1) => new Intl.NumberFormat("en-US", {
         minimumFractionDigits: digits,
         maximumFractionDigits: digits
       }).format(value);
-
-      const downloadSourceWorkbook = () => {
-        const anchor = document.createElement("a");
-        anchor.href = sourceWorkbookUrl;
-        anchor.download = "net-production-source.xlsx";
-        document.body.appendChild(anchor);
-        anchor.click();
-        anchor.remove();
-      };
 
       const rankedRegions = (data) => [...data.regions].sort((left, right) => {
         const total = region => data.data.reduce((sum, row) => sum + (row.values[region] || 0), 0);
@@ -474,51 +380,8 @@
         loadingElement.hidden = true;
       };
 
-      const loadData = (refresh = false) => {
-        loadingElement.hidden = false;
-        loadingElement.textContent = "正在加载生产数据…";
-        loadingElement.style.color = "#667085";
-        refreshButton.classList.toggle("is-loading", refresh);
-        renderChart(dashboardData);
-        return Promise.resolve().finally(() => refreshButton.classList.remove("is-loading"));
-        const refreshKey = refresh ? `&refresh=${Date.now()}` : "";
-        return fetch(`data/exxon-net-production-by-region.json?v=20260721-companies${refreshKey}`)
-          .then(response => {
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            return response.json();
-          })
-          .then(renderChart)
-          .catch(error => {
-            loadingElement.hidden = false;
-            loadingElement.textContent = `生产数据加载失败：${error.message}`;
-            loadingElement.style.color = "#b54747";
-            console.error(error);
-          })
-          .finally(() => refreshButton.classList.remove("is-loading"));
-      };
-
-      const updateFullscreenState = () => {
-        const active = document.fullscreenElement === chartCard;
-        fullscreenButton.setAttribute("aria-pressed", String(active));
-        fullscreenButton.title = active ? "退出全屏" : "全屏查看图表";
-        fullscreenButton.setAttribute("aria-label", fullscreenButton.title);
-        requestAnimationFrame(() => chart && chart.resize());
-      };
-
-      exportButton.addEventListener("click", downloadSourceWorkbook);
-      refreshButton.addEventListener("click", () => { void loadData(true); });
-      fullscreenButton.addEventListener("click", async () => {
-        try {
-          if (document.fullscreenElement) await document.exitFullscreen();
-          else await chartCard.requestFullscreen();
-        } catch (_) {
-          fullscreenButton.blur();
-        }
-      });
-      document.addEventListener("fullscreenchange", updateFullscreenState);
       window.addEventListener("resize", () => chart && chart.resize());
-
-      void loadData();
+      renderChart(dashboardData);
     })();
   </script>
 </body>
