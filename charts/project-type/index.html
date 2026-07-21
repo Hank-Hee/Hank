@@ -6,26 +6,27 @@
     <meta name="color-scheme" content="light" />
     <meta name="description" content="公司项目类型结构圆环图" />
     <title>项目类型结构</title>
-    <link rel="stylesheet" href="styles.css?v=20260709-title-tooltip" />
+    <link rel="stylesheet" href="styles.css?v=20260721-ui-v2-production" />
   </head>
   <body>
     <main class="dashboard-card" aria-labelledby="chart-title">
-      <div class="texture-orbit texture-orbit-one" aria-hidden="true"></div>
-      <div class="texture-orbit texture-orbit-two" aria-hidden="true"></div>
-
       <header class="chart-header">
-        <h1 id="chart-title"><span id="operator-name">Shell</span> 项目类型结构</h1>
+        <div class="chart-heading">
+          <h1 id="chart-title"><span id="operator-name">Shell</span> 项目类型结构</h1>
+          <p>按项目主类型分类</p>
+        </div>
+        <p class="header-total"><strong id="header-total">—</strong> 个项目</p>
       </header>
 
-      <section class="chart-layout">
-        <div class="donut-stage">
-          <svg id="project-type-chart" viewBox="0 0 320 268" aria-labelledby="chart-title chart-description">
+      <section class="donut-card-body">
+        <div class="donut-chart-wrap">
+          <svg id="project-type-chart" viewBox="0 0 240 240" aria-labelledby="chart-title chart-description">
             <desc id="chart-description">公司项目按油气田类型划分的圆环图</desc>
-            <circle class="donut-track" cx="160" cy="134" r="100"></circle>
+            <circle class="donut-track" cx="120" cy="120" r="100"></circle>
             <g id="donut-segments"></g>
-            <circle class="donut-inner" cx="160" cy="134" r="70"></circle>
-            <text id="donut-total" class="donut-total" x="160" y="128" text-anchor="middle">—</text>
-            <text class="donut-unit" x="160" y="154" text-anchor="middle">个项目</text>
+            <circle class="donut-inner" cx="120" cy="120" r="78"></circle>
+            <text id="donut-total" class="donut-total" x="120" y="116" text-anchor="middle">—</text>
+            <text class="donut-unit" x="120" y="141" text-anchor="middle">项目总数</text>
           </svg>
         </div>
 
@@ -53,6 +54,6 @@
       </div>
     </main>
 
-    <script type="module" src="app.js?v=20260709-title-tooltip"></script>
+    <script type="module" src="app.js?v=20260721-ui-v2-production"></script>
   </body>
 </html>

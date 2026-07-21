@@ -2,28 +2,28 @@ const TYPE_META = {
   "Gas-Condensate field": {
     label: "凝析气田",
     englishLabel: "Gas-Condensate field",
-    color: "#238b8d",
+    color: "#16847a",
   },
   "Oil field": {
     label: "油田",
     englishLabel: "Oil field",
-    color: "#e3a72f",
+    color: "#d5b46a",
   },
   "Gas field": {
     label: "气田",
     englishLabel: "Gas field",
-    color: "#3277bd",
+    color: "#244e70",
   },
   "Mixed field": {
     label: "复合类型",
     englishLabel: "Mixed field",
     description: "复合类型：同一项目包含两个及以上油气田类型。",
-    color: "#9dadbd",
+    color: "#7896aa",
   },
   Other: {
     label: "其他",
     englishLabel: "Other",
-    color: "#d7e0e8",
+    color: "#d8e0e6",
   },
 };
 

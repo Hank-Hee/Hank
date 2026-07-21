@@ -9,16 +9,21 @@ import {
   hasResourceData,
   normalizeKey,
   resolveOperator,
-} from "./app-core.js?v=20260713-project-details";
+} from "./app-core.js?v=20260721-ui-v2-production";
 
-const VERSION = `20260713-project-details`;
+const VERSION = `20260721-ui-v2-production`;
+const DATA_ROOT = `.`;
 
 const dom = {
   operator: document.querySelector(`#operator-name`),
   total: document.querySelector(`#total-projects`),
+  countryCount: document.querySelector(`#country-count`),
   scope: document.querySelector(`#map-scope`),
-  instruction: document.querySelector(`.map-instruction`),
   overview: document.querySelector(`#overview-button`),
+  card: document.querySelector(`#map-card`),
+  refresh: document.querySelector(`#refresh-button`),
+  newWindow: document.querySelector(`#new-window-button`),
+  fullscreen: document.querySelector(`#fullscreen-button`),
   drawer: document.querySelector(`#project-drawer`),
   drawerToggle: document.querySelector(`#drawer-toggle`),
   drawerToggleLabel: document.querySelector(`#drawer-toggle-label`),
@@ -41,6 +46,17 @@ const dom = {
   detailContent: document.querySelector(`#project-detail-content`),
   emptyState: document.querySelector(`#empty-state`),
 };
+
+dom.refresh?.addEventListener(`click`, () => window.location.reload());
+dom.newWindow?.addEventListener(`click`, () => window.open(window.location.href, `_blank`, `noopener,noreferrer`));
+dom.fullscreen?.addEventListener(`click`, async () => {
+  try {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else await dom.card?.requestFullscreen();
+  } catch (error) {
+    console.error(`Fullscreen unavailable`, error);
+  }
+});
 
 const lifecycleNames = {
   Producing: `已投产`,
@@ -132,11 +148,11 @@ const start = async () => {
     const requestedOperator = (params.get(`operator`) || `Shell`).trim();
     const requestedRegion = (params.get(`region`) || ``).trim();
     const [manifest, centersPayload] = await Promise.all([
-      fetch(`operators.json?v=20260713-project-details`).then((response) => {
+      fetch(`${DATA_ROOT}/operators.json?v=${VERSION}`).then((response) => {
         if (!response.ok) throw new Error(`operators.json returned ${response.status}`);
         return response.json();
       }),
-      fetch(`data/country-centers.json?v=20260713-project-details`).then((response) => {
+      fetch(`${DATA_ROOT}/data/country-centers.json?v=${VERSION}`).then((response) => {
         if (!response.ok) throw new Error(`country-centers.json returned ${response.status}`);
         return response.json();
       }),
@@ -159,7 +175,7 @@ const start = async () => {
       return;
     }
 
-    const companyPayload = await fetchJson(`${operatorEntry.dataFile}?v=${VERSION}`);
+    const companyPayload = await fetchJson(`${DATA_ROOT}/${operatorEntry.dataFile}?v=${VERSION}`);
     const projects = filterProjectsByRegion(companyPayload.projects, matchingRegion);
     if (!projects.length) {
       showState(`没有找到项目`, `当前公司和业务区域没有可展示的项目。`);
@@ -178,6 +194,7 @@ const start = async () => {
 
     dom.operator.textContent = operatorEntry.name;
     dom.total.textContent = projects.length;
+    dom.countryCount.textContent = countryGroups.length;
     dom.scope.textContent = matchingRegion || `全球展示`;
     document.title = `${operatorEntry.name} 项目分布地图`;
     dom.emptyState.hidden = true;
@@ -207,9 +224,9 @@ const start = async () => {
     let selectedCountry = ``;
     let selectedMarker = null;
     let lastProjectId = ``;
+    let listScrollTop = 0;
 
-    const hideInstruction = () => dom.instruction.classList.add(`hidden`);
-    window.setTimeout(hideInstruction, 4000);
+    const hideInstruction = () => {};
 
     const getCountryGroup = (country = selectedCountry) =>
       countryGroups.find((item) => item.country === country);
@@ -321,21 +338,23 @@ const start = async () => {
       dom.list.innerHTML = visible.length ? visible.map((project, index) => {
         const lifecycle = textOrDash(project.lifecycleCategories, (item) => lifecycleNames[item] || item);
         const facility = textOrDash(project.facilities);
+        const fieldType = textOrDash(project.fieldTypes);
         const resourceStatus = hasResourceData(project, `any`) ? `有储量数据` : `暂无储量数据`;
         return `
           <button class="project-row" type="button" data-project-id="${escapeHtml(project.id)}" aria-label="查看 ${escapeHtml(project.project)} 详情">
-            <span class="project-row-main">
-              <span class="project-number">${String(index + 1).padStart(2, `0`)}</span>
-              <span class="project-copy">
-                <span class="project-name" title="${escapeHtml(project.project)}">${escapeHtml(shortProjectName(project.project))}</span>
-                <span class="project-subtitle">设施：${escapeHtml(facility)} · ${escapeHtml(lifecycle)}</span>
+            <span class="project-number">${String(index + 1).padStart(2, `0`)}</span>
+            <span class="project-copy">
+              <span class="project-name" title="${escapeHtml(project.project)}">${escapeHtml(shortProjectName(project.project))}</span>
+              <span class="project-secondary">
+                <span title="${escapeHtml(facility)}">${escapeHtml(facility)}</span>
+                <span>${escapeHtml(lifecycle)}</span>
               </span>
-              <span class="project-chevron" aria-hidden="true">›</span>
             </span>
-            <span class="project-row-meta">
-              <span>${escapeHtml(textOrDash(project.fieldTypes))}</span>
-              <span class="${hasResourceData(project, `any`) ? `has-resource` : ``}">${resourceStatus}</span>
+            <span class="project-attributes">
+              <span class="data-tag type" title="${escapeHtml(fieldType)}">${escapeHtml(fieldType)}</span>
+              <span class="data-tag ${hasResourceData(project, `any`) ? `available` : `unavailable`}">${resourceStatus}</span>
             </span>
+            <span class="project-chevron" aria-hidden="true">›</span>
           </button>`;
       }).join(``) : '<div class="project-row project-row-empty"><span class="project-name">没有匹配的项目</span></div>';
 
@@ -348,26 +367,32 @@ const start = async () => {
     };
 
     const renderDetailField = (label, values, { wide = false, transform } = {}) => `
-      <div class="detail-field${wide ? ` wide` : ``}">
-        <b>${escapeHtml(label)}</b>
-        <span>${escapeHtml(textOrDash(values, transform))}</span>
+      <div class="fact-item${wide ? ` wide` : ``}">
+        <span class="fact-label">${escapeHtml(label)}</span>
+        <span class="fact-value">${escapeHtml(textOrDash(values, transform))}</span>
+      </div>`;
+
+    const renderSummaryItem = (label, value) => `
+      <div class="summary-item">
+        <span class="summary-label">${escapeHtml(label)}</span>
+        <span class="summary-value" title="${escapeHtml(value)}">${escapeHtml(value)}</span>
       </div>`;
 
     const renderProjectDetail = (project) => {
-      const facilities = project.facilities?.length
-        ? project.facilities.map((facility) => `<span>${escapeHtml(facility)}</span>`).join(``)
-        : '<span class="empty-tag">—</span>';
       const resources = project.resources || {};
       const metrics = resourceMetrics.map(({ key, label }) => {
         const display = getResourceMetricDisplay(resources[key], resources.rawCounts?.[key]);
         return `
-          <div class="resource-metric${display.empty ? ` is-empty` : ``}">
-            <span class="resource-metric-label">${label}</span>
-            <span class="resource-metric-value">${escapeHtml(display.value)}</span>
-            <span class="resource-metric-note">${escapeHtml(display.note)}</span>
+          <div class="reserve-kpi${display.empty ? ` is-empty` : ``}">
+            <span class="reserve-name">${label}</span>
+            <span class="reserve-value">${escapeHtml(display.value)}</span>
+            <span class="reserve-note">${escapeHtml(display.note)}</span>
           </div>`;
       }).join(``);
       const lifecycle = textOrDash(project.lifecycleCategories, (item) => lifecycleNames[item] || item);
+      const facilities = textOrDash(project.facilities);
+      const fieldTypes = textOrDash(project.fieldTypes);
+      const supplySegments = textOrDash(project.supplySegments);
       const showSourceOperator = (project.sourceOperators || []).some(
         (operator) => normalizeKey(operator) !== normalizeKey(operatorEntry.name),
       );
@@ -378,38 +403,38 @@ const start = async () => {
           <p>${escapeHtml(countryDisplayName(project.country))} · ${escapeHtml(operatorEntry.name)} · ${escapeHtml(lifecycle)}</p>
         </div>
 
-        <div class="detail-priority-grid">
-          <section class="detail-card">
-            <div class="detail-card-head"><h4>设施类型</h4></div>
-            <div class="facility-tags">${facilities}</div>
-          </section>
-
-          <section class="detail-card">
-            <div class="detail-card-head">
-              <h4>储量</h4>
-              <span>单位：${escapeHtml(resourceUnitName(resources.unit))}</span>
-            </div>
-            <div class="resource-grid">${metrics}</div>
-          </section>
+        <div class="project-summary-grid">
+          ${renderSummaryItem(`设施类型`, facilities)}
+          ${renderSummaryItem(`油气田类型`, fieldTypes)}
+          ${renderSummaryItem(`生命周期`, lifecycle)}
+          ${renderSummaryItem(`供应板块`, supplySegments)}
         </div>
 
-        <div class="detail-section-title">项目资料</div>
-        <div class="detail-grid">
-          ${renderDetailField(`油气田类型`, project.fieldTypes)}
-          ${renderDetailField(`水深类别`, project.waterDepthCategories)}
-          ${renderDetailField(`发现年份`, project.discoveryYears)}
-          ${renderDetailField(`投产年份`, project.startupYears)}
-          ${renderDetailField(`生命周期`, [lifecycle])}
-          ${renderDetailField(`生命周期明细`, project.lifecycleDetails)}
-          ${renderDetailField(`业务区域`, project.businessRegions)}
-          ${renderDetailField(`供应板块`, project.supplySegments)}
-          ${renderDetailField(`Ownership`, project.ownerships, { wide: true })}
-          ${showSourceOperator ? renderDetailField(`运营实体`, project.sourceOperators, { wide: true }) : ``}
-        </div>`;
+        <section class="reserve-section">
+          <div class="section-title-row">
+            <h4>储量</h4>
+            <span class="section-unit">单位：${escapeHtml(resourceUnitName(resources.unit))}</span>
+          </div>
+          <div class="reserve-grid">${metrics}</div>
+        </section>
+
+        <section class="project-facts">
+          <div class="section-title-row"><h4>项目资料</h4></div>
+          <div class="fact-grid">
+            ${renderDetailField(`发现年份`, project.discoveryYears)}
+            ${renderDetailField(`投产年份`, project.startupYears)}
+            ${renderDetailField(`水深类别`, project.waterDepthCategories)}
+            ${renderDetailField(`生命周期明细`, project.lifecycleDetails)}
+            ${renderDetailField(`业务区域`, project.businessRegions)}
+            ${renderDetailField(`Ownership`, project.ownerships, { wide: true })}
+            ${showSourceOperator ? renderDetailField(`运营实体`, project.sourceOperators, { wide: true }) : ``}
+          </div>
+        </section>`;
     };
 
     const openProjectDetail = (project) => {
       lastProjectId = project.id;
+      listScrollTop = dom.list.scrollTop;
       dom.filterPanel.hidden = true;
       dom.filterToggle.setAttribute(`aria-expanded`, `false`);
       dom.drawerKicker.textContent = `PROJECT DETAILS`;
@@ -426,6 +451,7 @@ const start = async () => {
       dom.detailView.hidden = true;
       dom.listView.hidden = false;
       renderProjectList(selectedCountry);
+      dom.list.scrollTop = listScrollTop;
       if (!restoreFocus) return;
       window.setTimeout(() => {
         const trigger = [...dom.list.querySelectorAll(`[data-project-id]`)]
@@ -515,14 +541,30 @@ const start = async () => {
       if (restoreFocus) window.setTimeout(() => markerToFocus?.getElement()?.focus(), 0);
     };
 
+    const summarizeFieldTypes = (countryProjects) => {
+      const counts = new Map();
+      countryProjects.forEach((project) => {
+        (project.fieldTypes || []).forEach((fieldType) => {
+          counts.set(fieldType, (counts.get(fieldType) || 0) + 1);
+        });
+      });
+      return [...counts.entries()]
+        .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+        .slice(0, 2)
+        .map(([fieldType]) => fieldType)
+        .join(` / `) || `暂无类型数据`;
+    };
+
     countryGroups.forEach(({ country, projects: countryProjects }) => {
       const countryConfig = countryCenters[country];
       const countryLabel = countryConfig.nameZh || country;
       const dotSize = Math.round(Math.min(44, Math.max(30, 28 + Math.sqrt(countryProjects.length) * 2.2)));
+      const tier = countryProjects.length >= 50 ? 4 : countryProjects.length >= 10 ? 3 : countryProjects.length >= 3 ? 2 : 1;
+      const mainTypes = summarizeFieldTypes(countryProjects);
       const icon = L.divIcon({
         className: `country-dot-icon`,
         html: `
-          <div class="country-dot" style="--dot-size:${dotSize}px" aria-label="${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目">
+          <div class="country-dot tier-${tier}" style="--dot-size:${dotSize}px" aria-label="${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目">
             <span class="country-dot-count">${countryProjects.length}</span>
           </div>`,
         iconSize: [dotSize, dotSize],
@@ -537,6 +579,7 @@ const start = async () => {
         <div class="country-tooltip-card">
           <small>${escapeHtml(operatorEntry.name.toUpperCase())} PROJECTS</small>
           <strong>${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目</strong>
+          <span class="tooltip-types">主要类型：${escapeHtml(mainTypes)}</span>
           <span>点击查看全部</span>
         </div>`, { direction: `top`, offset: [0, -dotSize / 2 - 10], opacity: 1 });
       marker.on(`click`, () => openCountry(country, marker));

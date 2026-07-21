@@ -3,16 +3,17 @@ import {
   buildProjectTypeMix,
   formatPercent,
   resolveOperator,
-} from "./chart-core.js?v=20260709-title-tooltip";
+} from "./chart-core.js?v=20260721-ui-v2-production";
 
-const VERSION = "20260709-title-tooltip";
+const VERSION = "20260721-ui-v2-production";
 const SVG_NS = "http://www.w3.org/2000/svg";
-const CENTER = { x: 160, y: 134 };
+const CENTER = { x: 120, y: 120 };
 const RADIUS = 100;
 
 const dom = {
   card: document.querySelector(".dashboard-card"),
   operator: document.querySelector("#operator-name"),
+  headerTotal: document.querySelector("#header-total"),
   total: document.querySelector("#donut-total"),
   segments: document.querySelector("#donut-segments"),
   legend: document.querySelector("#project-type-legend"),
@@ -132,6 +133,7 @@ const renderChart = (operatorEntry, projects) => {
 
   dom.operator.textContent = operatorEntry.name;
   dom.total.textContent = total.toLocaleString("zh-CN");
+  dom.headerTotal.textContent = total.toLocaleString("zh-CN");
   document.title = `${operatorEntry.name} 项目类型结构`;
   dom.segments.replaceChildren(...segments.map(renderSegment));
   dom.legend.replaceChildren(...segments.map(renderLegendRow));

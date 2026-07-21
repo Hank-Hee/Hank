@@ -8,46 +8,47 @@ const featureDir = path.resolve(testDir, "..");
 const html = fs.readFileSync(path.join(featureDir, "index.html"), "utf8");
 const css = fs.readFileSync(path.join(featureDir, "styles.css"), "utf8");
 const app = fs.readFileSync(path.join(featureDir, "app.js"), "utf8");
+const core = fs.readFileSync(path.join(featureDir, "chart-core.js"), "utf8");
 
 assert.match(html, /id="project-type-chart"/);
 assert.match(html, /id="chart-tooltip"/);
-assert.ok(!html.includes("header-mark"), "chart title decoration must be removed");
 assert.match(html, /id="project-type-legend"/);
+assert.match(html, /id="header-total"/);
 assert.match(html, /aria-live="polite"/);
-assert.match(html, /app\.js\?v=20260709-title-tooltip/);
-assert.ok(!html.includes("echarts"), "the embed must not depend on a charting CDN");
-assert.ok(!html.includes("source-badge"), "the side-panel header must stay compact");
-assert.ok(!html.includes("eyebrow"), "the side-panel header must stay compact");
-assert.match(html, /class="tooltip-metrics"/);
-assert.match(html, /class="tooltip-note"/);
-assert.match(html, /<circle class="donut-track" cx="160" cy="134" r="100">/);
+assert.match(html, /app\.js\?v=20260721-ui-v2-production/);
+assert.match(html, /styles\.css\?v=20260721-ui-v2-production/);
+assert.match(html, /viewBox="0 0 240 240"/);
+assert.match(html, /<circle class="donut-track" cx="120" cy="120" r="100">/);
+assert.ok(!html.includes("texture-orbit"));
+assert.ok(!html.includes("header-mark"));
+assert.ok(!html.includes("echarts"));
+assert.ok(!html.includes("ExxonMobil"), "shared donut HTML must remain company-neutral");
 
 assert.match(app, /URLSearchParams/);
+assert.match(app, /params\.get\("operator"\) \|\| "Shell"/);
 assert.match(app, /\.\.\/\.\.\/maps\/operators\.json/);
 assert.match(app, /\.\.\/\.\.\/maps\//);
+assert.match(app, /CENTER = \{ x: 120, y: 120 \}/);
 assert.match(app, /setAttribute\("role", "img"\)/);
 assert.match(app, /setAttribute\("tabindex", "0"\)/);
 assert.match(app, /pointerenter/);
-assert.match(app, /focus/);
 assert.match(app, /项目数量/);
 assert.match(app, /项目占比/);
-assert.ok(!app.includes("${item.count} · ${item.percent}"), "tooltip metrics must be explicitly labelled");
-assert.ok(app.includes("item.description"), "tooltip must render mixed-field explanation when available");
-assert.ok(!app.includes('params.get("region")'), "company-only charts must not expose region filters");
+assert.ok(app.includes("item.description"));
+assert.ok(!app.includes("${item.count} · ${item.percent}"));
+assert.ok(!app.includes('params.get("region")'));
 
 assert.match(css, /prefers-reduced-motion/);
-assert.ok(!css.includes(".header-mark"), "chart title decoration CSS must be removed");
-assert.match(css, /@media \(max-width: 520px\)/);
+assert.match(css, /#project-type-chart\s*\{[^}]*width:\s*220px/s);
+assert.match(css, /\.chart-legend\s*\{[^}]*grid-template-columns:\s*1fr/s);
+assert.match(css, /\.legend-row[\s\S]*?min-height:\s*34px/);
 assert.match(css, /\.donut-segment\.is-active/);
-assert.match(css, /\.legend-row\.is-active/);
-assert.match(css, /min-height:\s*350px/);
-const layoutRule = css.match(/\.chart-layout\s*\{([\s\S]*?)\}/)?.[1] || "";
-assert.match(layoutRule, /grid-template-rows:\s*minmax\(0,\s*1fr\)\s+auto/);
-assert.ok(!/grid-template-columns/.test(layoutRule), "legend must sit below the donut in the side-panel layout");
-const segmentRule = css.match(/\.donut-segment\s*\{([\s\S]*?)\}/)?.[1] || "";
-assert.ok(
-  !/transform-(?:box|origin)/.test(segmentRule),
-  "SVG segment rotation must use its SVG transform without a conflicting CSS transform box",
-);
+assert.ok(!/height:\s*100v(?:h|svh|dvh)/.test(css));
 
-console.log("Project type chart UI contract checks passed");
+assert.match(core, /#16847a/);
+assert.match(core, /#d5b46a/);
+assert.match(core, /#244e70/);
+assert.match(core, /#7896aa/);
+assert.match(core, /复合类型：同一项目包含两个及以上油气田类型。/);
+
+console.log("Project type donut UI V2 contract checks passed");

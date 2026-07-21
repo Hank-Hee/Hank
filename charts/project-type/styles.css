@@ -14,12 +14,13 @@ html,
 body {
   width: 100%;
   min-width: 320px;
-  min-height: 100%;
+  height: 100%;
+  min-height: 0;
   margin: 0;
 }
 
 body {
-  min-height: 100svh;
+  min-height: 0;
   background: transparent;
 }
 
@@ -30,8 +31,8 @@ button {
 .dashboard-card {
   position: relative;
   display: flex;
-  min-height: 350px;
-  height: 100svh;
+  min-height: 0;
+  height: 100%;
   flex-direction: column;
   overflow: hidden;
   border: 1px solid rgba(113, 141, 164, 0.28);
@@ -493,4 +494,120 @@ button {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ExxonMobil UI V2 preview: compact map-side donut for a 36-grid embed. */
+:root {
+  --brand-900: #17324d;
+  --brand-700: #244e70;
+  --brand-600: #356582;
+  --brand-050: #f3f7f9;
+  --surface: #ffffff;
+  --text-primary: #17212b;
+  --text-secondary: #667085;
+  --text-tertiary: #8a94a3;
+  --border: #d9e1e8;
+  --divider: #e9edf1;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --shadow-sm: 0 1px 3px rgba(16,24,40,.06);
+}
+
+.dashboard-card {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  isolation: auto;
+}
+.dashboard-card::after { display: none; content: none; }
+
+.chart-header {
+  display: flex;
+  min-height: 68px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px 11px;
+  border-bottom: 1px solid var(--divider);
+}
+.chart-heading { min-width: 0; }
+.chart-header h1 { margin: 0; color: var(--brand-900); font-size: 18px; line-height: 1.35; font-weight: 700; letter-spacing: 0; }
+.chart-heading p { margin: 3px 0 0; color: var(--text-secondary); font-size: 12px; line-height: 1.45; }
+.header-total { flex: 0 0 auto; margin: 3px 0 0; color: var(--text-secondary); font-size: 11px; white-space: nowrap; }
+.header-total strong { color: var(--brand-900); font-size: 15px; font-weight: 750; font-variant-numeric: tabular-nums; }
+
+.donut-card-body {
+  display: grid;
+  min-height: 0;
+  flex: 1;
+  grid-template-rows: minmax(230px,1fr) auto;
+  padding: 10px 18px 14px;
+  overflow: hidden;
+}
+.donut-chart-wrap { display: grid; min-height: 230px; place-items: center; }
+#project-type-chart { width: 220px; height: 220px; max-width: 100%; max-height: 220px; aspect-ratio: 1; overflow: visible; }
+.donut-track { fill: none; stroke: #edf1f4; stroke-width: 20; }
+.donut-inner { fill: none; stroke: rgba(255,255,255,.95); stroke-width: 2; filter: none; }
+.donut-segment { stroke-width: 20; transition: stroke-width 160ms ease, filter 160ms ease, opacity 160ms ease; }
+#donut-segments:has(.donut-segment.is-active) .donut-segment:not(.is-active) { opacity: .4; }
+.donut-segment.is-active,
+.donut-segment:focus-visible { stroke-width: 24; filter: drop-shadow(0 3px 5px rgba(30,62,82,.18)); }
+.donut-total { fill: var(--brand-900); font-size: 28px; font-weight: 750; letter-spacing: -.025em; }
+.donut-unit { fill: var(--text-secondary); font-size: 12px; font-weight: 500; }
+.donut-total,
+.donut-unit,
+.donut-inner { pointer-events: none; }
+
+.chart-legend { display: grid; min-width: 0; grid-template-columns: 1fr; gap: 0; margin-top: 4px; overflow-y: auto; }
+.legend-row {
+  display: grid;
+  min-height: 34px;
+  grid-template-columns: 10px minmax(0,1fr) auto;
+  gap: 9px;
+  align-items: center;
+  padding: 4px 2px;
+  border: 0;
+  border-bottom: 1px solid var(--divider);
+  border-radius: 0;
+  color: #344054;
+  background: transparent;
+}
+.legend-row:last-child { border-bottom: 0; }
+.legend-row:hover,
+.legend-row:focus-visible,
+.legend-row.is-active { border-color: var(--divider); background: var(--brand-050); box-shadow: none; outline: none; transform: none; }
+.legend-swatch { width: 8px; height: 8px; border-radius: 50%; }
+.legend-copy { gap: 0; }
+.legend-copy strong { color: #344054; font-size: 12px; line-height: 1.35; font-weight: 650; }
+.legend-copy small { display: none; }
+.legend-metrics { flex-direction: row; align-items: baseline; gap: 8px; white-space: nowrap; }
+.legend-count { color: var(--text-secondary); font-size: 10px; font-weight: 600; }
+.legend-percent { min-width: auto; color: var(--brand-900); font-size: 11px; font-weight: 750; }
+
+.chart-tooltip { min-width: 226px; padding: 10px 11px; border-radius: var(--radius-md); background: rgba(16,40,61,.96); box-shadow: 0 10px 30px rgba(16,24,40,.2); }
+.tooltip-swatch { height: 50px; }
+.chart-state { inset: 68px 0 0; background: rgba(248,250,251,.9); }
+
+@media (max-width: 520px) {
+  .dashboard-card { height: 100%; min-height: 0; border-radius: var(--radius-md); }
+  .chart-header { min-height: 68px; padding: 14px 14px 11px; }
+  .chart-header h1 { font-size: 16px; }
+  .donut-card-body { grid-template-rows: minmax(220px,1fr) auto; padding: 8px 14px 12px; }
+  .donut-chart-wrap { min-height: 220px; }
+  #project-type-chart { width: 210px; height: 210px; }
+  .legend-row { min-height: 34px; grid-template-columns: 10px minmax(0,1fr) auto; padding: 4px 2px; }
+  .legend-swatch { width: 8px; height: 8px; }
+  .legend-metrics { grid-column: auto; flex-direction: row; justify-content: end; }
+}
+
+@media (max-height: 460px) {
+  .donut-card-body { grid-template-columns: minmax(190px,.9fr) minmax(0,1.1fr); grid-template-rows: 1fr; gap: 12px; }
+  .donut-chart-wrap { min-height: 0; }
+  #project-type-chart { width: 200px; height: 200px; }
+  .chart-legend { align-self: center; }
 }
