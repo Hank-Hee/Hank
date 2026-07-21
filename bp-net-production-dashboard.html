@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ExxonMobil 按 Region 展示的净产量分析看板">
-  <title>ExxonMobil 地区净产量</title>
+  <meta name="description" content="bp 按 Region 展示的净产量分析看板">
+  <title>bp 地区净产量</title>
   <script src="assets/echarts.min.js"></script>
   <style>
     :root {
@@ -265,7 +265,7 @@
     <section class="chart-card" aria-labelledby="page-title">
       <header class="chart-head">
         <div>
-          <h1 id="page-title">ExxonMobil 地区净产量</h1>
+          <h1 id="page-title">bp 地区净产量</h1>
           <p>Net production · Unit: kbbl/d</p>
         </div>
         <div class="chart-actions" aria-label="图表操作">
@@ -282,7 +282,7 @@
       </header>
 
       <div class="chart-stage">
-        <div id="production-chart" role="img" aria-label="按地区展示 ExxonMobil 净产量"></div>
+        <div id="production-chart" role="img" aria-label="按地区展示 bp 净产量"></div>
         <div id="chart-loading" class="chart-loading">正在加载生产数据…</div>
       </div>
 
@@ -336,8 +336,8 @@
 
       const downloadSourceWorkbook = () => {
         const anchor = document.createElement("a");
-        anchor.href = "data/exxonmobil-net-production-source.xlsx?v=20260721-companies";
-        anchor.download = "ExxonMobil产量.xlsx";
+        anchor.href = "data/bp-net-production-source.xlsx?v=20260721-companies";
+        anchor.download = "bp产量.xlsx";
         document.body.appendChild(anchor);
         anchor.click();
         anchor.remove();
@@ -478,7 +478,7 @@
         loadingElement.style.color = "#667085";
         refreshButton.classList.toggle("is-loading", refresh);
         const refreshKey = refresh ? `&refresh=${Date.now()}` : "";
-        return fetch(`data/exxon-net-production-by-region.json?v=20260721-companies${refreshKey}`)
+        return fetch(`data/bp-net-production-by-region.json?v=20260721-companies${refreshKey}`)
           .then(response => {
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             return response.json();
