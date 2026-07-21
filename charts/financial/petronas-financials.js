@@ -1,4 +1,4 @@
-const VERSION = "20260717-footer-sources-v2";
+const VERSION = "20260721-all-ui-v1";
 const DATA_URL = "../../data/petronas-financials.json";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
@@ -6,8 +6,7 @@ const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 const formatAxis = (value) => {
   if (value === null || value === undefined || Number.isNaN(value)) return "";
   const abs = Math.abs(value);
-  if (abs >= 1000) return `${fmt.format(value / 1000)}k`;
-  return fmt.format(value);
+  return abs >= 1000 ? `${fmt.format(value / 1000)}k` : fmt.format(value);
 };
 
 const formatValue = (value) => {
@@ -57,7 +56,7 @@ const niceStep = (span) => {
 const niceScale = (values) => {
   const minValue = Math.min(0, ...values);
   const maxValue = Math.max(0, ...values);
-  const step = niceStep(maxValue - minValue);
+  const step = niceStep(maxValue - minValue || 1);
   const yMin = Math.floor(minValue / step) * step;
   const yMax = Math.ceil(maxValue / step) * step || step;
   const ticks = [];
@@ -86,11 +85,8 @@ const pathFor = (rows, xScale, yScale, key) => {
     const cp1y = p1.y + (p2.y - p0.y) / 6;
     const cp2x = p2.x - (p3.x - p1.x) / 6;
     const cp2y = p2.y - (p3.y - p1.y) / 6;
-    commands.push(
-      `C ${trimNumber(cp1x)} ${trimNumber(cp1y)}, ${trimNumber(cp2x)} ${trimNumber(cp2y)}, ${trimNumber(p2.x)} ${trimNumber(p2.y)}`
-    );
+    commands.push(`C ${trimNumber(cp1x)} ${trimNumber(cp1y)}, ${trimNumber(cp2x)} ${trimNumber(cp2y)}, ${trimNumber(p2.x)} ${trimNumber(p2.y)}`);
   }
-
   return commands.join(" ");
 };
 
@@ -100,18 +96,12 @@ const titleFor = (row, config) => {
   return `${row.year}\n${config.barLabel}: ${barValue}\n${config.lineLabel}: ${lineValue}\n${row.dataType || row.status}`;
 };
 
-const tooltipValue = (row, config, series) => {
-  const value = series === "bar" ? row.barValue : row.lineValue;
-  const label = series === "bar" ? config.barLabel : config.lineLabel;
-  return { label, value };
-};
-
-const renderTooltipContent = (tooltip, row, config, series) => {
-  const { label, value } = tooltipValue(row, config, series);
+const renderTooltipContent = (tooltip, row, config) => {
   const status = row.isForecast ? "Forecast" : "Actual";
   tooltip.innerHTML = `
-    <div class="tooltip-year">${escapeHtml(`${row.year} | ${status}`)}</div>
-    <div class="tooltip-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(formatValue(value))}</strong></div>
+    <div class="tooltip-heading"><span class="tooltip-year">${escapeHtml(row.year)}</span><span class="tooltip-status">${status}</span></div>
+    <div class="tooltip-row"><span>${escapeHtml(config.barLabel)}</span><strong>${escapeHtml(formatValue(row.barValue))}</strong></div>
+    <div class="tooltip-row"><span>${escapeHtml(config.lineLabel)}</span><strong>${escapeHtml(formatValue(row.lineValue))}</strong></div>
   `;
 };
 
@@ -125,7 +115,6 @@ const positionTooltip = (tooltip, chart, event, target) => {
 
   if (x + tooltip.offsetWidth > chartRect.width - 6) x = chartRect.width - tooltip.offsetWidth - 6;
   if (y < 6) y = baseY - chartRect.top + 14;
-
   tooltip.style.left = `${Math.max(6, x)}px`;
   tooltip.style.top = `${Math.max(6, y)}px`;
 };
@@ -138,12 +127,11 @@ const attachTooltips = (chart, rows, config) => {
 
   const rowByIndex = new Map(rows.map((row) => [String(row.index), row]));
   chart.querySelectorAll(".tooltip-target").forEach((target) => {
-    const pairedPoint = () =>
-      target.dataset.series === "line" ? chart.querySelector(`.line-point[data-index="${target.dataset.index}"]`) : null;
+    const pairedPoint = () => target.dataset.series === "line" ? chart.querySelector(`.line-point[data-index="${target.dataset.index}"]`) : null;
     const show = (event) => {
       const row = rowByIndex.get(target.dataset.index);
       if (!row) return;
-      renderTooltipContent(tooltip, row, config, target.dataset.series);
+      renderTooltipContent(tooltip, row, config);
       tooltip.classList.add("is-visible");
       target.classList.add("is-hover");
       pairedPoint()?.classList.add("is-hover");
@@ -154,12 +142,23 @@ const attachTooltips = (chart, rows, config) => {
       target.classList.remove("is-hover");
       pairedPoint()?.classList.remove("is-hover");
     };
-
     target.addEventListener("pointerenter", show);
     target.addEventListener("pointermove", show);
     target.addEventListener("pointerleave", hide);
     target.addEventListener("focus", show);
     target.addEventListener("blur", hide);
+  });
+};
+
+const attachLegendToggles = (chart) => {
+  document.querySelectorAll(".legend-item[data-series]").forEach((button) => {
+    button.onclick = () => {
+      const series = button.dataset.series;
+      const isVisible = button.getAttribute("aria-pressed") !== "false";
+      button.setAttribute("aria-pressed", String(!isVisible));
+      const selector = series === "forecast" ? "[data-forecast]" : `[data-chart-series="${series}"]`;
+      chart.querySelectorAll(selector).forEach((element) => element.classList.toggle("series-hidden", isVisible));
+    };
   });
 };
 
@@ -182,17 +181,15 @@ const renderComboChart = (payload, mode) => {
   const rows = buildRows(payload, mode);
   const chart = document.querySelector("#financial-chart");
   const width = Math.max(340, Math.round(chart.clientWidth || 420));
-  const height = Math.max(188, Math.round(chart.clientHeight || 230));
+  const height = Math.max(210, Math.round(chart.clientHeight || 230));
   const compact = width < 460;
-  const margin = compact
-    ? { top: 16, right: 8, bottom: 28, left: 46 }
-    : { top: 18, right: 12, bottom: 30, left: 58 };
+  const margin = compact ? { top: 22, right: 8, bottom: 30, left: 48 } : { top: 22, right: 12, bottom: 30, left: 58 };
   const plotW = width - margin.left - margin.right;
   const plotH = height - margin.top - margin.bottom;
   const values = rows.flatMap((row) => [row.barValue, row.lineValue]).filter((value) => value !== null && value !== undefined);
   const { yMin, yMax, ticks } = niceScale(values);
   const band = plotW / Math.max(rows.length, 1);
-  const barWidth = Math.max(8, Math.min(compact ? 18 : 25, band * 0.56));
+  const barWidth = Math.max(8, Math.min(compact ? 17 : 23, band * 0.54));
   const x = (index) => margin.left + band * index + band / 2;
   const y = (value) => margin.top + plotH - (plotH * (value - yMin)) / (yMax - yMin);
   const firstForecast = rows.findIndex((row) => row.isForecast);
@@ -200,63 +197,49 @@ const renderComboChart = (payload, mode) => {
   const forecastLineRows = firstForecast > -1 ? rows.slice(Math.max(0, firstForecast - 1)) : [];
   const zeroY = y(0);
 
-  const grid = ticks
-    .map((tick) => {
-      const ty = y(tick);
-      return `
-        <g>
-          <line class="grid-line" x1="${margin.left}" x2="${width - margin.right}" y1="${ty}" y2="${ty}"></line>
-          <text x="${margin.left - 8}" y="${ty + 4}" text-anchor="end">${formatAxis(tick)}</text>
-        </g>`;
-    })
-    .join("");
+  const grid = ticks.map((tick) => {
+    const ty = y(tick);
+    return `<g><line class="grid-line" x1="${margin.left}" x2="${width - margin.right}" y1="${ty}" y2="${ty}"></line><text x="${margin.left - 8}" y="${ty + 4}" text-anchor="end">${formatAxis(tick)}</text></g>`;
+  }).join("");
 
-  const bars = rows
-    .filter((row) => row.barValue !== null && row.barValue !== undefined)
-    .map((row) => {
-      const valueY = y(row.barValue);
-      const barH = Math.abs(zeroY - valueY);
-      return `
-        <rect class="bar-rect tooltip-target${row.isForecast ? " forecast" : ""}" data-index="${row.index}" data-series="bar" tabindex="0" x="${x(row.index) - barWidth / 2}" y="${Math.min(zeroY, valueY)}" width="${barWidth}" height="${barH}">
-          <title>${escapeHtml(titleFor(row, config))}</title>
-        </rect>`;
-    })
-    .join("");
+  const bars = rows.filter((row) => row.barValue !== null && row.barValue !== undefined).map((row) => {
+    const valueY = y(row.barValue);
+    const barH = Math.abs(zeroY - valueY);
+    const forecastAttr = row.isForecast ? ' data-forecast="true"' : "";
+    return `<rect class="bar-rect tooltip-target${row.isForecast ? " forecast" : ""}" data-chart-series="bar"${forecastAttr} data-index="${row.index}" data-series="bar" tabindex="0" x="${x(row.index) - barWidth / 2}" y="${Math.min(zeroY, valueY)}" width="${barWidth}" height="${barH}" rx="2" ry="2"><title>${escapeHtml(titleFor(row, config))}</title></rect>`;
+  }).join("");
 
-  const labels = rows
-    .map((row) => {
-      const showLabel = !compact || row.index % 2 === 0 || row.index === rows.length - 1;
-      return `<text x="${x(row.index)}" y="${height - 8}" text-anchor="middle">${showLabel ? row.year : ""}</text>`;
-    })
-    .join("");
+  const labels = rows.map((row) => {
+    const showLabel = !compact || row.index % 2 === 0 || row.index === rows.length - 1;
+    return `<text x="${x(row.index)}" y="${height - 8}" text-anchor="middle">${showLabel ? row.year : ""}</text>`;
+  }).join("");
 
   const lineActual = pathFor(actualLineRows, x, y, "lineValue");
   const lineForecast = pathFor(forecastLineRows, x, y, "lineValue");
-  const points = rows
-    .filter((row) => row.lineValue !== null && row.lineValue !== undefined)
-    .map(
-      (row) => `
-        <circle class="line-point${row.isForecast ? " forecast" : ""}" data-index="${row.index}" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 3.6 : 4.2}">
-          <title>${escapeHtml(titleFor(row, config))}</title>
-        </circle>
-        <circle class="line-hit-area tooltip-target" data-index="${row.index}" data-series="line" tabindex="0" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 10 : 11}">
-          <title>${escapeHtml(titleFor(row, config))}</title>
-        </circle>`
-    )
-    .join("");
+  const points = rows.filter((row) => row.lineValue !== null && row.lineValue !== undefined).map((row) => {
+    const forecastAttr = row.isForecast ? ' data-forecast="true"' : "";
+    return `<circle class="line-point${row.isForecast ? " forecast" : ""}" data-chart-series="line"${forecastAttr} data-index="${row.index}" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 3 : 3.6}"><title>${escapeHtml(titleFor(row, config))}</title></circle><circle class="line-hit-area tooltip-target" data-chart-series="line"${forecastAttr} data-index="${row.index}" data-series="line" tabindex="0" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 10 : 11}"><title>${escapeHtml(titleFor(row, config))}</title></circle>`;
+  }).join("");
+
+  const forecastDivider = firstForecast > -1 ? (() => {
+    const dividerX = x(firstForecast) - band / 2;
+    return `<g class="forecast-divider" data-forecast="true"><line x1="${dividerX}" x2="${dividerX}" y1="${margin.top}" y2="${height - margin.bottom}"></line><text x="${dividerX + 4}" y="${margin.top + 10}">Forecast</text></g>`;
+  })() : "";
 
   chart.innerHTML = `
     <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${config.title}">
       <g>${grid}</g>
       <line class="axis-line" x1="${margin.left}" x2="${width - margin.right}" y1="${zeroY}" y2="${zeroY}"></line>
       <g>${bars}</g>
-      ${lineActual ? `<path class="line-path" d="${lineActual}"></path>` : ""}
-      ${lineForecast ? `<path class="line-path forecast" d="${lineForecast}"></path>` : ""}
+      ${lineActual ? `<path class="line-path" data-chart-series="line" d="${lineActual}"></path>` : ""}
+      ${lineForecast ? `<path class="line-path forecast" data-chart-series="line" data-forecast="true" d="${lineForecast}"></path>` : ""}
       <g>${points}</g>
+      ${forecastDivider}
       <g>${labels}</g>
     </svg>`;
 
   attachTooltips(chart, rows, config);
+  attachLegendToggles(chart);
   document.querySelector("[data-eyebrow]").textContent = config.eyebrow || "FINANCIAL PROFILE";
   document.querySelector("[data-title-cn]").textContent = config.titleCn || config.title;
   document.querySelector("[data-subtitle]").textContent = config.subtitle;
@@ -266,14 +249,45 @@ const renderComboChart = (payload, mode) => {
   document.querySelector("[data-update-date]").textContent = config.updateDate || `Update date: ${payload.company.updatedOn?.replaceAll("-", "/") || ""}`;
 };
 
+const currentMode = () => document.body.dataset.dashboard === "cash-investment" ? "cashInvestment" : "profitability";
+
+const renderCurrent = (payload) => {
+  const mode = currentMode();
+  renderComboChart(payload, mode);
+  window.__financialDashboardDebug = { mode, payload, version: VERSION };
+};
+
+const downloadChart = () => {
+  const svg = document.querySelector("#financial-chart svg");
+  if (!svg) return;
+  const blob = new Blob([new XMLSerializer().serializeToString(svg)], { type: "image/svg+xml" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = `${document.body.dataset.company || "company"}-${document.body.dataset.dashboard}.svg`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+};
+
+const setupActions = () => {
+  document.querySelector("[data-action=download]")?.addEventListener("click", downloadChart);
+  document.querySelector("[data-action=refresh]")?.addEventListener("click", async (event) => {
+    const button = event.currentTarget;
+    button.disabled = true;
+    try { renderCurrent(await loadData()); } finally { button.disabled = false; }
+  });
+  document.querySelector("[data-action=fullscreen]")?.addEventListener("click", async () => {
+    const card = document.querySelector(".chart-card");
+    if (!document.fullscreenElement) await card?.requestFullscreen?.();
+    else await document.exitFullscreen?.();
+  });
+};
+
 const start = async () => {
   const state = document.querySelector("#state");
+  setupActions();
   try {
-    const payload = await loadData();
-    const mode = document.body.dataset.dashboard;
-    renderComboChart(payload, mode === "cash-investment" ? "cashInvestment" : "profitability");
+    renderCurrent(await loadData());
     state.hidden = true;
-    window.__exxonMobilFinancialDebug = { mode, payload, version: VERSION };
   } catch (error) {
     console.error(error);
     state.textContent = "Financial data failed to load";
@@ -282,10 +296,7 @@ const start = async () => {
 };
 
 window.addEventListener("resize", () => {
-  if (window.__exxonMobilFinancialDebug?.payload) {
-    const mode = document.body.dataset.dashboard;
-    renderComboChart(window.__exxonMobilFinancialDebug.payload, mode === "cash-investment" ? "cashInvestment" : "profitability");
-  }
+  if (window.__financialDashboardDebug?.payload) renderCurrent(window.__financialDashboardDebug.payload);
 });
 
 start();

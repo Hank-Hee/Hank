@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
     <title>BP Financial Dashboard - Revenue and Net Income</title>
-    <link rel="stylesheet" href="adnoc-financials.css?v=20260714-bp-v1" />
+    <link rel="stylesheet" href="adnoc-financials.css?v=20260721-all-ui-v1" />
   </head>
   <body data-company="bp" data-dashboard="profitability">
     <main class="dashboard-module">
@@ -16,11 +16,16 @@
             <h1 id="chart-title" data-title-cn>BP 收入与净利润</h1>
             <p class="unit" data-subtitle>USD million</p>
           </div>
+          <div class="chart-actions" aria-label="Chart actions">
+            <button type="button" data-action="download" aria-label="Download chart" title="Download chart">&#8595;</button>
+            <button type="button" data-action="refresh" aria-label="Refresh chart" title="Refresh chart">&#8635;</button>
+            <button type="button" data-action="fullscreen" aria-label="Fullscreen chart" title="Fullscreen chart">&#9974;</button>
+          </div>
         </header>
         <div class="legend" aria-label="Legend">
-          <span class="legend-item"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Revenue</span></span>
-          <span class="legend-item"><i class="dot line" aria-hidden="true"></i><span data-line-label>Net Income</span></span>
-          <span class="legend-item"><i class="dot forecast" aria-hidden="true"></i><span>Forecast</span></span>
+          <button type="button" class="legend-item" data-series="bar" aria-pressed="true"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Revenue</span></button>
+          <button type="button" class="legend-item" data-series="line" aria-pressed="true"><i class="dot line" aria-hidden="true"></i><span data-line-label>Net Income</span></button>
+          <button type="button" class="legend-item" data-series="forecast" aria-pressed="true"><i class="dot forecast" aria-hidden="true"></i><span>Forecast</span></button>
         </div>
         <div class="chart-stage"><div id="financial-chart" class="chart"></div></div>
         <footer class="chart-footer">
@@ -30,6 +35,6 @@
         <div id="state" class="state">Loading financial data</div>
       </section>
     </main>
-    <script type="module" src="bp-financials.js?v=20260717-footer-sources-v2"></script>
+    <script type="module" src="bp-financials.js?v=20260721-all-ui-v1"></script>
   </body>
 </html>
