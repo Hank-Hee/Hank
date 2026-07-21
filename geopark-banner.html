@@ -6,217 +6,318 @@
   <title>GeoPark 公司画像横幅</title>
   <style>
     :root {
-      --navy: #1f3d58;
-      --navy-deep: #1b344d;
-      --teal: #66b7b2;
-      --teal-deep: #56a7a2;
-      --line-soft: rgba(255, 255, 255, .20);
+      --brand-950: #10283d;
+      --brand-900: #17324d;
+      --brand-800: #1d405f;
+      --brand-100: #eaf1f5;
+      --banner-text: #ffffff;
+      --banner-subtext: #c6d2dd;
+      --banner-tag-text: #e9f0f5;
+      --border: #d9e1e8;
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --focus-ring: rgba(213, 180, 106, 0.42);
     }
 
     * { box-sizing: border-box; }
 
-    html, body {
-      margin: 0;
+    html,
+    body {
       width: 100%;
-      min-height: 100%;
-      overflow: hidden;
+      margin: 0;
       background: transparent;
-      font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
     }
 
-    .banner-frame { width: 100%; padding: 0; }
+    .banner-frame { width: 100%; }
 
     .company-banner {
-      position: relative;
-      isolation: isolate;
-      overflow: hidden;
-      width: 100%;
-      height: clamp(164px, 14vw, 188px);
-      min-height: 164px;
       display: grid;
-      grid-template-columns: 140px minmax(0, 1fr) minmax(116px, 168px);
-      gap: clamp(16px, 2vw, 28px);
+      grid-template-columns: 96px minmax(0, 1fr) auto;
+      gap: 24px;
       align-items: center;
-      padding: clamp(18px, 2.2vw, 28px) clamp(20px, 3vw, 34px);
-      color: #fff;
-      border-radius: 8px;
-      background:
-        radial-gradient(circle at 20% 14%, rgba(255, 255, 255, .18), transparent 25%),
-        radial-gradient(circle at 84% 20%, rgba(255, 255, 255, .20), transparent 28%),
-        radial-gradient(circle at 58% 92%, rgba(255, 255, 255, .13), transparent 34%),
-        linear-gradient(112deg, var(--navy-deep) 0%, #326476 46%, var(--teal-deep) 100%);
+      width: 100%;
+      min-height: 220px;
+      padding: 32px 36px;
+      overflow: hidden;
+      color: var(--banner-text);
+      background: var(--brand-900);
+      border: 0;
+      border-radius: var(--radius-lg);
     }
 
-    .company-banner::before,
-    .company-banner::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    .company-banner::before {
-      background:
-        radial-gradient(circle, rgba(255, 255, 255, .16) 1px, transparent 1.4px),
-        linear-gradient(135deg, transparent 0 30px, rgba(255, 255, 255, .07) 31px 32px, transparent 33px 74px);
-      background-size: 24px 24px, 100% 100%;
-      opacity: .32;
-      mask-image: linear-gradient(90deg, transparent 0%, #000 42%, #000 88%, transparent 100%);
-    }
-
-    .company-banner::after {
-      background:
-        repeating-linear-gradient(168deg, transparent 0 17px, rgba(255, 255, 255, .10) 18px 19px),
-        linear-gradient(90deg, rgba(255, 255, 255, .04), transparent 45%);
-      opacity: .20;
-    }
-
-    .logo-anchor {
-      width: 124px;
-      height: 82px;
+    .company-logo-shell {
       display: grid;
+      width: 92px;
+      height: 92px;
+      padding: 10px;
       place-items: center;
-      justify-self: start;
-      align-self: center;
-      padding: 11px;
-      border: 1px solid rgba(255, 255, 255, .72);
-      border-radius: 8px;
-      background: rgba(255, 255, 255, .96);
-      box-shadow: 0 10px 24px rgba(5, 17, 33, .16);
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #d4e0e8;
+      border-radius: var(--radius-md);
     }
 
-    .logo-anchor img {
+    .company-logo {
       display: block;
-      width: auto;
-      height: auto;
       max-width: 100%;
-      max-height: 62px;
+      max-height: 100%;
       object-fit: contain;
     }
 
-    .banner-copy { min-width: 0; }
+    .company-logo[hidden],
+    .logo-fallback[hidden] { display: none; }
 
-    .banner-copy h1 {
-      margin: 0 0 8px;
-      color: #fff;
-      font-size: clamp(24px, 2.3vw, 32px);
-      line-height: 1.08;
+    .logo-fallback {
+      color: var(--brand-900);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
       letter-spacing: 0;
-      font-weight: 800;
     }
 
-    .banner-copy p {
-      max-width: 520px;
-      margin: 0;
-      color: rgba(255, 255, 255, .88);
-      font-size: clamp(13px, 1.05vw, 15px);
-      line-height: 1.62;
+    .company-identity { min-width: 0; }
+
+    .company-name-en {
+      margin: 0 0 5px;
+      overflow-wrap: anywhere;
+      color: #ffffff;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1.18;
+      letter-spacing: 0;
     }
 
-    .tag-row {
+    .company-name-cn {
+      margin: 0 0 15px;
+      color: var(--banner-subtext);
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .company-name-cn:empty { display: none; }
+
+    .company-facts {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-top: 15px;
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
     }
 
-    .tag {
+    .company-facts span {
       display: inline-flex;
       align-items: center;
       min-height: 26px;
-      padding: 4px 10px;
-      border: 1px solid var(--line-soft);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, .14);
-      color: #fff;
+      padding: 4px 9px;
+      color: var(--banner-tag-text);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: var(--radius-sm);
       font-size: 12px;
       line-height: 1;
-      font-weight: 700;
       white-space: nowrap;
     }
 
-    .update-block {
-      justify-self: end;
+    .company-banner-action {
       align-self: end;
-      margin-bottom: 4px;
-      text-align: right;
+      justify-self: end;
     }
 
-    .update-block span {
-      display: block;
-      margin-bottom: 4px;
-      color: rgba(255, 255, 255, .76);
+    .official-site-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 8px 64px;
+      color: var(--brand-900);
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 1px 2px rgba(16, 40, 61, 0.12);
       font-size: 13px;
-      line-height: 1.2;
+      font-weight: 600;
+      line-height: 1;
+      text-decoration: none;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
     }
 
-    .update-block strong {
-      display: block;
-      color: #fff;
-      font-size: clamp(20px, 1.7vw, 24px);
-      line-height: 1.05;
-      font-weight: 800;
-      letter-spacing: 0;
+    .official-site-link:hover {
+      color: var(--brand-950);
+      background: var(--brand-100);
+      border-color: var(--brand-100);
+      box-shadow: 0 4px 12px rgba(16, 40, 61, 0.18);
+      transform: translateY(-1px);
     }
 
-    @media (max-width: 780px) {
+    .official-site-link:focus-visible {
+      outline: 3px solid var(--focus-ring);
+      outline-offset: 3px;
+    }
+
+    .official-site-link:active { transform: translateY(0); }
+
+    @media (max-width: 900px) {
       .company-banner {
-        height: 172px;
-        grid-template-columns: 100px minmax(0, 1fr);
-        gap: 14px;
-        padding: 18px;
+        grid-template-columns: 80px minmax(0, 1fr) auto;
+        gap: 18px;
+        min-height: 205px;
+        padding: 28px;
       }
 
-      .logo-anchor { width: 92px; height: 68px; padding: 9px; }
-      .logo-anchor img { max-height: 52px; }
-      .banner-copy h1 { font-size: 23px; }
-      .banner-copy p { font-size: 13px; line-height: 1.45; }
-      .tag-row { gap: 6px; margin-top: 11px; }
-      .tag { min-height: 23px; padding: 3px 8px; font-size: 11px; }
-      .update-block { position: absolute; right: 18px; bottom: 15px; }
+      .company-logo-shell {
+        width: 76px;
+        height: 76px;
+      }
+
+      .company-name-en { font-size: 30px; }
     }
 
-    @media (max-width: 560px) {
-      .company-banner { height: 178px; grid-template-columns: 82px minmax(0, 1fr); }
-      .logo-anchor { width: 74px; height: 58px; padding: 8px; }
-      .logo-anchor img { max-height: 44px; }
-      .update-block { display: none; }
+    @media (max-width: 760px) {
+      .company-banner {
+        grid-template-columns: 68px minmax(0, 1fr);
+        gap: 16px;
+        min-height: 190px;
+        padding: 24px;
+      }
+
+      .company-logo-shell {
+        width: 64px;
+        height: 64px;
+        padding: 8px;
+      }
+
+      .company-name-en { font-size: 26px; }
+
+      .company-name-cn {
+        margin-bottom: 12px;
+        font-size: 14px;
+      }
+
+      .company-facts {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: start;
+      }
+
+      .company-banner-action {
+        grid-column: 1 / -1;
+        justify-self: start;
+        margin-top: 2px;
+      }
+
+      .official-site-link {
+        min-height: 36px;
+        padding-right: 32px;
+        padding-left: 32px;
+      }
     }
   </style>
 </head>
 <body>
   <main class="banner-frame" aria-label="GeoPark 公司画像横幅">
-    <section class="company-banner">
-      <div class="logo-anchor" aria-label="GeoPark logo">
-        <img alt="GeoPark" src="assets/banner-logos/geopark-logo.svg">
+    <header class="company-banner">
+      <div class="company-logo-shell" aria-label="GeoPark logo">
+        <img class="company-logo" id="company-logo" alt="">
+        <span class="logo-fallback" id="logo-fallback" hidden aria-hidden="true"></span>
       </div>
-      <div class="banner-copy">
-        <h1>GeoPark</h1>
-        <p>GeoPark</p>
-        <div class="tag-row" aria-label="公司标签">
-          <span class="tag">资源型</span>
-          <span class="tag">哥伦比亚</span>
-          <span class="tag">上游勘探开发</span>
-          <span class="tag">油气生产</span>
-        </div>
+      <div class="company-identity">
+        <h1 class="company-name-en" id="company-name-en"></h1>
+        <p class="company-name-cn" id="company-name-cn"></p>
+        <div class="company-facts" id="company-facts" aria-label="公司属性"></div>
       </div>
-      <div class="update-block">
-        <span>数据更新</span>
-        <strong data-current-quarter>2026 Q3</strong>
-      </div>
-    </section>
+      <div class="company-banner-action" id="company-banner-action"></div>
+    </header>
   </main>
+
+  <script id="company-data" type="application/json">
+      {
+      "id": "6a1e90aa11f1cb641ce4fe66",
+      "nameEn": "GeoPark",
+      "nameCn": "",
+      "logoUrl": "assets/banner-logos/geopark-logo.svg",
+      "type": "资源型",
+      "country": "哥伦比亚",
+      "businessTags": [
+            "上游勘探开发",
+            "油气生产"
+      ],
+      "officialWebsite": "https://www.geo-park.com/"
+}
+  </script>
   <script>
     (() => {
-      const parts = new Intl.DateTimeFormat("en-US", {
-        timeZone: "Asia/Shanghai",
-        year: "numeric",
-        month: "numeric"
-      }).formatToParts(new Date());
-      const value = (type) => Number(parts.find((part) => part.type === type).value);
-      document.querySelector("[data-current-quarter]").textContent =
-        `${value("year")} Q${Math.ceil(value("month") / 3)}`;
+      const company = JSON.parse(document.getElementById("company-data").textContent);
+      const logo = document.getElementById("company-logo");
+      const fallback = document.getElementById("logo-fallback");
+      const nameEn = document.getElementById("company-name-en");
+      const nameCn = document.getElementById("company-name-cn");
+      const facts = document.getElementById("company-facts");
+      const action = document.getElementById("company-banner-action");
+
+      function normalizeExternalUrl(value) {
+        if (!value || typeof value !== "string") return null;
+        const raw = value.trim();
+        if (!raw) return null;
+        const candidate = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
+        try {
+          const url = new URL(candidate);
+          return ["http:", "https:"].includes(url.protocol) ? url.href : null;
+        } catch {
+          return null;
+        }
+      }
+
+      function initials(value) {
+        const compact = String(value || "").replace(/[^A-Za-z0-9]/g, "");
+        if (compact && compact === compact.toUpperCase() && compact.length <= 5) return compact;
+        const words = String(value || "").match(/[A-Z][a-z]*/g) || String(value || "").split(/\s+/);
+        return words.map((word) => word.charAt(0)).join("").slice(0, 4).toUpperCase() || "?";
+      }
+
+      function showLogoFallback() {
+        logo.hidden = true;
+        fallback.hidden = false;
+      }
+
+      function addFact(value) {
+        const text = String(value || "").trim();
+        if (!text) return;
+        const tag = document.createElement("span");
+        tag.textContent = text;
+        facts.append(tag);
+      }
+
+      nameEn.textContent = company.nameEn || "";
+      nameCn.textContent = company.nameCn || "";
+      fallback.textContent = initials(company.nameEn);
+      [company.type, company.country, ...(Array.isArray(company.businessTags) ? company.businessTags : [])].forEach(addFact);
+
+      if (company.logoUrl) {
+        logo.src = company.logoUrl;
+        logo.alt = `${company.nameEn || "Company"} logo`;
+        logo.addEventListener("error", showLogoFallback, { once: true });
+      } else {
+        showLogoFallback();
+      }
+
+      const website = normalizeExternalUrl(company.officialWebsite);
+      if (website) {
+        const link = document.createElement("a");
+        link.className = "official-site-link";
+        link.href = website;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.setAttribute("aria-label", `访问 ${company.nameEn} 官方网站（在新标签页打开）`);
+
+        const label = document.createElement("span");
+        label.textContent = "访问官网";
+        link.append(label);
+        action.append(link);
+      }
     })();
   </script>
 </body>
