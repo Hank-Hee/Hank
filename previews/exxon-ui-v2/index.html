@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="ExxonMobil 地图与项目类型圆环图 UI V2 预览" />
+    <title>ExxonMobil 项目看板 UI V2 预览</title>
+    <link rel="stylesheet" href="styles.css?v=20260721-ui-v2" />
+  </head>
+  <body>
+    <main class="preview-grid" aria-label="ExxonMobil 项目看板并排预览">
+      <iframe
+        class="preview-frame preview-map"
+        src="map/?operator=ExxonMobil"
+        title="ExxonMobil 全球项目分布地图"
+        loading="eager"
+      ></iframe>
+      <iframe
+        class="preview-frame preview-donut"
+        src="project-type/?operator=ExxonMobil"
+        title="ExxonMobil 项目类型结构圆环图"
+        loading="eager"
+      ></iframe>
+    </main>
+  </body>
+</html>
