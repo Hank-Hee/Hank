@@ -123,7 +123,7 @@
     }
 
     .company-banner-action {
-      align-self: start;
+      align-self: end;
       justify-self: end;
     }
 
@@ -131,9 +131,8 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 7px;
       min-height: 38px;
-      padding: 8px 13px;
+      padding: 8px 64px;
       color: var(--brand-900);
       background: #ffffff;
       border: 1px solid #ffffff;
@@ -144,16 +143,6 @@
       line-height: 1;
       text-decoration: none;
       transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .official-site-link svg {
-      width: 15px;
-      height: 15px;
-      fill: none;
-      stroke: currentColor;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-width: 1.5;
     }
 
     .official-site-link:hover {
@@ -220,7 +209,11 @@
         margin-top: 2px;
       }
 
-      .official-site-link { min-height: 36px; }
+      .official-site-link {
+        min-height: 36px;
+        padding-right: 32px;
+        padding-left: 32px;
+      }
     }
   </style>
 </head>
@@ -321,13 +314,6 @@
         const label = document.createElement("span");
         label.textContent = "访问官网";
         link.append(label);
-        const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        icon.setAttribute("viewBox", "0 0 16 16");
-        icon.setAttribute("aria-hidden", "true");
-        const iconPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        iconPath.setAttribute("d", "M6 3h7v7M13 3 6.5 9.5M11 8.5V13H3V5h4.5");
-        icon.append(iconPath);
-        link.append(icon);
         action.append(link);
       }
     })();
