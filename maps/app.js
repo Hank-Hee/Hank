@@ -9,9 +9,9 @@ import {
   hasResourceData,
   normalizeKey,
   resolveOperator,
-} from "./app-core.js?v=20260721-ui-v2-production";
+} from "./app-core.js?v=20260721-ui-v3-no-header-actions";
 
-const VERSION = `20260721-ui-v2-production`;
+const VERSION = `20260721-ui-v3-no-header-actions`;
 const DATA_ROOT = `.`;
 
 const dom = {
@@ -20,10 +20,6 @@ const dom = {
   countryCount: document.querySelector(`#country-count`),
   scope: document.querySelector(`#map-scope`),
   overview: document.querySelector(`#overview-button`),
-  card: document.querySelector(`#map-card`),
-  refresh: document.querySelector(`#refresh-button`),
-  newWindow: document.querySelector(`#new-window-button`),
-  fullscreen: document.querySelector(`#fullscreen-button`),
   drawer: document.querySelector(`#project-drawer`),
   drawerToggle: document.querySelector(`#drawer-toggle`),
   drawerToggleLabel: document.querySelector(`#drawer-toggle-label`),
@@ -46,17 +42,6 @@ const dom = {
   detailContent: document.querySelector(`#project-detail-content`),
   emptyState: document.querySelector(`#empty-state`),
 };
-
-dom.refresh?.addEventListener(`click`, () => window.location.reload());
-dom.newWindow?.addEventListener(`click`, () => window.open(window.location.href, `_blank`, `noopener,noreferrer`));
-dom.fullscreen?.addEventListener(`click`, async () => {
-  try {
-    if (document.fullscreenElement) await document.exitFullscreen();
-    else await dom.card?.requestFullscreen();
-  } catch (error) {
-    console.error(`Fullscreen unavailable`, error);
-  }
-});
 
 const lifecycleNames = {
   Producing: `已投产`,
