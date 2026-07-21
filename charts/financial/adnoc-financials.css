@@ -111,32 +111,6 @@ body[data-dashboard="cash-investment"] {
   line-height: 1.25;
 }
 
-.chart-actions {
-  display: flex;
-  flex: 0 0 auto;
-  gap: 4px;
-}
-
-.chart-actions button {
-  display: grid;
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  place-items: center;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--surface);
-  color: var(--brand-600);
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1;
-}
-
-.chart-actions button:hover,
-.chart-actions button:focus-visible {
-  border-color: var(--brand-600);
-  outline: none;
-}
 
 .legend {
   display: flex;
@@ -327,7 +301,6 @@ body[data-dashboard="cash-investment"] {
   .chart-card { min-height: 380px; height: 380px; padding: 16px; }
   .chart-header { gap: 8px; }
   .chart-header h1 { font-size: 17px; }
-  .chart-actions button { width: 26px; height: 26px; }
   .legend { gap: 9px; font-size: 11px; }
   .chart { min-height: 210px; }
   .chart-footer { display: block; }

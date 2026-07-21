@@ -258,34 +258,9 @@ const renderCurrent = (payload) => {
   window.__financialDashboardDebug = { mode, payload, version: VERSION };
 };
 
-const downloadChart = () => {
-  const svg = document.querySelector("#financial-chart svg");
-  if (!svg) return;
-  const blob = new Blob([new XMLSerializer().serializeToString(svg)], { type: "image/svg+xml" });
-  const link = document.createElement("a");
-  link.href = URL.createObjectURL(blob);
-  link.download = `${document.body.dataset.company || "company"}-${document.body.dataset.dashboard}.svg`;
-  link.click();
-  URL.revokeObjectURL(link.href);
-};
-
-const setupActions = () => {
-  document.querySelector("[data-action=download]")?.addEventListener("click", downloadChart);
-  document.querySelector("[data-action=refresh]")?.addEventListener("click", async (event) => {
-    const button = event.currentTarget;
-    button.disabled = true;
-    try { renderCurrent(await loadData()); } finally { button.disabled = false; }
-  });
-  document.querySelector("[data-action=fullscreen]")?.addEventListener("click", async () => {
-    const card = document.querySelector(".chart-card");
-    if (!document.fullscreenElement) await card?.requestFullscreen?.();
-    else await document.exitFullscreen?.();
-  });
-};
 
 const start = async () => {
   const state = document.querySelector("#state");
-  setupActions();
   try {
     renderCurrent(await loadData());
     state.hidden = true;
