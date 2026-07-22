@@ -9,10 +9,7 @@
         "公司在北美、圭亚那、亚太及多个国际市场拥有长期运营与项目开发能力。"
       ],
       businessTags: ["上游油气", "LNG", "炼化与化工"],
-      focusRegions: ["North America", "Guyana", "Asia Pacific"],
-      founded: "1999",
-      headquarters: "Spring, Texas, USA",
-      companyType: "国际综合能源公司"
+      focusRegions: ["North America", "Guyana", "Asia Pacific"]
     }
   };
 
@@ -57,9 +54,9 @@
         clean(row[columns.country]),
         clean(row[columns.region])
       ].filter(Boolean),
-      founded: clean(profile.founded),
-      headquarters: clean(profile.headquarters),
-      companyType: clean(profile.companyType) || clean(row[columns.type]),
+      founded: clean(row[columns.founded]),
+      headquarters: clean(row[columns.headquarters]),
+      companyType: clean(row[columns.type]),
       website: clean(row[columns.website])
     };
   }
