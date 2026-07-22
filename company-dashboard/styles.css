@@ -1,0 +1,41 @@
+:root {
+  color-scheme: light;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  background: #fff;
+}
+
+* { box-sizing: border-box; }
+
+html { min-height: 100%; background: #fff; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #fff;
+}
+
+.company-dashboard-layout {
+  --panel-height: 520px;
+  display: grid;
+  width: 100%;
+  height: calc(var(--panel-height) + 20px);
+  grid-template-columns: minmax(0, 2fr) minmax(340px, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.company-dashboard-layout iframe {
+  display: block;
+  width: 100%;
+  height: var(--panel-height);
+  min-width: 0;
+  border: 0;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .company-dashboard-layout {
+    height: auto;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
