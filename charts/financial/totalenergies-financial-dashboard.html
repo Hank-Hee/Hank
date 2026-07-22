@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Company Financial Dashboard</title>
+    <link rel="stylesheet" href="financial-dashboard.css?v=20260722-combined-v1" />
+  </head>
+  <body data-company="totalenergies">
+    <main class="dashboard-module">
+      <div class="dashboard-grid">
+        <section class="chart-card" data-dashboard="profitability" aria-labelledby="profitability-title">
+          <header class="chart-header">
+            <div class="title-block">
+              <p class="eyebrow" data-eyebrow>FINANCIAL PROFILE</p>
+              <h1 id="profitability-title" data-title-cn>Revenue and Net Income</h1>
+              <p class="unit" data-subtitle>USD million</p>
+            </div>
+          </header>
+          <div class="legend" aria-label="Legend">
+            <button type="button" class="legend-item" data-series="bar" aria-pressed="true"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Revenue</span></button>
+            <button type="button" class="legend-item" data-series="line" aria-pressed="true"><i class="dot line" aria-hidden="true"></i><span data-line-label>Net Income</span></button>
+            <button type="button" class="legend-item" data-series="forecast" aria-pressed="true"><i class="dot forecast" aria-hidden="true"></i><span>Forecast</span></button>
+          </div>
+          <div class="chart-stage"><div class="chart"></div></div>
+          <footer class="chart-footer">
+            <span class="source-note" data-source-line>Source: company public disclosures</span>
+            <span class="update-date" data-update-date>Update date</span>
+          </footer>
+        </section>
+        <section class="chart-card" data-dashboard="cashInvestment" aria-labelledby="cash-investment-title">
+          <header class="chart-header">
+            <div class="title-block">
+              <p class="eyebrow" data-eyebrow>FINANCIAL PROFILE</p>
+              <h1 id="cash-investment-title" data-title-cn>Investments and Free Cash Flow</h1>
+              <p class="unit" data-subtitle>USD million</p>
+            </div>
+          </header>
+          <div class="legend" aria-label="Legend">
+            <button type="button" class="legend-item" data-series="bar" aria-pressed="true"><i class="dot bar" aria-hidden="true"></i><span data-bar-label>Investments</span></button>
+            <button type="button" class="legend-item" data-series="line" aria-pressed="true"><i class="dot line" aria-hidden="true"></i><span data-line-label>Free Cash Flow</span></button>
+            <button type="button" class="legend-item" data-series="forecast" aria-pressed="true"><i class="dot forecast" aria-hidden="true"></i><span>Forecast</span></button>
+          </div>
+          <div class="chart-stage"><div class="chart"></div></div>
+          <footer class="chart-footer">
+            <span class="source-note" data-source-line>Source: company public disclosures</span>
+            <span class="update-date" data-update-date>Update date</span>
+          </footer>
+        </section>
+      </div>
+      <div id="state" class="state">Loading financial data</div>
+    </main>
+    <script type="module" src="financial-dashboard.js?v=20260722-combined-v1"></script>
+  </body>
+</html>
