@@ -8,20 +8,20 @@
 </head>
 <body data-page="dashboard">
   <main class="dashboard-shell" aria-live="polite">
-    <section class="panel overview-panel">
-      <h1>公司概览</h1>
-      <dl id="overviewList" class="overview-list"></dl>
+    <section class="overview-card overview-copy" aria-labelledby="overviewHeading">
+      <div class="card-heading">
+        <h1 id="overviewHeading">公司概览</h1>
+      </div>
+      <div id="companyIntroduction" class="company-introduction"></div>
+      <div id="overviewTags" class="overview-tags"></div>
     </section>
 
-    <section class="panel observation-panel">
-      <h1>重点观察</h1>
-      <ul class="observation-list" aria-label="重点观察占位">
-        <li><span></span></li>
-        <li><span></span></li>
-        <li><span></span></li>
-        <li><span></span></li>
-      </ul>
-    </section>
+    <aside class="overview-card info-panel" aria-labelledby="basicInfoHeading">
+      <div class="card-heading">
+        <h1 id="basicInfoHeading">基础信息</h1>
+      </div>
+      <dl id="basicInfoList" class="definition-list"></dl>
+    </aside>
   </main>
 
   <script src="vendor/xlsx.full.min.js"></script>

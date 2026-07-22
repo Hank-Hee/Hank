@@ -8,7 +8,8 @@
     country: "国家",
     region: "地区",
     business: "主营业务",
-    position: "市场定位"
+    position: "市场定位",
+    website: "官网Link"
   };
 
   function clean(value) {

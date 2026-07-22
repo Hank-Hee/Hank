@@ -1,15 +1,14 @@
 :root {
-  --bg: #f5f7fb;
-  --card: #ffffff;
-  --line: #d9e2ef;
-  --line-soft: #e7edf5;
-  --ink: #061a33;
-  --muted: #51657f;
-  --accent: #006fba;
-  --placeholder: #c9d4e2;
-  --shadow: 0 1px 2px rgba(6, 26, 51, .04);
+  --brand-900: #17324d;
+  --brand-700: #244e70;
+  --brand-100: #eaf1f5;
+  --surface: #ffffff;
+  --text-primary: #17212b;
+  --text-body: #344054;
+  --text-secondary: #667085;
+  --border: #d9e1e8;
+  --divider: #e9edf1;
   --dashboard-top-gap: 8px;
-  --dashboard-card-height: 160px;
 }
 
 * {
@@ -21,9 +20,9 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100%;
-  color: var(--ink);
+  color: var(--text-primary);
   background: transparent;
-  font-family: Calibri, "Microsoft YaHei", Arial, sans-serif;
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
   letter-spacing: 0;
 }
 
@@ -33,85 +32,130 @@ body[data-page="dashboard"] {
 
 .dashboard-shell {
   width: 100%;
-  min-height: 100vh;
   display: grid;
-  grid-template-columns: minmax(340px, 1fr) minmax(340px, 1fr);
-  gap: clamp(12px, 1.1vw, 18px);
-  align-content: start;
+  grid-template-columns: minmax(0, 1.65fr) minmax(260px, .75fr);
+  gap: 16px;
   align-items: start;
-  padding: var(--dashboard-top-gap) clamp(10px, 1vw, 16px) clamp(10px, 1vw, 16px);
+  padding: var(--dashboard-top-gap) clamp(10px, 1vw, 16px) 0;
 }
 
-.panel {
+.overview-card {
   min-width: 0;
   width: 100%;
-  height: var(--dashboard-card-height);
-  min-height: 0;
-  overflow: hidden;
-  padding: 13px 16px;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
 }
 
-.panel h1,
+.card-heading {
+  margin-bottom: 10px;
+}
+
+.card-heading h1,
 .links-panel h1 {
   margin: 0;
-  color: #00204a;
-  font-size: clamp(16px, 1.25vw, 18px);
-  line-height: 1.25;
-  font-weight: 800;
+  color: var(--brand-900);
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
 }
 
-.overview-list {
+.company-introduction p {
+  max-width: 860px;
+  margin: 0 0 8px;
+  color: var(--text-body);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.company-introduction p:last-child {
+  margin-bottom: 12px;
+}
+
+.overview-tags {
   display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  column-gap: clamp(18px, 3vw, 42px);
-  row-gap: 6px;
-  margin: 10px 0 0;
-  font-size: clamp(13px, 1vw, 14px);
-  line-height: 1.45;
+  gap: 8px;
 }
 
-.overview-list dt {
-  margin: 0;
-  color: var(--muted);
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag-group strong {
+  margin-right: 2px;
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  color: var(--brand-700);
+  background: var(--brand-100);
+  border: 1px solid #d7e1e9;
+  border-radius: 4px;
+  font-size: 12px;
   white-space: nowrap;
 }
 
-.overview-list dd {
+.tag-neutral {
+  color: #556170;
+  background: #f6f8fa;
+  border-color: #e0e5eb;
+}
+
+.definition-list {
+  margin: 0;
+}
+
+.definition-list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--divider);
+}
+
+.definition-list > div:last-child {
+  border-bottom: 0;
+}
+
+.definition-list dt {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.definition-list dd {
   min-width: 0;
   margin: 0;
-  color: #001d3d;
+  color: var(--text-primary);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
   overflow-wrap: anywhere;
 }
 
-.observation-list {
-  display: grid;
-  gap: 9px;
-  margin: 10px 0 0;
-  padding-left: 18px;
-  color: #001d3d;
-  font-size: clamp(13px, 1vw, 14px);
-  line-height: 1.5;
+.definition-list a {
+  color: var(--brand-700);
+  text-decoration: none;
 }
 
-.observation-list li {
-  padding-left: 2px;
+.definition-list a:hover {
+  color: var(--brand-900);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.observation-list li::marker {
-  color: #0c2545;
-  font-size: .9em;
-}
-
-.observation-list span {
-  display: block;
-  width: min(92%, 560px);
-  height: 1px;
-  margin-top: .75em;
-  background: linear-gradient(90deg, var(--placeholder), rgba(201, 212, 226, 0));
+.definition-list a:focus-visible {
+  outline: 2px solid var(--brand-700);
+  outline-offset: 2px;
 }
 
 .dashboard-state {
@@ -120,33 +164,31 @@ body[data-page="dashboard"] {
   display: grid;
   place-items: center;
   padding: 20px;
-  color: var(--muted);
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
   font-size: 14px;
 }
 
 .links-shell {
-  min-height: 100vh;
   padding: 18px;
-  background: var(--bg);
+  background: #f5f7fb;
 }
 
 .links-panel {
   width: min(1200px, 100%);
   margin: 0 auto;
   padding: 18px;
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: var(--shadow);
 }
 
 .links-table-wrap {
   margin-top: 14px;
   overflow: auto;
-  border: 1px solid var(--line-soft);
+  border: 1px solid var(--divider);
   border-radius: 6px;
 }
 
@@ -160,7 +202,7 @@ body[data-page="dashboard"] {
 .links-table th,
 .links-table td {
   padding: 10px 12px;
-  border-bottom: 1px solid var(--line-soft);
+  border-bottom: 1px solid var(--divider);
   text-align: left;
   vertical-align: top;
 }
@@ -180,7 +222,7 @@ body[data-page="dashboard"] {
 }
 
 .links-table a {
-  color: var(--accent);
+  color: var(--brand-700);
   text-decoration: none;
   overflow-wrap: anywhere;
 }
@@ -190,20 +232,30 @@ body[data-page="dashboard"] {
 }
 
 .key-cell {
-  color: var(--muted);
+  color: var(--text-secondary);
   font-family: Consolas, "Courier New", monospace;
   font-size: 12px;
   overflow-wrap: anywhere;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .dashboard-shell {
     grid-template-columns: 1fr;
   }
+}
 
-  .overview-list {
-    grid-template-columns: 76px minmax(0, 1fr);
-    column-gap: 16px;
+@media (max-width: 560px) {
+  .overview-card {
+    padding: 16px;
+  }
+
+  .definition-list > div {
+    display: block;
+  }
+
+  .definition-list dd {
+    margin-top: 4px;
+    text-align: left;
   }
 }
 
