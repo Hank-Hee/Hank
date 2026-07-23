@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>行业研究库</title>
+<style>
+  :root {
+    --brand-900: #17324d;
+    --brand-700: #244e70;
+    --brand-600: #356582;
+    --accent-teal: #16847a;
+    --accent-gold: #d5b46a;
+    --accent-red: #c9474d;
+    --page-bg: #f7f8fa;
+    --surface: #ffffff;
+    --text-primary: #17212b;
+    --text-secondary: #667085;
+    --text-tertiary: #98a2b3;
+    --border: #d9e1e8;
+    --divider: #e9edf1;
+    --hover-bg: #f3f7f9;
+    --success: #2e7d5b;
+    --warning: #a86a12;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --shadow-sm: 0 1px 3px rgba(16, 24, 40, .06);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+  }
+
+  button, input, select { font: inherit; }
+  button, a, select { -webkit-tap-highlight-color: transparent; }
+
+  .page-shell {
+    width: min(100%, 1720px);
+    margin: 0 auto;
+    padding: 18px;
+  }
+
+  .library-hero > *,
+  .filter-grid > *,
+  .report-row > *,
+  .result-toolbar > * { min-width: 0; }
+
+  .library-hero {
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr);
+    align-items: center;
+    gap: 32px;
+    padding: 22px 42px;
+    overflow: hidden;
+    border: 1px solid #d7e4e6;
+    border-radius: 8px;
+    background: linear-gradient(100deg, #fff 0%, #f7fbfc 58%, #edf8f8 100%);
+  }
+
+  .eyebrow {
+    margin-bottom: 6px;
+    color: var(--accent-teal);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .2em;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--brand-900);
+    font-size: 38px;
+    font-weight: 750;
+    letter-spacing: .06em;
+    line-height: 1.15;
+  }
+
+  h1 span { color: var(--accent-teal); }
+
+  .en-title {
+    margin: 5px 0 0;
+    color: #7c91a3;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .26em;
+  }
+
+  .hero-description {
+    margin: 12px 0 0;
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 26px;
+    margin-top: 12px;
+  }
+
+  .hero-stat {
+    position: relative;
+    min-width: 112px;
+    padding-left: 12px;
+  }
+
+  .hero-stat::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 2px;
+    height: 30px;
+    background: var(--accent-gold);
+  }
+
+  .hero-stat strong {
+    display: block;
+    color: var(--brand-900);
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .hero-stat span {
+    display: block;
+    margin-top: 4px;
+    color: #7b8794;
+    font-size: 11px;
+  }
+
+  .hero-art svg { display: block; width: 100%; max-height: 204px; }
+
+  .filter-panel {
+    margin-top: 16px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .filter-grid {
+    display: grid;
+    grid-template-columns: minmax(280px, 2fr) repeat(4, minmax(130px, 1fr)) auto;
+    align-items: end;
+    gap: 12px;
+  }
+
+  .field { min-width: 0; }
+  .field label,
+  .field-label {
+    display: block;
+    margin: 0 0 6px 2px;
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .search-control { position: relative; }
+  .search-icon {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+    transform: translateY(-50%);
+    color: var(--text-tertiary);
+    pointer-events: none;
+  }
+
+  input[type="search"],
+  select {
+    width: 100%;
+    height: 44px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    outline: 0;
+    background: #fff;
+    color: var(--text-primary);
+    font-size: 13px;
+    transition: border-color .16s ease, box-shadow .16s ease;
+  }
+
+  input[type="search"] {
+    padding: 0 42px 0 40px;
+    appearance: none;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button { display: none; }
+  input::placeholder { color: var(--text-tertiary); }
+  select { padding: 0 34px 0 12px; }
+
+  input[type="search"]:focus,
+  select:focus {
+    border-color: var(--accent-teal);
+    box-shadow: 0 0 0 3px rgba(22, 132, 122, .12);
+  }
+
+  .clear-search {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+
+  .clear-search:hover { background: var(--hover-bg); }
+  .clear-search[hidden] { display: none; }
+
+  .clear-filters {
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: #fff;
+    color: var(--brand-900);
+    font-size: 13px;
+    cursor: pointer;
+    opacity: .58;
+    transition: opacity .16s ease, border-color .16s ease, background .16s ease;
+  }
+
+  .clear-filters.is-active { opacity: 1; border-color: #b8c8d2; }
+  .clear-filters:hover { background: var(--hover-bg); }
+  .clear-filters:focus-visible,
+  .page-button:focus-visible,
+  .detail-button:focus-visible,
+  .report-title:focus-visible {
+    outline: 3px solid rgba(22, 132, 122, .22);
+    outline-offset: 2px;
+  }
+
+  .result-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 4px 12px;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  .result-count strong { color: var(--brand-900); }
+  .sort-control { display: flex; align-items: center; gap: 8px; }
+  .sort-control select { width: 128px; height: 36px; }
+
+  .report-list {
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .list-header,
+  .report-row {
+    display: grid;
+    grid-template-columns: minmax(360px, 2.1fr) minmax(150px, .9fr) minmax(170px, .9fr) minmax(160px, .9fr) 100px;
+    gap: 20px;
+  }
+
+  .list-header {
+    padding: 12px 22px;
+    border-bottom: 1px solid var(--divider);
+    background: #fbfcfd;
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .report-row {
+    min-height: 112px;
+    align-items: center;
+    padding: 19px 22px;
+    border-bottom: 1px solid var(--divider);
+    transition: background .15s ease;
+  }
+
+  .report-row:last-child { border-bottom: 0; }
+  .report-row:hover { background: var(--hover-bg); }
+
+  .report-title {
+    display: -webkit-box;
+    overflow: hidden;
+    color: var(--brand-900);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  a.report-title:hover { color: var(--accent-teal); text-decoration: underline; }
+  .report-title.is-disabled { color: #536576; }
+
+  .report-summary {
+    display: -webkit-box;
+    overflow: hidden;
+    margin: 7px 0 0;
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .meta-cell {
+    color: var(--text-secondary);
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+
+  .meta-cell strong {
+    display: block;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .cell-label { display: none; }
+  .action-cell { text-align: right; }
+
+  .format-badge {
+    display: inline-flex;
+    min-width: 42px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding: 0 8px;
+    border: 1px solid #c9d6dd;
+    border-radius: var(--radius-sm);
+    background: #f8fafb;
+    color: var(--brand-700);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .detail-button {
+    display: inline-flex;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: #fff;
+    color: var(--brand-900);
+    font-size: 13px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .detail-button:hover { background: #edf4f6; border-color: #b8cbd3; }
+  .pending-link { color: var(--warning); font-size: 12px; line-height: 1.4; }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 16px;
+    border-top: 1px solid var(--divider);
+    background: #fff;
+  }
+
+  .page-button {
+    min-width: 34px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: #fff;
+    color: var(--brand-900);
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .page-button:hover:not(:disabled) { background: var(--hover-bg); }
+  .page-button.is-current { border-color: var(--accent-teal); background: var(--accent-teal); color: #fff; }
+  .page-button:disabled { cursor: not-allowed; opacity: .45; }
+
+  .empty-state,
+  .error-state {
+    padding: 64px 24px;
+    text-align: center;
+  }
+
+  .empty-state h2,
+  .error-state h2 { margin: 0; color: var(--brand-900); font-size: 18px; }
+  .empty-state p,
+  .error-state p { margin: 8px 0 18px; color: var(--text-secondary); font-size: 13px; }
+
+  .state-button {
+    height: 36px;
+    padding: 0 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: #fff;
+    color: var(--brand-900);
+    cursor: pointer;
+  }
+
+  .skeleton-row {
+    min-height: 112px;
+    padding: 20px 22px;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .skeleton-line {
+    height: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #eef1f4 25%, #f7f8fa 50%, #eef1f4 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+  }
+
+  .skeleton-line.title { width: 42%; height: 16px; }
+  .skeleton-line.summary { width: 72%; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+
+  [hidden] { display: none !important; }
+
+  @media (max-width: 1279px) {
+    .filter-grid { grid-template-columns: repeat(4, minmax(130px, 1fr)) auto; }
+    .search-field { grid-column: 1 / -1; }
+    .list-header,
+    .report-row { grid-template-columns: minmax(340px, 2.1fr) minmax(150px, .9fr) minmax(170px, .9fr) 100px; }
+    .company-column { display: none; }
+  }
+
+  @media (max-width: 900px) {
+    .page-shell { padding: 12px; }
+    .library-hero { grid-template-columns: minmax(0, 1fr) 250px; gap: 16px; padding: 24px 28px; }
+    .hero-art svg { max-height: 180px; }
+    h1 { font-size: 35px; }
+    .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .clear-filters { width: 100%; }
+    .list-header { display: none; }
+    .report-row {
+      grid-template-columns: minmax(0, 1fr) minmax(150px, .65fr) 96px;
+      gap: 18px;
+    }
+    .source-column { display: none; }
+  }
+
+  @media (max-width: 759px) {
+    .library-hero { grid-template-columns: 1fr; min-height: 0; }
+    .hero-art { display: none; }
+    h1 { font-size: 34px; }
+    .filter-grid { grid-template-columns: 1fr; }
+    .search-field { grid-column: auto; }
+    .result-toolbar { align-items: flex-start; flex-wrap: wrap; }
+    .report-list { overflow: visible; border: 0; background: transparent; box-shadow: none; }
+    #reportRows { display: grid; gap: 10px; }
+    .report-row {
+      min-height: 0;
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+    }
+    .report-row:hover { background: #fff; }
+    .meta-column { display: none; }
+    .action-cell { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; margin-top: 15px; text-align: left; }
+    .format-badge { margin: 0; }
+    .pagination { margin-top: 10px; border: 1px solid var(--border); border-radius: 8px; }
+  }
+
+  @media (max-width: 460px) {
+    .page-shell { padding: 8px; }
+    .library-hero, .filter-panel { padding-left: 18px; padding-right: 18px; }
+    .hero-stats { gap: 12px; }
+    .hero-stat { min-width: 96px; }
+    .sort-control span { display: none; }
+    .pagination { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="library-hero" aria-labelledby="page-title">
+      <div>
+        <div class="eyebrow">RESEARCH ARCHIVE</div>
+        <h1 id="page-title">行业<span>研究</span>库</h1>
+        <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
+        <p class="hero-description">集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
+        <div class="hero-stats" aria-label="研究库统计">
+          <div class="hero-stat"><strong id="totalReports">—</strong><span>份报告</span></div>
+          <div class="hero-stat"><strong id="totalSources">—</strong><span>来源机构</span></div>
+          <div class="hero-stat"><strong id="latestUpdated">—</strong><span>最近更新</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 520 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="heroDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#75bfc1" fill-opacity=".34"/></pattern>
+          </defs>
+          <ellipse cx="282" cy="122" rx="210" ry="100" fill="url(#heroDots)"/>
+          <ellipse cx="282" cy="122" rx="178" ry="84" stroke="#c4e3e3"/>
+          <path d="M105 122H459M140 80H430M140 164H430" stroke="#d1e9e9"/>
+          <g class="report-cube"><path d="M118 60L183 38L237 59L170 83L118 60Z" fill="#fff" fill-opacity=".92" stroke="#68bfc2" stroke-width="1.8"/><path d="M118 60V145L170 169V83L118 60Z" fill="#f9fefe" stroke="#68bfc2" stroke-width="1.8"/><path d="M170 83L237 59V142L170 169V83Z" fill="#eaf7f7" stroke="#68bfc2" stroke-width="1.8"/><path d="M133 80L158 90M133 94L158 104M188 91L220 79M188 105L220 93" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/></g>
+          <g class="report-cube"><path d="M244 82L300 64L349 82L297 101L244 82Z" fill="#fff" fill-opacity=".9" stroke="#72c2c4" stroke-width="1.8"/><path d="M244 82V153L297 175V101L244 82Z" fill="#f9fefe" stroke="#72c2c4" stroke-width="1.8"/><path d="M297 101L349 82V148L297 175V101Z" fill="#eaf7f7" stroke="#72c2c4" stroke-width="1.8"/><path d="M259 101L284 111M259 115L284 125M312 111L335 102M312 125L335 116" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/></g>
+          <g class="report-cube"><path d="M355 106L402 91L444 106L399 124L355 106Z" fill="#fff" fill-opacity=".88" stroke="#7ac6c8" stroke-width="1.8"/><path d="M355 106V160L399 179V124L355 106Z" fill="#f9fefe" stroke="#7ac6c8" stroke-width="1.8"/><path d="M399 124L444 106V157L399 179V124Z" fill="#eaf7f7" stroke="#7ac6c8" stroke-width="1.8"/><path d="M368 123L390 132M368 137L390 146M412 133L431 126" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/></g>
+          <g transform="translate(178 207)"><circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/><ellipse cy="-7" rx="8" ry="3.5" stroke="#16847a" stroke-width="1.8"/><path d="M-8-7V8C-8 11 8 11 8 8V-7M-8 1C-5 4 5 4 8 1" stroke="#16847a" stroke-width="1.8"/></g>
+          <g transform="translate(282 207)"><circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/><path d="M1-13C6-6 10-2 9 5C8 12 3 15-2 14C-9 13-12 8-10 2C-8-3-4-6-4-11C0-8 2-5 1-1C4-4 3-9 1-13Z" stroke="#16847a" stroke-width="1.8" stroke-linejoin="round"/></g>
+          <g transform="translate(386 207)"><circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/><circle cy="-4" r="2.5" fill="#d8f1f1" stroke="#16847a" stroke-width="1.5"/><path d="M0-7V-16M2-3L11 2M-2-3L-11 2M0-1V10M-12 13C-8 10-4 16 0 13C4 10 8 16 12 13" stroke="#16847a" stroke-width="1.7" stroke-linecap="round"/></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="filter-panel" aria-label="报告搜索与筛选">
+      <div class="filter-grid">
+        <div class="field search-field">
+          <label for="searchInput">搜索</label>
+          <div class="search-control">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="M16 16L21 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input id="searchInput" type="search" placeholder="搜索报告标题、摘要、关键词或公司名称" autocomplete="off">
+            <button id="clearSearch" class="clear-search" type="button" aria-label="清空搜索" hidden>×</button>
+          </div>
+        </div>
+        <div class="field"><label for="industryFilter">行业</label><select id="industryFilter"><option value="">全部</option></select></div>
+        <div class="field"><label for="regionFilter">区域</label><select id="regionFilter"><option value="">全部</option></select></div>
+        <div class="field"><label for="typeFilter">报告类型</label><select id="typeFilter"><option value="">全部</option></select></div>
+        <div class="field"><label for="sourceFilter">来源</label><select id="sourceFilter"><option value="">全部</option></select></div>
+        <button id="clearFilters" class="clear-filters" type="button">清除筛选</button>
+      </div>
+    </section>
+
+    <div class="result-toolbar">
+      <div class="result-count" id="resultCount" aria-live="polite">正在加载报告…</div>
+      <label class="sort-control"><span>排序</span><select id="sortSelect" aria-label="排序"><option value="newest">最新发布</option><option value="oldest">最早发布</option><option value="title">标题排序</option></select></label>
+    </div>
+
+    <section class="report-list" id="reportList" aria-label="行业报告列表">
+      <div class="list-header" aria-hidden="true">
+        <div>报告标题与摘要</div><div>行业 / 区域</div><div>来源 / 日期</div><div class="company-column">关联公司</div><div style="text-align:right">操作</div>
+      </div>
+      <div id="loadingState">
+        <div class="skeleton-row"><div class="skeleton-line title"></div><div class="skeleton-line summary"></div></div>
+        <div class="skeleton-row"><div class="skeleton-line title"></div><div class="skeleton-line summary"></div></div>
+        <div class="skeleton-row"><div class="skeleton-line title"></div><div class="skeleton-line summary"></div></div>
+      </div>
+      <div id="reportRows" hidden></div>
+      <div id="emptyState" class="empty-state" hidden><h2>未找到符合当前条件的报告</h2><p>尝试调整关键词或清除筛选条件</p><button class="state-button" type="button" data-action="clear">清除筛选</button></div>
+      <div id="errorState" class="error-state" hidden><h2>报告数据加载失败</h2><p>请刷新页面或联系市场研究组</p><button class="state-button" type="button" data-action="retry">重新加载</button></div>
+      <nav id="pagination" class="pagination" aria-label="报告分页" hidden></nav>
+    </section>
+  </main>
+
+<script src="industry-research-demo-data.js"></script>
+<script>
+  (() => {
+    const reports = Array.isArray(window.INDUSTRY_REPORTS) ? window.INDUSTRY_REPORTS.slice() : null;
+    const elements = {
+      search: document.getElementById("searchInput"),
+      clearSearch: document.getElementById("clearSearch"),
+      industry: document.getElementById("industryFilter"),
+      region: document.getElementById("regionFilter"),
+      type: document.getElementById("typeFilter"),
+      source: document.getElementById("sourceFilter"),
+      clearFilters: document.getElementById("clearFilters"),
+      sort: document.getElementById("sortSelect"),
+      count: document.getElementById("resultCount"),
+      rows: document.getElementById("reportRows"),
+      loading: document.getElementById("loadingState"),
+      empty: document.getElementById("emptyState"),
+      error: document.getElementById("errorState"),
+      pagination: document.getElementById("pagination"),
+      list: document.getElementById("reportList")
+    };
+
+    const state = { query: "", industry: "", region: "", type: "", source: "", sort: "newest", page: 1 };
+    let pageSize = window.innerWidth >= 1280 ? 10 : 8;
+
+    function createElement(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function uniqueValues(key) {
+      return [...new Set(reports.map(item => item[key]).filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-CN"));
+    }
+
+    function fillSelect(select, key) {
+      uniqueValues(key).forEach(value => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function normalize(value) {
+      return String(value || "").trim().toLocaleLowerCase("zh-CN");
+    }
+
+    function searchableText(report) {
+      return normalize([
+        report.title, report.subtitle, report.summary, report.industry, report.region,
+        report.type, report.source, ...(report.companies || []), ...(report.keywords || [])
+      ].join(" "));
+    }
+
+    function hasActiveFilters() {
+      return Boolean(state.query || state.industry || state.region || state.type || state.source);
+    }
+
+    function getFilteredReports() {
+      const query = normalize(state.query);
+      const filtered = reports.filter(report => {
+        if (query && !searchableText(report).includes(query)) return false;
+        if (state.industry && report.industry !== state.industry) return false;
+        if (state.region && report.region !== state.region) return false;
+        if (state.type && report.type !== state.type) return false;
+        if (state.source && report.source !== state.source) return false;
+        return true;
+      });
+
+      filtered.sort((a, b) => {
+        if (state.sort === "oldest") return a.date.localeCompare(b.date);
+        if (state.sort === "title") return a.title.localeCompare(b.title, "zh-CN");
+        return b.date.localeCompare(a.date);
+      });
+      return filtered;
+    }
+
+    function companyText(report) {
+      const companies = report.companies || [];
+      if (!companies.length) return "—";
+      const visible = companies.slice(0, 2).join(" · ");
+      return companies.length > 2 ? `${visible} +${companies.length - 2}` : visible;
+    }
+
+    function makeReportRow(report) {
+      const row = createElement("article", "report-row");
+
+      const identity = createElement("div", "identity-column");
+      const detailHref = `industry-report-detail-demo.html?id=${encodeURIComponent(report.id)}`;
+      if (report.detailAvailable) {
+        const title = createElement("a", "report-title", report.title);
+        title.href = detailHref;
+        title.target = "_blank";
+        title.rel = "noopener noreferrer";
+        identity.appendChild(title);
+      } else {
+        identity.appendChild(createElement("div", "report-title is-disabled", report.title));
+      }
+      identity.appendChild(createElement("p", "report-summary", report.summary));
+
+      const classification = createElement("div", "meta-cell meta-column");
+      classification.appendChild(createElement("span", "cell-label", "行业 / 区域"));
+      classification.appendChild(createElement("strong", "", `${report.industry} · ${report.region}`));
+      classification.appendChild(createElement("span", "", report.type));
+
+      const source = createElement("div", "meta-cell source-column");
+      source.appendChild(createElement("span", "cell-label", "来源 / 日期"));
+      source.appendChild(createElement("strong", "", report.source));
+      source.appendChild(createElement("span", "", `${report.date} · ${report.language}`));
+
+      const companies = createElement("div", "meta-cell company-column");
+      companies.appendChild(createElement("span", "cell-label", "关联公司"));
+      companies.appendChild(createElement("strong", "", companyText(report)));
+
+      const action = createElement("div", "action-cell");
+      action.appendChild(createElement("span", "format-badge", report.format));
+      if (report.detailAvailable) {
+        const button = createElement("a", "detail-button", "查看详情");
+        button.href = detailHref;
+        button.target = "_blank";
+        button.rel = "noopener noreferrer";
+        action.appendChild(button);
+      } else {
+        action.appendChild(createElement("div", "pending-link", "链接待维护"));
+      }
+
+      row.append(identity, classification, source, companies, action);
+      return row;
+    }
+
+    function makePageButton(label, page, options = {}) {
+      const button = createElement("button", `page-button${options.current ? " is-current" : ""}`, label);
+      button.type = "button";
+      button.disabled = Boolean(options.disabled);
+      if (options.current) button.setAttribute("aria-current", "page");
+      button.addEventListener("click", () => {
+        state.page = page;
+        render();
+        elements.list.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      return button;
+    }
+
+    function renderPagination(totalItems) {
+      const pages = Math.max(1, Math.ceil(totalItems / pageSize));
+      state.page = Math.min(state.page, pages);
+      elements.pagination.replaceChildren();
+      if (pages <= 1) {
+        elements.pagination.hidden = true;
+        return;
+      }
+
+      elements.pagination.hidden = false;
+      elements.pagination.appendChild(makePageButton("上一页", Math.max(1, state.page - 1), { disabled: state.page === 1 }));
+      for (let page = 1; page <= pages; page += 1) {
+        elements.pagination.appendChild(makePageButton(String(page), page, { current: page === state.page }));
+      }
+      elements.pagination.appendChild(makePageButton("下一页", Math.min(pages, state.page + 1), { disabled: state.page === pages }));
+    }
+
+    function render() {
+      if (!reports) {
+        elements.loading.hidden = true;
+        elements.error.hidden = false;
+        elements.count.textContent = "数据加载失败";
+        return;
+      }
+
+      const filtered = getFilteredReports();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+      state.page = Math.min(state.page, totalPages);
+      const start = (state.page - 1) * pageSize;
+      const visible = filtered.slice(start, start + pageSize);
+
+      elements.rows.replaceChildren(...visible.map(makeReportRow));
+      elements.rows.hidden = visible.length === 0;
+      elements.empty.hidden = visible.length !== 0;
+      elements.count.innerHTML = `显示 <strong>${filtered.length}</strong> 份报告`;
+      elements.clearSearch.hidden = !state.query;
+      elements.clearFilters.classList.toggle("is-active", hasActiveFilters());
+      renderPagination(filtered.length);
+    }
+
+    function clearAll() {
+      state.query = state.industry = state.region = state.type = state.source = "";
+      state.page = 1;
+      elements.search.value = "";
+      elements.industry.value = "";
+      elements.region.value = "";
+      elements.type.value = "";
+      elements.source.value = "";
+      render();
+    }
+
+    function updateStats() {
+      document.getElementById("totalReports").textContent = reports.length;
+      document.getElementById("totalSources").textContent = new Set(reports.map(report => report.source)).size;
+      document.getElementById("latestUpdated").textContent = reports.map(report => report.date).sort().at(-1);
+    }
+
+    function bindFilter(element, stateKey) {
+      element.addEventListener("change", () => {
+        state[stateKey] = element.value;
+        state.page = 1;
+        render();
+      });
+    }
+
+    if (!reports) {
+      render();
+      return;
+    }
+
+    fillSelect(elements.industry, "industry");
+    fillSelect(elements.region, "region");
+    fillSelect(elements.type, "type");
+    fillSelect(elements.source, "source");
+    updateStats();
+
+    elements.search.addEventListener("input", () => {
+      state.query = elements.search.value;
+      state.page = 1;
+      render();
+    });
+    elements.clearSearch.addEventListener("click", () => {
+      elements.search.value = "";
+      state.query = "";
+      state.page = 1;
+      elements.search.focus();
+      render();
+    });
+    bindFilter(elements.industry, "industry");
+    bindFilter(elements.region, "region");
+    bindFilter(elements.type, "type");
+    bindFilter(elements.source, "source");
+    elements.sort.addEventListener("change", () => { state.sort = elements.sort.value; state.page = 1; render(); });
+    elements.clearFilters.addEventListener("click", clearAll);
+    document.querySelector('[data-action="clear"]').addEventListener("click", clearAll);
+    document.querySelector('[data-action="retry"]').addEventListener("click", () => window.location.reload());
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const nextPageSize = window.innerWidth >= 1280 ? 10 : 8;
+        if (nextPageSize !== pageSize) { pageSize = nextPageSize; state.page = 1; render(); }
+      }, 120);
+    });
+
+    setTimeout(() => {
+      elements.loading.hidden = true;
+      elements.rows.hidden = false;
+      render();
+    }, 120);
+  })();
+</script>
+</body>
+</html>
+
