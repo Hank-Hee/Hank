@@ -3,28 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="全球能源、海工与工程企业信息检索平台">
   <title>行业公司概览</title>
   <style>
     :root {
-      --ink: #102a43;
-      --muted: #8194a6;
-      --brand-red: #d8283a;
-      --border: #dce6ee;
-      --bg-left: #ffffff;
-      --bg-mid: #fbfdfe;
-      --bg-right: #eef5f7;
-      --atmosphere-blue: rgba(116, 165, 186, .16);
-      --atmosphere-cyan: rgba(113, 191, 193, .10);
-      --sea-haze: rgba(190, 221, 226, .32);
-      --hull: #f7fafc;
-      --module: #eaf2f6;
-      --module-teal: #e2f2f1;
-      --tank-fill: #eef4f7;
-      --line: #6f8ea7;
-      --line-soft: #a8bdce;
-      --teal-line: #71bfc1;
-      --wave-front: #87cdd1;
-      --wave-rear: #b5d5e4;
+      --banner-bg-left: #f8fbfc;
+      --banner-bg-right: #edf7f8;
+      --banner-heading: #17324d;
+      --banner-accent: #c9363e;
+      --banner-subtitle: #7890a4;
+      --banner-description: #667085;
+      --banner-border: #d9e4ea;
+      --banner-radius: 8px;
     }
 
     * {
@@ -34,395 +24,210 @@
     html,
     body {
       width: 100%;
-      height: 100%;
+      min-width: 0;
       margin: 0;
-      overflow: hidden;
       background: transparent;
-      color: var(--ink);
-      font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
     }
 
-    .banner-shell {
+    .banner-root {
       width: 100%;
-      height: 100vh;
-      max-height: 380px;
+      min-width: 0;
     }
 
     .industry-banner {
-      position: relative;
+      display: grid;
+      grid-template-columns: minmax(420px, .95fr) minmax(520px, 1.35fr);
+      gap: clamp(32px, 3vw, 48px);
       width: 100%;
-      height: 100%;
-      min-height: 0;
+      height: 196px;
+      min-width: 0;
       overflow: hidden;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background:
-        radial-gradient(ellipse 58% 112% at 82% 43%, var(--atmosphere-blue) 0%, rgba(116, 165, 186, .07) 38%, transparent 72%),
-        radial-gradient(ellipse 36% 66% at 75% 76%, var(--atmosphere-cyan) 0%, transparent 72%),
-        linear-gradient(180deg, transparent 0%, transparent 52%, rgba(220, 235, 239, .08) 66%, var(--sea-haze) 100%),
-        linear-gradient(102deg, var(--bg-left) 0%, var(--bg-mid) 42%, var(--bg-right) 100%);
+      padding: 28px clamp(48px, 4vw, 64px);
+      border: 1px solid var(--banner-border);
+      border-radius: var(--banner-radius);
+      background: linear-gradient(90deg, var(--banner-bg-left) 0%, #f5f9fb 52%, var(--banner-bg-right) 100%);
     }
 
     .copy-panel {
-      position: absolute;
-      left: clamp(36px, 6vw, 104px);
-      top: 50%;
-      z-index: 2;
-      width: 38%;
-      transform: translateY(-50%);
+      display: flex;
+      min-width: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
 
     h1 {
       margin: 0;
-      color: var(--ink);
-      font-size: clamp(26px, min(4.7vw, 19vh), 76px);
-      line-height: 1.02;
-      font-weight: 800;
-      letter-spacing: 0;
+      color: var(--banner-heading);
+      font-size: clamp(42px, 3.1vw, 46px);
+      font-weight: 700;
+      line-height: 1.08;
+      letter-spacing: -.04em;
       white-space: nowrap;
     }
 
     h1 .accent {
-      color: var(--brand-red);
+      color: var(--banner-accent);
     }
 
     .english-title {
-      margin: clamp(6px, 3.8vh, 16px) 0 0;
-      color: var(--muted);
-      font-size: clamp(8px, min(1vw, 4vh), 15px);
+      margin: 6px 0 0;
+      color: var(--banner-subtitle);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .18em;
       line-height: 1.3;
-      font-weight: 700;
-      letter-spacing: .28em;
       text-transform: uppercase;
       white-space: nowrap;
     }
 
+    .description {
+      margin: 12px 0 0;
+      color: var(--banner-description);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.45;
+      white-space: nowrap;
+    }
+
     .fleet-stage {
-      position: absolute;
-      top: 0;
-      right: clamp(16px, 2vw, 34px);
-      z-index: 1;
-      width: min(62vw, 1060px);
+      display: flex;
+      min-width: 0;
       height: 100%;
+      align-items: center;
+      justify-content: flex-end;
       pointer-events: none;
     }
 
-    .fleet-stage svg {
+    .fleet-stage img {
       display: block;
       width: 100%;
+      max-width: 700px;
       height: 100%;
+      object-fit: contain;
+      object-position: right center;
+      opacity: .66;
     }
 
-    .fleet-canvas--compact {
-      display: none !important;
-    }
-
-    .hull,
-    .module,
-    .module-teal,
-    .tank,
-    .structure-line,
-    .detail-line,
-    .wave-path {
-      vector-effect: non-scaling-stroke;
-    }
-
-    .hull {
-      fill: var(--hull);
-      stroke: var(--line);
-      stroke-width: 1.5;
-      stroke-linejoin: round;
-    }
-
-    .module {
-      fill: var(--module);
-      stroke: var(--line);
-      stroke-width: 1.35;
-      stroke-linejoin: round;
-    }
-
-    .module-teal {
-      fill: var(--module-teal);
-      stroke: var(--teal-line);
-      stroke-width: 1.35;
-      stroke-linejoin: round;
-    }
-
-    .tank {
-      fill: var(--tank-fill);
-      stroke: var(--line);
-      stroke-width: 1.35;
-      stroke-linejoin: round;
-    }
-
-    .structure-line {
-      fill: none;
-      stroke: var(--line);
-      stroke-width: 1.35;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .detail-line {
-      fill: none;
-      stroke: var(--line-soft);
-      stroke-width: 1;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .ship--lower {
-      animation: lower-float 4.8s ease-in-out infinite;
-      transform-box: fill-box;
-      transform-origin: center bottom;
-    }
-
-    .ship--flng {
-      animation: upper-float 4.2s ease-in-out -1.4s infinite;
-      transform-box: fill-box;
-      transform-origin: center bottom;
-    }
-
-    .ship--fsru {
-      animation: fsru-float 4.4s ease-in-out -1.7s infinite;
-    }
-
-    .wave-path {
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .wave-source,
-    .wave-path use {
-      vector-effect: non-scaling-stroke;
-    }
-
-    .wave-front {
-      stroke: var(--wave-front);
-      stroke-width: 1.6;
-      animation-name: front-wave-drift;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      will-change: transform;
-    }
-
-    .wave-rear {
-      stroke: var(--wave-rear);
-      stroke-width: 1.1;
-      animation-name: rear-wave-drift;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      will-change: transform;
-    }
-
-    .fpso-front { animation-duration: 5.6s; }
-    .fpso-rear { animation-duration: 8.2s; }
-    .flng-front { animation-duration: 4.7s; }
-    .flng-rear { animation-duration: 6.8s; }
-    .fsru-front { animation-duration: 5.3s; }
-    .fsru-rear { animation-duration: 7.8s; }
-
-    @keyframes lower-float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-1.5px); }
-    }
-
-    @keyframes upper-float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-1.3px); }
-    }
-
-    @keyframes fsru-float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-1.5px); }
-    }
-
-    @keyframes front-wave-drift {
-      to { transform: translateX(-48px); }
-    }
-
-    @keyframes rear-wave-drift {
-      to { transform: translateX(-64px); }
-    }
-
-    @media (max-height: 220px) {
+    @media (max-width: 1199px) {
       .industry-banner {
-        border-radius: 6px;
+        grid-template-columns: minmax(360px, .95fr) minmax(400px, 1.05fr);
+        gap: 32px;
+        height: 188px;
+        padding: 24px 32px;
       }
 
-      .copy-panel {
-        left: clamp(28px, 5vw, 92px);
-        width: 36%;
+      h1 {
+        font-size: 42px;
       }
 
-      .fleet-stage {
-        right: 14px;
-        width: 63%;
+      .description {
+        font-size: 13px;
       }
 
-      .fleet-canvas--standard {
-        display: none !important;
+      .fleet-stage img {
+        width: 120%;
+        max-width: none;
+      }
+    }
+
+    @media (max-width: 920px) {
+      .industry-banner {
+        grid-template-columns: minmax(330px, 1fr) minmax(250px, .72fr);
+        gap: 24px;
+        height: 184px;
+        padding: 22px 28px;
       }
 
-      .fleet-canvas--compact {
-        display: block !important;
+      h1 {
+        font-size: 40px;
       }
 
       .english-title {
-        letter-spacing: .22em;
+        font-size: 11px;
+      }
+
+      .fleet-stage {
+        overflow: hidden;
+      }
+
+      .fleet-stage img {
+        width: 160%;
+        max-width: none;
+        transform: translateX(11%);
       }
     }
 
-    @media (prefers-reduced-motion: reduce) {
-      .ship--lower,
-      .ship--flng,
-      .ship--fsru,
-      .wave-front,
-      .wave-rear {
-        animation: none !important;
+    @media (max-width: 767px) {
+      .industry-banner {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        height: auto;
+        min-height: 210px;
+        padding: 18px 24px 14px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .english-title {
+        margin-top: 4px;
+        font-size: 11px;
+        letter-spacing: .14em;
+      }
+
+      .description {
+        margin-top: 8px;
+        font-size: 13px;
+      }
+
+      .fleet-stage {
+        position: relative;
+        display: block;
+        height: 72px;
+        overflow: hidden;
+      }
+
+      .fleet-stage img {
+        position: absolute;
+        top: 0;
+        left: -128%;
+        width: 220%;
+        max-width: none;
+        height: auto;
+        transform: translateY(-44%);
+      }
+    }
+
+    @media (max-width: 420px) {
+      .industry-banner {
+        padding-right: 18px;
+        padding-left: 18px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .description {
+        font-size: 12px;
       }
     }
   </style>
 </head>
 <body>
-  <main class="banner-shell">
+  <main class="banner-root">
     <section class="industry-banner" aria-labelledby="banner-title banner-subtitle">
       <div class="copy-panel">
         <h1 id="banner-title">行业公司<span class="accent">概览</span></h1>
         <p class="english-title" id="banner-subtitle">Industry Company Overview</p>
+        <p class="description">全球能源、海工与工程企业信息检索平台</p>
       </div>
 
-      <div class="fleet-stage">
-        <svg class="fleet-canvas fleet-canvas--standard" viewBox="0 0 1000 340" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="fleet-title fleet-desc">
-          <title id="fleet-title">三种海工船型示意</title>
-          <desc id="fleet-desc">左下为生产处理船型，右上为液化处理船型，右下为带连续圆肩储罐的再气化船型。</desc>
-
-          <defs>
-            <clipPath id="fpso-sea" clipPathUnits="userSpaceOnUse">
-              <rect x="90" y="271" width="380" height="32"></rect>
-            </clipPath>
-            <clipPath id="flng-sea" clipPathUnits="userSpaceOnUse">
-              <rect x="590" y="135" width="300" height="25"></rect>
-            </clipPath>
-            <clipPath id="fsru-sea" clipPathUnits="userSpaceOnUse">
-              <rect x="730" y="271" width="205" height="32"></rect>
-            </clipPath>
-            <path id="front-wave" d="M0 0 q12 -5 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0"></path>
-            <path id="rear-wave" d="M0 0 q16 -3 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0"></path>
-          </defs>
-
-          <g id="fpso" class="ship ship--lower">
-            <path class="hull" d="M36 230 H538 L512 271 H80 Q66 271 58 261 Z"></path>
-            <path class="detail-line" d="M61 244 H520 M102 239 V262 M156 239 V262 M210 239 V262 M264 239 V262 M318 239 V262 M372 239 V262 M426 239 V262 M480 239 V262"></path>
-            <path class="module-teal" d="M62 230 V210 H96 V230 Z"></path>
-            <path class="structure-line" d="M108 230 V194 H302 V230 M108 206 H302 M108 218 H302 M132 194 V230 M166 194 V230 M200 194 V230 M234 194 V230 M268 194 V230"></path>
-            <path class="module-teal" d="M320 230 V190 H404 V230 Z"></path>
-            <path class="module" d="M430 230 V150 H500 V230 Z"></path>
-            <path class="detail-line" d="M332 202 H392 M332 214 H392 M441 168 H489 M441 184 H489 M441 200 H489 M441 216 H489"></path>
-            <path class="structure-line" d="M96 218 H108 M302 218 H320 M404 218 H430"></path>
-          </g>
-
-          <g id="flng" class="ship ship--flng">
-            <path class="hull" d="M505 103 H970 L946 135 H550 Q536 135 526 124 Z"></path>
-            <path class="detail-line" d="M532 114 H958 M566 110 V128 M620 110 V128 M674 110 V128 M728 110 V128 M782 110 V128 M836 110 V128 M890 110 V128 M936 110 V128"></path>
-            <path class="module-teal" d="M548 103 V62 L558 52 H642 L652 62 V103 Z"></path>
-            <path class="module" d="M662 103 V48 L674 38 H758 L770 48 V103 Z"></path>
-            <path class="module-teal" d="M780 103 V58 L790 48 H868 L878 58 V103 Z"></path>
-            <path class="module" d="M892 103 V68 H944 V103 Z"></path>
-            <path class="detail-line" d="M564 68 H636 M564 80 H636 M564 92 H636 M680 55 H752 M680 68 H752 M680 81 H752 M680 94 H752 M796 64 H862 M796 77 H862 M796 90 H862 M902 80 H934 M902 91 H934"></path>
-            <path class="structure-line" d="M652 92 H662 M770 92 H780 M878 92 H892"></path>
-          </g>
-
-          <g id="fsru" class="ship ship--lower ship--fsru">
-            <path class="hull" d="M688 232 H982 L958 271 H728 Q715 271 706 260 Z"></path>
-            <path class="detail-line" d="M708 245 H970 M740 239 V263 M788 239 V263 M836 239 V263 M884 239 V263 M932 239 V263"></path>
-            <path class="tank" d="M720 232 V199 C720 185 730 177 743 177 C756 177 766 185 766 199 V232 Z"></path>
-            <path class="tank" d="M772 232 V194 C772 180 783 172 796 172 C809 172 820 180 820 194 V232 Z"></path>
-            <path class="tank" d="M826 232 V199 C826 185 836 177 849 177 C862 177 872 185 872 199 V232 Z"></path>
-            <path class="module-teal" d="M908 232 V188 H962 V232 Z"></path>
-            <path class="detail-line" d="M918 199 H952 M918 210 H952 M918 221 H952"></path>
-            <path class="structure-line" d="M908 216 H882 V226 H908"></path>
-          </g>
-
-          <g clip-path="url(#fpso-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave" x="20" y="288"></use></g>
-            <g class="wave-path wave-front fpso-front"><use href="#front-wave" x="20" y="279"></use></g>
-          </g>
-          <g clip-path="url(#flng-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave" x="480" y="151"></use></g>
-            <g class="wave-path wave-front flng-front"><use href="#front-wave" x="480" y="143"></use></g>
-          </g>
-          <g clip-path="url(#fsru-sea)" aria-hidden="true">
-            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave" x="660" y="288"></use></g>
-            <g class="wave-path wave-front fsru-front"><use href="#front-wave" x="660" y="279"></use></g>
-          </g>
-        </svg>
-
-        <svg class="fleet-canvas fleet-canvas--compact" viewBox="0 0 1200 132" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="fleet-title-compact fleet-desc-compact">
-          <title id="fleet-title-compact">三种海工船型紧凑示意</title>
-          <desc id="fleet-desc-compact">适配简道云短横幅的紧凑船型布局，下层两艘位于同一海平面，上层船舶位于独立海面。</desc>
-
-          <defs>
-            <clipPath id="fpso-sea-compact" clipPathUnits="userSpaceOnUse">
-              <rect x="75" y="112" width="470" height="19"></rect>
-            </clipPath>
-            <clipPath id="flng-sea-compact" clipPathUnits="userSpaceOnUse">
-              <rect x="720" y="57" width="370" height="18"></rect>
-            </clipPath>
-            <clipPath id="fsru-sea-compact" clipPathUnits="userSpaceOnUse">
-              <rect x="875" y="112" width="275" height="19"></rect>
-            </clipPath>
-            <path id="front-wave-compact" d="M0 0 q12 -5 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0"></path>
-            <path id="rear-wave-compact" d="M0 0 q16 -3 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0"></path>
-          </defs>
-
-          <g id="fpso-compact" class="ship ship--lower">
-            <path class="hull" d="M20 89 H650 L626 112 H72 Q60 112 50 105 Z"></path>
-            <path class="detail-line" d="M54 98 H638 M112 94 V108 M182 94 V108 M252 94 V108 M322 94 V108 M392 94 V108 M462 94 V108 M532 94 V108 M602 94 V108"></path>
-            <path class="module-teal" d="M58 89 V77 H94 V89 Z"></path>
-            <path class="structure-line" d="M110 89 V61 H318 V89 M110 70 H318 M110 80 H318 M144 61 V89 M180 61 V89 M216 61 V89 M252 61 V89 M288 61 V89"></path>
-            <path class="module-teal" d="M338 89 V57 H424 V89 Z"></path>
-            <path class="module" d="M480 89 V47 H552 V89 Z"></path>
-            <path class="detail-line" d="M350 68 H412 M350 79 H412 M492 58 H540 M492 68 H540 M492 78 H540"></path>
-            <path class="structure-line" d="M94 82 H110 M318 82 H338 M424 82 H480"></path>
-          </g>
-
-          <g id="flng-compact" class="ship ship--flng">
-            <path class="hull" d="M630 39 H1185 L1165 57 H670 Q658 57 648 50 Z"></path>
-            <path class="detail-line" d="M654 47 H1176 M710 43 V53 M780 43 V53 M850 43 V53 M920 43 V53 M990 43 V53 M1060 43 V53 M1130 43 V53"></path>
-            <path class="module-teal" d="M680 39 V14 L688 8 H770 L778 14 V39 Z"></path>
-            <path class="module" d="M790 39 V10 L798 4 H886 L894 10 V39 Z"></path>
-            <path class="module-teal" d="M906 39 V14 L914 8 H998 L1006 14 V39 Z"></path>
-            <path class="module" d="M1030 39 V18 H1100 V39 Z"></path>
-            <path class="detail-line" d="M694 20 H764 M694 29 H764 M804 16 H880 M804 26 H880 M920 20 H992 M920 29 H992 M1042 27 H1088"></path>
-            <path class="structure-line" d="M778 32 H790 M894 32 H906 M1006 32 H1030"></path>
-          </g>
-
-          <g id="fsru-compact" class="ship ship--lower ship--fsru">
-            <path class="hull" d="M850 89 H1190 L1170 112 H890 Q878 112 870 105 Z"></path>
-            <path class="detail-line" d="M874 98 H1180 M920 94 V108 M974 94 V108 M1028 94 V108 M1082 94 V108 M1136 94 V108"></path>
-            <path class="tank" d="M885 89 V69 C885 61 893 56 903 56 C913 56 921 61 921 69 V89 Z"></path>
-            <path class="tank" d="M930 89 V65 C930 57 938 52 948 52 C958 52 966 57 966 65 V89 Z"></path>
-            <path class="tank" d="M975 89 V69 C975 61 983 56 993 56 C1003 56 1011 61 1011 69 V89 Z"></path>
-            <path class="module-teal" d="M1100 89 V55 H1168 V89 Z"></path>
-            <path class="detail-line" d="M1112 65 H1156 M1112 75 H1156 M1112 83 H1156"></path>
-            <path class="structure-line" d="M1100 76 H1060 V84 H1100"></path>
-          </g>
-
-          <g clip-path="url(#fpso-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear fpso-rear"><use href="#rear-wave-compact" x="0" y="127"></use></g>
-            <g class="wave-path wave-front fpso-front"><use href="#front-wave-compact" x="0" y="119"></use></g>
-          </g>
-          <g clip-path="url(#flng-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear flng-rear"><use href="#rear-wave-compact" x="600" y="71"></use></g>
-            <g class="wave-path wave-front flng-front"><use href="#front-wave-compact" x="600" y="64"></use></g>
-          </g>
-          <g clip-path="url(#fsru-sea-compact)" aria-hidden="true">
-            <g class="wave-path wave-rear fsru-rear"><use href="#rear-wave-compact" x="780" y="127"></use></g>
-            <g class="wave-path wave-front fsru-front"><use href="#front-wave-compact" x="780" y="119"></use></g>
-          </g>
-        </svg>
+      <div class="fleet-stage" aria-hidden="true">
+        <img src="assets/company-directory-banner/company-directory-vessels.svg" alt="">
       </div>
     </section>
   </main>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" fill="none">
+  <defs>
+    <style>
+      .hull { fill: #f8fbfc; stroke: #6f8ea7; stroke-width: 2.4; stroke-linejoin: round; }
+      .module { fill: #eaf2f6; stroke: #6f8ea7; stroke-width: 2.2; stroke-linejoin: round; }
+      .module-teal { fill: #e2f2f1; stroke: #71bfc1; stroke-width: 2.2; stroke-linejoin: round; }
+      .tank { fill: #eef4f7; stroke: #6f8ea7; stroke-width: 2.2; stroke-linejoin: round; }
+      .structure { fill: none; stroke: #6f8ea7; stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
+      .detail { fill: none; stroke: #a8bdce; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+      .wave-front { fill: none; stroke: #87cdd1; stroke-width: 2.1; stroke-linecap: round; }
+      .wave-rear { fill: none; stroke: #b5d5e4; stroke-width: 1.8; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <g id="fpso">
+    <path class="hull" d="M40 194H538L512 239H80c-14 0-22-6-30-17z"/>
+    <path class="detail" d="M64 211h456M104 204v25m54-25v25m54-25v25m54-25v25m54-25v25m54-25v25m54-25v25m54-25v25"/>
+    <path class="module-teal" d="M65 194v-21h35v21z"/>
+    <path class="structure" d="M110 194v-38h194v38m-194-22h194m-194 12h194m24-28v38m34-38v38m34-38v38m34-38v38m34-38v38"/>
+    <path class="module-teal" d="M322 194v-42h83v42z"/>
+    <path class="module" d="M432 194v-74h70v74z"/>
+    <path class="detail" d="M334 165h59m-59 13h59m110-39h-49m49 15h-49m49 15h-49m49 15h-49"/>
+    <path class="structure" d="M96 184h14m194 0h18m83 0h27"/>
+  </g>
+
+  <g id="flng">
+    <path class="hull" d="M504 91h466l-25 34H550c-14 0-24-5-33-17z"/>
+    <path class="detail" d="M533 105h425m-391-8v20m54-20v20m54-20v20m54-20v20m54-20v20m54-20v20m54-20v20m44-20v20"/>
+    <path class="module-teal" d="M548 91V50l10-10h84l10 10v41z"/>
+    <path class="module" d="M664 91V36l12-11h82l12 11v55z"/>
+    <path class="module-teal" d="M782 91V47l10-10h76l10 10v44z"/>
+    <path class="module" d="M893 91V56h51v35z"/>
+    <path class="detail" d="M564 57h72m-72 13h72m-72 13h72m44-41h72m-72 14h72m-72 14h72m-72 14h72m44-39h66m-66 13h66m-66 13h66m48-18h32m-32 13h32"/>
+    <path class="structure" d="M652 80h12m106 0h12m108 0h13"/>
+  </g>
+
+  <g id="fsru">
+    <path class="hull" d="M688 196h294l-24 43H728c-13 0-22-5-30-17z"/>
+    <path class="detail" d="M708 212h262m-230-8v25m48-25v25m48-25v25m48-25v25m48-25v25"/>
+    <path class="tank" d="M720 196v-33c0-14 10-22 23-22s23 8 23 22v33z"/>
+    <path class="tank" d="M773 196v-38c0-14 10-22 23-22s23 8 23 22v38z"/>
+    <path class="tank" d="M826 196v-33c0-14 10-22 23-22s23 8 23 22v33z"/>
+    <path class="module-teal" d="M908 196v-44h54v44z"/>
+    <path class="detail" d="M918 165h34m-34 13h34m-34 13h34"/>
+    <path class="structure" d="M908 180h-26v10h26"/>
+  </g>
+
+  <path class="wave-front" d="M26 250c24-8 48 8 72 0s48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0 48-8 72 0 48 8 72 0"/>
+  <path class="wave-rear" d="M42 263c28-6 56 6 84 0s56-6 84 0 56 6 84 0 56-6 84 0 56 6 84 0 56-6 84 0 56 6 84 0 56-6 84 0 56 6 84 0 56-6 84 0 56 6 84 0 56-6 84 0 56 6 84 0"/>
+  <path class="wave-front" d="M502 138c20-6 40 6 60 0s40-6 60 0 40 6 60 0 40-6 60 0 40 6 60 0 40-6 60 0 40 6 60 0 40-6 60 0 40 6 60 0 40-6 60 0 40 6 60 0"/>
+</svg>
