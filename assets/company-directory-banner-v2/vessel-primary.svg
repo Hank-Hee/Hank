@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" preserveAspectRatio="xMidYMid meet" fill="none">
+  <defs>
+    <style>
+      .hull { fill: #f8fbfc; stroke: #7f9db4; stroke-width: 3; stroke-linejoin: round; }
+      .module { fill: #eaf3f6; stroke: #7f9db4; stroke-width: 2.7; stroke-linejoin: round; }
+      .module-teal { fill: #e8f5f4; stroke: #72c7c6; stroke-width: 2.7; stroke-linejoin: round; }
+      .structure { fill: none; stroke: #7f9db4; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .detail { fill: none; stroke: #a8c0d0; stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
+      .wave-primary { fill: none; stroke: #72c7c6; stroke-width: 3.1; stroke-linecap: round; }
+      .wave-secondary { fill: none; stroke: #a6deda; stroke-width: 2.7; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <path class="hull" d="M34 116h732l-38 46H84c-17 0-28-7-39-22z"/>
+  <path class="detail" d="M62 133h675M104 125v27m72-27v27m72-27v27m72-27v27m72-27v27m72-27v27m72-27v27m72-27v27m72-27v27"/>
+
+  <path class="module-teal" d="M70 116V92h42v24z"/>
+  <path class="structure" d="M126 116V67h264v49M126 86h264M126 102h264M164 67v49m47-49v49m47-49v49m47-49v49m47-49v49"/>
+  <path class="module-teal" d="M410 116V63h103v53z"/>
+  <path class="module" d="M545 116V36h108v80z"/>
+  <path class="detail" d="M428 78h66m-66 16h66m137-41h-64m64 17h-64m64 17h-64m64 17h-64"/>
+  <path class="structure" d="M112 103h14m264 0h20m103 0h32"/>
+
+  <path class="wave-primary" d="M28 178c25-9 50 9 75 0s50-9 75 0 50 9 75 0 50-9 75 0 50 9 75 0 50-9 75 0 50 9 75 0 50-9 75 0 50 9 75 0 50-9 75 0 50 9 75 0 50-9 75 0"/>
+  <path class="wave-secondary" d="M45 191c29-7 58 7 87 0s58-7 87 0 58 7 87 0 58-7 87 0 58 7 87 0 58-7 87 0 58 7 87 0 58-7 87 0 58 7 87 0"/>
+</svg>
