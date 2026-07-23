@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>行业报告详情</title>
+<style>
+  :root {
+    --brand-900: #17324d;
+    --brand-700: #244e70;
+    --accent-teal: #16847a;
+    --accent-gold: #d5b46a;
+    --page-bg: #f7f8fa;
+    --surface: #fff;
+    --text-primary: #17212b;
+    --text-secondary: #667085;
+    --text-tertiary: #98a2b3;
+    --border: #d9e1e8;
+    --divider: #e9edf1;
+    --hover-bg: #f3f7f9;
+    --radius-md: 6px;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+  }
+
+  a { color: inherit; }
+  [hidden] { display: none !important; }
+
+  .page-shell {
+    width: min(100%, 1480px);
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 14px;
+    color: var(--brand-700);
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .back-link:hover { color: var(--accent-teal); text-decoration: underline; }
+
+  .identity-card,
+  .content-card,
+  .archive-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+
+  .identity-card {
+    display: grid;
+    grid-template-columns: minmax(180px, 14fr) minmax(0, 46fr);
+    gap: 30px;
+    padding: 26px;
+  }
+
+  .cover {
+    position: relative;
+    min-height: 230px;
+    overflow: hidden;
+    border: 1px solid #cfe0e2;
+    border-radius: var(--radius-md);
+    background: linear-gradient(145deg, #f8fdfd 0%, #e9f5f5 100%);
+  }
+
+  .cover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .55;
+    background-image: radial-gradient(#7dc0c1 1px, transparent 1px);
+    background-size: 16px 16px;
+    mask-image: linear-gradient(145deg, black, transparent 75%);
+  }
+
+  .cover-mark {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    color: var(--accent-teal);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .18em;
+  }
+
+  .cover-symbol {
+    position: absolute;
+    right: 24px;
+    bottom: 25px;
+    width: 88px;
+    height: 88px;
+    border: 1px solid #83c4c6;
+    border-radius: 50%;
+  }
+
+  .cover-symbol::before,
+  .cover-symbol::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+    background: #83c4c6;
+  }
+
+  .cover-symbol::before { top: 35px; transform: rotate(45deg); }
+  .cover-symbol::after { top: 50px; transform: rotate(-45deg); }
+
+  .report-type {
+    display: inline-flex;
+    min-height: 26px;
+    align-items: center;
+    padding: 0 9px;
+    border: 1px solid #b8d6d5;
+    border-radius: 4px;
+    background: #f1f8f7;
+    color: var(--accent-teal);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 14px 0 0;
+    color: var(--brand-900);
+    font-size: clamp(28px, 2.25vw, 34px);
+    line-height: 1.35;
+  }
+
+  .subtitle {
+    margin: 8px 0 0;
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .metadata-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(140px, 1fr));
+    gap: 12px 22px;
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px solid var(--divider);
+  }
+
+  .metadata-item span { display: block; color: var(--text-tertiary); font-size: 11px; }
+  .metadata-item strong { display: block; margin-top: 5px; color: var(--text-primary); font-size: 13px; font-weight: 600; }
+
+  .demo-note {
+    margin: 20px 0 0;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .detail-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(280px, 3fr);
+    gap: 18px;
+    margin-top: 18px;
+  }
+
+  .content-stack { display: grid; gap: 18px; }
+  .content-card, .archive-card { padding: 24px; }
+
+  .content-card h2,
+  .archive-card h2 {
+    margin: 0 0 14px;
+    color: var(--brand-900);
+    font-size: 19px;
+  }
+
+  .content-card p {
+    margin: 0;
+    color: #475467;
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .conclusion-list {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    padding-left: 20px;
+    color: #475467;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .conclusion-list strong { color: var(--text-primary); }
+
+  .archive-row {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--divider);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .archive-row:last-child { border-bottom: 0; }
+  .archive-label { color: var(--text-tertiary); }
+  .archive-value { color: var(--text-primary); }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 7px; }
+  .tag {
+    padding: 4px 8px;
+    border: 1px solid #d3e2e4;
+    border-radius: 4px;
+    background: #f3f8f9;
+    color: var(--brand-700);
+    font-size: 12px;
+  }
+
+  .related-list { display: grid; gap: 0; }
+  .related-link {
+    display: block;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--divider);
+    color: var(--brand-900);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+  .related-link:last-child { border-bottom: 0; }
+  .related-link:hover { color: var(--accent-teal); text-decoration: underline; }
+
+  .not-found { padding: 80px 24px; text-align: center; }
+  .not-found h1 { font-size: 24px; }
+  .not-found p { color: var(--text-secondary); }
+
+  @media (max-width: 900px) {
+    .identity-card { grid-template-columns: 180px minmax(0, 1fr); gap: 22px; }
+    .metadata-grid { grid-template-columns: repeat(2, minmax(130px, 1fr)); }
+    .detail-layout { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 650px) {
+    .page-shell { padding: 10px; }
+    .identity-card { grid-template-columns: 1fr; padding: 18px; }
+    .cover { min-height: 160px; }
+    .cover-symbol { width: 70px; height: 70px; }
+    .metadata-grid { grid-template-columns: 1fr 1fr; }
+    .content-card, .archive-card { padding: 19px; }
+  }
+</style>
+</head>
+<body>
+  <main class="page-shell">
+    <a class="back-link" href="industry-research-library.html">← 返回行业研究库</a>
+
+    <div id="notFound" class="identity-card not-found" hidden>
+      <div><h1>未找到对应报告</h1><p>请返回研究库重新选择报告。</p></div>
+    </div>
+
+    <div id="detailPage" hidden>
+      <section class="identity-card" aria-labelledby="reportTitle">
+        <div class="cover" aria-hidden="true"><div class="cover-mark">ENERGY RESEARCH</div><div class="cover-symbol"></div></div>
+        <div>
+          <span class="report-type" id="reportType"></span>
+          <h1 id="reportTitle"></h1>
+          <p class="subtitle" id="reportSubtitle"></p>
+          <div class="metadata-grid">
+            <div class="metadata-item"><span>行业</span><strong id="metaIndustry"></strong></div>
+            <div class="metadata-item"><span>区域</span><strong id="metaRegion"></strong></div>
+            <div class="metadata-item"><span>来源</span><strong id="metaSource"></strong></div>
+            <div class="metadata-item"><span>发布日期</span><strong id="metaDate"></strong></div>
+            <div class="metadata-item"><span>语言</span><strong id="metaLanguage"></strong></div>
+            <div class="metadata-item"><span>格式</span><strong id="metaFormat"></strong></div>
+          </div>
+          <p class="demo-note">当前为 UI 与交互演示；附件、原文及权限控制将在接入简道云真实数据时配置。</p>
+        </div>
+      </section>
+
+      <div class="detail-layout">
+        <div class="content-stack">
+          <section class="content-card"><h2>报告摘要</h2><p id="reportSummary"></p></section>
+          <section class="content-card"><h2>关键结论</h2><ul class="conclusion-list" id="conclusionList"></ul></section>
+          <section class="content-card"><h2>相关报告</h2><div class="related-list" id="relatedReports"></div></section>
+        </div>
+
+        <aside class="archive-card" aria-label="资料归档">
+          <h2>资料归档</h2>
+          <div class="archive-row"><span class="archive-label">关联公司</span><span class="archive-value" id="archiveCompanies"></span></div>
+          <div class="archive-row"><span class="archive-label">主题标签</span><div class="archive-value tags" id="archiveTags"></div></div>
+          <div class="archive-row"><span class="archive-label">首次收录</span><span class="archive-value" id="archiveCreated"></span></div>
+          <div class="archive-row"><span class="archive-label">最近更新</span><span class="archive-value" id="archiveUpdated"></span></div>
+          <div class="archive-row"><span class="archive-label">维护人</span><span class="archive-value">市场研究组</span></div>
+          <div class="archive-row"><span class="archive-label">核验状态</span><span class="archive-value">示例数据 · 待接入</span></div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+<script src="industry-research-demo-data.js"></script>
+<script>
+  (() => {
+    const reports = Array.isArray(window.INDUSTRY_REPORTS) ? window.INDUSTRY_REPORTS : [];
+    const id = new URLSearchParams(window.location.search).get("id");
+    const report = reports.find(item => item.id === id);
+    const detailPage = document.getElementById("detailPage");
+    const notFound = document.getElementById("notFound");
+
+    if (!report) {
+      notFound.hidden = false;
+      return;
+    }
+
+    const setText = (elementId, value) => { document.getElementById(elementId).textContent = value || "—"; };
+    const conclusionTemplates = {
+      "原油与天然气": [
+        ["供需弹性仍是核心变量。", "短期价格更容易受到产量策略、库存和区域物流扰动共同影响。"],
+        ["项目节奏呈现区域分化。", "资源禀赋、基础设施和政策稳定性决定新增供给的兑现速度。"],
+        ["低碳约束正进入投资决策。", "甲烷、碳强度与融资要求已成为传统油气项目的重要评估条件。"]
+      ],
+      "LNG": [
+        ["新增供应集中于少数核心区域。", "项目投产节奏与长协签署情况将持续影响现货市场。"],
+        ["亚洲需求仍决定边际价格。", "季节性采购、库存和航运成本共同放大区域价差。"],
+        ["产业链协同价值上升。", "液化、运输、接收站和下游市场需要一体化观察。"]
+      ],
+      "浮式设施": [
+        ["项目机会向深水和边际气田集中。", "浮式方案能够缩短建设周期并降低固定基础设施投入。"],
+        ["改装与新建路线需要分项目判断。", "船体来源、工期、产能和本地化要求共同决定最优方案。"],
+        ["低碳与数字化成为新门槛。", "能效、岸电、排放监测和远程运维要求正进入招标评价。"]
+      ],
+      "新能源与电力": [
+        ["电网与灵活性投资正在成为关键约束。", "新增装机只有与输配电、储能和市场机制同步建设才能形成有效供给。"],
+        ["融资成本决定项目竞争力。", "利率、汇率和承购结构对不同市场的度电成本影响显著。"],
+        ["供应链本地化继续深化。", "设备、施工和运维能力将影响项目交付与长期收益。"]
+      ],
+      "ESG与可持续发展": [
+        ["披露正在从原则转向可核验指标。", "排放边界、甲烷强度和资本开支分类需要可追溯数据支持。"],
+        ["政策成本逐步进入经营模型。", "碳价、边境调节与融资标准正在改变项目经济性。"],
+        ["企业需要统一内部口径。", "研究、投资与业务团队应使用一致的转型和风险指标。"]
+      ]
+    };
+
+    document.title = `${report.title}｜行业研究库`;
+    setText("reportType", report.type);
+    setText("reportTitle", report.title);
+    setText("reportSubtitle", report.subtitle);
+    setText("metaIndustry", report.industry);
+    setText("metaRegion", report.region);
+    setText("metaSource", report.source);
+    setText("metaDate", report.date);
+    setText("metaLanguage", report.language);
+    setText("metaFormat", report.format);
+    setText("reportSummary", report.summary);
+    setText("archiveCompanies", report.companies?.length ? report.companies.join(" · ") : "—");
+    setText("archiveCreated", report.date);
+    setText("archiveUpdated", report.date);
+
+    const conclusions = conclusionTemplates[report.industry] || conclusionTemplates["原油与天然气"];
+    const conclusionList = document.getElementById("conclusionList");
+    conclusions.forEach(([lead, explanation]) => {
+      const item = document.createElement("li");
+      const strong = document.createElement("strong");
+      strong.textContent = lead;
+      item.append(strong, document.createTextNode(` ${explanation}`));
+      conclusionList.appendChild(item);
+    });
+
+    const tagContainer = document.getElementById("archiveTags");
+    (report.keywords || []).forEach(keyword => {
+      const tag = document.createElement("span");
+      tag.className = "tag";
+      tag.textContent = keyword;
+      tagContainer.appendChild(tag);
+    });
+
+    const related = reports.filter(item => item.id !== report.id && item.industry === report.industry).slice(0, 4);
+    const relatedContainer = document.getElementById("relatedReports");
+    related.forEach(item => {
+      const link = document.createElement("a");
+      link.className = "related-link";
+      link.href = `industry-report-detail-demo.html?id=${encodeURIComponent(item.id)}`;
+      link.textContent = item.title;
+      relatedContainer.appendChild(link);
+    });
+
+    detailPage.hidden = false;
+  })();
+</script>
+</body>
+</html>
+
