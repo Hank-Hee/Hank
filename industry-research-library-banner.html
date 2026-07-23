@@ -6,241 +6,209 @@
 <title>行业研究库</title>
 <style>
   :root {
-    --navy: #0d2d4f;
-    --ink: #183a5d;
-    --red: #e73345;
+    --brand-900: #17324d;
+    --brand-700: #244e70;
+    --accent-teal: #16847a;
+    --accent-gold: #d5b46a;
+    --text-secondary: #667085;
+    --border: #d7e4e6;
   }
 
   * { box-sizing: border-box; }
-  html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+  html, body { margin: 0; width: 100%; }
 
   body {
-    color: var(--ink);
-    background: #f8fcfd;
-    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+    background: transparent;
+    color: var(--brand-900);
+    font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
   }
 
-  .banner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    min-height: 330px;
-    overflow: hidden;
-    isolation: isolate;
-    background:
-      radial-gradient(ellipse at 74% 57%, rgba(150, 220, 225, .36) 0%, rgba(218, 242, 244, .42) 26%, rgba(249, 253, 253, 0) 55%),
-      linear-gradient(103deg, #ffffff 0%, #fbfdfd 38%, #edf9fa 100%);
-  }
-
-  .banner::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    opacity: .42;
-    background-image:
-      linear-gradient(rgba(127, 196, 204, .17) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(127, 196, 204, .17) 1px, transparent 1px);
-    background-size: 30px 30px;
-    mask-image: linear-gradient(90deg, transparent 0%, transparent 40%, black 65%, transparent 100%);
-  }
-
-  .wash {
-    position: absolute;
-    inset: auto 0 0;
-    z-index: -1;
-    height: 38%;
-    background: linear-gradient(180deg, transparent, rgba(187, 231, 234, .23));
-  }
-
-  .content {
-    position: relative;
-    z-index: 3;
-    display: flex;
+  .library-hero {
+    min-height: 240px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr);
     align-items: center;
-    width: min(100%, 1780px);
-    height: 100%;
-    margin: 0 auto;
-    padding: 34px clamp(38px, 7.4vw, 138px) 40px;
+    gap: 32px;
+    padding: 21px 42px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: linear-gradient(100deg, #fff 0%, #f7fbfc 58%, #edf8f8 100%);
   }
 
-  .copy {
-    width: min(48vw, 750px);
-    transform: translateY(-3px);
+  .eyebrow {
+    margin-bottom: 6px;
+    color: var(--accent-teal);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .2em;
   }
 
   h1 {
     margin: 0;
-    color: var(--navy);
-    font-size: clamp(42px, 4.2vw, 72px);
-    font-weight: 800;
-    letter-spacing: .045em;
-    line-height: 1;
-    text-wrap: nowrap;
+    color: var(--brand-900);
+    font-size: 38px;
+    font-weight: 750;
+    letter-spacing: .06em;
+    line-height: 1.15;
   }
 
-  h1 .accent { color: var(--red); }
+  h1 span { color: var(--accent-teal); }
 
   .en-title {
-    margin: 18px 0 0 4px;
-    color: #8097aa;
+    margin: 5px 0 0;
+    color: #7c91a3;
     font-family: Arial, sans-serif;
-    font-size: clamp(11px, 1.1vw, 18px);
+    font-size: 12px;
     font-weight: 700;
-    letter-spacing: .35em;
-    line-height: 1.2;
-    white-space: nowrap;
+    letter-spacing: .26em;
   }
 
   .description {
-    max-width: 600px;
-    margin: 28px 0 0 4px;
-    color: #53718c;
-    font-size: clamp(14px, 1.2vw, 19px);
-    font-weight: 400;
-    line-height: 1.7;
+    margin: 12px 0 0;
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
   }
 
-  .description i {
-    display: inline-block;
-    width: 34px;
-    height: 2px;
-    margin: 0 12px 5px 0;
-    vertical-align: middle;
-    background: var(--red);
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 26px;
+    margin: 12px 0 0;
   }
 
-  .art {
+  .stat {
+    position: relative;
+    min-width: 112px;
+    padding-left: 12px;
+  }
+
+  .stat::before {
+    content: "";
     position: absolute;
-    z-index: 1;
-    top: 0;
-    right: clamp(-22px, 1.6vw, 28px);
-    width: min(60%, 1060px);
-    height: 100%;
-    pointer-events: none;
+    left: 0;
+    top: 4px;
+    width: 2px;
+    height: 30px;
+    background: var(--accent-gold);
   }
 
-  .art svg { display: block; width: 100%; height: 100%; }
-
-  @media (max-width: 780px) {
-    .banner { min-height: 280px; }
-    .content { align-items: flex-start; padding: 50px 28px; }
-    .copy { width: 78%; }
-    .art { width: 94%; right: -24%; opacity: .74; }
-    h1 { font-size: clamp(38px, 11.8vw, 62px); letter-spacing: .03em; }
-    .en-title { margin-top: 13px; letter-spacing: .22em; font-size: 10px; }
-    .description { margin-top: 19px; max-width: 360px; font-size: 13px; line-height: 1.55; }
-    .description i { width: 24px; margin-right: 8px; }
+  .stat strong {
+    display: block;
+    color: var(--brand-900);
+    font-size: 18px;
+    line-height: 1.1;
   }
 
-  @media (max-height: 350px) and (min-width: 781px) {
-    .content { padding-top: 20px; padding-bottom: 20px; }
-    .description { margin-top: 18px; }
-    .en-title { margin-top: 12px; }
+  .stat span {
+    display: block;
+    margin-top: 4px;
+    color: #7b8794;
+    font-size: 11px;
+  }
+
+  .art { width: 100%; min-width: 0; }
+  .art svg { display: block; width: 100%; max-height: 214px; }
+
+  @media (max-width: 820px) {
+    .library-hero {
+      grid-template-columns: minmax(0, 1fr) 240px;
+      gap: 18px;
+      padding: 28px 30px;
+    }
+    h1 { font-size: 35px; }
+    .description { font-size: 14px; }
+  }
+
+  @media (max-width: 620px) {
+    .library-hero { grid-template-columns: 1fr; min-height: 0; }
+    .art { display: none; }
+    .stats { gap: 14px 18px; }
   }
 </style>
 </head>
 <body>
-  <main class="banner" aria-label="行业研究库">
-    <div class="wash"></div>
-    <div class="content">
-      <section class="copy">
-        <h1>行业<span class="accent">研究库</span></h1>
-        <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
-        <p class="description"><i></i>集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
-      </section>
-    </div>
+  <main class="library-hero" aria-label="行业研究库">
+    <section>
+      <div class="eyebrow">RESEARCH ARCHIVE</div>
+      <h1>行业<span>研究</span>库</h1>
+      <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
+      <p class="description">集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
+      <div class="stats" aria-label="研究库统计">
+        <div class="stat"><strong data-stat="reports">—</strong><span>示例报告</span></div>
+        <div class="stat"><strong data-stat="sources">—</strong><span>来源机构</span></div>
+        <div class="stat"><strong data-stat="updated">—</strong><span>最近更新</span></div>
+      </div>
+    </section>
 
     <div class="art" aria-hidden="true">
-      <svg viewBox="0 0 1080 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 520 250" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
-            <stop stop-color="#FFFFFF" stop-opacity=".93"/>
-            <stop offset="1" stop-color="#EAF8F9" stop-opacity=".78"/>
-          </linearGradient>
-          <linearGradient id="tealFill" x1="0" y1="0" x2="1" y2="0">
-            <stop stop-color="#D8F4F3"/>
-            <stop offset="1" stop-color="#BCE7EA"/>
-          </linearGradient>
-          <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
-            <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#78B7C0" flood-opacity=".14"/>
-          </filter>
-          <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
-            <circle cx="2" cy="2" r="1.1" fill="#76BEC7" fill-opacity=".42"/>
+          <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1" fill="#75bfc1" fill-opacity=".34"/>
           </pattern>
+          <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="180%">
+            <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#7bb8ba" flood-opacity=".12"/>
+          </filter>
         </defs>
 
-        <ellipse cx="706" cy="220" rx="333" ry="158" fill="url(#dots)" opacity=".55"/>
-        <ellipse cx="707" cy="218" rx="268" ry="128" stroke="#B8E0E4" stroke-width="1.2"/>
-        <ellipse cx="707" cy="218" rx="191" ry="128" stroke="#CBEAEB" stroke-width="1"/>
-        <path d="M438 218H974M462 174H950M462 262H950" stroke="#C5E5E8" stroke-width="1"/>
-        <path d="M515 105C574 176 574 263 515 331M899 105C840 176 840 263 899 331" stroke="#C5E5E8" stroke-width="1"/>
-        <path d="M584 93C625 179 625 264 584 344M830 93C789 179 789 264 830 344" stroke="#D3ECEE" stroke-width="1"/>
+        <ellipse cx="282" cy="122" rx="210" ry="100" fill="url(#dots)"/>
+        <ellipse cx="282" cy="122" rx="178" ry="84" stroke="#c4e3e3"/>
+        <path d="M105 122H459M140 80H430M140 164H430" stroke="#d1e9e9"/>
 
-        <g stroke-linecap="round">
-          <path d="M518 250C572 197 619 285 669 236C719 186 780 170 844 210C889 238 928 211 963 168" stroke="#68BBC5" stroke-width="2" stroke-dasharray="3 10" opacity=".75"/>
-          <circle cx="518" cy="250" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
-          <circle cx="669" cy="236" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
-          <circle cx="844" cy="210" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
-          <circle cx="963" cy="168" r="5" fill="#FFF" stroke="#55B5BF" stroke-width="2"/>
+        <g class="report-cube" filter="url(#soft-shadow)">
+          <path d="M118 60L183 38L237 59L170 83L118 60Z" fill="#fff" fill-opacity=".92" stroke="#68bfc2" stroke-width="1.8"/>
+          <path d="M118 60V145L170 169V83L118 60Z" fill="#f9fefe" stroke="#68bfc2" stroke-width="1.8"/>
+          <path d="M170 83L237 59V142L170 169V83Z" fill="#eaf7f7" stroke="#68bfc2" stroke-width="1.8"/>
+          <path d="M133 80L158 90M133 94L158 104M188 91L220 79M188 105L220 93" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/>
         </g>
 
-        <g class="report-cube" filter="url(#shadow)">
-          <path d="M507 104L604 71L684 101L584 137L507 104Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M507 104V236L584 272V137L507 104Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M584 137L684 101V229L584 272V137Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M529 126L566 141M529 143L566 158M529 160L551 169" stroke="#9ACDD2" stroke-width="2"/>
-          <path d="M610 143L655 127M610 161L655 145M610 179L640 168" stroke="#8AC5CB" stroke-width="2"/>
-          <rect x="611" y="198" width="38" height="10" rx="5" fill="url(#tealFill)"/>
+        <g class="report-cube" filter="url(#soft-shadow)">
+          <path d="M244 82L300 64L349 82L297 101L244 82Z" fill="#fff" fill-opacity=".9" stroke="#72c2c4" stroke-width="1.8"/>
+          <path d="M244 82V153L297 175V101L244 82Z" fill="#f9fefe" stroke="#72c2c4" stroke-width="1.8"/>
+          <path d="M297 101L349 82V148L297 175V101Z" fill="#eaf7f7" stroke="#72c2c4" stroke-width="1.8"/>
+          <path d="M259 101L284 111M259 115L284 125M312 111L335 102M312 125L335 116" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/>
         </g>
 
-        <g class="report-cube" filter="url(#shadow)">
-          <path d="M694 143L778 117L851 144L773 173L694 143Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M694 143V249L773 282V173L694 143Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M773 173L851 144V242L773 282V173Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M716 166L754 181M716 183L754 198M716 200L742 211" stroke="#9ACDD2" stroke-width="2"/>
-          <path d="M797 180L830 168M797 197L830 185M797 214L820 206" stroke="#8AC5CB" stroke-width="2"/>
-          <rect x="798" y="223" width="27" height="9" rx="4.5" fill="url(#tealFill)"/>
+        <g class="report-cube" filter="url(#soft-shadow)">
+          <path d="M355 106L402 91L444 106L399 124L355 106Z" fill="#fff" fill-opacity=".88" stroke="#7ac6c8" stroke-width="1.8"/>
+          <path d="M355 106V160L399 179V124L355 106Z" fill="#f9fefe" stroke="#7ac6c8" stroke-width="1.8"/>
+          <path d="M399 124L444 106V157L399 179V124Z" fill="#eaf7f7" stroke="#7ac6c8" stroke-width="1.8"/>
+          <path d="M368 123L390 132M368 137L390 146M412 133L431 126" stroke="#9acfd0" stroke-width="2" stroke-linecap="round"/>
         </g>
 
-        <g class="report-cube" filter="url(#shadow)">
-          <path d="M854 181L922 160L982 182L918 207L854 181Z" fill="url(#cardFill)" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M854 181V263L918 291V207L854 181Z" fill="#F9FEFE" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M918 207L982 182V257L918 291V207Z" fill="#E8F8F9" stroke="#79C5CC" stroke-width="2"/>
-          <path d="M873 200L904 212M873 216L904 228" stroke="#9ACDD2" stroke-width="2"/>
-          <path d="M937 212L965 202M937 228L965 218" stroke="#8AC5CB" stroke-width="2"/>
+        <g class="energy-mark" transform="translate(178 207)">
+          <circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/>
+          <ellipse cy="-7" rx="8" ry="3.5" stroke="#16847a" stroke-width="1.8"/>
+          <path d="M-8-7V8C-8 11 8 11 8 8V-7M-8 1C-5 4 5 4 8 1" stroke="#16847a" stroke-width="1.8"/>
         </g>
 
-        <g class="energy-mark" transform="translate(566 340)">
-          <circle r="28" fill="#F7FDFD" stroke="#89CAD0" stroke-width="1.8"/>
-          <ellipse cy="-11" rx="11" ry="4.5" stroke="#65B9C3" stroke-width="2"/>
-          <path d="M-11 -11V11C-11 13.5-6 15.5 0 15.5C6 15.5 11 13.5 11 11V-11" stroke="#65B9C3" stroke-width="2"/>
-          <path d="M-11 0C-7 4 7 4 11 0M-11 9C-7 13 7 13 11 9" stroke="#91CDD2" stroke-width="1.6"/>
+        <g class="energy-mark" transform="translate(282 207)">
+          <circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/>
+          <path d="M1-13C6-6 10-2 9 5C8 12 3 15-2 14C-9 13-12 8-10 2C-8-3-4-6-4-11C0-8 2-5 1-1C4-4 3-9 1-13Z" stroke="#16847a" stroke-width="1.8" stroke-linejoin="round"/>
         </g>
 
-        <g class="energy-mark" transform="translate(748 340)">
-          <circle r="28" fill="#F7FDFD" stroke="#89CAD0" stroke-width="1.8"/>
-          <path d="M1 -17C7 -8 14 -3 12 7C11 15 5 19-2 18C-11 17-16 10-14 2C-12-5-6-9-5-15C-1-12 2-8 2-3C5-7 4-12 1-17Z" stroke="#65B9C3" stroke-width="2" stroke-linejoin="round"/>
-          <path d="M-1 3C3 7 4 11 1 16C-4 15-7 12-6 8C-5 6-3 4-1 3Z" fill="#C9ECEE" stroke="#79C2CA" stroke-width="1.4"/>
-        </g>
-
-        <g class="energy-mark" transform="translate(930 340)">
-          <circle r="28" fill="#F7FDFD" stroke="#89CAD0" stroke-width="1.8"/>
-          <circle cy="-5" r="3.5" fill="#D8F1F2" stroke="#65B9C3" stroke-width="1.7"/>
-          <path d="M0 -8V-21M3 -4L15 3M-3 -4L-15 3M0 -1V15" stroke="#65B9C3" stroke-width="2" stroke-linecap="round"/>
-          <path d="M-17 17C-12 13-7 21-2 17C3 13 8 21 13 17C15 16 17 16 19 17" stroke="#79C7CE" stroke-width="1.8" stroke-linecap="round"/>
-        </g>
-
-        <g opacity=".55">
-          <circle cx="457" cy="167" r="4" fill="#6CBCC6"/>
-          <circle cx="486" cy="142" r="3" fill="#87CDD3"/>
-          <circle cx="874" cy="94" r="4" fill="#6CBCC6"/>
-          <circle cx="948" cy="124" r="3" fill="#87CDD3"/>
-          <circle cx="1012" cy="271" r="4" fill="#6CBCC6"/>
-          <circle cx="410" cy="347" r="3" fill="#87CDD3"/>
+        <g class="energy-mark" transform="translate(386 207)">
+          <circle r="20" fill="#f7fdfd" stroke="#82c8ca" stroke-width="1.5"/>
+          <circle cy="-4" r="2.5" fill="#d8f1f1" stroke="#16847a" stroke-width="1.5"/>
+          <path d="M0-7V-16M2-3L11 2M-2-3L-11 2M0-1V10M-12 13C-8 10-4 16 0 13C4 10 8 16 12 13" stroke="#16847a" stroke-width="1.7" stroke-linecap="round"/>
         </g>
       </svg>
     </div>
   </main>
+
+<script>
+  const archiveSummary = {
+    totalReports: 24,
+    sourceCount: 8,
+    latestUpdated: "2026-07-22"
+  };
+
+  document.querySelector('[data-stat="reports"]').textContent = archiveSummary.totalReports;
+  document.querySelector('[data-stat="sources"]').textContent = archiveSummary.sourceCount;
+  document.querySelector('[data-stat="updated"]').textContent = archiveSummary.latestUpdated;
+</script>
 </body>
 </html>
+
