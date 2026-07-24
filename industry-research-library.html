@@ -52,22 +52,24 @@
   .result-toolbar > * { min-width: 0; }
 
   .library-hero {
-    min-height: 240px;
+    min-height: 168px;
     display: grid;
-    grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr);
+    grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
     align-items: center;
-    gap: 32px;
-    padding: 22px 42px;
+    gap: 22px;
+    padding: 12px 42px;
     overflow: hidden;
     border: 1px solid #d7e4e6;
     border-radius: 8px;
     background: linear-gradient(100deg, #fff 0%, #f7fbfc 58%, #edf8f8 100%);
   }
 
+  .hero-copy { transform: translateY(5px); }
+
   .eyebrow {
     margin-bottom: 6px;
     color: var(--accent-teal);
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: .2em;
   }
@@ -75,7 +77,7 @@
   h1 {
     margin: 0;
     color: var(--brand-900);
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 750;
     letter-spacing: .06em;
     line-height: 1.15;
@@ -93,50 +95,13 @@
   }
 
   .hero-description {
-    margin: 12px 0 0;
+    margin: 9px 0 0;
     color: var(--text-secondary);
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
-  .hero-stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px 26px;
-    margin-top: 12px;
-  }
-
-  .hero-stat {
-    position: relative;
-    min-width: 112px;
-    padding-left: 12px;
-  }
-
-  .hero-stat::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 4px;
-    width: 2px;
-    height: 30px;
-    background: var(--accent-gold);
-  }
-
-  .hero-stat strong {
-    display: block;
-    color: var(--brand-900);
-    font-size: 18px;
-    line-height: 1.1;
-  }
-
-  .hero-stat span {
-    display: block;
-    margin-top: 4px;
-    color: #7b8794;
-    font-size: 11px;
-  }
-
-  .hero-art svg { display: block; width: 100%; max-height: 204px; }
+  .hero-art svg { display: block; width: 100%; max-height: 140px; }
 
   .filter-panel {
     margin-top: 16px;
@@ -450,9 +415,9 @@
 
   @media (max-width: 900px) {
     .page-shell { padding: 12px; }
-    .library-hero { grid-template-columns: minmax(0, 1fr) 250px; gap: 16px; padding: 24px 28px; }
-    .hero-art svg { max-height: 180px; }
-    h1 { font-size: 35px; }
+    .library-hero { grid-template-columns: minmax(0, 1fr) 220px; gap: 14px; padding: 12px 28px; }
+    .hero-art svg { max-height: 142px; }
+    h1 { font-size: 33px; }
     .filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .clear-filters { width: 100%; }
     .list-header { display: none; }
@@ -464,9 +429,9 @@
   }
 
   @media (max-width: 759px) {
-    .library-hero { grid-template-columns: 1fr; min-height: 0; }
+    .library-hero { grid-template-columns: 1fr; min-height: 148px; }
     .hero-art { display: none; }
-    h1 { font-size: 34px; }
+    h1 { font-size: 31px; }
     .filter-grid { grid-template-columns: 1fr; }
     .search-field { grid-column: auto; }
     .result-toolbar { align-items: flex-start; flex-wrap: wrap; }
@@ -490,8 +455,6 @@
   @media (max-width: 460px) {
     .page-shell { padding: 8px; }
     .library-hero, .filter-panel { padding-left: 18px; padding-right: 18px; }
-    .hero-stats { gap: 12px; }
-    .hero-stat { min-width: 96px; }
     .sort-control span { display: none; }
     .pagination { flex-wrap: wrap; }
   }
@@ -500,16 +463,11 @@
 <body>
   <main class="page-shell">
     <section class="library-hero" aria-labelledby="page-title">
-      <div>
+      <div class="hero-copy">
         <div class="eyebrow">RESEARCH ARCHIVE</div>
         <h1 id="page-title">行业<span>研究</span>库</h1>
         <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
         <p class="hero-description">集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
-        <div class="hero-stats" aria-label="研究库统计">
-          <div class="hero-stat"><strong id="totalReports">—</strong><span>份报告</span></div>
-          <div class="hero-stat"><strong id="totalSources">—</strong><span>来源机构</span></div>
-          <div class="hero-stat"><strong id="latestUpdated">—</strong><span>最近更新</span></div>
-        </div>
       </div>
 
       <div class="hero-art" aria-hidden="true">
@@ -569,10 +527,11 @@
     </section>
   </main>
 
-<script src="industry-research-demo-data.js"></script>
+<script src="industry-research-data.js?v=20260724-1"></script>
+<script src="industry-research-data-adapter.js?v=20260724-1"></script>
 <script>
   (() => {
-    const reports = Array.isArray(window.INDUSTRY_REPORTS) ? window.INDUSTRY_REPORTS.slice() : null;
+    const reports = window.IndustryResearchData?.getReports() || null;
     const elements = {
       search: document.getElementById("searchInput"),
       clearSearch: document.getElementById("clearSearch"),
@@ -659,7 +618,7 @@
       const row = createElement("article", "report-row");
 
       const identity = createElement("div", "identity-column");
-      const detailHref = `industry-report-detail-demo.html?id=${encodeURIComponent(report.id)}`;
+      const detailHref = `industry-report-detail.html?id=${encodeURIComponent(report.id)}`;
       if (report.detailAvailable) {
         const title = createElement("a", "report-title", report.title);
         title.href = detailHref;
@@ -765,12 +724,6 @@
       render();
     }
 
-    function updateStats() {
-      document.getElementById("totalReports").textContent = reports.length;
-      document.getElementById("totalSources").textContent = new Set(reports.map(report => report.source)).size;
-      document.getElementById("latestUpdated").textContent = reports.map(report => report.date).sort().at(-1);
-    }
-
     function bindFilter(element, stateKey) {
       element.addEventListener("change", () => {
         state[stateKey] = element.value;
@@ -788,7 +741,6 @@
     fillSelect(elements.region, "region");
     fillSelect(elements.type, "type");
     fillSelect(elements.source, "source");
-    updateStats();
 
     elements.search.addEventListener("input", () => {
       state.query = elements.search.value;

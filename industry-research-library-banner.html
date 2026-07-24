@@ -15,7 +15,7 @@
   }
 
   * { box-sizing: border-box; }
-  html, body { margin: 0; width: 100%; }
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
 
   body {
     background: transparent;
@@ -24,22 +24,25 @@
   }
 
   .library-hero {
-    min-height: 240px;
+    height: clamp(132px, 100vh, 178px);
+    min-height: 132px;
     display: grid;
-    grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr);
+    grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
     align-items: center;
-    gap: 32px;
-    padding: 21px 42px;
+    gap: 22px;
+    padding: 8px 42px;
     overflow: hidden;
     border: 1px solid var(--border);
     border-radius: 8px;
     background: linear-gradient(100deg, #fff 0%, #f7fbfc 58%, #edf8f8 100%);
   }
 
+  .hero-copy { transform: translateY(5px); }
+
   .eyebrow {
     margin-bottom: 6px;
     color: var(--accent-teal);
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: .2em;
   }
@@ -47,7 +50,7 @@
   h1 {
     margin: 0;
     color: var(--brand-900);
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 750;
     letter-spacing: .06em;
     line-height: 1.15;
@@ -65,81 +68,39 @@
   }
 
   .description {
-    margin: 12px 0 0;
+    margin: 9px 0 0;
     color: var(--text-secondary);
-    font-size: 15px;
-    line-height: 1.6;
-  }
-
-  .stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px 26px;
-    margin: 12px 0 0;
-  }
-
-  .stat {
-    position: relative;
-    min-width: 112px;
-    padding-left: 12px;
-  }
-
-  .stat::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 4px;
-    width: 2px;
-    height: 30px;
-    background: var(--accent-gold);
-  }
-
-  .stat strong {
-    display: block;
-    color: var(--brand-900);
-    font-size: 18px;
-    line-height: 1.1;
-  }
-
-  .stat span {
-    display: block;
-    margin-top: 4px;
-    color: #7b8794;
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .art { width: 100%; min-width: 0; }
-  .art svg { display: block; width: 100%; max-height: 214px; }
+  .art svg { display: block; width: 100%; max-height: 140px; }
 
   @media (max-width: 820px) {
     .library-hero {
-      grid-template-columns: minmax(0, 1fr) 240px;
-      gap: 18px;
-      padding: 28px 30px;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 14px;
+      padding: 10px 30px;
     }
-    h1 { font-size: 35px; }
-    .description { font-size: 14px; }
+    h1 { font-size: 33px; }
+    .description { font-size: 13px; }
   }
 
   @media (max-width: 620px) {
-    .library-hero { grid-template-columns: 1fr; min-height: 0; }
+    .library-hero { grid-template-columns: 1fr; min-height: 132px; padding-inline: 22px; }
     .art { display: none; }
-    .stats { gap: 14px 18px; }
+    h1 { font-size: 31px; }
   }
 </style>
 </head>
 <body>
   <main class="library-hero" aria-label="行业研究库">
-    <section>
+    <section class="hero-copy">
       <div class="eyebrow">RESEARCH ARCHIVE</div>
       <h1>行业<span>研究</span>库</h1>
       <p class="en-title">INDUSTRY RESEARCH LIBRARY</p>
       <p class="description">集中管理行业报告、区域专题、价格跟踪与政策信息。</p>
-      <div class="stats" aria-label="研究库统计">
-        <div class="stat"><strong data-stat="reports">—</strong><span>示例报告</span></div>
-        <div class="stat"><strong data-stat="sources">—</strong><span>来源机构</span></div>
-        <div class="stat"><strong data-stat="updated">—</strong><span>最近更新</span></div>
-      </div>
     </section>
 
     <div class="art" aria-hidden="true">
@@ -198,17 +159,6 @@
     </div>
   </main>
 
-<script>
-  const archiveSummary = {
-    totalReports: 24,
-    sourceCount: 8,
-    latestUpdated: "2026-07-22"
-  };
-
-  document.querySelector('[data-stat="reports"]').textContent = archiveSummary.totalReports;
-  document.querySelector('[data-stat="sources"]').textContent = archiveSummary.sourceCount;
-  document.querySelector('[data-stat="updated"]').textContent = archiveSummary.latestUpdated;
-</script>
 </body>
 </html>
 
