@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="ExxonMobil GitHub Pages快速加载试点：本地矢量地图、轻量数据与原生SVG图表" />
+    <title>ExxonMobil 快速看板试点</title>
+    <link rel="preload" href="assets/world-110m.svg?v=20260728-pilot-v2" as="image" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=20260728-pilot-v2" />
+  </head>
+  <body>
+    <main class="pilot-shell" data-pilot-root>
+      <section class="company-hero" aria-labelledby="company-title">
+        <div class="company-logo-wrap">
+          <img src="../../assets/banner-logos/exxonmobil-logo.png" alt="ExxonMobil logo" width="118" height="56" decoding="async" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">FAST COMPANY DASHBOARD · PILOT</p>
+          <h1 id="company-title"><span data-company-name>ExxonMobil</span><small data-company-name-zh>埃克森美孚</small></h1>
+          <div class="hero-tags" data-business-tags aria-label="核心业务"></div>
+        </div>
+        <div class="hero-status" aria-label="试点技术状态">
+          <strong>单页快速版</strong>
+          <span>本地资源 · 无嵌套 iframe</span>
+        </div>
+      </section>
+
+      <section class="profile-grid" aria-label="公司概览">
+        <article class="dashboard-card profile-card">
+          <p class="eyebrow">COMPANY PROFILE</p>
+          <div class="profile-copy" data-company-introduction aria-live="polite"></div>
+          <div class="tag-groups">
+            <div><strong>核心业务</strong><div class="tag-list" data-profile-business></div></div>
+            <div><strong>重点区域</strong><div class="tag-list tag-list-neutral" data-focus-regions></div></div>
+          </div>
+        </article>
+        <article class="dashboard-card facts-card">
+          <p class="eyebrow">BASIC INFORMATION</p>
+          <dl class="facts-list" data-company-facts></dl>
+        </article>
+      </section>
+
+      <section class="section-block" aria-labelledby="projects-heading">
+        <header class="section-heading">
+          <div><p class="eyebrow">GLOBAL PROJECT PORTFOLIO</p><h2 id="projects-heading">全球项目分布与项目类型</h2></div>
+          <p>首屏仅加载国家级摘要，点击国家后按需加载项目详情。</p>
+        </header>
+        <div class="project-grid">
+          <article class="dashboard-card map-card" data-vector-map>
+            <header class="card-heading map-heading">
+              <div><h3><span data-map-operator>ExxonMobil</span> 全球项目分布</h3><p>国家级聚合位置，不代表项目精确坐标</p></div>
+              <div class="map-kpis" aria-label="地图统计"><span><strong data-map-project-count>—</strong> 项目</span><span><strong data-map-country-count>—</strong> 国家</span></div>
+            </header>
+            <div class="map-viewport" data-map-viewport tabindex="0" aria-label="可缩放和拖动的世界项目地图">
+              <div class="map-canvas" data-map-canvas>
+                <img src="assets/world-110m.svg?v=20260728-pilot-v2" alt="世界国家边界底图" width="1000" height="500" decoding="async" />
+                <div class="marker-layer" data-marker-layer aria-label="国家项目数量标记"></div>
+              </div>
+              <div class="map-controls" aria-label="地图缩放控制">
+                <button type="button" data-map-zoom-in aria-label="放大地图">＋</button>
+                <button type="button" data-map-zoom-out aria-label="缩小地图">−</button>
+                <button type="button" data-map-reset aria-label="返回全球视图">全球</button>
+              </div>
+              <div class="map-legend"><span class="legend-bubble">12</span><span>圆点数字代表项目数量</span></div>
+              <div class="map-state" data-map-state><span class="state-spinner" aria-hidden="true"></span><strong>正在加载项目摘要…</strong></div>
+            </div>
+            <aside class="project-drawer" data-project-drawer hidden aria-label="项目列表">
+              <header>
+                <div><p class="eyebrow">COUNTRY PROJECTS</p><h4 data-drawer-title>项目列表</h4><p data-drawer-summary></p></div>
+                <button type="button" class="drawer-close" data-drawer-close aria-label="关闭项目列表">×</button>
+              </header>
+              <label class="drawer-search"><span>搜索项目</span><input type="search" data-drawer-search placeholder="项目、设施、业务区域" /></label>
+              <p class="search-summary" data-search-summary></p>
+              <div class="project-list" data-project-list></div>
+            </aside>
+          </article>
+
+          <article class="dashboard-card donut-card" aria-labelledby="type-title">
+            <header class="card-heading"><div><h3 id="type-title">项目类型结构</h3><p>Project type mix</p></div><strong class="header-total"><span data-type-total>—</span> 项目</strong></header>
+            <div class="donut-layout">
+              <div class="donut-wrap">
+                <svg viewBox="0 0 240 240" role="img" aria-label="ExxonMobil项目类型圆环图">
+                  <circle class="donut-track" cx="120" cy="120" r="92"></circle>
+                  <g data-donut-segments></g>
+                </svg>
+                <div class="donut-center"><strong data-donut-total>—</strong><span>项目总数</span></div>
+              </div>
+              <div class="donut-legend" data-donut-legend></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="production-heading">
+        <header class="section-heading"><div><p class="eyebrow">NET PRODUCTION</p><h2 id="production-heading">地区净产量</h2></div><p>原生 SVG 堆叠面积图，不加载外部图表库。</p></header>
+        <article class="dashboard-card chart-card" data-production-card>
+          <header class="card-heading"><div><h3>ExxonMobil 地区净产量</h3><p>Net production · Unit: kbbl/d</p></div><strong class="chart-latest" data-production-latest>—</strong></header>
+          <div class="production-stage" data-production-chart><div class="chart-state">正在加载生产数据…</div></div>
+          <div class="production-legend" data-production-legend aria-label="地区图例"></div>
+        </article>
+      </section>
+
+      <section class="section-block" aria-labelledby="financial-heading">
+        <header class="section-heading"><div><p class="eyebrow">FINANCIAL PROFILE</p><h2 id="financial-heading">财务表现</h2></div><p>继续使用仓库中的已核验财务数据，直接以原生 SVG 绘制。</p></header>
+        <div class="financial-grid">
+          <article class="dashboard-card financial-card" data-financial-card="profitability">
+            <header class="card-heading"><div><h3 data-financial-title>收入与净利润</h3><p data-financial-subtitle>USD million</p></div></header>
+            <div class="financial-stage" data-financial-chart><div class="chart-state">正在加载财务数据…</div></div>
+            <div class="financial-legend"><span><i class="bar-key"></i><b data-bar-label>Revenue</b></span><span><i class="line-key"></i><b data-line-label>Net income</b></span></div>
+          </article>
+          <article class="dashboard-card financial-card" data-financial-card="cashInvestment">
+            <header class="card-heading"><div><h3 data-financial-title>投资与自由现金流</h3><p data-financial-subtitle>USD million</p></div></header>
+            <div class="financial-stage" data-financial-chart><div class="chart-state">正在加载财务数据…</div></div>
+            <div class="financial-legend"><span><i class="bar-key"></i><b data-bar-label>Investments</b></span><span><i class="line-key"></i><b data-line-label>Free cash flow</b></span></div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="pilot-footer"><span>ExxonMobil快速加载试点</span><span data-pilot-ready>正在初始化</span></footer>
+    </main>
+    <div class="chart-tooltip" data-chart-tooltip hidden></div>
+    <script type="module" src="app.js?v=20260728-pilot-v2"></script>
+  </body>
+</html>

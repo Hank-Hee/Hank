@@ -1,0 +1,20 @@
+{
+  "id": "6a1e90aa11f1cb641ce4fe1c",
+  "name": "ExxonMobil",
+  "nameZh": "埃克森美孚",
+  "companyType": "IOC",
+  "country": "美国",
+  "region": "墨西哥湾",
+  "businessTags": ["综合油气", "上游勘探开发", "LNG"],
+  "marketPosition": "全球最大上市综合能源公司之一，上游、LNG与炼化化工一体化",
+  "website": "https://corporate.exxonmobil.com/",
+  "founded": 1882,
+  "headquarters": "斯普林，美国",
+  "introduction": [
+    "ExxonMobil 是全球大型综合能源公司之一，业务覆盖上游勘探开发、天然气与 LNG、炼化、化工及低碳解决方案。",
+    "公司在北美、圭亚那、亚太及多个国际市场拥有长期运营与项目开发能力。"
+  ],
+  "focusRegions": ["北美", "圭亚那", "亚太"],
+  "source": "company-text-dashboard/data/company-data.xlsx",
+  "generatedOn": "2026-07-28"
+}
