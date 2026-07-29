@@ -3,25 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ExxonMobil 按 Region 展示的净产量分析看板">
-  <title>ExxonMobil 地区净产量</title>
-  <link rel="preload" href="data/exxon-net-production-by-region.json" as="fetch">
-  <link rel="stylesheet" href="production/production-dashboard.css?v=20260729-4">
-  <script defer src="assets/echarts-production-lite.min.js?v=5.6.0-production-1"></script>
-  <script defer src="production/production-dashboard.js?v=20260729-4"></script>
+  <meta name="description" content="按地区展示的净产量分析看板">
+  <title>地区净产量</title>
+  <link rel="stylesheet" href="production-dashboard.css?v=20260729-4">
+  <script defer src="../assets/echarts-production-lite.min.js?v=5.6.0-production-1"></script>
+  <script defer src="production-dashboard.js?v=20260729-4"></script>
 </head>
-<body data-company="exxonmobil">
+<body>
   <main class="dashboard">
     <section class="chart-card" aria-labelledby="page-title">
       <header class="chart-head">
         <div>
-          <h1 id="page-title">ExxonMobil 地区净产量</h1>
+          <h1 id="page-title">地区净产量</h1>
           <p>Net production · Unit: kbbl/d</p>
         </div>
       </header>
 
       <div class="chart-stage">
-        <div id="production-chart" role="img" aria-label="按地区展示 ExxonMobil 净产量"></div>
+        <div id="production-chart" role="img" aria-label="按地区展示净产量"></div>
         <div id="chart-loading" class="chart-loading">正在加载生产数据…</div>
       </div>
 

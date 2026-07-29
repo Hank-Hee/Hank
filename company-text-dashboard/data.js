@@ -1,5 +1,5 @@
 (function () {
-  const DATA_URL = "data/company-data.xlsx";
+  const DATA_URL = "data/company-data.json";
 
   const columns = {
     id: "data_id",
@@ -39,16 +39,16 @@
   }
 
   async function loadCompanies() {
-    const response = await fetch(DATA_URL, { cache: "no-store" });
+    const response = await fetch(DATA_URL, { cache: "no-cache" });
     if (!response.ok) {
-      throw new Error(`Workbook request failed: ${response.status}`);
+      throw new Error(`Company data request failed: ${response.status}`);
     }
 
-    const buffer = await response.arrayBuffer();
-    const workbook = XLSX.read(buffer, { type: "array" });
-    const firstSheetName = workbook.SheetNames[0];
-    const worksheet = workbook.Sheets[firstSheetName];
-    return XLSX.utils.sheet_to_json(worksheet, { defval: "", raw: false })
+    const rows = await response.json();
+    if (!Array.isArray(rows)) {
+      throw new Error("Company data response must be an array");
+    }
+    return rows
       .filter((row) => clean(row[columns.name]))
       .map((row, index) => ({
         source: row,

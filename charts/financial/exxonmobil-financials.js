@@ -18,7 +18,7 @@ const escapeHtml = (value) =>
   String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 
 const loadData = async () => {
-  const response = await fetch(`${DATA_URL}?v=${VERSION}`, { cache: "no-store" });
+  const response = await fetch(`${DATA_URL}?v=${VERSION}`, { cache: "no-cache" });
   if (!response.ok) throw new Error(`Failed to load ${DATA_URL}: ${response.status}`);
   return response.json();
 };
