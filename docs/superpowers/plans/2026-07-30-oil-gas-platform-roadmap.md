@@ -1,6 +1,8 @@
 # Oil & Gas Knowledge Platform Implementation Roadmap
 
-> **For agentic workers:** Read `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md` before using this roadmap. Each phase has its own executable plan. Do not implement multiple phases in one unreviewed change set.
+> **MANDATORY GOVERNANCE HOLD (2026-07-31):** This roadmap is a provisional legacy input and is not current authorization to execute Task 2 or any later implementation work. First review and approve `docs/product/PRD.md` and `docs/product/acceptance-criteria.md`; then create and approve separate Product/System Design and Technical Architecture documents, revalidate this roadmap, and rewrite the affected Codex Implementation Plan. Foundation Task 1 is complete at task scope on `feat/platform-foundation`; execution is paused before Task 2.
+
+> **For reviewers:** Read `docs/product/PRD.md` and `docs/product/acceptance-criteria.md` first. Use the legacy mixed design and this roadmap only as source material until the governance hold is removed through an approved roadmap revision.
 
 **Goal:** Convert the current collection of static prototypes, generated HTML pages, JSON datasets, and scripts into one governed internal knowledge platform without a risky full rewrite.
 
@@ -191,26 +193,29 @@ Exit when:
 
 ---
 
-## 7. Codex operating instructions
+## 7. Legacy Codex operating instructions — disabled
 
-For each phase, give Codex only:
+This section records the former operating model for historical review. It is disabled while the governance hold is active and must not be used to start or resume implementation.
 
-1. The approved design specification.
-2. This roadmap.
-3. The current phase plan.
-4. The repository at the commit on which the plan was written.
+After the five-layer document chain is approved, a replacement operating prompt may give Codex only:
+
+1. The approved PRD and four-layer acceptance standard.
+2. The approved Product/System Design.
+3. The approved Technical Architecture.
+4. The approved, revalidated Roadmap.
+5. The approved current-phase Codex Implementation Plan.
+6. The repository at the commit on which the plan was written.
 
 Codex should not be asked to “build the whole platform” in one prompt. It should execute one task at a time, run the exact verification command, commit, and stop at the review gate.
 
-Recommended execution prompt:
+Current hold response:
 
 ```text
-Read these files first:
-- docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md
-- docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md
-- docs/superpowers/plans/2026-07-30-platform-foundation.md
-
-Use the Superpowers workflow. Create an isolated worktree and branch `feat/platform-foundation`. Execute the platform-foundation plan task by task using test-driven development. Run every verification command exactly as written. Commit after each task. Do not start the next task when the current task's tests fail. Stop at each review gate and report the changed files, command output, remaining risks, and next task.
+STOP. Task 2 is paused. Do not execute the legacy foundation prompt.
+Wait for the PRD, acceptance standard, Product/System Design,
+Technical Architecture, revalidated Roadmap, and rewritten
+Codex Implementation Plan to be approved. Then review Task 1
+against that document chain before deciding whether Task 2 may start.
 ```
 
 ---

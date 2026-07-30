@@ -1,6 +1,8 @@
 # Platform Foundation — Mandatory Execution Corrections
 
-> **Status:** Mandatory companion to `2026-07-30-platform-foundation.md`.
+> **MANDATORY GOVERNANCE HOLD (2026-07-31):** This file does not authorize any new Task. Foundation is paused after Task 1. The corrections apply only when reviewing or reproducing evidence under the legacy `2026-07-30-platform-foundation.md`; they cannot override the PRD, acceptance standard, or any newly approved downstream document.
+
+> **Status:** Mandatory companion only to the legacy `2026-07-30-platform-foundation.md` while that plan remains applicable.
 >
 > Codex must read this file after the main plan and apply every correction below. Where this file conflicts with the main plan, this file wins.
 
@@ -185,13 +187,13 @@ docs/superpowers/plans/YYYY-MM-DD-rag-readiness.md
 
 Codex must not generate empty future plan files during the foundation phase.
 
-## 7. Execution order
+## 7. Legacy execution order — disabled during governance hold
 
-The required reading order is:
+The former required reading order, retained for historical review, is:
 
 1. `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md`
 2. `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`
 3. `docs/superpowers/plans/2026-07-30-platform-foundation.md`
 4. `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md`
 
-The correction file must remain in the Codex context during every Task 1–10 review.
+While reviewing evidence claimed under the legacy plan, this correction file must remain in context. Do not use this order to start Task 2 or any later Task while the governance hold is active.

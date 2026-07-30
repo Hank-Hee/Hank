@@ -1,49 +1,65 @@
-# Superpowers Implementation Plan Index
+# Product Documentation and Implementation Index
 
-## Approved specification
+## Mandatory governance hold
 
-- `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md`
+Task 2 is paused. Do not use the legacy Codex start prompt or continue the existing foundation plan until the new product-document sequence has been reviewed and approved.
 
-## Master roadmap
+Current facts:
 
-- `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`
+- `docs/product/PRD.md` and `docs/product/acceptance-criteria.md` are draft documents awaiting product-owner review.
+- Task 1 was completed at task scope on branch `feat/platform-foundation` in commit `aef248f` (`build: bootstrap platform workspaces`).
+- Foundation execution is paused before Task 2.
+- Task 1 must receive a final consistency review after the downstream Product/System Design, Technical Architecture, Roadmap, and Codex Implementation Plan have been approved.
 
-## Current executable phase
+## Required document order
 
-Read both files in this order:
+The project must establish and approve documents in this order:
 
-1. `docs/superpowers/plans/2026-07-30-platform-foundation.md`
-2. `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md`
+1. Product Requirements Document: `docs/product/PRD.md`
+2. Product/System Design: pending rewrite after PRD approval
+3. Technical Architecture: pending separate document after Product/System Design approval
+4. Roadmap: pending revalidation and rewrite after architecture approval
+5. Codex Implementation Plan: pending rewrite after roadmap approval
 
-The corrections file is mandatory and overrides conflicting foundation-plan text.
+The four-layer acceptance standard in `docs/product/acceptance-criteria.md` is a companion verification document subordinate to the PRD. It cannot add product scope.
 
-## Current execution status
+## Document authority lifecycle
 
-- Design specification: approved.
-- Roadmap: generated.
-- Platform foundation plan: generated and self-reviewed.
-- Implementation: not started.
-- Company, project, report, search, admin, hardening, and RAG plans: generated only when their prerequisite phase has been implemented and verified.
+### While the new PRD and acceptance standard are drafts
 
-## Codex start prompt
+- The new files are review artifacts, not yet approved requirements.
+- The legacy design, roadmap, foundation plan, and corrections remain historical inputs.
+- No new implementation Task may start.
 
-```text
-Read these files in order:
-1. docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md
-2. docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md
-3. docs/superpowers/plans/2026-07-30-platform-foundation.md
-4. docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md
+### After PRD and acceptance approval
 
-Use the Superpowers workflow. Before changing code, invoke using-git-worktrees and create an isolated worktree on branch feat/platform-foundation. Then use subagent-driven-development to execute the foundation plan one task at a time with TDD.
+- `docs/product/PRD.md` becomes the sole product-requirements authority.
+- Product-requirement statements in the legacy mixed design are superseded.
+- The legacy design's system/technical content, the roadmap, the foundation plan, and corrections remain paused inputs for rewriting; they are not authorization to resume coding.
 
-For each task:
-- write the specified failing test first;
-- run it and record the failure;
-- implement only the task scope;
-- run every specified verification command;
-- commit with the exact task commit message;
-- perform requirements and code-quality review;
-- stop and report any failed command instead of continuing.
+### After all four downstream documents are approved
 
-The execution-corrections file overrides conflicting text in the main foundation plan. Do not implement company, project, report, search, ingestion, notification, deployment, vector, or AI features in this branch.
-```
+- The five-layer document set becomes the executable authority chain.
+- Superseded legacy design, roadmap, foundation, corrections, and start prompts become historical references.
+- Task 1 is reviewed against the approved chain. Task 2 may start only after that review is clean or required Task 1 changes are completed and reviewed.
+
+## Legacy inputs awaiting separation or revalidation
+
+- Mixed Product/System/Technical design: `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md`
+- Provisional roadmap: `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`
+- Legacy foundation implementation plan: `docs/superpowers/plans/2026-07-30-platform-foundation.md`
+- Mandatory corrections for that legacy plan only: `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md`
+
+The corrections file overrides conflicts inside the legacy foundation plan while that plan is being reviewed. It cannot override the PRD, acceptance standard, or any newly approved upstream document.
+
+## Interim review order
+
+For the current documentation review, read:
+
+1. `docs/product/PRD.md`
+2. `docs/product/acceptance-criteria.md`
+3. `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md` as a legacy source
+4. `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md` as a provisional source
+5. The legacy foundation plan and corrections only to assess Task 1 compatibility
+
+There is intentionally no executable Codex start prompt while this hold is active.

@@ -1,6 +1,8 @@
 # Oil & Gas Knowledge Platform Foundation Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **MANDATORY GOVERNANCE HOLD (2026-07-31):** This is a legacy implementation plan and is not authorization to start Task 2 or any later Task. Task 1 is complete at task scope on `feat/platform-foundation`; execution is paused. First approve `docs/product/PRD.md`, `docs/product/acceptance-criteria.md`, Product/System Design, Technical Architecture, a revalidated Roadmap, and a rewritten Codex Implementation Plan. Then review Task 1 against that chain before deciding whether Task 2 may start.
+
+> **Legacy execution note — disabled while the hold is active:** The workflow instruction below is retained only to review historical Task 1 evidence. Do not execute unchecked Tasks from this file.
 
 **Goal:** Create the production-oriented application foundation for the internal oil and gas knowledge platform: workspace, React shell, Cloudflare Workers API, shared contracts, Supabase governance schema, authentication boundary, private R2 adapter, automated tests, and CI.
 
