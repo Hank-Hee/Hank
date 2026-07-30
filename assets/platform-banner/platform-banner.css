@@ -1,0 +1,168 @@
+.platform-banner-root,
+.platform-banner,
+.platform-banner * {
+  box-sizing: border-box;
+}
+
+.platform-banner-root {
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+.platform-banner {
+  --banner-bg-left: #f8fbfc;
+  --banner-bg-right: #edf7f8;
+  --banner-heading: #17324d;
+  --banner-accent: #d23842;
+  --banner-subtitle: #708399;
+  --banner-description: #667085;
+  --banner-border: #dce6ec;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(360px, .82fr) minmax(520px, 1.18fr);
+  align-items: center;
+  gap: clamp(28px, 2.8vw, 40px);
+  width: 100%;
+  height: 188px;
+  min-width: 0;
+  overflow: hidden;
+  padding: 24px 52px;
+  border: 1px solid var(--banner-border);
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--banner-bg-left) 0%, #f5fafc 55%, var(--banner-bg-right) 100%);
+  color: var(--banner-heading);
+  box-shadow: none;
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+}
+
+.platform-banner--company { --banner-accent: #d23842; }
+.platform-banner--research { --banner-accent: #16847a; }
+
+.platform-banner__copy {
+  align-self: center;
+  min-width: 0;
+  transform: translateY(-5px);
+}
+
+.platform-banner__title {
+  margin: 0;
+  color: var(--banner-heading);
+  font-size: clamp(38px, 2.4vw, 42px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -.03em;
+  white-space: nowrap;
+}
+
+.platform-banner__accent { color: var(--banner-accent); }
+
+.platform-banner__subtitle {
+  margin: 5px 0 0;
+  color: var(--banner-subtitle);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.platform-banner__description {
+  margin: 10px 0 0;
+  color: var(--banner-description);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.platform-banner__visual {
+  position: relative;
+  align-self: center;
+  justify-self: stretch;
+  width: 100%;
+  height: 146px;
+  min-width: 0;
+  overflow: visible;
+  transform: translateY(-5px);
+  pointer-events: none;
+}
+
+.platform-banner--research .platform-banner__visual img,
+.platform-banner--research .platform-banner__visual svg {
+  display: block;
+  width: min(100%, 470px);
+  height: 100%;
+  margin-left: auto;
+  overflow: visible;
+  object-fit: contain;
+}
+
+@media (max-width: 1199px) {
+  .platform-banner {
+    grid-template-columns: minmax(330px, .9fr) minmax(420px, 1.1fr);
+    gap: 26px;
+    height: 180px;
+    padding: 22px 36px;
+  }
+
+  .platform-banner__title { font-size: 36px; }
+  .platform-banner__visual { height: 136px; }
+
+  .platform-banner--research .platform-banner__visual img,
+  .platform-banner--research .platform-banner__visual svg {
+    width: min(100%, 410px);
+  }
+}
+
+@media (max-width: 1023px) {
+  .platform-banner {
+    grid-template-columns: minmax(320px, .95fr) minmax(280px, .8fr);
+    gap: 20px;
+    height: 174px;
+    padding: 20px 28px;
+  }
+
+  .platform-banner__title { font-size: 32px; }
+  .platform-banner__subtitle { font-size: 10px; letter-spacing: .17em; }
+  .platform-banner__description { font-size: 12px; }
+  .platform-banner__visual { height: 128px; }
+
+  .platform-banner--research .platform-banner__visual img,
+  .platform-banner--research .platform-banner__visual svg {
+    width: min(100%, 350px);
+  }
+}
+
+@media (max-width: 767px) {
+  .platform-banner {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    height: auto;
+    min-height: 196px;
+    padding: 24px;
+  }
+
+  .platform-banner__copy { transform: none; }
+  .platform-banner__title { font-size: 36px; }
+
+  .platform-banner__visual {
+    height: 82px;
+    margin-top: 0;
+    transform: none;
+  }
+
+  .platform-banner--research .platform-banner__visual img,
+  .platform-banner--research .platform-banner__visual svg {
+    width: min(100%, 360px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .platform-banner { padding-right: 18px; padding-left: 18px; }
+  .platform-banner__title { font-size: 34px; }
+  .platform-banner__subtitle { letter-spacing: .14em; }
+  .platform-banner__description { font-size: 12px; }
+}
