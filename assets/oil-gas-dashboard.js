@@ -2,7 +2,7 @@
   const DATA_URL = "data/oil-gas-prices.json";
   const SERIES_COLORS = {
     brent: "#244E70",
-    wti: "#16847A",
+    wti: "#C68A2B",
     nymex_gas: "#356582",
     jkm_lng: "#D5A93F"
   };
@@ -74,8 +74,11 @@
       return `
         <article class="price-metric" style="--series-color:${color}">
           <div class="price-metric__identity">
-            <p class="price-metric__name">${item.nameZh}</p>
-            <p class="price-metric__name-en">${item.nameEn}</p>
+            <span class="price-metric__marker" aria-hidden="true"></span>
+            <div class="price-metric__labels">
+              <p class="price-metric__name">${item.nameZh}</p>
+              <p class="price-metric__name-en">${item.nameEn}</p>
+            </div>
           </div>
           <div class="price-metric__price">
             <span class="price-metric__value">${formatPrice(item.latest.price)}</span>
