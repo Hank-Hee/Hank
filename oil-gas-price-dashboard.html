@@ -3,52 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>油气价格波动 | Oil & Gas Price Widgets</title>
-  <link rel="stylesheet" href="assets/oil-gas-widget.css">
+  <title>油气价格波动 | Oil &amp; Gas Price Dashboard</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/oil-gas-dashboard.css">
   <script src="assets/echarts-price-lite.min.js"></script>
-  <script src="assets/oil-gas-widget.js" defer></script>
+  <script src="assets/oil-gas-dashboard.js" defer></script>
 </head>
 <body>
-  <main class="og-shell og-shell--dashboard">
-    <section class="og-grid" aria-label="油气价格波动总览">
-      <article class="og-widget" data-group="oil" data-unit-label="美元/桶">
-        <div class="og-state" data-role="state">数据加载中...</div>
-        <div data-role="content" hidden>
-          <header class="og-head">
-            <div class="og-title">
-              <h2>原油价格走势</h2>
-              <span>Daily Crude Oil Prices</span>
+  <main class="energy-price-dashboard">
+    <section class="energy-price-dashboard-grid" aria-label="油气价格波动总览">
+      <article class="energy-price-card" data-group="oil" data-unit-label="美元/桶">
+        <div class="energy-price-state" data-role="state" aria-live="polite">
+          <span class="energy-price-state__spinner" aria-hidden="true"></span>
+          <span data-role="state-message">正在读取价格数据</span>
+          <button type="button" data-role="retry" hidden>重新加载</button>
+        </div>
+        <div class="energy-price-card__content" data-role="content" hidden>
+          <header class="energy-price-card__header">
+            <div>
+              <h2 class="energy-price-card__title">原油价格走势</h2>
+              <p class="energy-price-card__subtitle">Daily Crude Oil Prices</p>
             </div>
-            <div class="og-meta">
-              <div>更新：<span data-role="updated">--</span></div>
+            <div class="energy-price-card__updated">
+              更新：<span data-role="updated">--</span>
             </div>
           </header>
-          <div class="og-metrics" data-role="metrics"></div>
-          <div class="og-chart" data-role="chart" aria-label="原油价格走势"></div>
-          <footer class="og-foot">
+          <div class="energy-price-card__metrics" data-role="metrics"></div>
+          <section class="energy-price-card__chart">
+            <div class="energy-price-card__plot" data-role="chart" aria-label="原油价格走势"></div>
+          </section>
+          <footer class="energy-price-card__footer">
             <span>延迟期货行情</span>
-            <a data-role="source" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">Yahoo Finance</a>
+            <a data-role="source" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">数据来源：Yahoo Finance</a>
           </footer>
         </div>
       </article>
 
-      <article class="og-widget" data-group="gas" data-unit-label="美元/MMBtu">
-        <div class="og-state" data-role="state">数据加载中...</div>
-        <div data-role="content" hidden>
-          <header class="og-head">
-            <div class="og-title">
-              <h2>天然气与 LNG 价格走势</h2>
-              <span>Daily Natural Gas & LNG Prices</span>
+      <article class="energy-price-card" data-group="gas" data-unit-label="美元/MMBtu">
+        <div class="energy-price-state" data-role="state" aria-live="polite">
+          <span class="energy-price-state__spinner" aria-hidden="true"></span>
+          <span data-role="state-message">正在读取价格数据</span>
+          <button type="button" data-role="retry" hidden>重新加载</button>
+        </div>
+        <div class="energy-price-card__content" data-role="content" hidden>
+          <header class="energy-price-card__header">
+            <div>
+              <h2 class="energy-price-card__title">天然气与 LNG 价格走势</h2>
+              <p class="energy-price-card__subtitle">Daily Natural Gas &amp; LNG Prices</p>
             </div>
-            <div class="og-meta">
-              <div>更新：<span data-role="updated">--</span></div>
+            <div class="energy-price-card__updated">
+              更新：<span data-role="updated">--</span>
             </div>
           </header>
-          <div class="og-metrics" data-role="metrics"></div>
-          <div class="og-chart" data-role="chart" aria-label="天然气与 LNG 价格走势"></div>
-          <footer class="og-foot">
+          <div class="energy-price-card__metrics" data-role="metrics"></div>
+          <section class="energy-price-card__chart">
+            <div class="energy-price-card__plot" data-role="chart" aria-label="天然气与 LNG 价格走势"></div>
+          </section>
+          <footer class="energy-price-card__footer">
             <span>延迟期货行情</span>
-            <a data-role="source" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">Yahoo Finance</a>
+            <a data-role="source" href="https://finance.yahoo.com/commodities" target="_blank" rel="noopener">数据来源：Yahoo Finance</a>
           </footer>
         </div>
       </article>
