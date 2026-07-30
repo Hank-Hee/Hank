@@ -450,14 +450,14 @@ git diff main...HEAD --stat
 
 截至本文件日期：
 
-- Product/System Design v1.0、Technical Architecture v1.0 和修订 Roadmap v1.0 已在独立复审无剩余 Critical/Important 后获批作为 Foundation 上游输入；修订 Codex Implementation Plan 尚未获批。
+- Product/System Design v1.0、Technical Architecture v1.0、修订 Roadmap v1.0 与 Foundation Codex Implementation Plan v2.0 均已在独立复审无剩余 Critical/Important 后获批；Implementation Plan 的精确文档提交为 `f66cf5552f45d3c6ea0f16f737047fb526c8e361`。
 - `feat/platform-foundation` 分支的 Task 1 已按其 task-scope 完成并提交为 `aef248f`；Foundation 执行在进入 Task 2 前暂停。
-- Task 1 的 tracked 测试和提交只能作为 `G3-FND-01` 的部分证据。RED/GREEN 与 task-scoped review 目前保存在 Codex 任务记录及本地忽略的 SDD workspace 中，不是仓库内持久证据；最终一致性审核前必须重新运行或将必要证据转为可持久复核记录。
+- Task 1 的 tracked 测试和提交只能作为 `G3-FND-01` 的部分证据。其 task-scope review 与对批准文档链的一致性复核均已完成且无剩余 Critical/Important；Node/npm 不一致被隔离为 Task 1A，仍须按 TDD 重新产生可复核证据。
 - Task 1 不是完整 Foundation 通过，也不是 G3 通过。
 - Task 2 已暂停。
 - 没有证据表明完整前端、业务后端、生产数据库、真实私有附件链路或 Cloudflare 生产网站已经验收。
 
-当前下一步是重写并批准 Codex Implementation Plan。该计划获批且整条文档链合并到 `feat/platform-foundation` 后，先对 Task 1 完成 Node/npm 一致性 TDD 修正与独立审核；只有通过该门禁后才能执行重写后的 Task 2。
+当前下一步是把包含精确计划提交的批准文档链合并到 `feat/platform-foundation`，随后完成 Task 1A 的 Node/npm 一致性 TDD 修正、指定验证、提交和独立审核；只有通过并在索引记录该前置提交后才能执行 Task 2。
 
 ## 11. 尚待建立的验收基线
 

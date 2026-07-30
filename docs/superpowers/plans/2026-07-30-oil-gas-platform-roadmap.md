@@ -11,7 +11,7 @@
 | Acceptance | `docs/product/acceptance-criteria.md` |
 | Approval basis | Hank delegated consistency authority; independent roadmap/authority review PASS; 2026-07-31 |
 
-> **CURRENT EXECUTION HOLD:** Task 2 remains paused until the rewritten Foundation Implementation Plan is approved, the approved document chain is merged into `feat/platform-foundation`, and the Task 1 Node consistency repair passes its review gate.
+> **CURRENT EXECUTION GATE:** Foundation Implementation Plan v2.0 is approved at `f66cf5552f45d3c6ea0f16f737047fb526c8e361`. Task 2 remains paused until that approved document chain is merged into `feat/platform-foundation` and the Task 1A Node consistency repair passes its commit and review gate.
 
 **Goal:** Convert the current collection of static prototypes, generated HTML pages, JSON datasets, and scripts into one governed internal knowledge platform without a risky full rewrite.
 
@@ -61,7 +61,7 @@ docs/superpowers/plans/
 └── 2026-08-xx-rag-readiness.md
 ```
 
-Roadmap approval alone authorizes no implementation. The Foundation plan path above becomes executable only after its legacy content has been rewritten, separately reviewed and approved, and `docs/superpowers/plans/INDEX.md` identifies its exact version, document commit, prerequisite implementation commit and next Task. The approved document commit must then be merged into `feat/platform-foundation`, and the Task 1A repair must be committed and independently reviewed before Task 2 can start. Each subsequent plan must be written from the then-current contracts, repository paths and closed PRD decisions. A roadmap phase row is never implementation authorization.
+Roadmap approval alone authorizes no implementation. Foundation Plan v2.0 has been rewritten, independently reviewed, approved, and indexed at exact document commit `f66cf5552f45d3c6ea0f16f737047fb526c8e361`; Task 1A is its only authorized next Task. The approved document chain must be merged into `feat/platform-foundation`, and the Task 1A repair must be committed and independently reviewed before Task 2 can start. Each subsequent plan must be written from the then-current contracts, repository paths and closed PRD decisions. A roadmap phase row is never implementation authorization.
 
 ---
 
@@ -143,7 +143,7 @@ Current Foundation state:
 |---|---|---|
 | Task 1 — Bootstrap workspace | Implemented at `aef248f`; consistency fix required | Layout test passed, scope clean; Node range must be narrowed and pinned |
 | Task 1A — Pin compatible Node toolchain | Pending | Must complete by TDD before Task 2 |
-| Task 2 — Shared API/authorization contracts | Paused | Execute only from the rewritten plan after Task 1A passes and documents are merged |
+| Task 2 — Shared API/authorization contracts | Paused | Execute only from approved Foundation Plan v2.0 after Task 1A passes and documents are merged |
 | Tasks 3–10 | Not started | Execute one at a time after each preceding task is verified, committed and reviewed |
 
 ### Plan 2 — Company Domain
@@ -235,13 +235,14 @@ Codex must execute one task at a time with TDD, run every verification command, 
 Current implementation-plan hold:
 
 ```text
-STOP. Task 2 is paused while the rewritten Foundation Implementation
-Plan remains unapproved. After that plan is approved, merge the
-document chain into feat/platform-foundation, complete
-Task 1A, verify and review it, then execute the rewritten Task 2.
+STOP. Task 2 remains paused. Foundation Implementation Plan v2.0 is
+approved at f66cf5552f45d3c6ea0f16f737047fb526c8e361, but its document
+chain must first be merged into feat/platform-foundation. Complete,
+verify, commit and review Task 1A, record that exact prerequisite commit
+in INDEX.md, and only then execute Task 2.
 ```
 
-The legacy start prompt and any unchecked Task in an earlier plan have no authority. When this roadmap and the rewritten plan reach approved status, `docs/superpowers/plans/INDEX.md` must identify the exact executable plan, branch, prerequisite commit and next Task.
+The legacy start prompt and any unchecked Task in an earlier plan have no authority. `docs/superpowers/plans/INDEX.md` identifies the exact executable plan, branch, prerequisite implementation commit and next Task; it must be updated again after Task 1A before Task 2 starts.
 
 ---
 
