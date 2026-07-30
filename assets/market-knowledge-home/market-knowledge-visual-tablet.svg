@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 130" fill="none">
+  <title>Wison integrated energy intelligence</title>
+  <defs>
+    <mask id="orbit-cutouts" maskUnits="userSpaceOnUse">
+      <rect width="440" height="130" fill="#fff"/>
+      <rect x="41" y="6" width="52" height="46" rx="16" fill="#000"/>
+      <rect x="344" y="6" width="52" height="46" rx="16" fill="#000"/>
+      <rect x="342" y="82" width="52" height="46" rx="16" fill="#000"/>
+    </mask>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g mask="url(#orbit-cutouts)">
+      <ellipse cx="220" cy="65" rx="204" ry="55" stroke="#7FCAC8" stroke-opacity=".78" stroke-width="1.4"/>
+      <ellipse cx="220" cy="65" rx="176" ry="39" stroke="#8EB7C8" stroke-opacity=".3" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(47 12)">
+      <rect width="40" height="34" rx="10" fill="#FFFFFF" fill-opacity=".045" stroke="#7FCAC8" stroke-opacity=".88" stroke-width="1.15"/>
+      <path d="M9 7H25L31 13V27H9V7ZM25 7V13H31M14 17H26M14 22H23" stroke="#B8DFE2" stroke-width="1.1"/>
+    </g>
+
+    <g transform="translate(350 12)">
+      <rect width="40" height="34" rx="10" fill="#FFFFFF" fill-opacity=".045" stroke="#7FCAC8" stroke-opacity=".88" stroke-width="1.15"/>
+      <path d="M8 27V9H32V27M5 27H35M12 27V18H19V27M22 27V15H29V27M11 9L15 5M29 9L25 5M11 13H29" stroke="#B8DFE2" stroke-width="1.08"/>
+    </g>
+
+    <g transform="translate(348 88)">
+      <rect width="40" height="34" rx="10" fill="#FFFFFF" fill-opacity=".045" stroke="#7FCAC8" stroke-opacity=".88" stroke-width="1.15"/>
+      <path d="M8 27V8M8 27H33M12 22L18 17L23 19L30 10" stroke="#B8DFE2" stroke-width="1.15"/>
+      <circle cx="30" cy="10" r="2.3" fill="#D7B55B"/>
+    </g>
+
+    <g transform="translate(70 42)" stroke="#B8DFE2">
+      <path d="M5 48H302C298 52 293 56 288 60H39C25 60 14 55 5 48Z" fill="#FFFFFF" fill-opacity=".035" stroke-width="1.4"/>
+      <path d="M18 47H294" stroke="#7FCAC8" stroke-width="1.2"/>
+      <path d="M21 47L31 7L42 47M25 36H39M27 26H37M29 16H35M25 36L39 26M27 26L36 16" stroke-width="1.05"/>
+      <rect x="48" y="29" width="39" height="18" rx="1.5" stroke-width="1"/>
+      <path d="M54 29V24H81V29M55 36H81M63 29V47M78 29V47" stroke-width="1"/>
+      <rect x="94" y="24" width="55" height="23" rx="1.5" stroke-width="1.05"/>
+      <path d="M101 24V19H113V24M121 24V14M121 19H133M139 24V10M101 33H143M101 40H143M109 33V47M123 33V47M137 33V47" stroke-width="1"/>
+      <rect x="157" y="29" width="38" height="18" rx="1.5" stroke-width="1"/>
+      <path d="M157 36H195M165 29V47M178 29V47M190 29V47" stroke-width=".95"/>
+      <rect x="202" y="25" width="44" height="22" rx="1.5" stroke-width="1"/>
+      <path d="M207 25L240 47M240 25L207 47M202 35H246" stroke-width=".95"/>
+      <rect x="253" y="18" width="27" height="29" rx="1.5" stroke-width="1.05"/>
+      <path d="M259 26H274M259 34H274M259 41H274M280 25H301" stroke-width=".95"/>
+      <path d="M55 51V57M112 51V58M169 51V58M226 51V58M278 51V57" stroke="#7CABC0" stroke-opacity=".58" stroke-width=".9"/>
+    </g>
+  </g>
+</svg>
