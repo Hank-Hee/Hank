@@ -1,0 +1,26 @@
+{
+  "name": "wison-oil-gas-knowledge-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @wison/contracts && npm run build -w @wison/api && npm run build -w @wison/web",
+    "dev:api": "npm run dev -w @wison/api",
+    "dev:web": "npm run dev -w @wison/web",
+    "e2e": "playwright test",
+    "lint": "npm run lint -w @wison/contracts && npm run lint -w @wison/api && npm run lint -w @wison/web",
+    "test": "node --test tests/*.test.mjs && npm run test -w @wison/contracts && npm run test -w @wison/api && npm run test -w @wison/web",
+    "typecheck": "npm run typecheck -w @wison/contracts && npm run typecheck -w @wison/api && npm run typecheck -w @wison/web"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "supabase": "^2.110.0"
+  }
+}
