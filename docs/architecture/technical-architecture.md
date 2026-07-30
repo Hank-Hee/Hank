@@ -242,13 +242,15 @@ JWT 只证明身份，不承载最终产品授权。Foundation Task 2 共享的 
 
 - 每个环境使用独立 Hyperdrive binding 和最小权限 runtime 数据库角色；runtime 角色不是表 owner、不能 DDL、不能绕过 RLS。
 - Hyperdrive query caching 在所有产品请求中显式关闭。官方说明其默认缓存不会因写入自动失效；账号、权限、撤权和 read-after-write 不能接受该陈旧窗口。
-- 每个受保护查询必须在同一 client、同一短事务中严格执行 `BEGIN → set_config('app.user_id', verifiedSub, true) → set_config('app.request_id', requestId, true) → query → COMMIT`，失败时 `ROLLBACK`。`verifiedSub` 只能来自已完整验证的 JWT `sub`；不得使用会跨连接残留的 session state，也不得在事务外执行受 RLS 保护的业务查询。
+- 每个受保护查询必须在同一 client、同一短事务中严格执行 `BEGIN → SET LOCAL ROLE app_runtime → set_config('app.user_id', verifiedSub, true) → set_config('app.request_id', requestId, true) → query → COMMIT`，失败时 `ROLLBACK`。未来每个生产登录身份必须只获得切换到 `app_runtime` 所需的成员关系，不能成为表 owner 或获得更高数据库角色；Foundation 只建立无登录 `app_runtime` 与本地切换证据，不创建生产登录凭据。`verifiedSub` 只能来自已完整验证的 JWT `sub`；不得使用会跨连接残留的 session state，也不得在事务外执行受 RLS 保护的业务查询。
 - PostgreSQL helper 使用 `current_setting('app.user_id', true)` 读取上下文；缺失、空值或畸形值返回 `NULL` 并默认拒绝，不抛出可被利用的详细错误。数据库测试必须证明 runtime role 不是 owner、没有 `BYPASSRLS`、受保护表启用/`FORCE ROW LEVEL SECURITY`，且 view 使用 invoker 权限或以等价方式不绕过 RLS。
 - API 先执行产品动作授权，SQL 再按安全等级、订阅/记录授权和 RLS 过滤，形成独立纵深防御。
 - 需要多表原子性的写入使用显式事务或经版本化的 PostgreSQL function；所有参数化，禁止字符串拼接 SQL。
 - migration 使用独立 `app_migrator` 身份；受控后台任务使用独立最小权限身份，不复用 Web 用户或 runtime owner。
 - 不允许前端直接访问业务表、Hyperdrive、R2 或 privileged function。
 - 生产 Hyperdrive 到 Supabase 必须使用严格 TLS 和主机证书校验，不使用 `require_no_verify`；在 G4 前评审 Supabase network restrictions/允许的 Cloudflare 连接路径、凭据轮换和紧急撤销。
+
+Foundation 使用一个不创建对象的 migration-history anchor，随后才应用尚未部署、无生产数据的 additive baseline。合并前的 rollback 门禁是在 disposable local stack 执行 `supabase migration down --local --last 1 --yes` 回到 anchor，再运行与 baseline 版本匹配的显式 cleanup SQL 删除 Supabase schema replay 不会清理的 `app_runtime` cluster role；独立 pgTAP 必须在重放前同时证明 `app_private` schema 与 `app_runtime` role 不存在，之后才能执行 `supabase migration up --local` 并重跑完整 pgTAP。重放前的 absence assertion 防止幂等 DDL 掩盖残留；role 创建保持受控幂等，以便 Supabase local reset 后可重复验证。cleanup 不使用 `reassign owned` 或 `drop owned`，任何意外依赖都必须让门禁失败。该证据只证明本地基线 migration 可完整撤销和重放，不代表生产恢复或 G4 回滚。任何已有环境上的后续变更仍必须使用 expand/contract、N/N-1 兼容、备份恢复点和 forward-fix migration，不得把 destructive down migration 当成生产常规回滚。
 
 Cloudflare 的 Supabase 集成要求 Hyperdrive 使用数据库 direct connection，并建议 Worker 通过受支持 PostgreSQL driver 访问；Hyperdrive 即使关闭查询缓存仍提供连接池与快速连接：[Hyperdrive + Supabase](https://developers.cloudflare.com/hyperdrive/examples/connect-to-postgres/postgres-database-providers/supabase/)、[Hyperdrive query caching](https://developers.cloudflare.com/hyperdrive/concepts/query-caching/)。
 

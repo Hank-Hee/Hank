@@ -1,10 +1,10 @@
-# Platform Foundation — Mandatory Execution Corrections
+# Platform Foundation — Superseded Execution Corrections (Legacy v1 Only)
 
-> **MANDATORY GOVERNANCE HOLD (2026-07-31):** This file does not authorize any new Task. Foundation is paused after Task 1. The corrections apply only when reviewing or reproducing evidence under the legacy `2026-07-30-platform-foundation.md`; they cannot override the PRD, acceptance standard, or any newly approved downstream document.
+> **SUPERSEDED (2026-07-31):** This file is historical evidence for the pre-v2 Foundation plan only. Nothing below this notice applies to `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.0. The approved v2.0 plan is self-contained and overrides every legacy correction, snippet, command, permission name, and execution-order statement in this file.
 
-> **Status:** Mandatory companion only to the legacy `2026-07-30-platform-foundation.md` while that plan remains applicable.
+> **Status:** Historical and non-executable. Do not read this file as a companion to v2.0 and do not use it to authorize or modify any Task.
 >
-> Codex must read this file after the main plan and apply every correction below. Where this file conflicts with the main plan, this file wins.
+> The remaining text is preserved unchanged as an audit trail of the superseded v1 workflow. Its old mandatory language has no current force.
 
 ## 1. `.gitignore` correction
 
