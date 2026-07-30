@@ -69,12 +69,9 @@
 
   function renderMetrics(widget, series) {
     const metrics = widget.querySelector("[data-role='metrics']");
-    metrics.innerHTML = series.map((item) => {
-      const color = visualColor(item);
-      return `
-        <article class="price-metric" style="--series-color:${color}">
+    metrics.innerHTML = series.map((item) => `
+        <article class="price-metric">
           <div class="price-metric__identity">
-            <span class="price-metric__marker" aria-hidden="true"></span>
             <div class="price-metric__labels">
               <p class="price-metric__name">${item.nameZh}</p>
               <p class="price-metric__name-en">${item.nameEn}</p>
@@ -89,8 +86,7 @@
             <span class="price-change">周涨跌 <b class="price-change__value ${changeClass(item.latest.week)}">${formatPct(item.latest.week)}</b></span>
           </div>
         </article>
-      `;
-    }).join("");
+      `).join("");
   }
 
   function makeChartOption(items, yName) {
@@ -103,10 +99,10 @@
         top: 4,
         right: 8,
         icon: "circle",
-        itemWidth: 8,
-        itemHeight: 8,
+        itemWidth: 9,
+        itemHeight: 9,
         itemGap: 16,
-        textStyle: { color: "#344054", fontSize: 10 }
+        textStyle: { color: "#344054", fontSize: 11 }
       },
       tooltip: {
         trigger: "axis",
@@ -115,13 +111,13 @@
         axisPointer: {
           type: "cross",
           lineStyle: { color: "#98A2B3", width: 1 },
-          label: { backgroundColor: "#667085", fontSize: 10 }
+          label: { backgroundColor: "#667085", fontSize: 11 }
         },
         backgroundColor: "#FFFFFF",
         borderColor: "#D9E1E8",
         borderWidth: 1,
         padding: [8, 10],
-        textStyle: { color: "#344054", fontSize: 11 },
+        textStyle: { color: "#344054", fontSize: 12 },
         extraCssText: "box-shadow:0 6px 18px rgba(16,24,40,.10);border-radius:6px;",
         formatter(params) {
           const date = params[0]?.value?.[0] || "";
@@ -139,8 +135,8 @@
       grid: {
         left: 44,
         right: 14,
-        top: 34,
-        bottom: 25,
+        top: 38,
+        bottom: 28,
         containLabel: true
       },
       xAxis: {
@@ -148,7 +144,7 @@
         boundaryGap: false,
         axisLine: { show: true, lineStyle: { color: "#D9E1E8", width: 1 } },
         axisTick: { show: false },
-        axisLabel: { color: "#667085", fontSize: 9, margin: 8, hideOverlap: true },
+        axisLabel: { color: "#667085", fontSize: 10, margin: 8, hideOverlap: true },
         splitLine: { show: false }
       },
       yAxis: {
@@ -156,10 +152,10 @@
         name: yName,
         nameGap: 34,
         nameLocation: "middle",
-        nameTextStyle: { color: "#667085", fontSize: 9 },
+        nameTextStyle: { color: "#667085", fontSize: 10 },
         axisLine: { show: false },
         axisTick: { show: false },
-        axisLabel: { color: "#667085", fontSize: 9, margin: 8 },
+        axisLabel: { color: "#667085", fontSize: 10, margin: 8 },
         splitLine: {
           show: true,
           lineStyle: { color: "#E7EDF2", width: 1, type: "dashed" }
