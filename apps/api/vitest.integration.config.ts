@@ -4,6 +4,6 @@ export default defineConfig({
   test: {
     environment: 'node',
     fileParallelism: false,
-    include: ['test/database-context.integration.test.ts'],
+    include: ['test/**/*.integration.test.ts'],
   },
 });

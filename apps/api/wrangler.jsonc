@@ -8,9 +8,10 @@
     "APP_VERSION": "0.1.0"
   },
   "assets": {
+    "binding": "ASSETS",
     "directory": "../web/dist",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*", "/company-assets/*"]
   },
   "r2_buckets": [
     { "binding": "FILES", "bucket_name": "wison-knowledge-files-dev" },

@@ -3,6 +3,8 @@ import type { VerifiedIdentity } from './auth/types';
 
 export interface AppBindings {
   APP_VERSION: string;
+  ASSETS: Fetcher;
+  DEMO_AUTH_ENABLED?: string;
   FILES: R2Bucket;
   HYPERDRIVE: Hyperdrive;
   JWT_ALGORITHM: string;

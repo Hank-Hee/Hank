@@ -5,6 +5,7 @@ work/previews/
 outputs/
 node_modules/
 dist/
+apps/web/public/company-assets/
 coverage/
 .env
 .env.*
