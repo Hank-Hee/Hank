@@ -2095,39 +2095,55 @@ insert into app_private.user_roles (user_id, role_code) values
   ('00000000-0000-4000-8000-000000000003', 'sales_bd'),
   ('00000000-0000-4000-8000-000000000004', 'super_admin');
 
+create temporary table runtime_observations (
+  key text primary key,
+  value jsonb
+) on commit drop;
+grant insert on runtime_observations to app_runtime;
+
 set local role app_runtime;
 set local app.user_id = '00000000-0000-4000-8000-000000000001';
-select is((select count(*)::integer from app_private.profiles), 1, 'user A cannot read user B');
+insert into runtime_observations (key, value) values
+  ('user_a_profile_count', to_jsonb((select count(*)::integer from app_private.profiles))),
+  ('user_a_context', app_private.get_current_user_context());
+set local app.user_id = '00000000-0000-4000-8000-000000000003';
+insert into runtime_observations (key, value) values
+  ('inactive_context', app_private.get_current_user_context()),
+  ('inactive_role_count', to_jsonb((select count(*)::integer from app_private.roles)));
+set local app.user_id = '00000000-0000-4000-8000-000000000099';
+insert into runtime_observations (key, value) values
+  ('unknown_role_count', to_jsonb((select count(*)::integer from app_private.roles)));
+reset role;
+
+select is((select value from runtime_observations where key = 'user_a_profile_count'), '1'::jsonb, 'user A cannot read user B');
 select is(
-  app_private.get_current_user_context(),
+  (select value from runtime_observations where key = 'user_a_context'),
   '{"email":"a@example.com","permissions":["platform.access"],"roles":["sales_bd"],"userId":"00000000-0000-4000-8000-000000000001"}'::jsonb,
   'context is stable, unique, and matches Task 2 shape'
 );
-set local app.user_id = '00000000-0000-4000-8000-000000000003';
-select is(app_private.get_current_user_context(), null::jsonb, 'inactive profile returns no context');
-select is((select count(*)::integer from app_private.roles), 0, 'inactive user cannot read lookup rows');
-set local app.user_id = '00000000-0000-4000-8000-000000000099';
-select is((select count(*)::integer from app_private.roles), 0, 'unknown user cannot read lookup rows');
-reset role;
+select is((select value from runtime_observations where key = 'inactive_context'), null::jsonb, 'inactive profile returns no context');
+select is((select value from runtime_observations where key = 'inactive_role_count'), '0'::jsonb, 'inactive user cannot read lookup rows');
+select is((select value from runtime_observations where key = 'unknown_role_count'), '0'::jsonb, 'unknown user cannot read lookup rows');
 
 insert into app_private.permissions (code, description) values ('future.domain.read', 'synthetic future permission');
 set local role app_runtime;
 set local app.user_id = '00000000-0000-4000-8000-000000000004';
-select ok(
-  not (app_private.get_current_user_context()->'permissions' ? 'future.domain.read'),
-  'future permission is not inferred for super_admin'
-);
+insert into runtime_observations (key, value) values
+  ('future_permission_present', to_jsonb(app_private.get_current_user_context()->'permissions' ? 'future.domain.read'));
 reset role;
+select is((select value from runtime_observations where key = 'future_permission_present'), 'false'::jsonb, 'future permission is not inferred for super_admin');
 
 delete from app_private.role_permissions where role_code = 'super_admin';
 set local role app_runtime;
 set local app.user_id = '00000000-0000-4000-8000-000000000004';
+insert into runtime_observations (key, value) values
+  ('super_admin_permissions', app_private.get_current_user_context()->'permissions');
+reset role;
 select is(
-  app_private.get_current_user_context()->'permissions',
+  (select value from runtime_observations where key = 'super_admin_permissions'),
   '[]'::jsonb,
   'super_admin with no grants has no inferred permissions'
 );
-reset role;
 
 select * from finish();
 rollback;

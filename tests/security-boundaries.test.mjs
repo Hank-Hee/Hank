@@ -72,12 +72,17 @@ test('foundation migration validates app_runtime without protected role repairs'
   assert.doesNotMatch(roles, /with\s+admin\s+true/i);
 });
 
-test('foundation pgTAP count assertions use portable integer overloads', async () => {
+test('foundation pgTAP assertions execute outside the restricted runtime role', async () => {
   const specification = await readFile(
     resolve(repositoryRoot, 'supabase/tests/platform_foundation_test.sql'),
     'utf8',
   );
 
-  assert.doesNotMatch(specification, /count\(\*\)[^;]*::bigint/gi);
-  assert.equal(specification.match(/count\(\*\)[^;]*::integer/gi)?.length, 7);
+  const runtimeBlocks = [
+    ...specification.matchAll(/set\s+local\s+role\s+app_runtime;([\s\S]*?)reset\s+role;/gi),
+  ];
+  assert.equal(runtimeBlocks.length, 3);
+  for (const [, body] of runtimeBlocks) {
+    assert.doesNotMatch(body, /select\s+(?:is|ok)\s*\(/i);
+  }
 });
