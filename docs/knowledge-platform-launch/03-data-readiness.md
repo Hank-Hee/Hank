@@ -33,7 +33,10 @@
 - 财务：`data/<slug>-financials.json`
 - 产量：`data/<slug>-net-production-by-region.json`；ExxonMobil 的历史路径为 `data/exxon-net-production-by-region.json`
 
-该矩阵只证明文件存在，不等于已完成内容、数值口径、版权或产品验收。
+机器可校验的清单已生成在 `data/company-demo-inventory.json`，由
+`scripts/build-company-demo-inventory.mjs` 从原始资料重新计算文件大小和 SHA-256。
+`node scripts/build-company-demo-inventory.mjs --check` 会拒绝缺失或过期的清单。
+原始文件保持不变；该矩阵和清单只证明来源存在，不等于已完成内容、数值口径、版权或产品验收。
 
 ## 3. 标准化最低要求
 

@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/build-company-demo-inventory.mjs",
+  "companies": [
+    {
+      "slug": "adnoc",
+      "displayName": "ADNOC",
+      "sourceId": "6a1e90aa11f1cb641ce4fe22",
+      "companyType": "NOC",
+      "country": "阿联酋",
+      "region": "中东及南亚",
+      "business": "综合油气、上游勘探开发、炼化化工",
+      "marketPosition": "阿联酋国家能源集团，中东大型上游和炼化化工一体化运营商",
+      "website": "https://www.adnoc.ae/",
+      "foundedYear": "1971",
+      "headquarters": "阿布扎比，阿联酋",
+      "projectCount": 49,
+      "countryCount": 1,
+      "businessRegions": [
+        "中东及南亚"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "adnoc-banner.html",
+          "status": "present",
+          "size": 10926,
+          "sha256": "b93dd8a76811222424666d6355ae0820932da7e727dfc1d5f8bd2028383e3f57"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/adnoc.json",
+          "status": "present",
+          "size": 67464,
+          "sha256": "4f2897f60de31105da28f66ddaa1b8d3f392d82af11139e862c848dcab37d08f"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "adnoc-net-production-dashboard.html",
+          "status": "present",
+          "size": 1396,
+          "sha256": "6327c7b504ad5a103094f74b0611f9653171bb4e5d3a2807ddc9c717a9982b41"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/adnoc-net-production-by-region.json",
+          "status": "present",
+          "size": 10536,
+          "sha256": "c308d416df987945b99886bc40082cb5ac43c3c6e90e6748a5fbfbe0f800346f"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/adnoc-financial-dashboard.html",
+          "status": "present",
+          "size": 3379,
+          "sha256": "847265fcf7d0ef87f10e44dd71611b60f2c9cc7cb307fc91dbdf054ff965e3f0"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/adnoc-financials.json",
+          "status": "present",
+          "size": 20149,
+          "sha256": "3defa4303ccb91281e18f2145489c58ebf810551a22ce4df60f7c0e33aebd445"
+        }
+      ]
+    },
+    {
+      "slug": "bp",
+      "displayName": "BP",
+      "sourceId": "6a1e90aa11f1cb641ce4fe1d",
+      "companyType": "IOC",
+      "country": "英国",
+      "region": "北海/北欧",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "全球综合能源企业，油气、LNG与低碳投资并行",
+      "website": "https://www.bp.com/",
+      "foundedYear": "1909",
+      "headquarters": "伦敦，英国",
+      "projectCount": 408,
+      "countryCount": 13,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "bp-banner.html",
+          "status": "present",
+          "size": 10877,
+          "sha256": "4715c44fc2cb5b2082f37c52e4ce40a557222b2c986c3b9373f1860920d9309b"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/bp.json",
+          "status": "present",
+          "size": 504140,
+          "sha256": "7b5e49df5ef3527dfcbd7330dfd1dfde0be441a3a7c1c032b81cd162b4a8a0fd"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "bp-net-production-dashboard.html",
+          "status": "present",
+          "size": 1378,
+          "sha256": "09fe8ac234c18d31b041c1122d3279bbd561ca245fe61216b32435f683633081"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/bp-net-production-by-region.json",
+          "status": "present",
+          "size": 15315,
+          "sha256": "1aeaf513918369cbad5209ceff7c88cd669e9d7cc0041da313eccbb89c13b247"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/bp-financial-dashboard.html",
+          "status": "present",
+          "size": 3376,
+          "sha256": "a84381c4056f61e4cfb081caf1902fc7a84d5ab03d6f31ed8e5aa52bede2137a"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/bp-financials.json",
+          "status": "present",
+          "size": 17048,
+          "sha256": "3a3864f173936e852eaa919a37e8d0778c4b0c13539c970ebbf8027e1cbcbbf1"
+        }
+      ]
+    },
+    {
+      "slug": "chevron",
+      "displayName": "Chevron",
+      "sourceId": "6a1e90aa11f1cb641ce4fe1e",
+      "companyType": "IOC",
+      "country": "美国",
+      "region": "墨西哥湾",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "全球综合能源巨头，深水、LNG与大型上游项目能力突出",
+      "website": "https://www.chevron.com/",
+      "foundedYear": "1879",
+      "headquarters": "休斯顿，美国",
+      "projectCount": 562,
+      "countryCount": 23,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "chevron-banner.html",
+          "status": "present",
+          "size": 11007,
+          "sha256": "638c37930299c01bc78ebe528b3de99ae72c0a0d816083be91b85a457f16e0ae"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/chevron.json",
+          "status": "present",
+          "size": 714249,
+          "sha256": "476ad430954fe794fe891f0f00caad0299ca5b8c709a2386dfd5e5ee50bf2ed6"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "chevron-net-production-dashboard.html",
+          "status": "present",
+          "size": 1408,
+          "sha256": "416f8f05c57d381314090601e42ccbe107ffae17510e3e9ee433800619ce3a2f"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/chevron-net-production-by-region.json",
+          "status": "present",
+          "size": 17583,
+          "sha256": "727e95b2f485e91ab27707b1d926c55ca35484f89998badb7cd26730a00a3a19"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/chevron-financial-dashboard.html",
+          "status": "present",
+          "size": 3381,
+          "sha256": "68810e67173f1aef9bbfdfe7369c4e8a4c3e0329f5aeceff4f45b2684334db2f"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/chevron-financials.json",
+          "status": "present",
+          "size": 18522,
+          "sha256": "4f763200347117e1055f12f66a012b7b060c481d264d95290f73cb780004e50f"
+        }
+      ]
+    },
+    {
+      "slug": "eni",
+      "displayName": "ENI",
+      "sourceId": "6a1e90aa11f1cb641ce4fe19",
+      "companyType": "IOC",
+      "country": "意大利",
+      "region": "地中海/南欧",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "意大利综合能源集团，非洲油气和LNG资源整合能力突出",
+      "website": "https://www.eni.com/",
+      "foundedYear": "1953",
+      "headquarters": "罗马，意大利",
+      "projectCount": 437,
+      "countryCount": 35,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "eni-banner.html",
+          "status": "present",
+          "size": 10878,
+          "sha256": "6f94a35c46ee232517351777367e293e93ee514e9ecfd68bc1a82e4531ee376d"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/eni.json",
+          "status": "present",
+          "size": 517140,
+          "sha256": "3ebf2387628f57f461787b542446ec7a3345ba32b9ae3f3373173f327a221806"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "eni-net-production-dashboard.html",
+          "status": "present",
+          "size": 1384,
+          "sha256": "91d4a937a3492382490c235b726a8c7c133147c4cc0f11b3c6a57ba3b25136e9"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/eni-net-production-by-region.json",
+          "status": "present",
+          "size": 19065,
+          "sha256": "6dff06472d2901577112fa85ce2d249687f9d221d62682d5c77673200be87d9d"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/eni-financial-dashboard.html",
+          "status": "present",
+          "size": 3377,
+          "sha256": "e83ab48b70e2ff0baaf85e9af2c81baaa4d2f14f240844a13d109880d62354fe"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/eni-financials.json",
+          "status": "present",
+          "size": 19182,
+          "sha256": "64e22d780830b6a654d72ec22b32c4bbf87042c751e4c6dc474357912bb6ebe6"
+        }
+      ]
+    },
+    {
+      "slug": "exxonmobil",
+      "displayName": "ExxonMobil",
+      "sourceId": "6a1e90aa11f1cb641ce4fe1c",
+      "companyType": "IOC",
+      "country": "美国",
+      "region": "墨西哥湾",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "全球最大上市综合能源公司之一，上游、LNG与炼化化工一体化",
+      "website": "https://corporate.exxonmobil.com/",
+      "foundedYear": "1882",
+      "headquarters": "斯普林，美国",
+      "projectCount": 373,
+      "countryCount": 18,
+      "businessRegions": [
+        "东南亚",
+        "中南美洲",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "exxonmobil-banner.html",
+          "status": "present",
+          "size": 10997,
+          "sha256": "409cf5ab1e71aa1d2a502c7673f26da70794a6e1e35fa3e652db6129ee3270a3"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/exxonmobil.json",
+          "status": "present",
+          "size": 545260,
+          "sha256": "3fb63bac234e49b1f99d2489d64e5d8a2905cc54633acce94bdb6e2efbc02c8a"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "exxon-net-production-dashboard.html",
+          "status": "present",
+          "size": 1421,
+          "sha256": "478b94b5d42892f37a7cbd26206d4187870f628dc9149a7f0156053e7ac98b1a"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/exxon-net-production-by-region.json",
+          "status": "present",
+          "size": 18903,
+          "sha256": "ad6434efdd8889a15366d1de965ace3eb5ca4d08def23775a25bad45ff8154d5"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/exxonmobil-financial-dashboard.html",
+          "status": "present",
+          "size": 3384,
+          "sha256": "434eb2d72926c6e5c9d5208fec20e52ed908dd6e25218174a400e0f2d676399f"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/exxonmobil-financials.json",
+          "status": "present",
+          "size": 29575,
+          "sha256": "c040c46cc407f305798a1a4dcde2bc30aaeb55118d81698e6ca6bea27f7fb15c"
+        }
+      ]
+    },
+    {
+      "slug": "petronas",
+      "displayName": "Petronas",
+      "sourceId": "6a1e90aa11f1cb641ce4fe25",
+      "companyType": "NOC",
+      "country": "马来西亚",
+      "region": "东南亚",
+      "business": "综合油气、LNG、上游勘探开发",
+      "marketPosition": "马来西亚国家能源集团，全球LNG和国际上游重要参与者",
+      "website": "https://www.petronas.com/",
+      "foundedYear": "1974",
+      "headquarters": "吉隆坡，马来西亚",
+      "projectCount": 182,
+      "countryCount": 16,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "俄罗斯/独联体",
+        "加拿大",
+        "巴西",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "petronas-banner.html",
+          "status": "present",
+          "size": 10992,
+          "sha256": "b0a1d5da740b17591e68eceb9fe83378b5d8fee5879b2f02c0eb3a70883235a9"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/petronas.json",
+          "status": "present",
+          "size": 230568,
+          "sha256": "234fb23ea7fbcd877ed1a2910309cf099fd27ce4fa16748ef7e683d6f8bca0dc"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "petronas-net-production-dashboard.html",
+          "status": "present",
+          "size": 1414,
+          "sha256": "39dc6caea2996949482bfd5d1735b788d6bba5cc1c4c2ca6b421aedd371deaf1"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/petronas-net-production-by-region.json",
+          "status": "present",
+          "size": 15006,
+          "sha256": "29987a41137d4ba85e44b9aa576f0b221fbc1a196d84cd98a811cf539f5cebf4"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/petronas-financial-dashboard.html",
+          "status": "present",
+          "size": 3382,
+          "sha256": "cd11ede5d66da455826cbde24e1a85a4df0cde49c544e40a67e8625b83780c99"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/petronas-financials.json",
+          "status": "present",
+          "size": 20005,
+          "sha256": "41ddec2f14f42c5e11d460fc82332b7334f74d7938666422ec6080d0f6df1891"
+        }
+      ]
+    },
+    {
+      "slug": "shell",
+      "displayName": "Shell",
+      "sourceId": "6a1e90aa11f1cb641ce4fe1a",
+      "companyType": "IOC",
+      "country": "英国",
+      "region": "北海/北欧",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "全球综合能源公司，LNG贸易与深水油气领域居行业前列",
+      "website": "https://www.shell.com/",
+      "foundedYear": "1890",
+      "headquarters": "伦敦，英国",
+      "projectCount": 552,
+      "countryCount": 32,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "俄罗斯/独联体",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "shell-banner.html",
+          "status": "present",
+          "size": 10892,
+          "sha256": "cecb98c0477a23f9c88e78c6e01ef5411e094e318e592ca3f11a591fddb96454"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/shell.json",
+          "status": "present",
+          "size": 668092,
+          "sha256": "ec83a18c09e66cc0b0e1f83ca9e36a6a8b5eef80666a108708cc97ce6ef8b2a1"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "shell-net-production-dashboard.html",
+          "status": "present",
+          "size": 1396,
+          "sha256": "99a5f18864cff1e615a872bbf104ea38587d675548cdcfcc9cd8bd3260626741"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/shell-net-production-by-region.json",
+          "status": "present",
+          "size": 19414,
+          "sha256": "3dd85fa79df294eabf657ab144ae336cb2df6c6a9e14370ac1160716ce1e2869"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/shell-financial-dashboard.html",
+          "status": "present",
+          "size": 3379,
+          "sha256": "4bbdf34e82855391010b29f4af2c011ab7fa7ade210f8df6c20d26fa7245f6af"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/shell-financials.json",
+          "status": "present",
+          "size": 16970,
+          "sha256": "206003c8788ad43b999f00326035feead0e5a5d2a1741a84158b771c4b9ae673"
+        }
+      ]
+    },
+    {
+      "slug": "totalenergies",
+      "displayName": "TotalEnergies",
+      "sourceId": "6a1e90aa11f1cb641ce4fe1b",
+      "companyType": "IOC",
+      "country": "法国",
+      "region": "欧洲其他",
+      "business": "综合油气、上游勘探开发、LNG",
+      "marketPosition": "全球多能源公司，LNG、深水油气与可再生电力布局广",
+      "website": "https://totalenergies.com/",
+      "foundedYear": "1924",
+      "headquarters": "库尔布瓦，法国",
+      "projectCount": 290,
+      "countryCount": 39,
+      "businessRegions": [
+        "东南亚",
+        "中东及南亚",
+        "中南美洲",
+        "中国及东北亚",
+        "加拿大",
+        "北美其他",
+        "北非/北欧",
+        "地中海/南欧",
+        "墨西哥湾",
+        "巴西",
+        "欧洲其他",
+        "澳大利亚/新西兰",
+        "非洲"
+      ],
+      "assets": [
+        {
+          "kind": "profile",
+          "path": "company-text-dashboard/data/company-data.json",
+          "status": "present",
+          "size": 51763,
+          "sha256": "7387a93d8a68c12a0004b04e10fa1409213c0feb09d583f9b7e8d211009a685d"
+        },
+        {
+          "kind": "banner",
+          "path": "totalenergies-banner.html",
+          "status": "present",
+          "size": 11013,
+          "sha256": "985f3c5b1756e69a9d6a2636cc1abbb0787e9cb9a25ca0bdb16c6e59c374681f"
+        },
+        {
+          "kind": "map-and-project-type",
+          "path": "maps/data/totalenergies.json",
+          "status": "present",
+          "size": 370289,
+          "sha256": "036ead7f45c4b92be3a30cd0760a010ac2864df1225ad5f439e36eb7acda1cd0"
+        },
+        {
+          "kind": "production-dashboard",
+          "path": "totalenergies-net-production-dashboard.html",
+          "status": "present",
+          "size": 1444,
+          "sha256": "68fc06b230d316f1d3274507c538a511050011bf29139de2f277b05794d4ee4f"
+        },
+        {
+          "kind": "production-data",
+          "path": "data/totalenergies-net-production-by-region.json",
+          "status": "present",
+          "size": 19988,
+          "sha256": "974e0671fb3b0ef27305ad49ab82cdab23e9c295b0037e2ac791413ba16e3d8b"
+        },
+        {
+          "kind": "financial-dashboard",
+          "path": "charts/financial/totalenergies-financial-dashboard.html",
+          "status": "present",
+          "size": 3387,
+          "sha256": "4e53fb591ff9396ad65fcb20be33b33fd919b4acd1459fadadc062adbc6bb199"
+        },
+        {
+          "kind": "financial-data",
+          "path": "data/totalenergies-financials.json",
+          "status": "present",
+          "size": 23548,
+          "sha256": "d3f9e19bff430ffbfd0caab63c1d9bcc4652967ab6aece4a4ca4233c9fab0a23"
+        }
+      ]
+    }
+  ],
+  "relatedInformation": {
+    "status": "metadata-only",
+    "source": "industry-research-data.js",
+    "attachmentPolicy": "Do not infer an attachment from its format field."
+  },
+  "news": {
+    "status": "not-provided",
+    "source": null,
+    "displayPolicy": "Render an explicit empty state; never synthesize news."
+  }
+}
