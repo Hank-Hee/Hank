@@ -1919,6 +1919,7 @@ Run requirements and code-quality reviews, resolve all Critical/Important findin
 
 **Files:**
 - Create: `supabase/config.toml`
+- Create: `supabase/roles.sql`
 - Create: `supabase/tests/platform_foundation_test.sql`
 - Create: `supabase/rollback/202607310001_platform_foundation_down.sql`
 - Create: `supabase/rollback-tests/platform_foundation_absent_test.sql`
@@ -2175,6 +2176,24 @@ Create `supabase/migrations/202607310000_foundation_anchor.sql` as the no-object
 
 This anchor creates no schema, table, role, function, data, extension, or production state. It exists only because the Supabase CLI requires `--last` to be smaller than the number of applied migrations; with the anchor plus the baseline, `migration down --last 1` reconstructs the schema state at the pre-Foundation boundary, and the version-matched cleanup below completes that boundary by removing the baseline's cluster role.
 
+Create `supabase/roles.sql` for the cluster-level runtime role that the Supabase CLI provisions before migrations:
+
+```sql
+do $$
+begin
+  if not exists (select 1 from pg_roles where rolname = 'app_runtime') then
+    -- Native PostgreSQL 17 gives non-superuser creators ADMIN but not SET by default.
+    perform set_config('createrole_self_grant', 'set', true);
+    create role app_runtime noinherit;
+  end if;
+
+  if exists (select 1 from pg_roles where rolname = 'postgres') then
+    execute 'grant app_runtime to postgres with admin true, set true, inherit false';
+  end if;
+end
+$$;
+```
+
 Create `supabase/migrations/202607310001_platform_foundation.sql`:
 
 ```sql
@@ -2185,13 +2204,7 @@ revoke all on schema app_private from public, anon, authenticated;
 do $$
 begin
   if not exists (select 1 from pg_roles where rolname = 'app_runtime') then
-    if exists (select 1 from pg_roles where rolname = 'postgres') then
-      execute 'create role app_runtime noinherit admin postgres';
-    else
-      -- PostgreSQL 17 otherwise gives a non-superuser creator ADMIN but not SET.
-      perform set_config('createrole_self_grant', 'set', true);
-      create role app_runtime noinherit;
-    end if;
+    raise exception 'app_runtime must be provisioned by supabase/roles.sql';
   end if;
 
   if exists (
@@ -2418,7 +2431,7 @@ Create `supabase/rollback/202607310001_platform_foundation_down.sql` as the vers
 drop role if exists app_runtime;
 ```
 
-The rollback pgTAP runs before `migration up`, so its explicit absence assertions prevent idempotent baseline DDL from hiding a failed cleanup. Retain the guarded role creation because Supabase local reset does not remove cluster roles and every review/final verification must be repeatable. Do not add `reassign owned`, `drop owned`, extension cleanup, or any production credential handling: the disposable local rollback must fail rather than delete an unexpected surviving dependency, and `pgcrypto` is managed outside this Foundation boundary.
+The rollback pgTAP runs before `migration up`, so its explicit absence assertions prevent idempotent baseline DDL from hiding a failed cleanup. `supabase/roles.sql` owns cluster-role creation and administrative membership; the schema migration only validates that `app_runtime` exists with fail-closed attributes. Because a Supabase database reset replays schema migrations without treating cluster roles as schema objects, the explicit rollback rehearsal reapplies `roles.sql` before `migration up`. Do not add `reassign owned`, `drop owned`, extension cleanup, or any production credential handling: the disposable local rollback must fail rather than delete an unexpected surviving dependency, and `pgcrypto` is managed outside this Foundation boundary.
 
 - [ ] **Step 4: Run every Task 5 verification command**
 
@@ -2428,6 +2441,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test -w @wison/contracts
@@ -2435,12 +2449,12 @@ git diff --check
 git status --short
 ```
 
-Expected: every command exits 0; pgTAP reports 33 passing assertions before and after the local baseline is rolled back one migration, its version-matched cluster-role cleanup is applied, and the baseline is replayed. The explicit rollback pgTAP reports two passes and proves both `app_private` and `app_runtime` are absent at the no-object anchor boundary. This is the unreleased additive Foundation migration rehearsal; it is not a production rollback claim. Task 2 contracts still pass, and only the six Task 5 paths are changed.
+Expected: every command exits 0; pgTAP reports 33 passing assertions before and after the local baseline is rolled back one migration, its version-matched cluster-role cleanup is applied, `roles.sql` reprovisions the role, and the baseline is replayed. The explicit rollback pgTAP reports two passes and proves both `app_private` and `app_runtime` are absent at the no-object anchor boundary. This is the unreleased additive Foundation migration rehearsal; it is not a production rollback claim. Task 2 contracts still pass, and only the seven Task 5 paths are changed.
 
 - [ ] **Step 5: Commit with the specified message**
 
 ```bash
-git add supabase/config.toml supabase/tests/platform_foundation_test.sql supabase/rollback/202607310001_platform_foundation_down.sql supabase/rollback-tests/platform_foundation_absent_test.sql supabase/migrations/202607310000_foundation_anchor.sql supabase/migrations/202607310001_platform_foundation.sql
+git add supabase/config.toml supabase/roles.sql supabase/tests/platform_foundation_test.sql supabase/rollback/202607310001_platform_foundation_down.sql supabase/rollback-tests/platform_foundation_absent_test.sql supabase/migrations/202607310000_foundation_anchor.sql supabase/migrations/202607310001_platform_foundation.sql
 git commit -m "feat: add private governance schema"
 ```
 
@@ -3797,6 +3811,7 @@ test('platform CI runs code, database, and browser verification', async () => {
     'npx supabase migration down --local --last 1 --yes',
     'npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql',
     'npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql',
+    'npx supabase db query --local --file supabase/roles.sql',
     'npx supabase migration up --local',
     'npm run test:db -w @wison/api',
     'npm run e2e',
@@ -3946,6 +3961,7 @@ jobs:
       - run: npx supabase migration down --local --last 1 --yes
       - run: npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
       - run: npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+      - run: npx supabase db query --local --file supabase/roles.sql
       - run: npx supabase migration up --local
       - run: npx supabase test db
       - run: npm run test:db -w @wison/api
@@ -3984,6 +4000,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test:db -w @wison/api
@@ -4056,6 +4073,7 @@ test('platform documentation records the mandatory boundaries and commands', asy
     'npx supabase migration down --local --last 1 --yes',
     'npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql',
     'npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql',
+    'npx supabase db query --local --file supabase/roles.sql',
     'npx supabase migration up --local',
     'npm run dev:api',
     'npm run dev:web',
@@ -4208,6 +4226,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test:db -w @wison/api
@@ -4245,6 +4264,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test:db -w @wison/api
@@ -4290,6 +4310,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test:db -w @wison/api

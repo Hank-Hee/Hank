@@ -32,6 +32,7 @@ npx supabase test db
 npx supabase migration down --local --last 1 --yes
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+npx supabase db query --local --file supabase/roles.sql
 npx supabase migration up --local
 npx supabase test db
 npm run test:db -w @wison/api
@@ -42,7 +43,7 @@ with `supabase stop --no-backup`; the final attempt enables debug output.
 This absorbs transient registry throttling or container-start interruption
 without retrying migration, pgTAP, rollback, or application assertion failures.
 
-On this Intel Mac, PostgreSQL 17 runs as the Homebrew service on port 5432. The local test database is `hank_platform_test`; apply the two files in `supabase/migrations` with `psql`, run `supabase/tests/platform_foundation_test.sql` with `pg_prove`, and set this only for the integration command:
+On this Intel Mac, PostgreSQL 17 runs as the Homebrew service on port 5432. The local test database is `hank_platform_test`; apply `supabase/roles.sql` before the two files in `supabase/migrations`, run `supabase/tests/platform_foundation_test.sql` with `pg_prove`, and set this only for the integration command:
 
 ```bash
 export TEST_DATABASE_URL='postgresql://shiyuhe@127.0.0.1:5432/hank_platform_test?sslmode=disable'
@@ -50,6 +51,8 @@ npm run test:db -w @wison/api
 ```
 
 Native execution proves PostgreSQL 17 migration, pgTAP, transaction, driver, and RLS behavior. It does not replace the Ubuntu CI run of the exact Supabase CLI reset/rollback/replay sequence.
+
+`supabase/roles.sql` owns the cluster-role lifecycle. The Foundation migration validates `app_runtime` and fails closed if the role is absent or unsafe; it never tries to repair protected role state while schema migrations are replayed.
 
 ## Configure API secrets
 

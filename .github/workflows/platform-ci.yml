@@ -54,6 +54,7 @@ jobs:
       - run: npx supabase migration down --local --last 1 --yes
       - run: npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
       - run: npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
+      - run: npx supabase db query --local --file supabase/roles.sql
       - run: npx supabase migration up --local
       - run: npx supabase test db
       - run: npm run test:db -w @wison/api

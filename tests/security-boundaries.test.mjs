@@ -53,17 +53,19 @@ test('secret scanner covers deceptive names and credential content', () => {
 });
 
 test('foundation migration validates app_runtime without protected role repairs', async () => {
-  const migration = await readFile(
-    resolve(repositoryRoot, 'supabase/migrations/202607310001_platform_foundation.sql'),
-    'utf8',
-  );
+  const [migration, roles] = await Promise.all([
+    readFile(
+      resolve(repositoryRoot, 'supabase/migrations/202607310001_platform_foundation.sql'),
+      'utf8',
+    ),
+    readFile(resolve(repositoryRoot, 'supabase/roles.sql'), 'utf8'),
+  ]);
 
   assert.doesNotMatch(migration, /alter\s+role\s+app_runtime/i);
+  assert.doesNotMatch(migration, /create\s+role\s+app_runtime/i);
   assert.doesNotMatch(migration, /grant\s+app_runtime\s+to\s+current_user/i);
   assert.match(migration, /app_runtime role attributes are unsafe/i);
-  assert.match(migration, /create\s+role\s+app_runtime\s+noinherit\s+admin\s+postgres/i);
-  assert.match(
-    migration,
-    /set_config\('createrole_self_grant',\s*'set',\s*true\)/i,
-  );
+  assert.match(migration, /app_runtime must be provisioned by supabase\/roles\.sql/i);
+  assert.match(roles, /create\s+role\s+app_runtime\s+noinherit/i);
+  assert.match(roles, /grant\s+app_runtime\s+to\s+postgres/i);
 });

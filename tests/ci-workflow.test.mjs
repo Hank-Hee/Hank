@@ -24,6 +24,7 @@ test('platform CI runs code, database, and browser verification', async () => {
     'npx supabase migration down --local --last 1 --yes',
     'npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql',
     'npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql',
+    'npx supabase db query --local --file supabase/roles.sql',
     'npx supabase migration up --local',
     'npm run test:db -w @wison/api',
     'npm run e2e',
