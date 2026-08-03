@@ -2185,13 +2185,22 @@ revoke all on schema app_private from public, anon, authenticated;
 do $$
 begin
   if not exists (select 1 from pg_roles where rolname = 'app_runtime') then
-    create role app_runtime;
+    create role app_runtime noinherit;
+  end if;
+
+  if exists (
+    select 1
+    from pg_roles
+    where rolname = 'app_runtime'
+      and (
+        rolcanlogin or rolsuper or rolcreatedb or rolcreaterole
+        or rolinherit or rolreplication or rolbypassrls
+      )
+  ) then
+    raise exception 'app_runtime role attributes are unsafe';
   end if;
 end
 $$;
-
-alter role app_runtime
-  nologin nosuperuser nocreatedb nocreaterole noinherit noreplication nobypassrls;
 
 do $$
 declare

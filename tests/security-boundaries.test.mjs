@@ -51,3 +51,13 @@ test('secret scanner covers deceptive names and credential content', () => {
   assert.throws(() => assertSafeText(['CLOUDFLARE_API', 'TOKEN=real-looking-value'].join('_')));
   assert.throws(() => assertSafeText(['-----BEGIN', 'PRIVATE KEY-----'].join(' ')));
 });
+
+test('foundation migration validates app_runtime without protected role repairs', async () => {
+  const migration = await readFile(
+    resolve(repositoryRoot, 'supabase/migrations/202607310001_platform_foundation.sql'),
+    'utf8',
+  );
+
+  assert.doesNotMatch(migration, /alter\s+role\s+app_runtime/i);
+  assert.match(migration, /app_runtime role attributes are unsafe/i);
+});

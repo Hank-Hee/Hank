@@ -41,6 +41,7 @@ test('built Worker serves the SPA and strict API from one origin', { timeout: 45
     ],
     {
       cwd: repositoryRoot,
+      detached: process.platform !== 'win32',
       env: { ...process.env, NO_COLOR: '1' },
       stdio: ['ignore', 'pipe', 'pipe'],
     },
@@ -51,12 +52,25 @@ test('built Worker serves the SPA and strict API from one origin', { timeout: 45
   server.stderr.on('data', (chunk) => { output += chunk; });
   server.on('error', (error) => { spawnError = error; });
 
+  const terminateServer = (signal) => {
+    if (server.pid === undefined) return;
+    if (process.platform === 'win32') {
+      server.kill(signal);
+      return;
+    }
+    try {
+      process.kill(-server.pid, signal);
+    } catch {
+      server.kill(signal);
+    }
+  };
+
   t.after(async () => {
     if (server.exitCode === null) {
       const exited = once(server, 'exit');
-      server.kill('SIGTERM');
+      terminateServer('SIGTERM');
       await Promise.race([exited, delay(5_000)]);
-      if (server.exitCode === null) server.kill('SIGKILL');
+      if (server.exitCode === null) terminateServer('SIGKILL');
     }
   });
 
