@@ -2185,9 +2185,13 @@ revoke all on schema app_private from public, anon, authenticated;
 do $$
 begin
   if not exists (select 1 from pg_roles where rolname = 'app_runtime') then
-    -- PostgreSQL 17 otherwise gives a non-superuser creator ADMIN but not SET.
-    perform set_config('createrole_self_grant', 'set', true);
-    create role app_runtime noinherit;
+    if exists (select 1 from pg_roles where rolname = 'postgres') then
+      execute 'create role app_runtime noinherit admin postgres';
+    else
+      -- PostgreSQL 17 otherwise gives a non-superuser creator ADMIN but not SET.
+      perform set_config('createrole_self_grant', 'set', true);
+      create role app_runtime noinherit;
+    end if;
   end if;
 
   if exists (

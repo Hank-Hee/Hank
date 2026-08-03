@@ -61,6 +61,7 @@ test('foundation migration validates app_runtime without protected role repairs'
   assert.doesNotMatch(migration, /alter\s+role\s+app_runtime/i);
   assert.doesNotMatch(migration, /grant\s+app_runtime\s+to\s+current_user/i);
   assert.match(migration, /app_runtime role attributes are unsafe/i);
+  assert.match(migration, /create\s+role\s+app_runtime\s+noinherit\s+admin\s+postgres/i);
   assert.match(
     migration,
     /set_config\('createrole_self_grant',\s*'set',\s*true\)/i,
