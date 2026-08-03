@@ -1,21 +1,22 @@
 # Oil & Gas Knowledge Platform Foundation Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use `superpowers:subagent-driven-development` to implement this plan one Task at a time. Do not substitute a batch execution workflow. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **Execution workflow (approved 2026-08-03):** Use the lean engineering workflow: execute one Task at a time with test-first RED/GREEN evidence, all listed verification commands, the exact commit message, and a requirements/code-quality review before moving on. Do not dispatch routine per-Task implementation/review subagents. Use concentrated independent review at Foundation completion and at later database/authorization, identity, data-import, and pre-UAT risk gates. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 | Plan property | Value |
 |---|---|
-| Status | Approved canonical implementation plan; each Task remains subject to the exact prerequisite and next-Task gate recorded in `docs/superpowers/plans/INDEX.md` |
-| Version | 2.0 |
-| Date | 2026-07-31 |
+| Status | Approved canonical Foundation implementation plan; Tasks 1A–10 execute continuously after their own verification/review gates |
+| Version | 2.1 |
+| Date | 2026-08-03 |
 | Product authority | `docs/product/PRD.md` v1.1 |
-| System design | `docs/product/system-design.md` v1.0 |
-| Technical architecture | `docs/architecture/technical-architecture.md` v1.0 |
-| Roadmap | `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md` v1.0 |
-| Acceptance | `docs/product/acceptance-criteria.md` v1.0 |
+| System design | `docs/product/system-design.md` v1.1 |
+| Technical architecture | `docs/architecture/technical-architecture.md` v1.1 |
+| Roadmap | `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md` v1.1 |
+| Acceptance | `docs/product/acceptance-criteria.md` v1.1 |
+| Launch workspace | `docs/knowledge-platform-launch/` |
 | Branch | `feat/platform-foundation` isolated worktree |
 | Existing implementation | Task 1 at `aef248f` (`build: bootstrap platform workspaces`) |
-| Next gate | Task 1A must be implemented, verified, committed, and independently reviewed before Task 2 |
-| Approval basis | Hank delegated authority to resolve consistency findings and proceed to Task 2 after prerequisites; independent full-plan review PASS with no remaining Critical/Important findings; 2026-07-31 |
+| Next gate | Task 1A; after its gate passes, continue Tasks 2–10 without per-Task product approval |
+| Approval basis | Hank approved continuous Foundation execution, automatic recovery for ordinary failures, the three-item UAT sidebar, and the company-first launch direction; 2026-08-03 |
 
 **Goal:** Create the production-oriented application foundation for the internal oil and gas knowledge platform: workspace, React shell, Cloudflare Workers API, shared contracts, Supabase governance schema, authentication boundary, private R2 adapter, automated tests, and CI.
 
@@ -42,8 +43,9 @@
 - npm must be `10.9.8`, recorded as `packageManager: npm@10.9.8`; installs use the committed lockfile and `npm ci --engine-strict`.
 - TypeScript strict mode must be enabled.
 - Every task must use test-driven development and end with a commit.
-- Execute exactly one Task at a time. Confirm the specified expected RED, implement only that Task, run every listed verification command, commit with the exact message, then complete requirements and code-quality reviews.
-- Any verification failure other than the Task's explicitly expected RED stops the Task and must be reported; do not continue to a later command or Task.
+- Execute exactly one Task at a time. Confirm the specified expected RED, implement only that Task, run every listed verification command, commit with the exact message, then complete a focused requirements and code-quality review. Add concentrated independent review at Foundation completion and future database/authorization, login, import, and pre-UAT gates.
+- A Task's explicitly expected RED is required evidence. Any other failed command keeps the current Task open while the root cause is diagnosed, minimally fixed, and the full Task verification is rerun; ordinary recoverable failures do not require product-owner approval.
+- Do not commit or start a later Task until every required current-Task verification exits 0. Pause only for destructive real-data risk, security/rights/secret risk, missing external authority or credentials, an actual conflict in product authority, or an architectural escalation after the same root cause survives three fix attempts.
 - Do not implement company, project, report, search, ingestion, notification, production deployment, vector, or AI features in this plan.
 - The six role values do not imply permissions. `super_admin` must never receive all permissions through schema logic, code branches, or an all-permissions seed.
 - Web and API are separate workspace boundaries but one production Worker artifact; the only publish sequence is contracts → Web assets → Worker bundle/deploy.
@@ -443,7 +445,7 @@ test "$(npm --version)" = "10.9.8"
 node --test tests/workspace-layout.test.mjs
 ```
 
-Expected: the version commands print `v22.23.2` and `10.9.8`; the test command exits nonzero because Task 1 currently declares `>=22 <23`, has no `packageManager`, and `.nvmrc` contains `22`. Stop if the failure is caused by anything else.
+Expected: the version commands print `v22.23.2` and `10.9.8`; the test command exits nonzero because Task 1 currently declares `>=22 <23`, has no `packageManager`, and `.nvmrc` contains `22`. If another cause appears, diagnose and recover it before accepting the RED.
 
 - [ ] **Step 3: Make only the toolchain declarations consistent**
 
@@ -483,7 +485,7 @@ git diff --check
 git status --short
 ```
 
-Expected: Node/npm assertions pass; the workspace test reports 3 passing tests; install and dependency-tree commands exit 0; the status lists only `.nvmrc`, `package.json`, `package-lock.json`, and `tests/workspace-layout.test.mjs`. Inspect the displayed lockfile diff: only root `engines`/`packageManager` metadata may change; every dependency `version`, `resolved`, and `integrity` entry must remain byte-for-byte unchanged. Stop if npm changes any dependency entry.
+Expected: Node/npm assertions pass; the workspace test reports 3 passing tests; install and dependency-tree commands exit 0; the status lists only `.nvmrc`, `package.json`, `package-lock.json`, and `tests/workspace-layout.test.mjs`. Inspect the displayed lockfile diff: only root `engines`/`packageManager` metadata may change; every dependency `version`, `resolved`, and `integrity` entry must remain byte-for-byte unchanged. Any dependency-entry change invalidates the result and must be root-caused and reverted before the Task can pass.
 
 - [ ] **Step 5: Commit with the specified message**
 
@@ -494,7 +496,7 @@ git commit -m "build: pin compatible Node toolchain"
 
 - [ ] **Step 6: Complete the Task gate**
 
-Run an independent requirements review and code-quality review over `HEAD^..HEAD`, the single Task 1A commit. Separately record the already completed consistency audit of Task 1 over `ac1a38f..aef248f` against the approved document chain. Resolve every Critical or Important finding and rerun all Step 4 commands before Task 2. Do not start Task 2 if either review gate is not clean.
+Run a focused requirements and code-quality review over `HEAD^..HEAD`, the single Task 1A commit. Separately retain the already completed consistency audit of Task 1 over `ac1a38f..aef248f` against the approved document chain. Resolve every Critical or Important finding and rerun all Step 4 commands before Task 2. Do not start Task 2 if either review gate is not clean.
 
 ---
 
@@ -514,7 +516,7 @@ Run an independent requirements review and code-quality review over `HEAD^..HEAD
 
 **Interfaces:**
 - Consumes: the reviewed Task 1A toolchain and Zod 4 from the contracts workspace.
-- Produces: strict runtime schemas and inferred types for the exact API objects, six roles, five Foundation permissions, four security levels, and four rights types approved in Technical Architecture v1.0.
+- Produces: strict runtime schemas and inferred types for the exact API objects, six roles, five Foundation permissions, four security levels, and four rights types approved in Technical Architecture v1.1.
 - Does not produce: role-to-permission mappings, API routes, authentication, database records, record grants, or any business-domain contract.
 
 - [ ] **Step 1: Write the failing contract tests**
@@ -792,7 +794,7 @@ Run:
 npm run test -w @wison/contracts
 ```
 
-Expected: FAIL because `packages/contracts/src/index.ts` and the exported contract modules do not exist. This is the only expected failure; stop for environment, syntax, or unrelated dependency failures.
+Expected: FAIL because `packages/contracts/src/index.ts` and the exported contract modules do not exist. This is the only accepted RED; environment, syntax, or unrelated dependency failures must be diagnosed and recovered before continuing the TDD cycle.
 
 - [ ] **Step 3: Add TypeScript and Vitest configuration**
 
@@ -977,7 +979,7 @@ git commit -m "feat: define shared foundation contracts"
 
 - [ ] **Step 7: Complete the Task gate**
 
-Run a requirements review against PRD v1.1, Technical Architecture v1.0 Section 15, and this Task, followed by a separate code-quality review. Resolve every Critical or Important finding and rerun all Step 5 commands. Stop and report Task 2; do not start Task 3 in the same delivery.
+Run a requirements review against PRD v1.1, Technical Architecture v1.1 Section 15, and this Task, followed by a separate code-quality review. Resolve every Critical or Important finding and rerun all Step 5 commands. After the Task 2 gate is clean, record the result and continue to Task 3.
 
 ---
 
@@ -1303,7 +1305,7 @@ Run requirements and code-quality reviews, resolve all Critical/Important findin
 
 **Interfaces:**
 - Consumes: public `GET /api/v1/health` and `HealthResponseSchema`.
-- Produces: skeletal routes `/`, `/companies`, `/projects`, `/reports`, `/search`, `/workspace`, and `/admin`; same-origin `getApiHealth()`; the sole Wrangler config combining Web assets and API into one dry-run Worker artifact.
+- Produces: a left sidebar with exactly `/` (`首页`), `/companies` (`公司信息库`), and `/reports` (`行业报告库`); hidden `/admin` denial route; same-origin `getApiHealth()`; the sole Wrangler config combining Web assets and API into one dry-run Worker artifact.
 - Does not produce: domain data, domain APIs, search behavior, notifications, admin operations, authentication, or production deployment.
 
 - [ ] **Step 1: Write the failing application-shell test**
@@ -1314,7 +1316,7 @@ Create `apps/web/src/test/app-shell.test.tsx`:
 import '@testing-library/jest-dom/vitest';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { RouterProvider, createMemoryHistory } from '@tanstack/react-router';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createAppRouter } from '../app-router';
 
@@ -1347,10 +1349,11 @@ describe('application shell', () => {
     );
 
     expect(screen.getByRole('heading', { name: '市场知识平台' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: '公司' })).toHaveAttribute('href', '/companies');
-    expect(screen.getByRole('link', { name: '项目' })).toHaveAttribute('href', '/projects');
-    expect(screen.getByRole('link', { name: '报告' })).toHaveAttribute('href', '/reports');
-    expect(screen.getByRole('link', { name: '我的工作台' })).toHaveAttribute('href', '/workspace');
+    const navigation = screen.getByRole('navigation', { name: '主导航' });
+    expect(within(navigation).getAllByRole('link')).toHaveLength(3);
+    expect(within(navigation).getByRole('link', { name: '首页' })).toHaveAttribute('href', '/');
+    expect(within(navigation).getByRole('link', { name: '公司信息库' })).toHaveAttribute('href', '/companies');
+    expect(within(navigation).getByRole('link', { name: '行业报告库' })).toHaveAttribute('href', '/reports');
     expect(screen.queryByRole('link', { name: '管理中心' })).not.toBeInTheDocument();
     expect(await screen.findByText('API 正常')).toBeInTheDocument();
     expect(fetch).toHaveBeenCalledWith(
@@ -1521,7 +1524,7 @@ node --test tests/worker-artifact.test.mjs
 node --test tests/worker-artifact.integration.mjs
 ```
 
-Expected: all three commands FAIL for the scoped missing Web/router/Worker artifacts. The integration test must fail because the Worker artifact cannot start; stop for any unrelated failure.
+Expected: all three commands FAIL for the scoped missing Web/router/Worker artifacts. The integration test must fail because the Worker artifact cannot start; diagnose and recover any unrelated failure before accepting the RED.
 
 - [ ] **Step 3: Add web configuration**
 
@@ -1711,11 +1714,8 @@ import { HealthBadge } from './components/health-badge';
 
 const navigation = [
   ['/', '首页'],
-  ['/companies', '公司'],
-  ['/projects', '项目'],
-  ['/reports', '报告'],
-  ['/search', '统一搜索'],
-  ['/workspace', '我的工作台'],
+  ['/companies', '公司信息库'],
+  ['/reports', '行业报告库'],
 ] as const;
 
 function AppShell() {
@@ -1728,16 +1728,18 @@ function AppShell() {
         </div>
         <HealthBadge />
       </header>
-      <nav aria-label="主导航" className="primary-nav">
-        {navigation.map(([to, label]) => (
-          <Link key={to} to={to} activeProps={{ 'aria-current': 'page' }}>
-            {label}
-          </Link>
-        ))}
-      </nav>
-      <main className="page-content">
-        <Outlet />
-      </main>
+      <div className="app-body">
+        <nav aria-label="主导航" className="primary-nav">
+          {navigation.map(([to, label]) => (
+            <Link key={to} to={to} activeProps={{ 'aria-current': 'page' }}>
+              {label}
+            </Link>
+          ))}
+        </nav>
+        <main className="page-content">
+          <Outlet />
+        </main>
+      </div>
     </div>
   );
 }
@@ -1746,7 +1748,7 @@ function HomePage() {
   return (
     <section>
       <h2>内部油气行业知识入口</h2>
-      <p>公司、项目和行业报告模块将在后续独立计划中接入正式数据。</p>
+      <p>公司信息库和行业报告库将在后续独立计划中接入正式数据。</p>
     </section>
   );
 }
@@ -1771,20 +1773,14 @@ function AdminDeniedPage() {
 
 const rootRoute = createRootRoute({ component: AppShell });
 const indexRoute = createRoute({ getParentRoute: () => rootRoute, path: '/', component: HomePage });
-const companiesRoute = createRoute({ getParentRoute: () => rootRoute, path: '/companies', component: () => <SectionPage title="公司" /> });
-const projectsRoute = createRoute({ getParentRoute: () => rootRoute, path: '/projects', component: () => <SectionPage title="项目" /> });
-const reportsRoute = createRoute({ getParentRoute: () => rootRoute, path: '/reports', component: () => <SectionPage title="报告" /> });
-const searchRoute = createRoute({ getParentRoute: () => rootRoute, path: '/search', component: () => <SectionPage title="统一搜索" /> });
-const workspaceRoute = createRoute({ getParentRoute: () => rootRoute, path: '/workspace', component: () => <SectionPage title="我的工作台" /> });
+const companiesRoute = createRoute({ getParentRoute: () => rootRoute, path: '/companies', component: () => <SectionPage title="公司信息库" /> });
+const reportsRoute = createRoute({ getParentRoute: () => rootRoute, path: '/reports', component: () => <SectionPage title="行业报告库" /> });
 const adminRoute = createRoute({ getParentRoute: () => rootRoute, path: '/admin', component: AdminDeniedPage });
 
 const routeTree = rootRoute.addChildren([
   indexRoute,
   companiesRoute,
-  projectsRoute,
   reportsRoute,
-  searchRoute,
-  workspaceRoute,
   adminRoute,
 ]);
 
@@ -1847,6 +1843,7 @@ body { margin: 0; min-width: 320px; min-height: 100vh; }
 a { color: inherit; }
 
 .app-shell { min-height: 100vh; }
+.app-body { display: grid; grid-template-columns: 220px minmax(0, 1fr); min-height: calc(100vh - 93px); }
 .topbar {
   display: flex;
   align-items: center;
@@ -1858,7 +1855,7 @@ a { color: inherit; }
 }
 .topbar h1 { margin: 2px 0 0; font-size: 24px; }
 .eyebrow { margin: 0; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #637083; }
-.primary-nav { display: flex; gap: 8px; padding: 12px 32px; background: #ffffff; border-bottom: 1px solid #dfe4ec; overflow-x: auto; }
+.primary-nav { display: flex; flex-direction: column; gap: 8px; padding: 24px 16px; background: #ffffff; border-right: 1px solid #dfe4ec; }
 .primary-nav a { padding: 8px 12px; border-radius: 8px; text-decoration: none; white-space: nowrap; }
 .primary-nav a[aria-current="page"] { background: #e8edf5; font-weight: 600; }
 .page-content { padding: 32px; }
@@ -1866,6 +1863,11 @@ a { color: inherit; }
 .health--ok { background: #e5f5ea; color: #176b36; }
 .health--loading { background: #eef1f5; color: #4e5b6d; }
 .health--error { background: #fdeaea; color: #9d2020; }
+
+@media (max-width: 720px) {
+  .app-body { grid-template-columns: 1fr; }
+  .primary-nav { flex-direction: row; overflow-x: auto; border-right: 0; border-bottom: 1px solid #dfe4ec; }
+}
 ```
 
 - [ ] **Step 6: Run web tests, type checking, and build**
@@ -2149,7 +2151,7 @@ npx supabase start
 npx supabase test db
 ```
 
-Expected: FAIL because `app_private` objects do not exist. Stop for Docker/CLI/environment failures instead of treating them as RED.
+Expected: FAIL because `app_private` objects do not exist. Docker/CLI/environment failures are not accepted as RED and must be diagnosed and recovered first.
 
 - [ ] **Step 3: Implement the private migration**
 
@@ -2942,7 +2944,7 @@ describe('local PostgreSQL context integration', () => {
 npm run test -w @wison/api
 ```
 
-Expected: FAIL because the auth/database modules and `/api/v1/me` do not exist. Stop for any unrelated failure.
+Expected: FAIL because the auth/database modules and `/api/v1/me` do not exist. Diagnose and recover any unrelated failure before accepting the RED.
 
 - [ ] **Step 3: Replace the Data API dependency, then confirm the integration RED**
 
@@ -2966,7 +2968,7 @@ Run the integration entry point before implementation:
 npm run test:db -w @wison/api
 ```
 
-Expected: FAIL because `src/auth/permission-loader.ts` and the database-context implementation do not exist. Stop for package-install, configuration, syntax, or any unrelated failure.
+Expected: FAIL because `src/auth/permission-loader.ts` and the database-context implementation do not exist. Package-install, configuration, syntax, or other unrelated failures must be diagnosed and recovered before accepting the RED.
 
 - [ ] **Step 4: Implement the fixed auth and database interfaces**
 
@@ -3467,7 +3469,7 @@ npm run test -w @wison/api -- r2-object-storage.test.ts
 node --test tests/worker-artifact.test.mjs
 ```
 
-Expected: both commands FAIL for the scoped missing storage modules and R2 binding declarations. Stop for unrelated failures.
+Expected: both commands FAIL for the scoped missing storage modules and R2 binding declarations. Diagnose and recover unrelated failures before accepting the RED.
 
 - [ ] **Step 3: Define provider-neutral storage types and implementation**
 
@@ -3617,18 +3619,18 @@ test('loads the platform shell and receives API health', async ({ page }) => {
   await page.goto('/');
 
   await expect(page.getByRole('heading', { name: '市场知识平台' })).toBeVisible();
-  await expect(page.getByRole('link', { name: '公司' })).toBeVisible();
-  await expect(page.getByRole('link', { name: '项目' })).toBeVisible();
-  await expect(page.getByRole('link', { name: '报告' })).toBeVisible();
-  await expect(page.getByRole('link', { name: '统一搜索' })).toBeVisible();
-  await expect(page.getByRole('link', { name: '我的工作台' })).toBeVisible();
+  const navigation = page.getByRole('navigation', { name: '主导航' });
+  await expect(navigation.getByRole('link')).toHaveCount(3);
+  await expect(navigation.getByRole('link', { name: '首页' })).toBeVisible();
+  await expect(navigation.getByRole('link', { name: '公司信息库' })).toBeVisible();
+  await expect(navigation.getByRole('link', { name: '行业报告库' })).toBeVisible();
   await expect(page.getByRole('link', { name: '管理中心' })).toHaveCount(0);
   await expect(page.getByText('API 正常')).toBeVisible();
 });
 
 test('serves SPA deep links and keeps unknown API routes as JSON 404', async ({ page }) => {
   await page.goto('/reports');
-  await expect(page.getByRole('heading', { name: '报告' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '行业报告库' })).toBeVisible();
 
   const health = await page.request.get('/api/v1/health');
   expect(health.status()).toBe(200);
@@ -3653,7 +3655,7 @@ npx playwright install chromium
 npm run e2e
 ```
 
-Expected: browser installation exits 0, then `npm run e2e` FAILS because `playwright.config.ts`, its absolute base URL, and the single-Worker test server configuration do not exist. Stop if any failure is unrelated.
+Expected: browser installation exits 0, then `npm run e2e` FAILS because `playwright.config.ts`, its absolute base URL, and the single-Worker test server configuration do not exist. Any unrelated failure keeps Task 8 open for root-cause diagnosis and recovery before this RED is accepted.
 
 - [ ] **Step 3: Add the single-origin Playwright configuration**
 
@@ -4076,7 +4078,7 @@ R2 buckets remain private. Quarantine uses a separate binding, object access sta
 
 ## Public platform routes
 
-`/api/v1/health` is the Foundation's only public API endpoint. `/api/v1/me` requires authentication and the explicit `platform.access` permission. The unauthenticated React shell and its skeletal routes contain no governed domain data; they do not make a business API public. Unknown `/api/v1/*` paths return the shared JSON `NOT_FOUND` response and never fall through to the SPA.
+`/api/v1/health` is the Foundation's only public API endpoint. `/api/v1/me` requires authentication and the explicit `platform.access` permission. The unauthenticated React shell has exactly three visible navigation entries—`首页`, `公司信息库`, and `行业报告库`—but contains no governed domain data; visible skeletal routes do not make a business API public. Unknown `/api/v1/*` paths return the shared JSON `NOT_FOUND` response and never fall through to the SPA.
 
 ## Extension rules
 
@@ -4293,7 +4295,7 @@ The reviewer accepts a completed Foundation implementation under this plan only 
 - The API production path is wired for asymmetric project-JWKS verification, while local ES256/RS256 fixtures prove cryptographic validation; real project key rotation remains G3/G4 evidence.
 - The API production path accepts a Hyperdrive binding and enforces `app_runtime` in a same-client fail-closed transaction; local PostgreSQL proves that path, while a real cache-disabled Hyperdrive resource remains G4 evidence.
 - R2 access is behind `ObjectStorage`; no public file route is introduced.
-- The React shell exposes all top-level product routes without implementing domain features.
+- The React shell exposes exactly the three approved first-UAT navigation entries without implementing domain features; later top-level routes remain deferred to their product-domain plans.
 - Unit, database, browser, dependency, and tracked-secret checks pass locally; the CI workflow definition is structurally tested, while an actual GitHub Actions run must be reported separately.
 - Local development and architecture boundaries are documented.
 - Web/API build output is one same-origin Worker artifact; no production deployment is performed or claimed.

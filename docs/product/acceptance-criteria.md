@@ -3,8 +3,8 @@
 | 属性 | 内容 |
 |---|---|
 | 文档状态 | 已由产品负责人授权批准；后续门禁仍须各责任角色提供真实证据 |
-| 版本 | 1.0 |
-| 日期 | 2026-07-31 |
+| 版本 | 1.1 |
+| 日期 | 2026-08-03 |
 | 上游需求 | `docs/product/PRD.md` v1.1（产品负责人已批准） |
 | 验收层级 | 产品与业务、前端与体验、系统与工程、生产与 Cloudflare |
 | 批准依据 | Hank 已授权自主修正一致性问题并在满足前置条件后执行 Task 2；2026-07-31 |
@@ -436,6 +436,7 @@ git diff main...HEAD --stat
 | 产品建设阶段 | 可关闭的主要子门禁 | 不能宣告的结果 |
 |---|---|---|
 | 基础框架 | 新 Implementation Plan 定义的 Foundation 子门禁；已有 Task 1 仅映射历史 `G3-FND-01` | G1-B、完整 G2/G3/G4、完整网站、生产部署 |
+| 公司 UAT 纵切 | 邮箱入口、三项导航、公司列表/详情、部分数据和受保护 API 的 G2/G3 子项 | 完整项目/报告/搜索、完整 MVP、生产 G4 |
 | 公司领域 | 公司相关 G1-B/G2/G3 子项 | 项目、报告、统一搜索、完整 MVP |
 | 项目领域 | 项目相关 G1-B/G2/G3 子项 | 报告、完整搜索、完整 MVP |
 | 报告与文档领域 | 报告/附件及 PRD-F-11 的 MVP 元数据子项 | 跨域工作流、完整生产验收、离线检索阶段通过 |
@@ -450,14 +451,14 @@ git diff main...HEAD --stat
 
 截至本文件日期：
 
-- Product/System Design v1.0、Technical Architecture v1.0、修订 Roadmap v1.0 与 Foundation Codex Implementation Plan v2.0 均已在独立复审无剩余 Critical/Important 后获批；Implementation Plan 的精确文档提交为 `f66cf5552f45d3c6ea0f16f737047fb526c8e361`。
-- `feat/platform-foundation` 分支的 Task 1 已按其 task-scope 完成并提交为 `aef248f`；Foundation 执行在进入 Task 2 前暂停。
+- Product/System Design v1.1、Technical Architecture v1.1、修订 Roadmap v1.1 与 Foundation Codex Implementation Plan v2.1 已纳入 2026-08-03 批准的公司优先 UAT、三项导航和精简工程工作流。
+- `feat/platform-foundation` 分支的 Task 1 已按其 task-scope 完成并提交为 `aef248f`；Task 1A 是当前下一 Task。
 - Task 1 的 tracked 测试和提交只能作为 `G3-FND-01` 的部分证据。其 task-scope review 与对批准文档链的一致性复核均已完成且无剩余 Critical/Important；Node/npm 不一致被隔离为 Task 1A，仍须按 TDD 重新产生可复核证据。
 - Task 1 不是完整 Foundation 通过，也不是 G3 通过。
-- Task 2 已暂停。
+- Task 2 在 Task 1A 通过自身工程门禁后自动进入执行队列。
 - 没有证据表明完整前端、业务后端、生产数据库、真实私有附件链路或 Cloudflare 生产网站已经验收。
 
-当前下一步是把包含精确计划提交的批准文档链合并到 `feat/platform-foundation`，随后完成 Task 1A 的 Node/npm 一致性 TDD 修正、指定验证、提交和独立审核；只有通过并在索引记录该前置提交后才能执行 Task 2。
+当前下一步是完成 Task 1A 的 Node/npm 一致性 TDD 修正、指定验证、提交和复核；通过并在索引记录该前置提交后继续 Task 2–10。
 
 ## 11. 尚待建立的验收基线
 

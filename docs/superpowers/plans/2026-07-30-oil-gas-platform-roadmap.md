@@ -3,19 +3,19 @@
 | Attribute | Value |
 |---|---|
 | Status | Approved roadmap; does not independently authorize implementation |
-| Version | 1.0 |
-| Date | 2026-07-31 |
+| Version | 1.1 |
+| Date | 2026-08-03 |
 | Product authority | `docs/product/PRD.md` v1.1 |
-| System design | `docs/product/system-design.md` v1.0 approved for Foundation upstream use |
-| Technical architecture | `docs/architecture/technical-architecture.md` v1.0 approved for Foundation upstream use |
+| System design | `docs/product/system-design.md` v1.1 approved for Foundation upstream use and first-company UAT direction |
+| Technical architecture | `docs/architecture/technical-architecture.md` v1.1 approved for Foundation upstream use |
 | Acceptance | `docs/product/acceptance-criteria.md` |
 | Approval basis | Hank delegated consistency authority; independent roadmap/authority review PASS; 2026-07-31 |
 
-> **CURRENT EXECUTION GATE:** Foundation Implementation Plan v2.0 is approved at `f66cf5552f45d3c6ea0f16f737047fb526c8e361`. Task 2 remains paused until that approved document chain is merged into `feat/platform-foundation` and the Task 1A Node consistency repair passes its commit and review gate.
+> **CURRENT EXECUTION GATE:** The approved document chain is merged into `feat/platform-foundation`. Task 1A is the next Foundation Task; after its specified verification, commit and focused requirements/code-quality review pass, execution continues through Tasks 2–10 without per-Task product approval. Recoverable failures follow the root-cause policy in `docs/knowledge-platform-launch/01-launch-strategy.md`.
 
 **Goal:** Convert the current collection of static prototypes, generated HTML pages, JSON datasets, and scripts into one governed internal knowledge platform without a risky full rewrite.
 
-**Architecture:** Follow the approved `docs/architecture/technical-architecture.md` v1.0: React/TypeScript Web assets and a separately maintained Hono API workspace are assembled into one production Cloudflare Worker/deployment artifact, with Supabase Auth/PostgreSQL and private Cloudflare R2. Migrate one domain at a time while retaining existing static assets only as references and migration evidence.
+**Architecture:** Follow the approved `docs/architecture/technical-architecture.md` v1.1: React/TypeScript Web assets and a separately maintained Hono API workspace are assembled into one production Cloudflare Worker/deployment artifact, with Supabase Auth/PostgreSQL and private Cloudflare R2. Migrate one domain at a time while retaining existing static assets only as references and migration evidence.
 
 **Tech Stack:** React, TypeScript, Vite, TanStack Router, TanStack Query, Hono, Cloudflare Workers, Supabase PostgreSQL/Auth, Cloudflare R2, PostgreSQL full-text search, ECharts, Vitest, Playwright, GitHub Actions.
 
@@ -34,12 +34,12 @@ The plans are executed in order unless a later plan explicitly states that it ca
 | Order | Plan | Main outcome | Depends on |
 |---:|---|---|---|
 | 1 | Platform Foundation | Reproducible toolchain, monorepo, frontend shell, Workers API, governance database baseline, authentication boundary, private-storage adapter, CI and smoke tests | Approved five-layer document chain |
-| 2 | Company Domain | Canonical company schema, import pipeline, company list/detail APIs and shared UI | Plan 1 |
+| 2 | Company UAT Vertical Slice | Email login entry, three-item sidebar, canonical company snapshot/import, eight-company list/detail APIs and ordered dashboard UI | Plan 1 |
 | 3 | Project Domain | Canonical project schema, company-project roles, project search/filter/detail/map | Plans 1–2 |
-| 4 | Report and Document Domain | Report metadata, private files, preview/download, extraction pipeline, relationships | Plans 1–3 |
+| 4 | Report and Document Domain | Report metadata, private files, preview/download, extraction pipeline, relationships; missing PDFs remain unavailable | Plans 1–3 |
 | 5 | Unified Search and User Workflow | Cross-domain search, favorites, recent views, saved searches, subscriptions, notifications, correction requests | Plans 2–4 |
 | 6 | Admin, Ingestion, and Data Quality | Visual admin console, staged imports, deduplication, review, publication, audit and quality dashboards | Plans 2–5 |
-| 7 | Hardening, Deployment, and Pilot | Mainland network validation, load/security/recovery tests, production deployment, 40-user pilot analytics | Plans 1–6 |
+| 7 | Hardening, Deployment, and Pilot | Mainland network validation, load/security/recovery tests, production deployment, and approved pilot analytics | Plans 1–6 |
 | 8 | RAG Readiness | Document sections/chunks, permission inheritance, offline hybrid retrieval experiment and AI evaluation gate | Plans 4–7 |
 
 ---
@@ -61,7 +61,7 @@ docs/superpowers/plans/
 └── 2026-08-xx-rag-readiness.md
 ```
 
-Roadmap approval alone authorizes no implementation. Foundation Plan v2.0 has been rewritten, independently reviewed, approved, and indexed at exact document commit `f66cf5552f45d3c6ea0f16f737047fb526c8e361`; Task 1A is its only authorized next Task. The approved document chain must be merged into `feat/platform-foundation`, and the Task 1A repair must be committed and independently reviewed before Task 2 can start. Each subsequent plan must be written from the then-current contracts, repository paths and closed PRD decisions. A roadmap phase row is never implementation authorization.
+Roadmap approval alone is not implementation evidence. Foundation Plan v2.1 is the canonical Task authority on `feat/platform-foundation`; Task 1A is its next Task, followed continuously by Tasks 2–10 after each preceding engineering gate passes. Each subsequent product-domain plan must be written from the then-current contracts, repository paths and closed PRD decisions. A roadmap phase row cannot substitute for an exact implementation plan.
 
 ---
 
@@ -143,10 +143,10 @@ Current Foundation state:
 |---|---|---|
 | Task 1 — Bootstrap workspace | Implemented at `aef248f`; consistency fix required | Layout test passed, scope clean; Node range must be narrowed and pinned |
 | Task 1A — Pin compatible Node toolchain | Pending | Must complete by TDD before Task 2 |
-| Task 2 — Shared API/authorization contracts | Paused | Execute only from approved Foundation Plan v2.0 after Task 1A passes and documents are merged |
+| Task 2 — Shared API/authorization contracts | Queued | Execute from Foundation Plan v2.1 immediately after Task 1A passes |
 | Tasks 3–10 | Not started | Execute one at a time after each preceding task is verified, committed and reviewed |
 
-### Plan 2 — Company Domain
+### Plan 2 — Company UAT Vertical Slice
 
 Exit when:
 
@@ -230,16 +230,16 @@ Codex receives only:
 5. The approved current-phase Codex Implementation Plan.
 6. The repository at the commit on which the plan was written.
 
-Codex must execute one task at a time with TDD, run every verification command, commit with the specified message and obtain an independent review before the next task. A non-expected failed verification command stops the current task and is reported; an expected RED test is recorded as TDD evidence.
+Codex must execute one task at a time with TDD, run every verification command, commit with the specified message and complete a focused requirements/code-quality review before the next task. Routine per-Task implementation/review subagents are disabled to conserve cost; concentrated independent review occurs at Foundation completion and later database/authorization, login, import, and pre-UAT risk gates. An expected RED test is recorded as TDD evidence. A non-expected failure keeps the current Task open while Codex performs root-cause analysis, applies the smallest safe fix and reruns the full Task verification; it does not require a routine approval interruption. No Task may be committed while required verification is failing. Codex pauses only for destructive-data risk, security/rights/secret risk, missing external authority or credentials, an actual conflict in product authority, or an architectural escalation after the same root cause survives three fix attempts.
 
-Current implementation-plan hold:
+Current implementation sequence:
 
 ```text
-STOP. Task 2 remains paused. Foundation Implementation Plan v2.0 is
-approved at f66cf5552f45d3c6ea0f16f737047fb526c8e361, but its document
-chain must first be merged into feat/platform-foundation. Complete,
-verify, commit and review Task 1A, record that exact prerequisite commit
-in INDEX.md, and only then execute Task 2.
+Execute Task 1A next. After its required RED/GREEN evidence, complete
+verification, specified commit and focused review pass, record the
+commit in INDEX.md and continue through Foundation Tasks 2–10. Then write
+the exact Company UAT Vertical Slice implementation plan against the
+implemented Foundation contracts and execute it without per-Task approval.
 ```
 
 The legacy start prompt and any unchecked Task in an earlier plan have no authority. `docs/superpowers/plans/INDEX.md` identifies the exact executable plan, branch, prerequisite implementation commit and next Task; it must be updated again after Task 1A before Task 2 starts.

@@ -2,28 +2,29 @@
 
 ## Current execution gate
 
-Task 1A is the only authorized next implementation Task. Task 2 remains paused until the approved document chain is merged into `feat/platform-foundation` and Task 1A is implemented, verified, committed, and independently reviewed.
+Task 1A is the next implementation Task. The approved document chain is already merged into `feat/platform-foundation`. After Task 1A is implemented test-first, fully verified, committed, and reviewed, Codex continues through Tasks 2–10 without per-Task product approval under the lean engineering workflow.
 
 Current facts:
 
 - `docs/product/PRD.md` v1.1 was approved by product owner Hank on 2026-07-31 and is now the sole authority for product goals, users, scope and business rules. The v1.1 permission-matrix revision is covered by Hank's delegated authority to resolve consistency issues before Task 2.
-- `docs/product/acceptance-criteria.md` v1.0 is approved under Hank's delegated authority; G1-A is passed for product definition. Sales/business-development, market-research, IT, data and security signers remain required at their later G2/G3/G4/G1-B gates.
-- `docs/product/system-design.md` v1.0, `docs/architecture/technical-architecture.md` v1.0 and the revalidated roadmap v1.0 are approved for Foundation upstream use after independent reviews passed with no remaining Critical/Important findings. These approvals do not claim full G2/G3/G4.
-- `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.0 is the approved canonical Codex Implementation Plan at document commit `f66cf5552f45d3c6ea0f16f737047fb526c8e361`; independent full-plan review passed with no remaining Critical/Important findings.
-- `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md` is superseded historical evidence for the pre-v2 plan and has no executable authority over v2.0.
+- `docs/product/acceptance-criteria.md` v1.1 is approved under Hank's delegated authority; G1-A is passed for product definition. Sales/business-development, market-research, IT, data and security signers remain required at their later G2/G3/G4/G1-B gates.
+- `docs/product/system-design.md` v1.1, `docs/architecture/technical-architecture.md` v1.1 and the revalidated roadmap v1.1 incorporate the approved company-first UAT direction, three-item sidebar and recoverable-failure policy. These approvals do not claim full G2/G3/G4.
+- `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1 is the canonical Codex Implementation Plan. Its exact documentation commit is recorded after this approved change set is committed.
+- `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md` is superseded historical evidence for the pre-v2 plan and has no executable authority over v2.1.
 - Task 1 was completed at task scope on branch `feat/platform-foundation` in commit `aef248f` (`build: bootstrap platform workspaces`).
 - Task 1 consistency review against the approved document chain is complete with no remaining Critical/Important findings; its Node/npm mismatch is isolated as Task 1A.
-- Foundation execution is authorized only for Task 1A; Task 2 remains paused.
+- Foundation execution is authorized continuously for Task 1A–10, subject to each Task's own RED/GREEN, verification, commit, and review gate.
+- `docs/knowledge-platform-launch/` is the tracked GitHub entry for launch strategy, UAT scope, data readiness, and delivery order.
 
 ## Required document order
 
 The project must establish and approve documents in this order:
 
 1. Product Requirements Document: `docs/product/PRD.md` v1.1, product-owner approved
-2. Product/System Design: v1.0 approved for Foundation upstream use; named domain decisions remain gated before their product phases
-3. Technical Architecture: v1.0 approved for Foundation upstream use; production G3/G4 remains gated
-4. Roadmap: v1.0 approved; it does not independently authorize implementation
-5. Codex Implementation Plan: `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.0, approved at `f66cf5552f45d3c6ea0f16f737047fb526c8e361`
+2. Product/System Design: v1.1 approved for Foundation and first-company UAT direction; named domain decisions remain gated before their product phases
+3. Technical Architecture: v1.1 approved for Foundation upstream use; production G3/G4 remains gated
+4. Roadmap: v1.1 approved; it does not independently prove implementation
+5. Codex Implementation Plan: `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1
 
 The four-layer acceptance standard in `docs/product/acceptance-criteria.md` is a companion verification document subordinate to the PRD. It cannot add product scope.
 
@@ -53,21 +54,21 @@ The four-layer acceptance standard in `docs/product/acceptance-criteria.md` is a
 ### After all four downstream documents are approved
 
 - The five-layer document set becomes the executable authority chain.
-- Superseded mixed-design requirements, pre-v2 Foundation plan text, legacy corrections, and start prompts become historical references; the approved Roadmap v1.0 and Foundation Plan v2.0 remain current.
+- Superseded mixed-design requirements, pre-v2 Foundation plan text, legacy corrections, and start prompts become historical references; the approved Roadmap v1.1 and Foundation Plan v2.1 remain current.
 - Approval of the Roadmap alone never authorizes a Task.
-- Task 2 may start only when this index names the exact approved Foundation Implementation Plan version and document commit, that document commit is merged into `feat/platform-foundation`, and the required Task 1A repair has been implemented, verified, committed and independently reviewed. Until all of those conditions hold, any older Task 2 text remains disabled.
+- Task 2 starts after the required Task 1A repair has been implemented, verified, committed and reviewed. Tasks 2–10 then continue without per-Task product approval, but never bypass their own engineering gates.
 
 ## Current downstream status
 
-- Revalidated Roadmap v1.0: `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`; approved and paired with the separately approved Foundation Implementation Plan, but never independently authorizes a Task.
-- Foundation Implementation Plan v2.0: `docs/superpowers/plans/2026-07-30-platform-foundation.md`; approved at exact document commit `f66cf5552f45d3c6ea0f16f737047fb526c8e361`.
+- Revalidated Roadmap v1.1: `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`; approved and paired with the Foundation Implementation Plan.
+- Foundation Implementation Plan v2.1: `docs/superpowers/plans/2026-07-30-platform-foundation.md`; uses the approved lean engineering workflow.
 
 ## Historical inputs
 
 - Mixed Product/System/Technical design: `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md`
 - Superseded corrections for the pre-v2 Foundation plan: `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md`
 
-The corrections file no longer overrides anything in Foundation Plan v2.0. It cannot authorize a Task or override any approved document.
+The corrections file no longer overrides anything in Foundation Plan v2.1. It cannot authorize a Task or override any approved document.
 
 ## Current execution reading order
 
@@ -78,6 +79,7 @@ For Foundation execution, read:
 3. `docs/product/system-design.md`
 4. `docs/architecture/technical-architecture.md`
 5. `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`
-6. `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.0 at the exact commit above
+6. `docs/knowledge-platform-launch/README.md`
+7. `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1
 
-The exact next Task is Task 1A. After its reviewed commit is recorded here, the next Task becomes Task 2; no legacy start prompt has authority.
+The exact next Task is Task 1A. After its reviewed commit is recorded here, execution continues to Task 2 and then through Task 10; no legacy start prompt has authority.

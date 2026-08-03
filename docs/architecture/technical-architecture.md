@@ -3,12 +3,12 @@
 | 属性 | 内容 |
 |---|---|
 | 文档状态 | 已批准作为 Foundation Task 2 上游；不代表完整 G3/G4 |
-| 版本 | 1.0 |
-| 日期 | 2026-07-31 |
-| 上游输入 | 已批准的 `docs/product/PRD.md` v1.1 与 `docs/product/system-design.md` v1.0 |
+| 版本 | 1.1 |
+| 日期 | 2026-08-03 |
+| 上游输入 | 已批准的 `docs/product/PRD.md` v1.1 与 `docs/product/system-design.md` v1.1 |
 | 配套验收 | `docs/product/acceptance-criteria.md` |
 | 架构范围 | React Web、版本化 API、Supabase PostgreSQL/Auth、私有 R2、Cloudflare 运行与交付 |
-| 批准依据 | Hank 授权的一致性修正；独立架构复审 PASS；2026-07-31 |
+| 批准依据 | Hank 授权的一致性修正；独立架构复审 PASS；故障恢复政策于 2026-08-03 获批 |
 
 ## 1. 决策摘要
 
@@ -323,7 +323,7 @@ Foundation 使用 `ObjectStorage` adapter 封装 R2 binding。隔离对象使用
 | 性能/安全 | 批准负载下 P95/错误率、越权、泄漏、文件与秘密检查 |
 | 生产 | Cloudflare URL、企业网络、域名/TLS、监控、回滚和 smoke |
 
-每个 Implementation Task 先写指定失败测试，确认预期 RED 后只实现当前范围；随后运行计划中的所有验证命令、提交并独立审阅。任何非预期失败命令都会停止当前 Task。
+每个 Implementation Task 先写指定失败测试，确认预期 RED 后只实现当前范围；随后运行计划中的所有验证命令、提交并独立审阅。非预期失败命令使当前 Task 进入系统化根因诊断和最小修复，修复后重跑完整 Task 验证；必需命令未全部通过前不得提交或开始下一 Task。只有数据破坏、安全/权利/凭据风险、必需外部权限缺失、真实产品冲突，或同一根因三次修复仍失败时才暂停并升级。
 
 ### 12.2 CI/CD
 
