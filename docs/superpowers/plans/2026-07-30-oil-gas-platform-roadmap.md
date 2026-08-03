@@ -1,10 +1,21 @@
 # Oil & Gas Knowledge Platform Implementation Roadmap
 
-> **For agentic workers:** Read `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md` before using this roadmap. Each phase has its own executable plan. Do not implement multiple phases in one unreviewed change set.
+| Attribute | Value |
+|---|---|
+| Status | Approved roadmap; does not independently authorize implementation |
+| Version | 1.0 |
+| Date | 2026-07-31 |
+| Product authority | `docs/product/PRD.md` v1.1 |
+| System design | `docs/product/system-design.md` v1.0 approved for Foundation upstream use |
+| Technical architecture | `docs/architecture/technical-architecture.md` v1.0 approved for Foundation upstream use |
+| Acceptance | `docs/product/acceptance-criteria.md` |
+| Approval basis | Hank delegated consistency authority; independent roadmap/authority review PASS; 2026-07-31 |
+
+> **CURRENT EXECUTION GATE:** Foundation Implementation Plan v2.0 is approved at `f66cf5552f45d3c6ea0f16f737047fb526c8e361`. Task 2 remains paused until that approved document chain is merged into `feat/platform-foundation` and the Task 1A Node consistency repair passes its commit and review gate.
 
 **Goal:** Convert the current collection of static prototypes, generated HTML pages, JSON datasets, and scripts into one governed internal knowledge platform without a risky full rewrite.
 
-**Architecture:** Build a new React/TypeScript application and Cloudflare Workers API beside the current static assets. Introduce Supabase PostgreSQL as the only master data source and private Cloudflare R2 as the only master attachment source. Migrate one domain at a time, keeping existing pages available as visual references and migration evidence until replacement acceptance.
+**Architecture:** Follow the approved `docs/architecture/technical-architecture.md` v1.0: React/TypeScript Web assets and a separately maintained Hono API workspace are assembled into one production Cloudflare Worker/deployment artifact, with Supabase Auth/PostgreSQL and private Cloudflare R2. Migrate one domain at a time while retaining existing static assets only as references and migration evidence.
 
 **Tech Stack:** React, TypeScript, Vite, TanStack Router, TanStack Query, Hono, Cloudflare Workers, Supabase PostgreSQL/Auth, Cloudflare R2, PostgreSQL full-text search, ECharts, Vitest, Playwright, GitHub Actions.
 
@@ -12,7 +23,7 @@
 
 ## 1. Why the work is split into independent plans
 
-The approved design covers several independently reviewable systems. A single implementation plan would become too large for Codex to execute safely and would mix unrelated failure modes. The project is therefore divided into eight plans. Each plan must produce working, testable software and end with an explicit review gate.
+The approved product scope covers several independently reviewable systems. A single implementation plan would mix unrelated failure modes and make acceptance ambiguous. The project is therefore divided into eight plans. Each plan must produce working, testable software and end with an explicit review gate.
 
 The plans are executed in order unless a later plan explicitly states that it can run in parallel.
 
@@ -22,7 +33,7 @@ The plans are executed in order unless a later plan explicitly states that it ca
 
 | Order | Plan | Main outcome | Depends on |
 |---:|---|---|---|
-| 1 | Platform Foundation | Monorepo, frontend shell, Workers API, database baseline, authentication boundary, CI, smoke tests | Approved design |
+| 1 | Platform Foundation | Reproducible toolchain, monorepo, frontend shell, Workers API, governance database baseline, authentication boundary, private-storage adapter, CI and smoke tests | Approved five-layer document chain |
 | 2 | Company Domain | Canonical company schema, import pipeline, company list/detail APIs and shared UI | Plan 1 |
 | 3 | Project Domain | Canonical project schema, company-project roles, project search/filter/detail/map | Plans 1–2 |
 | 4 | Report and Document Domain | Report metadata, private files, preview/download, extraction pipeline, relationships | Plans 1–3 |
@@ -50,7 +61,7 @@ docs/superpowers/plans/
 └── 2026-08-xx-rag-readiness.md
 ```
 
-Only the first plan is generated now. Each subsequent plan must be written after the preceding domain contracts and repository paths are verified. This prevents later plans from inventing filenames, API signatures, or database structures that conflict with the implemented foundation.
+Roadmap approval alone authorizes no implementation. Foundation Plan v2.0 has been rewritten, independently reviewed, approved, and indexed at exact document commit `f66cf5552f45d3c6ea0f16f737047fb526c8e361`; Task 1A is its only authorized next Task. The approved document chain must be merged into `feat/platform-foundation`, and the Task 1A repair must be committed and independently reviewed before Task 2 can start. Each subsequent plan must be written from the then-current contracts, repository paths and closed PRD decisions. A roadmap phase row is never implementation authorization.
 
 ---
 
@@ -69,13 +80,15 @@ Every plan must preserve these decisions:
 9. Security levels are L1 public, L2 internal general, L3 licensed restricted, and L4 sensitive.
 10. Rights categories are `OWNED`, `PUBLIC_THIRD_PARTY`, `LICENSED_RESTRICTED`, and `DERIVED_REVIEW_REQUIRED`.
 11. Authorization is enforced by the API; PostgreSQL RLS is defense in depth.
-12. Files use private object storage and short-lived authorized access.
+12. Files use private object storage and authorization on every access; permanent public URLs are forbidden and presigned URLs are not the baseline for restricted content.
 13. Search is implemented before AI.
 14. Future document chunks and embeddings inherit source permissions.
 15. Critical assets must not depend on Google Fonts, `unpkg`, or inaccessible overseas map tiles.
 16. Mainland corporate-network testing is a production release gate.
 17. Existing static pages are references or migration inputs, not the target architecture.
 18. CRM, external customers, billing, multi-tenancy, and production AI answering are outside the MVP.
+19. `super_admin` controls accounts, roles and system policy but does not implicitly receive content-edit, publish, L3 or L4 access.
+20. Every Implementation Task is foundation-only or tied to one named product domain; no task may smuggle in a later phase.
 
 ---
 
@@ -115,6 +128,7 @@ Do not merge a phase until:
 
 Exit when:
 
+- Task 1's Node/npm declarations match the locked dependency engine requirements and reproduce under `npm ci --engine-strict`.
 - Root workspace installs from a clean checkout.
 - Web and API applications build.
 - `/api/v1/health` returns a typed response.
@@ -122,6 +136,15 @@ Exit when:
 - Supabase migrations create baseline governance, role, profile, and audit tables.
 - Authentication verification and permission middleware are tested.
 - CI runs type checks, unit tests, builds, migration tests, and smoke tests.
+
+Current Foundation state:
+
+| Work item | Status | Evidence / next gate |
+|---|---|---|
+| Task 1 — Bootstrap workspace | Implemented at `aef248f`; consistency fix required | Layout test passed, scope clean; Node range must be narrowed and pinned |
+| Task 1A — Pin compatible Node toolchain | Pending | Must complete by TDD before Task 2 |
+| Task 2 — Shared API/authorization contracts | Paused | Execute only from approved Foundation Plan v2.0 after Task 1A passes and documents are merged |
+| Tasks 3–10 | Not started | Execute one at a time after each preceding task is verified, committed and reviewed |
 
 ### Plan 2 — Company Domain
 
@@ -158,13 +181,15 @@ Exit when:
 - One query searches companies, projects, reports, and extracted report text.
 - Permission filtering occurs before result delivery.
 - Representative search success reaches at least 90%.
-- Favorites, recent views, saved searches, subscriptions, notifications, notes, and correction requests work end to end.
+- Favorites, recent views, saved searches, subscriptions, notifications and notes work end to end.
+- Users can submit and track their own correction requests; reviewer assignment, decision, resulting version/publication and closure notification remain Plan 6 exit work.
 
 ### Plan 6 — Admin, Ingestion, and Data Quality
 
 Exit when:
 
 - Non-technical maintainers can create, import, validate, review, publish, merge, archive, and correct records.
+- Correction requests complete the reviewer assignment → evidence comparison → decision → governed version/publication → submitter notification lifecycle begun in Plan 5.
 - Failed rows and jobs are visible and retryable.
 - Data quality and freshness are measurable.
 - Sensitive changes require approval.
@@ -178,9 +203,12 @@ Exit when:
 - API P95 targets are met under the agreed load.
 - No known authorization bypass remains.
 - Backup and restore tests pass.
-- Approximately 40 pilot users can be onboarded and measured.
+- All applicable G2 and G3 sub-gates are aggregated and passed, G4 is passed, and the approved production pilot has completed with approximately 40 users.
+- Approved adoption criteria are met, release-blocking findings are closed, and product owner plus real sales/business-development and market-research representatives have passed G1-B.
 
 ### Plan 8 — RAG Readiness
+
+Plan 8 cannot start merely because production is deployed. It requires Plan 7's completed G2/G3/G4 aggregation, completed pilot and passed G1-B; any production AI remains separately gated.
 
 Exit when:
 
@@ -191,27 +219,30 @@ Exit when:
 
 ---
 
-## 7. Codex operating instructions
+## 7. Codex operating model and current authorization
 
-For each phase, give Codex only:
+Codex receives only:
 
-1. The approved design specification.
-2. This roadmap.
-3. The current phase plan.
-4. The repository at the commit on which the plan was written.
+1. The approved PRD and four-layer acceptance standard.
+2. The approved Product/System Design.
+3. The approved Technical Architecture.
+4. The approved, revalidated Roadmap.
+5. The approved current-phase Codex Implementation Plan.
+6. The repository at the commit on which the plan was written.
 
-Codex should not be asked to “build the whole platform” in one prompt. It should execute one task at a time, run the exact verification command, commit, and stop at the review gate.
+Codex must execute one task at a time with TDD, run every verification command, commit with the specified message and obtain an independent review before the next task. A non-expected failed verification command stops the current task and is reported; an expected RED test is recorded as TDD evidence.
 
-Recommended execution prompt:
+Current implementation-plan hold:
 
 ```text
-Read these files first:
-- docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md
-- docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md
-- docs/superpowers/plans/2026-07-30-platform-foundation.md
-
-Use the Superpowers workflow. Create an isolated worktree and branch `feat/platform-foundation`. Execute the platform-foundation plan task by task using test-driven development. Run every verification command exactly as written. Commit after each task. Do not start the next task when the current task's tests fail. Stop at each review gate and report the changed files, command output, remaining risks, and next task.
+STOP. Task 2 remains paused. Foundation Implementation Plan v2.0 is
+approved at f66cf5552f45d3c6ea0f16f737047fb526c8e361, but its document
+chain must first be merged into feat/platform-foundation. Complete,
+verify, commit and review Task 1A, record that exact prerequisite commit
+in INDEX.md, and only then execute Task 2.
 ```
+
+The legacy start prompt and any unchecked Task in an earlier plan have no authority. `docs/superpowers/plans/INDEX.md` identifies the exact executable plan, branch, prerequisite implementation commit and next Task; it must be updated again after Task 1A before Task 2 starts.
 
 ---
 
@@ -220,7 +251,7 @@ Use the Superpowers workflow. Create an isolated worktree and branch `feat/platf
 If implementation proves that a chosen interface or provider is unsuitable:
 
 1. Record the evidence.
-2. Update the design decision log.
+2. Update Product/System Design or Technical Architecture as appropriate.
 3. Update this roadmap if phase dependencies change.
 4. Rewrite affected future plans before implementation.
 5. Do not silently diverge from the approved specification.
