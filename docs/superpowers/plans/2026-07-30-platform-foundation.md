@@ -2202,6 +2202,10 @@ begin
 end
 $$;
 
+-- PostgreSQL 17 gives a non-superuser creator ADMIN but not SET on a new role.
+-- Allow the migration connection to exercise least privilege during verification.
+grant app_runtime to current_user with set true, inherit false;
+
 do $$
 declare
   granted_role text;

@@ -60,4 +60,8 @@ test('foundation migration validates app_runtime without protected role repairs'
 
   assert.doesNotMatch(migration, /alter\s+role\s+app_runtime/i);
   assert.match(migration, /app_runtime role attributes are unsafe/i);
+  assert.match(
+    migration,
+    /grant\s+app_runtime\s+to\s+current_user\s+with\s+set\s+true,\s*inherit\s+false/i,
+  );
 });
