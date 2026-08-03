@@ -1288,6 +1288,7 @@ Run requirements and code-quality reviews, resolve all Critical/Important findin
 - Create: `apps/web/tsconfig.node.json`
 - Create: `apps/web/vite.config.ts`
 - Create: `apps/web/vitest.config.ts`
+- Modify: `apps/web/package.json`
 - Create: `apps/web/public/_headers`
 - Create: `apps/web/index.html`
 - Create: `apps/web/src/test/setup.ts`
@@ -1348,7 +1349,7 @@ describe('application shell', () => {
       </QueryClientProvider>,
     );
 
-    expect(screen.getByRole('heading', { name: '市场知识平台' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: '市场知识平台' })).toBeInTheDocument();
     const navigation = screen.getByRole('navigation', { name: '主导航' });
     expect(within(navigation).getAllByRole('link')).toHaveLength(3);
     expect(within(navigation).getByRole('link', { name: '首页' })).toHaveAttribute('href', '/');
@@ -1368,6 +1369,11 @@ Create `apps/web/src/test/setup.ts`:
 
 ```ts
 import '@testing-library/jest-dom/vitest';
+
+Object.defineProperty(window, 'scrollTo', {
+  value: () => undefined,
+  writable: true,
+});
 ```
 
 Create `tests/worker-artifact.test.mjs`:
@@ -1539,8 +1545,7 @@ Create `apps/web/tsconfig.json`:
     "noEmit": true,
     "types": ["vite/client", "vitest/globals"]
   },
-  "include": ["src", "vite.config.ts", "vitest.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
 ```
 
@@ -1550,7 +1555,6 @@ Create `apps/web/tsconfig.node.json`:
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "composite": true,
     "noEmit": true,
     "types": ["node"]
   },
@@ -1562,6 +1566,14 @@ Install the Node types required by the config:
 
 ```bash
 npm install -D -w @wison/web @types/node
+```
+
+Replace the Web workspace TypeScript scripts so both no-emit configs are checked without TypeScript build-mode state:
+
+```json
+"build": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json && vite build",
+"lint": "tsc --noEmit -p tsconfig.json --pretty false && tsc --noEmit -p tsconfig.node.json --pretty false",
+"typecheck": "tsc --noEmit -p tsconfig.json --pretty false && tsc --noEmit -p tsconfig.node.json --pretty false"
 ```
 
 Create `apps/web/vite.config.ts`:
@@ -1614,7 +1626,7 @@ Create the repository's only Wrangler entry config at `apps/api/wrangler.jsonc`:
   "$schema": "../../node_modules/wrangler/config-schema.json",
   "name": "wison-knowledge-platform",
   "main": "src/index.ts",
-  "compatibility_date": "2026-07-31",
+  "compatibility_date": "2026-07-29",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
     "APP_VERSION": "0.1.0"
