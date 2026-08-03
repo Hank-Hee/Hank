@@ -10,6 +10,7 @@
   "assets": {
     "binding": "ASSETS",
     "directory": "../web/dist",
+    "html_handling": "none",
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*", "/company-assets/*"]
   },

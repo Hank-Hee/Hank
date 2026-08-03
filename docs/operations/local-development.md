@@ -69,6 +69,17 @@ Do not commit `.dev.vars`, database passwords, service-role keys, production tok
 
 ## Start applications
 
+Company Demo split hot-reload mode now starts the Worker API and React UI together:
+
+```bash
+brew services start postgresql@17
+npm run dev
+```
+
+Open `http://127.0.0.1:4173`. The command uses the current macOS `$USER` as the native PostgreSQL role, connects to `hank_platform_test`, enables only the fixed local Demo session, and proxies both `/api/*` and `/company-assets/*` through the authenticated Worker. The database must already contain `supabase/roles.sql`, all migrations in filename order, and `supabase/seed.sql`; rerun the seed safely when the generated seed changes.
+
+The production Worker does not use this direct connection string. It must receive a real `HYPERDRIVE` binding and must not enable `DEMO_AUTH_ENABLED`.
+
 Integrated same-origin mode, used by smoke tests:
 
 ```bash

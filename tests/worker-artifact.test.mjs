@@ -20,8 +20,9 @@ test('one Worker build assembles contracts, Web assets, then API', async () => {
   );
   assert.equal(api.scripts.build, 'wrangler deploy --dry-run --outdir dist');
   assert.equal(wrangler.assets.directory, '../web/dist');
+  assert.equal(wrangler.assets.html_handling, 'none');
   assert.equal(wrangler.assets.not_found_handling, 'single-page-application');
-  assert.deepEqual(wrangler.assets.run_worker_first, ['/api/*']);
+  assert.deepEqual(wrangler.assets.run_worker_first, ['/api/*', '/company-assets/*']);
   assert.equal(wrangler.vars.APP_VERSION, root.version);
   assert.match(headers, /Content-Security-Policy/);
   assert.match(headers, /X-Content-Type-Options: nosniff/);

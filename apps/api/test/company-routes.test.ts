@@ -87,7 +87,9 @@ describe('company library API', () => {
 
   it('protects dashboard assets and serves them through the authenticated Worker', async () => {
     const repository: CompanyRepository = { list: vi.fn(), findBySlug: vi.fn() };
-    const assets = { fetch: vi.fn(async () => new Response('<html>dashboard</html>')) };
+    const assets = {
+      fetch: vi.fn(async () => fetch('data:text/html,<html>dashboard</html>')),
+    };
     const app = appWith(repository);
     const denied = await app.request('/company-assets/banners/shell.html', {}, { ASSETS: assets });
     const allowed = await app.request('/company-assets/banners/shell.html', {
@@ -97,6 +99,8 @@ describe('company library API', () => {
     expect(denied.status).toBe(401);
     expect(allowed.status).toBe(200);
     expect(await allowed.text()).toContain('dashboard');
+    expect(allowed.headers.get('content-security-policy')).toContain("frame-ancestors 'self'");
+    expect(allowed.headers.get('content-security-policy')).not.toContain('unpkg.com');
     expect(assets.fetch).toHaveBeenCalledOnce();
   });
 });

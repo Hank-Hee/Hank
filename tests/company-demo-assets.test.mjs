@@ -19,6 +19,7 @@ test('company dashboard assets are built from the allowlisted source inventory',
   for (const path of [
     'banners/shell.html',
     'maps/data/shell.json',
+    'maps/vendor/leaflet.js',
     'charts/project-type/index.html',
     'production/shell.html',
     'production/exxon.html',
@@ -29,6 +30,9 @@ test('company dashboard assets are built from the allowlisted source inventory',
   }
   const financialScript = await readFile(join(output, 'financial/dashboard.js'), 'utf8');
   assert.doesNotMatch(financialScript, /\.\.\/\.\.\/data/);
+  const mapPage = await readFile(join(output, 'maps/index.html'), 'utf8');
+  assert.match(mapPage, /vendor\/leaflet\.js/);
+  assert.doesNotMatch(mapPage, /unpkg\.com\/leaflet/);
   const manifest = JSON.parse(await readFile(join(output, 'asset-manifest.json'), 'utf8'));
   assert.equal(manifest.companies.length, 8);
   assert.equal(manifest.protectedBy, '/company-assets/*');

@@ -4,6 +4,7 @@ import { secureHeaders } from 'hono/secure-headers';
 import { createPermissionLoader } from './auth/permission-loader';
 import { createEnvironmentTokenVerifier } from './auth/environment-token-verifier';
 import { createCompanyRepository } from './company/company-repository';
+import { resolveDatabaseBinding } from './db/environment-database-binding';
 import { AppError } from './lib/app-error';
 import { authentication, type AuthServicesFactory } from './middleware/authentication';
 import { requestIdMiddleware } from './middleware/request-id';
@@ -15,11 +16,23 @@ import { meRoutes } from './routes/me';
 import type { AppEnvironment } from './types';
 
 const createDefaultAuthServices: AuthServicesFactory = (bindings) => ({
-  loader: createPermissionLoader(bindings.HYPERDRIVE),
+  loader: createPermissionLoader(resolveDatabaseBinding(bindings)),
   verifier: createEnvironmentTokenVerifier(bindings),
 });
 const createDefaultCompanyRepository: CompanyRepositoryFactory = (bindings) =>
-  createCompanyRepository(bindings.HYPERDRIVE);
+  createCompanyRepository(resolveDatabaseBinding(bindings));
+
+const dashboardContentSecurityPolicy = [
+  "default-src 'self'",
+  "base-uri 'self'",
+  "frame-ancestors 'self'",
+  "object-src 'none'",
+  "connect-src 'self'",
+  "img-src 'self' data: https://*.basemaps.cartocdn.com",
+  "font-src 'self' data:",
+  "style-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'unsafe-inline'",
+].join('; ');
 
 export function createApp(
   getAuthServices: AuthServicesFactory = createDefaultAuthServices,
@@ -47,7 +60,16 @@ export function createApp(
 
   app.use('/company-assets/*', authentication(getAuthServices));
   app.use('/company-assets/*', requirePermission('platform.access'));
-  app.get('/company-assets/*', (context) => context.env.ASSETS.fetch(context.req.raw));
+  app.get('/company-assets/*', async (context) => {
+    const asset = await context.env.ASSETS.fetch(context.req.raw);
+    const headers = new Headers(asset.headers);
+    headers.set('content-security-policy', dashboardContentSecurityPolicy);
+    return new Response(asset.body, {
+      status: asset.status,
+      statusText: asset.statusText,
+      headers,
+    });
+  });
 
   app.notFound((context) => {
     const response: ApiErrorResponse = {
@@ -61,6 +83,12 @@ export function createApp(
   });
 
   app.onError((error, context) => {
+    if (!(error instanceof AppError)) {
+      console.error('Unhandled application error', {
+        requestId: context.get('requestId'),
+        error,
+      });
+    }
     const appError = error instanceof AppError
       ? error
       : new AppError('INTERNAL_ERROR', 500, 'An unexpected error occurred.');

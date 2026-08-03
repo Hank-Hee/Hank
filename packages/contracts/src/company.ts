@@ -68,7 +68,9 @@ export type CompanyDetail = z.infer<typeof CompanyDetailSchema>;
 export const DemoSessionRequestSchema = z.strictObject({
   email: z.email().max(254),
 });
+export type DemoSessionRequest = z.infer<typeof DemoSessionRequestSchema>;
 export const DemoSessionResponseSchema = z.strictObject({
   accessToken: z.literal('demo.local'),
   email: z.email().max(254),
 });
+export type DemoSessionResponse = z.infer<typeof DemoSessionResponseSchema>;

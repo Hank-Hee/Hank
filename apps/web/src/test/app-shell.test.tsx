@@ -6,6 +6,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createAppRouter } from '../app-router';
 
 beforeEach(() => {
+  sessionStorage.setItem('company-demo-token', 'demo.local');
   vi.stubGlobal(
     'fetch',
     vi.fn().mockResolvedValue(

@@ -50,9 +50,20 @@ await writeFile(
   `${JSON.stringify({ ...operatorManifest, operators: selectedOperators }, null, 2)}\n`,
   'utf8',
 );
-for (const file of ['index.html', 'styles.css', 'app.js', 'app-core.js']) {
+for (const file of ['styles.css', 'app.js', 'app-core.js']) {
   await copy(`maps/${file}`, `maps/${file}`);
 }
+await writeTransformed(
+  'maps/index.html',
+  'maps/index.html',
+  (content) => content
+    .replace('    <link rel="preconnect" href="https://unpkg.com" />\n', '')
+    .replace(
+      'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
+      'vendor/leaflet.js?v=1.9.4',
+    ),
+);
+await copy('node_modules/leaflet/dist/leaflet.js', 'maps/vendor/leaflet.js');
 await copy('maps/data/country-centers.json', 'maps/data/country-centers.json');
 
 for (const file of ['index.html', 'styles.css', 'app.js', 'chart-core.js']) {

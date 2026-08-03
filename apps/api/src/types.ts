@@ -4,9 +4,10 @@ import type { VerifiedIdentity } from './auth/types';
 export interface AppBindings {
   APP_VERSION: string;
   ASSETS: Fetcher;
+  DATABASE_URL?: string;
   DEMO_AUTH_ENABLED?: string;
   FILES: R2Bucket;
-  HYPERDRIVE: Hyperdrive;
+  HYPERDRIVE?: Hyperdrive;
   JWT_ALGORITHM: string;
   JWKS_CACHE_EPOCH: string;
   SUPABASE_AUDIENCE: string;
