@@ -33,3 +33,18 @@ test('one Worker build assembles contracts, Web assets, then API', async () => {
     { code: 'ENOENT' },
   );
 });
+
+test('R2 development bindings expose no public route configuration', async () => {
+  const wrangler = await readJson('../apps/api/wrangler.jsonc');
+  assert.deepEqual(wrangler.r2_buckets, [
+    { binding: 'FILES', bucket_name: 'wison-knowledge-files-dev' },
+    { binding: 'QUARANTINE_FILES', bucket_name: 'wison-knowledge-quarantine-dev' },
+  ]);
+  assert.equal(Object.hasOwn(wrangler, 'route'), false);
+  assert.equal(Object.hasOwn(wrangler, 'routes'), false);
+  assert.equal(Object.hasOwn(wrangler, 'workers_dev'), false);
+  assert.equal(Object.hasOwn(wrangler, 'preview_urls'), false);
+  for (const binding of wrangler.r2_buckets) {
+    assert.deepEqual(Object.keys(binding).sort(), ['binding', 'bucket_name']);
+  }
+});
