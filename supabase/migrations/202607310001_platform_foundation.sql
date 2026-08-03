@@ -5,6 +5,8 @@ revoke all on schema app_private from public, anon, authenticated;
 do $$
 begin
   if not exists (select 1 from pg_roles where rolname = 'app_runtime') then
+    -- PostgreSQL 17 otherwise gives a non-superuser creator ADMIN but not SET.
+    perform set_config('createrole_self_grant', 'set', true);
     create role app_runtime noinherit;
   end if;
 
@@ -21,10 +23,6 @@ begin
   end if;
 end
 $$;
-
--- PostgreSQL 17 gives a non-superuser creator ADMIN but not SET on a new role.
--- Allow the migration connection to exercise least privilege during verification.
-grant app_runtime to current_user with set true, inherit false;
 
 do $$
 declare
