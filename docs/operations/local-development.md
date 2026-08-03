@@ -37,6 +37,11 @@ npx supabase test db
 npm run test:db -w @wison/api
 ```
 
+CI gives `supabase start` three bounded attempts. A failed attempt is cleaned
+with `supabase stop --no-backup`; the final attempt enables debug output.
+This absorbs transient registry throttling or container-start interruption
+without retrying migration, pgTAP, rollback, or application assertion failures.
+
 On this Intel Mac, PostgreSQL 17 runs as the Homebrew service on port 5432. The local test database is `hank_platform_test`; apply the two files in `supabase/migrations` with `psql`, run `supabase/tests/platform_foundation_test.sql` with `pg_prove`, and set this only for the integration command:
 
 ```bash

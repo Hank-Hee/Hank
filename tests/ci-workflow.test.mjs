@@ -40,5 +40,8 @@ test('platform CI runs code, database, and browser verification', async () => {
     3,
   );
   assert.equal(workflow.match(/^\s+- run: npx supabase test db$/gm)?.length, 2);
+  assert.match(workflow, /for attempt in 1 2/);
+  assert.match(workflow, /npx supabase stop --no-backup/);
+  assert.match(workflow, /npx supabase start --debug/);
   assert.doesNotMatch(workflow, /^\s+paths:/m);
 });

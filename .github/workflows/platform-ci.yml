@@ -39,7 +39,16 @@ jobs:
       - run: npm install --global npm@10.9.8 --no-audit --no-fund
       - run: test "$(node --version)" = "v22.23.2" && test "$(npm --version)" = "10.9.8"
       - run: npm ci --engine-strict --no-audit --no-fund
-      - run: npx supabase start
+      - name: Start Supabase with bounded retries
+        run: |
+          for attempt in 1 2; do
+            if npx supabase start; then
+              exit 0
+            fi
+            npx supabase stop --no-backup || true
+            sleep $((attempt * 10))
+          done
+          npx supabase start --debug
       - run: npx supabase db reset
       - run: npx supabase test db
       - run: npx supabase migration down --local --last 1 --yes
