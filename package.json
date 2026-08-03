@@ -12,7 +12,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build -w @wison/contracts && npm run build -w @wison/api && npm run build -w @wison/web",
+    "build": "npm run build -w @wison/contracts && npm run build -w @wison/web && npm run build -w @wison/api",
     "dev:api": "npm run dev -w @wison/api",
     "dev:web": "npm run dev -w @wison/web",
     "e2e": "playwright test",
