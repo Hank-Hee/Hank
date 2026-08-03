@@ -9,7 +9,7 @@ Current facts:
 - `docs/product/PRD.md` v1.1 was approved by product owner Hank on 2026-07-31 and is now the sole authority for product goals, users, scope and business rules. The v1.1 permission-matrix revision is covered by Hank's delegated authority to resolve consistency issues before Task 2.
 - `docs/product/acceptance-criteria.md` v1.1 is approved under Hank's delegated authority; G1-A is passed for product definition. Sales/business-development, market-research, IT, data and security signers remain required at their later G2/G3/G4/G1-B gates.
 - `docs/product/system-design.md` v1.1, `docs/architecture/technical-architecture.md` v1.1 and the revalidated roadmap v1.1 incorporate the approved company-first UAT direction, three-item sidebar and recoverable-failure policy. These approvals do not claim full G2/G3/G4.
-- `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1 is the canonical Codex Implementation Plan. Its exact documentation commit is recorded after this approved change set is committed.
+- `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1 is the canonical Codex Implementation Plan at documentation commit `a336115`.
 - `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md` is superseded historical evidence for the pre-v2 plan and has no executable authority over v2.1.
 - Task 1 was completed at task scope on branch `feat/platform-foundation` in commit `aef248f` (`build: bootstrap platform workspaces`).
 - Task 1 consistency review against the approved document chain is complete with no remaining Critical/Important findings; its Node/npm mismatch is isolated as Task 1A.
@@ -61,7 +61,7 @@ The four-layer acceptance standard in `docs/product/acceptance-criteria.md` is a
 ## Current downstream status
 
 - Revalidated Roadmap v1.1: `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`; approved and paired with the Foundation Implementation Plan.
-- Foundation Implementation Plan v2.1: `docs/superpowers/plans/2026-07-30-platform-foundation.md`; uses the approved lean engineering workflow.
+- Foundation Implementation Plan v2.1: `docs/superpowers/plans/2026-07-30-platform-foundation.md`; uses the approved lean engineering workflow and is recorded at documentation commit `a336115`.
 
 ## Historical inputs
 
