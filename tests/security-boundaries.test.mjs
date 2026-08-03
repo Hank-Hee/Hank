@@ -71,3 +71,13 @@ test('foundation migration validates app_runtime without protected role repairs'
   assert.doesNotMatch(roles, /createrole_self_grant/i);
   assert.doesNotMatch(roles, /with\s+admin\s+true/i);
 });
+
+test('foundation pgTAP count assertions use portable integer overloads', async () => {
+  const specification = await readFile(
+    resolve(repositoryRoot, 'supabase/tests/platform_foundation_test.sql'),
+    'utf8',
+  );
+
+  assert.doesNotMatch(specification, /count\(\*\)[^;]*::bigint/gi);
+  assert.equal(specification.match(/count\(\*\)[^;]*::integer/gi)?.length, 7);
+});

@@ -1961,10 +1961,10 @@ select has_table('app_private', 'audit_events');
 select has_function('app_private', 'current_user_id', array[]::text[]);
 select has_function('app_private', 'get_current_user_context', array[]::text[]);
 
-select is((select count(*) from app_private.roles), 6::bigint, 'six roles');
-select is((select count(*) from app_private.permissions), 5::bigint, 'five permissions');
-select is((select count(*) from app_private.security_levels), 4::bigint, 'four levels');
-select is((select count(*) from app_private.rights_types), 4::bigint, 'four rights types');
+select is((select count(*)::integer from app_private.roles), 6, 'six roles');
+select is((select count(*)::integer from app_private.permissions), 5, 'five permissions');
+select is((select count(*)::integer from app_private.security_levels), 4, 'four levels');
+select is((select count(*)::integer from app_private.rights_types), 4, 'four rights types');
 
 select results_eq(
   $$select code from app_private.roles order by code$$,
@@ -2097,7 +2097,7 @@ insert into app_private.user_roles (user_id, role_code) values
 
 set local role app_runtime;
 set local app.user_id = '00000000-0000-4000-8000-000000000001';
-select is((select count(*) from app_private.profiles), 1::bigint, 'user A cannot read user B');
+select is((select count(*)::integer from app_private.profiles), 1, 'user A cannot read user B');
 select is(
   app_private.get_current_user_context(),
   '{"email":"a@example.com","permissions":["platform.access"],"roles":["sales_bd"],"userId":"00000000-0000-4000-8000-000000000001"}'::jsonb,
@@ -2105,9 +2105,9 @@ select is(
 );
 set local app.user_id = '00000000-0000-4000-8000-000000000003';
 select is(app_private.get_current_user_context(), null::jsonb, 'inactive profile returns no context');
-select is((select count(*) from app_private.roles), 0::bigint, 'inactive user cannot read lookup rows');
+select is((select count(*)::integer from app_private.roles), 0, 'inactive user cannot read lookup rows');
 set local app.user_id = '00000000-0000-4000-8000-000000000099';
-select is((select count(*) from app_private.roles), 0::bigint, 'unknown user cannot read lookup rows');
+select is((select count(*)::integer from app_private.roles), 0, 'unknown user cannot read lookup rows');
 reset role;
 
 insert into app_private.permissions (code, description) values ('future.domain.read', 'synthetic future permission');
