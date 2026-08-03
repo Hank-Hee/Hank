@@ -1,18 +1,36 @@
 import type { ApiErrorResponse } from '@wison/contracts';
 import { Hono } from 'hono';
 import { secureHeaders } from 'hono/secure-headers';
+import { createPermissionLoader } from './auth/permission-loader';
+import { createTokenVerifier } from './auth/jwt-verifier';
 import { AppError } from './lib/app-error';
+import { authentication, type AuthServicesFactory } from './middleware/authentication';
 import { requestIdMiddleware } from './middleware/request-id';
+import { requirePermission } from './middleware/require-permission';
 import { healthRoutes } from './routes/health';
+import { meRoutes } from './routes/me';
 import type { AppEnvironment } from './types';
 
-export function createApp(): Hono<AppEnvironment> {
+const createDefaultAuthServices: AuthServicesFactory = (bindings) => ({
+  loader: createPermissionLoader(bindings.HYPERDRIVE),
+  verifier: createTokenVerifier(bindings),
+});
+
+export function createApp(
+  getAuthServices: AuthServicesFactory = createDefaultAuthServices,
+): Hono<AppEnvironment> {
   const app = new Hono<AppEnvironment>();
 
   app.use('*', requestIdMiddleware);
   app.use('*', secureHeaders());
 
   app.route('/api/v1/health', healthRoutes);
+
+  const protectedMe = new Hono<AppEnvironment>();
+  protectedMe.use('*', authentication(getAuthServices));
+  protectedMe.use('*', requirePermission('platform.access'));
+  protectedMe.route('/', meRoutes);
+  app.route('/api/v1/me', protectedMe);
 
   app.notFound((context) => {
     const response: ApiErrorResponse = {
