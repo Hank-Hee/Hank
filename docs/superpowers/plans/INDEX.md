@@ -2,7 +2,7 @@
 
 ## Current execution gate
 
-Task 1A is the next implementation Task. The approved document chain is already merged into `feat/platform-foundation`. After Task 1A is implemented test-first, fully verified, committed, and reviewed, Codex continues through Tasks 2–10 without per-Task product approval under the lean engineering workflow.
+Task 1A is complete at `3f96636` (`build: pin compatible Node toolchain`). Task 2 is the next implementation Task. Codex continues through Tasks 2–10 without per-Task product approval under the lean engineering workflow.
 
 Current facts:
 
@@ -12,7 +12,8 @@ Current facts:
 - `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1 is the canonical Codex Implementation Plan at documentation commit `a336115`.
 - `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md` is superseded historical evidence for the pre-v2 plan and has no executable authority over v2.1.
 - Task 1 was completed at task scope on branch `feat/platform-foundation` in commit `aef248f` (`build: bootstrap platform workspaces`).
-- Task 1 consistency review against the approved document chain is complete with no remaining Critical/Important findings; its Node/npm mismatch is isolated as Task 1A.
+- Task 1 consistency review against the approved document chain is complete with no remaining Critical/Important findings.
+- Task 1A completed test-first at `3f96636`; Node `22.23.2`, npm `10.9.8`, `>=22.22.2 <23`, frozen install, dependency tree, lockfile scope, and the three workspace tests passed its focused review gate.
 - Foundation execution is authorized continuously for Task 1A–10, subject to each Task's own RED/GREEN, verification, commit, and review gate.
 - `docs/knowledge-platform-launch/` is the tracked GitHub entry for launch strategy, UAT scope, data readiness, and delivery order.
 
@@ -82,4 +83,4 @@ For Foundation execution, read:
 6. `docs/knowledge-platform-launch/README.md`
 7. `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.1
 
-The exact next Task is Task 1A. After its reviewed commit is recorded here, execution continues to Task 2 and then through Task 10; no legacy start prompt has authority.
+The exact next Task is Task 2. Execution then continues through Task 10 after each preceding Task passes its own gate; no legacy start prompt has authority.
