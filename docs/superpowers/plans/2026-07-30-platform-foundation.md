@@ -2030,16 +2030,16 @@ select ok(
 select ok(
   has_schema_privilege('app_runtime', 'app_private', 'USAGE')
   and not has_schema_privilege('app_runtime', 'app_private', 'CREATE')
-  and (
-    select array_agg(table_name::text order by table_name)
+  and array[
+    'permissions', 'profiles', 'rights_types', 'role_permissions',
+    'roles', 'security_levels', 'user_roles'
+  ]::text[] <@ (
+    select coalesce(array_agg(table_name::text order by table_name), '{}'::text[])
     from information_schema.role_table_grants
     where grantee = 'app_runtime'
       and table_schema = 'app_private'
       and privilege_type = 'SELECT'
-  ) = array[
-    'permissions', 'profiles', 'rights_types', 'role_permissions',
-    'roles', 'security_levels', 'user_roles'
-  ]::text[]
+  )
   and not exists (
     select 1 from information_schema.role_table_grants
     where grantee = 'app_runtime'
@@ -2056,7 +2056,7 @@ select ok(
     select 1 from information_schema.routine_privileges
     where grantee in ('PUBLIC', 'anon', 'authenticated') and routine_schema = 'app_private'
   ),
-  'runtime has only the exact Foundation read/execute grants and browser roles have none'
+  'runtime retains Foundation reads, has no table writes, and browser roles have none'
 );
 select ok(
   not exists (

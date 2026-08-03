@@ -12,6 +12,10 @@ test('company demo inventory is reproducible and contains eight complete company
     cwd: repositoryRoot,
     stdio: 'pipe',
   });
+  execFileSync(node, ['scripts/build-company-demo-seed.mjs', '--check'], {
+    cwd: repositoryRoot,
+    stdio: 'pipe',
+  });
 
   const inventory = JSON.parse(
     await readFile(new URL('../data/company-demo-inventory.json', import.meta.url), 'utf8'),
