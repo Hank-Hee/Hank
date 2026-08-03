@@ -16,6 +16,7 @@
     "dev:api": "npm run dev -w @wison/api",
     "dev:web": "npm run dev -w @wison/web",
     "e2e": "playwright test",
+    "e2e:install": "playwright install chromium",
     "lint": "npm run lint -w @wison/contracts && npm run lint -w @wison/api && npm run lint -w @wison/web",
     "test": "node --test tests/*.test.mjs && npm run test -w @wison/contracts && npm run test -w @wison/api && npm run test -w @wison/web",
     "typecheck": "npm run typecheck -w @wison/contracts && npm run typecheck -w @wison/api && npm run typecheck -w @wison/web"
