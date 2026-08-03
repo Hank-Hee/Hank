@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "wrangler deploy --dry-run --outdir dist",
+    "build": "tsc --noEmit",
     "dev": "wrangler dev",
     "lint": "tsc --noEmit",
     "test": "vitest run",
