@@ -81,10 +81,10 @@ function GlobalSearch({
       .filter((report) => [
         report.title,
         report.subtitle ?? '',
-        report.summary,
+        report.summary ?? '',
         report.industry,
         report.region,
-        report.sourceName,
+        report.publisher,
         ...report.keywords,
       ].some((value) => value.toLocaleLowerCase().includes(normalized)))
       .slice(0, 6)
@@ -92,7 +92,7 @@ function GlobalSearch({
         kind: 'report',
         key: `report-${report.id}`,
         label: report.title,
-        secondary: `${report.industry} · ${report.sourceName}`,
+        secondary: `${report.industry} · ${report.publisher}`,
         reportId: report.id,
       }));
     return [...companyResults, ...reportResults];
@@ -232,9 +232,9 @@ function HomePage() {
         </Link>
       </section>
       <section className="stats-strip" aria-label="资料统计">
-        <div><strong>{companyRows.length}</strong><span>公司档案</span></div>
-        <div><strong>{reportRows.length}</strong><span>报告元数据</span></div>
-        <div><strong>{complete.length}</strong><span>完整 Portfolio</span></div>
+        <div><strong>{companyRows.length}</strong><span>已归档公司</span></div>
+        <div><strong>{reportRows.length}</strong><span>行业报告与资料</span></div>
+        <div><strong className="sync-date">{reports.data?.syncedOn ?? '—'}</strong><span>最近一次更新</span></div>
       </section>
       <div className="home-columns">
         <section className="content-panel compact-panel">
@@ -253,8 +253,8 @@ function HomePage() {
           {reports.isPending ? <p className="state-message">报告数据加载中…</p> : null}
           {reportRows.slice(0, 5).map((report) => (
             <Link className="compact-row" key={report.id} to="/reports/$reportId" params={{ reportId: report.id }}>
-              <span className="date-badge">{report.publishedOn.slice(5)}</span>
-              <span><b>{report.title}</b><small>{report.industry} · {report.sourceName}</small></span>
+              <span className="date-badge">{report.publishedOn?.slice(5) ?? '待补'}</span>
+              <span><b>{report.title}</b><small>{report.industry} · {report.publisher}</small></span>
             </Link>
           ))}
         </section>
@@ -352,11 +352,18 @@ function CompanyDetailPage() {
       <nav className="company-anchor-nav" aria-label="公司页面目录">
         <a href="#overview">公司概览</a><a href="#projects">区域与项目</a><a href="#production">产量</a><a href="#financials">财务</a><a href="#news">相关新闻</a><a href="#related-reports">相关报告</a>
       </nav>
-      <section id="overview" className="content-panel company-profile">
-        <div><p className="eyebrow">COMPANY OVERVIEW</p><h3>公司概览</h3><p className="lead">{company.marketPosition}</p><p>{company.business}</p></div>
-        <dl className="profile-facts">
-          <div><dt>总部</dt><dd>{company.headquarters}</dd></div><div><dt>成立年份</dt><dd>{company.foundedYear}</dd></div><div><dt>业务区域</dt><dd>{company.businessRegions.join('、')}</dd></div><div><dt>官网</dt><dd><a href={company.website} target="_blank" rel="noreferrer">访问官网 ↗</a></dd></div>
-        </dl>
+      <section id="overview" className="company-overview-section">
+        <div className="section-heading"><p className="eyebrow">COMPANY OVERVIEW</p><h3>公司概览</h3></div>
+        <div className="content-panel company-profile">
+          <div><p className="lead">{company.marketPosition}</p><p>{company.business}</p><div className="profile-tag-groups"><div><b>核心业务</b><span>{company.business.split('、').map((item) => <em className="profile-tag" key={item}>{item}</em>)}</span></div><div><b>重点区域</b><span>{company.businessRegions.map((item) => <em className="profile-tag profile-tag--region" key={item}>{item}</em>)}</span></div></div></div>
+          <dl className="profile-facts">
+            <div><dt>成立年份</dt><dd>{company.foundedYear}</dd></div>
+            <div><dt>总部</dt><dd>{company.headquarters}</dd></div>
+            <div><dt>公司类型</dt><dd>{company.companyType}</dd></div>
+            <div><dt>官方网站</dt><dd><a href={company.website} target="_blank" rel="noreferrer">访问官网 ↗</a></dd></div>
+            <div><dt>资料状态</dt><dd>{coverageLabels[company.dataCoverage]}</dd></div>
+          </dl>
+        </div>
       </section>
       <section id="projects" className="portfolio-section">
         <div className="section-heading"><p className="eyebrow">REGIONS & PROJECTS</p><h3>区域与项目</h3></div>
@@ -382,7 +389,7 @@ function CompanyDetailPage() {
       <section id="related-reports" className="content-panel information-panel">
         <p className="eyebrow">RELATED RESEARCH</p><h3>相关报告</h3>
         {reports.length ? <div className="information-list">{reports.map((item) => (
-          <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4><p>{item.summary}</p><small>{item.sourceName}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">附件未提供</span> : null}</article>
+          <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn ?? '日期未提供'}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4>{item.summary ? <p>{item.summary}</p> : null}<small>{item.publisher}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">附件未提供</span> : null}</article>
         ))}</div> : <p className="empty-state">暂无可追溯行业报告数据</p>}
       </section>
     </article>
@@ -394,35 +401,43 @@ function ReportsPage() {
   const [industry, setIndustry] = useState('');
   const [region, setRegion] = useState('');
   const [type, setType] = useState('');
-  const [source, setSource] = useState('');
+  const [family, setFamily] = useState('');
+  const [publisher, setPublisher] = useState('');
+  const [page, setPage] = useState(1);
   const query = useQuery({ queryKey: ['reports'], queryFn: ({ signal }) => getReports(signal) });
   const reports = query.data?.reports ?? [];
-  const values = (key: 'industry' | 'region' | 'informationType' | 'sourceName') => [...new Set(reports.map((report) => report[key]))].sort();
+  const values = (key: 'industry' | 'region' | 'informationType' | 'sourceFamily' | 'publisher') => [...new Set(reports.map((report) => report[key]))].sort();
   const filtered = useMemo(() => {
     const term = search.trim().toLocaleLowerCase();
     return reports.filter((report) => (
-      (!term || [report.title, report.subtitle ?? '', report.summary, ...report.keywords, ...report.relatedCompanies.map(({ displayName }) => displayName)].some((value) => value.toLocaleLowerCase().includes(term)))
+      (!term || [report.title, report.subtitle ?? '', report.summary ?? '', report.publisher, ...report.keywords, ...report.relatedCompanies.map(({ displayName }) => displayName)].some((value) => value.toLocaleLowerCase().includes(term)))
       && (!industry || report.industry === industry) && (!region || report.region === region)
-      && (!type || report.informationType === type) && (!source || report.sourceName === source)
+      && (!type || report.informationType === type) && (!family || report.sourceFamily === family)
+      && (!publisher || report.publisher === publisher)
     ));
-  }, [industry, region, reports, search, source, type]);
-  const clearFilters = () => { setSearch(''); setIndustry(''); setRegion(''); setType(''); setSource(''); };
+  }, [family, industry, publisher, region, reports, search, type]);
+  const pageSize = 50;
+  const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const currentPage = Math.min(page, pageCount);
+  const pageRows = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+  const clearFilters = () => { setSearch(''); setIndustry(''); setRegion(''); setType(''); setFamily(''); setPublisher(''); setPage(1); };
   return (
     <section>
-      <div className="page-heading"><div><p className="eyebrow">RESEARCH ARCHIVE</p><h2>行业报告库</h2><p>按标题、摘要、行业、区域、来源及关联公司检索已归档研究资料。</p></div><span className="record-count">{filtered.length} / {reports.length} 条报告</span></div>
+      <div className="page-heading"><div><p className="eyebrow">RESEARCH ARCHIVE</p><h2>行业报告库</h2><p>按标题、行业、区域、发布机构及关联公司检索已归档研究资料。</p></div><span className="record-count">{filtered.length} / {reports.length} 条报告</span></div>
       <div className="filter-panel report-filters">
-        <label><span>标题、摘要、关键词、公司</span><input aria-label="报告检索" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="输入检索词" /></label>
-        <label><span>行业</span><select value={industry} onChange={(event) => setIndustry(event.target.value)}><option value="">全部行业</option>{values('industry').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>区域</span><select value={region} onChange={(event) => setRegion(event.target.value)}><option value="">全部区域</option>{values('region').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>报告类型</span><select value={type} onChange={(event) => setType(event.target.value)}><option value="">全部类型</option>{values('informationType').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>来源</span><select value={source} onChange={(event) => setSource(event.target.value)}><option value="">全部来源</option>{values('sourceName').map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label><span>标题、摘要、关键词、公司</span><input aria-label="报告检索" value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder="输入检索词" /></label>
+        <label><span>行业</span><select value={industry} onChange={(event) => { setIndustry(event.target.value); setPage(1); }}><option value="">全部行业</option>{values('industry').map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label><span>区域</span><select value={region} onChange={(event) => { setRegion(event.target.value); setPage(1); }}><option value="">全部区域</option>{values('region').map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label><span>报告类型</span><select value={type} onChange={(event) => { setType(event.target.value); setPage(1); }}><option value="">全部类型</option>{values('informationType').map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label><span>来源类别</span><select value={family} onChange={(event) => { setFamily(event.target.value); setPage(1); }}><option value="">全部类别</option>{values('sourceFamily').map((value) => <option key={value}>{value}</option>)}</select></label>
+        <label><span>发布机构</span><select value={publisher} onChange={(event) => { setPublisher(event.target.value); setPage(1); }}><option value="">全部机构</option>{values('publisher').map((value) => <option key={value}>{value}</option>)}</select></label>
         <button type="button" onClick={clearFilters}>清除筛选</button>
       </div>
       {query.isPending ? <p className="state-message">报告数据加载中…</p> : null}
       {query.isError ? <p className="state-message state-message--error">报告数据暂时无法加载。</p> : null}
-      {query.isSuccess ? <div className="report-list">{filtered.map((report) => (
-        <article key={report.id}><time>{report.publishedOn}</time><div><div className="report-tags"><span>{report.industry}</span><span>{report.region}</span><span>{report.informationType}</span></div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{report.title}</Link></h3>{report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}<p>{report.summary}</p><footer><span>{report.sourceName}</span><span>{report.sourceFormat}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join('、') || '未关联公司'}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">附件未上传</span> : <span className="available-tag">附件已归档</span>}</footer></div></article>
-      ))}{!filtered.length ? <p className="empty-state">没有符合条件的报告</p> : null}</div> : null}
+      {query.isSuccess ? <><div className="report-list">{pageRows.map((report) => (
+        <article key={report.id}><time>{report.publishedOn ?? '日期未提供'}</time><div><div className="report-tags"><span>{report.sourceFamily}</span><span>{report.industry}</span><span>{report.region}</span><span>{report.informationType}</span></div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{report.title}</Link></h3>{report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}{report.summary ? <p>{report.summary}</p> : null}<footer><span>发布机构：{report.publisher}</span><span>{report.sourceFormat}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join('、') || '未关联公司'}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">附件未上传</span> : <span className="available-tag">附件已归档</span>}</footer></div></article>
+      ))}{!filtered.length ? <p className="empty-state">没有符合条件的报告</p> : null}</div>{pageCount > 1 ? <nav className="pagination" aria-label="报告分页"><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>上一页</button><span>第 {currentPage} / {pageCount} 页</span><button type="button" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>下一页</button></nav> : null}</> : null}
     </section>
   );
 }
@@ -439,10 +454,10 @@ function ReportDetailPage() {
       <header className="report-cover"><div><p className="eyebrow">RESEARCH ARCHIVE</p><h2>{report.title}</h2>{report.subtitle ? <p>{report.subtitle}</p> : null}</div><span>{report.sourceFormat}</span></header>
       <div className="report-detail-grid">
         <div>
-          <section className="content-panel"><p className="eyebrow">EXECUTIVE SUMMARY</p><h3>报告摘要</h3><p className="lead">{report.summary}</p></section>
+          <section className="content-panel"><p className="eyebrow">EXECUTIVE SUMMARY</p><h3>报告摘要</h3>{report.summary ? <p className="lead">{report.summary}</p> : <p className="metadata-note">源表未提供报告摘要，当前仅归档标题和可核验元数据。</p>}</section>
           <section className="content-panel unavailable-detail"><p className="eyebrow">ARCHIVE COVERAGE</p><h3>资料完整性</h3><p>当前仓库仅提供可追溯的报告摘要与归档元数据，未提供研究结论与目录，也未上传原始附件。</p>{!report.attachmentAvailable ? <span className="unavailable-tag">附件未上传</span> : <span className="available-tag">附件已归档</span>}</section>
         </div>
-        <aside className="content-panel report-meta"><h3>归档信息</h3><dl><div><dt>行业</dt><dd>{report.industry}</dd></div><div><dt>区域</dt><dd>{report.region}</dd></div><div><dt>类型</dt><dd>{report.informationType}</dd></div><div><dt>来源</dt><dd>{report.sourceName}</dd></div><div><dt>发布日期</dt><dd>{report.publishedOn}</dd></div><div><dt>语言</dt><dd>{report.language}</dd></div><div><dt>格式</dt><dd>{report.sourceFormat}</dd></div></dl><h4>关联公司</h4><div className="related-companies">{report.relatedCompanies.length ? report.relatedCompanies.map((company) => <Link key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link>) : <span>未关联公司</span>}</div><h4>关键词</h4><div className="keyword-list">{report.keywords.map((keyword) => <span key={keyword}>{keyword}</span>)}</div></aside>
+        <aside className="content-panel report-meta"><h3>归档信息</h3><dl><div><dt>来源类别</dt><dd>{report.sourceFamily}</dd></div><div><dt>行业</dt><dd>{report.industry}</dd></div><div><dt>区域</dt><dd>{report.region}</dd></div><div><dt>类型</dt><dd>{report.informationType}</dd></div><div><dt>发布机构</dt><dd>{report.publisher}</dd></div><div><dt>发布日期</dt><dd>{report.publishedOn ?? '未提供'}</dd></div><div><dt>语言</dt><dd>{report.language}</dd></div><div><dt>格式</dt><dd>{report.sourceFormat}</dd></div></dl><h4>关联公司</h4><div className="related-companies">{report.relatedCompanies.length ? report.relatedCompanies.map((company) => <Link key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link>) : <span>未关联公司</span>}</div>{report.keywords.length ? <><h4>关键词</h4><div className="keyword-list">{report.keywords.map((keyword) => <span key={keyword}>{keyword}</span>)}</div></> : null}</aside>
       </div>
     </article>
   );

@@ -5,6 +5,7 @@ import type { TokenVerifier } from './types';
 
 export interface CloudflareAccessBindings {
   CLOUDFLARE_ACCESS_AUD: string;
+  CLOUDFLARE_ACCESS_ALLOWED_EMAILS: string;
   CLOUDFLARE_ACCESS_TEAM_DOMAIN: string;
 }
 
@@ -31,6 +32,13 @@ export function createCloudflareAccessVerifier(
   if (!bindings.CLOUDFLARE_ACCESS_AUD.trim()) {
     throw new Error('Cloudflare Access audience is required.');
   }
+  const allowedEmails = new Set(
+    bindings.CLOUDFLARE_ACCESS_ALLOWED_EMAILS
+      .split(',')
+      .map((email) => z.email().parse(email.trim()).toLocaleLowerCase())
+      .filter(Boolean),
+  );
+  if (!allowedEmails.size) throw new Error('Cloudflare Access email allowlist is required.');
 
   const issuer = teamDomain.origin;
   const jwksUrl = new URL('/cdn-cgi/access/certs', issuer);
@@ -48,9 +56,11 @@ export function createCloudflareAccessVerifier(
         issuer,
         requiredClaims: ['exp', 'sub', 'email'],
       });
+      const email = z.email().parse(result.payload.email).toLocaleLowerCase();
+      if (!allowedEmails.has(email)) throw new Error('Cloudflare Access email is not permitted.');
       return {
         userId: demoUserId,
-        email: z.email().parse(result.payload.email),
+        email,
       };
     },
   };

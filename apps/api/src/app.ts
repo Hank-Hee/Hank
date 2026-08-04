@@ -19,14 +19,16 @@ import type { AppEnvironment } from './types';
 
 const createDefaultAuthServices: AuthServicesFactory = (bindings) => {
   const hasAccessBinding = Boolean(
-    bindings.CLOUDFLARE_ACCESS_AUD || bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN,
+    bindings.CLOUDFLARE_ACCESS_AUD || bindings.CLOUDFLARE_ACCESS_ALLOWED_EMAILS
+      || bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN,
   );
-  if (hasAccessBinding && !(bindings.CLOUDFLARE_ACCESS_AUD && bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN)) {
-    throw new Error('Cloudflare Access requires both the team domain and application audience.');
+  if (hasAccessBinding && !(bindings.CLOUDFLARE_ACCESS_AUD && bindings.CLOUDFLARE_ACCESS_ALLOWED_EMAILS && bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN)) {
+    throw new Error('Cloudflare Access requires the team domain, application audience, and email allowlist.');
   }
   return {
     accessVerifier: hasAccessBinding ? createCloudflareAccessVerifier({
       CLOUDFLARE_ACCESS_AUD: bindings.CLOUDFLARE_ACCESS_AUD!,
+      CLOUDFLARE_ACCESS_ALLOWED_EMAILS: bindings.CLOUDFLARE_ACCESS_ALLOWED_EMAILS!,
       CLOUDFLARE_ACCESS_TEAM_DOMAIN: bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN!,
     }) : undefined,
     loader: createPermissionLoader(resolveDatabaseBinding(bindings)),

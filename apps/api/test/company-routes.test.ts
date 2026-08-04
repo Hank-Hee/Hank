@@ -55,8 +55,9 @@ const report = ReportDetailSchema.parse({
   summary: '比较国际油气公司的披露指标。',
   industry: 'ESG与可持续发展',
   region: '全球',
-  informationType: '政策研究',
-  sourceName: 'Energy Institute',
+  informationType: 'ESG与可持续发展报告',
+  sourceFamily: '公司披露',
+  publisher: 'Energy Institute',
   publishedOn: '2026-06-30',
   language: '中文',
   sourceFormat: 'PDF',
@@ -84,7 +85,7 @@ describe('company library API', () => {
     const repository: CompanyRepository = {
       list: vi.fn(async () => [summary]),
       findBySlug: vi.fn(async () => detail),
-      listReports: vi.fn(async () => [report]),
+      listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
       findReportById: vi.fn(async () => report),
     };
     const app = appWith(repository);
@@ -100,7 +101,7 @@ describe('company library API', () => {
     const repository: CompanyRepository = {
       list: vi.fn(),
       findBySlug: vi.fn(),
-      listReports: vi.fn(async () => [report]),
+      listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
       findReportById: vi.fn(async () => report),
     };
     const app = appWith(repository);
@@ -112,11 +113,30 @@ describe('company library API', () => {
     expect(ReportDetailSchema.parse(await item.json()).detailStatus).toBe('metadata-only');
   });
 
+  it('deduplicates concurrent read-only catalog queries inside one Worker isolate', async () => {
+    const repository: CompanyRepository = {
+      list: vi.fn(async () => [summary]),
+      findBySlug: vi.fn(async () => detail),
+      listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
+      findReportById: vi.fn(async () => report),
+    };
+    const app = appWith(repository);
+    const request = (path: string) => app.request(path, { headers: { authorization: 'Bearer token' } });
+    const responses = await Promise.all([
+      request('/api/v1/companies'), request('/api/v1/companies'),
+      request('/api/v1/reports'), request('/api/v1/reports'),
+    ]);
+
+    expect(responses.every(({ status }) => status === 200)).toBe(true);
+    expect(repository.list).toHaveBeenCalledOnce();
+    expect(repository.listReports).toHaveBeenCalledOnce();
+  });
+
   it('returns a safe 404 for an unknown company', async () => {
     const repository: CompanyRepository = {
       list: vi.fn(async () => []),
       findBySlug: vi.fn(async () => null),
-      listReports: vi.fn(async () => []),
+      listReports: vi.fn(async () => ({ reports: [], syncedOn: '2026-08-04' })),
       findReportById: vi.fn(async () => null),
     };
     const response = await appWith(repository).request('/api/v1/companies/unknown', {

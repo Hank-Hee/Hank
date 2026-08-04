@@ -56,10 +56,10 @@ describe('company library contracts', () => {
         id: 'esg-disclosure-oil-gas',
         kind: 'report',
         title: '油气企业 ESG 披露与转型指标比较',
-        summary: '摘要',
-        sourceName: 'Energy Institute',
-        publishedOn: '2026-06-30',
-        sourceFormat: 'PDF',
+        summary: null,
+        publisher: 'Energy Institute',
+        publishedOn: null,
+        sourceFormat: '未提供',
         attachmentAvailable: false,
       }],
       newsStatus: 'not-provided',
@@ -73,11 +73,12 @@ describe('company library contracts', () => {
       id: 'lng-middle-east-2026',
       title: '中东 LNG 供需与项目扩张展望 2026',
       subtitle: 'Middle East LNG Supply, Demand and Project Outlook 2026',
-      summary: '梳理中东 LNG 扩建项目。',
+      summary: null,
       industry: 'LNG',
       region: '中东',
-      informationType: '行业展望',
-      sourceName: 'Rystad Energy',
+      informationType: '行业研究报告',
+      sourceFamily: '行业研究',
+      publisher: 'Rystad Energy',
       publishedOn: '2026-07-22',
       language: '中英',
       sourceFormat: 'PDF',
@@ -86,7 +87,7 @@ describe('company library contracts', () => {
       relatedCompanies: [{ slug: 'adnoc', displayName: 'ADNOC' }],
       detailStatus: 'metadata-only',
     };
-    expect(ReportListResponseSchema.parse({ reports: [report] }).reports).toHaveLength(1);
+    expect(ReportListResponseSchema.parse({ reports: [report], syncedOn: '2026-08-04' }).reports).toHaveLength(1);
     expect(ReportDetailSchema.parse(report).attachmentAvailable).toBe(false);
     expect(() => ReportDetailSchema.parse({ ...report, findings: ['未提供'] })).toThrow();
   });

@@ -5,8 +5,9 @@ import {
   type CompanySlug,
   type CompanySummary,
   ReportDetailSchema,
+  ReportListResponseSchema,
   type ReportDetail,
-  type ReportSummary,
+  type ReportListResponse,
   type RelatedInformation,
 } from '@wison/contracts';
 import { withDatabaseContext, type DatabaseBinding, type SqlClient } from '../auth/database-context';
@@ -34,9 +35,9 @@ type RelatedRow = {
   id: string;
   kind: string;
   title: string;
-  summary: string;
-  source_name: string;
-  published_on: string;
+  summary: string | null;
+  publisher: string;
+  published_on: string | null;
   source_format: string;
   attachment_available: boolean;
 };
@@ -44,12 +45,13 @@ type ReportRow = {
   id: string;
   title: string;
   subtitle: string | null;
-  summary: string;
+  summary: string | null;
   industry: string;
   region: string;
   information_type: string;
-  source_name: string;
-  published_on: string;
+  source_family: string;
+  publisher: string;
+  published_on: string | null;
   language: string;
   source_format: string;
   attachment_available: boolean;
@@ -64,7 +66,7 @@ export interface CompanyRepository {
     identity: VerifiedIdentity,
     requestId: string,
   ): Promise<CompanyDetail | null>;
-  listReports(identity: VerifiedIdentity, requestId: string): Promise<ReportSummary[]>;
+  listReports(identity: VerifiedIdentity, requestId: string): Promise<ReportListResponse>;
   findReportById(
     id: string,
     identity: VerifiedIdentity,
@@ -112,7 +114,8 @@ function toReport(row: ReportRow): ReportDetail {
     industry: row.industry,
     region: row.region,
     informationType: row.information_type,
-    sourceName: row.source_name,
+    sourceFamily: row.source_family,
+    publisher: row.publisher,
     publishedOn: row.published_on,
     language: row.language,
     sourceFormat: row.source_format,
@@ -144,7 +147,7 @@ from app_private.companies companies`;
 
 const reportSelect = `select information.id, information.title, information.subtitle,
   information.summary, information.industry, information.region, information.information_type,
-  information.source_name, information.published_on::text, information.language,
+  information.source_family, information.publisher, information.published_on::text, information.language,
   information.source_format, information.attachment_available, information.keywords,
   coalesce(
     json_agg(json_build_object('slug', companies.slug, 'displayName', companies.display_name)
@@ -187,7 +190,7 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           ),
           client.query<RelatedRow>(
             `select information.id, information.kind, information.title, information.summary,
-              information.source_name, information.published_on::text,
+              information.publisher, information.published_on::text,
               information.source_format, information.attachment_available
             from app_private.related_information information
             join app_private.company_related_information relation
@@ -204,7 +207,7 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           kind: item.kind as 'report' | 'news',
           title: item.title,
           summary: item.summary,
-          sourceName: item.source_name,
+          publisher: item.publisher,
           publishedOn: item.published_on,
           sourceFormat: item.source_format,
           attachmentAvailable: item.attachment_available,
@@ -223,13 +226,22 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
     },
     listReports(identity, requestId) {
       return withDatabaseContext(binding, identity, requestId, async (client) => {
-        const result = await client.query<ReportRow>(
-          `${reportSelect}
-           where information.kind = 'report'
-           group by information.id
-           order by information.published_on desc, information.id`,
-        );
-        return result.rows.map(toReport);
+        const [result, sync] = await Promise.all([
+          client.query<ReportRow>(
+            `${reportSelect}
+             where information.kind = 'report'
+             group by information.id
+             order by information.published_on desc nulls last, information.id`,
+          ),
+          client.query<{ synced_on: string }>(
+            `select coalesce(max(synced_on), current_date)::text as synced_on
+             from app_private.related_information where kind = 'report'`,
+          ),
+        ]);
+        return ReportListResponseSchema.parse({
+          reports: result.rows.map(toReport),
+          syncedOn: sync.rows[0]?.synced_on,
+        });
       });
     },
     findReportById(id, identity, requestId) {

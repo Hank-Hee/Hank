@@ -54,7 +54,7 @@
 
 ## 4. 报告与新闻边界
 
-`industry-research-data.js` 等文件可作为报告元数据候选来源。由于用户已确认 PDF 等附件尚未完整上传：
+统一报告目录的版本化源文件是 `data/report-sources/rystad-upstream-test.xlsx` 和 `data/report-sources/research-reports-test.xlsx`，由 `scripts/build-report-catalog.mjs` 生成 `data/report-catalog.json`。由于用户已确认 PDF 等附件尚未上传：
 
 - 不根据 `format: "PDF"` 推断附件存在。
 - 附件存在性必须通过受测试的 manifest/R2 记录确认。
@@ -62,7 +62,9 @@
 - 相关公司使用稳定 ID/别名表关联，不靠子串命中。
 - 新闻只显示仓库中实际存在且可追溯的项；无数据时不伪造内容。
 
-当前报告源包含 24 条元数据和 27 条精确公司关联，全部已进入受 RLS 保护的 PostgreSQL 表；附件均标记为未上传。
+当前目录包含 1,111 条元数据和 642 条精确公司关联，全部已进入受 RLS 保护的 PostgreSQL 表；附件均标记为未上传。来源类别仅保留“行业研究”和“公司披露”，原“来源”字段统一为“发布机构”，区域字段保留。四个报告类型及数量为：行业研究报告 741、财务报告 207、年度综合报告 102、ESG 与可持续发展报告 61。
+
+已知源数据缺口也作为质量事实保留：722 条公司披露未提供发布日期和区域，因此日期为缺失、区域显示“未标注”，不会根据标题猜测。可运行 `node scripts/build-report-catalog.mjs --check` 校验标准化结果，运行 `node scripts/sync-report-catalog.mjs` 以单事务批量同步目录和公司关联。
 
 报告附件的存储职责固定为：private R2 保存 PDF/PPTX/XLSX 原件，PostgreSQL 保存 object key、hash、MIME、大小、来源、权利/审核状态和关联。首批通过 manifest 批量导入，不要求逐个手工上传；管理端单文件上传入口在报告附件产品域中后续实现。
 

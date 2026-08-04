@@ -99,7 +99,6 @@ for (const company of inventory.companies) {
     `assets/banner-logos/${logoFiles[slug]}`,
     `banners/assets/banner-logos/${logoFiles[slug]}`,
   );
-  await copy(`maps/data/${slug}.json`, `maps/data/${slug}.json`);
   await copy(
     `data/${production}-net-production-by-region.json`,
     `data/${production}-net-production-by-region.json`,

@@ -6,6 +6,7 @@ import { demoUserId } from '../src/auth/environment-token-verifier';
 const bindings = {
   CLOUDFLARE_ACCESS_AUD: 'uat-audience',
   CLOUDFLARE_ACCESS_TEAM_DOMAIN: 'https://wison.cloudflareaccess.com',
+  CLOUDFLARE_ACCESS_ALLOWED_EMAILS: 'reader@example.com',
 };
 
 describe('Cloudflare Access verifier', () => {
@@ -38,6 +39,20 @@ describe('Cloudflare Access verifier', () => {
     const verifier = createCloudflareAccessVerifier(bindings, () => async () => publicKey);
 
     await expect(verifier.verify(token)).rejects.toThrow();
+  });
+
+  it('rejects a valid Access token whose email is outside the explicit UAT allowlist', async () => {
+    const { privateKey, publicKey } = await generateKeyPair('RS256');
+    const token = await new SignJWT({ email: 'other@example.com' })
+      .setProtectedHeader({ alg: 'RS256', kid: 'test' })
+      .setIssuer(bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN)
+      .setAudience(bindings.CLOUDFLARE_ACCESS_AUD)
+      .setSubject('access-user-id')
+      .setExpirationTime('5m')
+      .sign(privateKey);
+    const verifier = createCloudflareAccessVerifier(bindings, () => async () => publicKey);
+
+    await expect(verifier.verify(token)).rejects.toThrow('not permitted');
   });
 
   it('does not share injected test resolvers across verifier instances', async () => {

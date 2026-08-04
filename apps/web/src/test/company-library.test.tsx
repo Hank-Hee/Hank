@@ -27,7 +27,7 @@ const detail = {
   },
   relatedInformation: [{
     id: 'esg-disclosure-oil-gas', kind: 'report', title: '油气企业 ESG 披露与转型指标比较',
-    summary: '比较国际油气公司的披露指标。', sourceName: 'Energy Institute',
+    summary: null, publisher: 'Energy Institute',
     publishedOn: '2026-06-30', sourceFormat: 'PDF', attachmentAvailable: false,
   }],
   newsStatus: 'not-provided',
@@ -91,6 +91,9 @@ describe('company library UI', () => {
     }
     expect(screen.getByRole('navigation', { name: '公司页面目录' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: '经营与财务表现' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: '公司概览' }).closest('section')).toHaveClass('company-overview-section');
+    expect(screen.getByText('综合油气')).toHaveClass('profile-tag');
+    expect(screen.getByText('成立年份').closest('dl')).toHaveClass('profile-facts');
     expect(screen.getByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();
     expect(screen.getByText('暂无可追溯新闻数据')).toBeInTheDocument();
     expect(screen.getByText('附件未提供')).toBeInTheDocument();

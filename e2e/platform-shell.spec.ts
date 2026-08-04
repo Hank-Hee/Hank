@@ -41,7 +41,7 @@ test('opens the full company directory and renders the protected Shell portfolio
   await expect(page.locator('.company-table tbody tr')).toHaveCount(126);
   await page.locator('a[href="/companies/shell"]').click();
 
-  await expect(page.getByRole('heading', { name: 'Shell' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Shell', exact: true })).toBeVisible();
   await expect(page.locator('iframe')).toHaveCount(4);
   await expect(page.frameLocator('iframe[title="Shell 全球业务／项目分布"]').locator('#total-projects')).toHaveText('552');
   await expect(page.getByRole('heading', { name: '经营与财务表现' })).toBeVisible();
@@ -51,16 +51,18 @@ test('opens the full company directory and renders the protected Shell portfolio
 
 test('filters report metadata and opens an honest metadata-only detail', async ({ page }) => {
   await enterDemo(page, '/reports');
-  await expect(page.locator('.report-list > article')).toHaveCount(24);
-  await page.getByLabel('报告检索').fill('中东 LNG');
-  await page.getByRole('link', { name: '中东 LNG 供需与项目扩张展望 2026' }).click();
+  await expect(page.locator('.report-list > article')).toHaveCount(50);
+  await expect(page.getByText('第 1 / 23 页')).toBeVisible();
+  await page.getByLabel('报告检索').fill('IEA 2026年全球能源投资报告');
+  await page.getByRole('link', { name: 'IEA 2026年全球能源投资报告' }).click();
   await expect(page.getByText('附件未上传')).toBeVisible();
   await expect(page.getByText(/未提供研究结论与目录/)).toBeVisible();
+  await expect(page.getByText('发布机构')).toBeVisible();
 });
 
 test('keeps profile-only companies usable without inventing missing modules', async ({ page }) => {
   await enterDemo(page, '/companies/black-and-veatch');
-  await expect(page.getByRole('heading', { name: 'Black & Veatch' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Black & Veatch', exact: true })).toBeVisible();
   await expect(page.locator('iframe')).toHaveCount(0);
   await expect(page.getByText('仓库尚未提供该公司的项目分布与项目类型数据。')).toBeVisible();
   await expect(page.getByText('仓库尚未提供该公司的产量数据。')).toBeVisible();

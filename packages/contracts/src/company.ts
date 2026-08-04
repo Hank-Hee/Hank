@@ -45,9 +45,9 @@ export const RelatedInformationSchema = z.strictObject({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   kind: z.enum(['report', 'news']),
   title: z.string().min(1).max(500),
-  summary: z.string().min(1).max(2_000),
-  sourceName: z.string().min(1).max(200),
-  publishedOn: z.iso.date(),
+  summary: z.string().min(1).max(2_000).nullable(),
+  publisher: z.string().min(1).max(200),
+  publishedOn: z.iso.date().nullable(),
   sourceFormat: z.string().min(1).max(20),
   attachmentAvailable: z.boolean(),
 });
@@ -58,16 +58,25 @@ export const RelatedCompanySchema = z.strictObject({
   displayName: z.string().min(1).max(200),
 });
 
+export const ReportInformationTypeSchema = z.enum([
+  '年度综合报告',
+  '财务报告',
+  'ESG与可持续发展报告',
+  '行业研究报告',
+]);
+export const ReportSourceFamilySchema = z.enum(['公司披露', '行业研究']);
+
 export const ReportSummarySchema = z.strictObject({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(160),
   title: z.string().min(1).max(500),
   subtitle: z.string().min(1).max(500).nullable(),
-  summary: z.string().min(1).max(2_000),
+  summary: z.string().min(1).max(2_000).nullable(),
   industry: z.string().min(1).max(100),
   region: z.string().min(1).max(100),
-  informationType: z.string().min(1).max(100),
-  sourceName: z.string().min(1).max(200),
-  publishedOn: z.iso.date(),
+  informationType: ReportInformationTypeSchema,
+  sourceFamily: ReportSourceFamilySchema,
+  publisher: z.string().min(1).max(200),
+  publishedOn: z.iso.date().nullable(),
   language: z.string().min(1).max(30),
   sourceFormat: z.string().min(1).max(20),
   attachmentAvailable: z.boolean(),
@@ -78,7 +87,8 @@ export const ReportSummarySchema = z.strictObject({
 export type ReportSummary = z.infer<typeof ReportSummarySchema>;
 
 export const ReportListResponseSchema = z.strictObject({
-  reports: z.array(ReportSummarySchema).max(1_000),
+  reports: z.array(ReportSummarySchema).max(2_000),
+  syncedOn: z.iso.date(),
 });
 export type ReportListResponse = z.infer<typeof ReportListResponseSchema>;
 

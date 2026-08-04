@@ -11,9 +11,9 @@ describe('company repository integration', () => {
     const identity = { userId: demoUserId };
     const companies = await repository.list(identity, 'req_company_list_12345678');
     const shell = await repository.findBySlug('shell', identity, 'req_company_detail_12345678');
-    const reports = await repository.listReports(identity, 'req_report_list_12345678');
+    const catalog = await repository.listReports(identity, 'req_report_list_12345678');
     const report = await repository.findReportById(
-      'lng-middle-east-2026', identity, 'req_report_detail_12345678',
+      'rystad-6a4de0f8c3776c4645229bee', identity, 'req_report_detail_12345678',
     );
 
     expect(companies).toHaveLength(126);
@@ -26,11 +26,14 @@ describe('company repository integration', () => {
       projectCount: 552,
       newsStatus: 'not-provided',
     });
-    expect(shell?.relatedInformation).toHaveLength(2);
+    expect(shell?.relatedInformation).toHaveLength(21);
     expect(shell?.relatedInformation.every(({ attachmentAvailable }) => !attachmentAvailable)).toBe(true);
-    expect(reports).toHaveLength(24);
+    expect(catalog.reports).toHaveLength(1_111);
+    expect(catalog.syncedOn).toBe('2026-08-04');
     expect(report).toMatchObject({
-      id: 'lng-middle-east-2026',
+      id: 'rystad-6a4de0f8c3776c4645229bee',
+      publisher: 'Rystad Energy',
+      sourceFamily: '行业研究',
       attachmentAvailable: false,
       detailStatus: 'metadata-only',
     });

@@ -2,7 +2,6 @@ import { createHash } from 'node:crypto';
 import { readFile, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import vm from 'node:vm';
 
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outputPath = resolve(repositoryRoot, 'supabase/seed.sql');
@@ -20,11 +19,8 @@ const profiles = JSON.parse(
 const operatorManifest = JSON.parse(
   await readFile(resolve(repositoryRoot, 'maps/operators.json'), 'utf8'),
 );
-const reportContext = { window: {} };
-vm.runInNewContext(
-  await readFile(resolve(repositoryRoot, 'industry-research-data.js'), 'utf8'),
-  reportContext,
-  { timeout: 1_000 },
+const reportCatalog = JSON.parse(
+  await readFile(resolve(repositoryRoot, 'data/report-catalog.json'), 'utf8'),
 );
 
 const normalizeName = (value) => String(value).trim().toLocaleLowerCase('en-US');
@@ -95,11 +91,11 @@ if (new Set(companies.map(({ slug }) => slug)).size !== companies.length) {
 const companyByName = new Map(
   companies.map((company) => [normalizeName(company.displayName), company.slug]),
 );
-const relatedReports = reportContext.window.INDUSTRY_REPORTS
+const relatedReports = reportCatalog.reports
   .map((report) => ({
     report,
     companySlugs: [...new Set(
-      (report.companies ?? [])
+      report.relatedCompanyNames
         .map((name) => companyByName.get(normalizeName(name)))
         .filter(Boolean),
     )],
@@ -146,23 +142,34 @@ for (const company of companies) {
   }
 }
 
-lines.push('');
+lines.push(
+  '',
+  `delete from app_private.company_related_information where information_id in (` +
+    `select id from app_private.related_information where kind = 'report');`,
+  `delete from app_private.related_information where kind = 'report';`,
+  '',
+);
 for (const { report, companySlugs } of relatedReports) {
   lines.push(
     `insert into app_private.related_information (` +
-      `id, kind, title, subtitle, summary, industry, region, information_type, source_name, ` +
-      `published_on, language, source_format, attachment_available, keywords` +
+      `id, kind, title, subtitle, summary, industry, region, information_type, source_family, ` +
+      `publisher, published_on, language, source_format, attachment_available, keywords, ` +
+      `source_record_id, synced_on` +
     `) values (` +
       `${quote(report.id)}, 'report', ${quote(report.title)}, ${nullable(report.subtitle)}, ` +
-      `${quote(report.summary)}, ${quote(report.industry)}, ${quote(report.region)}, ` +
-      `${quote(report.type)}, ${quote(report.source)}, ${quote(report.date)}::date, ` +
-      `${quote(report.language)}, ${quote(report.format)}, false, ${textArray(report.keywords ?? [])}` +
+      `${nullable(report.summary)}, ${quote(report.industry)}, ${quote(report.region)}, ` +
+      `${quote(report.informationType)}, ${quote(report.sourceFamily)}, ${quote(report.publisher)}, ` +
+      `${report.publishedOn ? `${quote(report.publishedOn)}::date` : 'null'}, ` +
+      `${quote(report.language)}, ${quote(report.sourceFormat)}, false, ${textArray(report.keywords)}, ` +
+      `${quote(report.sourceRecordId)}, ${quote(reportCatalog.syncedOn)}::date` +
     `) on conflict (id) do update set ` +
       `title = excluded.title, subtitle = excluded.subtitle, summary = excluded.summary, ` +
       `industry = excluded.industry, region = excluded.region, ` +
-      `information_type = excluded.information_type, source_name = excluded.source_name, ` +
+      `information_type = excluded.information_type, source_family = excluded.source_family, ` +
+      `publisher = excluded.publisher, source_record_id = excluded.source_record_id, ` +
       `published_on = excluded.published_on, language = excluded.language, ` +
-      `source_format = excluded.source_format, attachment_available = false, keywords = excluded.keywords;`,
+      `source_format = excluded.source_format, attachment_available = false, ` +
+      `keywords = excluded.keywords, synced_on = excluded.synced_on;`,
   );
   for (const slug of companySlugs) {
     lines.push(

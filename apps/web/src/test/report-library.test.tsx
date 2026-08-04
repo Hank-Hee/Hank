@@ -12,8 +12,9 @@ const report = {
   summary: '梳理卡塔尔、阿联酋和阿曼 LNG 扩建项目。',
   industry: 'LNG',
   region: '中东',
-  informationType: '行业展望',
-  sourceName: 'Rystad Energy',
+  informationType: '行业研究报告',
+  sourceFamily: '行业研究',
+  publisher: 'Rystad Energy',
   publishedOn: '2026-07-22',
   language: '中英',
   sourceFormat: 'PDF',
@@ -37,7 +38,7 @@ beforeEach(() => {
   sessionStorage.setItem('company-demo-token', 'demo.local');
   vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
     const url = String(input);
-    if (url === '/api/v1/reports') return new Response(JSON.stringify({ reports: [report] }));
+    if (url === '/api/v1/reports') return new Response(JSON.stringify({ reports: [report], syncedOn: '2026-08-04' }));
     if (url === `/api/v1/reports/${report.id}`) return new Response(JSON.stringify(report));
     if (url === '/api/v1/companies') return new Response(JSON.stringify({ companies: [] }));
     return new Response(JSON.stringify({ status: 'ok', service: 'api', version: '0.1.0', timestamp: '2026-08-04T00:00:00.000Z' }));
@@ -47,6 +48,16 @@ beforeEach(() => {
 afterEach(cleanup);
 
 describe('report archive UI', () => {
+  it('shows the approved homepage archive statistics and latest successful sync date', async () => {
+    renderRoute('/');
+    expect(await screen.findByText('已归档公司')).toBeInTheDocument();
+    expect(screen.getByText('行业报告与资料')).toBeInTheDocument();
+    expect(screen.getByText('最近一次更新')).toBeInTheDocument();
+    expect(await screen.findByText('2026-08-04')).toBeInTheDocument();
+    expect(screen.queryByText('完整 Portfolio')).not.toBeInTheDocument();
+    expect(screen.queryByText('报告元数据')).not.toBeInTheDocument();
+  });
+
   it('finds traceable report metadata from the global search entry', async () => {
     renderRoute('/');
     const search = await screen.findByRole('searchbox', { name: '全站搜索' });
@@ -72,5 +83,7 @@ describe('report archive UI', () => {
     expect(screen.getByRole('link', { name: 'ADNOC' })).toHaveAttribute('href', '/companies/adnoc');
     expect(screen.getByText('附件未上传')).toBeInTheDocument();
     expect(screen.getByText(/未提供研究结论与目录/)).toBeInTheDocument();
+    expect(screen.getByText('发布机构')).toBeInTheDocument();
+    expect(screen.queryByText('来源')).not.toBeInTheDocument();
   });
 });

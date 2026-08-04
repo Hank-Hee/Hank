@@ -1,5 +1,5 @@
 begin;
-select plan(18);
+select plan(22);
 
 select has_table('app_private', 'companies', 'companies table exists');
 select has_table('app_private', 'company_assets', 'company_assets table exists');
@@ -30,8 +30,12 @@ select ok(
   ),
   'all source assets have paths, hashes, and sizes'
 );
-select is((select count(*)::integer from app_private.related_information where kind = 'report'), 24, 'all report metadata rows');
-select is((select count(*)::integer from app_private.company_related_information), 27, 'traced company-report relationships');
+select is((select count(*)::integer from app_private.related_information where kind = 'report'), 1111, 'all normalized report metadata rows');
+select is((select count(*)::integer from app_private.company_related_information), 642, 'traced company-report relationships');
+select is((select count(distinct information_type)::integer from app_private.related_information where kind = 'report'), 4, 'report types use the four-value vocabulary');
+select is((select count(distinct source_family)::integer from app_private.related_information where kind = 'report'), 2, 'source family distinguishes corporate disclosures and industry research');
+select is((select count(*)::integer from app_private.related_information where published_on is null), 722, 'missing publication dates remain explicit nulls');
+select is((select max(synced_on)::text from app_private.related_information where kind = 'report'), '2026-08-04', 'report sync date is traceable');
 select is((select count(*)::integer from app_private.related_information where kind = 'news'), 0, 'news is not fabricated');
 select ok(
   not exists (select 1 from app_private.related_information where attachment_available),
@@ -76,7 +80,7 @@ insert into company_runtime_observations (key, value) values
   ('active_reports', (select count(*)::integer from app_private.related_information));
 reset role;
 select is((select value from company_runtime_observations where key = 'active_companies'), 126, 'active user can read companies');
-select is((select value from company_runtime_observations where key = 'active_reports'), 24, 'active user can read reports');
+select is((select value from company_runtime_observations where key = 'active_reports'), 1111, 'active user can read reports');
 
 select * from finish();
 rollback;

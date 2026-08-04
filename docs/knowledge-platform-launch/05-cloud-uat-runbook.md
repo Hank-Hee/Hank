@@ -6,6 +6,8 @@
 
 本地开发不显示邮箱登录入口。只有 `DEMO_AUTH_ENABLED=true` 的本地 Worker 会自动映射到固定只读身份；UAT 和后续环境不会启用该变量。
 
+当前 Access 策略继续保持 Restricted。应用层同时只接受 `849943802@qq.com`，避免 Access 策略误配后扩大数据读取范围。桌面的“惠生清能知识平台.command”使用独立持久 Chrome profile，可复用 Access cookie；仍需在 Zero Trust 应用中把 Application session duration 调为 30 天，才能把邮箱验证码频率降到约每 30 天一次。
+
 ## 资源和密钥边界
 
 | 资源 | UAT 名称/规则 | 存放内容 |
@@ -57,11 +59,15 @@ npm run uat:load -- --base-url https://uat.example.com --concurrency 100 --reque
 ## 2026-08-04 执行记录
 
 - Cloudflare 已创建 `wison-knowledge-files-uat` 和 `wison-knowledge-quarantine-uat`，两者均未开启 `r2.dev`，也未绑定公开自定义域名。
-- Supabase 已创建新加坡区域 `wison-knowledge-platform-uat`，已正式应用 4 个 migration、角色文件和幂等 seed；远端核验为 126 家公司、8 家重点公司、234 条公司资产和 24 条关联信息。
+- Supabase 已创建新加坡区域 `wison-knowledge-platform-uat`，已正式应用 5 个 migration、角色文件和幂等 seed；远端核验为 126 家公司、8 家重点公司、234 条公司资产、1,111 条报告元数据和 642 条公司关联。
 - Cloudflare 已创建 `wison-knowledge-postgres-uat` Hyperdrive，UAT Worker 配置已绑定真实 ID，并关闭 SQL 响应缓存，避免权限上下文或数据更新被缓存混用。
 - UAT 已部署到 `https://wison-knowledge-platform.wison.workers.dev`；Cloudflare Access 已启用，Worker 同时校验对应 AUD、issuer 和签名。旧的 `wison-knowledge-platform-uat` Worker 已删除，源代码仍可从 Git 恢复。
-- GitHub 公司源重新生成后仍为 126 家公司、8 家完整看板和 24 条报告元数据，云端 seed 无差异。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
-- 本地直连 PostgreSQL 的只读基线：20 并发、200 请求为 0% 错误且 p95 407.3 ms；50 并发 p95 976.4 ms、100 并发 p95 1866.7 ms，均超过 500 ms 门禁。应用没有返回错误，瓶颈表现为每请求直连本机数据库的连接开销。
-- 50/100 并发结果不能替代云端验收，也不能视为通过。UAT 部署完成后必须通过 Hyperdrive 重跑 20/50/100 三档；若仍超标，再以云端追踪结果决定连接复用、查询或缓存优化。
+- GitHub 公司源重新生成后仍为 126 家公司和 8 家完整看板；两张 Excel 源表已归一为 1,111 条目录（741 条行业研究、370 条公司披露）并同步云端。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
+- API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重和预序列化；响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。在 2.7 GHz 四核 Intel Core i7 / 8 GB 本机上，20 并发 200 请求 p95 293.4 ms、50 并发 500 请求 p95 423.7 ms，均为 0% 错误并通过门禁。100 并发 1,000 请求仍为 0% 错误但 p95 989.3 ms，受单机持续吞吐限制，不能视为云端通过。
+- 必须通过 Access Service Token 在 Hyperdrive/Worker 环境重跑 20/50/100 三档；不得以匿名 302 或降低门槛替代业务 API 验收。
 - 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
-- 真实邮箱登录、授权后页面任务和 20/50/100 云端负载仍待验收；负载测试需要 Access Service Token，不能用匿名请求绕过 Access。
+- 真实邮箱授权后的页面任务、30 天 Access 会话和 20/50/100 云端负载仍待验收；负载测试需要 Access Service Token，不能用匿名请求绕过 Access。
+
+## 后续正式账号
+
+当前不叠加第二套站内登录，避免用户先过 Access、再过 Supabase Auth。未来转公开账号阶段，先用 Supabase Auth 邮箱 Magic Link/OTP 建立用户身份，Worker 校验 JWT 并映射 `profiles`/角色权限；完成越权、会话吊销、审计和账号恢复测试后，再撤掉面向终端用户的 Access 门禁。基础设施管理入口仍可继续由 Access 保护。
