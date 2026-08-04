@@ -28,6 +28,7 @@ export async function runReadOnlyLoad({
   concurrency = 20,
   requests = 200,
   paths = defaultPaths,
+  accessToken,
   accessClientId,
   accessClientSecret,
   fetchImpl = fetch,
@@ -47,10 +48,13 @@ export async function runReadOnlyLoad({
   if (Boolean(accessClientId) !== Boolean(accessClientSecret)) {
     throw new Error('Cloudflare Access client ID and secret must be supplied together.');
   }
+  if (accessToken && accessClientId) {
+    throw new Error('Use either a Cloudflare Access user token or a service token, not both.');
+  }
 
   const headers = {
     accept: 'application/json',
-    ...(accessClientId ? {
+    ...(accessToken ? { 'cf-access-token': accessToken } : accessClientId ? {
       'cf-access-client-id': accessClientId,
       'cf-access-client-secret': accessClientSecret,
     } : {}),
@@ -118,6 +122,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       baseUrl: arguments_.get('--base-url'),
       concurrency: Number(arguments_.get('--concurrency') ?? 20),
       requests: Number(arguments_.get('--requests') ?? 200),
+      accessToken: process.env.CF_ACCESS_TOKEN,
       accessClientId: process.env.CF_ACCESS_CLIENT_ID,
       accessClientSecret: process.env.CF_ACCESS_CLIENT_SECRET,
     });

@@ -69,5 +69,9 @@ test('UAT declares isolated private R2 buckets without committing cloud credenti
     wrangler.env.uat.vars.CLOUDFLARE_ACCESS_TEAM_DOMAIN,
     'https://849943802.cloudflareaccess.com',
   );
+  assert.equal(
+    wrangler.env.uat.vars.CLOUDFLARE_ACCESS_ALLOWED_EMAILS,
+    '849943802@qq.com',
+  );
   assert.equal(JSON.stringify(wrangler).includes('REPLACE_ME'), false);
 });

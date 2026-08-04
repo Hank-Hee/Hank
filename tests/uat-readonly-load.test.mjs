@@ -7,8 +7,10 @@ test('runs 20 concurrent read-only requests and reports latency/error gates', as
   let active = 0;
   let maximumActive = 0;
   const methods = [];
+  const accessTokens = [];
   const server = createServer(async (request, response) => {
     methods.push(request.method);
+    accessTokens.push(request.headers['cf-access-token']);
     active += 1;
     maximumActive = Math.max(maximumActive, active);
     await new Promise((resolve) => setTimeout(resolve, 15));
@@ -25,6 +27,7 @@ test('runs 20 concurrent read-only requests and reports latency/error gates', as
   const result = await runReadOnlyLoad({
     baseUrl: `http://127.0.0.1:${address.port}`,
     concurrency: 20,
+    accessToken: 'test-user-access-token',
     maxP95Ms: 2_000,
     requests: 40,
     paths: ['/api/v1/companies'],
@@ -35,6 +38,7 @@ test('runs 20 concurrent read-only requests and reports latency/error gates', as
   assert.equal(result.errors, 0);
   assert.ok(maximumActive >= 15, `expected real concurrency, saw ${maximumActive}`);
   assert.deepEqual([...new Set(methods)], ['GET']);
+  assert.deepEqual([...new Set(accessTokens)], ['test-user-access-token']);
 });
 
 test('refuses unencrypted non-loopback targets', async () => {
