@@ -5,6 +5,7 @@ work/previews/
 outputs/
 node_modules/
 dist/
+dist-uat/
 apps/web/public/company-assets/
 coverage/
 .env
@@ -18,3 +19,4 @@ playwright-report/
 test-results/
 .wrangler/
 .supabase/
+supabase/.temp/

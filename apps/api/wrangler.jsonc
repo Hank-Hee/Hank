@@ -24,6 +24,9 @@
       "vars": {
         "APP_VERSION": "0.1.0-uat"
       },
+      "hyperdrive": [
+        { "binding": "HYPERDRIVE", "id": "146f2845cb004780b6355543b97b47ec" }
+      ],
       "r2_buckets": [
         { "binding": "FILES", "bucket_name": "wison-knowledge-files-uat" },
         { "binding": "QUARANTINE_FILES", "bucket_name": "wison-knowledge-quarantine-uat" }

@@ -53,6 +53,9 @@ test('R2 development bindings expose no public route configuration', async () =>
 test('UAT declares isolated private R2 buckets without committing cloud credentials', async () => {
   const wrangler = await readJson('../apps/api/wrangler.jsonc');
   assert.equal(wrangler.env.uat.name, 'wison-knowledge-platform-uat');
+  assert.deepEqual(wrangler.env.uat.hyperdrive, [
+    { binding: 'HYPERDRIVE', id: '146f2845cb004780b6355543b97b47ec' },
+  ]);
   assert.deepEqual(wrangler.env.uat.r2_buckets, [
     { binding: 'FILES', bucket_name: 'wison-knowledge-files-uat' },
     { binding: 'QUARANTINE_FILES', bucket_name: 'wison-knowledge-quarantine-uat' },
