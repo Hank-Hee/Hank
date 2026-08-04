@@ -1,4 +1,4 @@
-const VERSION = "20260722-combined-v1";
+const VERSION = "20260804-dual-axis-v1";
 const COMPANY = document.body.dataset.company;
 const DATA_URL = `../../data/${COMPANY}-financials.json`;
 
@@ -19,7 +19,7 @@ const escapeHtml = (value) =>
   String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
 
 const loadData = async () => {
-  const response = await fetch(`${DATA_URL}?v=${VERSION}`, { cache: "no-cache" });
+  const response = await fetch(`${DATA_URL}?v=${VERSION}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load ${DATA_URL}: ${response.status}`);
   return response.json();
 };
@@ -185,27 +185,36 @@ const renderComboChart = (payload, mode, card) => {
   const width = Math.max(260, Math.round(chart.clientWidth || 420));
   const height = Math.max(210, Math.round(chart.clientHeight || 230));
   const compact = width < 460;
-  const margin = compact ? { top: 22, right: 8, bottom: 30, left: 48 } : { top: 22, right: 12, bottom: 30, left: 58 };
+  const hasSecondaryAxis = mode === "profitability";
+  const margin = hasSecondaryAxis
+    ? (compact ? { top: 22, right: 46, bottom: 30, left: 48 } : { top: 22, right: 58, bottom: 30, left: 58 })
+    : (compact ? { top: 22, right: 8, bottom: 30, left: 48 } : { top: 22, right: 12, bottom: 30, left: 58 });
   const plotW = width - margin.left - margin.right;
   const plotH = height - margin.top - margin.bottom;
-  const values = rows.flatMap((row) => [row.barValue, row.lineValue]).filter((value) => value !== null && value !== undefined);
-  const { yMin, yMax, ticks } = niceScale(values);
+  const barValues = rows.map((row) => row.barValue).filter((value) => value !== null && value !== undefined);
+  const lineValues = rows.map((row) => row.lineValue).filter((value) => value !== null && value !== undefined);
+  const combinedScale = niceScale([...barValues, ...lineValues]);
+  const barScale = hasSecondaryAxis ? niceScale(barValues) : combinedScale;
+  const lineScale = hasSecondaryAxis ? niceScale(lineValues) : combinedScale;
+  const { yMin, yMax, ticks } = barScale;
   const band = plotW / Math.max(rows.length, 1);
   const barWidth = Math.max(8, Math.min(compact ? 17 : 23, band * 0.54));
   const x = (index) => margin.left + band * index + band / 2;
-  const y = (value) => margin.top + plotH - (plotH * (value - yMin)) / (yMax - yMin);
+  const scaleY = (value, scale) => margin.top + plotH - (plotH * (value - scale.yMin)) / (scale.yMax - scale.yMin);
+  const barY = (value) => scaleY(value, barScale);
+  const lineY = (value) => scaleY(value, lineScale);
   const firstForecast = rows.findIndex((row) => row.isForecast);
   const actualLineRows = firstForecast > -1 ? rows.slice(0, firstForecast) : rows;
   const forecastLineRows = firstForecast > -1 ? rows.slice(Math.max(0, firstForecast - 1)) : [];
-  const zeroY = y(0);
+  const zeroY = barY(0);
 
   const grid = ticks.map((tick) => {
-    const ty = y(tick);
+    const ty = barY(tick);
     return `<g><line class="grid-line" x1="${margin.left}" x2="${width - margin.right}" y1="${ty}" y2="${ty}"></line><text x="${margin.left - 8}" y="${ty + 4}" text-anchor="end">${formatAxis(tick)}</text></g>`;
   }).join("");
 
   const bars = rows.filter((row) => row.barValue !== null && row.barValue !== undefined).map((row) => {
-    const valueY = y(row.barValue);
+    const valueY = barY(row.barValue);
     const barH = Math.abs(zeroY - valueY);
     const forecastAttr = row.isForecast ? ' data-forecast="true"' : "";
     return `<rect class="bar-rect tooltip-target${row.isForecast ? " forecast" : ""}" data-chart-series="bar"${forecastAttr} data-index="${row.index}" data-series="bar" tabindex="0" x="${x(row.index) - barWidth / 2}" y="${Math.min(zeroY, valueY)}" width="${barWidth}" height="${barH}" rx="2" ry="2"><title>${escapeHtml(titleFor(row, config))}</title></rect>`;
@@ -216,12 +225,23 @@ const renderComboChart = (payload, mode, card) => {
     return `<text x="${x(row.index)}" y="${height - 8}" text-anchor="middle">${showLabel ? row.year : ""}</text>`;
   }).join("");
 
-  const lineActual = pathFor(actualLineRows, x, y, "lineValue");
-  const lineForecast = pathFor(forecastLineRows, x, y, "lineValue");
+  const lineActual = pathFor(actualLineRows, x, lineY, "lineValue");
+  const lineForecast = pathFor(forecastLineRows, x, lineY, "lineValue");
   const points = rows.filter((row) => row.lineValue !== null && row.lineValue !== undefined).map((row) => {
     const forecastAttr = row.isForecast ? ' data-forecast="true"' : "";
-    return `<circle class="line-point${row.isForecast ? " forecast" : ""}" data-chart-series="line"${forecastAttr} data-index="${row.index}" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 3 : 3.6}"><title>${escapeHtml(titleFor(row, config))}</title></circle><circle class="line-hit-area tooltip-target" data-chart-series="line"${forecastAttr} data-index="${row.index}" data-series="line" tabindex="0" cx="${x(row.index)}" cy="${y(row.lineValue)}" r="${compact ? 10 : 11}"><title>${escapeHtml(titleFor(row, config))}</title></circle>`;
+    return `<circle class="line-point${row.isForecast ? " forecast" : ""}" data-chart-series="line"${forecastAttr} data-index="${row.index}" cx="${x(row.index)}" cy="${lineY(row.lineValue)}" r="${compact ? 3 : 3.6}"><title>${escapeHtml(titleFor(row, config))}</title></circle><circle class="line-hit-area tooltip-target" data-chart-series="line"${forecastAttr} data-index="${row.index}" data-series="line" tabindex="0" cx="${x(row.index)}" cy="${lineY(row.lineValue)}" r="${compact ? 10 : 11}"><title>${escapeHtml(titleFor(row, config))}</title></circle>`;
   }).join("");
+
+  const secondaryAxis = hasSecondaryAxis ? (() => {
+    const axisX = width - margin.right;
+    const tickLength = compact ? 3 : 4;
+    const labelOffset = compact ? 6 : 8;
+    const rightTicks = lineScale.ticks.map((tick) => {
+      const tickY = lineY(tick);
+      return `<g><line class="right-axis-tick" x1="${axisX}" x2="${axisX + tickLength}" y1="${tickY}" y2="${tickY}"></line><text class="right-axis-text" x="${axisX + tickLength + labelOffset}" y="${tickY + 4}" text-anchor="start">${formatAxis(tick)}</text></g>`;
+    }).join("");
+    return `<g class="right-axis" aria-label="Net Income, USD million"><text class="right-axis-caption" x="${axisX}" y="${margin.top - 8}" text-anchor="end">Net Income (USD million)</text><line class="right-axis-line" x1="${axisX}" x2="${axisX}" y1="${margin.top}" y2="${height - margin.bottom}"></line>${rightTicks}</g>`;
+  })() : "";
 
   const forecastDivider = firstForecast > -1 ? (() => {
     const dividerX = x(firstForecast) - band / 2;
@@ -232,6 +252,7 @@ const renderComboChart = (payload, mode, card) => {
     <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${config.title}">
       <g>${grid}</g>
       <line class="axis-line" x1="${margin.left}" x2="${width - margin.right}" y1="${zeroY}" y2="${zeroY}"></line>
+      ${secondaryAxis}
       <g>${bars}</g>
       ${lineActual ? `<path class="line-path" data-chart-series="line" d="${lineActual}"></path>` : ""}
       ${lineForecast ? `<path class="line-path forecast" data-chart-series="line" data-forecast="true" d="${lineForecast}"></path>` : ""}
