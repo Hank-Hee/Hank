@@ -185,6 +185,10 @@ body {
 
 .grid-line { stroke: var(--gridline); stroke-width: 1; }
 .axis-line { stroke: var(--zero-line); stroke-width: 1.2; }
+.right-axis-line,
+.right-axis-tick { stroke: var(--zero-line); stroke-width: 1; }
+.chart .right-axis-text { fill: var(--text-secondary); font-size: 10px; }
+.chart .right-axis-caption { fill: var(--accent-teal); font-size: 10px; font-weight: 700; }
 
 .bar-rect {
   fill: var(--bar-actual);
