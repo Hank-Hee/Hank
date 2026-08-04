@@ -6,7 +6,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createAppRouter } from '../app-router';
 
 beforeEach(() => {
-  sessionStorage.setItem('company-demo-token', 'demo.local');
+  sessionStorage.clear();
   vi.stubGlobal(
     'fetch',
     vi.fn().mockResolvedValue(
@@ -35,6 +35,8 @@ describe('application shell', () => {
     );
 
     expect(await screen.findByRole('heading', { name: '惠生清能市场知识平台' })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: '邮箱登录' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: '退出' })).not.toBeInTheDocument();
     const navigation = screen.getByRole('navigation', { name: '主导航' });
     expect(within(navigation).getAllByRole('link')).toHaveLength(3);
     expect(within(navigation).getByRole('link', { name: '首页' })).toHaveAttribute('href', '/');

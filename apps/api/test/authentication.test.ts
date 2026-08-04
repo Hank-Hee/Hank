@@ -18,6 +18,7 @@ const user = UserContextSchema.parse({
 });
 
 function appWith(options: {
+  accessVerifier?: TokenVerifier;
   factoryError?: Error;
   loaderError?: Error;
   permissions?: Permission[];
@@ -42,11 +43,32 @@ function appWith(options: {
   };
   return createApp(() => {
     if (options.factoryError) throw options.factoryError;
-    return { loader, verifier };
+    return { accessVerifier: options.accessVerifier, loader, verifier };
   });
 }
 
 describe('GET /api/v1/me', () => {
+  it('uses the fixed read-only identity without a visible login only in local demo mode', async () => {
+    const response = await appWith().request('/api/v1/me', undefined, {
+      DEMO_AUTH_ENABLED: 'true',
+    });
+    expect(response.status).toBe(200);
+  });
+
+  it('prefers a verified Cloudflare Access assertion for UAT requests', async () => {
+    const accessVerifier: TokenVerifier = {
+      verify: vi.fn(async () => identity),
+    };
+    const response = await appWith({ accessVerifier }).request('/api/v1/me', {
+      headers: {
+        authorization: 'Bearer must-not-win',
+        'cf-access-jwt-assertion': 'access-jwt',
+      },
+    });
+    expect(response.status).toBe(200);
+    expect(accessVerifier.verify).toHaveBeenCalledWith('access-jwt');
+  });
+
   it.each([undefined, 'Basic abc', 'Bearer', 'Bearer a b'])(
     'rejects missing or malformed bearer %s',
     async (authorization) => {

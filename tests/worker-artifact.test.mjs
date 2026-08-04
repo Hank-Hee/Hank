@@ -18,7 +18,7 @@ test('one Worker build assembles contracts, Web assets, then API', async () => {
     root.scripts.build,
     'npm run build -w @wison/contracts && npm run build -w @wison/web && npm run build -w @wison/api',
   );
-  assert.equal(api.scripts.build, 'wrangler deploy --dry-run --outdir dist');
+  assert.equal(api.scripts.build, 'wrangler deploy --dry-run --env="" --outdir dist');
   assert.equal(wrangler.assets.directory, '../web/dist');
   assert.equal(wrangler.assets.html_handling, 'none');
   assert.equal(wrangler.assets.not_found_handling, 'single-page-application');
@@ -48,4 +48,15 @@ test('R2 development bindings expose no public route configuration', async () =>
   for (const binding of wrangler.r2_buckets) {
     assert.deepEqual(Object.keys(binding).sort(), ['binding', 'bucket_name']);
   }
+});
+
+test('UAT declares isolated private R2 buckets without committing cloud credentials', async () => {
+  const wrangler = await readJson('../apps/api/wrangler.jsonc');
+  assert.equal(wrangler.env.uat.name, 'wison-knowledge-platform-uat');
+  assert.deepEqual(wrangler.env.uat.r2_buckets, [
+    { binding: 'FILES', bucket_name: 'wison-knowledge-files-uat' },
+    { binding: 'QUARANTINE_FILES', bucket_name: 'wison-knowledge-quarantine-uat' },
+  ]);
+  assert.equal(wrangler.env.uat.vars.APP_VERSION, '0.1.0-uat');
+  assert.equal(JSON.stringify(wrangler).includes('REPLACE_ME'), false);
 });

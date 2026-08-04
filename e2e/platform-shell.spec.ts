@@ -2,18 +2,14 @@ import { expect, test, type Page } from '@playwright/test';
 
 async function enterDemo(page: Page, path = '/') {
   await page.goto(path);
-  await page.getByLabel('工作邮箱').fill('reader@example.com');
-  await page.getByRole('button', { name: '进入内部 Demo' }).click();
-  await expect(page.getByRole('heading', { name: '惠生清能市场知识平台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /惠生清能\s*市场知识平台/ })).toBeVisible();
 }
 
-test('requires email entry, then loads the platform shell and API health', async ({ page }) => {
+test('opens the local read-only platform without an email entry', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: '邮箱登录' })).toBeVisible();
-  await page.getByLabel('工作邮箱').fill('reader@example.com');
-  await page.getByRole('button', { name: '进入内部 Demo' }).click();
-
-  await expect(page.getByRole('heading', { name: '惠生清能市场知识平台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /惠生清能\s*市场知识平台/ })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '邮箱登录' })).toHaveCount(0);
+  await expect(page.getByRole('button', { name: '退出' })).toHaveCount(0);
   const navigation = page.getByRole('navigation', { name: '主导航' });
   await expect(navigation.getByRole('link')).toHaveCount(3);
   await expect(navigation.getByRole('link', { name: '首页' })).toBeVisible();

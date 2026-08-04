@@ -3,7 +3,11 @@ import { createMiddleware } from 'hono/factory';
 import type { AppEnvironment } from '../types';
 import type { PermissionLoader, TokenVerifier, VerifiedIdentity } from '../auth/types';
 
-export interface AuthServices { loader: PermissionLoader; verifier: TokenVerifier }
+export interface AuthServices {
+  accessVerifier?: TokenVerifier;
+  loader: PermissionLoader;
+  verifier: TokenVerifier;
+}
 export type AuthServicesFactory = (env: AppEnvironment['Bindings']) => AuthServices;
 function cookieToken(cookieHeader: string | undefined): string | undefined {
   const value = cookieHeader?.split(';')
@@ -20,14 +24,22 @@ function cookieToken(cookieHeader: string | undefined): string | undefined {
 
 export const authentication = (getServices: AuthServicesFactory) =>
   createMiddleware<AppEnvironment>(async (context, next) => {
+    const services = getServices(context.env);
+    const accessAssertion = context.req.header('cf-access-jwt-assertion');
     const authorization = context.req.header('authorization');
     const match = /^Bearer ([^\s]+)$/.exec(authorization ?? '');
-    const token = authorization ? match?.[1] : cookieToken(context.req.header('cookie'));
-    if (!token) throw new AppError('UNAUTHORIZED', 401, 'Authentication is required.');
-    const services = getServices(context.env);
+    const bearerOrCookie = authorization ? match?.[1] : cookieToken(context.req.header('cookie'));
+    const token = bearerOrCookie
+      ?? (context.env?.DEMO_AUTH_ENABLED === 'true' ? 'demo.local' : undefined);
     let identity: VerifiedIdentity;
     try {
-      identity = await services.verifier.verify(token);
+      if (accessAssertion) {
+        if (!services.accessVerifier) throw new Error('Cloudflare Access is not configured.');
+        identity = await services.accessVerifier.verify(accessAssertion);
+      } else {
+        if (!token) throw new Error('Authentication token is missing.');
+        identity = await services.verifier.verify(token);
+      }
     } catch {
       throw new AppError('UNAUTHORIZED', 401, 'Authentication is required.');
     }

@@ -8,16 +8,14 @@ import {
   type RouterHistory,
 } from '@tanstack/react-router';
 import type { CompanySummary, ReportSummary } from '@wison/contracts';
-import { type FormEvent, type KeyboardEvent, useMemo, useRef, useState } from 'react';
+import { type KeyboardEvent, useMemo, useRef, useState } from 'react';
 import { HealthBadge } from './components/health-badge';
 import {
-  createDemoSession,
   getCompanies,
   getCompany,
   getReport,
   getReports,
 } from './lib/api-client';
-import { clearDemoToken, getDemoToken, setDemoToken } from './lib/demo-session';
 
 const navigation = [
   ['/', '首页', '⌂'],
@@ -41,57 +39,6 @@ function useCatalog() {
     queryFn: ({ signal }) => getReports(signal),
   });
   return { companies, reports };
-}
-
-function LoginPage({ onAuthenticated }: { onAuthenticated: () => void }) {
-  const [email, setEmail] = useState('');
-  const [error, setError] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  async function submit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setError('');
-    setIsSubmitting(true);
-    try {
-      const session = await createDemoSession(email);
-      setDemoToken(session.accessToken);
-      onAuthenticated();
-    } catch {
-      setError('登录失败，请检查邮箱格式或稍后重试。');
-    } finally {
-      setIsSubmitting(false);
-    }
-  }
-
-  return (
-    <main className="login-page">
-      <section className="login-brand">
-        <p className="eyebrow">MARKET KNOWLEDGE PLATFORM</p>
-        <h1>惠生清能市场知识平台</h1>
-        <p>连接公司档案、项目组合与行业研究资料的内部市场知识入口。</p>
-      </section>
-      <section className="login-card">
-        <p className="eyebrow">INTERNAL ACCESS</p>
-        <h2>邮箱登录</h2>
-        <p>首期面向内部测试用户开放只读访问。</p>
-        <form onSubmit={submit}>
-          <label htmlFor="demo-email">工作邮箱</label>
-          <input
-            id="demo-email"
-            type="email"
-            value={email}
-            onChange={(event) => setEmail(event.target.value)}
-            placeholder="name@company.com"
-            required
-          />
-          <button type="submit" disabled={isSubmitting}>
-            {isSubmitting ? '正在进入…' : '进入内部 Demo'}
-          </button>
-          {error ? <p className="form-error" role="alert">{error}</p> : null}
-        </form>
-      </section>
-    </main>
-  );
 }
 
 type SearchResult =
@@ -220,10 +167,8 @@ function GlobalSearch({
 }
 
 function AppShell() {
-  const [authenticated, setAuthenticated] = useState(() => Boolean(getDemoToken()));
   const [menuOpen, setMenuOpen] = useState(false);
   const catalog = useCatalog();
-  if (!authenticated) return <LoginPage onAuthenticated={() => setAuthenticated(true)} />;
 
   const companies = catalog.companies.data?.companies ?? [];
   const reports = catalog.reports.data?.reports ?? [];
@@ -231,8 +176,7 @@ function AppShell() {
     <div className="app-shell">
       <aside className={menuOpen ? 'sidebar is-open' : 'sidebar'}>
         <div className="brand-block">
-          <p>惠生清能</p>
-          <h1>惠生清能市场知识平台</h1>
+          <h1>惠生清能<br />市场知识平台</h1>
           <span>MARKET KNOWLEDGE PLATFORM</span>
         </div>
         <nav aria-label="主导航" className="primary-nav">
@@ -254,14 +198,6 @@ function AppShell() {
           <GlobalSearch companies={companies} reports={reports} />
           <div className="topbar-actions">
             <HealthBadge />
-            <button
-              className="text-button"
-              type="button"
-              onClick={() => {
-                clearDemoToken();
-                setAuthenticated(false);
-              }}
-            >退出</button>
           </div>
         </header>
         <main className="page-content"><Outlet /></main>
@@ -390,7 +326,7 @@ function CompanyListPage() {
 }
 
 function DashboardFrame({ src, title, className = '' }: { src: string; title: string; className?: string }) {
-  return <iframe className={`dashboard-frame ${className}`} src={src} title={title} loading="lazy" />;
+  return <iframe className={`dashboard-frame ${className}`} src={src} title={title} loading="lazy" scrolling="no" />;
 }
 
 function MissingModule({ children }: { children: string }) {

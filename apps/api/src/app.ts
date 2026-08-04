@@ -3,6 +3,7 @@ import { Hono } from 'hono';
 import { secureHeaders } from 'hono/secure-headers';
 import { createPermissionLoader } from './auth/permission-loader';
 import { createEnvironmentTokenVerifier } from './auth/environment-token-verifier';
+import { createCloudflareAccessVerifier } from './auth/cloudflare-access-verifier';
 import { createCompanyRepository } from './company/company-repository';
 import { resolveDatabaseBinding } from './db/environment-database-binding';
 import { AppError } from './lib/app-error';
@@ -16,10 +17,22 @@ import { meRoutes } from './routes/me';
 import { reportRoutes } from './routes/reports';
 import type { AppEnvironment } from './types';
 
-const createDefaultAuthServices: AuthServicesFactory = (bindings) => ({
-  loader: createPermissionLoader(resolveDatabaseBinding(bindings)),
-  verifier: createEnvironmentTokenVerifier(bindings),
-});
+const createDefaultAuthServices: AuthServicesFactory = (bindings) => {
+  const hasAccessBinding = Boolean(
+    bindings.CLOUDFLARE_ACCESS_AUD || bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN,
+  );
+  if (hasAccessBinding && !(bindings.CLOUDFLARE_ACCESS_AUD && bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN)) {
+    throw new Error('Cloudflare Access requires both the team domain and application audience.');
+  }
+  return {
+    accessVerifier: hasAccessBinding ? createCloudflareAccessVerifier({
+      CLOUDFLARE_ACCESS_AUD: bindings.CLOUDFLARE_ACCESS_AUD!,
+      CLOUDFLARE_ACCESS_TEAM_DOMAIN: bindings.CLOUDFLARE_ACCESS_TEAM_DOMAIN!,
+    }) : undefined,
+    loader: createPermissionLoader(resolveDatabaseBinding(bindings)),
+    verifier: createEnvironmentTokenVerifier(bindings),
+  };
+};
 const createDefaultCompanyRepository: CompanyRepositoryFactory = (bindings) =>
   createCompanyRepository(resolveDatabaseBinding(bindings));
 

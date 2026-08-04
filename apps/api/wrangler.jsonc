@@ -17,5 +17,17 @@
   "r2_buckets": [
     { "binding": "FILES", "bucket_name": "wison-knowledge-files-dev" },
     { "binding": "QUARANTINE_FILES", "bucket_name": "wison-knowledge-quarantine-dev" }
-  ]
+  ],
+  "env": {
+    "uat": {
+      "name": "wison-knowledge-platform-uat",
+      "vars": {
+        "APP_VERSION": "0.1.0-uat"
+      },
+      "r2_buckets": [
+        { "binding": "FILES", "bucket_name": "wison-knowledge-files-uat" },
+        { "binding": "QUARANTINE_FILES", "bucket_name": "wison-knowledge-quarantine-uat" }
+      ]
+    }
+  }
 }

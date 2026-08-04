@@ -51,27 +51,21 @@ beforeEach(() => {
 afterEach(cleanup);
 
 describe('company library UI', () => {
-  it('requires an email entry and opens the company list in local demo mode', async () => {
+  it('opens the company list directly without a visible email entry', async () => {
     vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input);
-      if (url === '/api/v1/demo/session') {
-        return new Response(JSON.stringify({ accessToken: 'demo.local', email: 'reader@example.com' }));
-      }
       if (url === '/api/v1/health') return new Response(JSON.stringify(health));
       if (url === '/api/v1/companies') return new Response(JSON.stringify({ companies: [summary] }));
       return new Response(null, { status: 404 });
     }));
     renderRoute('/companies');
 
-    expect(await screen.findByRole('heading', { name: '邮箱登录' })).toBeInTheDocument();
-    fireEvent.change(screen.getByLabelText('工作邮箱'), { target: { value: 'reader@example.com' } });
-    fireEvent.click(screen.getByRole('button', { name: '进入内部 Demo' }));
-
     expect(await screen.findByRole('heading', { name: '公司信息库' })).toBeInTheDocument();
+    expect(screen.queryByLabelText('工作邮箱')).not.toBeInTheDocument();
     expect(await screen.findByRole('link', { name: 'Shell' })).toHaveAttribute('href', '/companies/shell');
     expect(screen.getByRole('columnheader', { name: '公司名称' })).toBeInTheDocument();
     expect(screen.getByText('完整 Portfolio')).toBeInTheDocument();
-    expect(sessionStorage.getItem('company-demo-token')).toBe('demo.local');
+    expect(fetch).not.toHaveBeenCalledWith('/api/v1/demo/session', expect.anything());
   });
 
   it('renders the company detail modules in the approved order', async () => {
@@ -92,6 +86,9 @@ describe('company library UI', () => {
       'Shell 区域产量趋势',
       'Shell 经营与财务表现',
     ]);
+    for (const dashboard of dashboards) {
+      expect(dashboard).toHaveAttribute('scrolling', 'no');
+    }
     expect(screen.getByRole('navigation', { name: '公司页面目录' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: '经营与财务表现' })).toBeInTheDocument();
     expect(screen.getByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();

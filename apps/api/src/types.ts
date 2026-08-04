@@ -4,6 +4,8 @@ import type { VerifiedIdentity } from './auth/types';
 export interface AppBindings {
   APP_VERSION: string;
   ASSETS: Fetcher;
+  CLOUDFLARE_ACCESS_AUD?: string;
+  CLOUDFLARE_ACCESS_TEAM_DOMAIN?: string;
   DATABASE_URL?: string;
   DEMO_AUTH_ENABLED?: string;
   FILES: R2Bucket;
