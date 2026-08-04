@@ -382,15 +382,19 @@ function CompanyDetailPage() {
         <div className="section-heading"><p className="eyebrow">FINANCIALS</p><h3>经营与财务表现</h3></div>
         {company.dashboards.financial ? <div className="dashboard-card"><DashboardFrame className="dashboard-frame--financial" src={company.dashboards.financial} title={`${company.displayName} 经营与财务表现`} /></div> : <MissingModule>仓库尚未提供该公司的财务数据。</MissingModule>}
       </section>
-      <section id="news" className="content-panel information-panel">
-        <p className="eyebrow">COMPANY NEWS</p><h3>相关新闻</h3>
-        {news.length ? news.map((item) => <p key={item.id}>{item.title}</p>) : <p className="empty-state">暂无可追溯新闻数据</p>}
+      <section id="news" className="portfolio-section">
+        <div className="section-heading"><p className="eyebrow">COMPANY NEWS</p><h3>相关新闻</h3></div>
+        <div className="content-panel information-panel">
+          {news.length ? news.map((item) => <p key={item.id}>{item.title}</p>) : <p className="empty-state">暂无可追溯新闻数据</p>}
+        </div>
       </section>
-      <section id="related-reports" className="content-panel information-panel">
-        <p className="eyebrow">RELATED RESEARCH</p><h3>相关报告</h3>
-        {reports.length ? <div className="information-list">{reports.map((item) => (
-          <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn ?? '日期未提供'}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4>{item.summary ? <p>{item.summary}</p> : null}<small>{item.publisher}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">附件未提供</span> : null}</article>
-        ))}</div> : <p className="empty-state">暂无可追溯行业报告数据</p>}
+      <section id="related-reports" className="portfolio-section">
+        <div className="section-heading"><p className="eyebrow">RELATED RESEARCH</p><h3>相关报告</h3></div>
+        <div className="content-panel information-panel">
+          {reports.length ? <div className="information-list">{reports.map((item) => (
+            <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn ?? '日期未提供'}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4>{item.summary ? <p>{item.summary}</p> : null}<small>{item.publisher}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">附件未提供</span> : null}</article>
+          ))}</div> : <p className="empty-state">暂无可追溯行业报告数据</p>}
+        </div>
       </section>
     </article>
   );

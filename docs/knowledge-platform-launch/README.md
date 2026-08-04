@@ -29,6 +29,7 @@
 - 本地自动只读身份、只读 RLS、Cloudflare Access JWT 验证、公司/报告列表与详情 API、全站检索和受保护图表资源已接通；可见邮箱快速入口已撤下。
 - Shell 验收样本的 4 个嵌入模块均在真实浏览器加载；公司 Banner 已改为原生响应式组件，地图统计为 552 个项目。
 - 报告附件与新闻缺失均明确显示，不生成虚假内容、研究结论、目录或下载能力。
+- PDF、Excel、PowerPoint 附件的 manifest 安全预检已就绪；真实文件和外部上传凭据到位前不改变附件可用状态。
 - Supabase 新加坡 UAT、Hyperdrive、两个 private R2 桶和 Cloudflare Access 已连接；Worker 另以 `849943802@qq.com` 明确白名单做纵深校验。当前剩余门禁是人员验收、Access 30 天会话设置、Access Service Token 云端负载验收和正式公司子域名。
 
 ## 文档导航

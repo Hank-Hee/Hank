@@ -52,6 +52,17 @@ npm run uat:load -- --base-url https://uat.example.com --concurrency 100 --reque
 
 首批附件采用 manifest 驱动的批量导入：程序计算 hash、校验扩展名/MIME、先写 quarantine、通过后复制到 published 并在一个数据库事务中更新元数据。用户不需要逐个手工上传。后续管理端再提供单文件上传和审核界面；在该链路完成前，现有报告页面继续诚实显示“附件未上传”。
 
+附件预检已可用，支持 PDF、XLS/XLSX、PPT/PPTX。先复制 `data/report-attachments/manifest.example.json`，把真实文件统一放进一个不提交 Git 的本地目录，再运行：
+
+```bash
+npm run attachments:prepare -- \
+  --manifest=/绝对路径/manifest.json \
+  --attachments-root=/绝对路径/附件目录 \
+  --output=work/report-attachment-batches/批次.prepared.json
+```
+
+预检会拒绝未知/重复报告 ID、目录逃逸、符号链接、空文件、超过 250 MiB 的文件、不支持的扩展名、错误文件签名、未批准权利类型或审核状态，并生成 SHA-256、MIME、大小及 quarantine/published 对象键。生成 prepared manifest 仍不代表附件已发布；真实文件和平台上传凭据到位后，才执行 private R2 quarantine、内容安全检查、published 复制和 PostgreSQL 单事务确认。
+
 ## 后续子域名迁移
 
 公司提供最终子域名后，重新绑定 Worker route、Access 策略和数据库/R2 环境即可，不需要重写前端。若最终以 iframe 内嵌简道云，发布前必须把 CSP `frame-ancestors` 收紧为简道云的准确父域名；UAT 期间继续禁止任意站点嵌入。
@@ -63,6 +74,7 @@ npm run uat:load -- --base-url https://uat.example.com --concurrency 100 --reque
 - Cloudflare 已创建 `wison-knowledge-postgres-uat` Hyperdrive，UAT Worker 配置已绑定真实 ID，并关闭 SQL 响应缓存，避免权限上下文或数据更新被缓存混用。
 - UAT 已部署到 `https://wison-knowledge-platform.wison.workers.dev`；Cloudflare Access 已启用，Worker 同时校验对应 AUD、issuer 和签名。旧的 `wison-knowledge-platform-uat` Worker 已删除，源代码仍可从 Git 恢复。
 - GitHub 公司源重新生成后仍为 126 家公司和 8 家完整看板；两张 Excel 源表已归一为 1,111 条目录（741 条行业研究、370 条公司披露）并同步云端。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
+- 2026-08-04 GitHub 财务看板已同步盈利能力双轴更新；公司页“相关新闻”和“相关报告”均使用与产量/财务看板一致的外置章节标题。
 - API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重和预序列化；响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。在 2.7 GHz 四核 Intel Core i7 / 8 GB 本机上，20 并发 200 请求 p95 293.4 ms、50 并发 500 请求 p95 423.7 ms，均为 0% 错误并通过门禁。100 并发 1,000 请求仍为 0% 错误但 p95 989.3 ms，受单机持续吞吐限制，不能视为云端通过。
 - 必须通过 Access Service Token 在 Hyperdrive/Worker 环境重跑 20/50/100 三档；不得以匿名 302 或降低门槛替代业务 API 验收。
 - 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。

@@ -30,6 +30,8 @@ test('company dashboard assets are built from the allowlisted source inventory',
   }
   const financialScript = await readFile(join(output, 'financial/dashboard.js'), 'utf8');
   assert.doesNotMatch(financialScript, /\.\.\/\.\.\/data/);
+  assert.match(financialScript, /20260804-dual-axis-v1/);
+  assert.match(financialScript, /hasSecondaryAxis/);
   const mapPage = await readFile(join(output, 'maps/index.html'), 'utf8');
   assert.match(mapPage, /vendor\/leaflet\.js/);
   assert.doesNotMatch(mapPage, /unpkg\.com\/leaflet/);

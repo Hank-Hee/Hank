@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "build": "npm run build -w @wison/contracts && npm run build -w @wison/web && npm run build -w @wison/api",
+    "attachments:prepare": "node scripts/prepare-report-attachments.mjs",
     "dev": "node scripts/run-company-demo.mjs",
     "dev:api": "npm run dev -w @wison/api",
     "dev:web": "npm run dev -w @wison/web",

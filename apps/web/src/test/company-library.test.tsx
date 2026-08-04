@@ -94,6 +94,11 @@ describe('company library UI', () => {
     expect(screen.getByRole('heading', { name: '公司概览' }).closest('section')).toHaveClass('company-overview-section');
     expect(screen.getByText('综合油气')).toHaveClass('profile-tag');
     expect(screen.getByText('成立年份').closest('dl')).toHaveClass('profile-facts');
+    for (const title of ['相关新闻', '相关报告']) {
+      const heading = screen.getByRole('heading', { name: title });
+      expect(heading.closest('section')).toHaveClass('portfolio-section');
+      expect(heading.closest('.content-panel')).toBeNull();
+    }
     expect(screen.getByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();
     expect(screen.getByText('暂无可追溯新闻数据')).toBeInTheDocument();
     expect(screen.getByText('附件未提供')).toBeInTheDocument();

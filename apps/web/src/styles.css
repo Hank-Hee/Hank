@@ -233,7 +233,6 @@ h3 { color: var(--brand-900); }
 .company-overview-section > .section-heading { margin-bottom: 14px; }
 .company-profile { display: grid; grid-template-columns: minmax(0, 2fr) minmax(310px, .95fr); gap: 30px; padding: 0; overflow: hidden; }
 .company-profile > div { padding: 26px 30px; }
-.information-panel h3 { margin-bottom: 12px; }
 .lead { color: var(--brand-900); font-size: 16px; font-weight: 650; line-height: 1.7; }
 .company-profile > div > p:last-of-type { color: #52687b; line-height: 1.75; }
 .profile-tag-groups { display: grid; gap: 12px; margin-top: 24px; }
@@ -259,7 +258,7 @@ h3 { color: var(--brand-900); }
 .module-missing { padding: 35px; color: var(--muted); background: #f8fafb; border: 1px dashed #b8c4ce; border-radius: 5px; text-align: center; }
 .module-missing span { color: var(--brand-700); font-size: 11px; font-weight: 800; }
 .module-missing p { margin: 7px 0 0; font-size: 12px; }
-.information-panel { margin-bottom: 20px; scroll-margin-top: 130px; }
+.information-panel { margin-bottom: 0; }
 .information-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .information-list article { padding: 16px; background: #f8fafb; border: 1px solid var(--border); border-radius: 4px; }
 .information-list article > div { display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; }
