@@ -52,7 +52,7 @@ test('R2 development bindings expose no public route configuration', async () =>
 
 test('UAT declares isolated private R2 buckets without committing cloud credentials', async () => {
   const wrangler = await readJson('../apps/api/wrangler.jsonc');
-  assert.equal(wrangler.env.uat.name, 'wison-knowledge-platform-uat');
+  assert.equal(wrangler.env.uat.name, 'wison-knowledge-platform');
   assert.deepEqual(wrangler.env.uat.hyperdrive, [
     { binding: 'HYPERDRIVE', id: '146f2845cb004780b6355543b97b47ec' },
   ]);
@@ -61,5 +61,13 @@ test('UAT declares isolated private R2 buckets without committing cloud credenti
     { binding: 'QUARANTINE_FILES', bucket_name: 'wison-knowledge-quarantine-uat' },
   ]);
   assert.equal(wrangler.env.uat.vars.APP_VERSION, '0.1.0-uat');
+  assert.equal(
+    wrangler.env.uat.vars.CLOUDFLARE_ACCESS_AUD,
+    '5ec1f0354a9e2aaf29ef0d9b04103f7471a3e517c9c796bf5208ef52d8182624',
+  );
+  assert.equal(
+    wrangler.env.uat.vars.CLOUDFLARE_ACCESS_TEAM_DOMAIN,
+    'https://849943802.cloudflareaccess.com',
+  );
   assert.equal(JSON.stringify(wrangler).includes('REPLACE_ME'), false);
 });

@@ -59,6 +59,9 @@ npm run uat:load -- --base-url https://uat.example.com --concurrency 100 --reque
 - Cloudflare 已创建 `wison-knowledge-files-uat` 和 `wison-knowledge-quarantine-uat`，两者均未开启 `r2.dev`，也未绑定公开自定义域名。
 - Supabase 已创建新加坡区域 `wison-knowledge-platform-uat`，已正式应用 4 个 migration、角色文件和幂等 seed；远端核验为 126 家公司、8 家重点公司、234 条公司资产和 24 条关联信息。
 - Cloudflare 已创建 `wison-knowledge-postgres-uat` Hyperdrive，UAT Worker 配置已绑定真实 ID，并关闭 SQL 响应缓存，避免权限上下文或数据更新被缓存混用。
+- UAT 已部署到 `https://wison-knowledge-platform.wison.workers.dev`；Cloudflare Access 已启用，Worker 同时校验对应 AUD、issuer 和签名。旧的 `wison-knowledge-platform-uat` Worker 已删除，源代码仍可从 Git 恢复。
+- GitHub 公司源重新生成后仍为 126 家公司、8 家完整看板和 24 条报告元数据，云端 seed 无差异。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
 - 本地直连 PostgreSQL 的只读基线：20 并发、200 请求为 0% 错误且 p95 407.3 ms；50 并发 p95 976.4 ms、100 并发 p95 1866.7 ms，均超过 500 ms 门禁。应用没有返回错误，瓶颈表现为每请求直连本机数据库的连接开销。
 - 50/100 并发结果不能替代云端验收，也不能视为通过。UAT 部署完成后必须通过 Hyperdrive 重跑 20/50/100 三档；若仍超标，再以云端追踪结果决定连接复用、查询或缓存优化。
-- Cloudflare Access 应用和 UAT Worker 部署尚未完成，不应把当前 Worker 描述为已上线。
+- 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
+- 真实邮箱登录、授权后页面任务和 20/50/100 云端负载仍待验收；负载测试需要 Access Service Token，不能用匿名请求绕过 Access。

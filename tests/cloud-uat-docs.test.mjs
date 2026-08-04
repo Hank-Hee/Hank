@@ -15,6 +15,8 @@ test('launch documentation records Access, load and attachment storage decisions
     'PostgreSQL',
     'CF_ACCESS_CLIENT_ID',
     'npm run uat:load',
+    'wison-knowledge-platform.wison.workers.dev',
+    'market-data/oil-gas-prices/latest.json',
   ]) assert.match(runbook, new RegExp(phrase, 'i'));
   assert.doesNotMatch(runbook, /提供邮箱登录入口/);
 });

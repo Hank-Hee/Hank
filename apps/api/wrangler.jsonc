@@ -20,9 +20,11 @@
   ],
   "env": {
     "uat": {
-      "name": "wison-knowledge-platform-uat",
+      "name": "wison-knowledge-platform",
       "vars": {
-        "APP_VERSION": "0.1.0-uat"
+        "APP_VERSION": "0.1.0-uat",
+        "CLOUDFLARE_ACCESS_AUD": "5ec1f0354a9e2aaf29ef0d9b04103f7471a3e517c9c796bf5208ef52d8182624",
+        "CLOUDFLARE_ACCESS_TEAM_DOMAIN": "https://849943802.cloudflareaccess.com"
       },
       "hyperdrive": [
         { "binding": "HYPERDRIVE", "id": "146f2845cb004780b6355543b97b47ec" }

@@ -4,9 +4,10 @@
 |---|---|
 | 状态 | 执行中 |
 | 当前分支 | `feat/cloud-uat-readiness` |
-| 当前阶段 | 参考 UI 修正与 Cloudflare 内部 UAT 建设 |
-| 当前产品交付 | 可直接本地进入、可检索的 126 家公司档案、8 家完整 Portfolio 和 24 条报告元数据 |
-| 生产发布 | 已授权；外部凭据仍是实际部署门禁 |
+| 当前阶段 | Cloudflare 内部 UAT 已部署，进入人员与并发验收 |
+| 当前产品交付 | 云端可检索的 126 家公司档案、8 家完整 Portfolio、24 条报告元数据和私有 R2 市场数据 |
+| UAT 地址 | `https://wison-knowledge-platform.wison.workers.dev`（Cloudflare Access 保护） |
+| 生产发布 | 待公司正式子域名、公开账号登录和完整生产验收 |
 | 更新日期 | 2026-08-04 |
 
 本目录是“知识平台产品上线”的 GitHub 总入口，记录已批准的产品优先级、UAT 边界、数据就绪策略和交付顺序。它不重复每个 Codex Task 的逐行实现步骤；可执行的精确步骤仍以 `docs/superpowers/plans/` 中的当前计划为准。
@@ -27,7 +28,7 @@
 - 本地自动只读身份、只读 RLS、Cloudflare Access JWT 验证、公司/报告列表与详情 API、全站检索和受保护图表资源已接通；可见邮箱快速入口已撤下。
 - Shell 验收样本的 4 个嵌入模块均在真实浏览器加载；公司 Banner 已改为原生响应式组件，地图统计为 552 个项目。
 - 报告附件与新闻缺失均明确显示，不生成虚假内容、研究结论、目录或下载能力。
-- Cloudflare 构建已通过 dry-run；生产发布仍需真实 Hyperdrive、Supabase/R2 与 Cloudflare 凭据。
+- Supabase 新加坡 UAT、Hyperdrive、两个 private R2 桶和 Cloudflare Access 已连接并部署；当前剩余门禁是邮箱人员验收、Access Service Token 负载验收和正式公司子域名。
 
 ## 文档导航
 
