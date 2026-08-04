@@ -35,5 +35,6 @@ test('company dashboard assets are built from the allowlisted source inventory',
   assert.doesNotMatch(mapPage, /unpkg\.com\/leaflet/);
   const manifest = JSON.parse(await readFile(join(output, 'asset-manifest.json'), 'utf8'));
   assert.equal(manifest.companies.length, 8);
+  assert.equal(manifest.projectCompanies.length, 68);
   assert.equal(manifest.protectedBy, '/company-assets/*');
 });

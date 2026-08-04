@@ -2,6 +2,8 @@ import {
   CompanyDetailSchema,
   CompanyListResponseSchema,
   DemoSessionResponseSchema,
+  ReportDetailSchema,
+  ReportListResponseSchema,
   type CompanySummary,
   UserContextSchema,
   type CompanyDetail,
@@ -29,6 +31,7 @@ const summary: CompanySummary = {
   headquarters: '伦敦，英国',
   projectCount: 552,
   countryCount: 32,
+  dataCoverage: 'complete',
 };
 const detail: CompanyDetail = CompanyDetailSchema.parse({
   ...summary,
@@ -37,7 +40,6 @@ const detail: CompanyDetail = CompanyDetailSchema.parse({
   foundedYear: 1890,
   businessRegions: ['北海/北欧'],
   dashboards: {
-    banner: '/company-assets/banners/shell.html',
     map: '/company-assets/maps/index.html?operator=Shell',
     projectType: '/company-assets/charts/project-type/index.html?operator=Shell',
     production: '/company-assets/production/shell.html',
@@ -45,6 +47,23 @@ const detail: CompanyDetail = CompanyDetailSchema.parse({
   },
   relatedInformation: [],
   newsStatus: 'not-provided',
+});
+const report = ReportDetailSchema.parse({
+  id: 'esg-disclosure-oil-gas',
+  title: '油气企业 ESG 披露与转型指标比较',
+  subtitle: 'ESG Disclosure and Transition Metrics for Oil and Gas Companies',
+  summary: '比较国际油气公司的披露指标。',
+  industry: 'ESG与可持续发展',
+  region: '全球',
+  informationType: '政策研究',
+  sourceName: 'Energy Institute',
+  publishedOn: '2026-06-30',
+  language: '中文',
+  sourceFormat: 'PDF',
+  attachmentAvailable: false,
+  keywords: ['ESG'],
+  relatedCompanies: [{ slug: 'shell', displayName: 'Shell' }],
+  detailStatus: 'metadata-only',
 });
 
 function appWith(repository: CompanyRepository) {
@@ -55,7 +74,9 @@ function appWith(repository: CompanyRepository) {
 
 describe('company library API', () => {
   it('keeps company data behind authentication', async () => {
-    const repository: CompanyRepository = { list: vi.fn(), findBySlug: vi.fn() };
+    const repository: CompanyRepository = {
+      list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
+    };
     expect((await appWith(repository).request('/api/v1/companies')).status).toBe(401);
   });
 
@@ -63,6 +84,8 @@ describe('company library API', () => {
     const repository: CompanyRepository = {
       list: vi.fn(async () => [summary]),
       findBySlug: vi.fn(async () => detail),
+      listReports: vi.fn(async () => [report]),
+      findReportById: vi.fn(async () => report),
     };
     const app = appWith(repository);
     const headers = { authorization: 'Bearer token' };
@@ -73,10 +96,28 @@ describe('company library API', () => {
     expect(CompanyDetailSchema.parse(await item.json()).slug).toBe('shell');
   });
 
+  it('returns the report archive and metadata-only detail behind authentication', async () => {
+    const repository: CompanyRepository = {
+      list: vi.fn(),
+      findBySlug: vi.fn(),
+      listReports: vi.fn(async () => [report]),
+      findReportById: vi.fn(async () => report),
+    };
+    const app = appWith(repository);
+    expect((await app.request('/api/v1/reports')).status).toBe(401);
+    const headers = { authorization: 'Bearer token' };
+    const list = await app.request('/api/v1/reports', { headers });
+    const item = await app.request('/api/v1/reports/esg-disclosure-oil-gas', { headers });
+    expect(ReportListResponseSchema.parse(await list.json()).reports).toHaveLength(1);
+    expect(ReportDetailSchema.parse(await item.json()).detailStatus).toBe('metadata-only');
+  });
+
   it('returns a safe 404 for an unknown company', async () => {
     const repository: CompanyRepository = {
       list: vi.fn(async () => []),
       findBySlug: vi.fn(async () => null),
+      listReports: vi.fn(async () => []),
+      findReportById: vi.fn(async () => null),
     };
     const response = await appWith(repository).request('/api/v1/companies/unknown', {
       headers: { authorization: 'Bearer token' },
@@ -86,7 +127,9 @@ describe('company library API', () => {
   });
 
   it('protects dashboard assets and serves them through the authenticated Worker', async () => {
-    const repository: CompanyRepository = { list: vi.fn(), findBySlug: vi.fn() };
+    const repository: CompanyRepository = {
+      list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
+    };
     const assets = {
       fetch: vi.fn(async () => fetch('data:text/html,<html>dashboard</html>')),
     };

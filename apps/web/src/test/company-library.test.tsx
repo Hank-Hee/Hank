@@ -13,13 +13,13 @@ const summary = {
   region: '北海/北欧', business: '综合油气、上游勘探开发、LNG',
   marketPosition: '全球综合能源公司', headquarters: '伦敦，英国',
   projectCount: 552, countryCount: 32,
+  dataCoverage: 'complete',
 };
 const detail = {
   ...summary,
   sourceId: '6a1e90aa11f1cb641ce4fe1a', website: 'https://www.shell.com/', foundedYear: 1890,
   businessRegions: ['北海/北欧'],
   dashboards: {
-    banner: '/company-assets/banners/shell.html',
     map: '/company-assets/maps/index.html?operator=Shell',
     projectType: '/company-assets/charts/project-type/index.html?operator=Shell',
     production: '/company-assets/production/shell.html',
@@ -68,7 +68,9 @@ describe('company library UI', () => {
     fireEvent.click(screen.getByRole('button', { name: '进入内部 Demo' }));
 
     expect(await screen.findByRole('heading', { name: '公司信息库' })).toBeInTheDocument();
-    expect(await screen.findByRole('link', { name: /Shell/ })).toHaveAttribute('href', '/companies/shell');
+    expect(await screen.findByRole('link', { name: 'Shell' })).toHaveAttribute('href', '/companies/shell');
+    expect(screen.getByRole('columnheader', { name: '公司名称' })).toBeInTheDocument();
+    expect(screen.getByText('完整 Portfolio')).toBeInTheDocument();
     expect(sessionStorage.getItem('company-demo-token')).toBe('demo.local');
   });
 
@@ -82,15 +84,16 @@ describe('company library UI', () => {
     }));
     renderRoute('/companies/shell');
 
-    expect(await screen.findByRole('heading', { name: 'Shell 公司画像' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'Shell' })).toBeInTheDocument();
     const dashboards = screen.getAllByTitle(/Shell/);
     expect(dashboards.map(({ title }) => title)).toEqual([
-      'Shell Banner',
-      'Shell 项目分布地图',
+      'Shell 全球业务／项目分布',
       'Shell 项目类型结构',
-      'Shell 产量看板',
-      'Shell 财务看板',
+      'Shell 区域产量趋势',
+      'Shell 经营与财务表现',
     ]);
+    expect(screen.getByRole('navigation', { name: '公司页面目录' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: '经营与财务表现' })).toBeInTheDocument();
     expect(screen.getByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();
     expect(screen.getByText('暂无可追溯新闻数据')).toBeInTheDocument();
     expect(screen.getByText('附件未提供')).toBeInTheDocument();

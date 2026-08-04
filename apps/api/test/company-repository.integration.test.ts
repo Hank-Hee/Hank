@@ -11,9 +11,16 @@ describe('company repository integration', () => {
     const identity = { userId: demoUserId };
     const companies = await repository.list(identity, 'req_company_list_12345678');
     const shell = await repository.findBySlug('shell', identity, 'req_company_detail_12345678');
+    const reports = await repository.listReports(identity, 'req_report_list_12345678');
+    const report = await repository.findReportById(
+      'lng-middle-east-2026', identity, 'req_report_detail_12345678',
+    );
 
-    expect(companies).toHaveLength(8);
+    expect(companies).toHaveLength(126);
     expect(companies.map(({ slug }) => slug)).toContain('exxonmobil');
+    expect(companies).toContainEqual(expect.objectContaining({
+      slug: 'black-and-veatch', dataCoverage: 'profile', companyType: 'EPC',
+    }));
     expect(shell).toMatchObject({
       slug: 'shell',
       projectCount: 552,
@@ -21,5 +28,11 @@ describe('company repository integration', () => {
     });
     expect(shell?.relatedInformation).toHaveLength(2);
     expect(shell?.relatedInformation.every(({ attachmentAvailable }) => !attachmentAvailable)).toBe(true);
+    expect(reports).toHaveLength(24);
+    expect(report).toMatchObject({
+      id: 'lng-middle-east-2026',
+      attachmentAvailable: false,
+      detailStatus: 'metadata-only',
+    });
   });
 });

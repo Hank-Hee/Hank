@@ -13,6 +13,7 @@ import { healthRoutes } from './routes/health';
 import { companyRoutes, type CompanyRepositoryFactory } from './routes/companies';
 import { demoSessionRoutes } from './routes/demo-session';
 import { meRoutes } from './routes/me';
+import { reportRoutes } from './routes/reports';
 import type { AppEnvironment } from './types';
 
 const createDefaultAuthServices: AuthServicesFactory = (bindings) => ({
@@ -57,6 +58,12 @@ export function createApp(
   protectedCompanies.use('*', requirePermission('platform.access'));
   protectedCompanies.route('/', companyRoutes(getCompanyRepository));
   app.route('/api/v1/companies', protectedCompanies);
+
+  const protectedReports = new Hono<AppEnvironment>();
+  protectedReports.use('*', authentication(getAuthServices));
+  protectedReports.use('*', requirePermission('platform.access'));
+  protectedReports.route('/', reportRoutes(getCompanyRepository));
+  app.route('/api/v1/reports', protectedReports);
 
   app.use('/company-assets/*', authentication(getAuthServices));
   app.use('/company-assets/*', requirePermission('platform.access'));

@@ -4,7 +4,7 @@ async function enterDemo(page: Page, path = '/') {
   await page.goto(path);
   await page.getByLabel('工作邮箱').fill('reader@example.com');
   await page.getByRole('button', { name: '进入内部 Demo' }).click();
-  await expect(page.getByRole('heading', { name: '市场知识平台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '惠生清能市场知识平台' })).toBeVisible();
 }
 
 test('requires email entry, then loads the platform shell and API health', async ({ page }) => {
@@ -13,7 +13,7 @@ test('requires email entry, then loads the platform shell and API health', async
   await page.getByLabel('工作邮箱').fill('reader@example.com');
   await page.getByRole('button', { name: '进入内部 Demo' }).click();
 
-  await expect(page.getByRole('heading', { name: '市场知识平台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '惠生清能市场知识平台' })).toBeVisible();
   const navigation = page.getByRole('navigation', { name: '主导航' });
   await expect(navigation.getByRole('link')).toHaveCount(3);
   await expect(navigation.getByRole('link', { name: '首页' })).toBeVisible();
@@ -40,15 +40,33 @@ test('serves SPA deep links and keeps unknown API routes as JSON 404', async ({ 
   await expect(page.getByRole('heading', { name: '无权访问' })).toBeVisible();
 });
 
-test('opens all eight companies and renders the protected Shell dashboards', async ({ page }) => {
+test('opens the full company directory and renders the protected Shell portfolio', async ({ page }) => {
   await enterDemo(page, '/companies');
-  await expect(page.locator('.company-card')).toHaveCount(8);
+  await expect(page.locator('.company-table tbody tr')).toHaveCount(126);
   await page.locator('a[href="/companies/shell"]').click();
 
-  await expect(page.getByRole('heading', { name: 'Shell 公司画像' })).toBeVisible();
-  await expect(page.locator('iframe')).toHaveCount(5);
-  await expect(page.frameLocator('iframe[title="Shell Banner"]').getByRole('heading', { name: 'Shell' })).toBeVisible();
-  await expect(page.frameLocator('iframe[title="Shell 项目分布地图"]').locator('#total-projects')).toHaveText('552');
+  await expect(page.getByRole('heading', { name: 'Shell' })).toBeVisible();
+  await expect(page.locator('iframe')).toHaveCount(4);
+  await expect(page.frameLocator('iframe[title="Shell 全球业务／项目分布"]').locator('#total-projects')).toHaveText('552');
+  await expect(page.getByRole('heading', { name: '经营与财务表现' })).toBeVisible();
   await expect(page.getByText('附件未提供').first()).toBeVisible();
   await expect(page.getByText('暂无可追溯新闻数据')).toBeVisible();
+});
+
+test('filters report metadata and opens an honest metadata-only detail', async ({ page }) => {
+  await enterDemo(page, '/reports');
+  await expect(page.locator('.report-list > article')).toHaveCount(24);
+  await page.getByLabel('报告检索').fill('中东 LNG');
+  await page.getByRole('link', { name: '中东 LNG 供需与项目扩张展望 2026' }).click();
+  await expect(page.getByText('附件未上传')).toBeVisible();
+  await expect(page.getByText(/未提供研究结论与目录/)).toBeVisible();
+});
+
+test('keeps profile-only companies usable without inventing missing modules', async ({ page }) => {
+  await enterDemo(page, '/companies/black-and-veatch');
+  await expect(page.getByRole('heading', { name: 'Black & Veatch' })).toBeVisible();
+  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.getByText('仓库尚未提供该公司的项目分布与项目类型数据。')).toBeVisible();
+  await expect(page.getByText('仓库尚未提供该公司的产量数据。')).toBeVisible();
+  await expect(page.getByText('仓库尚未提供该公司的财务数据。')).toBeVisible();
 });

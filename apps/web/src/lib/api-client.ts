@@ -3,10 +3,14 @@ import {
   CompanyListResponseSchema,
   DemoSessionResponseSchema,
   HealthResponseSchema,
+  ReportDetailSchema,
+  ReportListResponseSchema,
   type CompanyDetail,
   type CompanyListResponse,
   type DemoSessionResponse,
   type HealthResponse,
+  type ReportDetail,
+  type ReportListResponse,
 } from '@wison/contracts';
 import { getDemoToken } from './demo-session';
 
@@ -62,4 +66,12 @@ export async function getCompanies(signal?: AbortSignal): Promise<CompanyListRes
 
 export async function getCompany(slug: string, signal?: AbortSignal): Promise<CompanyDetail> {
   return CompanyDetailSchema.parse(await getAuthenticatedJson(`/api/v1/companies/${slug}`, signal));
+}
+
+export async function getReports(signal?: AbortSignal): Promise<ReportListResponse> {
+  return ReportListResponseSchema.parse(await getAuthenticatedJson('/api/v1/reports', signal));
+}
+
+export async function getReport(id: string, signal?: AbortSignal): Promise<ReportDetail> {
+  return ReportDetailSchema.parse(await getAuthenticatedJson(`/api/v1/reports/${id}`, signal));
 }

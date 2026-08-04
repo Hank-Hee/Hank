@@ -3,6 +3,8 @@ import {
   CompanyListResponseSchema,
   DemoSessionRequestSchema,
   DemoSessionResponseSchema,
+  ReportDetailSchema,
+  ReportListResponseSchema,
 } from '@wison/contracts';
 import { describe, expect, it } from 'vitest';
 
@@ -17,12 +19,23 @@ const company = {
   headquarters: '伦敦，英国',
   projectCount: 552,
   countryCount: 32,
+  dataCoverage: 'complete',
 };
 
 describe('company library contracts', () => {
-  it('accepts the strict eight-company list shape', () => {
-    const parsed = CompanyListResponseSchema.parse({ companies: [company] });
+  it('accepts the full catalog company types and explicit data coverage', () => {
+    const catalogCompany = {
+      ...company,
+      slug: 'black-and-veatch',
+      displayName: 'Black & Veatch',
+      companyType: 'EPC',
+      projectCount: 0,
+      countryCount: 0,
+      dataCoverage: 'profile',
+    };
+    const parsed = CompanyListResponseSchema.parse({ companies: [company, catalogCompany] });
     expect(parsed.companies[0]?.slug).toBe('shell');
+    expect(parsed.companies[1]?.companyType).toBe('EPC');
     expect(() => CompanyListResponseSchema.parse({ companies: [{ ...company, extra: true }] })).toThrow();
   });
 
@@ -34,7 +47,6 @@ describe('company library contracts', () => {
       foundedYear: 1890,
       businessRegions: ['北海/北欧'],
       dashboards: {
-        banner: '/company-assets/banners/shell.html',
         map: '/company-assets/maps/index.html?operator=Shell',
         projectType: '/company-assets/charts/project-type/index.html?operator=Shell',
         production: '/company-assets/production/shell.html',
@@ -52,8 +64,31 @@ describe('company library contracts', () => {
       }],
       newsStatus: 'not-provided',
     });
-    expect(Object.values(detail.dashboards).every((url) => url.startsWith('/company-assets/'))).toBe(true);
+    expect(Object.values(detail.dashboards).every((url) => url?.startsWith('/company-assets/'))).toBe(true);
     expect(detail.relatedInformation[0]?.attachmentAvailable).toBe(false);
+  });
+
+  it('keeps report metadata strict without implying uploaded contents', () => {
+    const report = {
+      id: 'lng-middle-east-2026',
+      title: '中东 LNG 供需与项目扩张展望 2026',
+      subtitle: 'Middle East LNG Supply, Demand and Project Outlook 2026',
+      summary: '梳理中东 LNG 扩建项目。',
+      industry: 'LNG',
+      region: '中东',
+      informationType: '行业展望',
+      sourceName: 'Rystad Energy',
+      publishedOn: '2026-07-22',
+      language: '中英',
+      sourceFormat: 'PDF',
+      attachmentAvailable: false,
+      keywords: ['LNG', '扩建'],
+      relatedCompanies: [{ slug: 'adnoc', displayName: 'ADNOC' }],
+      detailStatus: 'metadata-only',
+    };
+    expect(ReportListResponseSchema.parse({ reports: [report] }).reports).toHaveLength(1);
+    expect(ReportDetailSchema.parse(report).attachmentAvailable).toBe(false);
+    expect(() => ReportDetailSchema.parse({ ...report, findings: ['未提供'] })).toThrow();
   });
 
   it('validates the local demo email session envelope', () => {

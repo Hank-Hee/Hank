@@ -25,7 +25,7 @@ export default defineConfig({
     },
   }],
   webServer: {
-    command: 'npm run build && npm run dev -w @wison/api',
+    command: 'npm run build -w @wison/contracts && npm run build -w @wison/web && npm run dev -w @wison/api',
     url: 'http://127.0.0.1:8787/api/v1/health',
     reuseExistingServer: false,
     timeout: 120_000,

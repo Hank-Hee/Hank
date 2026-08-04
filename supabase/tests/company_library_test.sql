@@ -6,19 +6,22 @@ select has_table('app_private', 'company_assets', 'company_assets table exists')
 select has_table('app_private', 'related_information', 'related_information table exists');
 select has_table('app_private', 'company_related_information', 'company relationships table exists');
 
-select is((select count(*)::integer from app_private.companies), 8, 'eight demo companies');
+select is((select count(*)::integer from app_private.companies), 126, 'all traced company profiles');
 select results_eq(
-  $$select slug from app_private.companies order by slug$$,
+  $$select slug from app_private.companies where is_featured order by slug$$,
   $$values ('adnoc'), ('bp'), ('chevron'), ('eni'), ('exxonmobil'), ('petronas'), ('shell'), ('totalenergies')$$,
   'exact company slugs'
 );
-select is((select count(*)::integer from app_private.company_assets), 56, 'seven source assets per company');
+select is((select count(*)::integer from app_private.company_assets), 234, 'profile, project, and complete portfolio assets');
 select ok(
   not exists (
-    select company_slug from app_private.company_assets
-    group by company_slug having count(*) <> 7
+    select slug from app_private.companies company
+    where not exists (
+      select 1 from app_private.company_assets asset
+      where asset.company_slug = company.slug and asset.kind = 'profile'
+    )
   ),
-  'every company has seven traced source assets'
+  'every company has a traced profile source'
 );
 select ok(
   not exists (
@@ -27,8 +30,8 @@ select ok(
   ),
   'all source assets have paths, hashes, and sizes'
 );
-select is((select count(*)::integer from app_private.related_information where kind = 'report'), 7, 'seven related reports');
-select is((select count(*)::integer from app_private.company_related_information), 12, 'twelve company-report relationships');
+select is((select count(*)::integer from app_private.related_information where kind = 'report'), 24, 'all report metadata rows');
+select is((select count(*)::integer from app_private.company_related_information), 27, 'traced company-report relationships');
 select is((select count(*)::integer from app_private.related_information where kind = 'news'), 0, 'news is not fabricated');
 select ok(
   not exists (select 1 from app_private.related_information where attachment_available),
@@ -72,8 +75,8 @@ insert into company_runtime_observations (key, value) values
   ('active_companies', (select count(*)::integer from app_private.companies)),
   ('active_reports', (select count(*)::integer from app_private.related_information));
 reset role;
-select is((select value from company_runtime_observations where key = 'active_companies'), 8, 'active user can read companies');
-select is((select value from company_runtime_observations where key = 'active_reports'), 7, 'active user can read related reports');
+select is((select value from company_runtime_observations where key = 'active_companies'), 126, 'active user can read companies');
+select is((select value from company_runtime_observations where key = 'active_reports'), 24, 'active user can read reports');
 
 select * from finish();
 rollback;

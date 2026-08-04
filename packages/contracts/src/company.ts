@@ -1,45 +1,44 @@
 import { z } from 'zod';
 
-export const companySlugValues = [
-  'adnoc',
-  'bp',
-  'chevron',
-  'eni',
-  'exxonmobil',
-  'petronas',
-  'shell',
-  'totalenergies',
-] as const;
-
-export const CompanySlugSchema = z.enum(companySlugValues);
+export const CompanySlugSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(120);
 export type CompanySlug = z.infer<typeof CompanySlugSchema>;
+
+export const CompanyTypeSchema = z.enum([
+  'EPC',
+  'IOC',
+  'NOC',
+  '联合体/合资公司',
+  '船东',
+  '资源型',
+]);
+export const CompanyDataCoverageSchema = z.enum(['complete', 'projects', 'profile']);
 
 export const CompanySummarySchema = z.strictObject({
   slug: CompanySlugSchema,
   displayName: z.string().min(1).max(100),
-  companyType: z.enum(['IOC', 'NOC']),
+  companyType: CompanyTypeSchema,
   country: z.string().min(1).max(100),
   region: z.string().min(1).max(100),
   business: z.string().min(1).max(500),
   marketPosition: z.string().min(1).max(1_000),
   headquarters: z.string().min(1).max(200),
-  projectCount: z.number().int().positive(),
-  countryCount: z.number().int().positive(),
+  projectCount: z.number().int().nonnegative(),
+  countryCount: z.number().int().nonnegative(),
+  dataCoverage: CompanyDataCoverageSchema,
 });
 export type CompanySummary = z.infer<typeof CompanySummarySchema>;
 
 export const CompanyListResponseSchema = z.strictObject({
-  companies: z.array(CompanySummarySchema).max(100),
+  companies: z.array(CompanySummarySchema).max(500),
 });
 export type CompanyListResponse = z.infer<typeof CompanyListResponseSchema>;
 
 const LocalDashboardUrlSchema = z.string().regex(/^\/company-assets\/[A-Za-z0-9/?=&._-]+$/);
 export const CompanyDashboardsSchema = z.strictObject({
-  banner: LocalDashboardUrlSchema,
-  map: LocalDashboardUrlSchema,
-  projectType: LocalDashboardUrlSchema,
-  production: LocalDashboardUrlSchema,
-  financial: LocalDashboardUrlSchema,
+  map: LocalDashboardUrlSchema.nullable(),
+  projectType: LocalDashboardUrlSchema.nullable(),
+  production: LocalDashboardUrlSchema.nullable(),
+  financial: LocalDashboardUrlSchema.nullable(),
 });
 
 export const RelatedInformationSchema = z.strictObject({
@@ -53,6 +52,38 @@ export const RelatedInformationSchema = z.strictObject({
   attachmentAvailable: z.boolean(),
 });
 export type RelatedInformation = z.infer<typeof RelatedInformationSchema>;
+
+export const RelatedCompanySchema = z.strictObject({
+  slug: CompanySlugSchema,
+  displayName: z.string().min(1).max(200),
+});
+
+export const ReportSummarySchema = z.strictObject({
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(160),
+  title: z.string().min(1).max(500),
+  subtitle: z.string().min(1).max(500).nullable(),
+  summary: z.string().min(1).max(2_000),
+  industry: z.string().min(1).max(100),
+  region: z.string().min(1).max(100),
+  informationType: z.string().min(1).max(100),
+  sourceName: z.string().min(1).max(200),
+  publishedOn: z.iso.date(),
+  language: z.string().min(1).max(30),
+  sourceFormat: z.string().min(1).max(20),
+  attachmentAvailable: z.boolean(),
+  keywords: z.array(z.string().min(1).max(100)).max(30),
+  relatedCompanies: z.array(RelatedCompanySchema).max(100),
+  detailStatus: z.literal('metadata-only'),
+});
+export type ReportSummary = z.infer<typeof ReportSummarySchema>;
+
+export const ReportListResponseSchema = z.strictObject({
+  reports: z.array(ReportSummarySchema).max(1_000),
+});
+export type ReportListResponse = z.infer<typeof ReportListResponseSchema>;
+
+export const ReportDetailSchema = ReportSummarySchema;
+export type ReportDetail = z.infer<typeof ReportDetailSchema>;
 
 export const CompanyDetailSchema = CompanySummarySchema.extend({
   sourceId: z.string().regex(/^[a-f0-9]{24}$/),

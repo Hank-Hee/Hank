@@ -34,7 +34,7 @@ describe('application shell', () => {
       </QueryClientProvider>,
     );
 
-    expect(await screen.findByRole('heading', { name: '市场知识平台' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: '惠生清能市场知识平台' })).toBeInTheDocument();
     const navigation = screen.getByRole('navigation', { name: '主导航' });
     expect(within(navigation).getAllByRole('link')).toHaveLength(3);
     expect(within(navigation).getByRole('link', { name: '首页' })).toHaveAttribute('href', '/');
@@ -42,6 +42,10 @@ describe('application shell', () => {
     expect(within(navigation).getByRole('link', { name: '行业报告库' })).toHaveAttribute('href', '/reports');
     expect(screen.queryByRole('link', { name: '管理中心' })).not.toBeInTheDocument();
     expect(await screen.findByText('API 正常')).toBeInTheDocument();
+    expect(screen.getByRole('searchbox', { name: '全站搜索' })).toHaveAttribute(
+      'placeholder',
+      '搜索公司、公司别名、行业、报告标题、新闻或关键词……',
+    );
     expect(fetch).toHaveBeenCalledWith(
       '/api/v1/health',
       expect.objectContaining({ headers: { accept: 'application/json' } }),

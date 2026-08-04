@@ -13,6 +13,9 @@ if (outputRoot !== defaultOutput && !basename(outputRoot).startsWith('company-as
 const inventory = JSON.parse(
   await readFile(resolve(repositoryRoot, 'data/company-demo-inventory.json'), 'utf8'),
 );
+const profiles = JSON.parse(
+  await readFile(resolve(repositoryRoot, 'company-text-dashboard/data/company-data.json'), 'utf8'),
+);
 const productionKey = (slug) => slug === 'exxonmobil' ? 'exxon' : slug;
 const logoFiles = {
   adnoc: 'adnoc-logo.svg',
@@ -42,8 +45,13 @@ await rm(outputRoot, { recursive: true, force: true });
 await mkdir(outputRoot, { recursive: true });
 
 const operatorManifest = JSON.parse(await readFile(resolve(repositoryRoot, 'maps/operators.json'), 'utf8'));
-const selectedSlugs = new Set(inventory.companies.map(({ slug }) => slug));
-const selectedOperators = operatorManifest.operators.filter(({ slug }) => selectedSlugs.has(slug));
+const profileNames = new Set(
+  profiles.map((profile) => String(profile['公司名称']).toLocaleLowerCase('en-US')),
+);
+const selectedOperators = operatorManifest.operators.filter((operator) =>
+  [operator.name, ...(operator.aliases ?? [])]
+    .some((name) => profileNames.has(String(name).toLocaleLowerCase('en-US'))),
+);
 await mkdir(resolve(outputRoot, 'maps'), { recursive: true });
 await writeFile(
   resolve(outputRoot, 'maps/operators.json'),
@@ -65,6 +73,9 @@ await writeTransformed(
 );
 await copy('node_modules/leaflet/dist/leaflet.js', 'maps/vendor/leaflet.js');
 await copy('maps/data/country-centers.json', 'maps/data/country-centers.json');
+for (const operator of selectedOperators) {
+  await copy(`maps/${operator.dataFile}`, `maps/${operator.dataFile}`);
+}
 
 for (const file of ['index.html', 'styles.css', 'app.js', 'chart-core.js']) {
   await copy(`charts/project-type/${file}`, `charts/project-type/${file}`);
@@ -121,6 +132,7 @@ await writeFile(
     schemaVersion: 1,
     protectedBy: '/company-assets/*',
     companies: inventory.companies.map(({ slug, displayName }) => ({ slug, displayName })),
+    projectCompanies: selectedOperators.map(({ slug, name }) => ({ slug, displayName: name })),
   }, null, 2)}\n`,
   'utf8',
 );
