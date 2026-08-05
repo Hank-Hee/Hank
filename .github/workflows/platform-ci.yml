@@ -51,7 +51,7 @@ jobs:
           npx supabase start --debug
       - run: npx supabase db reset
       - run: npx supabase test db
-      - run: npx supabase db reset --version 202607310001 --no-seed
+      - run: npx supabase db reset --version 202607310000 --no-seed
       - run: npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
       - run: npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
       - run: npx supabase db reset

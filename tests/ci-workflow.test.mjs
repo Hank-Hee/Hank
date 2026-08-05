@@ -25,7 +25,7 @@ test('platform CI runs code, database, and browser verification', async () => {
     'node --test tests/worker-artifact.integration.mjs',
     'npx supabase db reset',
     'npx supabase test db',
-    'npx supabase db reset --version 202607310001 --no-seed',
+    'npx supabase db reset --version 202607310000 --no-seed',
     'npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql',
     'npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql',
     'npm run test:db -w @wison/api',

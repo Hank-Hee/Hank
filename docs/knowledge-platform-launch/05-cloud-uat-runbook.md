@@ -40,10 +40,10 @@
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 20 --requests 200
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 50 --requests 500
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 100 --requests 1000
-npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 200 --requests 2000
+npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 200 --requests 2000 --max-p95-ms 1500
 ```
 
-门禁为：只发 GET；API p95 小于 800 ms；错误率小于 1%；公司与报告读取匿名返回 200；`/api/v1/me` 匿名返回 401；R2 没有公共域名或公开对象路由；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3.5 秒。200 是“同时执行典型只读浏览路径的用户数”口径，不是 200 RPS；API 压测作为更保守的连接上限验证，仍需真实浏览器任务复核。负载工具最多记录前 10 个失败摘要，不输出任何 secret。
+门禁为：只发 GET；20/50/100 档 API p95 小于 800 ms，200 档在 2,000 次持续请求下 p95 小于 1,500 ms；错误率小于 1%；公司与报告读取匿名返回 200；`/api/v1/me` 匿名返回 401；R2 没有公共域名或公开对象路由；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3.5 秒。200 是“同时执行典型只读浏览路径的用户数”口径，不是 200 RPS；API 压测作为更保守的连接上限验证，仍需真实浏览器任务复核。负载工具最多记录前 10 个失败摘要，不输出任何 secret。
 
 公开初上线期间禁止搜索引擎收录：静态页面同时返回 HTML robots meta 和 `X-Robots-Tag: noindex, nofollow, noarchive`，`robots.txt` 对全部爬虫声明 `Disallow: /`；Worker API 也返回 `X-Robots-Tag`。这些只是索引控制，不替代身份认证或数据分级。
 
@@ -78,12 +78,12 @@ npm run attachments:prepare -- \
 - 2026-08-04 GitHub 财务看板已同步盈利能力双轴更新；公司页“相关新闻”和“相关报告”均使用与产量/财务看板一致的外置章节标题。
 - API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重、报告服务端分页/筛选和 Cloudflare `s-maxage`；看板资源使用边缘缓存，页面只在接近可视区时创建 iframe。响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。
 - UAT Worker 明确启用 Workers Caching；公开 GET 按响应 `Cache-Control` 进入边缘缓存，健康检查、错误、用户上下文和未来受保护响应默认 `private, no-store`。
-- 必须在 Hyperdrive/Worker 环境以匿名真实数据请求重跑 20/50/100 三档；302、401 或只请求静态壳都不能替代业务 API 验收。
-- 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
-- 中英文页面任务和 20/50/100 云端负载仍需在本次部署后重跑并记录。
+- 公网完整性审计已通过：匿名首页、126 家公司、1,111 条报告元数据和 8 家重点公司的 4 类看板均可读；`/api/v1/me` 与匿名写入均返回 401，`robots.txt` 和响应头保持 noindex。
+- 2026-08-06 GitHub Actions 美国中北部独立 runner 按档串行完成公网热缓存负载：20/200 次 p95 85.3 ms、0% 错误；50/500 次 p95 226.6 ms、0.2% 错误；100/1,000 次 p95 429.8 ms、0% 错误；200/2,000 次 p95 950.6 ms、0% 错误，吞吐约 399.9 req/s。所有档位均通过分级门禁。
+- 本机曾因 VPN/DNS 路径无法稳定直连 `workers.dev`；因此容量结论以不经本机代理的 GitHub runner 为主证据。公司正式子域名到位后仍应做一轮企业网络和移动网络真人浏览复核。
+- 中英文页面已部署：首次访问默认中文，用户切换英文后用浏览器本地偏好记住。英文文案与 126 家公司、1,111 条报告标题/字段的版本化翻译随 Worker 静态产物发布，运行时不调用外部翻译服务；8 家完整看板的 iframe 英文模式也已通过“可见中文为 0”的 Playwright 检查。
 - 未来恢复账号时，Access 策略与 Worker 验证配置必须同批发布，不能只改其中一层。
-- 2026-08-05 已部署公开只读版本 `7da56c26-c67e-4cfe-98dc-a8d425f8447e`。全仓测试、类型、lint、构建、2 个数据库集成测试和 6 个浏览器 E2E 均通过；本地 20/50 并发 p95 分别为 176.8/395.6 ms 且 0% 错误，100 并发 p95 910.4 ms、0% 错误，受 2.7 GHz 四核 Intel / 8 GB 本机吞吐限制未过 500 ms 云端门禁。
-- 本机网络继续重置或污染 `workers.dev` 连接，导致部署后直接 HTTP 与远程预览隧道无法完成；Wrangler 生产部署成功且绑定已核验，但真实公网 20/50/100 仍须在可正常访问 Cloudflare 的网络重跑。不得把本机网络失败误记为 Worker 代码失败。
+- 2026-08-06 已部署公开只读双语版本 `381f7557-4e11-47ba-ade2-cd285e307dde`。源码 lint/typecheck、Wrangler dry-run、Worker 产物验收、线上中英文 Playwright 与公网数据完整性检查均通过。
 - Cloudflare 在线编辑器对 Wrangler 生成的单文件 bundle 做不完整的 JavaScript/TypeScript 静态推断，可能把 `require`、Node 兼容层和 source map 标成大量 Problems。发布门禁以源码 `lint`/`typecheck`、Wrangler dry-run 和部署结果为准，不在生成的 `index.js` 中手工修复这类提示。
 
 ## 后续正式账号

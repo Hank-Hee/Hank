@@ -29,7 +29,7 @@ The standard Supabase workflow, used by the database CI job, is:
 npx supabase start
 npx supabase db reset
 npx supabase test db
-npx supabase db reset --version 202607310001 --no-seed
+npx supabase db reset --version 202607310000 --no-seed
 npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
 npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
 npx supabase db reset
@@ -49,7 +49,7 @@ export TEST_DATABASE_URL='postgresql://shiyuhe@127.0.0.1:5432/hank_platform_test
 npm run test:db -w @wison/api
 ```
 
-Native execution proves PostgreSQL 17 migration, pgTAP, transaction, driver, and RLS behavior. It does not replace the Ubuntu CI run of the exact Supabase CLI reset/rollback/replay sequence. The rollback rehearsal first resets to the Foundation migration version without loading the current seed, because the current seed intentionally depends on later catalog migrations; after the absence assertion, a full reset restores and retests the current schema.
+Native execution proves PostgreSQL 17 migration, pgTAP, transaction, driver, and RLS behavior. It does not replace the Ubuntu CI run of the exact Supabase CLI reset/rollback/replay sequence. The rollback rehearsal first resets to the pre-Foundation anchor without loading the current seed, because the current seed intentionally depends on later catalog migrations; after the absence assertion, a full reset restores and retests the current schema.
 
 `supabase/roles.sql` owns the cluster-role lifecycle. The Foundation migration validates `app_runtime` and fails closed if the role is absent or unsafe; it never tries to repair protected role state while schema migrations are replayed.
 
