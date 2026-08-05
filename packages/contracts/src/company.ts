@@ -89,6 +89,16 @@ export type ReportSummary = z.infer<typeof ReportSummarySchema>;
 export const ReportListResponseSchema = z.strictObject({
   reports: z.array(ReportSummarySchema).max(2_000),
   syncedOn: z.iso.date(),
+  total: z.number().int().nonnegative(),
+  page: z.number().int().positive(),
+  pageSize: z.number().int().min(1).max(100),
+  facets: z.strictObject({
+    industries: z.array(z.string().min(1).max(100)).max(200),
+    regions: z.array(z.string().min(1).max(100)).max(200),
+    informationTypes: z.array(ReportInformationTypeSchema),
+    sourceFamilies: z.array(ReportSourceFamilySchema),
+    publishers: z.array(z.string().min(1).max(200)).max(1_000),
+  }),
 });
 export type ReportListResponse = z.infer<typeof ReportListResponseSchema>;
 

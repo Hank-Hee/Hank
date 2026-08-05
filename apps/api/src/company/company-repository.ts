@@ -5,9 +5,7 @@ import {
   type CompanySlug,
   type CompanySummary,
   ReportDetailSchema,
-  ReportListResponseSchema,
   type ReportDetail,
-  type ReportListResponse,
   type RelatedInformation,
 } from '@wison/contracts';
 import { withDatabaseContext, type DatabaseBinding, type SqlClient } from '../auth/database-context';
@@ -66,7 +64,10 @@ export interface CompanyRepository {
     identity: VerifiedIdentity,
     requestId: string,
   ): Promise<CompanyDetail | null>;
-  listReports(identity: VerifiedIdentity, requestId: string): Promise<ReportListResponse>;
+  listReports(identity: VerifiedIdentity, requestId: string): Promise<{
+    reports: ReportDetail[];
+    syncedOn: string;
+  }>;
   findReportById(
     id: string,
     identity: VerifiedIdentity,
@@ -238,10 +239,12 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
              from app_private.related_information where kind = 'report'`,
           ),
         ]);
-        return ReportListResponseSchema.parse({
+        const syncedOn = sync.rows[0]?.synced_on;
+        if (!syncedOn) throw new Error('Report synchronization date is unavailable.');
+        return {
           reports: result.rows.map(toReport),
-          syncedOn: sync.rows[0]?.synced_on,
-        });
+          syncedOn,
+        };
       });
     },
     findReportById(id, identity, requestId) {

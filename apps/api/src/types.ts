@@ -9,6 +9,7 @@ export interface AppBindings {
   CLOUDFLARE_ACCESS_TEAM_DOMAIN?: string;
   DATABASE_URL?: string;
   DEMO_AUTH_ENABLED?: string;
+  PUBLIC_READ_ONLY?: string;
   FILES: R2Bucket;
   HYPERDRIVE?: Hyperdrive;
   JWT_ALGORITHM: string;

@@ -95,6 +95,11 @@ h3 { color: var(--brand-900); }
   border-bottom: 1px solid var(--border);
 }
 .topbar-actions { display: flex; align-items: center; gap: 14px; margin-left: auto; white-space: nowrap; }
+.language-selector { position: relative; }
+.language-selector > button { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 5px 10px; color: var(--brand-900); background: #fff; border: 1px solid var(--border); border-radius: 5px; cursor: pointer; font-size: 11px; font-weight: 700; }
+.language-selector > div { position: absolute; top: calc(100% + 6px); right: 0; z-index: 80; min-width: 120px; padding: 5px; background: #fff; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 12px 30px rgba(23,50,77,.16); }
+.language-selector > div button { display: block; width: 100%; padding: 8px 10px; color: var(--brand-900); background: transparent; border: 0; border-radius: 4px; cursor: pointer; text-align: left; font-size: 11px; }
+.language-selector > div button:hover { background: var(--brand-100); }
 .menu-button { display: none; border: 0; color: var(--brand-900); background: transparent; font-size: 23px; }
 .health { display: inline-flex; align-items: center; gap: 6px; color: #607284; font-size: 12px; }
 .health::before { width: 7px; height: 7px; content: ""; background: #8897a5; border-radius: 50%; }
@@ -252,9 +257,12 @@ h3 { color: var(--brand-900); }
 .analysis-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(330px, 1fr); gap: 15px; }
 .dashboard-card { min-width: 0; overflow: hidden; background: #fff; border: 1px solid var(--border); border-radius: 5px; }
 .dashboard-card h4 { margin: 0; padding: 12px 14px; color: var(--brand-900); background: #f7f9fa; border-bottom: 1px solid var(--border); font-size: 12px; }
-.dashboard-frame { display: block; width: 100%; height: 590px; overflow: hidden; border: 0; background: #fff; }
+.dashboard-loader { width: 100%; height: 590px; background: #fff; }
+.dashboard-frame { display: block; width: 100%; height: 100%; overflow: hidden; border: 0; background: #fff; }
 .dashboard-frame--map { height: 590px; }
 .dashboard-frame--financial { height: 410px; }
+.dashboard-placeholder { width: 100%; height: 100%; background: linear-gradient(90deg, #f7f9fa 25%, #eef2f5 50%, #f7f9fa 75%); background-size: 200% 100%; animation: dashboard-loading 1.4s ease infinite; }
+@keyframes dashboard-loading { from { background-position: 200% 0; } to { background-position: -200% 0; } }
 .module-missing { padding: 35px; color: var(--muted); background: #f8fafb; border: 1px dashed #b8c4ce; border-radius: 5px; text-align: center; }
 .module-missing span { color: var(--brand-700); font-size: 11px; font-weight: 800; }
 .module-missing p { margin: 7px 0 0; font-size: 12px; }
@@ -354,7 +362,7 @@ h3 { color: var(--brand-900); }
   .company-profile > div, .profile-facts { padding: 20px; }
   .profile-facts { border-top: 1px solid var(--border); border-left: 0; }
   .profile-facts { grid-template-columns: 1fr; }
-  .dashboard-frame, .dashboard-frame--map, .dashboard-frame--financial { height: 520px; }
+  .dashboard-loader, .dashboard-frame--map, .dashboard-frame--financial { height: 520px; }
   .report-list > article { grid-template-columns: 1fr; gap: 8px; padding: 17px; }
   .report-cover { align-items: flex-start; flex-direction: column; min-height: 0; padding: 28px 22px; }
   .report-cover > span { width: 58px; height: 70px; }

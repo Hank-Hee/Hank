@@ -68,8 +68,27 @@ export async function getCompany(slug: string, signal?: AbortSignal): Promise<Co
   return CompanyDetailSchema.parse(await getAuthenticatedJson(`/api/v1/companies/${slug}`, signal));
 }
 
-export async function getReports(signal?: AbortSignal): Promise<ReportListResponse> {
-  return ReportListResponseSchema.parse(await getAuthenticatedJson('/api/v1/reports', signal));
+export type ReportListParameters = {
+  page?: number;
+  pageSize?: number;
+  q?: string;
+  industry?: string;
+  region?: string;
+  informationType?: string;
+  sourceFamily?: string;
+  publisher?: string;
+};
+
+export async function getReports(
+  parameters: ReportListParameters = {},
+  signal?: AbortSignal,
+): Promise<ReportListResponse> {
+  const query = new URLSearchParams();
+  for (const [key, value] of Object.entries(parameters)) {
+    if (value !== undefined && value !== '') query.set(key, String(value));
+  }
+  const suffix = query.size ? `?${query}` : '';
+  return ReportListResponseSchema.parse(await getAuthenticatedJson(`/api/v1/reports${suffix}`, signal));
 }
 
 export async function getReport(id: string, signal?: AbortSignal): Promise<ReportDetail> {

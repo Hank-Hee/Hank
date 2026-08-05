@@ -42,11 +42,25 @@ test('opens the full company directory and renders the protected Shell portfolio
   await page.locator('a[href="/companies/shell"]').click();
 
   await expect(page.getByRole('heading', { name: 'Shell', exact: true })).toBeVisible();
+  await page.getByRole('heading', { name: '经营与财务表现' }).scrollIntoViewIfNeeded();
   await expect(page.locator('iframe')).toHaveCount(4);
   await expect(page.frameLocator('iframe[title="Shell 全球业务／项目分布"]').locator('#total-projects')).toHaveText('552');
   await expect(page.getByRole('heading', { name: '经营与财务表现' })).toBeVisible();
   await expect(page.getByText('附件未提供').first()).toBeVisible();
   await expect(page.getByText('暂无可追溯新闻数据')).toBeVisible();
+});
+
+test('switches native application pages to English without duplicate eyebrow titles', async ({ page }) => {
+  await enterDemo(page);
+  await page.getByRole('button', { name: '选择语言' }).click();
+  await page.getByRole('menuitem', { name: 'English' }).click();
+  await expect(page.getByRole('heading', { name: 'Wison New Energies Market Knowledge Platform' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Company Library', exact: true })).toBeVisible();
+  await page.getByRole('link', { name: 'Company Library', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Company Library' })).toBeVisible();
+  await expect(page.getByText('COMPANY DIRECTORY')).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Company Library' })).toBeVisible();
 });
 
 test('filters report metadata and opens an honest metadata-only detail', async ({ page }) => {

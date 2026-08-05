@@ -1,12 +1,13 @@
 import '@testing-library/jest-dom/vitest';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { RouterProvider, createMemoryHistory } from '@tanstack/react-router';
-import { render, screen, within } from '@testing-library/react';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createAppRouter } from '../app-router';
 
 beforeEach(() => {
   sessionStorage.clear();
+  localStorage.clear();
   vi.stubGlobal(
     'fetch',
     vi.fn().mockResolvedValue(
@@ -52,5 +53,28 @@ describe('application shell', () => {
       '/api/v1/health',
       expect.objectContaining({ headers: { accept: 'application/json' } }),
     );
+  });
+
+  it('switches the full application chrome to English and remembers the preference', async () => {
+    const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } });
+    const router = createAppRouter(createMemoryHistory({ initialEntries: ['/'] }));
+    render(
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>,
+    );
+
+    fireEvent.click(await screen.findByRole('button', { name: '选择语言' }));
+    fireEvent.click(screen.getByRole('menuitem', { name: 'English' }));
+
+    expect(screen.getByRole('heading', { name: 'Wison New Energies Market Knowledge Platform' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Company Library' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Industry Reports' })).toBeInTheDocument();
+    expect(screen.getByRole('searchbox', { name: 'Site search' })).toHaveAttribute(
+      'placeholder', 'Search companies, industries, reports, news, or keywords…',
+    );
+    expect(screen.queryByText('MARKET INTELLIGENCE REFERENCE')).not.toBeInTheDocument();
+    expect(localStorage.getItem('wison-locale')).toBe('en');
+    expect(document.documentElement.lang).toBe('en');
   });
 });

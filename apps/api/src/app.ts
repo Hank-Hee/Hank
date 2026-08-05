@@ -10,6 +10,7 @@ import { AppError } from './lib/app-error';
 import { authentication, type AuthServicesFactory } from './middleware/authentication';
 import { requestIdMiddleware } from './middleware/request-id';
 import { requirePermission } from './middleware/require-permission';
+import { isPublicReadRequest, readOnlyAccess } from './middleware/read-only-access';
 import { healthRoutes } from './routes/health';
 import { companyRoutes, type CompanyRepositoryFactory } from './routes/companies';
 import { demoSessionRoutes } from './routes/demo-session';
@@ -68,24 +69,39 @@ export function createApp(
   protectedMe.route('/', meRoutes);
   app.route('/api/v1/me', protectedMe);
 
-  const protectedCompanies = new Hono<AppEnvironment>();
-  protectedCompanies.use('*', authentication(getAuthServices));
-  protectedCompanies.use('*', requirePermission('platform.access'));
-  protectedCompanies.route('/', companyRoutes(getCompanyRepository));
-  app.route('/api/v1/companies', protectedCompanies);
+  const readableCompanies = new Hono<AppEnvironment>();
+  readableCompanies.use('*', readOnlyAccess(getAuthServices));
+  readableCompanies.use('*', async (context, next) => {
+    if (!isPublicReadRequest(context.env, context.req.method)) return requirePermission('platform.access')(context, next);
+    await next();
+  });
+  readableCompanies.route('/', companyRoutes(getCompanyRepository));
+  app.route('/api/v1/companies', readableCompanies);
 
-  const protectedReports = new Hono<AppEnvironment>();
-  protectedReports.use('*', authentication(getAuthServices));
-  protectedReports.use('*', requirePermission('platform.access'));
-  protectedReports.route('/', reportRoutes(getCompanyRepository));
-  app.route('/api/v1/reports', protectedReports);
+  const readableReports = new Hono<AppEnvironment>();
+  readableReports.use('*', readOnlyAccess(getAuthServices));
+  readableReports.use('*', async (context, next) => {
+    if (!isPublicReadRequest(context.env, context.req.method)) return requirePermission('platform.access')(context, next);
+    await next();
+  });
+  readableReports.route('/', reportRoutes(getCompanyRepository));
+  app.route('/api/v1/reports', readableReports);
 
-  app.use('/company-assets/*', authentication(getAuthServices));
-  app.use('/company-assets/*', requirePermission('platform.access'));
+  app.use('/company-assets/*', readOnlyAccess(getAuthServices));
+  app.use('/company-assets/*', async (context, next) => {
+    if (!isPublicReadRequest(context.env, context.req.method)) return requirePermission('platform.access')(context, next);
+    await next();
+  });
   app.get('/company-assets/*', async (context) => {
     const asset = await context.env.ASSETS.fetch(context.req.raw);
     const headers = new Headers(asset.headers);
     headers.set('content-security-policy', dashboardContentSecurityPolicy);
+    headers.set(
+      'cache-control',
+      isPublicReadRequest(context.env, context.req.method)
+        ? 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
+        : 'private, max-age=60',
+    );
     return new Response(asset.body, {
       status: asset.status,
       statusText: asset.statusText,

@@ -45,6 +45,7 @@ function renderRoute(path: string) {
 
 beforeEach(() => {
   sessionStorage.clear();
+  localStorage.clear();
   vi.restoreAllMocks();
 });
 
@@ -79,6 +80,8 @@ describe('company library UI', () => {
     renderRoute('/companies/shell');
 
     expect(await screen.findByRole('heading', { name: 'Shell' })).toBeInTheDocument();
+    expect(screen.queryByText('COMPANY PORTFOLIO')).not.toBeInTheDocument();
+    expect(screen.queryByText('COMPANY OVERVIEW')).not.toBeInTheDocument();
     const dashboards = screen.getAllByTitle(/Shell/);
     expect(dashboards.map(({ title }) => title)).toEqual([
       'Shell 全球业务／项目分布',

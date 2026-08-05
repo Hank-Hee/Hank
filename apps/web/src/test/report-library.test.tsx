@@ -36,9 +36,24 @@ function renderRoute(path: string) {
 
 beforeEach(() => {
   sessionStorage.setItem('company-demo-token', 'demo.local');
+  localStorage.clear();
   vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
     const url = String(input);
-    if (url === '/api/v1/reports') return new Response(JSON.stringify({ reports: [report], syncedOn: '2026-08-04' }));
+    if (url.startsWith('/api/v1/reports?')) {
+      const query = new URL(url, 'https://local.test').searchParams;
+      const rows = query.get('q') === '不存在' ? [] : [report];
+      return new Response(JSON.stringify({
+        reports: rows,
+        syncedOn: '2026-08-04',
+        total: rows.length,
+        page: Number(query.get('page') ?? 1),
+        pageSize: Number(query.get('pageSize') ?? 50),
+        facets: {
+          industries: ['LNG'], regions: ['中东'], informationTypes: ['行业研究报告'],
+          sourceFamilies: ['行业研究'], publishers: ['Rystad Energy'],
+        },
+      }));
+    }
     if (url === `/api/v1/reports/${report.id}`) return new Response(JSON.stringify(report));
     if (url === '/api/v1/companies') return new Response(JSON.stringify({ companies: [] }));
     return new Response(JSON.stringify({ status: 'ok', service: 'api', version: '0.1.0', timestamp: '2026-08-04T00:00:00.000Z' }));
@@ -73,7 +88,7 @@ describe('report archive UI', () => {
       'href', `/reports/${report.id}`,
     );
     fireEvent.change(screen.getByLabelText('报告检索'), { target: { value: '不存在' } });
-    expect(screen.getByText('没有符合条件的报告')).toBeInTheDocument();
+    expect(await screen.findByText('没有符合条件的报告')).toBeInTheDocument();
   });
 
   it('shows only traceable metadata and an explicit unavailable attachment state', async () => {

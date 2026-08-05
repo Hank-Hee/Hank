@@ -87,7 +87,22 @@ describe('company library contracts', () => {
       relatedCompanies: [{ slug: 'adnoc', displayName: 'ADNOC' }],
       detailStatus: 'metadata-only',
     };
-    expect(ReportListResponseSchema.parse({ reports: [report], syncedOn: '2026-08-04' }).reports).toHaveLength(1);
+    const catalog = ReportListResponseSchema.parse({
+      reports: [report],
+      syncedOn: '2026-08-04',
+      total: 1,
+      page: 1,
+      pageSize: 50,
+      facets: {
+        industries: ['LNG'],
+        regions: ['全球'],
+        informationTypes: ['行业研究报告'],
+        sourceFamilies: ['行业研究'],
+        publishers: ['Rystad Energy'],
+      },
+    });
+    expect(catalog.reports).toHaveLength(1);
+    expect(catalog.total).toBe(1);
     expect(ReportDetailSchema.parse(report).attachmentAvailable).toBe(false);
     expect(() => ReportDetailSchema.parse({ ...report, findings: ['未提供'] })).toThrow();
   });

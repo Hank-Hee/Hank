@@ -4,33 +4,33 @@
 |---|---|
 | 状态 | 执行中 |
 | 当前分支 | `feat/cloud-uat-readiness` |
-| 当前阶段 | Cloudflare 内部 UAT 已部署，统一报告目录已同步，进入人员与云端并发验收 |
+| 当前阶段 | Cloudflare 公开只读初上线，进入真实页面与云端并发验收 |
 | 当前产品交付 | 云端可检索的 126 家公司档案、8 家完整 Portfolio、1,111 条报告元数据和私有 R2 市场数据 |
-| UAT 地址 | `https://wison-knowledge-platform.wison.workers.dev`（Cloudflare Access 保护） |
+| 初上线地址 | `https://wison-knowledge-platform.wison.workers.dev`（公开只读） |
 | 生产发布 | 待公司正式子域名、公开账号登录和完整生产验收 |
-| 更新日期 | 2026-08-04 |
+| 更新日期 | 2026-08-05 |
 
 本目录是“知识平台产品上线”的 GitHub 总入口，记录已批准的产品优先级、UAT 边界、数据就绪策略和交付顺序。Foundation 计划仍保留为历史基线；2026-08-03 起的产品纵切采用精简工程工作流，以测试、全仓门禁、真实数据核验和独立 Git 提交保证可靠性。
 
 ## 已批准的产品方向
 
-- 首个可用环境是由 Cloudflare Access 保护的内部 UAT；当前先由 `849943802@qq.com` 单人验收，后续再扩展至 10–20 名测试用户，并进行 20–100 并发只读验收，不是公开生产站。
-- 第一阶段所有已登录用户均拥有内容查看权限；不由角色名称隐式推导权限。
+- 首个可用环境是 Cloudflare 公开只读初上线站；先由产品负责人验收，再扩展至 10–20 名测试用户，并进行 20–100 并发只读验收，不是完整生产站。
+- 第一阶段所有访问者均可查看公司、报告元数据和看板；写入、管理、用户上下文、数据库与 R2 保持受保护。
 - 左侧栏只有三个业务入口：`首页`、`公司信息库`、`行业报告库`。
 - 公司信息库展示仓库全部 126 家真实档案；Shell、BP、ExxonMobil、Petronas、ADNOC、Chevron、ENI 和 TotalEnergies 提供完整 Portfolio，其余公司按来源能力渐进展示。
 - 行业报告库合并两张源表为 1,111 条统一目录；原“来源”统一命名为“发布机构”，保留区域，报告类型归一到四个标准值。附件未上传时只展示可验证元数据和“附件未提供”状态。
-- Foundation Task 1A–10 已完成；公司 UAT、报告元数据档案和客户端全站检索已完成本地代码与数据验收，之后扩展附件、工作流和管理能力。
+- Foundation Task 1A–10 已完成；公司 UAT、报告元数据档案和服务端报告检索已完成本地代码与数据验收，之后扩展附件、工作流和管理能力。
 
 ## 当前 Demo 证据
 
 - 126 家公司、234 条可追溯资产记录、1,111 条报告元数据和 642 条精确公司关联已通过可重跑导入进入 PostgreSQL。
 - 报告目录由 741 条行业研究与 370 条公司披露组成；标准类型为行业研究报告 741、财务报告 207、年度综合报告 102、ESG 与可持续发展报告 61。
 - 68 家公司具备项目地图数据；8 家重点公司具备项目、产量和财务的完整 Portfolio。
-- 本地自动只读身份、只读 RLS、Cloudflare Access JWT 验证、公司/报告列表与详情 API、全站检索和受保护图表资源已接通；可见邮箱快速入口已撤下。
+- 本地自动只读身份、只读 RLS、公开只读公司/报告 API、服务端分页检索和看板资源已接通；可见邮箱快速入口已撤下，Access 验证代码保留供账号阶段恢复。
 - Shell 验收样本的 4 个嵌入模块均在真实浏览器加载；公司 Banner 已改为原生响应式组件，地图统计为 552 个项目。
 - 报告附件与新闻缺失均明确显示，不生成虚假内容、研究结论、目录或下载能力。
 - PDF、Excel、PowerPoint 附件的 manifest 安全预检已就绪；真实文件和外部上传凭据到位前不改变附件可用状态。
-- Supabase 新加坡 UAT、Hyperdrive、两个 private R2 桶和 Cloudflare Access 已连接；Worker 另以 `849943802@qq.com` 明确白名单做纵深校验。当前剩余门禁是人员验收、Access 30 天会话设置、Access Service Token 云端负载验收和正式公司子域名。
+- Supabase 新加坡 UAT、Hyperdrive 和两个 private R2 桶已连接；网站公开不改变这些资源的私有性。当前剩余门禁是公开只读部署核验、人员验收、匿名 20/50/100 云端负载和正式公司子域名。
 
 ## 文档导航
 
@@ -38,7 +38,7 @@
 2. [`02-uat-scope-and-acceptance.md`](02-uat-scope-and-acceptance.md) — 第一个可用版本的功能、页面顺序和验收证据。
 3. [`03-data-readiness.md`](03-data-readiness.md) — 现有 GitHub 资产、数据缺口、导入原则和权利约束。
 4. [`04-delivery-roadmap.md`](04-delivery-roadmap.md) — 从 Foundation 到内部 UAT、再到生产验收的交付顺序。
-5. [`05-cloud-uat-runbook.md`](05-cloud-uat-runbook.md) — Supabase、Hyperdrive、private R2、Cloudflare Access、负载和报告附件的操作边界。
+5. [`05-cloud-uat-runbook.md`](05-cloud-uat-runbook.md) — Supabase、Hyperdrive、private R2、公开只读边界、负载和报告附件的操作边界。
 
 ## 五层权威链
 

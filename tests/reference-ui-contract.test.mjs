@@ -16,6 +16,7 @@ test('reference UI keeps page eyebrows deep blue and dashboard frames scroll-fre
   assert.match(styles, /\.library-icon\s*\{[^}]*width:\s*42px[^}]*height:\s*42px[^}]*border-radius:\s*4px/s);
   assert.match(styles, /\.dashboard-frame\s*\{[^}]*overflow:\s*hidden/s);
   assert.match(router, /scrolling="no"/);
+  assert.doesNotMatch(router, /className="eyebrow"|banner-kicker/);
   assert.doesNotMatch(router, /邮箱登录|工作邮箱|进入内部 Demo/);
   assert.match(productionStyles, /html, body\s*\{[^}]*height:\s*100%[^}]*overflow:\s*hidden/s);
   assert.match(productionStyles, /\.chart-stage\s*\{[^}]*flex:\s*1[^}]*min-height:\s*0/s);

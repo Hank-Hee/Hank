@@ -12,7 +12,9 @@ export const companyRoutes = (getRepository: CompanyRepositoryFactory) => {
   const readList = createReadThroughCache<string>();
   const readDetail = createKeyedReadThroughCache<string, Awaited<ReturnType<CompanyRepository['findBySlug']>>>();
   routes.get('/', async (context) => {
-    context.header('cache-control', 'private, max-age=60');
+    context.header('cache-control', context.env?.PUBLIC_READ_ONLY === 'true'
+      ? 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+      : 'private, max-age=60');
     const companies = await readList(async () => JSON.stringify({
       companies: await getRepository(context.env).list(
         context.get('identity'), context.get('requestId'),
@@ -27,7 +29,9 @@ export const companyRoutes = (getRepository: CompanyRepositoryFactory) => {
       parsed.data, context.get('identity'), context.get('requestId'),
     ));
     if (!company) throw new AppError('NOT_FOUND', 404, 'Company was not found.');
-    context.header('cache-control', 'private, max-age=60');
+    context.header('cache-control', context.env?.PUBLIC_READ_ONLY === 'true'
+      ? 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+      : 'private, max-age=60');
     return context.json(company);
   });
   return routes;

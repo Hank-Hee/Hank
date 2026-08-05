@@ -81,6 +81,35 @@ describe('company library API', () => {
     expect((await appWith(repository).request('/api/v1/companies')).status).toBe(401);
   });
 
+  it('publishes only read-only catalog and dashboard routes when public mode is explicit', async () => {
+    const repository: CompanyRepository = {
+      list: vi.fn(async () => [summary]),
+      findBySlug: vi.fn(async () => detail),
+      listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
+      findReportById: vi.fn(async () => report),
+    };
+    const assets = { fetch: vi.fn(async () => fetch('data:text/html,<html>dashboard</html>')) };
+    const app = appWith(repository);
+    const env = { ASSETS: assets, PUBLIC_READ_ONLY: 'true' };
+
+    const companies = await app.request('/api/v1/companies', {}, env);
+    const reports = await app.request('/api/v1/reports?page=1&pageSize=1&q=ESG', {}, env);
+    const dashboard = await app.request('/company-assets/financial/shell.html', {}, env);
+    const me = await app.request('/api/v1/me', {}, env);
+    const writeAttempt = await app.request('/api/v1/companies', { method: 'POST' }, env);
+
+    expect(companies.status).toBe(200);
+    expect(companies.headers.get('cache-control')).toContain('public');
+    expect(reports.status).toBe(200);
+    expect(ReportListResponseSchema.parse(await reports.json())).toMatchObject({
+      total: 1, page: 1, pageSize: 1,
+    });
+    expect(dashboard.status).toBe(200);
+    expect(dashboard.headers.get('cache-control')).toContain('public');
+    expect(me.status).toBe(401);
+    expect(writeAttempt.status).toBe(401);
+  });
+
   it('returns a strict company list and detail', async () => {
     const repository: CompanyRepository = {
       list: vi.fn(async () => [summary]),

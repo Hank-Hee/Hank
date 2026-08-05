@@ -7,9 +7,10 @@ import {
   createRouter,
   type RouterHistory,
 } from '@tanstack/react-router';
-import type { CompanySummary, ReportSummary } from '@wison/contracts';
-import { type KeyboardEvent, useMemo, useRef, useState } from 'react';
+import type { CompanySummary } from '@wison/contracts';
+import { type KeyboardEvent, useEffect, useMemo, useRef, useState } from 'react';
 import { HealthBadge } from './components/health-badge';
+import { I18nProvider, useI18n } from './i18n';
 import {
   getCompanies,
   getCompany,
@@ -29,16 +30,22 @@ const coverageLabels = {
   profile: '公司档案',
 } as const;
 
-function useCatalog() {
+function useCompanies() {
   const companies = useQuery({
     queryKey: ['companies'],
     queryFn: ({ signal }) => getCompanies(signal),
+    staleTime: 5 * 60_000,
   });
-  const reports = useQuery({
-    queryKey: ['reports'],
-    queryFn: ({ signal }) => getReports(signal),
-  });
-  return { companies, reports };
+  return companies;
+}
+
+function useDebouncedValue(value: string, delay = 200) {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const timeout = window.setTimeout(() => setDebounced(value), delay);
+    return () => window.clearTimeout(timeout);
+  }, [delay, value]);
+  return debounced;
 }
 
 type SearchResult =
@@ -47,17 +54,24 @@ type SearchResult =
 
 function GlobalSearch({
   companies,
-  reports,
   variant = 'top',
 }: {
   companies: CompanySummary[];
-  reports: ReportSummary[];
   variant?: 'top' | 'hero';
 }) {
+  const { locale, t, value } = useI18n();
   const [term, setTerm] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
   const linkRefs = useRef<Array<HTMLAnchorElement | null>>([]);
   const normalized = term.trim().toLocaleLowerCase();
+  const debouncedTerm = useDebouncedValue(term.trim());
+  const reportSearch = useQuery({
+    queryKey: ['report-search', debouncedTerm],
+    queryFn: ({ signal }) => getReports({ q: debouncedTerm, pageSize: 6 }, signal),
+    enabled: debouncedTerm.length > 0,
+    staleTime: 5 * 60_000,
+  });
+  const reports = reportSearch.data?.reports ?? [];
   const results = useMemo<SearchResult[]>(() => {
     if (!normalized) return [];
     const companyResults: SearchResult[] = companies
@@ -74,7 +88,7 @@ function GlobalSearch({
         kind: 'company',
         key: `company-${company.slug}`,
         label: company.displayName,
-        secondary: `${company.companyType} · ${company.country}`,
+        secondary: `${value(company.companyType)} · ${value(company.country)}`,
         slug: company.slug,
       }));
     const reportResults: SearchResult[] = reports
@@ -91,12 +105,12 @@ function GlobalSearch({
       .map((report) => ({
         kind: 'report',
         key: `report-${report.id}`,
-        label: report.title,
-        secondary: `${report.industry} · ${report.publisher}`,
+        label: locale === 'en' && report.subtitle ? report.subtitle : report.title,
+        secondary: `${value(report.industry)} · ${report.publisher}`,
         reportId: report.id,
       }));
     return [...companyResults, ...reportResults];
-  }, [companies, normalized, reports]);
+  }, [companies, locale, normalized, reports, value]);
 
   function handleKeyboard(event: KeyboardEvent<HTMLInputElement>) {
     if (!results.length) return;
@@ -118,7 +132,7 @@ function GlobalSearch({
     <div className={`global-search global-search--${variant}`}>
       <span className="search-icon" aria-hidden="true">⌕</span>
       <input
-        aria-label={variant === 'top' ? '全站搜索' : '首页检索'}
+        aria-label={t(variant === 'top' ? '全站搜索' : '首页检索')}
         type="search"
         value={term}
         onChange={(event) => {
@@ -126,15 +140,15 @@ function GlobalSearch({
           setActiveIndex(0);
         }}
         onKeyDown={handleKeyboard}
-        placeholder="搜索公司、公司别名、行业、报告标题、新闻或关键词……"
+        placeholder={t('搜索公司、公司别名、行业、报告标题、新闻或关键词……')}
       />
-      {term ? <button type="button" aria-label="清除搜索" onClick={() => setTerm('')}>×</button> : null}
+      {term ? <button type="button" aria-label={t('清除搜索')} onClick={() => setTerm('')}>×</button> : null}
       {normalized ? (
-        <div className="search-results" role="listbox" aria-label="搜索结果">
+        <div className="search-results" role="listbox" aria-label={t('搜索结果')}>
           {results.length ? results.map((result, index) => (
             <div className="search-result-block" key={result.key}>
               {index === 0 || results[index - 1]?.kind !== result.kind ? (
-                <div className="search-group-heading">{result.kind === 'company' ? '公司' : '报告'}</div>
+                <div className="search-group-heading">{t(result.kind === 'company' ? '公司' : '报告')}</div>
               ) : null}
               {result.kind === 'company' ? (
               <Link
@@ -144,7 +158,7 @@ function GlobalSearch({
                 params={{ slug: result.slug }}
                 onClick={() => setTerm('')}
               >
-                <span><small>公司</small>{result.label}</span><em>{result.secondary}</em>
+                <span><small>{t('公司')}</small>{result.label}</span><em>{result.secondary}</em>
               </Link>
             ) : (
               <Link
@@ -154,49 +168,62 @@ function GlobalSearch({
                 params={{ reportId: result.reportId }}
                 onClick={() => setTerm('')}
               >
-                <span><small>报告</small>{result.label}</span><em>{result.secondary}</em>
+                <span><small>{t('报告')}</small>{result.label}</span><em>{result.secondary}</em>
               </Link>
               )}
             </div>
-          )) : <p>未找到匹配的公司或报告</p>}
-          <footer>↑ ↓ 选择 · Enter 打开 · Esc 关闭</footer>
+          )) : reportSearch.isPending ? <p>{t('报告数据加载中…')}</p> : <p>{t('未找到匹配的公司或报告')}</p>}
+          <footer>{t('↑ ↓ 选择 · Enter 打开 · Esc 关闭')}</footer>
         </div>
       ) : null}
     </div>
   );
 }
 
-function AppShell() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const catalog = useCatalog();
+function LanguageSelector() {
+  const { locale, setLocale, t } = useI18n();
+  const [open, setOpen] = useState(false);
+  return <div className="language-selector">
+    <button type="button" aria-label={t('选择语言')} aria-expanded={open} onClick={() => setOpen((value) => !value)}>
+      <span aria-hidden="true">◎</span>{locale === 'zh' ? '中文' : 'English'}
+    </button>
+    {open ? <div role="menu">
+      <button type="button" role="menuitem" onClick={() => { setLocale('zh'); setOpen(false); }}>中文</button>
+      <button type="button" role="menuitem" onClick={() => { setLocale('en'); setOpen(false); }}>English</button>
+    </div> : null}
+  </div>;
+}
 
-  const companies = catalog.companies.data?.companies ?? [];
-  const reports = catalog.reports.data?.reports ?? [];
+function AppShellContent() {
+  const { t } = useI18n();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const catalog = useCompanies();
+  const companies = catalog.data?.companies ?? [];
   return (
     <div className="app-shell">
       <aside className={menuOpen ? 'sidebar is-open' : 'sidebar'}>
         <div className="brand-block">
-          <h1>惠生清能<br />市场知识平台</h1>
-          <span>MARKET KNOWLEDGE PLATFORM</span>
+          <h1>{t('惠生清能市场知识平台')}</h1>
         </div>
-        <nav aria-label="主导航" className="primary-nav">
+        <nav aria-label={t('主导航')} className="primary-nav">
           {navigation.map(([to, label, icon]) => (
             <Link key={to} to={to} activeProps={{ 'aria-current': 'page' }} onClick={() => setMenuOpen(false)}>
-              <i aria-hidden="true">{icon}</i><span>{label}</span>
+              <i aria-hidden="true">{icon}</i><span>{t(label)}</span>
             </Link>
           ))}
         </nav>
         <div className="sidebar-foot">
-          <span>内部只读 Demo</span>
-          <small>数据来自仓库可追溯资料</small>
+          <span>{t('内部只读 Demo')}</span>
+          <small>{t('数据来自仓库可追溯资料')}</small>
         </div>
       </aside>
-      {menuOpen ? <button className="sidebar-scrim" aria-label="关闭导航" onClick={() => setMenuOpen(false)} /> : null}
+      {menuOpen ? <button className="sidebar-scrim" aria-label={t('关闭导航')} onClick={() => setMenuOpen(false)} /> : null}
       <div className="workspace">
         <header className="topbar">
-          <button className="menu-button" type="button" aria-label="打开导航" onClick={() => setMenuOpen(true)}>☰</button>
-          <GlobalSearch companies={companies} reports={reports} />
+          <button className="menu-button" type="button" aria-label={t('打开导航')} onClick={() => setMenuOpen(true)}>☰</button>
+          <GlobalSearch companies={companies} />
           <div className="topbar-actions">
+            <LanguageSelector />
             <HealthBadge />
           </div>
         </header>
@@ -206,55 +233,64 @@ function AppShell() {
   );
 }
 
+function AppShell() {
+  return <I18nProvider><AppShellContent /></I18nProvider>;
+}
+
 function HomePage() {
-  const { companies, reports } = useCatalog();
+  const { t, value, locale } = useI18n();
+  const companies = useCompanies();
+  const reports = useQuery({
+    queryKey: ['reports', 'latest'],
+    queryFn: ({ signal }) => getReports({ page: 1, pageSize: 5 }, signal),
+    staleTime: 5 * 60_000,
+  });
   const companyRows = companies.data?.companies ?? [];
   const reportRows = reports.data?.reports ?? [];
   const complete = companyRows.filter(({ dataCoverage }) => dataCoverage === 'complete');
   return (
     <div className="home-page">
       <section className="home-hero">
-        <p className="eyebrow">MARKET INTELLIGENCE REFERENCE</p>
-        <h2>快速定位公司档案、Portfolio 与行业研究资料</h2>
-        <p>面向内部市场研究人员的统一检索入口，连接公司基础信息、项目组合、相关新闻与行业报告。</p>
-        <GlobalSearch companies={companyRows} reports={reportRows} variant="hero" />
+        <h2>{t('快速定位公司档案、Portfolio 与行业研究资料')}</h2>
+        <p>{t('面向内部市场研究人员的统一检索入口，连接公司基础信息、项目组合、相关新闻与行业报告。')}</p>
+        <GlobalSearch companies={companyRows} variant="hero" />
       </section>
-      <section className="library-cards" aria-label="知识库入口">
+      <section className="library-cards" aria-label={t('知识库入口')}>
         <Link to="/companies">
           <span className="library-icon">▦</span>
-          <div><small>COMPANY DIRECTORY</small><h3>公司信息库</h3><p>检索公司档案、区域项目、产量和财务信息。</p></div>
-          <b>进入 →</b>
+          <div><h3>{t('公司信息库')}</h3><p>{t('检索公司档案、区域项目、产量和财务信息。')}</p></div>
+          <b>{t('进入 →')}</b>
         </Link>
         <Link to="/reports">
           <span className="library-icon">▤</span>
-          <div><small>RESEARCH ARCHIVE</small><h3>行业报告库</h3><p>按行业、区域、来源和关联公司定位研究资料。</p></div>
-          <b>进入 →</b>
+          <div><h3>{t('行业报告库')}</h3><p>{t('按行业、区域、来源和关联公司定位研究资料。')}</p></div>
+          <b>{t('进入 →')}</b>
         </Link>
       </section>
-      <section className="stats-strip" aria-label="资料统计">
-        <div><strong>{companyRows.length}</strong><span>已归档公司</span></div>
-        <div><strong>{reportRows.length}</strong><span>行业报告与资料</span></div>
-        <div><strong className="sync-date">{reports.data?.syncedOn ?? '—'}</strong><span>最近一次更新</span></div>
+      <section className="stats-strip" aria-label={t('资料统计')}>
+        <div><strong>{companyRows.length}</strong><span>{t('已归档公司')}</span></div>
+        <div><strong>{reports.data?.total ?? 0}</strong><span>{t('行业报告与资料')}</span></div>
+        <div><strong className="sync-date">{reports.data?.syncedOn ?? '—'}</strong><span>{t('最近一次更新')}</span></div>
       </section>
       <div className="home-columns">
         <section className="content-panel compact-panel">
-          <header><div><p className="eyebrow">FOCUS COMPANIES</p><h3>重点公司</h3></div><Link to="/companies">查看全部</Link></header>
-          {companies.isPending ? <p className="state-message">公司数据加载中…</p> : null}
+          <header><div><h3>{t('重点公司')}</h3></div><Link to="/companies">{t('查看全部')}</Link></header>
+          {companies.isPending ? <p className="state-message">{t('公司数据加载中…')}</p> : null}
           {complete.slice(0, 6).map((company) => (
             <Link className="compact-row" key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>
               <span className="initial-badge">{company.displayName.slice(0, 2).toUpperCase()}</span>
-              <span><b>{company.displayName}</b><small>{company.companyType} · {company.country}</small></span>
-              <em>{company.projectCount} 个项目</em>
+              <span><b>{company.displayName}</b><small>{value(company.companyType)} · {value(company.country)}</small></span>
+              <em>{company.projectCount}{t('个项目')}</em>
             </Link>
           ))}
         </section>
         <section className="content-panel compact-panel">
-          <header><div><p className="eyebrow">LATEST RESEARCH</p><h3>最新报告</h3></div><Link to="/reports">查看全部</Link></header>
-          {reports.isPending ? <p className="state-message">报告数据加载中…</p> : null}
+          <header><div><h3>{t('最新报告')}</h3></div><Link to="/reports">{t('查看全部')}</Link></header>
+          {reports.isPending ? <p className="state-message">{t('报告数据加载中…')}</p> : null}
           {reportRows.slice(0, 5).map((report) => (
             <Link className="compact-row" key={report.id} to="/reports/$reportId" params={{ reportId: report.id }}>
               <span className="date-badge">{report.publishedOn?.slice(5) ?? '待补'}</span>
-              <span><b>{report.title}</b><small>{report.industry} · {report.publisher}</small></span>
+              <span><b>{locale === 'en' && report.subtitle ? report.subtitle : report.title}</b><small>{value(report.industry)} · {report.publisher}</small></span>
             </Link>
           ))}
         </section>
@@ -264,6 +300,7 @@ function HomePage() {
 }
 
 function CompanyListPage() {
+  const { t, value } = useI18n();
   const [search, setSearch] = useState('');
   const [type, setType] = useState('');
   const [region, setRegion] = useState('');
@@ -290,35 +327,35 @@ function CompanyListPage() {
   return (
     <section>
       <div className="page-heading">
-        <div><p className="eyebrow">COMPANY DIRECTORY</p><h2>公司信息库</h2><p>按公司名称、类型、地区和业务领域检索标准化公司档案。</p></div>
-        <span className="record-count">{filteredCompanies.length} / {companies.length} 家公司</span>
+        <div><h2>{t('公司信息库')}</h2><p>{t('按公司名称、类型、地区和业务领域检索标准化公司档案。')}</p></div>
+        <span className="record-count">{filteredCompanies.length} / {companies.length}{t('家公司')}</span>
       </div>
       <div className="filter-panel company-filters">
-        <label><span>公司名称、英文名、简称</span><input aria-label="公司检索" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="输入公司名称" /></label>
-        <label><span>公司类型</span><select value={type} onChange={(event) => setType(event.target.value)}><option value="">全部类型</option>{types.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>国家／地区</span><select value={region} onChange={(event) => setRegion(event.target.value)}><option value="">全部地区</option>{regions.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>业务领域</span><select value={business} onChange={(event) => setBusiness(event.target.value)}><option value="">全部业务</option>{businesses.map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>上市状态</span><select value={listed} onChange={(event) => setListed(event.target.value)}><option value="">全部状态</option><option value="not-provided">未标注</option></select></label>
-        <button type="button" onClick={clearFilters}>清除筛选</button>
+        <label><span>{t('公司名称、英文名、简称')}</span><input aria-label={t('公司名称、英文名、简称')} value={search} onChange={(event) => setSearch(event.target.value)} placeholder={t('输入公司名称')} /></label>
+        <label><span>{t('公司类型')}</span><select value={type} onChange={(event) => setType(event.target.value)}><option value="">{t('全部类型')}</option>{types.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('国家／地区')}</span><select value={region} onChange={(event) => setRegion(event.target.value)}><option value="">{t('全部地区')}</option>{regions.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('业务领域')}</span><select value={business} onChange={(event) => setBusiness(event.target.value)}><option value="">{t('全部业务')}</option>{businesses.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('上市状态')}</span><select value={listed} onChange={(event) => setListed(event.target.value)}><option value="">{t('全部状态')}</option><option value="not-provided">{t('未标注')}</option></select></label>
+        <button type="button" onClick={clearFilters}>{t('清除筛选')}</button>
       </div>
-      {query.isPending ? <p className="state-message">公司数据加载中…</p> : null}
-      {query.isError ? <p className="state-message state-message--error">公司数据暂时无法加载。</p> : null}
+      {query.isPending ? <p className="state-message">{t('公司数据加载中…')}</p> : null}
+      {query.isError ? <p className="state-message state-message--error">{t('公司数据暂时无法加载。')}</p> : null}
       {query.isSuccess ? (
         <div className="data-table-wrap">
           <table className="data-table company-table">
-            <thead><tr><th>公司名称</th><th>类型</th><th>总部地区</th><th>业务领域</th><th>上市状态</th><th>资料更新时间</th></tr></thead>
+            <thead><tr><th>{t('公司名称')}</th><th>{t('类型')}</th><th>{t('总部地区')}</th><th>{t('业务领域')}</th><th>{t('上市状态')}</th><th>{t('资料更新时间')}</th></tr></thead>
             <tbody>{filteredCompanies.map((company) => (
               <tr key={company.slug}>
-                <td><Link to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link><small>{company.marketPosition}</small><span className={`coverage coverage--${company.dataCoverage}`}>{coverageLabels[company.dataCoverage]}</span></td>
-                <td><span className="type-chip">{company.companyType}</span></td>
-                <td>{company.headquarters}<small>{company.region}</small></td>
-                <td>{company.business}</td>
-                <td><span className="muted-tag">未标注</span></td>
-                <td>源文件未标注</td>
+                <td><Link to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link><small>{company.marketPosition}</small><span className={`coverage coverage--${company.dataCoverage}`}>{t(coverageLabels[company.dataCoverage])}</span></td>
+                <td><span className="type-chip">{value(company.companyType)}</span></td>
+                <td>{value(company.headquarters)}<small>{value(company.region)}</small></td>
+                <td>{company.business.split('、').map(value).join(' · ')}</td>
+                <td><span className="muted-tag">{t('未标注')}</span></td>
+                <td>{t('源文件未标注')}</td>
               </tr>
             ))}</tbody>
           </table>
-          {!filteredCompanies.length ? <p className="empty-state">没有符合条件的公司</p> : null}
+          {!filteredCompanies.length ? <p className="empty-state">{t('没有符合条件的公司')}</p> : null}
         </div>
       ) : null}
     </section>
@@ -326,74 +363,93 @@ function CompanyListPage() {
 }
 
 function DashboardFrame({ src, title, className = '' }: { src: string; title: string; className?: string }) {
-  return <iframe className={`dashboard-frame ${className}`} src={src} title={title} loading="lazy" scrolling="no" />;
+  const container = useRef<HTMLDivElement | null>(null);
+  const [visible, setVisible] = useState(() => typeof IntersectionObserver === 'undefined');
+  useEffect(() => {
+    if (visible || typeof IntersectionObserver === 'undefined' || !container.current) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry?.isIntersecting) {
+        setVisible(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: '500px 0px' });
+    observer.observe(container.current);
+    return () => observer.disconnect();
+  }, [visible]);
+  return <div ref={container} className={`dashboard-loader ${className}`}>
+    {visible
+      ? <iframe className="dashboard-frame" src={src} title={title} loading="lazy" scrolling="no" />
+      : <div className="dashboard-placeholder" aria-label={title} />}
+  </div>;
 }
 
 function MissingModule({ children }: { children: string }) {
-  return <div className="module-missing"><span>资料待补充</span><p>{children}</p></div>;
+  const { t } = useI18n();
+  return <div className="module-missing"><span>{t('资料待补充')}</span><p>{children}</p></div>;
 }
 
 function CompanyDetailPage() {
+  const { t, value } = useI18n();
   const { slug } = companyDetailRoute.useParams();
   const query = useQuery({ queryKey: ['company', slug], queryFn: ({ signal }) => getCompany(slug, signal) });
-  if (query.isPending) return <p className="state-message">公司档案加载中…</p>;
-  if (query.isError) return <p className="state-message state-message--error">公司档案暂时无法加载。</p>;
+  if (query.isPending) return <p className="state-message">{t('公司档案加载中…')}</p>;
+  if (query.isError) return <p className="state-message state-message--error">{t('公司档案暂时无法加载。')}</p>;
   const company = query.data;
   const reports = company.relatedInformation.filter((item) => item.kind === 'report');
   const news = company.relatedInformation.filter((item) => item.kind === 'news');
   return (
     <article className="company-detail">
-      <nav className="breadcrumb" aria-label="面包屑"><Link to="/companies">公司信息库</Link><span>/</span><span>{company.displayName}</span></nav>
+      <nav className="breadcrumb" aria-label={t('面包屑')}><Link to="/companies">{t('公司信息库')}</Link><span>/</span><span>{company.displayName}</span></nav>
       <header className="company-banner">
         <span className="company-mark">{company.displayName.slice(0, 2).toUpperCase()}</span>
-        <div><span className="banner-kicker">COMPANY PORTFOLIO</span><h2>{company.displayName}</h2><p>{company.marketPosition}</p><div className="banner-tags"><span>{company.companyType}</span><span>{company.country}</span><span>{coverageLabels[company.dataCoverage]}</span></div></div>
-        <dl><div><dt>项目数量</dt><dd>{company.projectCount || '未提供'}</dd></div><div><dt>覆盖国家</dt><dd>{company.countryCount || '未提供'}</dd></div><div><dt>资料来源</dt><dd>仓库归档</dd></div></dl>
+        <div><h2>{company.displayName}</h2><p>{company.marketPosition}</p><div className="banner-tags"><span>{value(company.companyType)}</span><span>{value(company.country)}</span><span>{t(coverageLabels[company.dataCoverage])}</span></div></div>
+        <dl><div><dt>{t('项目数量')}</dt><dd>{company.projectCount || t('未提供')}</dd></div><div><dt>{t('覆盖国家')}</dt><dd>{company.countryCount || t('未提供')}</dd></div><div><dt>{t('资料来源')}</dt><dd>{t('仓库归档')}</dd></div></dl>
       </header>
-      <nav className="company-anchor-nav" aria-label="公司页面目录">
-        <a href="#overview">公司概览</a><a href="#projects">区域与项目</a><a href="#production">产量</a><a href="#financials">财务</a><a href="#news">相关新闻</a><a href="#related-reports">相关报告</a>
+      <nav className="company-anchor-nav" aria-label={t('公司页面目录')}>
+        <a href="#overview">{t('公司概览')}</a><a href="#projects">{t('区域与项目')}</a><a href="#production">{t('产量')}</a><a href="#financials">{t('财务')}</a><a href="#news">{t('相关新闻')}</a><a href="#related-reports">{t('相关报告')}</a>
       </nav>
       <section id="overview" className="company-overview-section">
-        <div className="section-heading"><p className="eyebrow">COMPANY OVERVIEW</p><h3>公司概览</h3></div>
+        <div className="section-heading"><h3>{t('公司概览')}</h3></div>
         <div className="content-panel company-profile">
-          <div><p className="lead">{company.marketPosition}</p><p>{company.business}</p><div className="profile-tag-groups"><div><b>核心业务</b><span>{company.business.split('、').map((item) => <em className="profile-tag" key={item}>{item}</em>)}</span></div><div><b>重点区域</b><span>{company.businessRegions.map((item) => <em className="profile-tag profile-tag--region" key={item}>{item}</em>)}</span></div></div></div>
+          <div><p className="lead">{company.marketPosition}</p><p>{company.business.split('、').map(value).join(' · ')}</p><div className="profile-tag-groups"><div><b>{t('核心业务')}</b><span>{company.business.split('、').map((item) => <em className="profile-tag" key={item}>{value(item)}</em>)}</span></div><div><b>{t('重点区域')}</b><span>{company.businessRegions.map((item) => <em className="profile-tag profile-tag--region" key={item}>{value(item)}</em>)}</span></div></div></div>
           <dl className="profile-facts">
-            <div><dt>成立年份</dt><dd>{company.foundedYear}</dd></div>
-            <div><dt>总部</dt><dd>{company.headquarters}</dd></div>
-            <div><dt>公司类型</dt><dd>{company.companyType}</dd></div>
-            <div><dt>官方网站</dt><dd><a href={company.website} target="_blank" rel="noreferrer">访问官网 ↗</a></dd></div>
-            <div><dt>资料状态</dt><dd>{coverageLabels[company.dataCoverage]}</dd></div>
+            <div><dt>{t('成立年份')}</dt><dd>{company.foundedYear}</dd></div>
+            <div><dt>{t('总部')}</dt><dd>{value(company.headquarters)}</dd></div>
+            <div><dt>{t('公司类型')}</dt><dd>{value(company.companyType)}</dd></div>
+            <div><dt>{t('官方网站')}</dt><dd><a href={company.website} target="_blank" rel="noreferrer">{t('访问官网 ↗')}</a></dd></div>
+            <div><dt>{t('资料状态')}</dt><dd>{t(coverageLabels[company.dataCoverage])}</dd></div>
           </dl>
         </div>
       </section>
       <section id="projects" className="portfolio-section">
-        <div className="section-heading"><p className="eyebrow">REGIONS & PROJECTS</p><h3>区域与项目</h3></div>
+        <div className="section-heading"><h3>{t('区域与项目')}</h3></div>
         {company.dashboards.map && company.dashboards.projectType ? (
           <div className="analysis-grid">
-            <div className="dashboard-card dashboard-card--map"><h4>全球业务／项目分布</h4><DashboardFrame className="dashboard-frame--map" src={company.dashboards.map} title={`${company.displayName} 全球业务／项目分布`} /></div>
-            <div className="dashboard-card"><h4>项目类型结构</h4><DashboardFrame src={company.dashboards.projectType} title={`${company.displayName} 项目类型结构`} /></div>
+            <div className="dashboard-card dashboard-card--map"><h4>{t('全球业务／项目分布')}</h4><DashboardFrame className="dashboard-frame--map" src={company.dashboards.map} title={`${company.displayName} ${t('全球业务／项目分布')}`} /></div>
+            <div className="dashboard-card"><h4>{t('项目类型结构')}</h4><DashboardFrame src={company.dashboards.projectType} title={`${company.displayName} ${t('项目类型结构')}`} /></div>
           </div>
-        ) : <MissingModule>仓库尚未提供该公司的项目分布与项目类型数据。</MissingModule>}
+        ) : <MissingModule>{t('仓库尚未提供该公司的项目分布与项目类型数据。')}</MissingModule>}
       </section>
       <section id="production" className="portfolio-section">
-        <div className="section-heading"><p className="eyebrow">PRODUCTION</p><h3>区域产量趋势</h3></div>
-        {company.dashboards.production ? <div className="dashboard-card"><DashboardFrame src={company.dashboards.production} title={`${company.displayName} 区域产量趋势`} /></div> : <MissingModule>仓库尚未提供该公司的产量数据。</MissingModule>}
+        <div className="section-heading"><h3>{t('区域产量趋势')}</h3></div>
+        {company.dashboards.production ? <div className="dashboard-card"><DashboardFrame src={company.dashboards.production} title={`${company.displayName} ${t('区域产量趋势')}`} /></div> : <MissingModule>{t('仓库尚未提供该公司的产量数据。')}</MissingModule>}
       </section>
       <section id="financials" className="portfolio-section">
-        <div className="section-heading"><p className="eyebrow">FINANCIALS</p><h3>经营与财务表现</h3></div>
-        {company.dashboards.financial ? <div className="dashboard-card"><DashboardFrame className="dashboard-frame--financial" src={company.dashboards.financial} title={`${company.displayName} 经营与财务表现`} /></div> : <MissingModule>仓库尚未提供该公司的财务数据。</MissingModule>}
+        <div className="section-heading"><h3>{t('经营与财务表现')}</h3></div>
+        {company.dashboards.financial ? <div className="dashboard-card"><DashboardFrame className="dashboard-frame--financial" src={company.dashboards.financial} title={`${company.displayName} ${t('经营与财务表现')}`} /></div> : <MissingModule>{t('仓库尚未提供该公司的财务数据。')}</MissingModule>}
       </section>
       <section id="news" className="portfolio-section">
-        <div className="section-heading"><p className="eyebrow">COMPANY NEWS</p><h3>相关新闻</h3></div>
+        <div className="section-heading"><h3>{t('相关新闻')}</h3></div>
         <div className="content-panel information-panel">
-          {news.length ? news.map((item) => <p key={item.id}>{item.title}</p>) : <p className="empty-state">暂无可追溯新闻数据</p>}
+          {news.length ? news.map((item) => <p key={item.id}>{item.title}</p>) : <p className="empty-state">{t('暂无可追溯新闻数据')}</p>}
         </div>
       </section>
       <section id="related-reports" className="portfolio-section">
-        <div className="section-heading"><p className="eyebrow">RELATED RESEARCH</p><h3>相关报告</h3></div>
+        <div className="section-heading"><h3>{t('相关报告')}</h3></div>
         <div className="content-panel information-panel">
           {reports.length ? <div className="information-list">{reports.map((item) => (
-            <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn ?? '日期未提供'}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4>{item.summary ? <p>{item.summary}</p> : null}<small>{item.publisher}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">附件未提供</span> : null}</article>
-          ))}</div> : <p className="empty-state">暂无可追溯行业报告数据</p>}
+            <article key={item.id}><div><span className="source-tag">{item.sourceFormat}</span><time>{item.publishedOn ?? t('日期未提供')}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{item.title}</Link></h4>{item.summary ? <p>{item.summary}</p> : null}<small>{item.publisher}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">{t('附件未提供')}</span> : null}</article>
+          ))}</div> : <p className="empty-state">{t('暂无可追溯行业报告数据')}</p>}
         </div>
       </section>
     </article>
@@ -401,6 +457,7 @@ function CompanyDetailPage() {
 }
 
 function ReportsPage() {
+  const { locale, t, value } = useI18n();
   const [search, setSearch] = useState('');
   const [industry, setIndustry] = useState('');
   const [region, setRegion] = useState('');
@@ -408,66 +465,66 @@ function ReportsPage() {
   const [family, setFamily] = useState('');
   const [publisher, setPublisher] = useState('');
   const [page, setPage] = useState(1);
-  const query = useQuery({ queryKey: ['reports'], queryFn: ({ signal }) => getReports(signal) });
+  const debouncedSearch = useDebouncedValue(search);
+  const parameters = { page, pageSize: 50, q: debouncedSearch, industry, region, informationType: type, sourceFamily: family, publisher };
+  const query = useQuery({
+    queryKey: ['reports', parameters],
+    queryFn: ({ signal }) => getReports(parameters, signal),
+    placeholderData: (previous) => previous,
+    staleTime: 5 * 60_000,
+  });
   const reports = query.data?.reports ?? [];
-  const values = (key: 'industry' | 'region' | 'informationType' | 'sourceFamily' | 'publisher') => [...new Set(reports.map((report) => report[key]))].sort();
-  const filtered = useMemo(() => {
-    const term = search.trim().toLocaleLowerCase();
-    return reports.filter((report) => (
-      (!term || [report.title, report.subtitle ?? '', report.summary ?? '', report.publisher, ...report.keywords, ...report.relatedCompanies.map(({ displayName }) => displayName)].some((value) => value.toLocaleLowerCase().includes(term)))
-      && (!industry || report.industry === industry) && (!region || report.region === region)
-      && (!type || report.informationType === type) && (!family || report.sourceFamily === family)
-      && (!publisher || report.publisher === publisher)
-    ));
-  }, [family, industry, publisher, region, reports, search, type]);
-  const pageSize = 50;
-  const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const facets = query.data?.facets;
+  const total = query.data?.total ?? 0;
+  const pageCount = Math.max(1, Math.ceil(total / 50));
   const currentPage = Math.min(page, pageCount);
-  const pageRows = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize);
   const clearFilters = () => { setSearch(''); setIndustry(''); setRegion(''); setType(''); setFamily(''); setPublisher(''); setPage(1); };
   return (
     <section>
-      <div className="page-heading"><div><p className="eyebrow">RESEARCH ARCHIVE</p><h2>行业报告库</h2><p>按标题、行业、区域、发布机构及关联公司检索已归档研究资料。</p></div><span className="record-count">{filtered.length} / {reports.length} 条报告</span></div>
+      <div className="page-heading"><div><h2>{t('行业报告库')}</h2><p>{t('按标题、行业、区域、发布机构及关联公司检索已归档研究资料。')}</p></div><span className="record-count">{total}{t('条报告')}</span></div>
       <div className="filter-panel report-filters">
-        <label><span>标题、摘要、关键词、公司</span><input aria-label="报告检索" value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder="输入检索词" /></label>
-        <label><span>行业</span><select value={industry} onChange={(event) => { setIndustry(event.target.value); setPage(1); }}><option value="">全部行业</option>{values('industry').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>区域</span><select value={region} onChange={(event) => { setRegion(event.target.value); setPage(1); }}><option value="">全部区域</option>{values('region').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>报告类型</span><select value={type} onChange={(event) => { setType(event.target.value); setPage(1); }}><option value="">全部类型</option>{values('informationType').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>来源类别</span><select value={family} onChange={(event) => { setFamily(event.target.value); setPage(1); }}><option value="">全部类别</option>{values('sourceFamily').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <label><span>发布机构</span><select value={publisher} onChange={(event) => { setPublisher(event.target.value); setPage(1); }}><option value="">全部机构</option>{values('publisher').map((value) => <option key={value}>{value}</option>)}</select></label>
-        <button type="button" onClick={clearFilters}>清除筛选</button>
+        <label><span>{t('标题、摘要、关键词、公司')}</span><input aria-label={t('报告检索')} value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder={t('输入检索词')} /></label>
+        <label><span>{t('行业')}</span><select value={industry} onChange={(event) => { setIndustry(event.target.value); setPage(1); }}><option value="">{t('全部行业')}</option>{(facets?.industries ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('区域')}</span><select value={region} onChange={(event) => { setRegion(event.target.value); setPage(1); }}><option value="">{t('全部地区')}</option>{(facets?.regions ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('报告类型')}</span><select value={type} onChange={(event) => { setType(event.target.value); setPage(1); }}><option value="">{t('全部类型')}</option>{(facets?.informationTypes ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('来源类别')}</span><select value={family} onChange={(event) => { setFamily(event.target.value); setPage(1); }}><option value="">{t('全部类别')}</option>{(facets?.sourceFamilies ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label><span>{t('发布机构')}</span><select value={publisher} onChange={(event) => { setPublisher(event.target.value); setPage(1); }}><option value="">{t('全部机构')}</option>{(facets?.publishers ?? []).map((item) => <option key={item}>{item}</option>)}</select></label>
+        <button type="button" onClick={clearFilters}>{t('清除筛选')}</button>
       </div>
-      {query.isPending ? <p className="state-message">报告数据加载中…</p> : null}
-      {query.isError ? <p className="state-message state-message--error">报告数据暂时无法加载。</p> : null}
-      {query.isSuccess ? <><div className="report-list">{pageRows.map((report) => (
-        <article key={report.id}><time>{report.publishedOn ?? '日期未提供'}</time><div><div className="report-tags"><span>{report.sourceFamily}</span><span>{report.industry}</span><span>{report.region}</span><span>{report.informationType}</span></div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{report.title}</Link></h3>{report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}{report.summary ? <p>{report.summary}</p> : null}<footer><span>发布机构：{report.publisher}</span><span>{report.sourceFormat}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join('、') || '未关联公司'}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">附件未上传</span> : <span className="available-tag">附件已归档</span>}</footer></div></article>
-      ))}{!filtered.length ? <p className="empty-state">没有符合条件的报告</p> : null}</div>{pageCount > 1 ? <nav className="pagination" aria-label="报告分页"><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>上一页</button><span>第 {currentPage} / {pageCount} 页</span><button type="button" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>下一页</button></nav> : null}</> : null}
+      {query.isPending ? <p className="state-message">{t('报告数据加载中…')}</p> : null}
+      {query.isError ? <p className="state-message state-message--error">{t('报告数据暂时无法加载。')}</p> : null}
+      {query.isSuccess ? <><div className="report-list">{reports.map((report) => {
+        const title = locale === 'en' && report.subtitle ? report.subtitle : report.title;
+        return <article key={report.id}><time>{report.publishedOn ?? t('日期未提供')}</time><div><div className="report-tags"><span>{value(report.sourceFamily)}</span><span>{value(report.industry)}</span><span>{value(report.region)}</span><span>{value(report.informationType)}</span></div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{title}</Link></h3>{locale === 'zh' && report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}{report.summary ? <p>{report.summary}</p> : null}<footer><span>{t('发布机构')}：{report.publisher}</span><span>{report.sourceFormat}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join('、') || t('未关联公司')}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</footer></div></article>;
+      })}{!total ? <p className="empty-state">{t('没有符合条件的报告')}</p> : null}</div>{pageCount > 1 ? <nav className="pagination" aria-label={t('报告类型')}><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>{t('上一页')}</button><span>{t('第')} {currentPage} / {pageCount} {t('页')}</span><button type="button" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>{t('下一页')}</button></nav> : null}</> : null}
     </section>
   );
 }
 
 function ReportDetailPage() {
+  const { locale, t, value } = useI18n();
   const { reportId } = reportDetailRoute.useParams();
   const query = useQuery({ queryKey: ['report', reportId], queryFn: ({ signal }) => getReport(reportId, signal) });
-  if (query.isPending) return <p className="state-message">报告资料加载中…</p>;
-  if (query.isError) return <p className="state-message state-message--error">报告资料暂时无法加载。</p>;
+  if (query.isPending) return <p className="state-message">{t('报告资料加载中…')}</p>;
+  if (query.isError) return <p className="state-message state-message--error">{t('报告资料暂时无法加载。')}</p>;
   const report = query.data;
+  const title = locale === 'en' && report.subtitle ? report.subtitle : report.title;
   return (
     <article className="report-detail">
-      <nav className="breadcrumb" aria-label="面包屑"><Link to="/reports">行业报告库</Link><span>/</span><span>{report.title}</span></nav>
-      <header className="report-cover"><div><p className="eyebrow">RESEARCH ARCHIVE</p><h2>{report.title}</h2>{report.subtitle ? <p>{report.subtitle}</p> : null}</div><span>{report.sourceFormat}</span></header>
+      <nav className="breadcrumb" aria-label={t('面包屑')}><Link to="/reports">{t('行业报告库')}</Link><span>/</span><span>{title}</span></nav>
+      <header className="report-cover"><div><h2>{title}</h2>{locale === 'zh' && report.subtitle ? <p>{report.subtitle}</p> : null}</div><span>{report.sourceFormat}</span></header>
       <div className="report-detail-grid">
         <div>
-          <section className="content-panel"><p className="eyebrow">EXECUTIVE SUMMARY</p><h3>报告摘要</h3>{report.summary ? <p className="lead">{report.summary}</p> : <p className="metadata-note">源表未提供报告摘要，当前仅归档标题和可核验元数据。</p>}</section>
-          <section className="content-panel unavailable-detail"><p className="eyebrow">ARCHIVE COVERAGE</p><h3>资料完整性</h3><p>当前仓库仅提供可追溯的报告摘要与归档元数据，未提供研究结论与目录，也未上传原始附件。</p>{!report.attachmentAvailable ? <span className="unavailable-tag">附件未上传</span> : <span className="available-tag">附件已归档</span>}</section>
+          <section className="content-panel"><h3>{t('报告摘要')}</h3>{report.summary ? <p className="lead">{report.summary}</p> : <p className="metadata-note">{t('源表未提供报告摘要，当前仅归档标题和可核验元数据。')}</p>}</section>
+          <section className="content-panel unavailable-detail"><h3>{t('资料完整性')}</h3><p>{t('当前仓库仅提供可追溯的报告摘要与归档元数据，未提供研究结论与目录，也未上传原始附件。')}</p>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</section>
         </div>
-        <aside className="content-panel report-meta"><h3>归档信息</h3><dl><div><dt>来源类别</dt><dd>{report.sourceFamily}</dd></div><div><dt>行业</dt><dd>{report.industry}</dd></div><div><dt>区域</dt><dd>{report.region}</dd></div><div><dt>类型</dt><dd>{report.informationType}</dd></div><div><dt>发布机构</dt><dd>{report.publisher}</dd></div><div><dt>发布日期</dt><dd>{report.publishedOn ?? '未提供'}</dd></div><div><dt>语言</dt><dd>{report.language}</dd></div><div><dt>格式</dt><dd>{report.sourceFormat}</dd></div></dl><h4>关联公司</h4><div className="related-companies">{report.relatedCompanies.length ? report.relatedCompanies.map((company) => <Link key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link>) : <span>未关联公司</span>}</div>{report.keywords.length ? <><h4>关键词</h4><div className="keyword-list">{report.keywords.map((keyword) => <span key={keyword}>{keyword}</span>)}</div></> : null}</aside>
+        <aside className="content-panel report-meta"><h3>{t('归档信息')}</h3><dl><div><dt>{t('来源类别')}</dt><dd>{value(report.sourceFamily)}</dd></div><div><dt>{t('行业')}</dt><dd>{value(report.industry)}</dd></div><div><dt>{t('区域')}</dt><dd>{value(report.region)}</dd></div><div><dt>{t('类型')}</dt><dd>{value(report.informationType)}</dd></div><div><dt>{t('发布机构')}</dt><dd>{report.publisher}</dd></div><div><dt>{t('发布日期')}</dt><dd>{report.publishedOn ?? t('未提供')}</dd></div><div><dt>{t('语言')}</dt><dd>{value(report.language)}</dd></div><div><dt>{t('格式')}</dt><dd>{report.sourceFormat}</dd></div></dl><h4>{t('关联公司')}</h4><div className="related-companies">{report.relatedCompanies.length ? report.relatedCompanies.map((company) => <Link key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link>) : <span>{t('未关联公司')}</span>}</div>{report.keywords.length ? <><h4>{t('关键词')}</h4><div className="keyword-list">{report.keywords.map((keyword) => <span key={keyword}>{keyword}</span>)}</div></> : null}</aside>
       </div>
     </article>
   );
 }
 
-function AdminDeniedPage() { return <section><h2>无权访问</h2><p>当前 Demo 仅开放只读浏览权限。</p></section>; }
+function AdminDeniedPage() { const { t } = useI18n(); return <section><h2>{t('无权访问')}</h2><p>{t('当前 Demo 仅开放只读浏览权限。')}</p></section>; }
 
 const rootRoute = createRootRoute({ component: AppShell });
 const indexRoute = createRoute({ getParentRoute: () => rootRoute, path: '/', component: HomePage });

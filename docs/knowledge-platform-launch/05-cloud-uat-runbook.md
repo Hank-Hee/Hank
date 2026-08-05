@@ -1,12 +1,12 @@
-# Cloudflare 内部 UAT 运行手册
+# Cloudflare 初上线运行手册
 
 ## 目标架构
 
-内部 UAT 使用一套独立环境：Cloudflare Access 负责入口身份验证，Worker 验证 `Cf-Access-Jwt-Assertion` 后才允许读取业务 API；Hyperdrive 连接新加坡区域的 Supabase PostgreSQL；两个 private R2 桶分别保存已发布附件和隔离区文件。浏览器不能直接获得数据库连接或 R2 公共地址。
+初上线使用公开只读应用入口：浏览器可匿名读取公司目录、公司详情、报告元数据和已发布看板；写入、管理、用户上下文与附件接口不公开。Worker 使用固定、不可由客户端覆盖的只读数据库身份，经 Hyperdrive 连接新加坡区域的 Supabase PostgreSQL。两个 private R2 桶分别保存已发布附件和隔离区文件，浏览器不能直接获得数据库连接或 R2 公共地址。
 
 本地开发不显示邮箱登录入口。只有 `DEMO_AUTH_ENABLED=true` 的本地 Worker 会自动映射到固定只读身份；UAT 和后续环境不会启用该变量。
 
-当前 Access 策略继续保持 Restricted。应用层同时只接受 `849943802@qq.com`，避免 Access 策略误配后扩大数据读取范围。桌面的“惠生清能知识平台.command”使用独立持久 Chrome profile，可复用 Access cookie；仍需在 Zero Trust 应用中把 Application session duration 调为 30 天，才能把邮箱验证码频率降到约每 30 天一次。
+当前阶段不在应用入口启用 Cloudflare Access，避免公开站点与 Worker 应用层认证状态不一致导致“页面存在但数据为 0”。Access 验证代码保留待后续账号阶段启用；届时再建立邮箱允许列表、会话、注销、审计与越权测试。数据库、Hyperdrive 和 R2 不因网站公开而公开。
 
 ## 资源和密钥边界
 
@@ -16,7 +16,7 @@
 | R2 published | `wison-knowledge-files-uat` | 审核通过的 PDF、PPTX、XLSX 等原件 |
 | R2 quarantine | `wison-knowledge-quarantine-uat` | 待校验或不合格文件，不对普通用户提供读取 |
 | Hyperdrive | 创建后把真实 binding ID 写入 UAT 配置 | Worker 到 PostgreSQL 的连接池和加速层 |
-| Cloudflare Access | 仅允许批准的内部测试者 | 人员身份和 UAT 入口策略 |
+| Cloudflare Access | 初上线暂停，账号阶段恢复 | 后续人员身份和入口策略 |
 
 所有平台令牌、数据库密码、Access 服务令牌都只写入平台 secret、系统钥匙串或临时环境变量，不提交 Git。Cloudflare/Supabase 登录使用对应平台账号，不使用 Mac 开机密码。
 
@@ -26,36 +26,23 @@
 2. 在 Supabase 新加坡区域创建 UAT 项目，执行 `supabase/roles.sql`、全部 migration 和幂等 seed。
 3. 运行 `wrangler r2 bucket create wison-knowledge-files-uat` 与 `wrangler r2 bucket create wison-knowledge-quarantine-uat`。R2 默认保持私有，不配置 `r2.dev` 或自定义公开域名。
 4. 使用 Supabase 的 IPv4 session pooler 连接串创建 Hyperdrive，并把返回的真实 ID 作为 `HYPERDRIVE` binding 写入 `apps/api/wrangler.jsonc` 的 `env.uat`。
-5. 通过 Worker secrets/vars 配置 `CLOUDFLARE_ACCESS_TEAM_DOMAIN` 和 `CLOUDFLARE_ACCESS_AUD`；两者必须与 Access 应用一致。
-6. 构建并部署 UAT Worker，再在 Cloudflare Zero Trust 为 UAT 子域名创建 Access self-hosted application 和允许列表。
-7. 先完成未授权拒绝、Access 登录、API、R2 私有性检查，再进行人员和负载验收。
+5. 在 UAT Worker 明确配置 `PUBLIC_READ_ONLY=true`，且不配置 Access AUD、team domain 或邮箱名单。
+6. 构建并部署 Worker，确认入口没有残留的 Access 策略重定向。
+7. 先完成公开 GET、受保护 `/api/v1/me`、无写入接口、R2 私有性检查，再进行人员和负载验收。
 
-不得把 Supabase 连接串或 R2 密钥写进前端，也不得为了测试临时公开业务 API。
+不得把 Supabase 连接串或 R2 密钥写进前端；公开范围只限版本化的只读公司/报告 API 和看板资源。
 
 ## 20–100 并发只读验收
 
-真实人员用浏览器完成三项导航、公司筛选、完整/部分公司详情和报告元数据任务。基础设施负载使用 Access Service Token，并保持 Worker 端 JWT/策略验证开启：
+真实人员用浏览器完成三项导航、公司筛选、完整/部分公司详情和报告元数据任务。公开只读阶段直接对 HTTPS 入口运行负载：
 
 ```bash
-export CF_ACCESS_CLIENT_ID='由 Cloudflare Secret 提供'
-export CF_ACCESS_CLIENT_SECRET='由 Cloudflare Secret 提供'
-npm run uat:load -- --base-url https://uat.example.com --concurrency 20 --requests 200
-npm run uat:load -- --base-url https://uat.example.com --concurrency 50 --requests 500
-npm run uat:load -- --base-url https://uat.example.com --concurrency 100 --requests 1000
-```
-
-单人 UAT 阶段也可用 Cloudflare 官方 CLI 获取当前用户的应用令牌，不读取浏览器 cookie：
-
-```bash
-cloudflared access login https://wison-knowledge-platform.wison.workers.dev
-export CF_ACCESS_TOKEN="$(cloudflared access token -app=https://wison-knowledge-platform.wison.workers.dev)"
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 20 --requests 200
-unset CF_ACCESS_TOKEN
+npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 50 --requests 500
+npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 100 --requests 1000
 ```
 
-用户令牌仅适合当前单人验收并受 Access 会话时长约束；持续自动化仍应使用独立、可撤销且只匹配 Service Auth 策略的 Service Token。
-
-门禁为：只发 GET；API p95 小于 500 ms；错误率小于 1%；未授权 API 和 R2 请求被拒绝；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3 秒。负载工具最多记录前 10 个失败摘要，不输出 Access secret。
+门禁为：只发 GET；API p95 小于 500 ms；错误率小于 1%；公司与报告读取匿名返回 200；`/api/v1/me` 匿名返回 401；R2 没有公共域名或公开对象路由；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3 秒。负载工具最多记录前 10 个失败摘要，不输出任何 secret。
 
 ## 行业报告附件
 
@@ -83,16 +70,18 @@ npm run attachments:prepare -- \
 - Cloudflare 已创建 `wison-knowledge-files-uat` 和 `wison-knowledge-quarantine-uat`，两者均未开启 `r2.dev`，也未绑定公开自定义域名。
 - Supabase 已创建新加坡区域 `wison-knowledge-platform-uat`，已正式应用 5 个 migration、角色文件和幂等 seed；远端核验为 126 家公司、8 家重点公司、234 条公司资产、1,111 条报告元数据和 642 条公司关联。
 - Cloudflare 已创建 `wison-knowledge-postgres-uat` Hyperdrive，UAT Worker 配置已绑定真实 ID，并关闭 SQL 响应缓存，避免权限上下文或数据更新被缓存混用。
-- UAT 已部署到 `https://wison-knowledge-platform.wison.workers.dev`；Cloudflare Access 已启用，Worker 同时校验对应 AUD、issuer 和签名。旧的 `wison-knowledge-platform-uat` Worker 已删除，源代码仍可从 Git 恢复。
+- UAT 已部署到 `https://wison-knowledge-platform.wison.workers.dev`。2026-08-05 初上线切换为公开只读：公司、报告和看板允许匿名 GET，`/api/v1/me`、写入、管理和附件仍不公开。旧的 `wison-knowledge-platform-uat` Worker 已删除，源代码仍可从 Git 恢复。
 - GitHub 公司源重新生成后仍为 126 家公司和 8 家完整看板；两张 Excel 源表已归一为 1,111 条目录（741 条行业研究、370 条公司披露）并同步云端。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
 - 2026-08-04 GitHub 财务看板已同步盈利能力双轴更新；公司页“相关新闻”和“相关报告”均使用与产量/财务看板一致的外置章节标题。
-- API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重和预序列化；响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。在 2.7 GHz 四核 Intel Core i7 / 8 GB 本机上，20 并发 200 请求 p95 293.4 ms、50 并发 500 请求 p95 423.7 ms，均为 0% 错误并通过门禁。100 并发 1,000 请求仍为 0% 错误但 p95 989.3 ms，受单机持续吞吐限制，不能视为云端通过。
-- 必须通过有效的 Access 用户令牌或 Service Token 在 Hyperdrive/Worker 环境重跑 20/50/100 三档；不得以匿名 302 或降低门槛替代业务 API 验收。
+- API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重、报告服务端分页/筛选和 Cloudflare `s-maxage`；看板资源使用边缘缓存，页面只在接近可视区时创建 iframe。响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。
+- 必须在 Hyperdrive/Worker 环境以匿名真实数据请求重跑 20/50/100 三档；302、401 或只请求静态壳都不能替代业务 API 验收。
 - 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
-- 真实邮箱授权后的页面任务、30 天 Access 会话和 20/50/100 云端负载仍待验收；负载测试必须使用有效 Access 身份，不能用匿名请求绕过 Access。
-- 当前 Worker 应用层白名单严格等于 `849943802@qq.com`；未来新增测试者时必须同时更新 Access 策略和版本化白名单，不能只改其中一层。
-- 当前 Wrangler OAuth 不包含 Access 管理权限；30 天应用/全局会话和 Service Token 必须通过 Zero Trust 控制台，或使用具备 `Access: Apps and Policies Write`、`Access: Service Tokens Write` 的短期管理 API Token 配置。
+- 中英文页面任务和 20/50/100 云端负载仍需在本次部署后重跑并记录。
+- 未来恢复账号时，Access 策略与 Worker 验证配置必须同批发布，不能只改其中一层。
+- 2026-08-05 已部署公开只读版本 `adc57d34-f4f6-4895-898a-a7da77d6f578`。全仓测试、类型、lint、构建、2 个数据库集成测试和 6 个浏览器 E2E 均通过；本地 20/50 并发 p95 分别为 176.8/395.6 ms 且 0% 错误，100 并发 p95 910.4 ms、0% 错误，受 2.7 GHz 四核 Intel / 8 GB 本机吞吐限制未过 500 ms 云端门禁。
+- 本机网络继续重置或污染 `workers.dev` 连接，导致部署后直接 HTTP 与远程预览隧道无法完成；Wrangler 生产部署成功且绑定已核验，但真实公网 20/50/100 仍须在可正常访问 Cloudflare 的网络重跑。不得把本机网络失败误记为 Worker 代码失败。
+- Cloudflare 在线编辑器对 Wrangler 生成的单文件 bundle 做不完整的 JavaScript/TypeScript 静态推断，可能把 `require`、Node 兼容层和 source map 标成大量 Problems。发布门禁以源码 `lint`/`typecheck`、Wrangler dry-run 和部署结果为准，不在生成的 `index.js` 中手工修复这类提示。
 
 ## 后续正式账号
 
-当前不叠加第二套站内登录，避免用户先过 Access、再过 Supabase Auth。未来转公开账号阶段，先用 Supabase Auth 邮箱 Magic Link/OTP 建立用户身份，Worker 校验 JWT 并映射 `profiles`/角色权限；完成越权、会话吊销、审计和账号恢复测试后，再撤掉面向终端用户的 Access 门禁。基础设施管理入口仍可继续由 Access 保护。
+当前不提供站内登录。未来账号阶段优先使用 Supabase Auth 邮箱 Magic Link/OTP 建立用户身份，Worker 校验 JWT 并映射 `profiles`/角色权限；完成越权、会话吊销、审计和账号恢复测试后，再决定是否同时用 Access 保护入口。基础设施管理入口可继续由 Access 保护。
