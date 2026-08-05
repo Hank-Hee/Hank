@@ -10,6 +10,7 @@ import {
 } from '@wison/contracts';
 import { withDatabaseContext, type DatabaseBinding, type SqlClient } from '../auth/database-context';
 import type { VerifiedIdentity } from '../auth/types';
+import { englishReportTitle } from '../content/english-content';
 
 type CompanyRow = {
   slug: string;
@@ -33,6 +34,7 @@ type RelatedRow = {
   id: string;
   kind: string;
   title: string;
+  subtitle: string | null;
   summary: string | null;
   publisher: string;
   published_on: string | null;
@@ -110,7 +112,7 @@ function toReport(row: ReportRow): ReportDetail {
   return ReportDetailSchema.parse({
     id: row.id,
     title: row.title,
-    subtitle: row.subtitle,
+    subtitle: englishReportTitle(row.id, row.subtitle),
     summary: row.summary,
     industry: row.industry,
     region: row.region,
@@ -190,7 +192,7 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
             [slug],
           ),
           client.query<RelatedRow>(
-            `select information.id, information.kind, information.title, information.summary,
+            `select information.id, information.kind, information.title, information.subtitle, information.summary,
               information.publisher, information.published_on::text,
               information.source_format, information.attachment_available
             from app_private.related_information information
@@ -207,6 +209,7 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           id: item.id,
           kind: item.kind as 'report' | 'news',
           title: item.title,
+          subtitle: englishReportTitle(item.id, item.subtitle),
           summary: item.summary,
           publisher: item.publisher,
           publishedOn: item.published_on,

@@ -45,6 +45,7 @@ export const RelatedInformationSchema = z.strictObject({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   kind: z.enum(['report', 'news']),
   title: z.string().min(1).max(500),
+  subtitle: z.string().min(1).max(500).nullable().optional(),
   summary: z.string().min(1).max(2_000).nullable(),
   publisher: z.string().min(1).max(200),
   publishedOn: z.iso.date().nullable(),

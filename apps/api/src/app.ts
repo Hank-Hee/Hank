@@ -59,6 +59,11 @@ export function createApp(
 
   app.use('*', requestIdMiddleware);
   app.use('*', secureHeaders());
+  app.use('*', async (context, next) => {
+    context.header('cache-control', 'private, no-store');
+    context.header('x-robots-tag', 'noindex, nofollow, noarchive');
+    await next();
+  });
 
   app.route('/api/v1/health', healthRoutes);
   app.route('/api/v1/demo/session', demoSessionRoutes);

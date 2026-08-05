@@ -47,3 +47,20 @@ test('refuses unencrypted non-loopback targets', async () => {
     /HTTPS/,
   );
 });
+
+test('accepts the 200 concurrent request launch ceiling', async () => {
+  const result = await runReadOnlyLoad({
+    baseUrl: 'https://example.com',
+    concurrency: 200,
+    requests: 200,
+    fetchImpl: async () => new Response('{}', {
+      status: 200,
+      headers: { 'content-type': 'application/json' },
+    }),
+    maxP95Ms: 2_000,
+  });
+
+  assert.equal(result.concurrency, 200);
+  assert.equal(result.errors, 0);
+  assert.equal(result.passed, true);
+});

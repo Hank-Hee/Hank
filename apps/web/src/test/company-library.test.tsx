@@ -27,6 +27,7 @@ const detail = {
   },
   relatedInformation: [{
     id: 'esg-disclosure-oil-gas', kind: 'report', title: '油气企业 ESG 披露与转型指标比较',
+    subtitle: 'ESG Disclosure and Transition Metrics for Oil and Gas Companies',
     summary: null, publisher: 'Energy Institute',
     publishedOn: '2026-06-30', sourceFormat: 'PDF', attachmentAvailable: false,
   }],
@@ -105,5 +106,24 @@ describe('company library UI', () => {
     expect(screen.getByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();
     expect(screen.getByText('暂无可追溯新闻数据')).toBeInTheDocument();
     expect(screen.getByText('附件未提供')).toBeInTheDocument();
+  });
+
+  it('renders the complete company page in English and passes the locale to every dashboard', async () => {
+    localStorage.setItem('wison-locale', 'en');
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url === '/api/v1/health') return new Response(JSON.stringify(health));
+      if (url === '/api/v1/companies/shell') return new Response(JSON.stringify(detail));
+      return new Response(null, { status: 404 });
+    }));
+    renderRoute('/companies/shell');
+
+    expect(await screen.findAllByText(/Global integrated energy company with leading positions/)).toHaveLength(2);
+    expect(screen.getByRole('heading', { name: 'Company overview' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'ESG Disclosure and Transition Metrics for Oil and Gas Companies' })).toBeInTheDocument();
+    for (const dashboard of screen.getAllByTitle(/Shell/)) {
+      expect(new URL(dashboard.getAttribute('src') ?? '', 'https://local.test').searchParams.get('lang')).toBe('en');
+    }
+    expect(document.body.textContent).not.toMatch(/[\u3400-\u9fff]/u);
   });
 });

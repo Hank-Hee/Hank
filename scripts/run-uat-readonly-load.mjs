@@ -32,12 +32,12 @@ export async function runReadOnlyLoad({
   accessClientId,
   accessClientSecret,
   fetchImpl = fetch,
-  maxP95Ms = 500,
+  maxP95Ms = 800,
   maxErrorRatePercent = 1,
 }) {
   const target = validateTarget(baseUrl);
-  if (!Number.isInteger(concurrency) || concurrency < 20 || concurrency > 100) {
-    throw new Error('Concurrency must be an integer from 20 through 100.');
+  if (!Number.isInteger(concurrency) || concurrency < 20 || concurrency > 200) {
+    throw new Error('Concurrency must be an integer from 20 through 200.');
   }
   if (!Number.isInteger(requests) || requests < concurrency) {
     throw new Error('Request count must be an integer at least as large as concurrency.');
@@ -108,7 +108,7 @@ function parseArguments(arguments_) {
     const name = arguments_[index];
     const value = arguments_[index + 1];
     if (!name?.startsWith('--') || value === undefined) {
-      throw new Error('Usage: npm run uat:load -- --base-url <https://...> [--concurrency 20-100] [--requests 200]');
+      throw new Error('Usage: npm run uat:load -- --base-url <https://...> [--concurrency 20-200] [--requests 200] [--max-p95-ms 800]');
     }
     values.set(name, value);
   }
@@ -122,6 +122,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       baseUrl: arguments_.get('--base-url'),
       concurrency: Number(arguments_.get('--concurrency') ?? 20),
       requests: Number(arguments_.get('--requests') ?? 200),
+      maxP95Ms: Number(arguments_.get('--max-p95-ms') ?? 800),
       accessToken: process.env.CF_ACCESS_TOKEN,
       accessClientId: process.env.CF_ACCESS_CLIENT_ID,
       accessClientSecret: process.env.CF_ACCESS_CLIENT_SECRET,

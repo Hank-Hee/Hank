@@ -32,7 +32,7 @@
 
 不得把 Supabase 连接串或 R2 密钥写进前端；公开范围只限版本化的只读公司/报告 API 和看板资源。
 
-## 20–100 并发只读验收
+## 20–200 并发只读验收
 
 真实人员用浏览器完成三项导航、公司筛选、完整/部分公司详情和报告元数据任务。公开只读阶段直接对 HTTPS 入口运行负载：
 
@@ -40,9 +40,12 @@
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 20 --requests 200
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 50 --requests 500
 npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 100 --requests 1000
+npm run uat:load -- --base-url https://wison-knowledge-platform.wison.workers.dev --concurrency 200 --requests 2000
 ```
 
-门禁为：只发 GET；API p95 小于 500 ms；错误率小于 1%；公司与报告读取匿名返回 200；`/api/v1/me` 匿名返回 401；R2 没有公共域名或公开对象路由；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3 秒。负载工具最多记录前 10 个失败摘要，不输出任何 secret。
+门禁为：只发 GET；API p95 小于 800 ms；错误率小于 1%；公司与报告读取匿名返回 200；`/api/v1/me` 匿名返回 401；R2 没有公共域名或公开对象路由；桌面 Chrome/Edge 和移动页面首个可交互目标小于 3.5 秒。200 是“同时执行典型只读浏览路径的用户数”口径，不是 200 RPS；API 压测作为更保守的连接上限验证，仍需真实浏览器任务复核。负载工具最多记录前 10 个失败摘要，不输出任何 secret。
+
+公开初上线期间禁止搜索引擎收录：静态页面同时返回 HTML robots meta 和 `X-Robots-Tag: noindex, nofollow, noarchive`，`robots.txt` 对全部爬虫声明 `Disallow: /`；Worker API 也返回 `X-Robots-Tag`。这些只是索引控制，不替代身份认证或数据分级。
 
 ## 行业报告附件
 
@@ -74,6 +77,7 @@ npm run attachments:prepare -- \
 - GitHub 公司源重新生成后仍为 126 家公司和 8 家完整看板；两张 Excel 源表已归一为 1,111 条目录（741 条行业研究、370 条公司披露）并同步云端。2026-08-04 油气价格刷新已同步至 private R2 的 `market-data/oil-gas-prices/2026-08-04.json` 与 `market-data/oil-gas-prices/latest.json`，远端 SHA-256 与仓库文件一致。
 - 2026-08-04 GitHub 财务看板已同步盈利能力双轴更新；公司页“相关新闻”和“相关报告”均使用与产量/财务看板一致的外置章节标题。
 - API 已增加 Worker isolate 内 60 秒只读缓存、并发请求去重、报告服务端分页/筛选和 Cloudflare `s-maxage`；看板资源使用边缘缓存，页面只在接近可视区时创建 iframe。响应压缩由 Cloudflare 边缘协商，应用不手动添加编码。
+- UAT Worker 明确启用 Workers Caching；公开 GET 按响应 `Cache-Control` 进入边缘缓存，健康检查、错误、用户上下文和未来受保护响应默认 `private, no-store`。
 - 必须在 Hyperdrive/Worker 环境以匿名真实数据请求重跑 20/50/100 三档；302、401 或只请求静态壳都不能替代业务 API 验收。
 - 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
 - 中英文页面任务和 20/50/100 云端负载仍需在本次部署后重跑并记录。

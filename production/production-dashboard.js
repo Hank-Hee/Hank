@@ -44,6 +44,9 @@
   const scriptUrl = new URL(document.currentScript.src);
   const dataBaseUrl = new URL("../data/", scriptUrl);
   const params = new URLSearchParams(window.location.search);
+  const isEnglish = params.get("lang") === "en";
+  const tr = (chinese, english) => isEnglish ? english : chinese;
+  document.documentElement.lang = isEnglish ? "en" : "zh-CN";
   const requestedCompany = document.body.dataset.company
     || params.get("company")
     || params.get("operator")
@@ -57,6 +60,8 @@
   const legendElement = document.getElementById("region-legend");
   const titleElement = document.getElementById("page-title");
   const descriptionElement = document.querySelector('meta[name="description"]');
+  loadingElement.textContent = tr("正在加载生产数据…", "Loading production data…");
+  legendElement.setAttribute("aria-label", tr("地区图例；点击可显示或隐藏地区", "Region legend; select to show or hide a region"));
   let chart;
   let axisPointerElement;
   let tooltipElement;
@@ -258,12 +263,12 @@
   };
 
   const setPageIdentity = () => {
-    const title = `${config.name} 地区净产量`;
+    const title = tr(`${config.name} 地区净产量`, `${config.name} Net Production by Region`);
     document.title = title;
     titleElement.textContent = title;
-    chartElement.setAttribute("aria-label", `按地区展示 ${config.name} 净产量`);
+    chartElement.setAttribute("aria-label", tr(`按地区展示 ${config.name} 净产量`, `${config.name} net production by region`));
     if (descriptionElement) {
-      descriptionElement.setAttribute("content", `${config.name} 按 Region 展示的净产量分析看板`);
+      descriptionElement.setAttribute("content", tr(`${config.name} 按 Region 展示的净产量分析看板`, `${config.name} net production analysis by region`));
     }
   };
 
@@ -274,7 +279,7 @@
 
   const init = async () => {
     if (!config) {
-      showError("未找到对应公司的生产数据");
+      showError(tr("未找到对应公司的生产数据", "Production data was not found for this company"));
       return;
     }
     setPageIdentity();
@@ -285,7 +290,7 @@
       scheduleRender(data);
     } catch (error) {
       console.error(error);
-      showError("生产数据加载失败，请刷新重试");
+      showError(tr("生产数据加载失败，请刷新重试", "Production data failed to load. Refresh to retry."));
     }
   };
 

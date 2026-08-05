@@ -10,13 +10,14 @@ test('launch documentation records public-read boundaries, load and attachment s
   for (const phrase of [
     'Cloudflare Access',
     'PUBLIC_READ_ONLY=true',
-    '20–100',
+    '20–200',
     'private R2',
     'PostgreSQL',
     '/api/v1/me',
     'npm run uat:load',
     'wison-knowledge-platform.wison.workers.dev',
     'market-data/oil-gas-prices/latest.json',
+    'noindex',
   ]) assert.match(runbook, new RegExp(phrase, 'i'));
   assert.doesNotMatch(runbook, /提供邮箱登录入口/);
   assert.match(runbook, /公司、报告和看板允许匿名 GET/);

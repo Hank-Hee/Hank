@@ -101,4 +101,13 @@ describe('report archive UI', () => {
     expect(screen.getByText('发布机构')).toBeInTheDocument();
     expect(screen.queryByText('来源')).not.toBeInTheDocument();
   });
+
+  it('shows no original Chinese report fields in English mode', async () => {
+    localStorage.setItem('wison-locale', 'en');
+    renderRoute(`/reports/${report.id}`);
+
+    expect(await screen.findByRole('heading', { name: report.subtitle })).toBeInTheDocument();
+    expect(screen.getByText('The source table did not include a summary; only the title and verifiable metadata are archived.')).toBeInTheDocument();
+    expect(document.body.textContent).not.toMatch(/[\u3400-\u9fff]/u);
+  });
 });

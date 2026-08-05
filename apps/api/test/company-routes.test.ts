@@ -100,6 +100,7 @@ describe('company library API', () => {
 
     expect(companies.status).toBe(200);
     expect(companies.headers.get('cache-control')).toContain('public');
+    expect(companies.headers.get('x-robots-tag')).toContain('noindex');
     expect(reports.status).toBe(200);
     expect(ReportListResponseSchema.parse(await reports.json())).toMatchObject({
       total: 1, page: 1, pageSize: 1,

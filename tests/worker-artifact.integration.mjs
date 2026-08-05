@@ -34,13 +34,13 @@ test('built Worker serves the SPA and strict API from one origin', { timeout: 45
   let output = '';
   let spawnError;
   const server = spawn(
-    'npm',
+    process.execPath,
     [
-      'exec', '--workspace', '@wison/api', 'wrangler', '--',
+      '../../node_modules/wrangler/bin/wrangler.js',
       'dev', 'dist/index.js', '--no-bundle', '--local', '--port', '8791',
     ],
     {
-      cwd: repositoryRoot,
+      cwd: fileURLToPath(new URL('../apps/api/', import.meta.url)),
       detached: process.platform !== 'win32',
       env: { ...process.env, NO_COLOR: '1' },
       stdio: ['ignore', 'pipe', 'pipe'],
@@ -76,10 +76,11 @@ test('built Worker serves the SPA and strict API from one origin', { timeout: 45
 
   await waitForWorker(server, () => `${String(spawnError ?? '')}\n${output}`);
 
-  const [rootPackage, home, deepLink, health, missing] = await Promise.all([
+  const [rootPackage, home, deepLink, robots, health, missing] = await Promise.all([
     readFile(new URL('../package.json', import.meta.url), 'utf8').then(JSON.parse),
     fetch(`${origin}/`),
     fetch(`${origin}/reports`),
+    fetch(`${origin}/robots.txt`),
     fetch(`${origin}/api/v1/health`),
     fetch(`${origin}/api/v1/not-a-route`),
   ]);
@@ -92,10 +93,17 @@ test('built Worker serves the SPA and strict API from one origin', { timeout: 45
     assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
     assert.equal(response.headers.get('referrer-policy'), 'no-referrer');
     assert.match(response.headers.get('permissions-policy') ?? '', /camera=\(\)/);
+    assert.match(response.headers.get('x-robots-tag') ?? '', /noindex/);
   }
   assert.match(await deepLink.text(), /<div id="root"><\/div>/);
 
+  assert.equal(robots.status, 200);
+  assert.match(robots.headers.get('content-type') ?? '', /text\/plain/);
+  assert.match(await robots.text(), /User-agent: \*\s+Disallow: \//);
+
   assert.equal(health.status, 200);
+  assert.equal(health.headers.get('cache-control'), 'private, no-store');
+  assert.match(health.headers.get('x-robots-tag') ?? '', /noindex/);
   assert.match(health.headers.get('content-type') ?? '', /application\/json/);
   const healthBody = await health.json();
   assert.deepEqual(Object.keys(healthBody).sort(), ['service', 'status', 'timestamp', 'version']);

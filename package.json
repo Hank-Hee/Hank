@@ -22,6 +22,7 @@
     "lint": "npm run lint -w @wison/contracts && npm run lint -w @wison/api && npm run lint -w @wison/web",
     "test": "node --test tests/*.test.mjs && npm run test -w @wison/contracts && npm run test -w @wison/api && npm run test -w @wison/web",
     "typecheck": "npm run typecheck -w @wison/contracts && npm run typecheck -w @wison/api && npm run typecheck -w @wison/web",
+    "uat:audit-public": "node scripts/audit-public-uat.mjs",
     "uat:load": "node scripts/run-uat-readonly-load.mjs"
   },
   "devDependencies": {

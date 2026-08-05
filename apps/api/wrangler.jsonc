@@ -21,6 +21,9 @@
   "env": {
     "uat": {
       "name": "wison-knowledge-platform",
+      "cache": {
+        "enabled": true
+      },
       "vars": {
         "APP_VERSION": "0.1.0-uat",
         "PUBLIC_READ_ONLY": "true"

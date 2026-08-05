@@ -63,6 +63,31 @@ test('switches native application pages to English without duplicate eyebrow tit
   await expect(page.getByRole('heading', { name: 'Company Library' })).toBeVisible();
 });
 
+test('renders native pages and all four embedded dashboards without visible Chinese in English mode', async ({ page }) => {
+  await enterDemo(page);
+  await page.getByRole('button', { name: '选择语言' }).click();
+  await page.getByRole('menuitem', { name: 'English' }).click();
+  await page.goto('/companies/shell');
+  await expect(page.getByRole('heading', { name: 'Shell', exact: true })).toBeVisible();
+  await page.getByRole('heading', { name: 'Operating and financial performance' }).scrollIntoViewIfNeeded();
+  await expect(page.locator('iframe')).toHaveCount(4);
+  await expect(page.frameLocator('iframe[title="Shell Global business / project distribution"]').locator('#total-projects')).toHaveText('552');
+  expect(await page.locator('body').innerText()).not.toMatch(/[\u3400-\u9fff]/u);
+  for (const iframe of await page.locator('iframe').elementHandles()) {
+    const frame = await iframe.contentFrame();
+    if (!frame) throw new Error('Dashboard frame did not load.');
+    await frame.locator('body').waitFor({ state: 'visible' });
+    expect(await frame.locator('body').innerText()).not.toMatch(/[\u3400-\u9fff]/u);
+  }
+
+  await page.goto('/reports');
+  await expect(page.locator('.report-list > article')).toHaveCount(50);
+  expect(await page.locator('body').innerText()).not.toMatch(/[\u3400-\u9fff]/u);
+  await page.locator('.report-list h3 a').first().click();
+  await expect(page.getByRole('heading', { name: 'Archive information' })).toBeVisible();
+  expect(await page.locator('body').innerText()).not.toMatch(/[\u3400-\u9fff]/u);
+});
+
 test('filters report metadata and opens an honest metadata-only detail', async ({ page }) => {
   await enterDemo(page, '/reports');
   await expect(page.locator('.report-list > article')).toHaveCount(50);

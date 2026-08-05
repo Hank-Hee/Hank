@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { generatedValueEnglish } from './content-english';
 
 export type Locale = 'zh' | 'en';
 
@@ -135,6 +136,7 @@ const english: Record<string, string> = {
   'API 检查中': 'Checking API',
   'API 异常': 'API unavailable',
   'API 正常': 'API healthy',
+  '待补': 'Pending',
 };
 
 const valueEnglish: Record<string, string> = {
@@ -151,6 +153,7 @@ const valueEnglish: Record<string, string> = {
   '天然气与LNG': 'Natural gas and LNG', '新能源': 'New energy',
   '联合体/合资公司': 'Consortium / joint venture', '船东': 'Shipowner', '资源型': 'Resource company',
   '中文': 'Chinese', '英文': 'English', '中英': 'Chinese / English',
+  '扩建': 'Expansion',
 };
 
 type I18nContextValue = {
@@ -172,7 +175,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     locale,
     setLocale,
     t: (text) => locale === 'en' ? english[text] ?? text : text,
-    value: (text) => locale === 'en' ? valueEnglish[text] ?? text : text,
+    value: (text) => locale === 'en' ? valueEnglish[text] ?? generatedValueEnglish[text] ?? text : text,
   }), [locale]);
   return <I18nContext.Provider value={context}>{children}</I18nContext.Provider>;
 }
