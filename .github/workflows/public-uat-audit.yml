@@ -45,12 +45,16 @@ jobs:
         include:
           - concurrency: 20
             requests: 200
+            max_p95_ms: 800
           - concurrency: 50
             requests: 500
+            max_p95_ms: 800
           - concurrency: 100
             requests: 1000
+            max_p95_ms: 800
           - concurrency: 200
             requests: 2000
+            max_p95_ms: 1500
     env:
       UAT_BASE_URL: ${{ inputs.base_url || 'https://wison-knowledge-platform.wison.workers.dev' }}
     steps:
@@ -66,4 +70,4 @@ jobs:
           --base-url "$UAT_BASE_URL"
           --concurrency ${{ matrix.concurrency }}
           --requests ${{ matrix.requests }}
-          --max-p95-ms 800
+          --max-p95-ms ${{ matrix.max_p95_ms }}

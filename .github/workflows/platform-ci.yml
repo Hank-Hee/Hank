@@ -51,11 +51,10 @@ jobs:
           npx supabase start --debug
       - run: npx supabase db reset
       - run: npx supabase test db
-      - run: npx supabase migration down --local --last 1 --yes
+      - run: npx supabase db reset --version 202607310001 --no-seed
       - run: npx supabase db query --local --file supabase/rollback/202607310001_platform_foundation_down.sql
       - run: npx supabase test db supabase/rollback-tests/platform_foundation_absent_test.sql
-      - run: npx supabase db query --local --file supabase/roles.sql
-      - run: npx supabase migration up --local
+      - run: npx supabase db reset
       - run: npx supabase test db
       - run: npm run test:db -w @wison/api
 
@@ -71,4 +70,18 @@ jobs:
       - run: test "$(node --version)" = "v22.23.2" && test "$(npm --version)" = "10.9.8"
       - run: npm ci --engine-strict --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
-      - run: npm run e2e
+      - name: Start Supabase with bounded retries
+        run: |
+          for attempt in 1 2; do
+            if npx supabase start; then
+              exit 0
+            fi
+            npx supabase stop --no-backup || true
+            sleep $((attempt * 10))
+          done
+          npx supabase start --debug
+      - run: npx supabase db reset
+      - name: Run browser E2E against the seeded local database
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+        run: npm run e2e
