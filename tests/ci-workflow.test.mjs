@@ -47,6 +47,9 @@ test('platform CI runs code, database, and browser verification', async () => {
   assert.match(workflow, /npx supabase stop --no-backup/);
   assert.match(workflow, /npx supabase start --debug/);
   assert.match(workflow, /DATABASE_URL: postgresql:\/\/postgres:postgres@127\.0\.0\.1:54322\/postgres/);
+  assert.match(workflow, /test -x \/usr\/bin\/google-chrome/);
+  assert.match(workflow, /PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH: \/usr\/bin\/google-chrome/);
+  assert.doesNotMatch(workflow, /playwright install --with-deps chromium/);
   assert.match(apiPackage.scripts.dev, /\$\{DATABASE_URL:-postgresql:\/\/\$USER@127\.0\.0\.1\/hank_platform_test\}/);
   assert.doesNotMatch(workflow, /^\s+paths:/m);
 });

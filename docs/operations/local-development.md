@@ -105,7 +105,7 @@ npm run e2e:install
 npm run e2e
 ```
 
-The current Mac may skip the first command and reuse `/Applications/Google Chrome.app` when the Playwright CDN is slow. Linux CI always installs the pinned Playwright Chromium package before running the same tests.
+The current Mac may skip the first command and reuse `/Applications/Google Chrome.app` when the Playwright CDN is slow. GitHub's Ubuntu CI uses its preinstalled `/usr/bin/google-chrome` through `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`, so browser verification does not depend on a runtime CDN download.
 
 ## Complete verification
 

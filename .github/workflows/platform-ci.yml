@@ -60,6 +60,7 @@ jobs:
 
   browser:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -69,7 +70,7 @@ jobs:
       - run: npm install --global npm@10.9.8 --no-audit --no-fund
       - run: test "$(node --version)" = "v22.23.2" && test "$(npm --version)" = "10.9.8"
       - run: npm ci --engine-strict --no-audit --no-fund
-      - run: npx playwright install --with-deps chromium
+      - run: test -x /usr/bin/google-chrome
       - name: Start Supabase with bounded retries
         run: |
           for attempt in 1 2; do
@@ -84,4 +85,5 @@ jobs:
       - name: Run browser E2E against the seeded local database
         env:
           DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+          PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH: /usr/bin/google-chrome
         run: npm run e2e
