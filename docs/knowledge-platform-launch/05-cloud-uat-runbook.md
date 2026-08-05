@@ -78,7 +78,7 @@ npm run attachments:prepare -- \
 - 当前本地网络对 `workers.dev` 存在 DNS 污染；可信 DNS 返回 Cloudflare 地址且 Access 302 已验证。公司正式子域名到位后应改用自定义域名，避免依赖 `workers.dev`。
 - 中英文页面任务和 20/50/100 云端负载仍需在本次部署后重跑并记录。
 - 未来恢复账号时，Access 策略与 Worker 验证配置必须同批发布，不能只改其中一层。
-- 2026-08-05 已部署公开只读版本 `adc57d34-f4f6-4895-898a-a7da77d6f578`。全仓测试、类型、lint、构建、2 个数据库集成测试和 6 个浏览器 E2E 均通过；本地 20/50 并发 p95 分别为 176.8/395.6 ms 且 0% 错误，100 并发 p95 910.4 ms、0% 错误，受 2.7 GHz 四核 Intel / 8 GB 本机吞吐限制未过 500 ms 云端门禁。
+- 2026-08-05 已部署公开只读版本 `7da56c26-c67e-4cfe-98dc-a8d425f8447e`。全仓测试、类型、lint、构建、2 个数据库集成测试和 6 个浏览器 E2E 均通过；本地 20/50 并发 p95 分别为 176.8/395.6 ms 且 0% 错误，100 并发 p95 910.4 ms、0% 错误，受 2.7 GHz 四核 Intel / 8 GB 本机吞吐限制未过 500 ms 云端门禁。
 - 本机网络继续重置或污染 `workers.dev` 连接，导致部署后直接 HTTP 与远程预览隧道无法完成；Wrangler 生产部署成功且绑定已核验，但真实公网 20/50/100 仍须在可正常访问 Cloudflare 的网络重跑。不得把本机网络失败误记为 Worker 代码失败。
 - Cloudflare 在线编辑器对 Wrangler 生成的单文件 bundle 做不完整的 JavaScript/TypeScript 静态推断，可能把 `require`、Node 兼容层和 source map 标成大量 Problems。发布门禁以源码 `lint`/`typecheck`、Wrangler dry-run 和部署结果为准，不在生成的 `index.js` 中手工修复这类提示。
 
