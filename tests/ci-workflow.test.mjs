@@ -46,3 +46,11 @@ test('platform CI runs code, database, and browser verification', async () => {
   assert.match(workflow, /npx supabase start --debug/);
   assert.doesNotMatch(workflow, /^\s+paths:/m);
 });
+
+test('public UAT load tiers run independently instead of stacking their concurrency', async () => {
+  const workflow = await readFile(
+    new URL('../.github/workflows/public-uat-audit.yml', import.meta.url),
+    'utf8',
+  );
+  assert.match(workflow, /max-parallel:\s*1/);
+});

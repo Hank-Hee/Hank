@@ -59,6 +59,29 @@ export async function runReadOnlyLoad({
       'cf-access-client-secret': accessClientSecret,
     } : {}),
   };
+  const warmup = [];
+  for (let round = 1; round <= 2; round += 1) {
+    for (const path of paths) {
+      const warmupStartedAt = performance.now();
+      const response = await fetchImpl(new URL(path, target), {
+        headers,
+        method: 'GET',
+        redirect: 'manual',
+      });
+      const measurement = {
+        cacheStatus: response.headers.get('cf-cache-status'),
+        durationMs: Number((performance.now() - warmupStartedAt).toFixed(1)),
+        path,
+        round,
+        status: response.status,
+      };
+      warmup.push(measurement);
+      await response.body?.cancel();
+      if (!response.ok) {
+        throw new Error(`Warm-up failed for ${path} with HTTP ${response.status}.`);
+      }
+    }
+  }
   const latencies = [];
   const failures = [];
   const startedAt = performance.now();
@@ -99,6 +122,7 @@ export async function runReadOnlyLoad({
     passed: p95Ms < maxP95Ms && errorRatePercent < maxErrorRatePercent,
     requests,
     requestsPerSecond: Number((requests / (durationMs / 1000)).toFixed(1)),
+    warmup,
   };
 }
 

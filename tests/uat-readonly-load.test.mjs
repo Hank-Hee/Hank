@@ -36,6 +36,11 @@ test('runs 20 concurrent read-only requests and reports latency/error gates', as
   assert.equal(result.passed, true);
   assert.equal(result.requests, 40);
   assert.equal(result.errors, 0);
+  assert.deepEqual(result.warmup.map(({ path, status }) => ({ path, status })), [
+    { path: '/api/v1/companies', status: 200 },
+    { path: '/api/v1/companies', status: 200 },
+  ]);
+  assert.equal(methods.length, 42);
   assert.ok(maximumActive >= 15, `expected real concurrency, saw ${maximumActive}`);
   assert.deepEqual([...new Set(methods)], ['GET']);
   assert.deepEqual([...new Set(accessTokens)], ['test-user-access-token']);
