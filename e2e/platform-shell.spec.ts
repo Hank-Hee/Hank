@@ -47,7 +47,10 @@ test('opens the full company directory and renders the protected Shell portfolio
   await expect(page.frameLocator('iframe[title="Shell 全球业务／项目分布"]').locator('#total-projects')).toHaveText('552');
   await expect(page.getByRole('heading', { name: '经营与财务表现' })).toBeVisible();
   await expect(page.getByText('附件未提供').first()).toBeVisible();
-  await expect(page.getByText('暂无可追溯新闻数据')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'FID Tracker' })).toBeVisible();
+  await expect(page.locator('.fid-table tbody tr')).toHaveCount(10);
+  await expect(page.getByRole('columnheader', { name: '历史所属公司' })).toHaveCount(0);
+  await expect(page.getByText('126条新闻')).toBeVisible();
 });
 
 test('switches native application pages to English without duplicate eyebrow titles', async ({ page }) => {

@@ -1,7 +1,9 @@
 import {
   CompanyDetailSchema,
   CompanySummarySchema,
+  FidProjectSchema,
   type CompanyDetail,
+  type FidProject,
   type CompanySlug,
   type CompanySummary,
   ReportDetailSchema,
@@ -26,9 +28,11 @@ type CompanyRow = {
   headquarters: string;
   project_count: number;
   country_count: number;
+  updated_on: string;
   business_regions: string[];
   has_projects: boolean;
   has_complete_portfolio: boolean;
+  has_news: boolean;
 };
 type RelatedRow = {
   id: string;
@@ -36,10 +40,25 @@ type RelatedRow = {
   title: string;
   subtitle: string | null;
   summary: string | null;
+  summary_en: string | null;
   publisher: string;
   published_on: string | null;
   source_format: string;
   attachment_available: boolean;
+  news_category: string | null;
+  region: string;
+  source_url: string | null;
+};
+type FidRow = {
+  id: string;
+  project: string;
+  approval_year: string | null;
+  asset: string;
+  field_type: string;
+  facility_category: string;
+  interests: string;
+  country: string;
+  economics_usd_million: string | number | null;
 };
 type ReportRow = {
   id: string;
@@ -75,6 +94,21 @@ export interface CompanyRepository {
     identity: VerifiedIdentity,
     requestId: string,
   ): Promise<ReportDetail | null>;
+  listCompanyInformation(
+    slug: CompanySlug,
+    kind: 'report' | 'news',
+    page: number,
+    pageSize: number,
+    identity: VerifiedIdentity,
+    requestId: string,
+  ): Promise<{ information: RelatedInformation[]; total: number } | null>;
+  listFidProjects(
+    slug: CompanySlug,
+    page: number,
+    pageSize: number,
+    identity: VerifiedIdentity,
+    requestId: string,
+  ): Promise<{ projects: FidProject[]; syncedOn: string; total: number } | null>;
 }
 
 function toSummary(row: CompanyRow): CompanySummary {
@@ -90,6 +124,39 @@ function toSummary(row: CompanyRow): CompanySummary {
     projectCount: row.project_count,
     countryCount: row.country_count,
     dataCoverage: row.has_complete_portfolio ? 'complete' : row.has_projects ? 'projects' : 'profile',
+    updatedOn: row.updated_on,
+  });
+}
+
+function toRelatedInformation(item: RelatedRow): RelatedInformation {
+  return {
+    id: item.id,
+    kind: item.kind as 'report' | 'news',
+    title: item.title,
+    subtitle: item.kind === 'report' ? englishReportTitle(item.id, item.subtitle) : item.subtitle,
+    summary: item.summary,
+    summaryEn: item.summary_en,
+    publisher: item.publisher,
+    publishedOn: item.published_on,
+    sourceFormat: item.source_format,
+    attachmentAvailable: item.attachment_available,
+    category: item.news_category,
+    region: item.region,
+    sourceUrl: item.source_url,
+  };
+}
+
+function toFidProject(row: FidRow): FidProject {
+  return FidProjectSchema.parse({
+    id: row.id,
+    project: row.project,
+    approvalYear: row.approval_year,
+    asset: row.asset,
+    fieldType: row.field_type,
+    facilityCategory: row.facility_category,
+    interests: row.interests,
+    country: row.country,
+    economicsUsdMillion: row.economics_usd_million === null ? null : Number(row.economics_usd_million),
   });
 }
 
@@ -133,6 +200,7 @@ const companySelect = `select companies.slug, companies.source_id, companies.dis
   companies.company_type, companies.country, companies.region, companies.business,
   companies.market_position, companies.website, companies.founded_year, companies.headquarters,
   companies.project_count, companies.country_count, companies.business_regions,
+  companies.updated_at::date::text as updated_on,
   exists (
     select 1 from app_private.company_assets asset
     where asset.company_slug = companies.slug
@@ -146,6 +214,11 @@ const companySelect = `select companies.slug, companies.source_id, companies.dis
         'financial-dashboard', 'financial-data'
       ])
   ) as has_complete_portfolio
+  , exists (
+    select 1 from app_private.company_related_information relation
+    join app_private.related_information information on information.id = relation.information_id
+    where relation.company_slug = companies.slug and information.kind = 'news'
+  ) as has_news
 from app_private.companies companies`;
 
 const reportSelect = `select information.id, information.title, information.subtitle,
@@ -185,37 +258,12 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
         const row = await findCompany(client, slug);
         if (!row) return null;
 
-        const [assets, related] = await Promise.all([
-          client.query<{ kind: string }>(
+        const assets = await client.query<{ kind: string }>(
             `select kind from app_private.company_assets
              where company_slug = $1 and status = 'present' order by kind`,
             [slug],
-          ),
-          client.query<RelatedRow>(
-            `select information.id, information.kind, information.title, information.subtitle, information.summary,
-              information.publisher, information.published_on::text,
-              information.source_format, information.attachment_available
-            from app_private.related_information information
-            join app_private.company_related_information relation
-              on relation.information_id = information.id
-            where relation.company_slug = $1
-            order by information.published_on desc, information.id`,
-            [slug],
-          ),
-        ]);
+          );
         const assetKinds = new Set(assets.rows.map(({ kind }) => kind));
-
-        const relatedInformation: RelatedInformation[] = related.rows.map((item) => ({
-          id: item.id,
-          kind: item.kind as 'report' | 'news',
-          title: item.title,
-          subtitle: englishReportTitle(item.id, item.subtitle),
-          summary: item.summary,
-          publisher: item.publisher,
-          publishedOn: item.published_on,
-          sourceFormat: item.source_format,
-          attachmentAvailable: item.attachment_available,
-        }));
         return CompanyDetailSchema.parse({
           ...toSummary(row),
           sourceId: row.source_id,
@@ -223,8 +271,8 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           foundedYear: row.founded_year,
           businessRegions: row.business_regions,
           dashboards: dashboardUrls(slug, row.display_name, assetKinds),
-          relatedInformation,
-          newsStatus: 'not-provided',
+          relatedInformation: [],
+          newsStatus: row.has_news ? 'available' : 'not-provided',
         });
       });
     },
@@ -259,6 +307,65 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           [id],
         );
         return result.rows[0] ? toReport(result.rows[0]) : null;
+      });
+    },
+    listCompanyInformation(slug, kind, page, pageSize, identity, requestId) {
+      return withDatabaseContext(binding, identity, requestId, async (client) => {
+        const company = await findCompany(client, slug);
+        if (!company) return null;
+        const offset = (page - 1) * pageSize;
+        const count = await client.query<{ total: number }>(
+            `select count(*)::integer as total
+             from app_private.company_related_information relation
+             join app_private.related_information information on information.id = relation.information_id
+             where relation.company_slug = $1 and information.kind = $2`,
+            [slug, kind],
+          );
+        const result = await client.query<RelatedRow>(
+            `select information.id, information.kind, information.title, information.subtitle,
+              information.summary, information.summary_en, information.publisher,
+              information.published_on::text, information.source_format,
+              information.attachment_available, information.news_category,
+              information.region, information.source_url
+             from app_private.company_related_information relation
+             join app_private.related_information information on information.id = relation.information_id
+             where relation.company_slug = $1 and information.kind = $2
+             order by information.published_on desc nulls last, information.id
+             limit $3 offset $4`,
+            [slug, kind, pageSize, offset],
+          );
+        return {
+          information: result.rows.map(toRelatedInformation),
+          total: count.rows[0]?.total ?? 0,
+        };
+      });
+    },
+    listFidProjects(slug, page, pageSize, identity, requestId) {
+      return withDatabaseContext(binding, identity, requestId, async (client) => {
+        const company = await findCompany(client, slug);
+        if (!company) return null;
+        const offset = (page - 1) * pageSize;
+        const count = await client.query<{ total: number }>(
+            `select count(*)::integer as total from app_private.fid_projects where company_slug = $1`,
+            [slug],
+          );
+        const result = await client.query<FidRow>(
+            `select id, project, approval_year, asset, field_type, facility_category,
+              interests, country, economics_usd_million
+             from app_private.fid_projects where company_slug = $1
+             order by approval_year desc nulls last, project, id
+             limit $2 offset $3`,
+            [slug, pageSize, offset],
+          );
+        const sync = await client.query<{ synced_on: string }>(
+            `select coalesce(max(synced_on), '2026-08-07'::date)::text as synced_on
+             from app_private.fid_projects`,
+          );
+        return {
+          projects: result.rows.map(toFidProject),
+          syncedOn: sync.rows[0]?.synced_on ?? '2026-08-07',
+          total: count.rows[0]?.total ?? 0,
+        };
       });
     },
   };

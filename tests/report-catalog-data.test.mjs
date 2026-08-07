@@ -16,7 +16,7 @@ test('merged report catalog is reproducible and normalized without invented atta
     await readFile(new URL('../data/report-catalog.json', import.meta.url), 'utf8'),
   );
   assert.equal(catalog.schemaVersion, 1);
-  assert.equal(catalog.syncedOn, '2026-08-04');
+  assert.equal(catalog.syncedOn, '2026-08-07');
   assert.equal(catalog.reports.length, 1_111);
   assert.deepEqual(
     [...new Set(catalog.reports.map(({ informationType }) => informationType))].sort(),
@@ -32,4 +32,5 @@ test('merged report catalog is reproducible and normalized without invented atta
   assert.equal(new Set(catalog.reports.map(({ id }) => id)).size, 1_111);
   assert.equal(catalog.quality.blankTitles, 0);
   assert.equal(catalog.quality.duplicateIds, 0);
+  assert.equal(catalog.quality.missingPublicationDates, 0);
 });

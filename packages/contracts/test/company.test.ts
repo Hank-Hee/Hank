@@ -1,10 +1,12 @@
 import {
   CompanyDetailSchema,
+  CompanyInformationListResponseSchema,
   CompanyListResponseSchema,
   DemoSessionRequestSchema,
   DemoSessionResponseSchema,
   ReportDetailSchema,
   ReportListResponseSchema,
+  FidProjectListResponseSchema,
 } from '@wison/contracts';
 import { describe, expect, it } from 'vitest';
 
@@ -20,6 +22,7 @@ const company = {
   projectCount: 552,
   countryCount: 32,
   dataCoverage: 'complete',
+  updatedOn: '2026-08-07',
 };
 
 describe('company library contracts', () => {
@@ -57,15 +60,42 @@ describe('company library contracts', () => {
         kind: 'report',
         title: '油气企业 ESG 披露与转型指标比较',
         summary: null,
+        summaryEn: null,
         publisher: 'Energy Institute',
         publishedOn: null,
         sourceFormat: '未提供',
         attachmentAvailable: false,
+        category: null,
+        region: '全球',
+        sourceUrl: null,
       }],
       newsStatus: 'not-provided',
     });
     expect(Object.values(detail.dashboards).every((url) => url?.startsWith('/company-assets/'))).toBe(true);
     expect(detail.relatedInformation[0]?.attachmentAvailable).toBe(false);
+  });
+
+  it('validates paginated company news and FID rows', () => {
+    const news = CompanyInformationListResponseSchema.parse({
+      information: [{
+        id: 'news-1234567890abcdef12345678', kind: 'news', title: '项目启动', subtitle: 'Project starts',
+        summary: '项目摘要', summaryEn: 'Project summary', publisher: 'Upstream Online',
+        publishedOn: '2026-08-07', sourceFormat: '网页', attachmentAvailable: false,
+        category: '项目进展', region: '中东及南亚', sourceUrl: 'https://example.com/news',
+      }],
+      kind: 'news', total: 1, page: 1, pageSize: 6,
+    });
+    const fid = FidProjectListResponseSchema.parse({
+      projects: [{
+        id: '6a705e88865ef4c4610556b2', project: 'Kulboy, UZ', approvalYear: '2030',
+        asset: 'Kulboy, UZ', fieldType: 'Gas-Condensate field', facilityCategory: 'Onshore',
+        interests: 'SOCAR* (30%); BP (40%); Uzbekneftegaz (30%)', country: 'Uzbekistan',
+        economicsUsdMillion: 12.1725,
+      }],
+      syncedOn: '2026-08-07', total: 1, page: 1, pageSize: 10,
+    });
+    expect(news.information[0]?.sourceUrl).toBe('https://example.com/news');
+    expect(fid.projects[0]).not.toHaveProperty('historicalCompany');
   });
 
   it('keeps report metadata strict without implying uploaded contents', () => {

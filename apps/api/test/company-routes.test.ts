@@ -1,7 +1,9 @@
 import {
   CompanyDetailSchema,
+  CompanyInformationListResponseSchema,
   CompanyListResponseSchema,
   DemoSessionResponseSchema,
+  FidProjectListResponseSchema,
   ReportDetailSchema,
   ReportListResponseSchema,
   type CompanySummary,
@@ -32,6 +34,7 @@ const summary: CompanySummary = {
   projectCount: 552,
   countryCount: 32,
   dataCoverage: 'complete',
+  updatedOn: '2026-08-07',
 };
 const detail: CompanyDetail = CompanyDetailSchema.parse({
   ...summary,
@@ -66,6 +69,20 @@ const report = ReportDetailSchema.parse({
   relatedCompanies: [{ slug: 'shell', displayName: 'Shell' }],
   detailStatus: 'metadata-only',
 });
+const news = {
+  id: 'news-6a4de0f8c3776c4645229bee', kind: 'news' as const,
+  title: 'Shell 发布项目进展', subtitle: 'Shell publishes project update',
+  summary: '项目已进入下一阶段。', summaryEn: 'The project entered its next phase.',
+  publisher: 'Shell', publishedOn: '2026-07-30', sourceFormat: '网页',
+  attachmentAvailable: false, category: '项目进展', region: '全球',
+  sourceUrl: 'https://www.shell.com/news/project-update',
+};
+const fidProject = {
+  id: '6a705e88865ef4c4610556b2', project: 'Kulboy, UZ', approvalYear: '2030',
+  asset: 'Kulboy, UZ', fieldType: 'Gas-Condensate field', facilityCategory: 'Onshore',
+  interests: 'SOCAR* (30%); BP (40%); Uzbekneftegaz (30%)', country: 'Uzbekistan',
+  economicsUsdMillion: 12.1725,
+};
 
 function appWith(repository: CompanyRepository) {
   const verifier: TokenVerifier = { verify: vi.fn(async () => identity) };
@@ -73,9 +90,15 @@ function appWith(repository: CompanyRepository) {
   return createApp(() => ({ verifier, loader }), () => repository);
 }
 
+const repositoryAdditions: Pick<CompanyRepository, 'listCompanyInformation' | 'listFidProjects'> = {
+  listCompanyInformation: vi.fn(async () => ({ information: [], total: 0 })),
+  listFidProjects: vi.fn(async () => ({ projects: [], syncedOn: '2026-08-07', total: 0 })),
+};
+
 describe('company library API', () => {
   it('keeps company data behind authentication', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
     };
     expect((await appWith(repository).request('/api/v1/companies')).status).toBe(401);
@@ -83,6 +106,7 @@ describe('company library API', () => {
 
   it('publishes only read-only catalog and dashboard routes when public mode is explicit', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(async () => [summary]),
       findBySlug: vi.fn(async () => detail),
       listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
@@ -113,6 +137,7 @@ describe('company library API', () => {
 
   it('returns a strict company list and detail', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(async () => [summary]),
       findBySlug: vi.fn(async () => detail),
       listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
@@ -127,8 +152,28 @@ describe('company library API', () => {
     expect(CompanyDetailSchema.parse(await item.json()).slug).toBe('shell');
   });
 
+  it('returns paginated company news, reports, and deduplicated FID projects', async () => {
+    const repository: CompanyRepository = {
+      list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
+      listCompanyInformation: vi.fn(async (_slug, kind) => ({
+        information: kind === 'news' ? [news] : [], total: kind === 'news' ? 1 : 0,
+      })),
+      listFidProjects: vi.fn(async () => ({ projects: [fidProject], syncedOn: '2026-08-07', total: 1 })),
+    };
+    const app = appWith(repository);
+    const headers = { authorization: 'Bearer token' };
+    const newsResponse = await app.request('/api/v1/companies/shell/information?kind=news&page=1&pageSize=6', { headers });
+    const fidResponse = await app.request('/api/v1/companies/shell/fid-projects?page=1&pageSize=10', { headers });
+
+    expect(CompanyInformationListResponseSchema.parse(await newsResponse.json())).toMatchObject({ total: 1, kind: 'news' });
+    const parsedFid = FidProjectListResponseSchema.parse(await fidResponse.json());
+    expect(parsedFid.projects).toEqual([fidProject]);
+    expect(JSON.stringify(parsedFid)).not.toContain('historicalCompany');
+  });
+
   it('returns the report archive and metadata-only detail behind authentication', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(),
       findBySlug: vi.fn(),
       listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
@@ -145,6 +190,7 @@ describe('company library API', () => {
 
   it('deduplicates concurrent read-only catalog queries inside one Worker isolate', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(async () => [summary]),
       findBySlug: vi.fn(async () => detail),
       listReports: vi.fn(async () => ({ reports: [report], syncedOn: '2026-08-04' })),
@@ -164,6 +210,7 @@ describe('company library API', () => {
 
   it('returns a safe 404 for an unknown company', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(async () => []),
       findBySlug: vi.fn(async () => null),
       listReports: vi.fn(async () => ({ reports: [], syncedOn: '2026-08-04' })),
@@ -178,6 +225,7 @@ describe('company library API', () => {
 
   it('protects dashboard assets and serves them through the authenticated Worker', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
     };
     const assets = {

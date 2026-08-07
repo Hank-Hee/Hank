@@ -44,7 +44,7 @@ beforeEach(() => {
       const rows = query.get('q') === '不存在' ? [] : [report];
       return new Response(JSON.stringify({
         reports: rows,
-        syncedOn: '2026-08-04',
+        syncedOn: '2026-08-07',
         total: rows.length,
         page: Number(query.get('page') ?? 1),
         pageSize: Number(query.get('pageSize') ?? 50),
@@ -68,7 +68,7 @@ describe('report archive UI', () => {
     expect(await screen.findByText('已归档公司')).toBeInTheDocument();
     expect(screen.getByText('行业报告与资料')).toBeInTheDocument();
     expect(screen.getByText('最近一次更新')).toBeInTheDocument();
-    expect(await screen.findByText('2026-08-04')).toBeInTheDocument();
+    expect(await screen.findByText('2026/8/7')).toBeInTheDocument();
     expect(screen.queryByText('完整 Portfolio')).not.toBeInTheDocument();
     expect(screen.queryByText('报告元数据')).not.toBeInTheDocument();
   });

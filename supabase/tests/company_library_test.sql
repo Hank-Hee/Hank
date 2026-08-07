@@ -1,10 +1,11 @@
 begin;
-select plan(22);
+select plan(27);
 
 select has_table('app_private', 'companies', 'companies table exists');
 select has_table('app_private', 'company_assets', 'company_assets table exists');
 select has_table('app_private', 'related_information', 'related_information table exists');
 select has_table('app_private', 'company_related_information', 'company relationships table exists');
+select has_table('app_private', 'fid_projects', 'FID projects table exists');
 
 select is((select count(*)::integer from app_private.companies), 126, 'all traced company profiles');
 select results_eq(
@@ -31,12 +32,15 @@ select ok(
   'all source assets have paths, hashes, and sizes'
 );
 select is((select count(*)::integer from app_private.related_information where kind = 'report'), 1111, 'all normalized report metadata rows');
-select is((select count(*)::integer from app_private.company_related_information), 642, 'traced company-report relationships');
+select is((select count(*)::integer from app_private.company_related_information), 2368, 'traced company-report and company-news relationships');
 select is((select count(distinct information_type)::integer from app_private.related_information where kind = 'report'), 4, 'report types use the four-value vocabulary');
 select is((select count(distinct source_family)::integer from app_private.related_information where kind = 'report'), 2, 'source family distinguishes corporate disclosures and industry research');
-select is((select count(*)::integer from app_private.related_information where published_on is null), 722, 'missing publication dates remain explicit nulls');
-select is((select max(synced_on)::text from app_private.related_information where kind = 'report'), '2026-08-04', 'report sync date is traceable');
-select is((select count(*)::integer from app_private.related_information where kind = 'news'), 0, 'news is not fabricated');
+select is((select count(*)::integer from app_private.related_information where published_on is null), 0, 'all approved publication dates are archived');
+select is((select max(synced_on)::text from app_private.related_information where kind = 'report'), '2026-08-07', 'report sync date is traceable');
+select is((select count(*)::integer from app_private.related_information where kind = 'news'), 2252, 'all merged news stories are archived');
+select is((select count(distinct news_category)::integer from app_private.related_information where kind = 'news'), 6, 'news uses the fixed six-category vocabulary');
+select is((select count(*)::integer from app_private.fid_projects), 4383, 'historical-company rows are deduplicated into visible FID projects');
+select is((select count(*)::integer from app_private.fid_projects where company_slug is not null), 1424, 'FID projects are linked to traced companies when aliases match');
 select ok(
   not exists (select 1 from app_private.related_information where attachment_available),
   'report metadata does not imply an attachment'
@@ -48,7 +52,7 @@ select ok(
     join pg_namespace namespace on namespace.oid = relation.relnamespace
     where namespace.nspname = 'app_private'
       and relation.relname = any (array[
-        'companies', 'company_assets', 'related_information', 'company_related_information'
+        'companies', 'company_assets', 'related_information', 'company_related_information', 'fid_projects'
       ])
       and not (relation.relrowsecurity and relation.relforcerowsecurity)
   ),
@@ -77,10 +81,12 @@ set local role app_runtime;
 set local app.user_id = '00000000-0000-4000-8000-000000000020';
 insert into company_runtime_observations (key, value) values
   ('active_companies', (select count(*)::integer from app_private.companies)),
-  ('active_reports', (select count(*)::integer from app_private.related_information));
+  ('active_information', (select count(*)::integer from app_private.related_information)),
+  ('active_fid', (select count(*)::integer from app_private.fid_projects));
 reset role;
 select is((select value from company_runtime_observations where key = 'active_companies'), 126, 'active user can read companies');
-select is((select value from company_runtime_observations where key = 'active_reports'), 1111, 'active user can read reports');
+select is((select value from company_runtime_observations where key = 'active_information'), 3363, 'active user can read reports and news');
+select is((select value from company_runtime_observations where key = 'active_fid'), 4383, 'active user can read FID projects');
 
 select * from finish();
 rollback;

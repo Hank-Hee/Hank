@@ -44,13 +44,20 @@ test('knowledge catalog seed includes every traced company profile and report me
   const reportCatalog = JSON.parse(
     await readFile(new URL('../data/report-catalog.json', import.meta.url), 'utf8'),
   );
+  const newsCatalog = JSON.parse(
+    await readFile(new URL('../data/news-catalog.json', import.meta.url), 'utf8'),
+  );
+  const fidCatalog = JSON.parse(
+    await readFile(new URL('../data/fid-projects.json', import.meta.url), 'utf8'),
+  );
   const seed = await readFile(new URL('../supabase/seed.sql', import.meta.url), 'utf8');
 
   assert.equal(profiles.length, 126);
   assert.equal(reportCatalog.reports.length, 1_111);
   assert.equal((seed.match(/insert into app_private\.companies/g) ?? []).length, 126);
-  assert.equal((seed.match(/insert into app_private\.related_information/g) ?? []).length, 1_111);
-  assert.equal((seed.match(/insert into app_private\.company_related_information/g) ?? []).length, 642);
+  assert.equal((seed.match(/insert into app_private\.related_information/g) ?? []).length, 1_111 + newsCatalog.news.length);
+  assert.equal((seed.match(/insert into app_private\.company_related_information/g) ?? []).length, 642 + 1_726);
+  assert.equal((seed.match(/insert into app_private\.fid_projects/g) ?? []).length, fidCatalog.projects.length);
   assert.match(seed, /'black-and-veatch'.*'EPC'/);
   assert.match(seed, /'shell'.*true/);
 });

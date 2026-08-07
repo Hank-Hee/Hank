@@ -25,6 +25,7 @@ export const CompanySummarySchema = z.strictObject({
   projectCount: z.number().int().nonnegative(),
   countryCount: z.number().int().nonnegative(),
   dataCoverage: CompanyDataCoverageSchema,
+  updatedOn: z.iso.date(),
 });
 export type CompanySummary = z.infer<typeof CompanySummarySchema>;
 
@@ -47,12 +48,47 @@ export const RelatedInformationSchema = z.strictObject({
   title: z.string().min(1).max(500),
   subtitle: z.string().min(1).max(500).nullable().optional(),
   summary: z.string().min(1).max(2_000).nullable(),
+  summaryEn: z.string().min(1).max(2_000).nullable(),
   publisher: z.string().min(1).max(200),
   publishedOn: z.iso.date().nullable(),
   sourceFormat: z.string().min(1).max(20),
   attachmentAvailable: z.boolean(),
+  category: z.string().min(1).max(100).nullable(),
+  region: z.string().min(1).max(100),
+  sourceUrl: z.url().refine((value) => value.startsWith('https://')).nullable(),
 });
 export type RelatedInformation = z.infer<typeof RelatedInformationSchema>;
+
+export const CompanyInformationListResponseSchema = z.strictObject({
+  information: z.array(RelatedInformationSchema).max(100),
+  kind: z.enum(['report', 'news']),
+  total: z.number().int().nonnegative(),
+  page: z.number().int().positive(),
+  pageSize: z.number().int().min(1).max(100),
+});
+export type CompanyInformationListResponse = z.infer<typeof CompanyInformationListResponseSchema>;
+
+export const FidProjectSchema = z.strictObject({
+  id: z.string().regex(/^[a-f0-9]{24}$/),
+  project: z.string().min(1).max(500),
+  approvalYear: z.string().regex(/^[0-9]{4}$/).nullable(),
+  asset: z.string().min(1).max(500),
+  fieldType: z.string().min(1).max(200),
+  facilityCategory: z.string().min(1).max(200),
+  interests: z.string().min(1).max(2_000),
+  country: z.string().min(1).max(200),
+  economicsUsdMillion: z.number().nonnegative().nullable(),
+});
+export type FidProject = z.infer<typeof FidProjectSchema>;
+
+export const FidProjectListResponseSchema = z.strictObject({
+  projects: z.array(FidProjectSchema).max(100),
+  syncedOn: z.iso.date(),
+  total: z.number().int().nonnegative(),
+  page: z.number().int().positive(),
+  pageSize: z.number().int().min(1).max(100),
+});
+export type FidProjectListResponse = z.infer<typeof FidProjectListResponseSchema>;
 
 export const RelatedCompanySchema = z.strictObject({
   slug: CompanySlugSchema,
@@ -113,7 +149,7 @@ export const CompanyDetailSchema = CompanySummarySchema.extend({
   businessRegions: z.array(z.string().min(1).max(100)).min(1),
   dashboards: CompanyDashboardsSchema,
   relatedInformation: z.array(RelatedInformationSchema),
-  newsStatus: z.literal('not-provided'),
+  newsStatus: z.enum(['available', 'not-provided']),
 });
 export type CompanyDetail = z.infer<typeof CompanyDetailSchema>;
 

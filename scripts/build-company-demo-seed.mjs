@@ -22,6 +22,12 @@ const operatorManifest = JSON.parse(
 const reportCatalog = JSON.parse(
   await readFile(resolve(repositoryRoot, 'data/report-catalog.json'), 'utf8'),
 );
+const newsCatalog = JSON.parse(
+  await readFile(resolve(repositoryRoot, 'data/news-catalog.json'), 'utf8'),
+);
+const fidCatalog = JSON.parse(
+  await readFile(resolve(repositoryRoot, 'data/fid-projects.json'), 'utf8'),
+);
 
 const normalizeName = (value) => String(value).trim().toLocaleLowerCase('en-US');
 const slugify = (value) => String(value)
@@ -112,12 +118,14 @@ for (const company of companies) {
     `insert into app_private.companies (` +
       `slug, source_id, display_name, company_type, country, region, business, market_position, ` +
       `website, founded_year, headquarters, project_count, country_count, business_regions, is_featured` +
+      `, updated_at` +
     `) values (` +
       `${quote(company.slug)}, ${quote(company.sourceId)}, ${quote(company.displayName)}, ` +
       `${quote(company.companyType)}, ${quote(company.country)}, ${quote(company.region)}, ` +
       `${quote(company.business)}, ${quote(company.marketPosition)}, ${quote(company.website)}, ` +
       `${Number(company.foundedYear)}, ${quote(company.headquarters)}, ${company.projectCount}, ` +
-      `${company.countryCount}, ${textArray(company.businessRegions)}, ${company.isFeatured}` +
+      `${company.countryCount}, ${textArray(company.businessRegions)}, ${company.isFeatured}, ` +
+      `${quote('2026-08-07')}::date` +
     `) on conflict (slug) do update set ` +
       `source_id = excluded.source_id, display_name = excluded.display_name, ` +
       `company_type = excluded.company_type, country = excluded.country, region = excluded.region, ` +
@@ -125,8 +133,7 @@ for (const company of companies) {
       `website = excluded.website, founded_year = excluded.founded_year, ` +
       `headquarters = excluded.headquarters, project_count = excluded.project_count, ` +
       `country_count = excluded.country_count, business_regions = excluded.business_regions, ` +
-      `is_featured = excluded.is_featured, ` +
-      `updated_at = now();`,
+      `is_featured = excluded.is_featured, updated_at = excluded.updated_at;`,
   );
   for (const asset of company.assets) {
     lines.push(
@@ -181,6 +188,62 @@ for (const { report, companySlugs } of relatedReports) {
 
 lines.push(
   '',
+  `delete from app_private.company_related_information where information_id in (` +
+    `select id from app_private.related_information where kind = 'news');`,
+  `delete from app_private.related_information where kind = 'news';`,
+  '',
+);
+for (const news of newsCatalog.news) {
+  lines.push(
+    `insert into app_private.related_information (` +
+      `id, kind, title, subtitle, summary, summary_en, industry, region, information_type, ` +
+      `source_family, publisher, published_on, language, source_format, attachment_available, ` +
+      `keywords, source_record_id, synced_on, source_url, news_category` +
+    `) values (` +
+      `${quote(news.id)}, 'news', ${quote(news.title)}, ${quote(news.subtitle)}, ` +
+      `${nullable(news.summary)}, ${nullable(news.summaryEn)}, ${quote('能源行业')}, ` +
+      `${quote(news.region)}, ${quote('新闻')}, ${quote('新闻资讯')}, ${quote(news.publisher)}, ` +
+      `${quote(news.publishedOn)}::date, ${quote('中英')}, ${quote('网页')}, false, ` +
+      `${textArray([news.category, news.region])}, ${quote(news.id)}, ` +
+      `${quote(newsCatalog.syncedOn)}::date, ${nullable(news.sourceUrl)}, ${quote(news.category)}` +
+    `) on conflict (id) do update set ` +
+      `title = excluded.title, subtitle = excluded.subtitle, summary = excluded.summary, ` +
+      `summary_en = excluded.summary_en, region = excluded.region, ` +
+      `publisher = excluded.publisher, published_on = excluded.published_on, ` +
+      `keywords = excluded.keywords, synced_on = excluded.synced_on, ` +
+      `source_url = excluded.source_url, news_category = excluded.news_category;`,
+  );
+  for (const slug of news.companySlugs) {
+    lines.push(
+      `insert into app_private.company_related_information (company_slug, information_id) ` +
+      `values (${quote(slug)}, ${quote(news.id)}) on conflict do nothing;`,
+    );
+  }
+}
+
+lines.push('', 'delete from app_private.fid_projects;', '');
+for (const project of fidCatalog.projects) {
+  lines.push(
+    `insert into app_private.fid_projects (` +
+      `id, operator_name, company_slug, project, approval_year, asset, field_type, ` +
+      `facility_category, interests, country, economics_usd_million, synced_on` +
+    `) values (` +
+      `${quote(project.id)}, ${quote(project.operatorName)}, ${nullable(project.companySlug)}, ` +
+      `${quote(project.project)}, ${nullable(project.approvalYear)}, ${quote(project.asset)}, ` +
+      `${quote(project.fieldType)}, ${quote(project.facilityCategory)}, ${quote(project.interests)}, ` +
+      `${quote(project.country)}, ${project.economicsUsdMillion ?? 'null'}, ` +
+      `${quote(fidCatalog.syncedOn)}::date` +
+    `) on conflict (id) do update set ` +
+      `operator_name = excluded.operator_name, company_slug = excluded.company_slug, ` +
+      `project = excluded.project, approval_year = excluded.approval_year, asset = excluded.asset, ` +
+      `field_type = excluded.field_type, facility_category = excluded.facility_category, ` +
+      `interests = excluded.interests, country = excluded.country, ` +
+      `economics_usd_million = excluded.economics_usd_million, synced_on = excluded.synced_on;`,
+  );
+}
+
+lines.push(
+  '',
   `insert into app_private.profiles (user_id, email, status) values ` +
     `('00000000-0000-4000-8000-000000000030', 'company-demo@local.wison', 'active') ` +
     `on conflict (user_id) do update set status = 'active';`,
@@ -199,5 +262,8 @@ if (process.argv.includes('--check')) {
   }
 } else {
   await writeFile(outputPath, serialized, 'utf8');
-  console.log(`Wrote ${companies.length} companies and ${relatedReports.length} reports to ${outputPath}`);
+  console.log(
+    `Wrote ${companies.length} companies, ${relatedReports.length} reports, ` +
+    `${newsCatalog.news.length} news stories, and ${fidCatalog.projects.length} FID rows to ${outputPath}`,
+  );
 }

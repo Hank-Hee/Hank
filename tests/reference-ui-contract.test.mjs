@@ -10,7 +10,9 @@ test('reference UI keeps page eyebrows deep blue and dashboard frames scroll-fre
   ]);
 
   assert.match(styles, /\.page-heading \.eyebrow\s*\{[^}]*color:\s*var\(--brand-700\)/s);
-  assert.match(styles, /\.app-shell\s*\{[^}]*grid-template-columns:\s*224px/s);
+  assert.match(styles, /\.app-shell\s*\{[^}]*grid-template-columns:\s*244px/s);
+  assert.match(styles, /\.primary-nav a\s*\{[^}]*min-height:\s*52px[^}]*font-size:\s*16px/s);
+  assert.match(styles, /\.primary-nav i\s*\{[^}]*width:\s*24px[^}]*height:\s*24px/s);
   assert.match(styles, /\.home-hero\s*\{[^}]*min-height:\s*280px[^}]*padding:\s*44px 48px/s);
   assert.match(styles, /\.home-hero h2\s*\{[^}]*font-size:\s*36px/s);
   assert.match(styles, /\.library-icon\s*\{[^}]*width:\s*42px[^}]*height:\s*42px[^}]*border-radius:\s*4px/s);

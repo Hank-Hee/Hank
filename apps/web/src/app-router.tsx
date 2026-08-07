@@ -15,6 +15,8 @@ import { I18nProvider, useI18n } from './i18n';
 import {
   getCompanies,
   getCompany,
+  getCompanyFidProjects,
+  getCompanyInformation,
   getReport,
   getReports,
 } from './lib/api-client';
@@ -47,6 +49,12 @@ function useDebouncedValue(value: string, delay = 200) {
     return () => window.clearTimeout(timeout);
   }, [delay, value]);
   return debounced;
+}
+
+function formatArchiveDate(value: string | undefined) {
+  if (!value) return '—';
+  const [year, month, day] = value.split('-');
+  return year && month && day ? `${year}/${Number(month)}/${Number(day)}` : value;
 }
 
 type SearchResult =
@@ -271,7 +279,7 @@ function HomePage() {
       <section className="stats-strip" aria-label={t('资料统计')}>
         <div><strong>{companyRows.length}</strong><span>{t('已归档公司')}</span></div>
         <div><strong>{reports.data?.total ?? 0}</strong><span>{t('行业报告与资料')}</span></div>
-        <div><strong className="sync-date">{reports.data?.syncedOn ?? '—'}</strong><span>{t('最近一次更新')}</span></div>
+        <div><strong className="sync-date">{formatArchiveDate(reports.data?.syncedOn)}</strong><span>{t('最近一次更新')}</span></div>
       </section>
       <div className="home-columns">
         <section className="content-panel compact-panel">
@@ -306,7 +314,6 @@ function CompanyListPage() {
   const [type, setType] = useState('');
   const [region, setRegion] = useState('');
   const [business, setBusiness] = useState('');
-  const [listed, setListed] = useState('');
   const query = useQuery({ queryKey: ['companies'], queryFn: ({ signal }) => getCompanies(signal) });
   const companies = (query.data?.companies ?? []).map((company) => localizeCompany(company, locale));
   const types = [...new Set(companies.map((company) => company.companyType))].sort();
@@ -320,10 +327,9 @@ function CompanyListPage() {
       && (!type || company.companyType === type)
       && (!region || company.region === region)
       && (!business || company.business.includes(business))
-      && (!listed || listed === 'not-provided')
     ));
-  }, [business, companies, listed, region, search, type]);
-  const clearFilters = () => { setSearch(''); setType(''); setRegion(''); setBusiness(''); setListed(''); };
+  }, [business, companies, region, search, type]);
+  const clearFilters = () => { setSearch(''); setType(''); setRegion(''); setBusiness(''); };
 
   return (
     <section>
@@ -336,7 +342,6 @@ function CompanyListPage() {
         <label><span>{t('公司类型')}</span><select value={type} onChange={(event) => setType(event.target.value)}><option value="">{t('全部类型')}</option>{types.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
         <label><span>{t('国家／地区')}</span><select value={region} onChange={(event) => setRegion(event.target.value)}><option value="">{t('全部地区')}</option>{regions.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
         <label><span>{t('业务领域')}</span><select value={business} onChange={(event) => setBusiness(event.target.value)}><option value="">{t('全部业务')}</option>{businesses.map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
-        <label><span>{t('上市状态')}</span><select value={listed} onChange={(event) => setListed(event.target.value)}><option value="">{t('全部状态')}</option><option value="not-provided">{t('未标注')}</option></select></label>
         <button type="button" onClick={clearFilters}>{t('清除筛选')}</button>
       </div>
       {query.isPending ? <p className="state-message">{t('公司数据加载中…')}</p> : null}
@@ -344,15 +349,14 @@ function CompanyListPage() {
       {query.isSuccess ? (
         <div className="data-table-wrap">
           <table className="data-table company-table">
-            <thead><tr><th>{t('公司名称')}</th><th>{t('类型')}</th><th>{t('总部地区')}</th><th>{t('业务领域')}</th><th>{t('上市状态')}</th><th>{t('资料更新时间')}</th></tr></thead>
+            <thead><tr><th>{t('公司名称')}</th><th>{t('类型')}</th><th>{t('总部地区')}</th><th>{t('业务领域')}</th><th>{t('资料更新时间')}</th></tr></thead>
             <tbody>{filteredCompanies.map((company) => (
               <tr key={company.slug}>
                 <td><Link to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link><small>{company.marketPosition}</small><span className={`coverage coverage--${company.dataCoverage}`}>{t(coverageLabels[company.dataCoverage])}</span></td>
                 <td><span className="type-chip">{value(company.companyType)}</span></td>
                 <td>{value(company.headquarters)}<small>{value(company.region)}</small></td>
                 <td>{businessSegments(company.business, locale).map(value).join(' · ')}</td>
-                <td><span className="muted-tag">{t('未标注')}</span></td>
-                <td>{t('源文件未标注')}</td>
+                <td>{formatArchiveDate(company.updatedOn)}</td>
               </tr>
             ))}</tbody>
           </table>
@@ -395,19 +399,88 @@ function MissingModule({ children }: { children: string }) {
   return <div className="module-missing"><span>{t('资料待补充')}</span><p>{children}</p></div>;
 }
 
+function PaginationControls({
+  page,
+  pageSize,
+  total,
+  onChange,
+  label,
+}: {
+  page: number;
+  pageSize: number;
+  total: number;
+  onChange: (page: number) => void;
+  label: string;
+}) {
+  const { t } = useI18n();
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
+  if (pageCount <= 1) return null;
+  return <nav className="pagination" aria-label={label}>
+    <button type="button" disabled={page <= 1} onClick={() => onChange(page - 1)}>{t('上一页')}</button>
+    <span>{t('第')} {page} / {pageCount} {t('页')}</span>
+    <button type="button" disabled={page >= pageCount} onClick={() => onChange(page + 1)}>{t('下一页')}</button>
+  </nav>;
+}
+
+const fidChineseValues: Record<string, string> = {
+  'Oil field': '油田',
+  'Gas field': '气田',
+  'Gas-Condensate field': '凝析气田',
+  Fixed: '固定式设施',
+  Floater: '浮式设施',
+  Onshore: '陆上设施',
+  'Subsea tie back': '水下回接',
+};
+const englishRegions = new Intl.DisplayNames(['en'], { type: 'region' });
+const chineseRegions = new Intl.DisplayNames(['zh-CN'], { type: 'region' });
+const fidCountryChinese = new Map<string, string>();
+for (let first = 65; first <= 90; first += 1) {
+  for (let second = 65; second <= 90; second += 1) {
+    const code = String.fromCharCode(first, second);
+    const englishName = englishRegions.of(code);
+    const chineseName = chineseRegions.of(code);
+    if (englishName && englishName !== code && chineseName && chineseName !== code) {
+      fidCountryChinese.set(englishName, chineseName);
+    }
+  }
+}
+
+function localizeFidValue(value: string, locale: 'zh' | 'en') {
+  return locale === 'en' ? value : fidChineseValues[value] ?? fidCountryChinese.get(value) ?? value;
+}
+
 function CompanyDetailPage() {
   const { locale, t, value } = useI18n();
   const { slug } = companyDetailRoute.useParams();
+  const [newsPage, setNewsPage] = useState(1);
+  const [reportPage, setReportPage] = useState(1);
+  const [fidPage, setFidPage] = useState(1);
   const query = useQuery({ queryKey: ['company', slug], queryFn: ({ signal }) => getCompany(slug, signal) });
+  const newsQuery = useQuery({
+    queryKey: ['company-information', slug, 'news', newsPage],
+    queryFn: ({ signal }) => getCompanyInformation(slug, 'news', newsPage, 6, signal),
+    enabled: query.isSuccess,
+    placeholderData: (previous) => previous,
+  });
+  const reportQuery = useQuery({
+    queryKey: ['company-information', slug, 'report', reportPage],
+    queryFn: ({ signal }) => getCompanyInformation(slug, 'report', reportPage, 6, signal),
+    enabled: query.isSuccess,
+    placeholderData: (previous) => previous,
+  });
+  const fidQuery = useQuery({
+    queryKey: ['company-fid', slug, fidPage],
+    queryFn: ({ signal }) => getCompanyFidProjects(slug, fidPage, 10, signal),
+    enabled: query.isSuccess,
+    placeholderData: (previous) => previous,
+  });
   if (query.isPending) return <p className="state-message">{t('公司档案加载中…')}</p>;
   if (query.isError) return <p className="state-message state-message--error">{t('公司档案暂时无法加载。')}</p>;
   const company = localizeCompany(query.data, locale);
-  const reports = company.relatedInformation.filter((item) => item.kind === 'report');
-  const news = company.relatedInformation.filter((item) => item.kind === 'news');
-  const visibleNews = news.map((item) => ({
-    ...item,
-    title: locale === 'en' ? item.subtitle ?? (/[㐀-鿿]/u.test(item.title) ? '' : item.title) : item.title,
-  })).filter(({ title }) => title);
+  const news = newsQuery.data?.information ?? [];
+  const reports = reportQuery.data?.information ?? [];
+  const fidProjects = fidQuery.data?.projects ?? [];
+  const economics = new Intl.NumberFormat(locale === 'en' ? 'en-US' : 'zh-CN', { maximumFractionDigits: 2 });
   return (
     <article className="company-detail">
       <nav className="breadcrumb" aria-label={t('面包屑')}><Link to="/companies">{t('公司信息库')}</Link><span>/</span><span>{company.displayName}</span></nav>
@@ -417,7 +490,7 @@ function CompanyDetailPage() {
         <dl><div><dt>{t('项目数量')}</dt><dd>{company.projectCount || t('未提供')}</dd></div><div><dt>{t('覆盖国家')}</dt><dd>{company.countryCount || t('未提供')}</dd></div><div><dt>{t('资料来源')}</dt><dd>{t('仓库归档')}</dd></div></dl>
       </header>
       <nav className="company-anchor-nav" aria-label={t('公司页面目录')}>
-        <a href="#overview">{t('公司概览')}</a><a href="#projects">{t('区域与项目')}</a><a href="#production">{t('产量')}</a><a href="#financials">{t('财务')}</a><a href="#news">{t('相关新闻')}</a><a href="#related-reports">{t('相关报告')}</a>
+        <a href="#overview">{t('公司概览')}</a><a href="#projects">{t('区域与项目')}</a><a href="#fid-tracker">FID Tracker</a><a href="#production">{t('产量')}</a><a href="#financials">{t('财务')}</a><a href="#news">{t('相关新闻')}</a><a href="#related-reports">{t('相关报告')}</a>
       </nav>
       <section id="overview" className="company-overview-section">
         <div className="section-heading"><h3>{t('公司概览')}</h3></div>
@@ -441,6 +514,20 @@ function CompanyDetailPage() {
           </div>
         ) : <MissingModule>{t('仓库尚未提供该公司的项目分布与项目类型数据。')}</MissingModule>}
       </section>
+      <section id="fid-tracker" className="portfolio-section">
+        <div className="section-heading section-heading--split"><div><h3>FID Tracker</h3><p>{t('最终投资决策项目跟踪')}</p></div><span>{fidQuery.data?.total ?? 0}{t('条项目记录')}</span></div>
+        {fidQuery.isPending ? <p className="state-message">{t('FID 数据加载中…')}</p> : null}
+        {fidQuery.isError ? <p className="state-message state-message--error">{t('FID 数据暂时无法加载。')}</p> : null}
+        {fidQuery.isSuccess ? <>
+          {fidProjects.length ? <div className="data-table-wrap fid-table-wrap"><table className="data-table fid-table">
+            <thead><tr><th>{t('记录 ID')}</th><th>{t('项目')}</th><th>{t('批准年份')}</th><th>{t('资产')}</th><th>{t('油气田类型')}</th><th>{t('设施类别')}</th><th>{t('权益')}</th><th>{t('国家')}</th><th>{t('经济性（百万美元）')}</th></tr></thead>
+            <tbody>{fidProjects.map((project) => <tr key={project.id}>
+              <td><code>{project.id}</code></td><td><b>{project.project}</b></td><td>{project.approvalYear ?? '—'}</td><td>{project.asset}</td><td>{localizeFidValue(project.fieldType, locale)}</td><td>{localizeFidValue(project.facilityCategory, locale)}</td><td>{project.interests}</td><td>{localizeFidValue(project.country, locale)}</td><td className="numeric-cell">{project.economicsUsdMillion === null ? '—' : economics.format(project.economicsUsdMillion)}</td>
+            </tr>)}</tbody>
+          </table></div> : <p className="empty-state content-panel">{t('暂无已归档项目')}</p>}
+          <PaginationControls page={fidPage} pageSize={10} total={fidQuery.data.total} onChange={setFidPage} label="FID Tracker" />
+        </> : null}
+      </section>
       <section id="production" className="portfolio-section">
         <div className="section-heading"><h3>{t('区域产量趋势')}</h3></div>
         {company.dashboards.production ? <div className="dashboard-card"><DashboardFrame src={company.dashboards.production} title={`${company.displayName} ${t('区域产量趋势')}`} /></div> : <MissingModule>{t('仓库尚未提供该公司的产量数据。')}</MissingModule>}
@@ -450,18 +537,26 @@ function CompanyDetailPage() {
         {company.dashboards.financial ? <div className="dashboard-card"><DashboardFrame className="dashboard-frame--financial" src={company.dashboards.financial} title={`${company.displayName} ${t('经营与财务表现')}`} /></div> : <MissingModule>{t('仓库尚未提供该公司的财务数据。')}</MissingModule>}
       </section>
       <section id="news" className="portfolio-section">
-        <div className="section-heading"><h3>{t('相关新闻')}</h3></div>
-        <div className="content-panel information-panel">
-          {visibleNews.length ? visibleNews.map((item) => <p key={item.id}>{item.title}</p>) : <p className="empty-state">{t('暂无可追溯新闻数据')}</p>}
-        </div>
+        <div className="section-heading section-heading--split"><h3>{t('相关新闻')}</h3><span>{newsQuery.data?.total ?? 0}{t('条新闻')}</span></div>
+        {newsQuery.isPending ? <p className="state-message">{t('新闻数据加载中…')}</p> : null}
+        {newsQuery.isError ? <p className="state-message state-message--error">{t('新闻数据暂时无法加载。')}</p> : null}
+        {newsQuery.isSuccess ? <div className="content-panel information-panel compact-information-list">
+          {news.length ? news.map((item) => {
+            const title = locale === 'en' ? item.subtitle ?? item.title : item.title;
+            const summary = locale === 'en' ? item.summaryEn : item.summary;
+            return <article key={item.id}><div className="information-meta"><span className="type-chip">{value(item.category ?? '公司动态')}</span><time>{item.publishedOn ?? t('日期未提供')}</time></div><h4>{item.sourceUrl ? <a href={item.sourceUrl} target="_blank" rel="noreferrer">{title} ↗</a> : title}</h4>{summary ? <p>{summary}</p> : null}<footer><span>{value(item.publisher)}</span><span>{value(item.region)}</span></footer></article>;
+          }) : <p className="empty-state">{t('暂无可追溯新闻数据')}</p>}
+        </div> : null}
+        <PaginationControls page={newsPage} pageSize={6} total={newsQuery.data?.total ?? 0} onChange={setNewsPage} label={t('相关新闻')} />
       </section>
       <section id="related-reports" className="portfolio-section">
-        <div className="section-heading"><h3>{t('相关报告')}</h3></div>
-        <div className="content-panel information-panel">
-          {reports.length ? <div className="information-list">{reports.map((item) => (
-            <article key={item.id}><div><span className="source-tag">{value(item.sourceFormat)}</span><time>{item.publishedOn ?? t('日期未提供')}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{locale === 'en' && item.subtitle ? item.subtitle : item.title}</Link></h4>{locale === 'zh' && item.summary ? <p>{item.summary}</p> : null}<small>{value(item.publisher)}</small>{!item.attachmentAvailable ? <span className="unavailable-tag">{t('附件未提供')}</span> : null}</article>
-          ))}</div> : <p className="empty-state">{t('暂无可追溯行业报告数据')}</p>}
-        </div>
+        <div className="section-heading section-heading--split"><h3>{t('相关报告')}</h3><span>{reportQuery.data?.total ?? 0}{t('条报告')}</span></div>
+        {reportQuery.isPending ? <p className="state-message">{t('报告数据加载中…')}</p> : null}
+        {reportQuery.isError ? <p className="state-message state-message--error">{t('报告数据暂时无法加载。')}</p> : null}
+        {reportQuery.isSuccess ? <div className="content-panel information-panel compact-information-list compact-information-list--reports">
+          {reports.length ? reports.map((item) => <article key={item.id}><div className="information-meta"><span className="source-tag">{value(item.sourceFormat)}</span><time>{item.publishedOn ?? t('日期未提供')}</time></div><h4><Link to="/reports/$reportId" params={{ reportId: item.id }}>{locale === 'en' && item.subtitle ? item.subtitle : item.title}</Link></h4><footer><span>{value(item.publisher)}</span>{!item.attachmentAvailable ? <span className="unavailable-tag">{t('附件未提供')}</span> : null}</footer></article>) : <p className="empty-state">{t('暂无可追溯行业报告数据')}</p>}
+        </div> : null}
+        <PaginationControls page={reportPage} pageSize={6} total={reportQuery.data?.total ?? 0} onChange={setReportPage} label={t('相关报告')} />
       </section>
     </article>
   );

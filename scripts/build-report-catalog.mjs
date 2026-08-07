@@ -10,7 +10,7 @@ const sourcePaths = {
   research: resolve(repositoryRoot, 'data/report-sources/research-reports-test.xlsx'),
 };
 const outputPath = resolve(repositoryRoot, 'data/report-catalog.json');
-const syncedOn = '2026-08-04';
+const dateOverridesPath = resolve(repositoryRoot, 'data/report-date-overrides.json');
 const allowedInformationTypes = new Set([
   '年度综合报告',
   '财务报告',
@@ -19,6 +19,8 @@ const allowedInformationTypes = new Set([
 ]);
 
 const XLSX = await loadXlsx();
+const dateOverrides = JSON.parse(await readFile(dateOverridesPath, 'utf8'));
+const syncedOn = dateOverrides.syncedOn;
 const rystadRows = await readFirstSheet(sourcePaths.rystad);
 const researchRows = await readFirstSheet(sourcePaths.research);
 
@@ -34,7 +36,7 @@ const reports = [
     region: required(row['地区'], 'Rystad 地区'),
     informationType: '行业研究报告',
     publisher: required(row['发布机构'], 'Rystad 发布机构'),
-    publishedOn: normalizeDate(row['发布时间']),
+    publishedOn: dateOverrides.dates[clean(row.data_id)] ?? normalizeDate(row['发布时间']),
     language: nullable(row['英文标题']) ? '中英' : '中文',
     sourceFormat: '未提供',
     attachmentAvailable: false,
@@ -57,7 +59,7 @@ const reports = [
       region: '未标注',
       informationType,
       publisher: required(row['发布机构'], '研究报告 发布机构'),
-      publishedOn: normalizeDate(row['发布日期']),
+      publishedOn: dateOverrides.dates[clean(row.data_id)] ?? normalizeDate(row['发布日期']),
       language: '中文',
       sourceFormat: '未提供',
       attachmentAvailable: false,
@@ -160,6 +162,9 @@ function normalizeDate(value) {
 function validateCatalog(value) {
   if (value.reports.length !== 1_111) throw new Error(`Expected 1,111 rows, got ${value.reports.length}.`);
   if (value.quality.duplicateIds) throw new Error('Duplicate report IDs detected.');
+  if (Object.keys(dateOverrides.dates).length !== 722) {
+    throw new Error(`Expected 722 publication-date overrides, got ${Object.keys(dateOverrides.dates).length}.`);
+  }
   for (const report of value.reports) {
     if (!allowedInformationTypes.has(report.informationType)) {
       throw new Error(`Invalid normalized information type: ${report.informationType}`);

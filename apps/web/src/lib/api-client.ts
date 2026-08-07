@@ -1,14 +1,18 @@
 import {
   CompanyDetailSchema,
+  CompanyInformationListResponseSchema,
   CompanyListResponseSchema,
   DemoSessionResponseSchema,
   HealthResponseSchema,
+  FidProjectListResponseSchema,
   ReportDetailSchema,
   ReportListResponseSchema,
   type CompanyDetail,
+  type CompanyInformationListResponse,
   type CompanyListResponse,
   type DemoSessionResponse,
   type HealthResponse,
+  type FidProjectListResponse,
   type ReportDetail,
   type ReportListResponse,
 } from '@wison/contracts';
@@ -66,6 +70,31 @@ export async function getCompanies(signal?: AbortSignal): Promise<CompanyListRes
 
 export async function getCompany(slug: string, signal?: AbortSignal): Promise<CompanyDetail> {
   return CompanyDetailSchema.parse(await getAuthenticatedJson(`/api/v1/companies/${slug}`, signal));
+}
+
+export async function getCompanyInformation(
+  slug: string,
+  kind: 'report' | 'news',
+  page = 1,
+  pageSize = 6,
+  signal?: AbortSignal,
+): Promise<CompanyInformationListResponse> {
+  const query = new URLSearchParams({ kind, page: String(page), pageSize: String(pageSize) });
+  return CompanyInformationListResponseSchema.parse(
+    await getAuthenticatedJson(`/api/v1/companies/${slug}/information?${query}`, signal),
+  );
+}
+
+export async function getCompanyFidProjects(
+  slug: string,
+  page = 1,
+  pageSize = 10,
+  signal?: AbortSignal,
+): Promise<FidProjectListResponse> {
+  const query = new URLSearchParams({ page: String(page), pageSize: String(pageSize) });
+  return FidProjectListResponseSchema.parse(
+    await getAuthenticatedJson(`/api/v1/companies/${slug}/fid-projects?${query}`, signal),
+  );
 }
 
 export type ReportListParameters = {
