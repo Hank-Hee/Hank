@@ -65,12 +65,25 @@ afterEach(cleanup);
 describe('report archive UI', () => {
   it('shows the approved homepage archive statistics and latest successful sync date', async () => {
     renderRoute('/');
+    expect(await screen.findByRole('heading', { name: '快速定位公司档案与行业研究资料' })).toBeInTheDocument();
+    expect(screen.queryByText(/Portfolio/)).not.toBeInTheDocument();
+    expect(screen.getByText('内部知识平台')).toBeInTheDocument();
+    expect(screen.getByText('仅限授权员工访问')).toBeInTheDocument();
     expect(await screen.findByText('已归档公司')).toBeInTheDocument();
     expect(screen.getByText('行业报告与资料')).toBeInTheDocument();
     expect(screen.getByText('最近一次更新')).toBeInTheDocument();
     expect(await screen.findByText('2026/8/7')).toBeInTheDocument();
     expect(screen.queryByText('完整 Portfolio')).not.toBeInTheDocument();
     expect(screen.queryByText('报告元数据')).not.toBeInTheDocument();
+  });
+
+  it('localizes the professional internal-use notice in English', async () => {
+    localStorage.setItem('wison-locale', 'en');
+    renderRoute('/');
+
+    expect(await screen.findByRole('heading', { name: 'Find company profiles and industry research' })).toBeInTheDocument();
+    expect(screen.getByText('Internal Knowledge Platform')).toBeInTheDocument();
+    expect(screen.getByText('Authorized employees only')).toBeInTheDocument();
   });
 
   it('finds traceable report metadata from the global search entry', async () => {

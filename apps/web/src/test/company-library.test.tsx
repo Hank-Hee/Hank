@@ -118,6 +118,7 @@ describe('company library UI', () => {
     expect(await screen.findByText('油气企业 ESG 披露与转型指标比较')).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'FID Tracker' })).toBeInTheDocument();
     expect(await screen.findAllByText('Kulboy, UZ')).toHaveLength(2);
+    expect(screen.queryByRole('columnheader', { name: '记录 ID' })).not.toBeInTheDocument();
     expect(screen.queryByText('历史所属公司')).not.toBeInTheDocument();
     expect(await screen.findByText('暂无可追溯新闻数据')).toBeInTheDocument();
     expect(screen.getByText('附件未提供')).toBeInTheDocument();
@@ -131,6 +132,7 @@ describe('company library UI', () => {
     expect(await screen.findAllByText(/Global integrated energy company with leading positions/)).toHaveLength(2);
     expect(screen.getByRole('heading', { name: 'Company overview' })).toBeInTheDocument();
     expect(await screen.findByRole('link', { name: 'ESG Disclosure and Transition Metrics for Oil and Gas Companies' })).toBeInTheDocument();
+    expect(screen.queryByRole('columnheader', { name: 'Record ID' })).not.toBeInTheDocument();
     for (const dashboard of screen.getAllByTitle(/Shell/)) {
       expect(new URL(dashboard.getAttribute('src') ?? '', 'https://local.test').searchParams.get('lang')).toBe('en');
     }

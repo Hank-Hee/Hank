@@ -16,6 +16,10 @@ test('opens the local read-only platform without an email entry', async ({ page 
   await expect(navigation.getByRole('link', { name: '公司信息库' })).toBeVisible();
   await expect(navigation.getByRole('link', { name: '行业报告库' })).toBeVisible();
   await expect(page.getByRole('link', { name: '管理中心' })).toHaveCount(0);
+  await expect(page.getByRole('heading', { name: '快速定位公司档案与行业研究资料' })).toBeVisible();
+  await expect(page.getByText('内部知识平台')).toBeVisible();
+  await expect(page.getByText('仅限授权员工访问')).toBeVisible();
+  await expect(page.getByText(/Portfolio/)).toHaveCount(0);
   await expect(page.getByText('API 正常')).toBeVisible();
 });
 
@@ -49,6 +53,7 @@ test('opens the full company directory and renders the protected Shell portfolio
   await expect(page.getByText('附件未提供').first()).toBeVisible();
   await expect(page.getByRole('heading', { name: 'FID Tracker' })).toBeVisible();
   await expect(page.locator('.fid-table tbody tr')).toHaveCount(10);
+  await expect(page.getByRole('columnheader', { name: '记录 ID' })).toHaveCount(0);
   await expect(page.getByRole('columnheader', { name: '历史所属公司' })).toHaveCount(0);
   await expect(page.getByText('126条新闻')).toBeVisible();
 });
@@ -61,9 +66,45 @@ test('switches native application pages to English without duplicate eyebrow tit
   await expect(page.getByRole('link', { name: 'Company Library', exact: true })).toBeVisible();
   await page.getByRole('link', { name: 'Company Library', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Company Library' })).toBeVisible();
+  await expect(page.getByText('Internal Knowledge Platform')).toBeVisible();
+  await expect(page.getByText('Authorized employees only')).toBeVisible();
   await expect(page.getByText('COMPANY DIRECTORY')).toHaveCount(0);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Company Library' })).toBeVisible();
+});
+
+test('keeps the larger content hierarchy aligned on desktop and usable on mobile', async ({ page }) => {
+  await enterDemo(page, '/companies');
+  const companyRowStyles = await page.locator('.company-table tbody tr').first().evaluate((row) => {
+    const cells = row.querySelectorAll('td');
+    const link = row.querySelector('td:first-child a');
+    return {
+      bodySize: getComputedStyle(cells[1]!).fontSize,
+      linkSize: getComputedStyle(link!).fontSize,
+      verticalAlign: getComputedStyle(cells[1]!).verticalAlign,
+    };
+  });
+  expect(companyRowStyles).toEqual({ bodySize: '14px', linkSize: '15px', verticalAlign: 'middle' });
+
+  await page.goto('/reports');
+  const reportStyles = await page.locator('.report-list > article').first().evaluate((article) => ({
+    alignItems: getComputedStyle(article).alignItems,
+    titleSize: getComputedStyle(article.querySelector('h3')!).fontSize,
+    dateSize: getComputedStyle(article.querySelector('time')!).fontSize,
+  }));
+  expect(reportStyles).toEqual({ alignItems: 'center', titleSize: '18px', dateSize: '13px' });
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/companies/shell');
+  await expect(page.getByRole('heading', { name: 'Shell', exact: true })).toBeVisible();
+  await expect(page.locator('.company-anchor-nav')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
+  const mobileHierarchy = await page.evaluate(() => ({
+    bannerTitle: getComputedStyle(document.querySelector('.company-banner h2')!).fontSize,
+    anchor: getComputedStyle(document.querySelector('.company-anchor-nav a')!).fontSize,
+    section: getComputedStyle(document.querySelector('.section-heading h3')!).fontSize,
+  }));
+  expect(mobileHierarchy).toEqual({ bannerTitle: '34px', anchor: '14px', section: '24px' });
 });
 
 test('renders native pages and all four embedded dashboards without visible Chinese in English mode', async ({ page }) => {

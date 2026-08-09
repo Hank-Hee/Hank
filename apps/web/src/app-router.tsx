@@ -222,8 +222,8 @@ function AppShellContent() {
           ))}
         </nav>
         <div className="sidebar-foot">
-          <span>{t('内部只读 Demo')}</span>
-          <small>{t('数据来自仓库可追溯资料')}</small>
+          <span>{t('内部知识平台')}</span>
+          <small>{t('仅限授权员工访问')}</small>
         </div>
       </aside>
       {menuOpen ? <button className="sidebar-scrim" aria-label={t('关闭导航')} onClick={() => setMenuOpen(false)} /> : null}
@@ -260,7 +260,7 @@ function HomePage() {
   return (
     <div className="home-page">
       <section className="home-hero">
-        <h2>{t('快速定位公司档案、Portfolio 与行业研究资料')}</h2>
+        <h2>{t('快速定位公司档案与行业研究资料')}</h2>
         <p>{t('面向内部市场研究人员的统一检索入口，连接公司基础信息、项目组合、相关新闻与行业报告。')}</p>
         <GlobalSearch companies={companyRows} variant="hero" />
       </section>
@@ -520,9 +520,9 @@ function CompanyDetailPage() {
         {fidQuery.isError ? <p className="state-message state-message--error">{t('FID 数据暂时无法加载。')}</p> : null}
         {fidQuery.isSuccess ? <>
           {fidProjects.length ? <div className="data-table-wrap fid-table-wrap"><table className="data-table fid-table">
-            <thead><tr><th>{t('记录 ID')}</th><th>{t('项目')}</th><th>{t('批准年份')}</th><th>{t('资产')}</th><th>{t('油气田类型')}</th><th>{t('设施类别')}</th><th>{t('权益')}</th><th>{t('国家')}</th><th>{t('经济性（百万美元）')}</th></tr></thead>
+            <thead><tr><th>{t('项目')}</th><th>{t('批准年份')}</th><th>{t('资产')}</th><th>{t('油气田类型')}</th><th>{t('设施类别')}</th><th>{t('权益')}</th><th>{t('国家')}</th><th>{t('经济性（百万美元）')}</th></tr></thead>
             <tbody>{fidProjects.map((project) => <tr key={project.id}>
-              <td><code>{project.id}</code></td><td><b>{project.project}</b></td><td>{project.approvalYear ?? '—'}</td><td>{project.asset}</td><td>{localizeFidValue(project.fieldType, locale)}</td><td>{localizeFidValue(project.facilityCategory, locale)}</td><td>{project.interests}</td><td>{localizeFidValue(project.country, locale)}</td><td className="numeric-cell">{project.economicsUsdMillion === null ? '—' : economics.format(project.economicsUsdMillion)}</td>
+              <td><b>{project.project}</b></td><td>{project.approvalYear ?? '—'}</td><td>{project.asset}</td><td>{localizeFidValue(project.fieldType, locale)}</td><td>{localizeFidValue(project.facilityCategory, locale)}</td><td>{project.interests}</td><td>{localizeFidValue(project.country, locale)}</td><td className="numeric-cell">{project.economicsUsdMillion === null ? '—' : economics.format(project.economicsUsdMillion)}</td>
             </tr>)}</tbody>
           </table></div> : <p className="empty-state content-panel">{t('暂无已归档项目')}</p>}
           <PaginationControls page={fidPage} pageSize={10} total={fidQuery.data.total} onChange={setFidPage} label="FID Tracker" />
