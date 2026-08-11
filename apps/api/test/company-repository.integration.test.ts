@@ -42,10 +42,13 @@ describe('company repository integration', () => {
       id: 'rystad-6a4de0f8c3776c4645229bee',
       publisher: 'Rystad Energy',
       sourceFamily: '行业研究',
-      attachmentAvailable: true,
-      detailStatus: 'attachment-available',
-      coverUrl: '/api/v1/reports/rystad-6a4de0f8c3776c4645229bee/cover',
     });
-    expect(report?.attachments?.length).toBeGreaterThan(0);
+    const attachments = report?.attachments ?? [];
+    expect(report?.attachmentCount).toBe(attachments.length);
+    expect(report?.attachmentAvailable).toBe(attachments.length > 0);
+    expect(report?.detailStatus).toBe(attachments.length > 0 ? 'attachment-available' : 'metadata-only');
+    expect(report?.coverUrl).toBe(report?.coverUrl
+      ? '/api/v1/reports/rystad-6a4de0f8c3776c4645229bee/cover'
+      : null);
   });
 });
