@@ -26,6 +26,7 @@ export const CompanySummarySchema = z.strictObject({
   countryCount: z.number().int().nonnegative(),
   dataCoverage: CompanyDataCoverageSchema,
   updatedOn: z.iso.date(),
+  logoUrl: z.string().regex(/^\/api\/v1\/companies\/[a-z0-9-]+\/logo$/).nullable().optional(),
 });
 export type CompanySummary = z.infer<typeof CompanySummarySchema>;
 
@@ -117,9 +118,11 @@ export const ReportSummarySchema = z.strictObject({
   language: z.string().min(1).max(30),
   sourceFormat: z.string().min(1).max(20),
   attachmentAvailable: z.boolean(),
+  attachmentCount: z.number().int().nonnegative().optional(),
+  coverUrl: z.string().regex(/^\/api\/v1\/reports\/[a-z0-9-]+\/cover$/).nullable().optional(),
   keywords: z.array(z.string().min(1).max(100)).max(30),
   relatedCompanies: z.array(RelatedCompanySchema).max(100),
-  detailStatus: z.literal('metadata-only'),
+  detailStatus: z.enum(['metadata-only', 'attachment-available']),
 });
 export type ReportSummary = z.infer<typeof ReportSummarySchema>;
 
@@ -139,7 +142,18 @@ export const ReportListResponseSchema = z.strictObject({
 });
 export type ReportListResponse = z.infer<typeof ReportListResponseSchema>;
 
-export const ReportDetailSchema = ReportSummarySchema;
+export const ReportAssetSchema = z.strictObject({
+  id: z.string().regex(/^[a-f0-9]{24}$/),
+  fileName: z.string().min(1).max(500),
+  mimeType: z.string().min(1).max(150),
+  byteSize: z.number().int().positive(),
+  downloadUrl: z.string().regex(/^\/api\/v1\/reports\/[a-z0-9-]+\/attachments\/[a-f0-9]{24}$/),
+});
+export type ReportAsset = z.infer<typeof ReportAssetSchema>;
+
+export const ReportDetailSchema = ReportSummarySchema.extend({
+  attachments: z.array(ReportAssetSchema).max(100).optional(),
+});
 export type ReportDetail = z.infer<typeof ReportDetailSchema>;
 
 export const CompanyDetailSchema = CompanySummarySchema.extend({

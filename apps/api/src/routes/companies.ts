@@ -80,6 +80,21 @@ export const companyRoutes = (getRepository: CompanyRepositoryFactory) => {
       pageSize: query.data.pageSize,
     }));
   });
+  routes.get('/:slug/logo', async (context) => {
+    const slug = CompanySlugSchema.safeParse(context.req.param('slug'));
+    if (!slug.success) throw new AppError('NOT_FOUND', 404, 'Company logo was not found.');
+    const asset = await getRepository(context.env).findCompanyLogo(
+      slug.data, context.get('identity'), context.get('requestId'),
+    );
+    if (!asset) throw new AppError('NOT_FOUND', 404, 'Company logo was not found.');
+    const object = await context.env.FILES.get(asset.objectKey);
+    if (!object) throw new AppError('NOT_FOUND', 404, 'Stored company logo was not found.');
+    context.header('content-type', asset.mimeType);
+    context.header('content-length', String(asset.byteSize));
+    context.header('etag', object.etag);
+    context.header('cache-control', 'public, max-age=86400, s-maxage=604800, immutable');
+    return context.body(object.body);
+  });
   routes.get('/:slug', async (context) => {
     const parsed = CompanySlugSchema.safeParse(context.req.param('slug'));
     if (!parsed.success) throw new AppError('NOT_FOUND', 404, 'Company was not found.');

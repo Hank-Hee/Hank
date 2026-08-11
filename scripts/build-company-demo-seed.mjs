@@ -153,7 +153,6 @@ lines.push(
   '',
   `delete from app_private.company_related_information where information_id in (` +
     `select id from app_private.related_information where kind = 'report');`,
-  `delete from app_private.related_information where kind = 'report';`,
   '',
 );
 for (const { report, companySlugs } of relatedReports) {
@@ -175,7 +174,7 @@ for (const { report, companySlugs } of relatedReports) {
       `information_type = excluded.information_type, source_family = excluded.source_family, ` +
       `publisher = excluded.publisher, source_record_id = excluded.source_record_id, ` +
       `published_on = excluded.published_on, language = excluded.language, ` +
-      `source_format = excluded.source_format, attachment_available = false, ` +
+      `source_format = excluded.source_format, ` +
       `keywords = excluded.keywords, synced_on = excluded.synced_on;`,
   );
   for (const slug of companySlugs) {
@@ -185,6 +184,12 @@ for (const { report, companySlugs } of relatedReports) {
     );
   }
 }
+
+lines.push(
+  `delete from app_private.related_information where kind = 'report' and id not in (` +
+    reportCatalog.reports.map(({ id }) => quote(id)).join(', ') +
+  `);`,
+);
 
 lines.push(
   '',

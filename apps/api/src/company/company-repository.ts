@@ -8,6 +8,7 @@ import {
   type CompanySummary,
   ReportDetailSchema,
   type ReportDetail,
+  type ReportAsset,
   type RelatedInformation,
 } from '@wison/contracts';
 import { withDatabaseContext, type DatabaseBinding, type SqlClient } from '../auth/database-context';
@@ -33,6 +34,7 @@ type CompanyRow = {
   has_projects: boolean;
   has_complete_portfolio: boolean;
   has_news: boolean;
+  has_logo: boolean;
 };
 type RelatedRow = {
   id: string;
@@ -76,6 +78,25 @@ type ReportRow = {
   attachment_available: boolean;
   keywords: string[];
   related_companies: Array<{ slug: string; displayName: string }>;
+  attachment_count: number | string;
+  has_cover: boolean;
+};
+type ReportAssetRow = {
+  id: string;
+  original_file_name: string;
+  object_key: string;
+  mime_type: string;
+  byte_size: number | string;
+  sha256: string;
+};
+
+export type StoredAssetReference = {
+  id: string;
+  objectKey: string;
+  fileName: string;
+  mimeType: string;
+  byteSize: number;
+  sha256: string;
 };
 
 export interface CompanyRepository {
@@ -109,6 +130,18 @@ export interface CompanyRepository {
     identity: VerifiedIdentity,
     requestId: string,
   ): Promise<{ projects: FidProject[]; syncedOn: string; total: number } | null>;
+  findReportAsset(
+    reportId: string,
+    kind: 'attachment' | 'cover',
+    assetId: string | null,
+    identity: VerifiedIdentity,
+    requestId: string,
+  ): Promise<StoredAssetReference | null>;
+  findCompanyLogo(
+    slug: CompanySlug,
+    identity: VerifiedIdentity,
+    requestId: string,
+  ): Promise<StoredAssetReference | null>;
 }
 
 function toSummary(row: CompanyRow): CompanySummary {
@@ -125,6 +158,7 @@ function toSummary(row: CompanyRow): CompanySummary {
     countryCount: row.country_count,
     dataCoverage: row.has_complete_portfolio ? 'complete' : row.has_projects ? 'projects' : 'profile',
     updatedOn: row.updated_on,
+    logoUrl: row.has_logo ? `/api/v1/companies/${row.slug}/logo` : null,
   });
 }
 
@@ -175,7 +209,8 @@ function dashboardUrls(slug: CompanySlug, displayName: string, assetKinds: Set<s
   };
 }
 
-function toReport(row: ReportRow): ReportDetail {
+function toReport(row: ReportRow, attachments?: ReportAsset[]): ReportDetail {
+  const attachmentCount = Number(row.attachment_count);
   return ReportDetailSchema.parse({
     id: row.id,
     title: row.title,
@@ -190,9 +225,12 @@ function toReport(row: ReportRow): ReportDetail {
     language: row.language,
     sourceFormat: row.source_format,
     attachmentAvailable: row.attachment_available,
+    attachmentCount,
+    coverUrl: row.has_cover ? `/api/v1/reports/${row.id}/cover` : null,
     keywords: row.keywords,
     relatedCompanies: row.related_companies,
-    detailStatus: 'metadata-only',
+    detailStatus: attachmentCount > 0 ? 'attachment-available' : 'metadata-only',
+    ...(attachments ? { attachments } : {}),
   });
 }
 
@@ -219,12 +257,20 @@ const companySelect = `select companies.slug, companies.source_id, companies.dis
     join app_private.related_information information on information.id = relation.information_id
     where relation.company_slug = companies.slug and information.kind = 'news'
   ) as has_news
+  , exists (
+    select 1 from app_private.company_brand_assets brand
+    where brand.company_slug = companies.slug
+  ) as has_logo
 from app_private.companies companies`;
 
 const reportSelect = `select information.id, information.title, information.subtitle,
   information.summary, information.industry, information.region, information.information_type,
   information.source_family, information.publisher, information.published_on::text, information.language,
   information.source_format, information.attachment_available, information.keywords,
+  (select count(*)::integer from app_private.report_assets asset
+    where asset.report_id = information.id and asset.kind = 'attachment') as attachment_count,
+  exists (select 1 from app_private.report_assets asset
+    where asset.report_id = information.id and asset.kind = 'cover') as has_cover,
   coalesce(
     json_agg(json_build_object('slug', companies.slug, 'displayName', companies.display_name)
       order by companies.display_name) filter (where companies.slug is not null),
@@ -293,20 +339,36 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
         const syncedOn = sync.rows[0]?.synced_on;
         if (!syncedOn) throw new Error('Report synchronization date is unavailable.');
         return {
-          reports: result.rows.map(toReport),
+          reports: result.rows.map((row) => toReport(row)),
           syncedOn,
         };
       });
     },
     findReportById(id, identity, requestId) {
       return withDatabaseContext(binding, identity, requestId, async (client) => {
-        const result = await client.query<ReportRow>(
-          `${reportSelect}
-           where information.kind = 'report' and information.id = $1
-           group by information.id`,
-          [id],
-        );
-        return result.rows[0] ? toReport(result.rows[0]) : null;
+        const [result, assets] = await Promise.all([
+          client.query<ReportRow>(
+            `${reportSelect}
+             where information.kind = 'report' and information.id = $1
+             group by information.id`,
+            [id],
+          ),
+          client.query<ReportAssetRow>(
+            `select id, original_file_name, object_key, mime_type, byte_size, sha256
+             from app_private.report_assets
+             where report_id = $1 and kind = 'attachment'
+             order by original_file_name, id`,
+            [id],
+          ),
+        ]);
+        if (!result.rows[0]) return null;
+        return toReport(result.rows[0], assets.rows.map((asset) => ({
+          id: asset.id,
+          fileName: asset.original_file_name,
+          mimeType: asset.mime_type,
+          byteSize: Number(asset.byte_size),
+          downloadUrl: `/api/v1/reports/${id}/attachments/${asset.id}`,
+        })));
       });
     },
     listCompanyInformation(slug, kind, page, pageSize, identity, requestId) {
@@ -366,6 +428,45 @@ export function createCompanyRepository(binding: DatabaseBinding): CompanyReposi
           syncedOn: sync.rows[0]?.synced_on ?? '2026-08-07',
           total: count.rows[0]?.total ?? 0,
         };
+      });
+    },
+    findReportAsset(reportId, kind, assetId, identity, requestId) {
+      return withDatabaseContext(binding, identity, requestId, async (client) => {
+        const result = await client.query<ReportAssetRow>(
+          `select id, original_file_name, object_key, mime_type, byte_size, sha256
+           from app_private.report_assets
+           where report_id = $1 and kind = $2 and ($3::text is null or id = $3)
+           order by id limit 1`,
+          [reportId, kind, assetId],
+        );
+        const asset = result.rows[0];
+        return asset ? {
+          id: asset.id,
+          objectKey: asset.object_key,
+          fileName: asset.original_file_name,
+          mimeType: asset.mime_type,
+          byteSize: Number(asset.byte_size),
+          sha256: asset.sha256,
+        } : null;
+      });
+    },
+    findCompanyLogo(slug, identity, requestId) {
+      return withDatabaseContext(binding, identity, requestId, async (client) => {
+        const result = await client.query<ReportAssetRow>(
+          `select left(sha256, 24) as id, $1::text as original_file_name,
+             object_key, mime_type, byte_size, sha256
+           from app_private.company_brand_assets where company_slug = $1`,
+          [slug],
+        );
+        const asset = result.rows[0];
+        return asset ? {
+          id: asset.id,
+          objectKey: asset.object_key,
+          fileName: `${slug}.png`,
+          mimeType: asset.mime_type,
+          byteSize: Number(asset.byte_size),
+          sha256: asset.sha256,
+        } : null;
       });
     },
   };

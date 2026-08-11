@@ -36,8 +36,11 @@ describe('company library contracts', () => {
       countryCount: 0,
       dataCoverage: 'profile',
     };
-    const parsed = CompanyListResponseSchema.parse({ companies: [company, catalogCompany] });
+    const parsed = CompanyListResponseSchema.parse({
+      companies: [{ ...company, logoUrl: '/api/v1/companies/shell/logo' }, catalogCompany],
+    });
     expect(parsed.companies[0]?.slug).toBe('shell');
+    expect(parsed.companies[0]?.logoUrl).toBe('/api/v1/companies/shell/logo');
     expect(parsed.companies[1]?.companyType).toBe('EPC');
     expect(() => CompanyListResponseSchema.parse({ companies: [{ ...company, extra: true }] })).toThrow();
   });
@@ -98,7 +101,7 @@ describe('company library contracts', () => {
     expect(fid.projects[0]).not.toHaveProperty('historicalCompany');
   });
 
-  it('keeps report metadata strict without implying uploaded contents', () => {
+  it('keeps report metadata strict and exposes approved downloadable assets explicitly', () => {
     const report = {
       id: 'lng-middle-east-2026',
       title: '中东 LNG 供需与项目扩张展望 2026',
@@ -113,6 +116,8 @@ describe('company library contracts', () => {
       language: '中英',
       sourceFormat: 'PDF',
       attachmentAvailable: false,
+      attachmentCount: 0,
+      coverUrl: null,
       keywords: ['LNG', '扩建'],
       relatedCompanies: [{ slug: 'adnoc', displayName: 'ADNOC' }],
       detailStatus: 'metadata-only',
@@ -133,7 +138,22 @@ describe('company library contracts', () => {
     });
     expect(catalog.reports).toHaveLength(1);
     expect(catalog.total).toBe(1);
-    expect(ReportDetailSchema.parse(report).attachmentAvailable).toBe(false);
+    expect(ReportDetailSchema.parse({ ...report, attachments: [] }).attachmentAvailable).toBe(false);
+    const attached = ReportDetailSchema.parse({
+      ...report,
+      attachmentAvailable: true,
+      attachmentCount: 2,
+      coverUrl: '/api/v1/reports/lng-middle-east-2026/cover',
+      detailStatus: 'attachment-available',
+      attachments: [{
+        id: '0123456789abcdef01234567',
+        fileName: 'Middle East LNG Outlook.pdf',
+        mimeType: 'application/pdf',
+        byteSize: 2048,
+        downloadUrl: '/api/v1/reports/lng-middle-east-2026/attachments/0123456789abcdef01234567',
+      }],
+    });
+    expect(attached.attachments).toHaveLength(1);
     expect(() => ReportDetailSchema.parse({ ...report, findings: ['未提供'] })).toThrow();
   });
 

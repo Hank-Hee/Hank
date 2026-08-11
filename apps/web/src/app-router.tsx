@@ -20,6 +20,7 @@ import {
   getReport,
   getReports,
 } from './lib/api-client';
+import { useReportWorkspace } from './lib/report-workspace';
 
 const navigation = [
   ['/', '首页', '⌂'],
@@ -55,6 +56,17 @@ function formatArchiveDate(value: string | undefined) {
   if (!value) return '—';
   const [year, month, day] = value.split('-');
   return year && month && day ? `${year}/${Number(month)}/${Number(day)}` : value;
+}
+
+function formatFileSize(byteSize: number) {
+  if (byteSize >= 1024 * 1024) return `${(byteSize / (1024 * 1024)).toFixed(1)} MB`;
+  return `${Math.max(1, Math.round(byteSize / 1024))} KB`;
+}
+
+function attachmentLabel(fileName: string, reportTitle: string, index: number, total: number, locale: 'zh' | 'en') {
+  if (locale === 'zh') return fileName;
+  const extension = fileName.match(/\.([A-Za-z0-9]{2,8})$/u)?.[1]?.toLocaleLowerCase('en-US');
+  return `${reportTitle}${total > 1 ? ` (${index + 1})` : ''}${extension ? `.${extension}` : ''}`;
 }
 
 type SearchResult =
@@ -248,6 +260,7 @@ function AppShell() {
 
 function HomePage() {
   const { t, value, locale } = useI18n();
+  const workspace = useReportWorkspace();
   const companies = useCompanies();
   const reports = useQuery({
     queryKey: ['reports', 'latest'],
@@ -287,7 +300,9 @@ function HomePage() {
           {companies.isPending ? <p className="state-message">{t('公司数据加载中…')}</p> : null}
           {complete.slice(0, 6).map((company) => (
             <Link className="compact-row" key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>
-              <span className="initial-badge">{company.displayName.slice(0, 2).toUpperCase()}</span>
+              {company.logoUrl
+                ? <img className="initial-badge initial-badge--logo" src={company.logoUrl} alt="" />
+                : <span className="initial-badge">{company.displayName.slice(0, 2).toUpperCase()}</span>}
               <span><b>{company.displayName}</b><small>{value(company.companyType)} · {value(company.country)}</small></span>
               <em>{company.projectCount}{t('个项目')}</em>
             </Link>
@@ -303,6 +318,21 @@ function HomePage() {
             </Link>
           ))}
         </section>
+      </div>
+      <div className="home-columns report-workspace-columns">
+        {([
+          [t('最近浏览'), workspace.recent],
+          [t('收藏报告'), workspace.favorites],
+        ] as const).map(([heading, rows]) => <section className="content-panel compact-panel" key={heading}>
+          <header><div><h3>{heading}</h3></div><Link to="/reports">{t('查看全部')}</Link></header>
+          {rows.length ? rows.slice(0, 5).map((report) => {
+            const title = locale === 'en' && report.subtitle ? report.subtitle : report.title;
+            return <Link aria-label={title} className="compact-row" key={report.id} to="/reports/$reportId" params={{ reportId: report.id }}>
+              {report.coverUrl ? <img className="workspace-cover" src={report.coverUrl} alt="" /> : <span className="date-badge">{report.publishedOn?.slice(5) ?? t('待补')}</span>}
+              <span><b>{title}</b><small>{value(report.publisher)} · {value(report.region)}</small></span>
+            </Link>;
+          }) : <p className="empty-state">{t(heading === t('最近浏览') ? '尚无最近浏览记录' : '尚未收藏报告')}</p>}
+        </section>)}
       </div>
     </div>
   );
@@ -485,7 +515,9 @@ function CompanyDetailPage() {
     <article className="company-detail">
       <nav className="breadcrumb" aria-label={t('面包屑')}><Link to="/companies">{t('公司信息库')}</Link><span>/</span><span>{company.displayName}</span></nav>
       <header className="company-banner">
-        <span className="company-mark">{company.displayName.slice(0, 2).toUpperCase()}</span>
+        {company.logoUrl
+          ? <span className="company-mark"><img src={company.logoUrl} alt={`${company.displayName} logo`} /></span>
+          : <span className="company-mark">{company.displayName.slice(0, 2).toUpperCase()}</span>}
         <div><h2>{company.displayName}</h2><p>{company.marketPosition}</p><div className="banner-tags"><span>{value(company.companyType)}</span><span>{value(company.country)}</span><span>{t(coverageLabels[company.dataCoverage])}</span></div></div>
         <dl><div><dt>{t('项目数量')}</dt><dd>{company.projectCount || t('未提供')}</dd></div><div><dt>{t('覆盖国家')}</dt><dd>{company.countryCount || t('未提供')}</dd></div><div><dt>{t('资料来源')}</dt><dd>{t('仓库归档')}</dd></div></dl>
       </header>
@@ -564,12 +596,14 @@ function CompanyDetailPage() {
 
 function ReportsPage() {
   const { locale, t, value } = useI18n();
+  const workspace = useReportWorkspace();
   const [search, setSearch] = useState('');
   const [industry, setIndustry] = useState('');
   const [region, setRegion] = useState('');
   const [type, setType] = useState('');
   const [family, setFamily] = useState('');
   const [publisher, setPublisher] = useState('');
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [page, setPage] = useState(1);
   const debouncedSearch = useDebouncedValue(search);
   const parameters = { page, pageSize: 50, q: debouncedSearch, industry, region, informationType: type, sourceFamily: family, publisher };
@@ -584,10 +618,12 @@ function ReportsPage() {
   const total = query.data?.total ?? 0;
   const pageCount = Math.max(1, Math.ceil(total / 50));
   const currentPage = Math.min(page, pageCount);
-  const clearFilters = () => { setSearch(''); setIndustry(''); setRegion(''); setType(''); setFamily(''); setPublisher(''); setPage(1); };
+  const displayedReports = favoritesOnly ? workspace.favorites : reports;
+  const displayedTotal = favoritesOnly ? workspace.favorites.length : total;
+  const clearFilters = () => { setSearch(''); setIndustry(''); setRegion(''); setType(''); setFamily(''); setPublisher(''); setFavoritesOnly(false); setPage(1); };
   return (
     <section>
-      <div className="page-heading"><div><h2>{t('行业报告库')}</h2><p>{t('按标题、行业、区域、发布机构及关联公司检索已归档研究资料。')}</p></div><span className="record-count">{total}{t('条报告')}</span></div>
+      <div className="page-heading"><div><h2>{t('行业报告库')}</h2><p>{t('按标题、行业、区域、发布机构及关联公司检索已归档研究资料。')}</p></div><span className="record-count">{displayedTotal}{t('条报告')}</span></div>
       <div className="filter-panel report-filters">
         <label><span>{t('标题、摘要、关键词、公司')}</span><input aria-label={t('报告检索')} value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder={t('输入检索词')} /></label>
         <label><span>{t('行业')}</span><select value={industry} onChange={(event) => { setIndustry(event.target.value); setPage(1); }}><option value="">{t('全部行业')}</option>{(facets?.industries ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
@@ -595,22 +631,27 @@ function ReportsPage() {
         <label><span>{t('报告类型')}</span><select value={type} onChange={(event) => { setType(event.target.value); setPage(1); }}><option value="">{t('全部类型')}</option>{(facets?.informationTypes ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
         <label><span>{t('来源类别')}</span><select value={family} onChange={(event) => { setFamily(event.target.value); setPage(1); }}><option value="">{t('全部类别')}</option>{(facets?.sourceFamilies ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
         <label><span>{t('发布机构')}</span><select value={publisher} onChange={(event) => { setPublisher(event.target.value); setPage(1); }}><option value="">{t('全部机构')}</option>{(facets?.publishers ?? []).map((item) => <option key={item} value={item}>{value(item)}</option>)}</select></label>
+        <label className="favorite-filter"><input aria-label={t('仅看收藏')} type="checkbox" checked={favoritesOnly} onChange={(event) => setFavoritesOnly(event.target.checked)} /><span>★ {t('仅看收藏')}</span></label>
         <button type="button" onClick={clearFilters}>{t('清除筛选')}</button>
       </div>
-      {query.isPending ? <p className="state-message">{t('报告数据加载中…')}</p> : null}
-      {query.isError ? <p className="state-message state-message--error">{t('报告数据暂时无法加载。')}</p> : null}
-      {query.isSuccess ? <><div className="report-list">{reports.map((report) => {
+      {query.isPending && !favoritesOnly ? <p className="state-message">{t('报告数据加载中…')}</p> : null}
+      {query.isError && !favoritesOnly ? <p className="state-message state-message--error">{t('报告数据暂时无法加载。')}</p> : null}
+      {query.isSuccess || favoritesOnly ? <><div className="report-list">{displayedReports.map((report) => {
         const title = locale === 'en' && report.subtitle ? report.subtitle : report.title;
-        return <article key={report.id}><time>{report.publishedOn ?? t('日期未提供')}</time><div><div className="report-tags"><span>{value(report.sourceFamily)}</span><span>{value(report.industry)}</span><span>{value(report.region)}</span><span>{value(report.informationType)}</span></div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{title}</Link></h3>{locale === 'zh' && report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}{locale === 'zh' && report.summary ? <p>{report.summary}</p> : null}<footer><span>{t('发布机构')}：{value(report.publisher)}</span><span>{value(report.sourceFormat)}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join(locale === 'en' ? ', ' : '、') || t('未关联公司')}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</footer></div></article>;
-      })}{!total ? <p className="empty-state">{t('没有符合条件的报告')}</p> : null}</div>{pageCount > 1 ? <nav className="pagination" aria-label={t('报告类型')}><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>{t('上一页')}</button><span>{t('第')} {currentPage} / {pageCount} {t('页')}</span><button type="button" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>{t('下一页')}</button></nav> : null}</> : null}
+        return <article key={report.id}><div className="report-list-visual"><time>{report.publishedOn ?? t('日期未提供')}</time></div><div><div className="report-tags"><span>{value(report.sourceFamily)}</span><span>{value(report.industry)}</span><span>{value(report.region)}</span><span>{value(report.informationType)}</span>{workspace.isFavorite(report.id) ? <span className="favorite-tag">★ {t('已收藏')}</span> : null}</div><h3><Link to="/reports/$reportId" params={{ reportId: report.id }}>{title}</Link></h3>{locale === 'zh' && report.subtitle ? <p className="report-subtitle">{report.subtitle}</p> : null}{locale === 'zh' && report.summary ? <p>{report.summary}</p> : null}<footer><span>{t('发布机构')}：{value(report.publisher)}</span><span>{value(report.sourceFormat)}</span><span>{report.relatedCompanies.map(({ displayName }) => displayName).join(locale === 'en' ? ', ' : '、') || t('未关联公司')}</span>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</footer></div></article>;
+      })}{!displayedTotal ? <p className="empty-state">{t(favoritesOnly ? '尚未收藏报告' : '没有符合条件的报告')}</p> : null}</div>{!favoritesOnly && pageCount > 1 ? <nav className="pagination" aria-label={t('报告类型')}><button type="button" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>{t('上一页')}</button><span>{t('第')} {currentPage} / {pageCount} {t('页')}</span><button type="button" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>{t('下一页')}</button></nav> : null}</> : null}
     </section>
   );
 }
 
 function ReportDetailPage() {
   const { locale, t, value } = useI18n();
+  const workspace = useReportWorkspace();
   const { reportId } = reportDetailRoute.useParams();
   const query = useQuery({ queryKey: ['report', reportId], queryFn: ({ signal }) => getReport(reportId, signal) });
+  useEffect(() => {
+    if (query.data) workspace.recordRecent(query.data);
+  }, [query.data?.id]);
   if (query.isPending) return <p className="state-message">{t('报告资料加载中…')}</p>;
   if (query.isError) return <p className="state-message state-message--error">{t('报告资料暂时无法加载。')}</p>;
   const report = query.data;
@@ -618,11 +659,12 @@ function ReportDetailPage() {
   return (
     <article className="report-detail">
       <nav className="breadcrumb" aria-label={t('面包屑')}><Link to="/reports">{t('行业报告库')}</Link><span>/</span><span>{title}</span></nav>
-      <header className="report-cover"><div><h2>{title}</h2>{locale === 'zh' && report.subtitle ? <p>{report.subtitle}</p> : null}</div><span>{value(report.sourceFormat)}</span></header>
+      <header className="report-cover"><div><h2>{title}</h2>{locale === 'zh' && report.subtitle ? <p>{report.subtitle}</p> : null}<button className="favorite-button" type="button" aria-pressed={workspace.isFavorite(report.id)} aria-label={t(workspace.isFavorite(report.id) ? '取消收藏' : '收藏报告')} onClick={() => workspace.toggleFavorite(report)}>{workspace.isFavorite(report.id) ? '★' : '☆'} {t(workspace.isFavorite(report.id) ? '已收藏' : '收藏报告')}</button></div><div className="report-cover-asset">{report.coverUrl ? <img src={report.coverUrl} alt={`${title} ${t('封面')}`} /> : <span>{value(report.sourceFormat)}</span>}</div></header>
       <div className="report-detail-grid">
         <div>
           <section className="content-panel"><h3>{t('报告摘要')}</h3>{locale === 'zh' && report.summary ? <p className="lead">{report.summary}</p> : <p className="metadata-note">{t('源表未提供报告摘要，当前仅归档标题和可核验元数据。')}</p>}</section>
-          <section className="content-panel unavailable-detail"><h3>{t('资料完整性')}</h3><p>{t('当前仓库仅提供可追溯的报告摘要与归档元数据，未提供研究结论与目录，也未上传原始附件。')}</p>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</section>
+          <section className="content-panel unavailable-detail"><h3>{t('资料完整性')}</h3><p>{report.attachmentAvailable ? t('报告附件已归档，可通过下方受控下载入口获取。') : t('当前仓库仅提供可追溯的报告摘要与归档元数据，未提供研究结论与目录，也未上传原始附件。')}</p>{!report.attachmentAvailable ? <span className="unavailable-tag">{t('附件未上传')}</span> : <span className="available-tag">{t('附件已归档')}</span>}</section>
+          {report.attachments?.length ? <section className="content-panel report-attachments"><h3>{t('报告附件')}</h3><div>{report.attachments.map((attachment, index) => <a key={attachment.id} href={attachment.downloadUrl} download><span><b>{attachmentLabel(attachment.fileName, title, index, report.attachments?.length ?? 1, locale)}</b><small>{attachment.mimeType} · {formatFileSize(attachment.byteSize)}</small></span><em>{t('下载附件')} ↓</em></a>)}</div></section> : null}
         </div>
         <aside className="content-panel report-meta"><h3>{t('归档信息')}</h3><dl><div><dt>{t('来源类别')}</dt><dd>{value(report.sourceFamily)}</dd></div><div><dt>{t('行业')}</dt><dd>{value(report.industry)}</dd></div><div><dt>{t('区域')}</dt><dd>{value(report.region)}</dd></div><div><dt>{t('类型')}</dt><dd>{value(report.informationType)}</dd></div><div><dt>{t('发布机构')}</dt><dd>{value(report.publisher)}</dd></div><div><dt>{t('发布日期')}</dt><dd>{report.publishedOn ?? t('未提供')}</dd></div><div><dt>{t('语言')}</dt><dd>{value(report.language)}</dd></div><div><dt>{t('格式')}</dt><dd>{value(report.sourceFormat)}</dd></div></dl><h4>{t('关联公司')}</h4><div className="related-companies">{report.relatedCompanies.length ? report.relatedCompanies.map((company) => <Link key={company.slug} to="/companies/$slug" params={{ slug: company.slug }}>{company.displayName}</Link>) : <span>{t('未关联公司')}</span>}</div>{report.keywords.length ? <><h4>{t('关键词')}</h4><div className="keyword-list">{report.keywords.map((keyword) => <span key={keyword}>{value(keyword)}</span>)}</div></> : null}</aside>
       </div>

@@ -1,12 +1,13 @@
 import { ReportListResponseSchema, type ReportSummary } from '@wison/contracts';
 import { z } from 'zod';
-import { Hono } from 'hono';
-import type { CompanyRepository } from '../company/company-repository';
+import { Hono, type Context } from 'hono';
+import type { CompanyRepository, StoredAssetReference } from '../company/company-repository';
 import { AppError } from '../lib/app-error';
 import { createKeyedReadThroughCache, createReadThroughCache } from '../lib/read-through-cache';
 import type { AppEnvironment } from '../types';
 
 const ReportIdSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(160);
+const AssetIdSchema = z.string().regex(/^[a-f0-9]{24}$/);
 const ReportQuerySchema = z.object({
   page: z.coerce.number().int().min(1).default(1),
   pageSize: z.coerce.number().int().min(1).max(100).default(50),
@@ -74,6 +75,25 @@ export const reportRoutes = (getRepository: (bindings: AppEnvironment['Bindings'
       : 'private, max-age=60');
     return context.json(response);
   });
+  routes.get('/:id/cover', async (context) => {
+    const reportId = ReportIdSchema.safeParse(context.req.param('id'));
+    if (!reportId.success) throw new AppError('NOT_FOUND', 404, 'Report cover was not found.');
+    const asset = await getRepository(context.env).findReportAsset(
+      reportId.data, 'cover', null, context.get('identity'), context.get('requestId'),
+    );
+    if (!asset) throw new AppError('NOT_FOUND', 404, 'Report cover was not found.');
+    return streamR2Asset(context, asset, false);
+  });
+  routes.get('/:id/attachments/:assetId', async (context) => {
+    const reportId = ReportIdSchema.safeParse(context.req.param('id'));
+    const assetId = AssetIdSchema.safeParse(context.req.param('assetId'));
+    if (!reportId.success || !assetId.success) throw new AppError('NOT_FOUND', 404, 'Report attachment was not found.');
+    const asset = await getRepository(context.env).findReportAsset(
+      reportId.data, 'attachment', assetId.data, context.get('identity'), context.get('requestId'),
+    );
+    if (!asset) throw new AppError('NOT_FOUND', 404, 'Report attachment was not found.');
+    return streamR2Asset(context, asset, true);
+  });
   routes.get('/:id', async (context) => {
     const parsed = ReportIdSchema.safeParse(context.req.param('id'));
     if (!parsed.success) throw new AppError('NOT_FOUND', 404, 'Report was not found.');
@@ -88,3 +108,25 @@ export const reportRoutes = (getRepository: (bindings: AppEnvironment['Bindings'
   });
   return routes;
 };
+
+async function streamR2Asset(
+  context: Context<AppEnvironment>,
+  asset: StoredAssetReference,
+  download: boolean,
+) {
+  const object = await context.env.FILES.get(asset.objectKey);
+  if (!object) throw new AppError('NOT_FOUND', 404, 'Stored report asset was not found.');
+  context.header('content-type', asset.mimeType);
+  context.header('content-length', String(asset.byteSize));
+  context.header('etag', object.etag);
+  context.header('cache-control', download
+    ? 'public, max-age=300, s-maxage=3600'
+    : 'public, max-age=86400, s-maxage=604800, immutable');
+  if (download) context.header('content-disposition', contentDisposition(asset.fileName));
+  return context.body(object.body);
+}
+
+function contentDisposition(fileName: string) {
+  const fallback = fileName.replace(/[^A-Za-z0-9._-]+/gu, '_').slice(0, 160) || 'download';
+  return `attachment; filename="${fallback}"; filename*=UTF-8''${encodeURIComponent(fileName)}`;
+}

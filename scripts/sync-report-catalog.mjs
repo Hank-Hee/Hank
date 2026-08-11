@@ -30,7 +30,6 @@ try {
        select id from app_private.related_information where kind = 'report'
      )`,
   );
-  await client.query(`delete from app_private.related_information where kind = 'report'`);
   await client.query(
     `insert into app_private.related_information (
        id, kind, title, subtitle, summary, industry, region, information_type, source_family,
@@ -44,7 +43,22 @@ try {
        id text, title text, subtitle text, summary text, industry text, region text,
        information_type text, source_family text, publisher text, published_on date,
        language text, source_format text, keywords text[], source_record_id text, synced_on date
-     )`,
+     )
+     on conflict (id) do update set
+       title = excluded.title,
+       subtitle = excluded.subtitle,
+       summary = excluded.summary,
+       industry = excluded.industry,
+       region = excluded.region,
+       information_type = excluded.information_type,
+       source_family = excluded.source_family,
+       publisher = excluded.publisher,
+       published_on = excluded.published_on,
+       language = excluded.language,
+       source_format = excluded.source_format,
+       keywords = excluded.keywords,
+       source_record_id = excluded.source_record_id,
+       synced_on = excluded.synced_on`,
     [JSON.stringify(catalog.reports.map((report) => ({
       id: report.id,
       title: report.title,
@@ -62,6 +76,11 @@ try {
       source_record_id: report.sourceRecordId,
       synced_on: catalog.syncedOn,
     })))],
+  );
+  await client.query(
+    `delete from app_private.related_information
+     where kind = 'report' and not (id = any($1::text[]))`,
+    [catalog.reports.map(({ id }) => id)],
   );
   if (relationships.length) {
     await client.query(
@@ -87,7 +106,7 @@ try {
     `select count(*)::integer as relation_count from app_private.company_related_information`,
   );
   const result = { ...verification.rows[0], ...relationCount.rows[0] };
-  if (result.report_count !== catalog.reports.length || result.available_attachments !== 0 || result.synced_on !== catalog.syncedOn) {
+  if (result.report_count !== catalog.reports.length || result.synced_on !== catalog.syncedOn) {
     throw new Error(`Remote verification failed: ${JSON.stringify(result)}`);
   }
   await client.query('commit');

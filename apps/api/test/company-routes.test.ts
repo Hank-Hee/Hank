@@ -90,9 +90,14 @@ function appWith(repository: CompanyRepository) {
   return createApp(() => ({ verifier, loader }), () => repository);
 }
 
-const repositoryAdditions: Pick<CompanyRepository, 'listCompanyInformation' | 'listFidProjects'> = {
+const repositoryAdditions: Pick<
+  CompanyRepository,
+  'listCompanyInformation' | 'listFidProjects' | 'findReportAsset' | 'findCompanyLogo'
+> = {
   listCompanyInformation: vi.fn(async () => ({ information: [], total: 0 })),
   listFidProjects: vi.fn(async () => ({ projects: [], syncedOn: '2026-08-07', total: 0 })),
+  findReportAsset: vi.fn(async () => null),
+  findCompanyLogo: vi.fn(async () => null),
 };
 
 describe('company library API', () => {
@@ -154,6 +159,7 @@ describe('company library API', () => {
 
   it('returns paginated company news, reports, and deduplicated FID projects', async () => {
     const repository: CompanyRepository = {
+      ...repositoryAdditions,
       list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
       listCompanyInformation: vi.fn(async (_slug, kind) => ({
         information: kind === 'news' ? [news] : [], total: kind === 'news' ? 1 : 0,
@@ -186,6 +192,46 @@ describe('company library API', () => {
     const item = await app.request('/api/v1/reports/esg-disclosure-oil-gas', { headers });
     expect(ReportListResponseSchema.parse(await list.json()).reports).toHaveLength(1);
     expect(ReportDetailSchema.parse(await item.json()).detailStatus).toBe('metadata-only');
+  });
+
+  it('streams approved report attachments, covers, and company logos through controlled R2 routes', async () => {
+    const bytes = new TextEncoder().encode('asset');
+    const reference = {
+      id: '0123456789abcdef01234567', objectKey: 'report-assets/published/attachments/file.pdf',
+      fileName: '中东 LNG 报告.pdf', mimeType: 'application/pdf', byteSize: bytes.byteLength,
+      sha256: 'a'.repeat(64),
+    };
+    const repository: CompanyRepository = {
+      ...repositoryAdditions,
+      list: vi.fn(), findBySlug: vi.fn(), listReports: vi.fn(), findReportById: vi.fn(),
+      findReportAsset: vi.fn(async (_reportId, kind) => ({
+        ...reference,
+        objectKey: kind === 'cover' ? 'report-assets/published/covers/cover.webp' : reference.objectKey,
+        fileName: kind === 'cover' ? 'cover.webp' : reference.fileName,
+        mimeType: kind === 'cover' ? 'image/webp' : reference.mimeType,
+      })),
+      findCompanyLogo: vi.fn(async () => ({
+        ...reference, objectKey: 'company-assets/published/logos/shell/logo.png',
+        fileName: 'shell.png', mimeType: 'image/png',
+      })),
+    };
+    const files = { get: vi.fn(async () => ({ body: bytes, etag: 'asset-etag' })) };
+    const env = { ASSETS: { fetch: vi.fn() }, FILES: files, PUBLIC_READ_ONLY: 'true' };
+    const app = appWith(repository);
+
+    const attachment = await app.request(
+      '/api/v1/reports/esg-disclosure-oil-gas/attachments/0123456789abcdef01234567', {}, env,
+    );
+    const cover = await app.request('/api/v1/reports/esg-disclosure-oil-gas/cover', {}, env);
+    const logo = await app.request('/api/v1/companies/shell/logo', {}, env);
+
+    expect(attachment.status).toBe(200);
+    expect(attachment.headers.get('content-disposition')).toContain("filename*=UTF-8''");
+    expect(attachment.headers.get('content-type')).toContain('application/pdf');
+    expect(await attachment.text()).toBe('asset');
+    expect(cover.headers.get('content-type')).toContain('image/webp');
+    expect(logo.headers.get('content-type')).toContain('image/png');
+    expect(files.get).toHaveBeenCalledTimes(3);
   });
 
   it('deduplicates concurrent read-only catalog queries inside one Worker isolate', async () => {

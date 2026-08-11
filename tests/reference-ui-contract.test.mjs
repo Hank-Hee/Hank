@@ -22,7 +22,7 @@ test('reference UI keeps page eyebrows deep blue and dashboard frames scroll-fre
   assert.match(styles, /\.company-table td\s*\{[^}]*vertical-align:\s*middle/s);
   assert.match(styles, /\.company-table td:first-child a\s*\{[^}]*font-size:\s*15px/s);
   assert.match(styles, /\.report-list > article\s*\{[^}]*align-items:\s*center/s);
-  assert.match(styles, /\.report-list > article > time\s*\{[^}]*font-size:\s*13px/s);
+  assert.match(styles, /\.report-list-visual time\s*\{[^}]*font-size:\s*13px/s);
   assert.match(styles, /\.report-list h3\s*\{[^}]*font-size:\s*18px/s);
   assert.match(styles, /\.library-icon\s*\{[^}]*width:\s*42px[^}]*height:\s*42px[^}]*border-radius:\s*4px/s);
   assert.match(styles, /\.dashboard-frame\s*\{[^}]*overflow:\s*hidden/s);

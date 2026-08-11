@@ -24,6 +24,39 @@ const report = {
   detailStatus: 'metadata-only',
 };
 
+const secondReport = {
+  ...report,
+  id: 'global-gas-2026',
+  title: '全球天然气市场展望 2026',
+  subtitle: 'Global Gas Market Outlook 2026',
+  region: '全球',
+};
+
+const archivedReport = {
+  ...report,
+  id: 'middle-east-lng-archive-2026',
+  attachmentAvailable: true,
+  attachmentCount: 2,
+  coverUrl: '/api/v1/reports/middle-east-lng-archive-2026/cover',
+  detailStatus: 'attachment-available',
+  attachments: [
+    {
+      id: '0123456789abcdef01234567',
+      fileName: 'Middle East LNG Outlook 2026.pdf',
+      mimeType: 'application/pdf',
+      byteSize: 2_621_440,
+      downloadUrl: '/api/v1/reports/middle-east-lng-archive-2026/attachments/0123456789abcdef01234567',
+    },
+    {
+      id: '89abcdef0123456701234567',
+      fileName: '中东LNG数据.xlsx',
+      mimeType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      byteSize: 524_288,
+      downloadUrl: '/api/v1/reports/middle-east-lng-archive-2026/attachments/89abcdef0123456701234567',
+    },
+  ],
+};
+
 function renderRoute(path: string) {
   const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } });
   const router = createAppRouter(createMemoryHistory({ initialEntries: [path] }));
@@ -41,7 +74,7 @@ beforeEach(() => {
     const url = String(input);
     if (url.startsWith('/api/v1/reports?')) {
       const query = new URL(url, 'https://local.test').searchParams;
-      const rows = query.get('q') === '不存在' ? [] : [report];
+      const rows = query.get('q') === '不存在' ? [] : [report, secondReport];
       return new Response(JSON.stringify({
         reports: rows,
         syncedOn: '2026-08-07',
@@ -55,6 +88,7 @@ beforeEach(() => {
       }));
     }
     if (url === `/api/v1/reports/${report.id}`) return new Response(JSON.stringify(report));
+    if (url === `/api/v1/reports/${archivedReport.id}`) return new Response(JSON.stringify(archivedReport));
     if (url === '/api/v1/companies') return new Response(JSON.stringify({ companies: [] }));
     return new Response(JSON.stringify({ status: 'ok', service: 'api', version: '0.1.0', timestamp: '2026-08-04T00:00:00.000Z' }));
   }));
@@ -122,5 +156,51 @@ describe('report archive UI', () => {
     expect(await screen.findByRole('heading', { name: report.subtitle })).toBeInTheDocument();
     expect(screen.getByText('The source table did not include a summary; only the title and verifiable metadata are archived.')).toBeInTheDocument();
     expect(document.body.textContent).not.toMatch(/[\u3400-\u9fff]/u);
+  });
+
+  it('renders archived covers and every downloadable attachment through controlled API routes', async () => {
+    renderRoute(`/reports/${archivedReport.id}`);
+
+    expect(await screen.findByRole('heading', { name: archivedReport.title })).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: `${archivedReport.title} 封面` }))
+      .toHaveAttribute('src', archivedReport.coverUrl);
+    expect(screen.getByRole('link', { name: /Middle East LNG Outlook 2026\.pdf/ }))
+      .toHaveAttribute('href', archivedReport.attachments[0]!.downloadUrl);
+    expect(screen.getByRole('link', { name: /中东LNG数据\.xlsx/ }))
+      .toHaveAttribute('href', archivedReport.attachments[1]!.downloadUrl);
+  });
+
+  it('keeps localized attachment labels free of Chinese in English mode', async () => {
+    localStorage.setItem('wison-locale', 'en');
+    renderRoute(`/reports/${archivedReport.id}`);
+
+    expect(await screen.findByRole('heading', { name: archivedReport.subtitle })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Middle East LNG Supply, Demand and Project Outlook 2026 \(2\)\.xlsx/ })).toBeInTheDocument();
+    expect(document.body.textContent).not.toMatch(/[\u3400-\u9fff]/u);
+  });
+
+  it('persists favorites and recent views locally, then exposes both workflows on the homepage', async () => {
+    renderRoute(`/reports/${report.id}`);
+    expect(await screen.findByRole('heading', { name: report.title })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: '收藏报告' }));
+
+    cleanup();
+    renderRoute('/');
+    expect(await screen.findByRole('heading', { name: '最近浏览' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: '收藏报告' })).toBeInTheDocument();
+    expect(screen.getAllByRole('link', { name: report.title })).toHaveLength(2);
+  });
+
+  it('shows only locally favorited reports when the favorites filter is enabled', async () => {
+    localStorage.setItem('wison-report-workspace-v1', JSON.stringify({
+      schemaVersion: 1,
+      favorites: [report],
+      recent: [],
+    }));
+    renderRoute('/reports');
+    expect(await screen.findByRole('link', { name: secondReport.title })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('checkbox', { name: '仅看收藏' }));
+    expect(screen.getByRole('link', { name: report.title })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: secondReport.title })).not.toBeInTheDocument();
   });
 });

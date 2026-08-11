@@ -14,6 +14,10 @@
   "scripts": {
     "build": "npm run build -w @wison/contracts && npm run build -w @wison/web && npm run build -w @wison/api",
     "attachments:prepare": "node scripts/prepare-report-attachments.mjs",
+    "assets:manifest": "node scripts/build-report-asset-manifest.mjs",
+    "assets:sql": "node scripts/render-report-assets-sql.mjs",
+    "assets:upload": "node scripts/upload-report-assets.mjs",
+    "assets:sync": "node scripts/sync-report-assets.mjs",
     "dev": "node scripts/run-company-demo.mjs",
     "dev:api": "npm run dev -w @wison/api",
     "dev:web": "npm run dev -w @wison/web",
