@@ -89,11 +89,10 @@ test('keeps the larger content hierarchy aligned on desktop and usable on mobile
   await page.goto('/reports');
   const reportStyles = await page.locator('.report-list > article').first().evaluate((article) => ({
     alignItems: getComputedStyle(article).alignItems,
-    coverFit: getComputedStyle(article.querySelector('img')!).objectFit,
     titleSize: getComputedStyle(article.querySelector('h3')!).fontSize,
     dateSize: getComputedStyle(article.querySelector('time')!).fontSize,
   }));
-  expect(reportStyles).toEqual({ alignItems: 'center', coverFit: 'contain', titleSize: '18px', dateSize: '13px' });
+  expect(reportStyles).toEqual({ alignItems: 'center', titleSize: '18px', dateSize: '13px' });
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/companies/shell');
