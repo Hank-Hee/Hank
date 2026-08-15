@@ -30,6 +30,7 @@ const secondReport = {
   title: '全球天然气市场展望 2026',
   subtitle: 'Global Gas Market Outlook 2026',
   region: '全球',
+  coverUrl: '/api/v1/reports/global-gas-2026/cover',
 };
 
 const archivedReport = {
@@ -134,6 +135,11 @@ describe('report archive UI', () => {
     expect(await screen.findByRole('link', { name: report.title })).toHaveAttribute(
       'href', `/reports/${report.id}`,
     );
+    expect(screen.getByRole('img', { name: `${report.title} 封面` })).toHaveClass('report-cover-placeholder');
+    expect(screen.getByRole('img', { name: `${secondReport.title} 封面` }))
+      .toHaveAttribute('src', secondReport.coverUrl);
+    expect(screen.getByRole('img', { name: `${secondReport.title} 封面` }))
+      .toHaveAttribute('loading', 'lazy');
     fireEvent.change(screen.getByLabelText('报告检索'), { target: { value: '不存在' } });
     expect(await screen.findByText('没有符合条件的报告')).toBeInTheDocument();
   });

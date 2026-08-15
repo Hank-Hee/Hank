@@ -12,6 +12,10 @@ if (!['objects', 'quarantineObjects'].includes(objectSet)) throw new Error('Obje
 const checkpointPath = resolve(options.get('--checkpoint') ?? 'work/report-asset-upload-checkpoint.json');
 const concurrency = Number(options.get('--concurrency') ?? 4);
 if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 8) throw new Error('Concurrency must be between 1 and 8.');
+const timeoutMs = Number(options.get('--timeout-ms') ?? 60_000);
+if (!Number.isInteger(timeoutMs) || timeoutMs < 10_000 || timeoutMs > 300_000) {
+  throw new Error('Timeout must be between 10000 and 300000 milliseconds.');
+}
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const checkpoint = await readCheckpoint(checkpointPath);
 const selectedObjects = manifest[objectSet] ?? [];
@@ -24,7 +28,7 @@ for (let start = 0; start < pending.length; start += concurrency) {
   await Promise.all(batch.map(async (object) => {
     const actualHash = await hashFile(object.sourcePath);
     if (actualHash !== object.sha256) throw new Error(`Source checksum changed: ${object.sourcePath}`);
-    await uploadWithRetry(object, bucket, 3);
+    await uploadWithRetry(object, bucket, 3, timeoutMs);
     uploaded.add(object.objectKey);
     completed++;
   }));
@@ -36,7 +40,7 @@ for (let start = 0; start < pending.length; start += concurrency) {
 
 console.log(JSON.stringify({ bucket, uploaded: completed, skipped: checkpoint.uploaded.length, total: selectedObjects.length, objectSet }));
 
-async function uploadWithRetry(object, targetBucket, attempts) {
+async function uploadWithRetry(object, targetBucket, attempts, timeout) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
@@ -46,7 +50,7 @@ async function uploadWithRetry(object, targetBucket, attempts) {
         '--content-type', object.mimeType,
         '--cache-control', object.mimeType.startsWith('image/')
           ? 'public, max-age=604800, immutable' : 'private, max-age=0, no-store',
-      ]);
+      ], timeout);
       return;
     } catch (error) {
       lastError = error;
@@ -55,7 +59,7 @@ async function uploadWithRetry(object, targetBucket, attempts) {
   throw lastError;
 }
 
-function runWrangler(arguments_) {
+function runWrangler(arguments_, timeoutMs) {
   const executable = resolve('node_modules/.bin/wrangler');
   return new Promise((resolvePromise, rejectPromise) => {
     const child = spawn(executable, arguments_, {
@@ -69,8 +73,8 @@ function runWrangler(arguments_) {
       if (settled) return;
       settled = true;
       child.kill('SIGTERM');
-      rejectPromise(new Error(`wrangler timed out after 60 seconds: ${arguments_[2] ?? 'R2 upload'}`));
-    }, 60_000);
+      rejectPromise(new Error(`wrangler timed out after ${timeoutMs} milliseconds: ${arguments_[2] ?? 'R2 upload'}`));
+    }, timeoutMs);
     child.stdout.on('data', (chunk) => { output += chunk; });
     child.stderr.on('data', (chunk) => { output += chunk; });
     child.on('error', (error) => {

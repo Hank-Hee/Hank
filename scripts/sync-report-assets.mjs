@@ -4,6 +4,11 @@ import pg from 'pg';
 
 const options = parseArguments(process.argv.slice(2));
 const manifest = JSON.parse(await readFile(requiredPath(options, '--manifest'), 'utf8'));
+const mode = options.get('--mode') ?? (options.has('--replace') ? 'replace-all' : 'merge');
+if (!['merge', 'replace-all', 'replace-covers'].includes(mode)) throw new Error(`Unsupported sync mode: ${mode}`);
+if (mode === 'replace-covers' && (
+  manifest.reportAssets.some(({ kind }) => kind !== 'cover') || manifest.companyLogos.length
+)) throw new Error('replace-covers mode only accepts report cover assets and no company logos.');
 const connectionString = withPassword(process.env.DATABASE_URL, process.env.DATABASE_PASSWORD);
 const client = new pg.Client({
   connectionString,
@@ -26,9 +31,14 @@ try {
   if (knownReports.rows.length !== reportIds.length) throw new Error('Manifest contains unknown report IDs.');
   if (knownCompanies.rows.length !== companySlugs.length) throw new Error('Manifest contains unknown company slugs.');
 
-  if (options.has('--replace')) {
+  if (mode === 'replace-all') {
     await client.query('delete from app_private.report_assets');
     await client.query('delete from app_private.company_brand_assets');
+  } else if (mode === 'replace-covers' && reportIds.length) {
+    await client.query(
+      `delete from app_private.report_assets where kind = 'cover' and report_id = any($1::text[])`,
+      [reportIds],
+    );
   }
   if (manifest.reportAssets.length) {
     await client.query(
@@ -104,7 +114,7 @@ try {
          where kind = 'report' and attachment_available) as reports_with_attachments`,
   );
   await client.query('commit');
-  console.log(JSON.stringify(verification.rows[0]));
+  console.log(JSON.stringify({ mode, ...verification.rows[0] }));
 } catch (error) {
   await client.query('rollback').catch(() => undefined);
   throw error;

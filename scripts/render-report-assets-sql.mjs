@@ -4,6 +4,8 @@ import { dirname, resolve } from 'node:path';
 const options = parseArguments(process.argv.slice(2));
 const manifest = JSON.parse(await readFile(requiredPath(options, '--manifest'), 'utf8'));
 const outputPath = requiredPath(options, '--output');
+const mode = options.get('--mode') ?? 'replace-all';
+if (!['replace-all', 'replace-covers'].includes(mode)) throw new Error(`Unsupported sync mode: ${mode}`);
 const reportAssets = manifest.reportAssets.map((asset) => ({
   report_id: asset.reportId,
   id: asset.id,
@@ -26,12 +28,47 @@ const companyLogos = manifest.companyLogos.map((asset) => ({
   mime_type: asset.mimeType,
   byte_size: asset.byteSize,
 }));
+if (mode === 'replace-covers' && (reportAssets.some(({ kind }) => kind !== 'cover') || companyLogos.length)) {
+  throw new Error('replace-covers mode only accepts report cover assets and no company logos.');
+}
 const reportJson = dollarQuotedJson('report_assets', reportAssets);
 const logoJson = dollarQuotedJson('company_logos', companyLogos);
+const coverReportIds = [...new Set(reportAssets.map(({ report_id }) => report_id))];
+const coverReportIdsJson = dollarQuotedJson('cover_report_ids', coverReportIds);
+const deletionSql = mode === 'replace-covers'
+  ? `delete from app_private.report_assets
+where kind = 'cover'
+  and report_id in (select value from jsonb_array_elements_text(${coverReportIdsJson}::jsonb));`
+  : `delete from app_private.report_assets;
+delete from app_private.company_brand_assets;`;
+const logoInsertSql = mode === 'replace-covers' ? '' : `
+insert into app_private.company_brand_assets (company_slug, object_key, sha256, mime_type, byte_size)
+select company_slug, object_key, sha256, mime_type, byte_size
+from jsonb_to_recordset(${logoJson}::jsonb) as asset(
+  company_slug text, object_key text, sha256 text, mime_type text, byte_size bigint
+);
+`;
+const verificationSql = mode === 'replace-covers'
+  ? `select count(*) into actual_covers
+  from app_private.report_assets
+  where kind = 'cover'
+    and report_id in (select value from jsonb_array_elements_text(${coverReportIdsJson}::jsonb));
+  if actual_covers <> ${reportAssets.length} then
+    raise exception 'Report cover verification failed: expected %, actual %',
+      ${reportAssets.length}, actual_covers;
+  end if;`
+  : `select count(*) into actual_attachments from app_private.report_assets where kind = 'attachment';
+  select count(*) into actual_covers from app_private.report_assets where kind = 'cover';
+  select count(*) into actual_logos from app_private.company_brand_assets;
+  if actual_attachments <> ${reportAssets.filter(({ kind }) => kind === 'attachment').length}
+    or actual_covers <> ${reportAssets.filter(({ kind }) => kind === 'cover').length}
+    or actual_logos <> ${companyLogos.length} then
+    raise exception 'Report asset verification failed: attachments %, covers %, logos %',
+      actual_attachments, actual_covers, actual_logos;
+  end if;`;
 const sql = `begin;
 
-delete from app_private.report_assets;
-delete from app_private.company_brand_assets;
+${deletionSql}
 
 insert into app_private.report_assets (
   report_id, id, kind, original_file_name, object_key, source_object_key,
@@ -44,12 +81,7 @@ from jsonb_to_recordset(${reportJson}::jsonb) as asset(
   source_object_key text, sha256 text, source_sha256 text, mime_type text,
   byte_size bigint, rights_type text, security_level text, review_status text
 );
-
-insert into app_private.company_brand_assets (company_slug, object_key, sha256, mime_type, byte_size)
-select company_slug, object_key, sha256, mime_type, byte_size
-from jsonb_to_recordset(${logoJson}::jsonb) as asset(
-  company_slug text, object_key text, sha256 text, mime_type text, byte_size bigint
-);
+${logoInsertSql}
 
 do $verification$
 declare
@@ -57,15 +89,7 @@ declare
   actual_covers integer;
   actual_logos integer;
 begin
-  select count(*) into actual_attachments from app_private.report_assets where kind = 'attachment';
-  select count(*) into actual_covers from app_private.report_assets where kind = 'cover';
-  select count(*) into actual_logos from app_private.company_brand_assets;
-  if actual_attachments <> ${reportAssets.filter(({ kind }) => kind === 'attachment').length}
-    or actual_covers <> ${reportAssets.filter(({ kind }) => kind === 'cover').length}
-    or actual_logos <> ${companyLogos.length} then
-    raise exception 'Report asset verification failed: attachments %, covers %, logos %',
-      actual_attachments, actual_covers, actual_logos;
-  end if;
+  ${verificationSql}
 end
 $verification$;
 
@@ -74,7 +98,7 @@ commit;
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, sql);
-console.log(JSON.stringify({ output: outputPath, reportAssets: reportAssets.length, companyLogos: companyLogos.length }));
+console.log(JSON.stringify({ output: outputPath, mode, reportAssets: reportAssets.length, companyLogos: companyLogos.length }));
 
 function dollarQuotedJson(tag, value) {
   const json = JSON.stringify(value);

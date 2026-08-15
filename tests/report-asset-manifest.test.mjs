@@ -90,3 +90,33 @@ test('renders a transactional linked-database sync with count verification', asy
   assert.match(sql, /commit;/);
   assert.doesNotMatch(sql, /bytea/i);
 });
+
+test('renders a cover-only sync without deleting attachments, logos, or unrelated covers', async () => {
+  const work = await mkdtemp(join(tmpdir(), 'report-cover-sync-'));
+  const manifestPath = join(work, 'manifest.json');
+  const outputPath = join(work, 'covers.sql');
+  await writeFile(manifestPath, JSON.stringify({
+    reportAssets: [{
+      reportId: 'report-one', id: 'fedcba987654321001234567', kind: 'cover',
+      originalFileName: 'Report cover.png', objectKey: `report-assets/published/covers/${'b'.repeat(64)}.webp`,
+      sourceObjectKey: `report-assets/source/covers/${'a'.repeat(64)}.png`, sha256: 'b'.repeat(64),
+      sourceSha256: 'a'.repeat(64), mimeType: 'image/webp', byteSize: 100,
+      rightsType: 'LICENSED_RESTRICTED', securityLevel: 'L1', reviewStatus: 'approved',
+    }],
+    companyLogos: [],
+  }));
+
+  execFileSync(process.execPath, [
+    'scripts/render-report-assets-sql.mjs',
+    `--manifest=${manifestPath}`,
+    `--output=${outputPath}`,
+    '--mode=replace-covers',
+  ], { cwd: repositoryRoot, stdio: 'pipe' });
+
+  const sql = await readFile(outputPath, 'utf8');
+  assert.match(sql, /delete from app_private\.report_assets\s+where kind = 'cover'/);
+  assert.match(sql, /report_id in \(select value from jsonb_array_elements_text/);
+  assert.doesNotMatch(sql, /delete from app_private\.company_brand_assets/);
+  assert.doesNotMatch(sql, /delete from app_private\.report_assets;/);
+  assert.match(sql, /Report cover verification failed/);
+});
