@@ -18,6 +18,7 @@ const TYPE_META = {
     label: "复合类型",
     englishLabel: "Mixed field",
     description: "复合类型：同一项目包含两个及以上油气田类型。",
+    englishDescription: "Mixed type: one project contains two or more field types.",
     color: "#7896aa",
   },
   Other: {
