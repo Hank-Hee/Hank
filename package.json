@@ -1,0 +1,36 @@
+{
+  "name": "wison-oil-gas-knowledge-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.9.8",
+  "engines": {
+    "node": ">=22.22.2 <23"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @wison/contracts && npm run build -w @wison/web && npm run build -w @wison/api",
+    "attachments:prepare": "node scripts/prepare-report-attachments.mjs",
+    "assets:manifest": "node scripts/build-report-asset-manifest.mjs",
+    "assets:sql": "node scripts/render-report-assets-sql.mjs",
+    "assets:upload": "node scripts/upload-report-assets.mjs",
+    "assets:sync": "node scripts/sync-report-assets.mjs",
+    "dev": "node scripts/run-company-demo.mjs",
+    "dev:api": "npm run dev -w @wison/api",
+    "dev:web": "npm run dev -w @wison/web",
+    "e2e": "playwright test",
+    "e2e:install": "playwright install chromium",
+    "lint": "npm run lint -w @wison/contracts && npm run lint -w @wison/api && npm run lint -w @wison/web",
+    "test": "node --test tests/*.test.mjs && npm run test -w @wison/contracts && npm run test -w @wison/api && npm run test -w @wison/web",
+    "typecheck": "npm run typecheck -w @wison/contracts && npm run typecheck -w @wison/api && npm run typecheck -w @wison/web",
+    "uat:audit-public": "node scripts/audit-public-uat.mjs",
+    "uat:load": "node scripts/run-uat-readonly-load.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "supabase": "^2.110.0"
+  }
+}
