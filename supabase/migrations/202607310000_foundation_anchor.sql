@@ -1,0 +1,1 @@
+-- Deliberately empty: establishes the pre-Foundation local migration boundary.

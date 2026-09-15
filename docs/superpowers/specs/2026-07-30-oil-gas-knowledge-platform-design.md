@@ -1,5 +1,7 @@
 # Oil & Gas Knowledge Platform — Product and System Design
 
+> **HISTORICAL INPUT — NOT EXECUTION AUTHORITY (2026-07-31):** Product requirements in this mixed document have been superseded by the approved `docs/product/PRD.md`. Its system and technical material is reference input only until separate Product/System Design and Technical Architecture documents are approved. Do not use this file to authorize implementation or Task 2.
+
 - **Document status:** Proposed baseline, approved for specification drafting
 - **Date:** 2026-07-30
 - **Repository:** `Hank-Hee/Hank`

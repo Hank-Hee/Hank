@@ -9,6 +9,24 @@ const VERSION = "20260721-ui-v2-production";
 const SVG_NS = "http://www.w3.org/2000/svg";
 const CENTER = { x: 120, y: 120 };
 const RADIUS = 100;
+const IS_EN = new URLSearchParams(window.location.search).get("lang") === "en";
+const tr = (chinese, english) => IS_EN ? english : chinese;
+const displayLabel = (item) => IS_EN ? item.englishLabel : item.label;
+const displayDescription = (item) => IS_EN ? item.englishDescription || "" : item.description || "";
+document.documentElement.lang = IS_EN ? "en" : "zh-CN";
+
+if (IS_EN) {
+  document.title = "Project mix";
+  document.querySelector("#chart-title").lastChild.textContent = " Project mix";
+  document.querySelector(".chart-heading p").textContent = "Grouped by primary project type";
+  document.querySelector(".header-total").lastChild.textContent = " projects";
+  document.querySelector("#chart-description").textContent = "Donut chart of company projects by field type";
+  document.querySelector(".donut-unit").textContent = "Total projects";
+  document.querySelector("#project-type-legend").setAttribute("aria-label", "Project type legend");
+  document.querySelectorAll(".tooltip-metrics small")[0].textContent = "Projects";
+  document.querySelectorAll(".tooltip-metrics small")[1].textContent = "Share";
+  document.querySelector("#chart-state strong").textContent = "Loading project data";
+}
 
 const dom = {
   card: document.querySelector(".dashboard-card"),
@@ -42,11 +60,11 @@ const setActive = (item, sourceElement, pointerEvent) => {
   const count = dom.tooltip.querySelector(".tooltip-count");
   const percent = dom.tooltip.querySelector(".tooltip-percent");
   swatch.style.setProperty("--segment-color", item.color);
-  label.textContent = item.label;
-  english.textContent = item.englishLabel;
-  note.textContent = item.description || "";
-  note.hidden = !item.description;
-  count.textContent = `${item.count} 个`;
+  label.textContent = displayLabel(item);
+  english.textContent = IS_EN ? "" : item.englishLabel;
+  note.textContent = displayDescription(item);
+  note.hidden = !displayDescription(item);
+  count.textContent = tr(`${item.count} 个`, `${item.count}`);
   percent.textContent = item.percent;
   dom.tooltip.hidden = false;
 
@@ -88,7 +106,7 @@ const renderLegendRow = (item) => {
   row.type = "button";
   row.className = "legend-row";
   row.dataset.typeKey = item.key;
-  row.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`);
+  row.setAttribute("aria-label", tr(`${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`, `${item.englishLabel}, ${item.count} projects, ${item.percent}${displayDescription(item) ? `, ${displayDescription(item)}` : ""}`));
   row.innerHTML = `
     <span class="legend-swatch" aria-hidden="true"></span>
     <span class="legend-copy"><strong></strong><small></small></span>
@@ -97,10 +115,10 @@ const renderLegendRow = (item) => {
       <span class="legend-percent"></span>
     </span>`;
   row.style.setProperty("--segment-color", item.color);
-  row.querySelector("strong").textContent = item.label;
-  row.querySelector("small").textContent = item.englishLabel;
-  row.querySelector(".legend-count").textContent = `${item.count} 个项目`;
-  row.querySelector(".legend-percent").textContent = `占比 ${item.percent}`;
+  row.querySelector("strong").textContent = displayLabel(item);
+  row.querySelector("small").textContent = IS_EN ? "" : item.englishLabel;
+  row.querySelector(".legend-count").textContent = tr(`${item.count} 个项目`, `${item.count} projects`);
+  row.querySelector(".legend-percent").textContent = tr(`占比 ${item.percent}`, `${item.percent}`);
   bindInteraction(row, item);
   return row;
 };
@@ -118,7 +136,7 @@ const renderSegment = (item) => {
   segment.setAttribute("transform", `rotate(-90 ${CENTER.x} ${CENTER.y})`);
   segment.setAttribute("role", "img");
   segment.setAttribute("tabindex", "0");
-  segment.setAttribute("aria-label", `${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`);
+  segment.setAttribute("aria-label", tr(`${item.label}，项目数量 ${item.count} 个，项目占比 ${item.percent}${item.description ? `，${item.description}` : ""}`, `${item.englishLabel}, ${item.count} projects, ${item.percent}${displayDescription(item) ? `, ${displayDescription(item)}` : ""}`));
   bindInteraction(segment, item);
   return segment;
 };
@@ -132,9 +150,9 @@ const renderChart = (operatorEntry, projects) => {
   }));
 
   dom.operator.textContent = operatorEntry.name;
-  dom.total.textContent = total.toLocaleString("zh-CN");
-  dom.headerTotal.textContent = total.toLocaleString("zh-CN");
-  document.title = `${operatorEntry.name} 项目类型结构`;
+  dom.total.textContent = total.toLocaleString(IS_EN ? "en-US" : "zh-CN");
+  dom.headerTotal.textContent = total.toLocaleString(IS_EN ? "en-US" : "zh-CN");
+  document.title = tr(`${operatorEntry.name} 项目类型结构`, `${operatorEntry.name} Project Mix`);
   dom.segments.replaceChildren(...segments.map(renderSegment));
   dom.legend.replaceChildren(...segments.map(renderLegendRow));
   dom.state.hidden = true;
@@ -153,7 +171,7 @@ const start = async () => {
     const manifest = await loadJson(`../../maps/operators.json?v=${VERSION}`);
     const operatorEntry = resolveOperator(manifest, requestedOperator);
     if (!operatorEntry) {
-      showError(`暂不支持 ${requestedOperator || "该公司"}`);
+      showError(tr(`暂不支持 ${requestedOperator || "该公司"}`, `${requestedOperator || "This company"} is not supported`));
       return;
     }
 
@@ -161,7 +179,7 @@ const start = async () => {
     renderChart(operatorEntry, payload.projects || []);
   } catch (error) {
     console.error(error);
-    showError("项目类型数据加载失败，请刷新后重试");
+    showError(tr("项目类型数据加载失败，请刷新后重试", "Project type data failed to load. Refresh to retry."));
   }
 };
 
