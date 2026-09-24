@@ -1,0 +1,884 @@
+{
+  "black-and-veatch": {
+    "business": "Engineering consultancy, energy EPC, water infrastructure, fuel and chemical, low-carbon solutions",
+    "country": "United States",
+    "headquarters": "Seoul, Korea",
+    "marketPosition": "Global staff-held engineering consultancy and EPC enterprise, energy and water infrastructure experience is prominent",
+    "region": "Gulf of Mexico"
+  },
+  "shanghai-zhenhua-heavy-industries-co-ltd-zpmc": {
+    "business": "Port machinery, marine engineering equipment, engineering vessels, large steel structures, intelligent systems",
+    "country": "China",
+    "headquarters": "Shanghai, China",
+    "marketPosition": "Global major supplier of port machinery, extension of operations to marine equipment and large steel structures",
+    "region": "China and North-East Asia"
+  },
+  "yantai-cimc-raffles-marine-technology-group-co-ltd": {
+    "business": "Marine engineering equipment, drilling platforms, production units, special vessels, marine clean energy equipment",
+    "country": "China",
+    "headquarters": "Smoke, China.",
+    "marketPosition": "China Seafarers General Contractor with Deepwater Platform and Special Seafarers Delivery Capacity",
+    "region": "China and North-East Asia"
+  },
+  "cosco-shipping-heavy-industry-co-ltd": {
+    "business": "Ship construction, ship repair and retrofitting, marine engineering equipment, seafood MEPC, technical support services",
+    "country": "China",
+    "headquarters": "Shanghai, China",
+    "marketPosition": "China Large Ship and Marine Equipment Group, covering new construction, repair and retrofitting, and China National Package",
+    "region": "China and North-East Asia"
+  },
+  "bw-offshore-limited": {
+    "business": "FPSO, FSO, Design and Adaptation of Floating Production Facilities, Long-Term Lease and Operation, Transport Services",
+    "country": "Norway",
+    "headquarters": "Singapore and Oslo, Norway",
+    "marketPosition": "Owners and operators of global floating production facilities, deep-tilled FPSO service throughout its life cycle",
+    "region": "North Sea/Northern Europe"
+  },
+  "offshore-oil-engineering-co-ltd-cooec": {
+    "business": "Marine oil and gas, land construction, sea installation commissioning, LNG engineering, offshore wind and electricity engineering",
+    "country": "China",
+    "headquarters": "Tianjin, China",
+    "marketPosition": "China ' s large marine oil and gas contractor, with full marine EPCI life-cycle capability",
+    "region": "China and North-East Asia"
+  },
+  "yinson-production-offshore-pte-ltd": {
+    "business": "FPSO, FSO, Design and Adaptation of Floating Production Facilities, Long-Term Lease and Operation, Transport Services",
+    "country": "Singapore",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "marketPosition": "Global stand-alone proprietor and operator with project delivery and long-term lease capacity",
+    "region": "South-East Asia"
+  },
+  "hanwha-ocean": {
+    "business": "Merchant ship manufacture, LNG transport ship, marine equipment, military vessels, ship MRO",
+    "country": "Korea",
+    "headquarters": "Chi Chi City, Korea",
+    "marketPosition": "One of the three major ship-builders in Korea, the core builders of LNG, seamen and military ships",
+    "region": "China and North-East Asia"
+  },
+  "shi": {
+    "business": "Merchant ship manufacturing, LNG transport ship, seaboard platform, FLNG, FPSO",
+    "country": "Korea",
+    "headquarters": "Seoul, Korea",
+    "marketPosition": "One of the three leading shipbuilding companies in Korea, a major supplier of global LNG and FLNG works",
+    "region": "China and North-East Asia"
+  },
+  "bomesc": {
+    "business": "China National Construction, FPSO, LNG, Mining",
+    "country": "China",
+    "headquarters": "Tianjin, China",
+    "marketPosition": "China Seaworker Module Professional Builder for international FPSO and LNG projects",
+    "region": "China and North-East Asia"
+  },
+  "seatrium": {
+    "business": "Seaworkers and ship construction, maintenance upgrades, FPSO, FLNG, FSRU, New Energy at Sea",
+    "country": "Singapore",
+    "headquarters": "Singapore",
+    "marketPosition": "Singapore Large Sea Industries Group, main contractor for global floating production facilities and ship conversion",
+    "region": "South-East Asia"
+  },
+  "chiyoda": {
+    "business": "LNG and Hydrocarbon Engineering, Low Carbon Solutions, Energy Management, Industrial and Life Sciences Engineering, Transport Services",
+    "country": "Japan",
+    "headquarters": "Yokohama, Japan",
+    "marketPosition": "International Engineering Corporation of Japan, a major contractor at the Global LNG Plant EPC",
+    "region": "China and North-East Asia"
+  },
+  "daewoo-engineering": {
+    "business": "Energy and industrial facilities, EPC, electrical engineering, civil infrastructure, construction and residential development",
+    "country": "Korea",
+    "headquarters": "Seoul, Korea",
+    "marketPosition": "Korea Integrated Construction and EPC Enterprise, Overseas Energy and Infrastructure Project Contractor",
+    "region": "China and North-East Asia"
+  },
+  "hyundai-engineering": {
+    "business": "Oil, gas and chemical, electricity and energy, infrastructure, construction",
+    "country": "Korea",
+    "headquarters": "Seoul, Korea",
+    "marketPosition": "Korea Integrated Engineering Enterprise, Significant Contractors for Hydrocarbons and Electricity",
+    "region": "China and North-East Asia"
+  },
+  "samsung-engineering": {
+    "business": "Hydrocarbon processing, refining and petrochemical MEPC, energy transformation, environmental protection, industrial and biological engineering",
+    "country": "Korea",
+    "headquarters": "Seoul, Korea",
+    "marketPosition": "Korea Specialized EPC Enterprise, Key Contractor for Middle Eastern Hydrocarbons and Energy Transformation Project",
+    "region": "China and North-East Asia"
+  },
+  "kbr": {
+    "business": "Engineering and project management, government and defence services, sustainable technology, energy transformation",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "United States engineering and technology service providers, with global influence in the areas of government services and sustainable technology",
+    "region": "Gulf of Mexico"
+  },
+  "bechtel": {
+    "business": "Energy engineering, infrastructure, mining and metals, nuclear energy and safety, advanced manufacturing",
+    "country": "United States",
+    "headquarters": "Reston, USA",
+    "marketPosition": "Global major engineering enterprise, contractor for major energy, infrastructure and mining projects",
+    "region": "Gulf of Mexico"
+  },
+  "jgc": {
+    "business": "LNG and Gas, Refining and Chemical Industry, Industrial Facilities, Medical and Life Sciences, Low Carbon Energy",
+    "country": "Japan",
+    "headquarters": "Yokohama, Japan",
+    "marketPosition": "Permanent participants in the International Engineering Group of Japan, LNG and the Petrochemicals Company",
+    "region": "China and North-East Asia"
+  },
+  "worley": {
+    "business": "Engineering consultancy, project delivery, hydrocarbon and chemical, mining and resources, low-carbon energy",
+    "country": "Australia",
+    "headquarters": "Sydney, Australia",
+    "marketPosition": "Global engineering consulting and project service providers, covering the full life cycle of traditional energy and energy transformation",
+    "region": "Australia/New Zealand"
+  },
+  "fluor": {
+    "business": "Energy and chemicals, mining and metals, infrastructure, advanced manufacturing, project management",
+    "country": "United States",
+    "headquarters": "Santa Anna, USA",
+    "marketPosition": "Global Engineering Construction Group, Complex Energy and Chemical Projects EPC and Project Management Service",
+    "region": "Gulf of Mexico"
+  },
+  "saipem": {
+    "business": "Marine EPCI, submarine pipeline, land-based energy engineering, drilling services, low-carbon infrastructure",
+    "country": "Italy",
+    "headquarters": "Milan, Italy.",
+    "marketPosition": "Italian Marine and Energy Engineering Group, Main Contractors in the Area of Deep-water Seawork and Seabed Pipeline",
+    "region": "Mediterranean/Southern Europe"
+  },
+  "mcdermott": {
+    "business": "Maritime EPCI, LNG and storage tanks, refining and chemical, seabed engineering, project technical services",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "Global maritime and land energy engineering contractors with large-scale EPCI and LNG project capabilities",
+    "region": "Gulf of Mexico"
+  },
+  "technip-energies": {
+    "business": "LNG and natural gas engineering, refining and chemical, hydrogen energy, carbon capture, sustainable chemistry",
+    "country": "French joint venture",
+    "headquarters": "Radvans, France",
+    "marketPosition": "Global Energy Engineering and Technology, LNG, Hydrogen Energy and Carbon Management Project, major contractor",
+    "region": "Other Europe"
+  },
+  "excelerate-energy": {
+    "business": "FSRU, LNG import terminals, regasification services, LNG supply and marketing",
+    "country": "United States",
+    "headquarters": "Woodland, USA",
+    "marketPosition": "Global FSRU operators and integrated LNG infrastructure service providers",
+    "region": "Gulf of Mexico"
+  },
+  "h-egh-evi": {
+    "business": "FSRU, floating LNG import terminals, regasification services, LNG infrastructure operation",
+    "country": "Norway",
+    "headquarters": "Oslo, Norway",
+    "marketPosition": "Global Floating LNG Infrastructure Operator, FSRU Fleet is at the top of the industry",
+    "region": "North Sea/Northern Europe"
+  },
+  "modec": {
+    "business": "FPSO, FSO, floating production system EPCI, long-term lease and operation",
+    "country": "Japan",
+    "headquarters": "Tokyo, Japan",
+    "marketPosition": "Japanese floating production system supplier, major participant in the global FPSO leasing operation",
+    "region": "China and North-East Asia"
+  },
+  "sbm-offshore": {
+    "business": "FPSO, FPI, Design Construction, Long-Term Lease Operation, New Energy at Sea",
+    "country": "Netherlands",
+    "headquarters": "Amsterdam, Netherlands",
+    "marketPosition": "One of the leading firms in the design, construction and operation of the global PPSO",
+    "region": "Other Europe"
+  },
+  "misc": {
+    "business": "LNG Shipping, Oil Transport, FPSO and Float Assets, Maritime and Ship Management",
+    "country": "Malaysia",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "marketPosition": "Malaysia International Energy Shipping Group, LNG Transport and Maritime Assets Operational Capability",
+    "region": "South-East Asia"
+  },
+  "bumi-armada": {
+    "business": "FPSO, FSU, floating production operations, maritime support services",
+    "country": "Malaysia",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "marketPosition": "Malaysian Marine Energy Facility Operator, Focusing on FPSO and Float Solutions",
+    "region": "South-East Asia"
+  },
+  "golar-lng": {
+    "business": "FLNG development and operation, LNG infrastructure, natural gas liquefied services",
+    "country": "United Kingdom",
+    "headquarters": "Hamilton, Bermuda",
+    "marketPosition": "Global FLNG Development and Operation vanguard, Focus on Marine Natural Gas Liquefied",
+    "region": "North Sea/Northern Europe"
+  },
+  "exmar": {
+    "business": "LPG and ammonia transport, LNG shipping, floating liquefied and regasification, maritime infrastructure",
+    "country": "Belgium",
+    "headquarters": "Antwerp, Belgium",
+    "marketPosition": "Belgian specialized gas transport and floating infrastructure operator",
+    "region": "Other Europe"
+  },
+  "lng-canada": {
+    "business": "LNG Liquefied, LNG Export Terminal",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Canada ' s first large-scale LNG export project linking Western gas to Asian markets",
+    "region": "Canada"
+  },
+  "cedar-lng": {
+    "business": "Floating LNG Liquefied, LNG Export Project",
+    "country": "Canada",
+    "headquarters": "Kittimat, Canada",
+    "marketPosition": "First Nations-led Canadian floating LNG project, emphasizing low-carbon power-driven",
+    "region": "Canada"
+  },
+  "delfin-midstream": {
+    "business": "FLNG, LNG Export Project, Midstream Gas",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "Developer of the FLNG project, Deepwater Port, Gulf of Mexico, United States",
+    "region": "Gulf of Mexico"
+  },
+  "azule": {
+    "business": "Upstream exploration and exploitation, natural gas, LNG",
+    "country": "United Kingdom",
+    "headquarters": "Luanda, Angola",
+    "marketPosition": "Large and independent oil and gas operator in Angola, established with a combination of bp and Eni local assets",
+    "region": "North Sea/Northern Europe"
+  },
+  "totalenergies-suriname": {
+    "business": "Upstream exploration and exploitation, deep-water hydrocarbons",
+    "country": "Suriname",
+    "headquarters": "Kulbois, France",
+    "marketPosition": "Suriname Deepwater Hydrocarbon Development Main Operator, lead Gran Morgu project",
+    "region": "Central and South America"
+  },
+  "hess-guyana": {
+    "business": "Upstream exploration and exploitation, deep-water hydrocarbons",
+    "country": "Guyana",
+    "headquarters": "New York, USA",
+    "marketPosition": "Key stakeholders in the Stabroek block of Guyana, now incorporated into Chevron",
+    "region": "Central and South America"
+  },
+  "exxonmobil-guyana": {
+    "business": "Upstream exploration and exploitation, deep-water hydrocarbons",
+    "country": "Guyana",
+    "headquarters": "Spring City, USA",
+    "marketPosition": "Operator of the Stabroek block in Guyana, leading the country ' s deep-water hydrocarbon development",
+    "region": "Central and South America"
+  },
+  "guyana-energy-agency": {
+    "business": "Energy management, energy efficiency, renewable energy",
+    "country": "Guyana",
+    "headquarters": "Georgetown, Guyana",
+    "marketPosition": "Government of Guyana Energy Agency, responsible for energy efficiency and renewable energy policy implementation",
+    "region": "Central and South America"
+  },
+  "buckeye-partners": {
+    "business": "Oil storage, terminal operations",
+    "country": "Bahamas",
+    "headquarters": "Houston, USA",
+    "marketPosition": "Large North American and Caribbean liquid energy terminals and pipeline infrastructure operators",
+    "region": "Caribbean"
+  },
+  "united-oil-gas": {
+    "business": "Upstream exploration and exploitation, hydrocarbon exploration",
+    "country": "Jamaica",
+    "headquarters": "Houston, USA",
+    "marketPosition": "British independent upstream, focused on mature and emerging hydrocarbon assets",
+    "region": "Caribbean"
+  },
+  "new-fortress-energy": {
+    "business": "LNG Import Terminal, Gas Power Generation, LNG Supply",
+    "country": "Jamaica",
+    "headquarters": "New York, USA",
+    "marketPosition": "Global integrated gas infrastructure enterprises to promote emerging market LNG-to-power projects",
+    "region": "Caribbean"
+  },
+  "ecopetrodom": {
+    "business": "Oil imports, fuel distribution, terminal operations",
+    "country": "Dominican Republic",
+    "headquarters": "Santo Domingo, Dominican Republic",
+    "marketPosition": "Dominican indigenous fuel distributors with a national network of retail outlets",
+    "region": "Caribbean"
+  },
+  "petronan": {
+    "business": "Oil imports, fuel distribution, terminal operations",
+    "country": "Dominican Republic",
+    "headquarters": "Santo Domingo, Dominican Republic",
+    "marketPosition": "Dominican indigenous fuel retail and distribution brand",
+    "region": "Caribbean"
+  },
+  "west-indies-oil-company": {
+    "business": "Retail fuel, oil storage, maritime agents, aviation refuelling",
+    "country": "Antigua and Barbuda",
+    "headquarters": "St. John, Antigua and Barbuda",
+    "marketPosition": "Antigua and Barbuda ' s main oil storage and fuel supplier, serving the Eastern Caribbean market",
+    "region": "Caribbean"
+  },
+  "touchstone-exploration": {
+    "business": "Upstream exploration and exploitation, gas production",
+    "country": "Trinidad and Tobago",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Trinidad Land Exploration Developer, Focused Gas Reservoir",
+    "region": "Caribbean"
+  },
+  "grupo-tropigas": {
+    "business": "LPG distribution, gas terminals",
+    "country": "Honduras",
+    "headquarters": "San Salvador, El Salvador",
+    "marketPosition": "Large LPG distribution group in Central America, covering household, commercial and industrial users",
+    "region": "Central and South America"
+  },
+  "ice": {
+    "business": "Electricity utilities, renewable energy",
+    "country": "Costa Rica",
+    "headquarters": "San José, Costa Rica",
+    "marketPosition": "Costa Rican State-owned electricity and communications group, core operator of renewable power systems",
+    "region": "Central and South America"
+  },
+  "city-combustibles": {
+    "business": "Gas supply, fuel distribution",
+    "country": "Guatemala",
+    "headquarters": "Guatemala City, Guatemala",
+    "marketPosition": "Natural gas and cleaning fuel suppliers in Guatemala",
+    "region": "Central and South America"
+  },
+  "perenco-guatemala": {
+    "business": "Upstream exploration and exploitation, crude oil production",
+    "country": "Guatemala",
+    "headquarters": "Guatemala City, Guatemala",
+    "marketPosition": "Guatemalan core crude oil producer, focusing on mature land oil fields",
+    "region": "Central and South America"
+  },
+  "pluspetrol": {
+    "business": "Upstream exploration and exploitation, gas production, LNG",
+    "country": "Peru",
+    "headquarters": "Buenos Aires, Argentina",
+    "marketPosition": "Latin America ' s large private upstream enterprises with strong experience in the operation of natural gas assets",
+    "region": "Central and South America"
+  },
+  "citla-energy": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "Mexico",
+    "headquarters": "Mexico City, Mexico",
+    "marketPosition": "Mexico Independent Upper Company, Focus on Offshore Hydrocarbon Asset Development",
+    "region": "Gulf of Mexico"
+  },
+  "grupo-ienova": {
+    "business": "Gas pipeline, LNG terminal, electricity infrastructure",
+    "country": "Mexico",
+    "headquarters": "Mexico City, Mexico",
+    "marketPosition": "Mexico ' s original platform for energy infrastructure, now integrated into Sempra Infrastructure",
+    "region": "Gulf of Mexico"
+  },
+  "cfe": {
+    "business": "Electricity utilities, natural gas procurement, power generation",
+    "country": "Mexico",
+    "headquarters": "Mexico City, Mexico",
+    "marketPosition": "National Electricity Corporation of Mexico, core subject of electricity generation, grid and natural gas procurement",
+    "region": "Gulf of Mexico"
+  },
+  "pampa-energia": {
+    "business": "Upstream exploration and exploitation, power generation, natural gas",
+    "country": "Argentina",
+    "headquarters": "Buenos Aires, Argentina",
+    "marketPosition": "Argentina is one of the main sources of integrated energy, covering power generation, hydrocarbons and petrochemical assets",
+    "region": "Central and South America"
+  },
+  "geopark": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "Colombia",
+    "headquarters": "Bogotá, Colombia",
+    "marketPosition": "Latin American Independent Hydrocarbon Operator, Focus on Core Assets such as Colombia",
+    "region": "Central and South America"
+  },
+  "canacol-energy": {
+    "business": "Upstream exploration and exploitation, gas production",
+    "country": "Colombia",
+    "headquarters": "Bogotá, Colombia",
+    "marketPosition": "Independent natural gas producer in Colombia, serving the Caribbean coastal gas market",
+    "region": "Central and South America"
+  },
+  "tc-energy": {
+    "business": "Gas pipeline, storage, power generation",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Large North American gas pipeline operator, extensive cross-border gas transmission network",
+    "region": "Canada"
+  },
+  "frontera-energy": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "Canada",
+    "headquarters": "Toronto, Canada",
+    "marketPosition": "Canadian-listed Latin American oil and gas operators with concentrated assets in Colombia and Guyana",
+    "region": "Canada"
+  },
+  "imperial-oil": {
+    "business": "Integrated gas, refining, downstream marketing",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Canadian Integrated Energy Corporation, complete oil sand, refining and fuel marketing system",
+    "region": "Canada"
+  },
+  "cenovus-energy": {
+    "business": "Upstream exploration and exploitation, oil sand, refining",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Large-scale integrated energy producers in Canada, integrating oil sand with refined assets",
+    "region": "Canada"
+  },
+  "canadian-natural-resources": {
+    "business": "Upstream exploration and exploitation, oil sand, gas",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "One of Canada ' s largest independent oil and gas producers, with a long-term low and declining portfolio",
+    "region": "Canada"
+  },
+  "suncor-energy": {
+    "business": "Oil sand development, refining, downstream marketing",
+    "country": "Canada",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "Canadian integrated oil sand operator, covering production, refining and retailing",
+    "region": "Canada"
+  },
+  "talos-energy": {
+    "business": "Upstream exploration and exploitation, deep-water hydrocarbons",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "Independent oil and gas operator, Gulf of Mexico, United States, focusing on maritime assets",
+    "region": "Gulf of Mexico"
+  },
+  "apache-corporation": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "APA top-United States brand, focusing on hydrocarbon exploration and development assets",
+    "region": "Gulf of Mexico"
+  },
+  "permian-resources": {
+    "business": "Upstream exploration and exploitation, shale oil and gas",
+    "country": "United States",
+    "headquarters": "Midrand, USA",
+    "marketPosition": "Large and independent shale operators in the diocese basin",
+    "region": "Gulf of Mexico"
+  },
+  "eog-resources": {
+    "business": "Upstream exploration and exploitation, shale oil and gas",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "The United States leads independent upstream companies, with low-cost shale assets and capital efficiency",
+    "region": "Gulf of Mexico"
+  },
+  "diamondback-energy": {
+    "business": "Upstream exploration and exploitation, shale oil and gas",
+    "country": "United States",
+    "headquarters": "Midrand, USA",
+    "marketPosition": "The two occult basins are the main net upstream operators, with significant shale development capabilities.",
+    "region": "Gulf of Mexico"
+  },
+  "venture-global-lng": {
+    "business": "LNG Liquefied, LNG Export Terminal",
+    "country": "United States",
+    "headquarters": "Arlington, USA",
+    "marketPosition": "Large United States LNG exporters, fast expansion of modular liquefied projects",
+    "region": "Gulf of Mexico"
+  },
+  "dcp-midstream": {
+    "business": "Gas fusion, NGL, Midstream Services",
+    "country": "United States",
+    "headquarters": "Denver, USA",
+    "marketPosition": "American Gas Midstream, integrated into the Phillips 66 system",
+    "region": "Gulf of Mexico"
+  },
+  "devon-energy": {
+    "business": "Upstream exploration and exploitation, shale oil and gas",
+    "country": "United States",
+    "headquarters": "Oklahoma City, USA",
+    "marketPosition": "Large and independent oil and gas producers in the United States, core layout shale basin",
+    "region": "Gulf of Mexico"
+  },
+  "enbridge": {
+    "business": "Gas pipeline, storage, gas infrastructure",
+    "country": "United States",
+    "headquarters": "Calgary, Canada",
+    "marketPosition": "North America ' s large energy infrastructure operator, with the largest liquid pipeline and gas network",
+    "region": "Gulf of Mexico"
+  },
+  "sempra-energy": {
+    "business": "Electricity utilities, gas infrastructure, LNG",
+    "country": "United States",
+    "headquarters": "San Diego, USA",
+    "marketPosition": "North American Energy Infrastructure Group, covering utilities and LNG",
+    "region": "Gulf of Mexico"
+  },
+  "nextera-energy": {
+    "business": "Electricity utilities, renewable energy",
+    "country": "United States",
+    "headquarters": "Jupiter Island, USA",
+    "marketPosition": "United States Large Clean Energy and Power Utilities Group, leading in wind-ray power generation",
+    "region": "Gulf of Mexico"
+  },
+  "marathon-oil": {
+    "business": "Upstream exploration and exploitation, shale oil and gas",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "United States independent upstream company, incorporated into ConocoPhillips in 2024",
+    "region": "Gulf of Mexico"
+  },
+  "occidental-petroleum": {
+    "business": "Upstream exploration and exploitation, chemical, low-carbon operations",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "United States Consolidated Hydrocarbon Enterprise, Revealed Assets and Carbon Management Business",
+    "region": "Gulf of Mexico"
+  },
+  "cheniere-energy": {
+    "business": "LNG Liquefied, LNG Export Terminal, LNG Marketing",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "The U.S. leads LNG production and exporter, operating Sabine Pass and Corpus Christi",
+    "region": "Gulf of Mexico"
+  },
+  "xrg": {
+    "business": "Natural gas investment, chemicals, low-carbon energy",
+    "country": "Emirates",
+    "headquarters": "Abu Dhabi, UAE",
+    "marketPosition": "ADNOC International Energy Investment Platform focusing on natural gas, chemicals and low-carbon operations",
+    "region": "Middle East and South Asia"
+  },
+  "sempra": {
+    "business": "LNG export terminals, gas infrastructure, electricity",
+    "country": "United States",
+    "headquarters": "San Diego, USA",
+    "marketPosition": "North American Energy Infrastructure Group, LNG and regulated utilities at the core",
+    "region": "Gulf of Mexico"
+  },
+  "ag-and-p-lng": {
+    "business": "LNG import terminal, FSRU, downstream gas",
+    "country": "Emirates",
+    "headquarters": "Dubai, UAE",
+    "marketPosition": "Emerging Markets LNG Import Terminals and Lower Gas Platform, Focus Asia Project",
+    "region": "Middle East and South Asia"
+  },
+  "pln": {
+    "business": "Electricity utilities, power generation, electricity grid",
+    "country": "Indonesia",
+    "headquarters": "Jakarta, Indonesia",
+    "marketPosition": "Indonesia National Electricity Corporation, National Power Generation and Network Core Operator",
+    "region": "South-East Asia"
+  },
+  "galp-energia": {
+    "business": "Integrated oil and gas, upstream exploration development, refining marketing",
+    "country": "Portugal",
+    "headquarters": "Lisbon, Portugal",
+    "marketPosition": "Portugal Integrated Energy Corporation, with an upstream growth and low-carbon transformation configuration",
+    "region": "Mediterranean/Southern Europe"
+  },
+  "perenco": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "British-French joint venture",
+    "headquarters": "London, England",
+    "marketPosition": "Large, independent European oil and gas operator with expertise in the redevelopment of mature oil and gas fields",
+    "region": "Other Europe"
+  },
+  "harbour-energy": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "United Kingdom",
+    "headquarters": "London, England",
+    "marketPosition": "One of the largest independent oil and gas producers in the United Kingdom, with a core North Sea distribution and global expansion.",
+    "region": "North Sea/Northern Europe"
+  },
+  "ithaca-energy": {
+    "business": "Upper exploration and exploitation, North Sea hydrocarbons",
+    "country": "United Kingdom",
+    "headquarters": "Aberdeen, England",
+    "marketPosition": "Major independent operators and asset-integrators in the North Sea, United Kingdom",
+    "region": "North Sea/Northern Europe"
+  },
+  "pan-american-energy": {
+    "business": "Upstream exploration and exploitation, refining, fuel distribution",
+    "country": "Argentina",
+    "headquarters": "Buenos Aires, Argentina",
+    "marketPosition": "Vaca Muerta, a major player in Argentina ' s large private energy complex",
+    "region": "Central and South America"
+  },
+  "ace-energy": {
+    "business": "FLNG, natural gas power generation, LNG exports",
+    "country": "Nigeria",
+    "headquarters": "Lagos, Nigeria",
+    "marketPosition": "FLNG Nigeria and the electrical barge project developer",
+    "region": "Africa"
+  },
+  "sterling-seepco": {
+    "business": "Upstream exploration and exploitation, gas production",
+    "country": "Nigeria",
+    "headquarters": "Lagos, Nigeria",
+    "marketPosition": "Independent oil and gas operator, Nigeria, focusing on land block and gas development",
+    "region": "Africa"
+  },
+  "genting": {
+    "business": "Upstream exploration and exploitation, LNG",
+    "country": "Malaysia",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "marketPosition": "Malaysia Multinational Group Oil and Gas Platform, with an upstream distribution of South-East Asia and LNG",
+    "region": "South-East Asia"
+  },
+  "mubadala-energy": {
+    "business": "Upstream exploration and development, natural gas, low-carbon energy",
+    "country": "Emirates",
+    "headquarters": "Abu Dhabi, UAE",
+    "marketPosition": "UAE International Upper Company, Focus on Gas and Southeast Asia Assets",
+    "region": "Middle East and South Asia"
+  },
+  "kosmos-energy": {
+    "business": "Upstream exploration and exploitation, LNG",
+    "country": "United States",
+    "headquarters": "Dallas, America.",
+    "marketPosition": "Independent operator of deep-water oil and gas along the Atlantic coast, involved in LNG development in West Africa",
+    "region": "Gulf of Mexico"
+  },
+  "repsol": {
+    "business": "Integrated hydrocarbons, upstream exploration and development, low-carbon energy",
+    "country": "Spain",
+    "headquarters": "Madrid, Spain",
+    "marketPosition": "Spain Integrated Energy Corporation, with global upstream and multi-energy transformation operations",
+    "region": "Mediterranean/Southern Europe"
+  },
+  "inpex": {
+    "business": "Upper exploration and exploitation, LNG, hydrogen energy",
+    "country": "Japan",
+    "headquarters": "Tokyo, Japan",
+    "marketPosition": "Japan ' s largest upstream oil and gas company, Ichthys LNG core operator",
+    "region": "China and North-East Asia"
+  },
+  "santos": {
+    "business": "Upstream exploration and exploitation, LNG",
+    "country": "Australia",
+    "headquarters": "Adelaide, Australia",
+    "marketPosition": "Australia ' s large gas and LNG producers, with assets covering Australia and New Zealand",
+    "region": "Australia/New Zealand"
+  },
+  "woodside-energy": {
+    "business": "Upstream exploration and exploitation, LNG",
+    "country": "Australia",
+    "headquarters": "Perth, Australia",
+    "marketPosition": "Australia ' s largest independent oil and gas company, one of the global core suppliers of LNG",
+    "region": "Australia/New Zealand"
+  },
+  "petroperu": {
+    "business": "Refining, oil distribution, upstream exploration and exploitation",
+    "country": "Peru",
+    "headquarters": "Lima, Peru",
+    "marketPosition": "National Petroleum Corporation of Peru, Talara Refinery and Core Owner of Fuel Supply System",
+    "region": "Central and South America"
+  },
+  "ecopetrol": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Colombia",
+    "headquarters": "Bogotá, Colombia",
+    "marketPosition": "National Energy Group of Colombia, covering hydrocarbons, refining, transport and electricity",
+    "region": "Central and South America"
+  },
+  "ypfb": {
+    "business": "Consolidated oil and gas production, pipeline storage",
+    "country": "Bolivia",
+    "headquarters": "La Paz, Colombia",
+    "marketPosition": "Bolivia National Hydrocarbons Corporation, core subject of the gas production and export system",
+    "region": "Central and South America"
+  },
+  "heritage-petroleum": {
+    "business": "Upstream exploration and exploitation, crude oil production",
+    "country": "Trinidad and Tobago",
+    "headquarters": "Port of Spain, Trinidad and Tobago",
+    "marketPosition": "Trinidad and Tobago State-owned upstream companies with the core task of increasing production in mature oil fields",
+    "region": "Caribbean"
+  },
+  "kogas": {
+    "business": "LNG imports, gas wholesale, LNG infrastructure",
+    "country": "Korea",
+    "headquarters": "Daeju Wide Area City, Korea",
+    "marketPosition": "One of the largest global importers of LNG, the core operator of the Korea Gas Wholesale and Regulatory Network",
+    "region": "China and North-East Asia"
+  },
+  "staatsolie-maatschappij-suriname": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Suriname",
+    "headquarters": "Paramaribo, Suriname",
+    "marketPosition": "Suriname National Petroleum Corporation, with the role of operator and national resource equity management",
+    "region": "Central and South America"
+  },
+  "pdvsa": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Venezuela",
+    "headquarters": "Caracas, Venezuela",
+    "marketPosition": "Venezuelan National Petroleum Company, mastery of the country ' s core hydrocarbon resources and refined assets",
+    "region": "Central and South America"
+  },
+  "sonangol": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, oil trade",
+    "country": "Angola",
+    "headquarters": "Luanda, Angola",
+    "marketPosition": "Angola National Petroleum Company, covering national oil and gas commercial operations and industrial investment",
+    "region": "Africa"
+  },
+  "pemex": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Mexico",
+    "headquarters": "Mexico City, Mexico",
+    "marketPosition": "Mexican National Petroleum Company, covering exploration development, refining and fuel supply",
+    "region": "Gulf of Mexico"
+  },
+  "pertamina": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Indonesia",
+    "headquarters": "Jakarta, Indonesia",
+    "marketPosition": "Indonesian National Energy Corporation, core subject of domestic oil, gas and refining distribution system",
+    "region": "South-East Asia"
+  },
+  "snpc": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, oil trade",
+    "country": "Congo (B)",
+    "headquarters": "Brazzaville, Republic of Congo",
+    "marketPosition": "Congolese (B) National Oil Company, which manages national hydrocarbon rights and participates in upstream operations",
+    "region": "Africa"
+  },
+  "kumul-petroleum-holdings": {
+    "business": "Upstream equity management, LNG, national hydrocarbon asset management",
+    "country": "Papua New Guinea",
+    "headquarters": "Port Moresby, Papua New Guinea",
+    "marketPosition": "PNG National Petroleum Company, with national LNG and upstream interests",
+    "region": "South-East Asia"
+  },
+  "sinopec": {
+    "business": "Consolidated oil and gas, refining and chemical, oil and gas marketing",
+    "country": "China",
+    "headquarters": "Beijing, China",
+    "marketPosition": "China ' s large integrated energy chemical group, with the world ' s leading network of refined chemical energy and oil products",
+    "region": "China and North-East Asia"
+  },
+  "cnpc": {
+    "business": "Consolidated hydrocarbons, upstream exploration and development, pipeline storage",
+    "country": "China",
+    "headquarters": "Beijing, China",
+    "marketPosition": "One of China's largest integrated hydrocarbon conglomerates with a deep upstream and pipeline resource base",
+    "region": "China and North-East Asia"
+  },
+  "cnooc": {
+    "business": "Upper exploration and exploitation, offshore hydrocarbons, LNG",
+    "country": "China",
+    "headquarters": "Beijing, China",
+    "marketPosition": "China ' s largest offshore oil and gas producer, with a global distribution of deep water and LNG assets",
+    "region": "China and North-East Asia"
+  },
+  "nnpc": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, LNG",
+    "country": "Nigeria",
+    "headquarters": "Abuja, Nigeria",
+    "marketPosition": "National Energy Corporation of Nigeria, National Core Platform for Commercialization of Hydrocarbon Resources",
+    "region": "Africa"
+  },
+  "turkish-petroleum-tpao": {
+    "business": "Upstream exploration and exploitation, hydrocarbon production",
+    "country": "Turkey",
+    "headquarters": "Ankara, Turkey",
+    "marketPosition": "Turkish National Upper Company, lead in Black Sea gas development",
+    "region": "Mediterranean/Southern Europe"
+  },
+  "ypf": {
+    "business": "Consolidated hydrocarbons, upstream exploration and exploitation, refining",
+    "country": "Argentina",
+    "headquarters": "Buenos Aires, Argentina",
+    "marketPosition": "Argentine National Holdings and Integrated Energy Corporation, Vaca Muerta Development Core Operator",
+    "region": "Central and South America"
+  },
+  "petronas": {
+    "business": "Integrated oil and gas, LNG, upstream exploration and production",
+    "country": "Malaysia",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "marketPosition": "Malaysia's national energy company and a major global LNG and upstream operator",
+    "region": "Southeast Asia"
+  },
+  "petrobras": {
+    "business": "Consolidated, deep-water, refined",
+    "country": "Brazil",
+    "headquarters": "Rio de Janeiro, Brazil",
+    "marketPosition": "Brazilian National Holding Energy Corporation, Global Leadership in Deep and Super-Deep Hydrocarbon Development",
+    "region": "Brazil"
+  },
+  "qatarenergy": {
+    "business": "Consolidated hydrocarbons, LNG, upstream exploration and exploitation",
+    "country": "Qatar",
+    "headquarters": "Doha, Qatar",
+    "marketPosition": "Qatar National Energy Corporation, core operator of the largest global LNG supply system",
+    "region": "Middle East and South Asia"
+  },
+  "adnoc": {
+    "business": "Integrated oil and gas, upstream exploration and production, refining and chemicals",
+    "country": "United Arab Emirates",
+    "headquarters": "Abu Dhabi, United Arab Emirates",
+    "marketPosition": "The UAE's national energy company and a major Middle East upstream, refining and chemicals operator",
+    "region": "Middle East and South Asia"
+  },
+  "saudi-aramco": {
+    "business": "Integrated oil and gas, upstream exploration and exploitation, and refining",
+    "country": "Saudi Arabia",
+    "headquarters": "Dammam, Saudi Arabia",
+    "marketPosition": "One of the largest integrated oil and gas enterprises in the world, with significant advantages in crude oil production and low-cost resources",
+    "region": "Middle East and South Asia"
+  },
+  "conocophillips": {
+    "business": "Upstream exploration and exploitation, LNG",
+    "country": "United States",
+    "headquarters": "Houston, USA",
+    "marketPosition": "Large and independent upstream companies globally with assets covering LNG and low-cost oil and gas basins",
+    "region": "Gulf of Mexico"
+  },
+  "equinor": {
+    "business": "Upstream exploration and exploitation, gas, new energy sources",
+    "country": "Norway",
+    "headquarters": "Stavanger, Norway",
+    "marketPosition": "Norwegian State Holding Energy, North Sea Oil, Gas and Marine Wind Technology Lead",
+    "region": "North Sea/Northern Europe"
+  },
+  "chevron": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "United States",
+    "headquarters": "Houston, United States",
+    "marketPosition": "Global integrated energy company with strong deepwater, LNG and large-scale upstream project capabilities",
+    "region": "Gulf of Mexico"
+  },
+  "bp": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "United Kingdom",
+    "headquarters": "London, United Kingdom",
+    "marketPosition": "Global integrated energy company focused on natural gas, LNG and low-carbon investment",
+    "region": "North Sea / Northern Europe"
+  },
+  "exxonmobil": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "United States",
+    "headquarters": "Spring, United States",
+    "marketPosition": "One of the world's largest publicly traded integrated energy companies, with major upstream, LNG and refining operations",
+    "region": "Gulf of Mexico"
+  },
+  "totalenergies": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "France",
+    "headquarters": "Courbevoie, France",
+    "marketPosition": "Global multi-energy company active in LNG, deepwater oil and gas, and renewable power",
+    "region": "Other Europe"
+  },
+  "shell": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "United Kingdom",
+    "headquarters": "London, United Kingdom",
+    "marketPosition": "Global integrated energy company with leading positions in LNG trading and deepwater oil and gas",
+    "region": "North Sea / Northern Europe"
+  },
+  "eni": {
+    "business": "Integrated oil and gas, upstream exploration and production, LNG",
+    "country": "Italy",
+    "headquarters": "Rome, Italy",
+    "marketPosition": "Italian integrated energy company with strong African oil and gas and LNG portfolio integration capabilities",
+    "region": "Mediterranean / Southern Europe"
+  }
+}
