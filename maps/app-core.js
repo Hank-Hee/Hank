@@ -117,10 +117,14 @@ export const getResourceFilterCounts = (projects) => Object.fromEntries(
   ]),
 );
 
-export const formatSearchSummary = (operator, total, visible, filters = "") => {
+export const formatSearchSummary = (operator, total, visible, filters = "", locale = "zh") => {
   const isFiltered = typeof filters === "object"
     ? hasActiveProjectFilters(filters)
     : Boolean(normalizeKey(filters));
+  if (locale === "en") {
+    if (isFiltered) return `${operator} · ${visible} of ${total} projects match`;
+    return `${operator} · ${total} projects · Select a project for details`;
+  }
   if (isFiltered) return `${operator} · 匹配 ${visible} / 总计 ${total}`;
   return `${operator} · ${total} 个项目 · 点击项目展开详情`;
 };

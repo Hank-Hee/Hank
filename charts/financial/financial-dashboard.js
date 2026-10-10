@@ -1,6 +1,8 @@
 const VERSION = "20260804-dual-axis-v1";
 const COMPANY = document.body.dataset.company;
 const DATA_URL = `../../data/${COMPANY}-financials.json`;
+const IS_EN = new URLSearchParams(window.location.search).get("lang") === "en";
+document.documentElement.lang = IS_EN ? "en" : "zh-CN";
 
 const fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 
@@ -264,7 +266,7 @@ const renderComboChart = (payload, mode, card) => {
   attachTooltips(chart, rows, config);
   attachLegendToggles(card, chart);
   card.querySelector("[data-eyebrow]").textContent = config.eyebrow || "FINANCIAL PROFILE";
-  card.querySelector("[data-title-cn]").textContent = config.titleCn || config.title;
+  card.querySelector("[data-title-cn]").textContent = IS_EN ? config.title : (config.titleCn || config.title);
   card.querySelector("[data-subtitle]").textContent = config.subtitle;
   card.querySelector("[data-bar-label]").textContent = config.barLabel;
   card.querySelector("[data-line-label]").textContent = config.lineLabel;
