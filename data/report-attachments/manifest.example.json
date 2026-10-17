@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "batchId": "uat-2026-08-04-001",
+  "attachments": [
+    {
+      "reportId": "rystad-6a4de0f8c3776c4645229bee",
+      "file": "请替换为相对于附件目录的文件名.pdf",
+      "rightsType": "PUBLIC_THIRD_PARTY",
+      "securityLevel": "L1",
+      "reviewStatus": "approved"
+    }
+  ]
+}
