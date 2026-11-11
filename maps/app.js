@@ -13,6 +13,48 @@ import {
 
 const VERSION = `20260721-ui-v3-no-header-actions`;
 const DATA_ROOT = `.`;
+const pageParams = new URLSearchParams(window.location.search);
+const IS_EN = pageParams.get(`lang`) === `en`;
+const tr = (chinese, english) => IS_EN ? english : chinese;
+document.documentElement.lang = IS_EN ? `en` : `zh-CN`;
+
+const businessRegionEnglish = {
+  "东南亚": `Southeast Asia`, "中东及南亚": `Middle East and South Asia`,
+  "中南美洲": `Central and South America`, "中国及东北亚": `China and Northeast Asia`,
+  "俄罗斯/独联体": `Russia / CIS`, "全球/跨区域": `Global / Cross-regional`,
+  "加勒比": `Caribbean`, "加拿大": `Canada`, "北美其他": `Other North America`,
+  "北非/北欧": `North Africa / Northern Europe`, "地中海/南欧": `Mediterranean / Southern Europe`,
+  "墨西哥湾": `Gulf of Mexico`, "巴西": `Brazil`, "欧洲其他": `Other Europe`,
+  "澳大利亚/新西兰": `Australia / New Zealand`, "非洲": `Africa`,
+};
+const localizeValues = (values) => IS_EN ? values?.map((value) => businessRegionEnglish[value] || value) : values;
+
+if (IS_EN) {
+  document.title = `Company global project distribution`;
+  document.querySelector(`.chart-heading h1`).lastChild.textContent = ` Global project distribution`;
+  document.querySelector(`.chart-heading p`).textContent = `Projects grouped by location; bubble size represents project count`;
+  document.querySelector(`.map-stage`).setAttribute(`aria-label`, `Interactive company project distribution map`);
+  document.querySelector(`#overview-button`).setAttribute(`aria-label`, `Return to regional overview`);
+  document.querySelector(`#overview-button`).setAttribute(`title`, `Return to regional overview`);
+  document.querySelector(`#overview-button span`).textContent = `Regional overview`;
+  document.querySelector(`#project-drawer`).setAttribute(`aria-label`, `Country project list`);
+  document.querySelector(`#drawer-toggle-label`).textContent = `Collapse project panel`;
+  document.querySelector(`#drawer-title`).textContent = `Project list`;
+  document.querySelector(`#drawer-close`).setAttribute(`aria-label`, `Close project list`);
+  document.querySelector(`#project-search`).setAttribute(`placeholder`, `Search project name`);
+  document.querySelector(`#project-filter-toggle > span:not([hidden])`).textContent = `Filters`;
+  document.querySelector(`#project-filter-panel`).setAttribute(`aria-label`, `Project filters`);
+  document.querySelector(`.filter-panel-head strong`).textContent = `Filter projects`;
+  document.querySelector(`#project-filter-clear`).textContent = `Clear all`;
+  document.querySelectorAll(`#project-filter-panel legend`)[0].textContent = `Facility type`;
+  document.querySelectorAll(`#project-filter-panel legend`)[1].textContent = `Reserves`;
+  document.querySelector(`#project-detail-back`).lastChild.textContent = ` Back to project list`;
+  document.querySelector(`.map-legend span:last-child`).textContent = `Marker numbers represent project count`;
+  document.querySelector(`#empty-state strong`).textContent = `Loading map data`;
+  document.querySelector(`#empty-state span`).textContent = `Please wait.`;
+  document.querySelector(`.map-footer span:first-child`).innerHTML = `Total projects <strong id="total-projects">0</strong> · Countries/regions <strong id="country-count">0</strong>`;
+  document.querySelector(`#map-scope`).textContent = `Global view`;
+}
 
 const dom = {
   operator: document.querySelector(`#operator-name`),
@@ -44,12 +86,12 @@ const dom = {
 };
 
 const lifecycleNames = {
-  Producing: `已投产`,
-  "Under development": `开发中`,
-  Discovery: `已发现`,
-  Undiscovered: `待发现`,
-  Abandoned: `已废弃`,
-  Unknown: `未知`,
+  Producing: tr(`已投产`, `Producing`),
+  "Under development": tr(`开发中`, `Under development`),
+  Discovery: tr(`已发现`, `Discovery`),
+  Undiscovered: tr(`待发现`, `Undiscovered`),
+  Abandoned: tr(`已废弃`, `Abandoned`),
+  Unknown: tr(`未知`, `Unknown`),
 };
 
 const resourceMetrics = [
@@ -60,13 +102,13 @@ const resourceMetrics = [
 ];
 
 const resourceFilterOptions = [
-  { mode: `all`, label: `全部` },
-  { mode: `any`, label: `有任一储量数据` },
-  { mode: `p90`, label: `有 P90` },
-  { mode: `p50`, label: `有 P50` },
-  { mode: `pmean`, label: `有 P Mean` },
-  { mode: `prospective`, label: `有 Prospective` },
-  { mode: `none`, label: `无储量数据` },
+  { mode: `all`, label: tr(`全部`, `All`) },
+  { mode: `any`, label: tr(`有任一储量数据`, `Any reserves data`) },
+  { mode: `p90`, label: tr(`有 P90`, `Has P90`) },
+  { mode: `p50`, label: tr(`有 P50`, `Has P50`) },
+  { mode: `pmean`, label: tr(`有 P Mean`, `Has P Mean`) },
+  { mode: `prospective`, label: tr(`有 Prospective`, `Has Prospective`) },
+  { mode: `none`, label: tr(`无储量数据`, `No reserves data`) },
 ];
 
 const escapeHtml = (value) => String(value ?? ``)
@@ -93,17 +135,17 @@ const formatResourceNumber = (value) => {
   return resourceNumberFormatter.format(displayValue);
 };
 
-const resourceUnitName = (unit) => unit === `million bbl` ? `百万桶` : (unit || `百万桶`);
+const resourceUnitName = (unit) => IS_EN ? (unit || `million bbl`) : (unit === `million bbl` ? `百万桶` : (unit || `百万桶`));
 
 const getResourceMetricDisplay = (values, rawCount) => {
   const numbers = (values || []).map(Number).filter(Number.isFinite).sort((left, right) => left - right);
-  if (!numbers.length) return { value: `—`, note: `暂无数据`, empty: true };
+  if (!numbers.length) return { value: `—`, note: tr(`暂无数据`, `No data`), empty: true };
   const recordCount = Number.isInteger(rawCount) && rawCount > 0 ? rawCount : numbers.length;
   const minimum = formatResourceNumber(numbers[0]);
   const maximum = formatResourceNumber(numbers[numbers.length - 1]);
   return {
     value: minimum === maximum ? minimum : `${minimum}–${maximum}`,
-    note: recordCount === 1 ? `1 条原始数据` : `共 ${recordCount} 条原始数据`,
+    note: recordCount === 1 ? tr(`1 条原始数据`, `1 source record`) : tr(`共 ${recordCount} 条原始数据`, `${recordCount} source records`),
     empty: false,
   };
 };
@@ -124,12 +166,12 @@ const animationDuration = prefersReducedMotion ? 0 : 0.65;
 
 const start = async () => {
   if (!window.L) {
-    showState(`地图资源未加载`, `请检查网络连接后刷新页面。`);
+    showState(tr(`地图资源未加载`, `Map resources failed to load`), tr(`请检查网络连接后刷新页面。`, `Check the network connection and refresh.`));
     return;
   }
 
   try {
-    const params = new URLSearchParams(window.location.search);
+    const params = pageParams;
     const requestedOperator = (params.get(`operator`) || `Shell`).trim();
     const requestedRegion = (params.get(`region`) || ``).trim();
     const [manifest, centersPayload] = await Promise.all([
@@ -145,7 +187,7 @@ const start = async () => {
 
     const operatorEntry = resolveOperator(manifest, requestedOperator);
     if (!operatorEntry) {
-      showState(`没有找到该公司的项目`, `请检查链接中的 operator 参数。`);
+      showState(tr(`没有找到该公司的项目`, `No projects found for this company`), tr(`请检查链接中的 operator 参数。`, `Check the operator parameter in the URL.`));
       return;
     }
 
@@ -154,8 +196,8 @@ const start = async () => {
       : ``;
     if (requestedRegion && !matchingRegion) {
       showState(
-        `没有找到该业务区域`,
-        `可用区域：${operatorEntry.businessRegions.join(`、`)}`,
+        tr(`没有找到该业务区域`, `Business region not found`),
+        tr(`可用区域：${operatorEntry.businessRegions.join(`、`)}`, `Available regions: ${localizeValues(operatorEntry.businessRegions).join(`, `)}`),
       );
       return;
     }
@@ -163,7 +205,7 @@ const start = async () => {
     const companyPayload = await fetchJson(`${DATA_ROOT}/${operatorEntry.dataFile}?v=${VERSION}`);
     const projects = filterProjectsByRegion(companyPayload.projects, matchingRegion);
     if (!projects.length) {
-      showState(`没有找到项目`, `当前公司和业务区域没有可展示的项目。`);
+      showState(tr(`没有找到项目`, `No projects found`), tr(`当前公司和业务区域没有可展示的项目。`, `No projects are available for this company and region.`));
       return;
     }
 
@@ -173,15 +215,15 @@ const start = async () => {
       .map(({ country }) => country)
       .filter((country) => !countryCenters[country]);
     if (missingCountries.length) {
-      showState(`国家定位数据不完整`, `缺少：${missingCountries.join(`、`)}`);
+      showState(tr(`国家定位数据不完整`, `Country location data is incomplete`), tr(`缺少：${missingCountries.join(`、`)}`, `Missing: ${missingCountries.join(`, `)}`));
       return;
     }
 
     dom.operator.textContent = operatorEntry.name;
     dom.total.textContent = projects.length;
     dom.countryCount.textContent = countryGroups.length;
-    dom.scope.textContent = matchingRegion || `全球展示`;
-    document.title = `${operatorEntry.name} 项目分布地图`;
+    dom.scope.textContent = matchingRegion ? (businessRegionEnglish[matchingRegion] || matchingRegion) : tr(`全球展示`, `Global view`);
+    document.title = tr(`${operatorEntry.name} 项目分布地图`, `${operatorEntry.name} Project Distribution Map`);
     dom.emptyState.hidden = true;
 
     const map = L.map(`map`, {
@@ -217,7 +259,7 @@ const start = async () => {
       countryGroups.find((item) => item.country === country);
 
     const countryDisplayName = (country = selectedCountry) =>
-      countryCenters[country]?.nameZh || country;
+      IS_EN ? country : (countryCenters[country]?.nameZh || country);
 
     const fitOverview = (animate = true) => {
       const coordinates = countryGroups.map(({ country }) => countryCenters[country].center);
@@ -240,7 +282,7 @@ const start = async () => {
       dom.filterCount.textContent = String(count);
       dom.filterToggle.setAttribute(
         `aria-label`,
-        count ? `筛选，已选择 ${count} 个条件` : `筛选项目`,
+        count ? tr(`筛选，已选择 ${count} 个条件`, `Filters, ${count} selected`) : tr(`筛选项目`, `Filter projects`),
       );
     };
 
@@ -257,7 +299,7 @@ const start = async () => {
               <span>${escapeHtml(facility)}</span>
             </label>`;
         }).join(``)
-        : '<span class="filter-empty">暂无设施类型</span>';
+        : `<span class="filter-empty">${tr(`暂无设施类型`, `No facility types`)}</span>`;
 
       dom.facilityOptions.querySelectorAll(`input[type="checkbox"]`).forEach((input) => {
         input.addEventListener(`change`, () => {
@@ -311,12 +353,13 @@ const start = async () => {
       if (!group) return;
       const visible = filterProjects(group.projects, filters);
       dom.drawerKicker.textContent = `COUNTRY PROJECTS`;
-      dom.drawerTitle.textContent = `${countryDisplayName(country)}项目`;
+      dom.drawerTitle.textContent = tr(`${countryDisplayName(country)}项目`, `${countryDisplayName(country)} Projects`);
       dom.drawerSummary.textContent = formatSearchSummary(
         operatorEntry.name,
         group.projects.length,
         visible.length,
         filters,
+        IS_EN ? `en` : `zh`,
       );
       updateFilterBadge();
 
@@ -324,9 +367,9 @@ const start = async () => {
         const lifecycle = textOrDash(project.lifecycleCategories, (item) => lifecycleNames[item] || item);
         const facility = textOrDash(project.facilities);
         const fieldType = textOrDash(project.fieldTypes);
-        const resourceStatus = hasResourceData(project, `any`) ? `有储量数据` : `暂无储量数据`;
+        const resourceStatus = hasResourceData(project, `any`) ? tr(`有储量数据`, `Reserves available`) : tr(`暂无储量数据`, `No reserves data`);
         return `
-          <button class="project-row" type="button" data-project-id="${escapeHtml(project.id)}" aria-label="查看 ${escapeHtml(project.project)} 详情">
+          <button class="project-row" type="button" data-project-id="${escapeHtml(project.id)}" aria-label="${tr(`查看 ${escapeHtml(project.project)} 详情`, `View ${escapeHtml(project.project)} details`)}">
             <span class="project-number">${String(index + 1).padStart(2, `0`)}</span>
             <span class="project-copy">
               <span class="project-name" title="${escapeHtml(project.project)}">${escapeHtml(shortProjectName(project.project))}</span>
@@ -341,7 +384,7 @@ const start = async () => {
             </span>
             <span class="project-chevron" aria-hidden="true">›</span>
           </button>`;
-      }).join(``) : '<div class="project-row project-row-empty"><span class="project-name">没有匹配的项目</span></div>';
+      }).join(``) : `<div class="project-row project-row-empty"><span class="project-name">${tr(`没有匹配的项目`, `No matching projects`)}</span></div>`;
 
       dom.list.querySelectorAll(`[data-project-id]`).forEach((button) => {
         button.addEventListener(`click`, () => {
@@ -389,30 +432,30 @@ const start = async () => {
         </div>
 
         <div class="project-summary-grid">
-          ${renderSummaryItem(`设施类型`, facilities)}
-          ${renderSummaryItem(`油气田类型`, fieldTypes)}
-          ${renderSummaryItem(`生命周期`, lifecycle)}
-          ${renderSummaryItem(`供应板块`, supplySegments)}
+          ${renderSummaryItem(tr(`设施类型`, `Facility type`), facilities)}
+          ${renderSummaryItem(tr(`油气田类型`, `Field type`), fieldTypes)}
+          ${renderSummaryItem(tr(`生命周期`, `Lifecycle`), lifecycle)}
+          ${renderSummaryItem(tr(`供应板块`, `Supply segment`), supplySegments)}
         </div>
 
         <section class="reserve-section">
           <div class="section-title-row">
-            <h4>储量</h4>
-            <span class="section-unit">单位：${escapeHtml(resourceUnitName(resources.unit))}</span>
+            <h4>${tr(`储量`, `Reserves`)}</h4>
+            <span class="section-unit">${tr(`单位：`, `Unit: `)}${escapeHtml(resourceUnitName(resources.unit))}</span>
           </div>
           <div class="reserve-grid">${metrics}</div>
         </section>
 
         <section class="project-facts">
-          <div class="section-title-row"><h4>项目资料</h4></div>
+          <div class="section-title-row"><h4>${tr(`项目资料`, `Project information`)}</h4></div>
           <div class="fact-grid">
-            ${renderDetailField(`发现年份`, project.discoveryYears)}
-            ${renderDetailField(`投产年份`, project.startupYears)}
-            ${renderDetailField(`水深类别`, project.waterDepthCategories)}
-            ${renderDetailField(`生命周期明细`, project.lifecycleDetails)}
-            ${renderDetailField(`业务区域`, project.businessRegions)}
+            ${renderDetailField(tr(`发现年份`, `Discovery year`), project.discoveryYears)}
+            ${renderDetailField(tr(`投产年份`, `Start-up year`), project.startupYears)}
+            ${renderDetailField(tr(`水深类别`, `Water-depth category`), project.waterDepthCategories)}
+            ${renderDetailField(tr(`生命周期明细`, `Lifecycle details`), project.lifecycleDetails)}
+            ${renderDetailField(tr(`业务区域`, `Business region`), localizeValues(project.businessRegions))}
             ${renderDetailField(`Ownership`, project.ownerships, { wide: true })}
-            ${showSourceOperator ? renderDetailField(`运营实体`, project.sourceOperators, { wide: true }) : ``}
+            ${showSourceOperator ? renderDetailField(tr(`运营实体`, `Operating entity`), project.sourceOperators, { wide: true }) : ``}
           </div>
         </section>`;
     };
@@ -423,7 +466,7 @@ const start = async () => {
       dom.filterPanel.hidden = true;
       dom.filterToggle.setAttribute(`aria-expanded`, `false`);
       dom.drawerKicker.textContent = `PROJECT DETAILS`;
-      dom.drawerTitle.textContent = `项目详情`;
+      dom.drawerTitle.textContent = tr(`项目详情`, `Project details`);
       dom.drawerSummary.textContent = `${countryDisplayName(project.country)} · ${operatorEntry.name}`;
       renderProjectDetail(project);
       dom.listView.hidden = true;
@@ -487,8 +530,8 @@ const start = async () => {
       dom.drawer.classList.toggle(`collapsed`, !expanded);
       dom.drawerToggle.setAttribute(`aria-expanded`, String(expanded));
       dom.drawerToggleLabel.textContent = expanded
-        ? `收起项目面板`
-        : `展开${countryDisplayName()}项目`;
+        ? tr(`收起项目面板`, `Collapse project panel`)
+        : tr(`展开${countryDisplayName()}项目`, `Expand ${countryDisplayName()} projects`);
       window.setTimeout(offsetMapForDrawer, prefersReducedMotion ? 0 : 340);
     };
 
@@ -537,19 +580,19 @@ const start = async () => {
         .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
         .slice(0, 2)
         .map(([fieldType]) => fieldType)
-        .join(` / `) || `暂无类型数据`;
+        .join(` / `) || tr(`暂无类型数据`, `No type data`);
     };
 
     countryGroups.forEach(({ country, projects: countryProjects }) => {
       const countryConfig = countryCenters[country];
-      const countryLabel = countryConfig.nameZh || country;
+      const countryLabel = IS_EN ? country : (countryConfig.nameZh || country);
       const dotSize = Math.round(Math.min(44, Math.max(30, 28 + Math.sqrt(countryProjects.length) * 2.2)));
       const tier = countryProjects.length >= 50 ? 4 : countryProjects.length >= 10 ? 3 : countryProjects.length >= 3 ? 2 : 1;
       const mainTypes = summarizeFieldTypes(countryProjects);
       const icon = L.divIcon({
         className: `country-dot-icon`,
         html: `
-          <div class="country-dot tier-${tier}" style="--dot-size:${dotSize}px" aria-label="${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目">
+          <div class="country-dot tier-${tier}" style="--dot-size:${dotSize}px" aria-label="${escapeHtml(countryLabel)} · ${countryProjects.length} ${tr(`个项目`, `projects`)}">
             <span class="country-dot-count">${countryProjects.length}</span>
           </div>`,
         iconSize: [dotSize, dotSize],
@@ -557,15 +600,15 @@ const start = async () => {
       });
       const marker = L.marker(countryConfig.center, {
         icon,
-        title: `${countryLabel} · ${countryProjects.length} 个项目`,
+        title: `${countryLabel} · ${countryProjects.length} ${tr(`个项目`, `projects`)}`,
         keyboard: true,
       }).addTo(map);
       marker.bindTooltip(`
         <div class="country-tooltip-card">
           <small>${escapeHtml(operatorEntry.name.toUpperCase())} PROJECTS</small>
-          <strong>${escapeHtml(countryLabel)} · ${countryProjects.length} 个项目</strong>
-          <span class="tooltip-types">主要类型：${escapeHtml(mainTypes)}</span>
-          <span>点击查看全部</span>
+          <strong>${escapeHtml(countryLabel)} · ${countryProjects.length} ${tr(`个项目`, `projects`)}</strong>
+          <span class="tooltip-types">${tr(`主要类型：`, `Main types: `)}${escapeHtml(mainTypes)}</span>
+          <span>${tr(`点击查看全部`, `Select to view all`)}</span>
         </div>`, { direction: `top`, offset: [0, -dotSize / 2 - 10], opacity: 1 });
       marker.on(`click`, () => openCountry(country, marker));
       activeMarkers.set(country, marker);
@@ -610,7 +653,7 @@ const start = async () => {
     window.setTimeout(() => map.invalidateSize(), 120);
   } catch (error) {
     console.error(error);
-    showState(`地图数据未加载`, `请检查网络连接后刷新页面。`);
+    showState(tr(`地图数据未加载`, `Map data failed to load`), tr(`请检查网络连接后刷新页面。`, `Check the network connection and refresh.`));
   }
 };
 

@@ -1,8 +1,10 @@
-# Platform Foundation — Mandatory Execution Corrections
+# Platform Foundation — Superseded Execution Corrections (Legacy v1 Only)
 
-> **Status:** Mandatory companion to `2026-07-30-platform-foundation.md`.
+> **SUPERSEDED (2026-07-31):** This file is historical evidence for the pre-v2 Foundation plan only. Nothing below this notice applies to `docs/superpowers/plans/2026-07-30-platform-foundation.md` v2.0. The approved v2.0 plan is self-contained and overrides every legacy correction, snippet, command, permission name, and execution-order statement in this file.
+
+> **Status:** Historical and non-executable. Do not read this file as a companion to v2.0 and do not use it to authorize or modify any Task.
 >
-> Codex must read this file after the main plan and apply every correction below. Where this file conflicts with the main plan, this file wins.
+> The remaining text is preserved unchanged as an audit trail of the superseded v1 workflow. Its old mandatory language has no current force.
 
 ## 1. `.gitignore` correction
 
@@ -185,13 +187,13 @@ docs/superpowers/plans/YYYY-MM-DD-rag-readiness.md
 
 Codex must not generate empty future plan files during the foundation phase.
 
-## 7. Execution order
+## 7. Legacy execution order — disabled during governance hold
 
-The required reading order is:
+The former required reading order, retained for historical review, is:
 
 1. `docs/superpowers/specs/2026-07-30-oil-gas-knowledge-platform-design.md`
 2. `docs/superpowers/plans/2026-07-30-oil-gas-platform-roadmap.md`
 3. `docs/superpowers/plans/2026-07-30-platform-foundation.md`
 4. `docs/superpowers/plans/2026-07-30-platform-foundation-execution-corrections.md`
 
-The correction file must remain in the Codex context during every Task 1–10 review.
+While reviewing evidence claimed under the legacy plan, this correction file must remain in context. Do not use this order to start Task 2 or any later Task while the governance hold is active.
